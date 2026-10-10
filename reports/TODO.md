@@ -1,5 +1,11 @@
 # TODO
 
+## بازبینی دستی موردنیاز — ۱۸ رکورد weak_at_signal در dat_01
+
+این رکوردها در data/dat_01_at_command.yaml با `status: partial` و `notes: "weak signal..."` علامت‌گذاری شده‌اند. حذف نشده‌اند چون classifier قطعی نیست.
+
+فهرست در `reports/dat_01_APPLY_REFINE.md` ثبت شده است. تصمیم‌گیری درباره هر کدام نیازمند بازبینی دستی مالک پروژه در manual V1.01 است.
+
 ## منابع گمشده (خارج از پروژه)
 - [ ] SIM800 Series TCP/IP AT Command Manual — موردنیاز برای dat_10
 - [ ] SIM800 Series HTTP AT Command Manual — موردنیاز برای dat_11
@@ -10,19 +16,6 @@
 - [ ] SIM800 Series Firmware Release Notes — موردنیاز برای dat_08
 - [ ] اسناد رسمی CE/FCC/GCF — موردنیاز برای dat_18
 
-## کارهای جاری (خوشه B، عضو B1 — dat_01)
-- [ ] بازبینی دستی commandهای استخراج‌شده در data/dat_01_at_command.yaml
-- [ ] تکمیل syntax/parameters/related_* برای هر command
-- [ ] مطابقت با فهرست مطالب manual برای ≥95% coverage
-- [ ] سپس ارتقاء status به complete و کامیت B1
-
-## خوشه A — در انتظار (می‌تواند موازی با تثبیت dat_01 انجام شود)
-- [ ] dat_07 Hardware Reference از V2.02 و V1.00
-- [ ] dat_15 Power Management از V2.02 و V1.00
-- [ ] dat_04 + dat_05 + dat_06 از V2.02 و V1.00
-- [ ] dat_16 — در صورت نبود سند EVB: deferred
-
-## خوشه C
-- [ ] dat_08 — نیازمند Release Notes
-- [ ] dat_14 — اختیاری
-- [ ] dat_18 — نیازمند اسناد رسمی
+## گام بعدی
+- [ ] خوشه A، عضو A1: `dat_07` Hardware Reference از V2.02 و V1.00
+- [ ] پس از آن: `dat_15` (Power)، `dat_04/05/06` (Timing/State/Init)، `dat_16` (EVB/deferred)

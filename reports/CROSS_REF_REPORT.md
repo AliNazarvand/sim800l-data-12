@@ -224,7 +224,7 @@
 - SIM dat_13_0010 -> AT+CUSD در dat_01 یافت نشد
 
 ## آمار
-- commandهای dat_01: 335
+- commandهای dat_01: 334
 - URCها: 203
 - Error codes: 244
 - SMS: 13

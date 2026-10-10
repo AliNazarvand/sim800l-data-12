@@ -2,13 +2,13 @@
 
 | دیتاست | نام | status | coverage | منبع | دلیل |
 |---|---|---|---|---|---|
-| dat_01 | AT Command | partial | ~auto | AT Manual V1.01 | استخراج خودکار انجام شد؛ نیازمند بازبینی دستی برای ≥95% |
+| dat_01 | AT Command | partial | ~auto | AT Manual V1.01 | 334 رکورد پس از حذف ۱ نویز؛ ۱۸ رکورد weak در بازبینی |
 | dat_02 | URC | pending | - | AT Manual V1.01 | وابسته به تثبیت dat_01 |
 | dat_03 | Error Code | pending | - | AT Manual V1.01 | وابسته به تثبیت dat_01 |
 | dat_04 | Timing | pending | - | V1.00, V2.02 | در انتظار نشست خوشه A |
 | dat_05 | State Machine | pending | - | V1.00, V2.02 | در انتظار نشست خوشه A |
 | dat_06 | Init Sequence | pending | - | V1.00, V2.02 | در انتظار نشست خوشه A |
-| dat_07 | Hardware | pending | - | V2.02, V1.00 | در انتظار نشست خوشه A |
+| dat_07 | Hardware | pending | - | V2.02, V1.00 | گام بعدی (خوشه A) |
 | dat_08 | Firmware | blocked | - | - | Release Notes رسمی موجود نیست |
 | dat_09 | SMS | pending | - | AT Manual V1.01 | وابسته به تثبیت dat_01 |
 | dat_10 | GPRS/Data | blocked | - | - | TCP/IP AT Manual موجود نیست |
