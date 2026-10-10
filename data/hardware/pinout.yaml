@@ -23,10 +23,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
   related_commands:
-  - dat_01_0007
+  - +CBC
 - pin_number:
   - 2
   - 6
@@ -59,8 +58,7 @@ records:
   - 88
   pin_name: GND
   type: Ground
-  description_fa: اتصال زمین. برای VBAT توصیه می‌شود پین‌های 2, 43, 44, 45 استفاده
-    شوند.
+  description_fa: اتصال زمین. برای VBAT توصیه می‌شود پین‌های 2, 43, 44, 45 استفاده شوند.
   voltage_level: null
   max_rating: null
   notes_fa: null
@@ -79,8 +77,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 56
   pin_name: VRTC
@@ -104,8 +101,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 18
   pin_name: VDD_EXT
@@ -129,8 +125,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 48
   pin_name: PWRKEY
@@ -154,13 +149,12 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
   related_commands:
-  - dat_01_0002
+  - +CPOWD
   related_states:
-  - dat_05_0001
-  - dat_05_0002
+  - POWER_OFF
+  - POWER_ON,_PWRKEY_PRESSED
 - pin_number:
   - 49
   pin_name: RESET
@@ -184,10 +178,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
   related_states:
-  - dat_05_0005
+  - RESET_ACTIVE
 - pin_number:
   - 52
   - 12
@@ -212,8 +205,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 53
   - 13
@@ -238,8 +230,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 9
   - 10
@@ -264,8 +255,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 51
   - 11
@@ -290,8 +280,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 29
   - 30
@@ -318,8 +307,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 24
   pin_name: KBC4
@@ -343,8 +331,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 21
   pin_name: KBC3
@@ -368,8 +355,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 22
   pin_name: KBC2
@@ -393,8 +379,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 25
   pin_name: KBC1
@@ -418,8 +403,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 20
   pin_name: KBC0
@@ -443,8 +427,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 63
   pin_name: KBR4
@@ -468,8 +451,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 23
   pin_name: KBR3
@@ -493,8 +475,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 61
   pin_name: KBR2
@@ -518,8 +499,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 60
   pin_name: KBR1
@@ -543,8 +523,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 62
   pin_name: KBR0
@@ -568,8 +547,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 3
   - 27
@@ -595,8 +573,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 64
   pin_name: NETLIGHT
@@ -620,8 +597,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 4
   pin_name: STATUS
@@ -645,10 +621,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
   related_states:
-  - dat_05_0003
+  - RDY_RECEIVED
 - pin_number:
   - 69
   pin_name: DTR
@@ -672,12 +647,11 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
   related_commands:
-  - dat_01_0004
+  - +CSCLK
   related_states:
-  - dat_05_0006
+  - SLEEP_MODE_1_(AT+CSCLK=1)
 - pin_number:
   - 68
   pin_name: RI
@@ -701,8 +675,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 70
   pin_name: DCD
@@ -726,8 +699,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 34
   pin_name: CTS
@@ -751,8 +723,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 33
   pin_name: RTS
@@ -776,8 +747,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 32
   pin_name: TXD
@@ -801,8 +771,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 31
   pin_name: RXD
@@ -826,12 +795,11 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
   related_commands:
-  - dat_01_0004
+  - +CSCLK
   related_states:
-  - dat_05_0007
+  - SLEEP_MODE_2_(AT+CSCLK=2)
 - pin_number:
   - 7
   pin_name: VBUS
@@ -855,8 +823,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 59
   pin_name: USB_DP
@@ -880,8 +847,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 19
   pin_name: USB_DN
@@ -905,8 +871,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 50
   pin_name: ADC
@@ -930,8 +895,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 26
   pin_name: PWM
@@ -955,8 +919,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 75
   pin_name: SDA
@@ -980,8 +943,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 74
   pin_name: SCL
@@ -1005,8 +967,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 16
   pin_name: SIM_VDD
@@ -1030,10 +991,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
   related_commands:
-  - dat_01_0012
+  - +CSDT
 - pin_number:
   - 14
   pin_name: SIM_DATA
@@ -1057,8 +1017,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 55
   pin_name: SIM_CLK
@@ -1082,8 +1041,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 15
   pin_name: SIM_RST
@@ -1107,8 +1065,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 54
   pin_name: SIM_DET
@@ -1132,10 +1089,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
   related_commands:
-  - dat_01_0012
+  - +CSDT
 - pin_number:
   - 40
   pin_name: GSM_ANT
@@ -1159,8 +1115,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 36
   pin_name: BT_ANT
@@ -1184,8 +1139,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 17
   pin_name: FM_ANTP
@@ -1209,8 +1163,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 57
   pin_name: FM_ANTN
@@ -1234,8 +1187,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 5'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5'
 - pin_number:
   - 5
   pin_name: RF_SYNC
@@ -1259,10 +1211,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 40'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 40'
   related_commands:
-  - dat_01_0018
+  - +SJDR
 - pin_number:
   - 47
   pin_name: ISINK0
@@ -1286,8 +1237,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 38'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 38'
 - pin_number:
   - 46
   pin_name: ISINK1
@@ -1311,5 +1261,4 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 38'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 38'

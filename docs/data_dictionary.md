@@ -1,141 +1,39 @@
 # Data Dictionary
 
-Field meanings shared across all datasets. Dataset-specific fields are
-listed per dataset below.
+## فیلدهای مشترک همه رکوردها
 
-## Common `_meta` block (required on every record)
+| فیلد | نوع | توضیح |
+|------|-----|-------|
+| id | string | یکتا، فرمت `dat_XX_NNNN` |
+| category | string | دسته‌بندی داخلی دیتاست |
+| source | object | {name, version, date, page, section, quote} |
+| source_type | enum | primary / secondary / external |
+| confidence | number | 0.0..1.0 |
+| status | enum | complete / partial / unknown / inferred / blocked / deferred |
+| conflicts | array | در صورت تعارض منابع |
+| notes | string | توضیح |
+| tags | array<string> | برچسب‌ها |
+| applicable_models | array<string> | باید شامل `SIM800L` باشد |
+| created_at | string(ISO 8601) | زمان ایجاد |
+| updated_at | string(ISO 8601) | زمان آخرین به‌روزرسانی |
 
-| Field | Type | Meaning |
-|---|---|---|
-| `id` | string | Stable identifier: `<dataset>_<subcategory>_<NNN>`. |
-| `source` | string | One of the two primary source IDs (see below). |
-| `source_version` | string | `"V1.00"` or `"V2.02"`. |
-| `source_page` | int or null | Page number in the source PDF. |
-| `source_section` | string or null | Section heading in the source PDF. |
-| `source_figure_number` | string or null | Figure/table number if the value came from a figure. |
-| `extracted_at` | string (ISO date) | Date of extraction (`datetime.date.today()`). |
-| `pending_fields` | array of strings | Fields whose values are deferred or unknown. |
-| `compatible_models` | array | `["SIM800L"]`, `["SIM800H"]`, or both. |
-| `missing_reason` | string or null | One of the allowed values below. |
-| `completion_source` | string or null | Secondary source used in Phase 2a/2b. |
-| `license_note` | string | Constant: `See NOTICE file for licensing and copyright information.` |
+## فیلدهای اختصاصی (خلاصه)
 
-### Allowed `missing_reason` values (record level)
-
-- `NOT_FOUND_IN_SOURCES`
-- `DEFERRED_TO_PHASE_2A`
-- `DEFERRED_TO_PHASE_2B`
-- `CONFLICTING_SOURCES`
-- `MIXED`
-
-`INSUFFICIENT_RECORDS` is only allowed in `_dataset_meta.yaml` (`reason:`).
-
-## dat_04 — Timing & Timeout DB
-
-`parameter_id`, `parameter_name`, `description_fa`, `min_value`,
-`typical_value`, `max_value`, `unit`, `condition`, `related_pin`, `notes_fa`.
-
-## dat_05 — State Machine DB
-
-States: `state_id`, `state_name`, `description_fa`, `entry_conditions`,
-`exit_conditions`, `related_pins`.
-Transitions: `transition_id`, `from_state`, `to_state`, `trigger`,
-`hardware_condition`.
-
-## dat_06 — Init Sequence DB
-
-`step_number`, `action`, `hardware_operation`, `expected_result`,
-`timeout_ms`, `retry_count`, `critical`, `notes_fa`.
-
-## dat_07 — Hardware Reference DB
-
-- `pinout.yaml`: `pin_number`, `pin_name`, `type`, `description_fa`,
-  `voltage_level`, `max_rating`, `notes_fa`.
-- `electrical.yaml`: `parameter`, `symbol`, `min_value`, `typical_value`,
-  `max_value`, `unit`, `condition`, `notes_fa`.
-- `power_consumption.yaml`: `mode`, `current_typical`, `current_max`,
-  `unit`, `condition`.
-- `interfaces.yaml`: `interface_name`, `type`, `supported_baud_rates`,
-  `pin_mapping`, `notes_fa`.
-- `physical.yaml`: `dimensions_mm`, `weight_g`, `flash_memory_mbit`,
-  `ram_mbit`, `operating_temperature`, `storage_temperature`.
-
-## dat_15 — Power Management DB
-
-`mode_id`, `mode_name`, `description_fa`, `current_consumption_typical`,
-`current_consumption_max`, `unit`, `entry_condition`, `exit_condition`,
-`related_pins`.
-
-## dat_16 — Board/EVB Definitions
-
-`board_id`, `board_name`, `board_type`, `input_voltage`,
-`regulator_onboard`, `level_shifter_onboard`, `interfaces_exposed`,
-`pin_mapping`, `notes_fa`.
-## Phase 2 datasets
-
-### dat_01 — AT Command DB (deferred)
-Status: `deferred` — requires `SIM800 Series_AT Command Manual.pdf`.
-No records produced.
-
-### dat_02 — URC DB (partial: HW only)
-HW URC records: `urc_code`, `urc_name`, `description_fa`, `trigger`,
-`related_pins`.
-AT URC records (pending): populated when the AT Command Manual is available.
-
-### dat_03 — Error Code DB (CME/CMS) (deferred)
-Status: `deferred` — requires AT Command Manual.
-
-### dat_08 — Firmware Compatibility Matrix (deferred)
-Status: `deferred` — requires AT Command Manual + secondary firmware matrices.
-
-### dat_09 — SMS DB (deferred)
-Status: `deferred` — requires AT Command Manual.
-
-### dat_10 — GPRS/Data DB (deferred)
-Status: `deferred` — requires AT Command Manual.
-
-### dat_11 — HTTP/FTP/SSL DB (deferred)
-Status: `deferred` — requires AT Command Manual.
-
-### dat_12 — Audio DB (partial: HW only)
-HW audio records:
-- `category` — one of `pin`, `characteristic`, `design_guide`.
-- For `pin`: `pin_name`, `pin_number` (array), `direction`, `function_fa`.
-- For `characteristic`: `parameter` + characteristic-specific numeric/string fields.
-- For `design_guide`: `parameter`, `notes_fa`, and design values.
-
-AT audio records (pending): `audio_at.yaml`, empty until Manual arrives.
-
-### dat_13 — SIM Management DB (partial: HW only)
-HW SIM records: same shape as dat_12 HW records.
-AT SIM records (pending): `sim_management_at.yaml`, empty until Manual arrives.
-
-### dat_14 — Operator/APN DB (MCC/MNC) (deferred)
-Status: `deferred` — requires external MCC/MNC and APN databases.
-
-### dat_17 — Certificate/Key Store (deferred)
-Status: `deferred` — requires external certificate/key store sources.
-
-### dat_18 — Certification Data (deferred)
-Status: `deferred` — requires external certification body sources.
-
-## Phase 2c updates
-
-### dat_01 — AT Command DB (partial: 18 records)
-Records now include: `command`, `syntax` (best-effort), `parameters` (empty
-until Manual), `responses` (default OK/ERROR), `purpose_en`, `purpose_fa`,
-`category`. Full grammar and parameter lists remain pending from the AT
-Command Manual.
-
-### dat_02 — URC DB (partial: 12 records)
-Added `+CFUN: 1` and `+CPIN: READY` to `urc_at.yaml` (both mentioned in
-Section 4.5.1). Remaining AT-related URCs (e.g. +CMTI, RING, +CIPRXGET)
-require the AT Command Manual.
-
-### dat_09 — SMS DB (partial: 3 capability records)
-Records: `capability`, `description_en`, `description_fa`.
-AT-command records (AT+CMGS, AT+CMGR, etc.) remain pending.
-
-### dat_10 — GPRS/Data DB (partial: 7 capability records)
-Records: `capability`, `description_en`, `description_fa`.
-AT-command records (AT+CGATT, AT+CSTT, etc.) remain pending.
+- dat_01: command, mode, syntax, parameters, response_success, response_error, examples, related_urcs, related_states, related_commands, firmware_min, firmware_max
+- dat_02: urc_string, trigger_event, related_command, related_state, format, parameters, examples, timing, suppression_method
+- dat_03: error_type, code, meaning, description, related_commands, recovery_steps
+- dat_04: parameter, min, typ, max, unit, condition, related_command, related_state, related_urc
+- dat_05: state_name, description, entry_conditions, exit_conditions, events, actions, related_commands, related_urcs, related_timings
+- dat_06: step_order, command, expected_response, timeout_ms, retry_count, failure_action, dependency_step, related_state
+- dat_07: name, pin_number, direction, voltage_min/typ/max, current_typ/max, function, alternate_function, pull_up_down, esd_rating, impedance, decoupling
+- dat_08: firmware_version, release_date, base_version, supported_commands, unsupported_commands, features, known_issues, fixed_issues, related_commands
+- dat_09: mode, command, syntax, parameters, response, examples, related_urcs, encoding, storage, concat_sms, delivery_report
+- dat_10: category, command, syntax, parameters, response, examples, related_urcs, related_states, related_commands
+- dat_11: category, command, syntax, parameters, response, examples, related_urcs, related_commands
+- dat_12: category, command, syntax, parameters, response, examples, related_commands
+- dat_13: category, command, syntax, parameters, response, examples, related_urcs, hardware_pins
+- dat_14: mcc, mnc, country, country_code, operator, brand, network_type, apn_list, source_url
+- dat_15: category, mode, command, parameter, value_min/typ/max, unit, condition, wake_source, related_commands, related_states
+- dat_16: category, name, connector, pin, function, voltage, notes
+- dat_17: category, command, syntax, parameters, response, examples, tls_version, cipher_suite, cert_format, key_format, storage, limits, related_commands
+- dat_18: certification_body, certificate_number, standard, country, date_issued, date_expiry, document_link, source

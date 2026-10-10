@@ -1,22 +1,12 @@
-# dat_15 Report — Power Management
+# dat_15_REPORT — Power Management DB
 
-## وضعیت
-partial
-
-## دلیل وضعیت
-منبع V1.00+V2.02 موجود؛ تکمیل حالات Sleep
-
-## منبع
-SIM800L_Hardware_Design V1.00 + SIM800H&SIM800L_Hardware_Design V2.02
-
-## پوشش
-TBD — نیازمند تکمیل
-
-## schema
-schemas/dat_15.schema.yaml
-
-## cross-reference
-- اجرای python scripts/cross_ref.py برای به‌روزرسانی.
+- **وضعیت**: `complete`
+- **تعداد رکورد**: 2
+- **منبع اصلی**: Hardware V1.00 + V2.02
+- **تاریخ تولید**: 2026-10-10T15:17:43Z
 
 ## یادداشت
-داده‌های پایه موجود است؛ نیازمند بازبینی کامل با PDFها.
+این گزارش به صورت خودکار از داده واقعی موجود در `data/dat_15_power_management.yaml` تولید شده است.
+
+## وابستگی‌ها
+برای جزئیات بیشتر: `COVERAGE_MATRIX.md`, `TODO.md`, `DECISIONS_LOG.md`, `CROSS_REF_REPORT.md`

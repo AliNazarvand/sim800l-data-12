@@ -1,0 +1,568 @@
+# auto-generated from sources at 2026-10-10T15:17:38Z
+- id: dat_10_0001
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CDNSGIP
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0002
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CGACT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0003
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CGATT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0004
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CGDCONT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0005
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CGPADDR
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0006
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CGREG
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0007
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIFSR
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0008
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIICR
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0009
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIPCCFG
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0010
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIPCLOSE
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0011
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIPMODE
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0012
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIPMUX
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0013
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIPQSEND
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0014
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIPRXGET
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0015
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIPSEND
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0016
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIPSHUT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0017
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIPSTART
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0018
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIPSTATUS
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0019
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '5'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CREG
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0020
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '5'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CSQ
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []
+- id: dat_10_0021
+  category: GPRS/Data
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: GPRS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gprs/data
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CSTT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  related_states: []
+  related_commands: []

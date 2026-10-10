@@ -1,8 +1,7 @@
 records:
 - urc_code: RDY
   urc_name: Ready
-  description_fa: ماژول پس از power-on آماده به کار است. فقط با baud rate ثابت گزارش
-    می‌شود.
+  description_fa: ماژول پس از power-on آماده به کار است. فقط با baud rate ثابت گزارش می‌شود.
   trigger: Power-on procedure completed
   related_pins: []
   id: dat_02_0003
@@ -20,12 +19,11 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0006
+  - +IPR
   related_states:
-  - dat_05_0003
+  - RDY_RECEIVED
 - urc_code: NORMAL POWER DOWN
   urc_name: Normal power down
   description_fa: شروع خاموش‌شدن عادی توسط PWRKEY یا AT+CPOWD=1.
@@ -48,12 +46,11 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0002
+  - +CPOWD
   related_states:
-  - dat_05_0001
+  - POWER_OFF
 - urc_code: UNDER-VOLTAGE WARNNING
   urc_name: Under-voltage warning
   description_fa: 'هشدار افت ولتاژ VBAT (V<=3.5V). املای URC در منبع: WARNNING.'
@@ -75,10 +72,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0007
+  - +CBC
 - urc_code: OVER-VOLTAGE WARNNING
   urc_name: Over-voltage warning
   description_fa: هشدار افزونی ولتاژ VBAT (V>=4.3V).
@@ -100,10 +96,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0007
+  - +CBC
 - urc_code: UNDER-VOLTAGE POWER DOWN
   urc_name: Under-voltage power down
   description_fa: خاموش‌شدن خودکار به دلیل افت شدید ولتاژ (V<3.4V).
@@ -125,12 +120,11 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0007
+  - +CBC
   related_states:
-  - dat_05_0001
+  - POWER_OFF
 - urc_code: OVER-VOLTAGE POWER DOWN
   urc_name: Over-voltage power down
   description_fa: خاموش‌شدن خودکار به دلیل افزایش بیش از حد ولتاژ (V>4.4V).
@@ -152,12 +146,11 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0007
+  - +CBC
   related_states:
-  - dat_05_0001
+  - POWER_OFF
 - urc_code: '+CMTE: 1'
   urc_name: Over-temperature warning
   description_fa: هشدار دمای بالا (T >= +80C).
@@ -178,10 +171,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0008
+  - +CMTE
 - urc_code: '+CMTE: -1'
   urc_name: Under-temperature warning
   description_fa: هشدار دمای پایین (T <= -30C).
@@ -202,10 +194,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0008
+  - +CMTE
 - urc_code: '+CMTE: 2'
   urc_name: Over-temperature power down
   description_fa: خاموش‌شدن خودکار به دلیل دمای بسیار بالا (T > +85C).
@@ -226,10 +217,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0008
+  - +CMTE
 - urc_code: '+CMTE: -2'
   urc_name: Under-temperature power down
   description_fa: خاموش‌شدن خودکار به دلیل دمای بسیار پایین (T < -40C).
@@ -250,7 +240,6 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0008
+  - +CMTE

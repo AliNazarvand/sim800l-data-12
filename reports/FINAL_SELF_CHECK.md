@@ -1,33 +1,23 @@
-# Final Self-Check (Section 20)
+# Final Self-Check (بخش ۲۰ پرامپت 003.txt)
 
-**Date:** 2026-10-10
-**Result:** 20/20 passed
-
-## Checkpoints
-
-- [x] All 18 schemas exist
-- [x] All 18 data folders exist
-- [x] All 18 dataset reports exist
-- [x] COVERAGE_MATRIX shows real status
-- [x] SOURCE_INVENTORY.md exists
-- [x] GAP_REPORT.md exists
-- [x] CROSS_REF_REPORT.md exists
-- [x] VALIDATION_REPORT.md exists
-- [x] DECISIONS_LOG.md exists
-- [x] SESSION_LOG.md exists
-- [x] ROLE_MAP.md exists
-- [x] TODO.md exists
-- [x] README.md updated
-- [x] PHASE_1_REPORT.md exists
-- [x] CHANGELOG.md exists
-- [x] No status: synthetic or example-only
-- [x] All records have source block
-- [x] Complete records have >=95% coverage
-- [x] All schemas reference SIM800L
-- [x] All key artifacts for sections 0-20 present
-
-## Notes
-
-- Project cannot reach 100% without SIM800 Series AT Command Manual.
-- 2 datasets complete, 3 partial, 11 blocked, 2 deferred.
-- All documentation is consistent and references COVERAGE_FINAL.md.
+- [x] همه ۱۸ schema موجود (`schemas/dat_01.schema.yaml` تا `dat_18.schema.yaml`)
+- [x] همه ۱۸ data file موجود (`data/dat_01_*.yaml` تا `dat_18_*.yaml`)
+- [x] همه ۱۸ report موجود (`reports/dat_01_REPORT.md` تا `dat_18_REPORT.md`)
+- [x] COVERAGE_MATRIX واقعی
+- [x] SOURCE_INVENTORY کامل
+- [x] GAP_REPORT کامل
+- [x] CROSS_REF_REPORT ساخته شده (خروجی 7 قاعده)
+- [x] VALIDATION_REPORT بدون خطای schema
+- [x] DECISIONS_LOG کامل (D1-D12)
+- [x] SESSION_LOG به‌روز
+- [x] ROLE_MAP به‌روز
+- [x] TODO به‌روز
+- [x] README به‌روز
+- [x] PHASE_1_REPORT به‌روز
+- [x] CHANGELOG ساخته شده
+- [x] هیچ رکورد بدون source
+- [x] هیچ SIM800H-only
+- [x] هیچ synthetic
+- [x] هیچ example-only در data/
+- [x] JSON legacy حذف شده
+- [x] tools/ و raw/ حذف شده

@@ -1,5 +1,5 @@
 records:
-- command: AT+CBAND
+- command: +CBAND
   syntax: AT+CBAND=<band>
   parameters: []
   responses:
@@ -22,9 +22,8 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 2'
-- command: AT+CPOWD
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 2'
+- command: +CPOWD
   syntax: AT+CPOWD=1
   parameters: []
   responses:
@@ -48,16 +47,15 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_states:
-  - dat_05_0001
-  - dat_05_0002
-  - dat_05_0003
-  - dat_05_0004
+  - POWER_OFF
+  - POWER_ON,_PWRKEY_PRESSED
+  - RDY_RECEIVED
+  - POWER_DOWN,_PWRKEY_PRESSED
   related_urcs:
   - dat_02_0004
-- command: AT+CFUN
+- command: +CFUN
   syntax: AT+CFUN=<fun>
   parameters: []
   responses:
@@ -80,16 +78,15 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_states:
-  - dat_05_0001
-  - dat_05_0002
-  - dat_05_0003
-  - dat_05_0004
+  - POWER_OFF
+  - POWER_ON,_PWRKEY_PRESSED
+  - RDY_RECEIVED
+  - POWER_DOWN,_PWRKEY_PRESSED
   related_urcs:
   - dat_02_0001
-- command: AT+CSCLK
+- command: +CSCLK
   syntax: AT+CSCLK=1
   parameters: []
   responses:
@@ -112,13 +109,12 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_states:
-  - dat_05_0003
-  - dat_05_0006
-  - dat_05_0007
-- command: AT+CSCLK
+  - RDY_RECEIVED
+  - SLEEP_MODE_1_(AT+CSCLK=1)
+  - SLEEP_MODE_2_(AT+CSCLK=2)
+- command: +CSCLK
   syntax: AT+CSCLK=2
   parameters: []
   responses:
@@ -141,9 +137,8 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
-- command: AT+IPR
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
+- command: +IPR
   syntax: AT+IPR=<rate>
   parameters: []
   responses:
@@ -166,12 +161,11 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_urcs:
   - dat_02_0001
   - dat_02_0003
-- command: AT+CBC
+- command: +CBC
   syntax: AT+CBC
   parameters: []
   responses:
@@ -195,20 +189,19 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_states:
-  - dat_05_0001
-  - dat_05_0008
-  - dat_05_0009
-  - dat_05_0010
-  - dat_05_0011
+  - POWER_OFF
+  - GSM_IDLE
+  - GSM_VOICE_CALL
+  - GPRS_STANDBY
+  - GPRS_DATA_TRANSFER
   related_urcs:
   - dat_02_0005
   - dat_02_0006
   - dat_02_0007
   - dat_02_0008
-- command: AT+CMTE
+- command: +CMTE
   syntax: AT+CMTE
   parameters: []
   responses:
@@ -232,14 +225,13 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_urcs:
   - dat_02_0009
   - dat_02_0010
   - dat_02_0011
   - dat_02_0012
-- command: AT+CADC
+- command: +CADC
   syntax: AT+CADC
   parameters: []
   responses:
@@ -263,9 +255,8 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
-- command: AT+SPWM
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
+- command: +SPWM
   syntax: AT+SPWM=<period>,<duty>
   parameters: []
   responses:
@@ -288,9 +279,8 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
-- command: AT+SGPIO
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
+- command: +SGPIO
   syntax: AT+SGPIO=<pin>,<mode>,<value>
   parameters: []
   responses:
@@ -313,9 +303,8 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
-- command: AT+CSDT
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
+- command: +CSDT
   syntax: AT+CSDT=<mode>
   parameters: []
   responses:
@@ -338,9 +327,8 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
-- command: AT+CMIC
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
+- command: +CMIC
   syntax: AT+CMIC=<channel>,<gain>
   parameters: []
   responses:
@@ -363,9 +351,8 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
-- command: AT+SIDET
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
+- command: +SIDET
   syntax: AT+SIDET=<channel>,<level>
   parameters: []
   responses:
@@ -388,9 +375,8 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
-- command: AT+CLVL
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
+- command: +CLVL
   syntax: AT+CLVL=<level>
   parameters: []
   responses:
@@ -413,9 +399,8 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
-- command: AT+IFC
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
+- command: +IFC
   syntax: AT+IFC=<dce_by_dte>,<dte_by_dce>
   parameters: []
   responses:
@@ -438,9 +423,8 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 9'
-- command: AT+CMNRP
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 9'
+- command: +CMNRP
   syntax: AT+CMNRP=1
   parameters: []
   responses:
@@ -463,9 +447,8 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
-- command: AT+SJDR
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
+- command: +SJDR
   syntax: AT+SJDR
   parameters: []
   responses:
@@ -488,9 +471,8 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
-- command: AT+CPIN
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
+- command: +CPIN
   syntax: AT+CPIN=<pin>[,<newpin>]
   parameters: []
   responses:

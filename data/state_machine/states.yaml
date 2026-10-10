@@ -26,12 +26,11 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0002
-  - dat_01_0003
-  - dat_01_0007
+  - +CPOWD
+  - +CFUN
+  - +CBC
 - state_id: POWER_ON_PWRKEY_PRESSED
   state_name: Power on, PWRKEY pressed
   description_fa: null
@@ -58,11 +57,10 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Figure 12'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 12'
   related_commands:
-  - dat_01_0002
-  - dat_01_0003
+  - +CPOWD
+  - +CFUN
 - state_id: POWER_ON_RDY_RECEIVED
   state_name: RDY received
   description_fa: null
@@ -90,10 +88,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Figure 12'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 12'
   related_commands:
-  - dat_01_0004
+  - +CSCLK
 - state_id: POWER_DOWN_PWRKEY_PRESSED
   state_name: Power down, PWRKEY pressed
   description_fa: null
@@ -120,11 +117,10 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Figure 13'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 13'
   related_commands:
-  - dat_01_0002
-  - dat_01_0003
+  - +CPOWD
+  - +CFUN
 - state_id: RESET_ACTIVE
   state_name: Reset active
   description_fa: null
@@ -151,8 +147,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Figure 16'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 16'
 - state_id: SLEEP_MODE_1
   state_name: Sleep mode 1 (AT+CSCLK=1)
   description_fa: null
@@ -179,10 +174,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0004
+  - +CSCLK
 - state_id: SLEEP_MODE_2
   state_name: Sleep mode 2 (AT+CSCLK=2)
   description_fa: null
@@ -207,15 +201,13 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0004
+  - +CSCLK
 - state_id: GSM_IDLE
   state_name: GSM Idle
   description_fa: null
-  description_en: Module registered to GSM network, ready to communicate, no call/data
-    in progress.
+  description_en: Module registered to GSM network, ready to communicate, no call/data in progress.
   entry_conditions:
   - Power-on complete AND registered
   exit_conditions:
@@ -225,7 +217,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0007
+  - +CBC
   related_urcs: []
   related_timings: []
   id: dat_05_0008
@@ -257,7 +249,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0007
+  - +CBC
   related_urcs: []
   related_timings: []
   id: dat_05_0009
@@ -290,7 +282,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0007
+  - +CBC
   related_urcs: []
   related_timings: []
   id: dat_05_0010
@@ -322,7 +314,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0007
+  - +CBC
   related_urcs: []
   related_timings: []
   id: dat_05_0011

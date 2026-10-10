@@ -24,15 +24,14 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0002
-  - dat_01_0003
+  - +CPOWD
+  - +CFUN
   related_states:
-  - dat_05_0001
-  - dat_05_0002
-  - dat_05_0004
+  - POWER_OFF
+  - POWER_ON,_PWRKEY_PRESSED
+  - POWER_DOWN,_PWRKEY_PRESSED
 - parameter_id: PWRKEY_power_down_low_window
   parameter_name: PWRKEY power-down low duration window
   description_fa: null
@@ -58,15 +57,14 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Figure 13'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 13'
   related_commands:
-  - dat_01_0002
-  - dat_01_0003
+  - +CPOWD
+  - +CFUN
   related_states:
-  - dat_05_0001
-  - dat_05_0002
-  - dat_05_0004
+  - POWER_OFF
+  - POWER_ON,_PWRKEY_PRESSED
+  - POWER_DOWN,_PWRKEY_PRESSED
 - parameter_id: RESET_pulse_duration_min
   parameter_name: RESET low pulse minimum duration
   description_fa: null
@@ -92,10 +90,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Figure 16'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 16'
   related_states:
-  - dat_05_0005
+  - RESET_ACTIVE
 - parameter_id: Restart_wait_after_STATUS_low
   parameter_name: Wait time after STATUS goes low before next power-on
   description_fa: null
@@ -121,16 +118,15 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Figure 14'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 14'
   related_commands:
-  - dat_01_0002
-  - dat_01_0003
+  - +CPOWD
+  - +CFUN
   related_states:
-  - dat_05_0001
-  - dat_05_0002
-  - dat_05_0004
-  - dat_05_0003
+  - POWER_OFF
+  - POWER_ON,_PWRKEY_PRESSED
+  - POWER_DOWN,_PWRKEY_PRESSED
+  - RDY_RECEIVED
 - parameter_id: TX_burst_duration
   parameter_name: Transmit burst duration per GSM slot
   description_fa: null
@@ -156,10 +152,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Figure 8'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 8'
   related_commands:
-  - dat_01_0007
+  - +CBC
 - parameter_id: VBAT_under_voltage_warning_threshold
   parameter_name: VBAT under-voltage warning threshold
   description_fa: null
@@ -185,10 +180,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0007
+  - +CBC
 - parameter_id: RF_SYNC_high_before_burst
   parameter_name: RF_SYNC high duration preceding TX burst
   description_fa: null
@@ -214,10 +208,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Figure 48'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 48'
   related_commands:
-  - dat_01_0018
+  - +SJDR
 - parameter_id: Sleep_Mode_1_wake_DTR_low
   parameter_name: DTR low duration to wake from Sleep Mode 1
   description_fa: null
@@ -243,12 +236,11 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0004
+  - +CSCLK
   related_states:
-  - dat_05_0006
+  - SLEEP_MODE_1_(AT+CSCLK=1)
 - parameter_id: Sleep_Mode_2_entry_no_data
   parameter_name: No RXD data duration before Sleep Mode 2 entry
   description_fa: null
@@ -274,12 +266,11 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0004
+  - +CSCLK
   related_states:
-  - dat_05_0007
+  - SLEEP_MODE_2_(AT+CSCLK=2)
 - parameter_id: RI_pulse_duration_SMS_URC
   parameter_name: RI low pulse width on incoming SMS or URC
   description_fa: null
@@ -305,8 +296,7 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Figure 29'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 29'
 - parameter_id: SIM_hot_plug_min_interval
   parameter_name: Minimum interval between SIM card plug operations
   description_fa: null
@@ -332,10 +322,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0012
+  - +CSDT
 - parameter_id: NETLIGHT_blink_not_registered
   parameter_name: NETLIGHT blink pattern (not registered)
   description_fa: null
@@ -441,7 +430,7 @@ records:
   updated_at: '2026-10-10T12:07:29Z'
   notes: URC 'OVER-VOLTAGE WARNNING' is reported when VBAT >= 4.3V.
   related_commands:
-  - dat_01_0007
+  - +CBC
 - parameter_id: VBAT_over_voltage_power_down
   parameter_name: VBAT over-voltage power-down threshold
   description_fa: null
@@ -469,7 +458,7 @@ records:
   updated_at: '2026-10-10T12:07:29Z'
   notes: URC 'OVER-VOLTAGE POWER DOWN' followed by auto shutdown.
   related_commands:
-  - dat_01_0007
+  - +CBC
 - parameter_id: RESET_V_IH
   parameter_name: RESET pin high-level input voltage
   description_fa: null
@@ -497,7 +486,7 @@ records:
   updated_at: '2026-10-10T12:07:29Z'
   notes: Minimum high-level voltage to keep RESET inactive.
   related_states:
-  - dat_05_0005
+  - RESET_ACTIVE
 - parameter_id: RESET_V_IL
   parameter_name: RESET pin low-level input voltage
   description_fa: null
@@ -525,7 +514,7 @@ records:
   updated_at: '2026-10-10T12:07:29Z'
   notes: Maximum low-level voltage to trigger reset.
   related_states:
-  - dat_05_0005
+  - RESET_ACTIVE
 - parameter_id: PWM_frequency_range_max
   parameter_name: PWM output frequency (max)
   description_fa: null
@@ -579,4 +568,4 @@ records:
   updated_at: '2026-10-10T12:11:57Z'
   notes: URC 'UNDER-VOLTAGE POWER DOWN' followed by auto shutdown.
   related_commands:
-  - dat_01_0007
+  - +CBC

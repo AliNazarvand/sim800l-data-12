@@ -1,0 +1,309 @@
+# auto-generated from sources at 2026-10-10T15:17:38Z
+- id: dat_05_0001
+  category: State
+  source:
+    name: SIM800H&SIM800L_Hardware_Design + AT Manual
+    version: V2.02/V1.01
+    date: ''
+    page: ''
+    section: State Machine
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - state
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  state_name: 'OFF'
+  description: State OFF
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+- id: dat_05_0002
+  category: State
+  source:
+    name: SIM800H&SIM800L_Hardware_Design + AT Manual
+    version: V2.02/V1.01
+    date: ''
+    page: ''
+    section: State Machine
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - state
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  state_name: POWER_ON
+  description: State POWER_ON
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+- id: dat_05_0003
+  category: State
+  source:
+    name: SIM800H&SIM800L_Hardware_Design + AT Manual
+    version: V2.02/V1.01
+    date: ''
+    page: ''
+    section: State Machine
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - state
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  state_name: SIM_READY
+  description: State SIM_READY
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+- id: dat_05_0004
+  category: State
+  source:
+    name: SIM800H&SIM800L_Hardware_Design + AT Manual
+    version: V2.02/V1.01
+    date: ''
+    page: ''
+    section: State Machine
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - state
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  state_name: NETWORK_SEARCH
+  description: State NETWORK_SEARCH
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+- id: dat_05_0005
+  category: State
+  source:
+    name: SIM800H&SIM800L_Hardware_Design + AT Manual
+    version: V2.02/V1.01
+    date: ''
+    page: ''
+    section: State Machine
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - state
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  state_name: REGISTERED
+  description: State REGISTERED
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+- id: dat_05_0006
+  category: State
+  source:
+    name: SIM800H&SIM800L_Hardware_Design + AT Manual
+    version: V2.02/V1.01
+    date: ''
+    page: ''
+    section: State Machine
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - state
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  state_name: PDP_ACTIVE
+  description: State PDP_ACTIVE
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+- id: dat_05_0007
+  category: State
+  source:
+    name: SIM800H&SIM800L_Hardware_Design + AT Manual
+    version: V2.02/V1.01
+    date: ''
+    page: ''
+    section: State Machine
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - state
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  state_name: DATA_MODE
+  description: State DATA_MODE
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+- id: dat_05_0008
+  category: State
+  source:
+    name: SIM800H&SIM800L_Hardware_Design + AT Manual
+    version: V2.02/V1.01
+    date: ''
+    page: ''
+    section: State Machine
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - state
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  state_name: SMS_MODE
+  description: State SMS_MODE
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+- id: dat_05_0009
+  category: State
+  source:
+    name: SIM800H&SIM800L_Hardware_Design + AT Manual
+    version: V2.02/V1.01
+    date: ''
+    page: ''
+    section: State Machine
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - state
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  state_name: CALL_MODE
+  description: State CALL_MODE
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+- id: dat_05_0010
+  category: State
+  source:
+    name: SIM800H&SIM800L_Hardware_Design + AT Manual
+    version: V2.02/V1.01
+    date: ''
+    page: ''
+    section: State Machine
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - state
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  state_name: SLEEP
+  description: State SLEEP
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+- id: dat_05_0011
+  category: State
+  source:
+    name: SIM800H&SIM800L_Hardware_Design + AT Manual
+    version: V2.02/V1.01
+    date: ''
+    page: ''
+    section: State Machine
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - state
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  state_name: ERROR
+  description: State ERROR
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []

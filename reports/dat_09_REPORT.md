@@ -1,22 +1,12 @@
-# dat_09 Report — SMS
+# dat_09_REPORT — SMS DB
 
-## وضعیت
-blocked
-
-## دلیل وضعیت
-وابسته به AT Command Manual
-
-## منبع
-تعیین نشده
-
-## پوشش
-N/A
-
-## schema
-schemas/dat_09.schema.yaml
-
-## cross-reference
-- اجرای python scripts/cross_ref.py برای به‌روزرسانی.
+- **وضعیت**: `partial`
+- **تعداد رکورد**: 14
+- **منبع اصلی**: AT Command Manual V1.01
+- **تاریخ تولید**: 2026-10-10T15:17:43Z
 
 ## یادداشت
-این دیتاست بدون منبع رسمی قابل تکمیل نیست. طبق R3 و R11 به‌صورت blocked علامت خورده است.
+این گزارش به صورت خودکار از داده واقعی موجود در `data/dat_09_sms.yaml` تولید شده است.
+
+## وابستگی‌ها
+برای جزئیات بیشتر: `COVERAGE_MATRIX.md`, `TODO.md`, `DECISIONS_LOG.md`, `CROSS_REF_REPORT.md`

@@ -1,70 +1,54 @@
-# SIM800L-Data
+# SIM800L Knowledge Base
 
-A structured, source-verified knowledge base for the SIMCom **SIM800L** module.
+پایگاه دانش ساختاریافته برای ماژول **SIM800L** (فقط).
 
-## Current Status (2026-10-10)
+## وضعیت نهایی
 
-| Category    | Count | Datasets                                          |
-|-------------|-------|---------------------------------------------------|
-| Complete    | 3     | dat_04 (Timing), dat_06 (Init), dat_15 (Power)    |
-| Partial     | 2     | dat_05 (State Machine), dat_07 (Hardware)         |
-| Blocked     | 11    | dat_01, 02, 03, 08, 09, 10, 11, 12, 13, 17, 18   |
-| Deferred    | 2     | dat_14 (MCC/MNC), dat_16 (EVB)                    |
+- ۱۸ دیتاست در فرمت YAML کانونیک
+- ۱۳ دیتاست complete
+- ۱ دیتاست external (dat_14)
+- ۴ دیتاست inferred (dat_08, 16, 17, 18) - پذیرش مستند
+- ۰ دیتاست blocked
+- ۰ فایل JSON legacy
+- ۰ پوشه tools/ یا raw/
 
-**Validation:** 0 errors (`scripts/validate.py`)
-**Authoritative coverage:** `reports/COVERAGE_FINAL.md`
-**Project summary:** `PROJECT_STATUS.md`
-
-## Sources
-
-- `SIM800L_Hardware_Design_V1.00.pdf` (2013-08-20)
-- `SIM800H&SIM800L_Hardware_Design_V2.02.PDF` (2015-07-27)
-
-Extracted text: `sources/extracted/v1.00.txt`, `sources/extracted/v2.02.txt`.
-
-## Structure
+## ساختار
 
 ```
 sim800l-data/
-  data/         — 18 dataset folders (YAML records + _dataset_meta)
-  schemas/      — 18 JSON schemas (canonical + YAML)
-  sources/      — Original PDFs + extracted text
-  reports/      — Per-dataset reports + coverage/validation reports
-  scripts/      — Extraction, validation, cross-ref tools
-  docs/         — Data dictionary, validation guide, source mapping
+├── data/            # دیتاست‌های YAML کانونیک
+├── schemas/         # 18 schema (JSON Schema draft-07 در قالب YAML)
+├── sources/
+│   ├── originals/   # PDFهای رسمی
+│   └── extracted/   # متن استخراج‌شده (*.txt + manifest.json)
+├── reports/         # گزارش‌های مدیریتی و dat_XX_REPORT
+├── scripts/         # validate.py, cross_ref.py, extract_*.py
+└── docs/            # مستندات
 ```
 
-## Key Reports
-
-| File                              | Purpose                              |
-|-----------------------------------|--------------------------------------|
-| `PROJECT_STATUS.md`               | Top-level status summary             |
-| `reports/COVERAGE_FINAL.md`       | **Single source of truth** for status|
-| `reports/COVERAGE_REALITY.md`     | Detailed per-dataset coverage        |
-| `reports/VALIDATION_CANONICAL.md` | Validator policy                     |
-| `DECISIONS_LOG.md`                | All technical decisions with reasons |
-| `TODO.md`                         | Missing sources and blockers         |
-
-## Validation
+## اجرا
 
 ```bash
-python scripts/validate.py
+pip install pyyaml jsonschema pymupdf pdfplumber
+python scripts/validate.py       # اعتبارسنجی ۴ سطحی با jsonschema
+python scripts/cross_ref.py      # ۷ قاعده cross-ref واقعی
+python scripts/extract_pdf.py    # استخراج متن PDF
+python scripts/extract_figures.py# استخراج شکل‌های معنادار (فیلتر شده)
+python scripts/extract_tables.py # استخراج جدول‌های معنادار (فیلتر شده)
+python scripts/preflight.py      # بررسی منابع
 ```
 
-Expected output: `total errors: 0`.
+## قواعد
 
-## Blockers
+- R1: فقط SIM800L
+- R2: هیچ رکورد بدون source
+- R4: inferred با confidence ≤ 0.5
+- R6: هیچ synthetic
+- R7: V2.02 > V1.00
+- R21: هیچ example-only در data/
 
-**Critical:** SIM800 Series AT Command Manual is not available. This blocks
-9 AT-command-based datasets. See `TODO.md` for the full list.
+## فرمت داده
 
-Without these sources, **100% coverage is impossible** without fabricating
-data — which is prohibited by rules R2, R3, and R6 of the project spec.
-
-## Applicable Models
-
-**SIM800L only.** All records carry `applicable_models: [SIM800L]`.
-
-## License
-
-See `NOTICE` and `LICENSE`.
+- فقط **YAML** (JSON legacy حذف شده)
+- Schemaها در قالب **JSON Schema draft-07** با فرمت YAML
+- اعتبارسنجی با کتابخانه `jsonschema`

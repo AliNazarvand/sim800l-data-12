@@ -1,0 +1,929 @@
+# auto-generated from sources at 2026-10-10T15:17:38Z
+- id: dat_07_0001
+  category: GPIO
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gpio
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: ADC
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: ADC
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0002
+  category: UART
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - uart
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: CTS
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: CTS
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0003
+  category: UART
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - uart
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: DCD
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: DCD
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0004
+  category: UART
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - uart
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: DTR
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: DTR
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0005
+  category: Power
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: GND
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: GND
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0006
+  category: Audio
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - audio
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: MIC_N
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: MIC_N
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0007
+  category: Audio
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - audio
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: MIC_P
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: MIC_P
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0008
+  category: GPIO
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gpio
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: NETLIGHT
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: NETLIGHT
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0009
+  category: PWRKEY
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - pwrkey
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: PWRKEY
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: PWRKEY
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0010
+  category: Power
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: Pin 1 and Pin 42 are VBAT input, Pins 2,43,44,45 are GND of power supply,
+    VRTC pin is power supply of the
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: Pin 1 and Pin 42 are VBAT input, Pins 2,43,44,45 are GND of power supply,
+    VRTC pin is power supply of the
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0011
+  category: Power
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: Pin 2, Pin 43, Pin 44 and Pin45 are GND signals, and shortest layout to GND
+    of power source
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: Pin 2, Pin 43, Pin 44 and Pin45 are GND signals, and shortest layout to
+    GND of power source
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0012
+  category: Reset
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - reset
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: RESET
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: RESET
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0013
+  category: UART
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - uart
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: RI
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: RI
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0014
+  category: UART
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - uart
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: RTS
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: RTS
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0015
+  category: UART
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - uart
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: RXD
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: RXD
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0016
+  category: SIM
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: SIM_CLK
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: SIM_CLK
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0017
+  category: SIM
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: SIM_DATA
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: SIM_DATA
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0018
+  category: SIM
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: SIM_DET
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: SIM_DET
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0019
+  category: SIM
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: SIM_RST
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: SIM_RST
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0020
+  category: Power
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: SIM_VDD
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: SIM_VDD
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0021
+  category: Audio
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - audio
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: SPK_N
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: SPK_N
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0022
+  category: Audio
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - audio
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: SPK_P
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: SPK_P
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0023
+  category: GPIO
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gpio
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: STATUS
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: STATUS
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0024
+  category: UART
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - uart
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: TXD
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: TXD
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0025
+  category: GPIO
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gpio
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: USB_DP
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: USB_DP
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0026
+  category: Power
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: VBAT
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: VBAT
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0027
+  category: Power
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: VDD_EXT
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: VDD_EXT
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+- id: dat_07_0028
+  category: GPIO
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Pinout
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - gpio
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  name: VRTC
+  pin_number: ''
+  direction: ''
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: VRTC
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null

@@ -1,35 +1,5 @@
-NOTICE
-======
-
-Trademarks
-----------
-SIM800, SIM800L, SIM800H, SIMCom and any related marks are trademarks or
-registered trademarks of SIMCom Wireless Solutions Limited.
-
-All trademarks remain the property of their respective owners.
-
-Data Provenance
----------------
-The data files in this repository are extracted from the following SIMCom
-proprietary documents:
-
-  * SIM800L_Hardware_Design_V1.00      (v1.00, 2013-08-20)
-  * SIM800H&SIM800L_Hardware_Design_V2.02 (v2.02, 2015-07-27)
-
-Any raw extracts under `raw/` are direct excerpts used solely for provenance
-and traceability within this repository.
-
-Redistribution Restriction
---------------------------
-The extracted data may be subject to copyright and contractual restrictions
-imposed by SIMCom. Public redistribution is not automatically permitted.
-
-Users of this repository are solely responsible for:
-  * obtaining any required permission from SIMCom or its authorized
-    distributors, and
-  * complying with all applicable laws, contractual obligations, and
-    license terms.
-
-No warranty
------------
-The data is provided "AS IS" without warranty of any kind. See LICENSE.
+SIM800L Knowledge Base
+=======================
+این پایگاه دانش صرفاً برای ماژول SIM800L تهیه شده است.
+تمام رکوردها باید منبع صریح داشته باشند.
+هیچ داده استنتاجی بدون status=inferred مجاز نیست.

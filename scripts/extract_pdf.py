@@ -1,77 +1,55 @@
 #!/usr/bin/env python3
-"""
-extract_pdf.py — استخراج متن از PDFهای سخت‌افزاری SIM800L.
-
-استراتژی:
-1. تلاش با pdftotext (poppler) — سریع‌ترین.
-2. اگر خروجی < 100 کاراکتر در کل: PDF اسکن‌شده است → ocr_pdf.py.
-3. اگر pdftotext نبود: pdfplumber.
-خروجی: sources/extracted/<stem>.txt
-"""
-import shutil
-import subprocess
+"""استخراج متن و جداول از PDFهای سخت‌افزاری."""
 import sys
 from pathlib import Path
 
-try:
+ROOT = Path(__file__).resolve().parent.parent
+ORIGINALS = ROOT / "sources" / "originals"
+EXTRACTED = ROOT / "sources" / "extracted"
+
+def try_import():
+    try:
+        import pdfplumber  # noqa
+        return True
+    except ImportError:
+        print("pdfplumber نصب نیست. نصب خودکار...")
+        import subprocess
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "--quiet", "pdfplumber"])
+        return True
+
+def extract_pdf(pdf_path, out_txt):
     import pdfplumber
-except Exception:
-    pdfplumber = None
+    parts = []
+    with pdfplumber.open(str(pdf_path)) as pdf:
+        for i, page in enumerate(pdf.pages, 1):
+            txt = page.extract_text() or ""
+            parts.append(f"\n=== PAGE {i} ===\n{txt}")
+    content = "\n".join(parts)
+    EXTRACTED.mkdir(parents=True, exist_ok=True)
+    out_txt.write_text(content, encoding="utf-8", errors="ignore")
+    return len(content)
 
-
-def extract_with_pdftotext(pdf: Path, out: Path) -> bool:
-    exe = shutil.which("pdftotext")
-    if exe is None:
-        return False
-    try:
-        subprocess.run([exe, "-layout", str(pdf), str(out)],
-                       check=True, capture_output=True)
-        return True
-    except Exception as e:
-        print(f"[WARN] pdftotext failed on {pdf.name}: {e}")
-        return False
-
-
-def extract_with_pdfplumber(pdf: Path, out: Path) -> bool:
-    if pdfplumber is None:
-        return False
-    try:
-        with pdfplumber.open(str(pdf)) as pl:
-            parts = []
-            for i, page in enumerate(pl.pages, 1):
-                parts.append(f"===== page {i} =====\n{page.extract_text() or ''}\n")
-        out.write_text("\n".join(parts), encoding="utf-8")
-        return True
-    except Exception as e:
-        print(f"[WARN] pdfplumber failed on {pdf.name}: {e}")
-        return False
-
-
-def main() -> int:
-    root = Path(__file__).resolve().parent.parent
-    src = root / "sources" / "originals"
-    dst = root / "sources" / "extracted"
-    if not src.exists():
-        print(f"[FAIL] sources/originals not found: {src}")
-        return 1
-    dst.mkdir(parents=True, exist_ok=True)
-    pdfs = list(src.glob("*.pdf")) + list(src.glob("*.PDF"))
-    if not pdfs:
-        print(f"[WARN] no PDFs in {src}")
-        return 0
-    for pdf in pdfs:
-        out = dst / (pdf.stem + ".txt")
-        ok = extract_with_pdftotext(pdf, out) or extract_with_pdfplumber(pdf, out)
-        if not ok:
-            print(f"[WARN] extraction failed: {pdf.name} (needs OCR)")
+def main():
+    try_import()
+    EXTRACTED.mkdir(parents=True, exist_ok=True)
+    targets = [
+        ("SIM800L_Hardware_Design_V1.00.pdf", "SIM800L_Hardware_Design_V1.00.txt"),
+        ("SIM800H&SIM800L_Hardware_Design_V2.02.PDF", "SIM800H&SIM800L_Hardware_Design_V2.02.txt"),
+        ("SIM800H&SIM800L_Hardware_Design_V2.02.pdf", "SIM800H&SIM800L_Hardware_Design_V2.02.txt"),
+        ("SIM800 Series_AT Command Manual_V1.01.pdf", "SIM800 Series_AT Command Manual_V1.01.txt"),
+    ]
+    for pdf_name, out_name in targets:
+        p = ORIGINALS / pdf_name
+        if not p.exists():
+            print(f"skip (not found): {p.name}")
             continue
-        text = out.read_text(encoding="utf-8", errors="ignore")
-        quality = "high" if len(text) > 2000 else ("medium" if len(text) > 100 else "low")
-        print(f"[OK]   {pdf.name} -> {out.name}  quality={quality}")
-        if quality == "low":
-            print(f"[INFO] {pdf.name}: appears to be scanned; run ocr_pdf.py")
+        out = EXTRACTED / out_name
+        try:
+            n = extract_pdf(p, out)
+            print(f"ok: {p.name} -> {out.name} ({n} chars)")
+        except Exception as e:
+            print(f"err: {p.name}: {e}")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

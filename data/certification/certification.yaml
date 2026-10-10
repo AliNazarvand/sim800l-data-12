@@ -1,2 +1,219 @@
-records: []
-
+# dat_18 - Certification Data
+# همه رکوردها inferred - بدون اسناد رسمی
+records:
+  - id: dat_18_0001
+    category: Certification
+    certification_body: "CE"
+    certificate_number: "CE-SIM800L-inferred"
+    standard: "EN 301 511 / EN 301 489 / EN 60950"
+    country: "EU"
+    date_issued: "2014"
+    date_expiry: "-"
+    document_link: "-"
+    source: {name: "Inferred from SIMCom public claims", version: "-", date: "-", page: "-", section: "Certification"}
+    source_type: secondary
+    confidence: 0.45
+    status: inferred
+    notes: "inferred - نیازمند فایل رسمی CE"
+    applicable_models: ["SIM800L"]
+    tags: ["cert", "ce", "inferred"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_18_0002
+    category: Certification
+    certification_body: "FCC"
+    certificate_number: "QIS-SIM800L-inferred"
+    standard: "47 CFR Part 15 / Part 22 / Part 24"
+    country: "USA"
+    date_issued: "2014"
+    date_expiry: "-"
+    document_link: "-"
+    source: {name: "Inferred from public FCC ID database patterns", version: "-", date: "-", page: "-", section: "Certification"}
+    source_type: secondary
+    confidence: 0.40
+    status: inferred
+    notes: "inferred - شناسه FCC باید تأیید شود"
+    applicable_models: ["SIM800L"]
+    tags: ["cert", "fcc", "inferred"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_18_0003
+    category: Certification
+    certification_body: "GCF"
+    certificate_number: "GCF-SIM800L-inferred"
+    standard: "GCF 3.2.0"
+    country: "Global"
+    date_issued: "2014"
+    date_expiry: "-"
+    document_link: "-"
+    source: {name: "Inferred", version: "-", date: "-", page: "-", section: "Certification"}
+    source_type: secondary
+    confidence: 0.35
+    status: inferred
+    notes: "inferred - اکثر ماژول‌های SIMCom GCF دارند"
+    applicable_models: ["SIM800L"]
+    tags: ["cert", "gcf", "inferred"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_18_0004
+    category: Certification
+    certification_body: "PTCRB"
+    certificate_number: "PTCRB-SIM800L-inferred"
+    standard: "PTCRB NAPRD03"
+    country: "USA"
+    date_issued: "2014"
+    date_expiry: "-"
+    document_link: "-"
+    source: {name: "Inferred", version: "-", date: "-", page: "-", section: "Certification"}
+    source_type: secondary
+    confidence: 0.35
+    status: inferred
+    notes: "inferred"
+    applicable_models: ["SIM800L"]
+    tags: ["cert", "ptcrb", "inferred"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_18_0005
+    category: Certification
+    certification_body: "RoHS"
+    certificate_number: "RoHS-SIM800L-inferred"
+    standard: "EU 2011/65/EU"
+    country: "EU"
+    date_issued: "2014"
+    date_expiry: "-"
+    document_link: "-"
+    source: {name: "Inferred", version: "-", date: "-", page: "-", section: "Certification"}
+    source_type: secondary
+    confidence: 0.45
+    status: inferred
+    notes: "inferred"
+    applicable_models: ["SIM800L"]
+    tags: ["cert", "rohs", "inferred"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_18_0006
+    category: Certification
+    certification_body: "IC"
+    certificate_number: "IC-SIM800L-inferred"
+    standard: "RSS-132 / RSS-133"
+    country: "Canada"
+    date_issued: "2014"
+    date_expiry: "-"
+    document_link: "-"
+    source: {name: "Inferred", version: "-", date: "-", page: "-", section: "Certification"}
+    source_type: secondary
+    confidence: 0.35
+    status: inferred
+    notes: "inferred"
+    applicable_models: ["SIM800L"]
+    tags: ["cert", "ic", "inferred"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_18_0007
+    category: Certification
+    certification_body: "TA"
+    certificate_number: "TA-SIM800L-inferred"
+    standard: "TA - Australian"
+    country: "Australia"
+    date_issued: "2014"
+    date_expiry: "-"
+    document_link: "-"
+    source: {name: "Inferred", version: "-", date: "-", page: "-", section: "Certification"}
+    source_type: secondary
+    confidence: 0.30
+    status: inferred
+    notes: "inferred"
+    applicable_models: ["SIM800L"]
+    tags: ["cert", "ta", "inferred"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_18_0008
+    category: Certification
+    certification_body: "RCM"
+    certificate_number: "RCM-SIM800L-inferred"
+    standard: "RCM"
+    country: "Australia/NZ"
+    date_issued: "2014"
+    date_expiry: "-"
+    document_link: "-"
+    source: {name: "Inferred", version: "-", date: "-", page: "-", section: "Certification"}
+    source_type: secondary
+    confidence: 0.30
+    status: inferred
+    notes: "inferred"
+    applicable_models: ["SIM800L"]
+    tags: ["cert", "rcm", "inferred"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_18_0009
+    category: Certification
+    certification_body: "Anatel"
+    certificate_number: "Anatel-SIM800L-inferred"
+    standard: "Anatel Resolution 242/2000"
+    country: "Brazil"
+    date_issued: "2014"
+    date_expiry: "-"
+    document_link: "-"
+    source: {name: "Inferred", version: "-", date: "-", page: "-", section: "Certification"}
+    source_type: secondary
+    confidence: 0.30
+    status: inferred
+    notes: "inferred"
+    applicable_models: ["SIM800L"]
+    tags: ["cert", "anatel", "inferred"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_18_0010
+    category: Certification
+    certification_body: "NCC"
+    certificate_number: "NCC-SIM800L-inferred"
+    standard: "NCC LP0002"
+    country: "Taiwan"
+    date_issued: "2014"
+    date_expiry: "-"
+    document_link: "-"
+    source: {name: "Inferred", version: "-", date: "-", page: "-", section: "Certification"}
+    source_type: secondary
+    confidence: 0.30
+    status: inferred
+    notes: "inferred"
+    applicable_models: ["SIM800L"]
+    tags: ["cert", "ncc", "inferred"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_18_0011
+    category: Certification
+    certification_body: "CCC"
+    certificate_number: "CCC-SIM800L-inferred"
+    standard: "CCC - China Compulsory"
+    country: "China"
+    date_issued: "2014"
+    date_expiry: "-"
+    document_link: "-"
+    source: {name: "Inferred", version: "-", date: "-", page: "-", section: "Certification"}
+    source_type: secondary
+    confidence: 0.30
+    status: inferred
+    notes: "inferred - قابل بحث برای صادرات چین"
+    applicable_models: ["SIM800L"]
+    tags: ["cert", "ccc", "inferred"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_18_0012
+    category: Certification
+    certification_body: "GCF"
+    certificate_number: "GCF-SIM800L-summary"
+    standard: "خلاصه وضعیت گواهی‌ها"
+    country: "Global"
+    date_issued: "-"
+    date_expiry: "-"
+    document_link: "-"
+    source: {name: "Aggregated inference", version: "-", date: "-", page: "-", section: "Certification"}
+    source_type: secondary
+    confidence: 0.30
+    status: inferred
+    notes: "خلاصه: SIM800L معمولاً CE/FCC/GCF/PTCRB/RoHS/IC/TA/RCM/Anatel/NCC دارد - همه نیازمند تأیید رسمی"
+    applicable_models: ["SIM800L"]
+    tags: ["cert", "summary", "inferred"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"

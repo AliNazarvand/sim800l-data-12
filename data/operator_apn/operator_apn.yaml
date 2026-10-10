@@ -1,2 +1,1104 @@
-records: []
+# dat_14 - Operator/APN MCC/MNC DB
+# منبع خارجی (mcc-mnc.com / GSMA) - confidence <= 0.7
+records:
+  - id: dat_14_0001
+    category: MCC-MNC
+    mcc: "432"
+    mnc: "11"
+    country: "Iran"
+    country_code: "IR"
+    operator: "MCI"
+    brand: "Hamrah-e Aval"
+    network_type: "GSM"
+    apn_list: ["mci-gprs"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0002
+    category: MCC-MNC
+    mcc: "432"
+    mnc: "35"
+    country: "Iran"
+    country_code: "IR"
+    operator: "MTN Irancell"
+    brand: "Irancell"
+    network_type: "GSM"
+    apn_list: ["mtnirancell"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0003
+    category: MCC-MNC
+    mcc: "432"
+    mnc: "20"
+    country: "Iran"
+    country_code: "IR"
+    operator: "Rightel"
+    brand: "Rightel"
+    network_type: "GSM"
+    apn_list: ["rightel"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0004
+    category: MCC-MNC
+    mcc: "310"
+    mnc: "260"
+    country: "United States"
+    country_code: "US"
+    operator: "T-Mobile"
+    brand: "T-Mobile"
+    network_type: "GSM"
+    apn_list: ["fast.t-mobile.com", "epc.tmobile.com"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0005
+    category: MCC-MNC
+    mcc: "310"
+    mnc: "410"
+    country: "United States"
+    country_code: "US"
+    operator: "AT&T"
+    brand: "AT&T"
+    network_type: "GSM"
+    apn_list: ["phone", "broadband"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0006
+    category: MCC-MNC
+    mcc: "311"
+    mnc: "480"
+    country: "United States"
+    country_code: "US"
+    operator: "Verizon"
+    brand: "Verizon"
+    network_type: "GSM"
+    apn_list: ["vzwinternet"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0007
+    category: MCC-MNC
+    mcc: "262"
+    mnc: "01"
+    country: "Germany"
+    country_code: "DE"
+    operator: "Telekom"
+    brand: "T-Mobile DE"
+    network_type: "GSM"
+    apn_list: ["internet.t-mobile"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0008
+    category: MCC-MNC
+    mcc: "262"
+    mnc: "02"
+    country: "Germany"
+    country_code: "DE"
+    operator: "Vodafone"
+    brand: "Vodafone DE"
+    network_type: "GSM"
+    apn_list: ["web.vodafone.de"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0009
+    category: MCC-MNC
+    mcc: "262"
+    mnc: "03"
+    country: "Germany"
+    country_code: "DE"
+    operator: "O2"
+    brand: "O2 DE"
+    network_type: "GSM"
+    apn_list: ["internet"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0010
+    category: MCC-MNC
+    mcc: "234"
+    mnc: "15"
+    country: "United Kingdom"
+    country_code: "GB"
+    operator: "Vodafone"
+    brand: "Vodafone UK"
+    network_type: "GSM"
+    apn_list: ["internet"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0011
+    category: MCC-MNC
+    mcc: "234"
+    mnc: "30"
+    country: "United Kingdom"
+    country_code: "GB"
+    operator: "EE"
+    brand: "EE"
+    network_type: "GSM"
+    apn_list: ["everytime"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0012
+    category: MCC-MNC
+    mcc: "234"
+    mnc: "10"
+    country: "United Kingdom"
+    country_code: "GB"
+    operator: "O2"
+    brand: "O2 UK"
+    network_type: "GSM"
+    apn_list: ["mobile.o2.co.uk"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0013
+    category: MCC-MNC
+    mcc: "208"
+    mnc: "01"
+    country: "France"
+    country_code: "FR"
+    operator: "Orange"
+    brand: "Orange FR"
+    network_type: "GSM"
+    apn_list: ["orange"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0014
+    category: MCC-MNC
+    mcc: "208"
+    mnc: "10"
+    country: "France"
+    country_code: "FR"
+    operator: "SFR"
+    brand: "SFR"
+    network_type: "GSM"
+    apn_list: ["websfr"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0015
+    category: MCC-MNC
+    mcc: "208"
+    mnc: "20"
+    country: "France"
+    country_code: "FR"
+    operator: "Bouygues"
+    brand: "Bouygues"
+    network_type: "GSM"
+    apn_list: ["mmsbouygtel.com"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0016
+    category: MCC-MNC
+    mcc: "222"
+    mnc: "01"
+    country: "Italy"
+    country_code: "IT"
+    operator: "TIM"
+    brand: "TIM"
+    network_type: "GSM"
+    apn_list: ["ibox.tim.it"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0017
+    category: MCC-MNC
+    mcc: "222"
+    mnc: "10"
+    country: "Italy"
+    country_code: "IT"
+    operator: "Vodafone"
+    brand: "Vodafone IT"
+    network_type: "GSM"
+    apn_list: ["web.omnitel.it"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0018
+    category: MCC-MNC
+    mcc: "222"
+    mnc: "88"
+    country: "Italy"
+    country_code: "IT"
+    operator: "Wind"
+    brand: "Wind"
+    network_type: "GSM"
+    apn_list: ["internet.wind"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0019
+    category: MCC-MNC
+    mcc: "214"
+    mnc: "01"
+    country: "Spain"
+    country_code: "ES"
+    operator: "Vodafone"
+    brand: "Vodafone ES"
+    network_type: "GSM"
+    apn_list: ["airtelnet.es"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0020
+    category: MCC-MNC
+    mcc: "214"
+    mnc: "03"
+    country: "Spain"
+    country_code: "ES"
+    operator: "Orange"
+    brand: "Orange ES"
+    network_type: "GSM"
+    apn_list: ["orangeworld"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0021
+    category: MCC-MNC
+    mcc: "214"
+    mnc: "07"
+    country: "Spain"
+    country_code: "ES"
+    operator: "Movistar"
+    brand: "Movistar"
+    network_type: "GSM"
+    apn_list: ["movistar.es"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0022
+    category: MCC-MNC
+    mcc: "404"
+    mnc: "10"
+    country: "India"
+    country_code: "IN"
+    operator: "Airtel"
+    brand: "Airtel"
+    network_type: "GSM"
+    apn_list: ["airtelgprs.com"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0023
+    category: MCC-MNC
+    mcc: "404"
+    mnc: "45"
+    country: "India"
+    country_code: "IN"
+    operator: "Airtel"
+    brand: "Airtel"
+    network_type: "GSM"
+    apn_list: ["airtelgprs.com"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0024
+    category: MCC-MNC
+    mcc: "404"
+    mnc: "20"
+    country: "India"
+    country_code: "IN"
+    operator: "Vodafone"
+    brand: "Vodafone IN"
+    network_type: "GSM"
+    apn_list: ["www"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0025
+    category: MCC-MNC
+    mcc: "405"
+    mnc: "854"
+    country: "India"
+    country_code: "IN"
+    operator: "Jio"
+    brand: "Jio"
+    network_type: "GSM"
+    apn_list: ["jionet"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0026
+    category: MCC-MNC
+    mcc: "460"
+    mnc: "00"
+    country: "China"
+    country_code: "CN"
+    operator: "China Mobile"
+    brand: "CMCC"
+    network_type: "GSM"
+    apn_list: ["cmnet"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0027
+    category: MCC-MNC
+    mcc: "460"
+    mnc: "01"
+    country: "China"
+    country_code: "CN"
+    operator: "China Unicom"
+    brand: "CU"
+    network_type: "GSM"
+    apn_list: ["3gnet"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0028
+    category: MCC-MNC
+    mcc: "460"
+    mnc: "03"
+    country: "China"
+    country_code: "CN"
+    operator: "China Telecom"
+    brand: "CT"
+    network_type: "GSM"
+    apn_list: ["ctnet"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0029
+    category: MCC-MNC
+    mcc: "440"
+    mnc: "10"
+    country: "Japan"
+    country_code: "JP"
+    operator: "NTT Docomo"
+    brand: "Docomo"
+    network_type: "GSM"
+    apn_list: ["mopera.net"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0030
+    category: MCC-MNC
+    mcc: "440"
+    mnc: "20"
+    country: "Japan"
+    country_code: "JP"
+    operator: "SoftBank"
+    brand: "SoftBank"
+    network_type: "GSM"
+    apn_list: ["plus.softbank.ne.jp"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0031
+    category: MCC-MNC
+    mcc: "450"
+    mnc: "05"
+    country: "South Korea"
+    country_code: "KR"
+    operator: "SK Telecom"
+    brand: "SKT"
+    network_type: "GSM"
+    apn_list: ["internet.sktelecom.com"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0032
+    category: MCC-MNC
+    mcc: "450"
+    mnc: "08"
+    country: "South Korea"
+    country_code: "KR"
+    operator: "KT"
+    brand: "KT"
+    network_type: "GSM"
+    apn_list: ["alwayson.ktfwing.com"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0033
+    category: MCC-MNC
+    mcc: "505"
+    mnc: "01"
+    country: "Australia"
+    country_code: "AU"
+    operator: "Telstra"
+    brand: "Telstra"
+    network_type: "GSM"
+    apn_list: ["telstra.internet"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0034
+    category: MCC-MNC
+    mcc: "505"
+    mnc: "02"
+    country: "Australia"
+    country_code: "AU"
+    operator: "Optus"
+    brand: "Optus"
+    network_type: "GSM"
+    apn_list: ["yesinternet"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0035
+    category: MCC-MNC
+    mcc: "724"
+    mnc: "05"
+    country: "Brazil"
+    country_code: "BR"
+    operator: "Vivo"
+    brand: "Vivo"
+    network_type: "GSM"
+    apn_list: ["zap.vivo.com.br"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0036
+    category: MCC-MNC
+    mcc: "724"
+    mnc: "06"
+    country: "Brazil"
+    country_code: "BR"
+    operator: "Vivo"
+    brand: "Vivo"
+    network_type: "GSM"
+    apn_list: ["zap.vivo.com.br"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0037
+    category: MCC-MNC
+    mcc: "724"
+    mnc: "31"
+    country: "Brazil"
+    country_code: "BR"
+    operator: "Oi"
+    brand: "Oi"
+    network_type: "GSM"
+    apn_list: ["gprs.oi.com.br"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0038
+    category: MCC-MNC
+    mcc: "724"
+    mnc: "15"
+    country: "Brazil"
+    country_code: "BR"
+    operator: "Sercomtel"
+    brand: "Sercomtel"
+    network_type: "GSM"
+    apn_list: ["sercomtel.com.br"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0039
+    category: MCC-MNC
+    mcc: "730"
+    mnc: "01"
+    country: "Chile"
+    country_code: "CL"
+    operator: "Entel"
+    brand: "Entel"
+    network_type: "GSM"
+    apn_list: ["entel.cl"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0040
+    category: MCC-MNC
+    mcc: "730"
+    mnc: "02"
+    country: "Chile"
+    country_code: "CL"
+    operator: "Movistar"
+    brand: "Movistar CL"
+    network_type: "GSM"
+    apn_list: ["movistar.cl"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0041
+    category: MCC-MNC
+    mcc: "732"
+    mnc: "101"
+    country: "Colombia"
+    country_code: "CO"
+    operator: "Claro"
+    brand: "Claro"
+    network_type: "GSM"
+    apn_list: ["internet.comcel.com.co"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0042
+    category: MCC-MNC
+    mcc: "732"
+    mnc: "102"
+    country: "Colombia"
+    country_code: "CO"
+    operator: "Movistar"
+    brand: "Movistar CO"
+    network_type: "GSM"
+    apn_list: ["movistar.co"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0043
+    category: MCC-MNC
+    mcc: "712"
+    mnc: "01"
+    country: "Costa Rica"
+    country_code: "CR"
+    operator: "ICE"
+    brand: "ICE"
+    network_type: "GSM"
+    apn_list: ["ice.cr"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0044
+    category: MCC-MNC
+    mcc: "712"
+    mnc: "02"
+    country: "Costa Rica"
+    country_code: "CR"
+    operator: "Kolbi"
+    brand: "Kolbi"
+    network_type: "GSM"
+    apn_list: ["kolbi.cr"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0045
+    category: MCC-MNC
+    mcc: "604"
+    mnc: "00"
+    country: "Morocco"
+    country_code: "MA"
+    operator: "Orange"
+    brand: "Orange MA"
+    network_type: "GSM"
+    apn_list: ["orange.ma"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0046
+    category: MCC-MNC
+    mcc: "604"
+    mnc: "01"
+    country: "Morocco"
+    country_code: "MA"
+    operator: "IAM"
+    brand: "Maroc Telecom"
+    network_type: "GSM"
+    apn_list: ["iam.ma"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0047
+    category: MCC-MNC
+    mcc: "602"
+    mnc: "01"
+    country: "Egypt"
+    country_code: "EG"
+    operator: "Orange"
+    brand: "Orange EG"
+    network_type: "GSM"
+    apn_list: ["orange.eg"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0048
+    category: MCC-MNC
+    mcc: "602"
+    mnc: "02"
+    country: "Egypt"
+    country_code: "EG"
+    operator: "Vodafone"
+    brand: "Vodafone EG"
+    network_type: "GSM"
+    apn_list: ["vodafone.com.eg"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0049
+    category: MCC-MNC
+    mcc: "602"
+    mnc: "03"
+    country: "Egypt"
+    country_code: "EG"
+    operator: "Etisalat"
+    brand: "Etisalat EG"
+    network_type: "GSM"
+    apn_list: ["etisalat.com.eg"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0050
+    category: MCC-MNC
+    mcc: "286"
+    mnc: "01"
+    country: "Turkey"
+    country_code: "TR"
+    operator: "Turkcell"
+    brand: "Turkcell"
+    network_type: "GSM"
+    apn_list: ["internet"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0051
+    category: MCC-MNC
+    mcc: "286"
+    mnc: "02"
+    country: "Turkey"
+    country_code: "TR"
+    operator: "Vodafone"
+    brand: "Vodafone TR"
+    network_type: "GSM"
+    apn_list: ["internet"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0052
+    category: MCC-MNC
+    mcc: "286"
+    mnc: "03"
+    country: "Turkey"
+    country_code: "TR"
+    operator: "Turk Telekom"
+    brand: "TT"
+    network_type: "GSM"
+    apn_list: ["internet"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0053
+    category: MCC-MNC
+    mcc: "425"
+    mnc: "01"
+    country: "Israel"
+    country_code: "IL"
+    operator: "Partner"
+    brand: "Partner"
+    network_type: "GSM"
+    apn_list: ["partner.co.il"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0054
+    category: MCC-MNC
+    mcc: "425"
+    mnc: "03"
+    country: "Israel"
+    country_code: "IL"
+    operator: "Cellcom"
+    brand: "Cellcom"
+    network_type: "GSM"
+    apn_list: ["cellcom.co.il"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
+  - id: dat_14_0055
+    category: MCC-MNC
+    mcc: "425"
+    mnc: "07"
+    country: "Israel"
+    country_code: "IL"
+    operator: "HOT Mobile"
+    brand: "HOT"
+    network_type: "GSM"
+    apn_list: ["hot.net.il"]
+    source_url: "https://www.mcc-mnc.com/"
+    source: {name: "mcc-mnc.com/GSMA public registry", version: "-", date: "2024", page: "-", section: "MCC-MNC"}
+    source_type: external
+    confidence: 0.65
+    status: complete
+    notes: "منبع خارجی عمومی - نیازمند تأیید نهایی برای محیط تولید"
+    applicable_models: ["SIM800L"]
+    tags: ["mcc", "mnc", "external"]
+    created_at: "2026-10-10T12:00:00Z"
+    updated_at: "2026-10-10T12:00:00Z"
 

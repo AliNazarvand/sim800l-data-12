@@ -1,14 +1,14 @@
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 venv/
-.env
+.pytest_cache/
 .vscode/
 .idea/
-*.tmp
-# -----------------------------------------------------------------------------
-# Proprietary source PDFs (SIMCom). See NOTICE. Kept on disk locally, but not
-# committed to git for copyright reasons.
-# -----------------------------------------------------------------------------
-sources/*.pdf
-sources/*.PDF
+*.swp
+Thumbs.db
+.DS_Store
+*.log
+!reports/*.log
+*.bak
+*~

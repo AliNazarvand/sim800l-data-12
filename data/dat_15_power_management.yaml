@@ -1,0 +1,65 @@
+# auto-generated from sources at 2026-10-10T15:17:38Z
+- id: dat_15_0001
+  category: Sleep
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Sleep
+  source_type: primary
+  confidence: 0.8
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sleep
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: Sleep Mode 1
+  command: AT+CSCLK=1
+  parameter: DTR
+  value_min: 0
+  value_typ: 0
+  value_max: 1
+  unit: logic
+  condition: DTR high
+  wake_source: DTR low
+  related_commands:
+  - +CSCLK
+  related_states:
+  - SLEEP
+- id: dat_15_0002
+  category: CFUN
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: ''
+    section: CFUN
+  source_type: primary
+  confidence: 0.8
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - cfun
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: Minimum Functionality
+  command: AT+CFUN=0
+  parameter: fun
+  value_min: 0
+  value_typ: 0
+  value_max: 1
+  unit: int
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - +CFUN
+  related_states:
+  - 'OFF'

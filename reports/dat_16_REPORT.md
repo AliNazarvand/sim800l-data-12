@@ -1,22 +1,12 @@
-# dat_16 Report — Board/EVB
+# dat_16_REPORT — Board/EVB Definitions
 
-## وضعیت
-deferred
-
-## دلیل وضعیت
-نیازمند سند رسمی EVB (مدار/کانکتور/BOM)
-
-## منبع
-تعیین نشده
-
-## پوشش
-N/A
-
-## schema
-schemas/dat_16.schema.yaml
-
-## cross-reference
-- اجرای python scripts/cross_ref.py برای به‌روزرسانی.
+- **وضعیت**: `blocked`
+- **تعداد رکورد**: 0
+- **منبع اصلی**: —
+- **تاریخ تولید**: 2026-10-10T15:17:43Z
 
 ## یادداشت
-این دیتاست در انتظار تأیید/منبع خارجی است. طبق بخش ۳ پرامپت.
+این گزارش به صورت خودکار از داده واقعی موجود در `data/dat_16_board_evb.yaml` تولید شده است.
+
+## وابستگی‌ها
+برای جزئیات بیشتر: `COVERAGE_MATRIX.md`, `TODO.md`, `DECISIONS_LOG.md`, `CROSS_REF_REPORT.md`

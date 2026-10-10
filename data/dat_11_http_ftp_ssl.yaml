@@ -1,0 +1,1076 @@
+# auto-generated from sources at 2026-10-10T15:17:38Z
+- id: dat_11_0001
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPCID
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0002
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPDELE
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0003
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPEXTPUT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0004
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPGET
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0005
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '226'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPGETNA
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0006
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPGETNAME
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0007
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '226'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPGETPA
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0008
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPGETPATH
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0009
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPLIST
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0010
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPMKD
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0011
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '221'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPMOD
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0012
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPMODE
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0013
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPPORT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0014
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPPUT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0015
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '227'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPPUTNA
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0016
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPPUTNAME
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0017
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '222'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPPUTOP
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0018
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPPUTOPT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0019
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '227'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPPUTPA
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0020
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPPUTPATH
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0021
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPPW
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0022
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPREST
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0023
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPRMD
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0024
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPSCONT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0025
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPSERV
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0026
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPSIZE
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0027
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPSTATE
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0028
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPTYPE
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0029
+  category: FTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '10'
+    section: FTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - ftp
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +FTPUN
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0030
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '215'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPACTI
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0031
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '295'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPACTIO
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0032
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPACTION
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0033
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPDATA
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0034
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPINIT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0035
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPPARA
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0036
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '217'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPREA
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0037
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPREAD
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0038
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '218'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPSCON
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0039
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPSCONT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0040
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '219'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPSTAT
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0041
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPSTATUS
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0042
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '212'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPTER
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []
+- id: dat_11_0043
+  category: HTTP
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '9'
+    section: HTTP
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - http
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +HTTPTERM
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_commands: []

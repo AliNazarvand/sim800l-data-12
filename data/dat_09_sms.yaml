@@ -1,0 +1,421 @@
+# auto-generated from sources at 2026-10-10T15:17:38Z
+- id: dat_09_0001
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '5'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CMEE
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0002
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '6'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CMGD
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0003
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '6'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CMGF
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0004
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '6'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CMGL
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0005
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '6'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CMGR
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0006
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '6'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CMGS
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0007
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '6'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CMGW
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0008
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '6'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CNMI
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0009
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '6'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CPMS
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0010
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '6'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CSCA
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0011
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '4'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CSCS
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0012
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '6'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CSDH
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0013
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '6'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CSMP
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false
+- id: dat_09_0014
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '6'
+    section: SMS
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sms
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  mode: text
+  command: +CSMS
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  encoding: GSM7
+  storage: SM
+  concat_sms: false
+  delivery_report: false

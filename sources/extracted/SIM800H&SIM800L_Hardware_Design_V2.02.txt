@@ -1,7 +1,8 @@
-===== page 1 =====
+
+=== PAGE 1 ===
 SIM800H&SIM800L_Hardware Design_V2.02
 
-===== page 2 =====
+=== PAGE 2 ===
 Smart Machine Smart Decision
 Document Title SIM800H&SIM800L Hardware Design
 Version 2.02
@@ -24,7 +25,7 @@ without notice at any time.
 Copyright © Shanghai SIMCom Wireless Solutions Ltd. 2015
 SIM800H&SIM800L_Hardware Design_V2.02 2 2015-07-27
 
-===== page 3 =====
+=== PAGE 3 ===
 Smart Machine Smart Decision
 Contents
 Table Index...................................................................................................................6
@@ -64,7 +65,7 @@ Version History.................................................................
 4.7. Audio Interfaces..................................................................................................................35
 SIM800H&SIM800L_Hardware Design_V2.02 3 2015-07-27
 
-===== page 4 =====
+=== PAGE 4 ===
 Smart Machine Smart Decision
 4.7.1. Speaker Interfaces Configuration........................................................................................................36
 4.7.2. Microphone Interfaces Configuration.................................................................................................36
@@ -113,7 +114,7 @@ Smart Machine Smart Decision
 6.3 Digital Interface Characteristics..........................................................................................58
 SIM800H&SIM800L_Hardware Design_V2.02 4 2015-07-27
 
-===== page 5 =====
+=== PAGE 5 ===
 Smart Machine Smart Decision
 6.4 SIM Card Interface Characteristics.....................................................................................59
 6.5 SIM_VDD Characteristics..................................................................................................59
@@ -137,7 +138,7 @@ III. Terms and Abbreviations....................................................
 IV. Safety Caution.....................................................................................................................72
 SIM800H&SIM800L_Hardware Design_V2.02 5 2015-07-27
 
-===== page 6 =====
+=== PAGE 6 ===
 Smart Machine Smart Decision
 Table Index
 TABLE 1: MODULE INFORMATION...........................................................................................................................11
@@ -187,7 +188,7 @@ TABLE 44: DIGITAL INTERFACE CHARACTERISTICS.....................................
 TABLE 45: SIM CARD INTERFACE CHARACTERISTICS........................................................................................59
 SIM800H&SIM800L_Hardware Design_V2.02 6 2015-07-27
 
-===== page 7 =====
+=== PAGE 7 ===
 Smart Machine Smart Decision
 TABLE 46: SIM_VDD CHARACTERISTICS................................................................................................................59
 TABLE 47: VDD_EXT CHARACTERISTICS...............................................................................................................59
@@ -208,7 +209,7 @@ TABLE 61: TERMS AND ABBREVIATIONS...............................................
 TABLE 62: SAFETY CAUTION.....................................................................................................................................72
 SIM800H&SIM800L_Hardware Design_V2.02 7 2015-07-27
 
-===== page 8 =====
+=== PAGE 8 ===
 Smart Machine Smart Decision
 Figure Index
 FIGURE 1: SIM800H&SIM800L FUNCTIONAL DIAGRAM......................................................................................14
@@ -259,7 +260,7 @@ FIGURE 45: REFERENCE CIRCUIT OF PWM DRIVER BUZZER...............................
 FIGURE 46: REFERENCE CIRCUIT OF NETLIGHT..................................................................................................49
 SIM800H&SIM800L_Hardware Design_V2.02 8 2015-07-27
 
-===== page 9 =====
+=== PAGE 9 ===
 Smart Machine Smart Decision
 FIGURE 47: LED DRIVER REFERENCE CIRCUIT.....................................................................................................51
 FIGURE 48: RF_SYNC SIGNAL DURING TRANSMIT BURST................................................................................51
@@ -275,7 +276,7 @@ FIGURE 57: TOP AND BOTTOM VIEW OF SIM800L.......................................
 FIGURE 58: TYPICAL SOLDER REFLOW PROFILE OF LEAD-FREE PROCESSES..............................................66
 SIM800H&SIM800L_Hardware Design_V2.02 9 2015-07-27
 
-===== page 10 =====
+=== PAGE 10 ===
 Smart Machine Smart Decision
 Version History
 Date Version Description of change Author
@@ -303,7 +304,7 @@ Modify Table 50 “Bluetooth specification Version3.0”
 Modify Table 44 “Parameter”
 SIM800H&SIM800L_Hardware Design_V2.02 10 2015-07-27
 
-===== page 11 =====
+=== PAGE 11 ===
 Smart Machine Smart Decision
 1. Introduction
 This document describes SIM800H&SIM800L hardware interface in great detail. The document can help
@@ -343,7 +344,7 @@ Power supply 3.4V ~4.4V
 Power saving Typical power consumption in sleep mode is 1.04mA (BS_PA_MFRMS=9 )
 SIM800H&SIM800L_Hardware Design_V2.02 11 2015-07-27
 
-===== page 12 =====
+=== PAGE 12 ===
 Smart Machine Smart Decision
 (cid:122) Quad-band: GSM 850, EGSM 900, DCS 1800, PCS 1900.
 SIM800H&SIM800L can search the 4 frequency bands automatically. The
@@ -398,7 +399,7 @@ SIM application toolkit GSM 11.14 Release 99
 Real time clock Support RTC
 SIM800H&SIM800L_Hardware Design_V2.02 12 2015-07-27
 
-===== page 13 =====
+=== PAGE 13 ===
 Smart Machine Smart Decision
 Timing functions Use AT command set
 Size: 17.8*15.8*2.4mm
@@ -449,7 +450,7 @@ mode serial port is still accessible. The power consumption in this mode is lowe
 mode.
 SIM800H&SIM800L_Hardware Design_V2.02 13 2015-07-27
 
-===== page 14 =====
+=== PAGE 14 ===
 Smart Machine Smart Decision
 2.4. Functional Diagram
 The following figure shows a functional diagram of SIM800H&SIM800L:
@@ -460,14 +461,14 @@ The following figure shows a functional diagram of SIM800H&SIM800L:
 Figure 1: SIM800H&SIM800L functional diagram
 SIM800H&SIM800L_Hardware Design_V2.02 14 2015-07-27
 
-===== page 15 =====
+=== PAGE 15 ===
 Smart Machine Smart Decision
 3. Package Information
 3.1. Pin Out Diagram
 Figure 2: Pin assignment (Top view)
 SIM800H&SIM800L_Hardware Design_V2.02 15 2015-07-27
 
-===== page 16 =====
+=== PAGE 16 ===
 Smart Machine Smart Decision
 3.2. Pin Description
 Table 5: Pin description
@@ -524,7 +525,7 @@ KBR4 63 O
 KBR3 23 O
 SIM800H&SIM800L_Hardware Design_V2.02 16 2015-07-27
 
-===== page 17 =====
+=== PAGE 17 ===
 Smart Machine Smart Decision
 KBR2 61 O
 KBR1 60 O
@@ -582,7 +583,7 @@ BT_ANT 36 I/O Connect Bluetooth antenna Only SIM800H
 FM_ANTP 17 I Differential antenna for FM
 SIM800H&SIM800L_Hardware Design_V2.02 17 2015-07-27
 
-===== page 18 =====
+=== PAGE 18 ===
 Smart Machine Smart Decision
 FM_ANTN 57 I
 Synchronizing signal of RF
@@ -595,12 +596,12 @@ ISINK0 47 I Drive LCD backlight
 Figure 3: Dimensions of SIM800H&SIM800L (Unit: mm)
 SIM800H&SIM800L_Hardware Design_V2.02 18 2015-07-27
 
-===== page 19 =====
+=== PAGE 19 ===
 Smart Machine Smart Decision
 Figure 4: Recommended PCB footprint outline (Unit: mm)
 SIM800H&SIM800L_Hardware Design_V2.02 19 2015-07-27
 
-===== page 20 =====
+=== PAGE 20 ===
 Smart Machine Smart Decision
 4. Application Interface
 4.1. Power Supply
@@ -623,7 +624,7 @@ supply is 4.1V, thus a linear regulator can be used.
 Figure 6: Reference circuit of the LDO power supply
 SIM800H&SIM800L_Hardware Design_V2.02 20 2015-07-27
 
-===== page 21 =====
+=== PAGE 21 ===
 Smart Machine Smart Decision
 If there is a high drop-out between the input and the desired output (VBAT), a DC-DC power supply will be
 preferable because of its better efficiency especially with the 2A peak current in burst mode of the module. The
@@ -651,7 +652,7 @@ pins to the power supply must be wide enough (at least 60mil) to decrease voltag
 The power IC and the bypass capacitor should be placed to the module as close as possible.
 SIM800H&SIM800L_Hardware Design_V2.02 21 2015-07-27
 
-===== page 22 =====
+=== PAGE 22 ===
 Smart Machine Smart Decision
 Figure 9: The minimal VBAT voltage requirement at VBAT drop
 Note: Hardware power down voltage is 3.0V.
@@ -681,7 +682,7 @@ Figure 11: Powered on/off module using button
 The power on timing is illustrated as in the following figure.
 SIM800H&SIM800L_Hardware Design_V2.02 22 2015-07-27
 
-===== page 23 =====
+=== PAGE 23 ===
 Smart Machine Smart Decision
 Figure 12: Timing of power on module
 When power on procedure is completed, SIM800H&SIM800L will send following URC to indicate that the
@@ -704,7 +705,7 @@ Figure 13: Timing of power down SIM800H&SIM800L by PWRKEY
 This procedure makes the module log off from the network and allows the software to enter into a secure state to
 SIM800H&SIM800L_Hardware Design_V2.02 23 2015-07-27
 
-===== page 24 =====
+=== PAGE 24 ===
 Smart Machine Smart Decision
 save data before completely shut down.
 Before the completion of the power down procedure, the module will send URC:
@@ -747,7 +748,7 @@ down.
 At this moment, AT commands can not be executed any more, and only the RTC is still active. Power down
 SIM800H&SIM800L_Hardware Design_V2.02 24 2015-07-27
 
-===== page 25 =====
+=== PAGE 25 ===
 Smart Machine Smart Decision
 mode can also be indicated by STATUS or VDD_EXT, which is at low level at this time.
 Note：The default temperature detect is disable, AT command “AT+CMTE” could be used to read the temperature when the
@@ -769,7 +770,7 @@ The typical value of RESET pin at High level is 2.8V, so for the 3V or 3.3V, cus
 driver this pin directly, cascading some resistors could enhance the ESD performance but the value should not be
 SIM800H&SIM800L_Hardware Design_V2.02 25 2015-07-27
 
-===== page 26 =====
+=== PAGE 26 ===
 Smart Machine Smart Decision
 too big; otherwise the level of RESET could be lower than threshold value; RESET hardware parameters can
 refer to the table below:
@@ -801,7 +802,7 @@ Table 8: The current consumption of Minimum Functionality Mode (BS-PA-MFRMS=9)
 Minimum functionality mode minimizes the current consumption to the lowest level. If SIM800H&SIM800L
 SIM800H&SIM800L_Hardware Design_V2.02 26 2015-07-27
 
-===== page 27 =====
+=== PAGE 27 ===
 Smart Machine Smart Decision
 is set to minimum functionality by “AT+CFUN=0”, the RF function and SIM card function will be disabled. In
 this case, the serial port is still accessible, but all AT commands correlative to RF function and SIM card
@@ -840,7 +841,7 @@ module can be provided by an external capacitor or a battery (non-chargeable or 
 The following figures show various reference circuits for RTC back up.
 SIM800H&SIM800L_Hardware Design_V2.02 27 2015-07-27
 
-===== page 28 =====
+=== PAGE 28 ===
 Smart Machine Smart Decision
 (cid:122) External capacitor backup
 VRTC 2.2K RTC
@@ -860,7 +861,7 @@ DCE (Data Communication Equipment). The following figure shows the connection be
 (DTE).
 SIM800H&SIM800L_Hardware Design_V2.02 28 2015-07-27
 
-===== page 29 =====
+=== PAGE 29 ===
 Smart Machine Smart Decision
 Table 9: Serial port and USB pin definition
 Pin name Pin number Function
@@ -903,7 +904,7 @@ multiplexing function. For details about multiplexing function, please refer to 
 (cid:122) Autobauding only supports the following baud rates:
 SIM800H&SIM800L_Hardware Design_V2.02 29 2015-07-27
 
-===== page 30 =====
+=== PAGE 30 ===
 Smart Machine Smart Decision
 1200, 2400, 4800, 9600, 19200, 38400, 57600 and 115200bps
 (cid:122) The default setting is autobauding.
@@ -926,7 +927,7 @@ If the voltage of UART is 3.3V, the following reference circuits are recommended
 change the resistors in the following figure from 5.6K to 14K.
 SIM800H&SIM800L_Hardware Design_V2.02 30 2015-07-27
 
-===== page 31 =====
+=== PAGE 31 ===
 Smart Machine Smart Decision
 1K
 TXD RXD
@@ -952,7 +953,7 @@ If the voltage of UART is 5V, the following reference circuits are recommended:
 Figure 23: TX level matching circuit
 SIM800H&SIM800L_Hardware Design_V2.02 31 2015-07-27
 
-===== page 32 =====
+=== PAGE 32 ===
 Smart Machine Smart Decision
 Figure 24: RX level matching circuit
 Note: When Figure22, Figure 23 and Figure 24 are used for electrical level isolation, if customers use serial port to upgrade SW,
@@ -971,7 +972,7 @@ Pin Min Typ Max Unit
 VBUS 4.3 5.0 7.0 V
 SIM800H&SIM800L_Hardware Design_V2.02 32 2015-07-27
 
-===== page 33 =====
+=== PAGE 33 ===
 Smart Machine Smart Decision
 4.5.4 Software Upgrade
 Customer could upgrade module’s firmware through USB or UART interface.
@@ -989,7 +990,7 @@ The UART interface supports the CMOS level. If customer connects the module to t
 should be added between the DCE and DTE.
 SIM800H&SIM800L_Hardware Design_V2.02 33 2015-07-27
 
-===== page 34 =====
+=== PAGE 34 ===
 Smart Machine Smart Decision
 4.6. RI Behaviors
 Table 12: RI behaviors
@@ -1016,7 +1017,7 @@ Figure 27: RI behaviour of voice calling as a receiver
 Figure 28: RI behaviour of data calling as a receiver
 SIM800H&SIM800L_Hardware Design_V2.02 34 2015-07-27
 
-===== page 35 =====
+=== PAGE 35 ===
 Smart Machine Smart Decision
 Figure 29: RI behaviour of URC or receive SMS
 However, if the module is used as caller, the RI will remain high. Please refer to the following figure.
@@ -1040,7 +1041,7 @@ SPK1P/1N output can directly drive 32Ω receiver, SIM800H&SIM800L internal has 
 the following table is class-AB performance:
 SIM800H&SIM800L_Hardware Design_V2.02 35 2015-07-27
 
-===== page 36 =====
+=== PAGE 36 ===
 Smart Machine Smart Decision
 Table 14: Performance of audio amplifier
 Conditions Class-AB AMP
@@ -1059,7 +1060,7 @@ Figure 31: Speaker reference circuit
 4.7.2. Microphone Interfaces Configuration
 SIM800H&SIM800L_Hardware Design_V2.02 36 2015-07-27
 
-===== page 37 =====
+=== PAGE 37 ===
 Smart Machine Smart Decision
 Figure 32: Speaker with amplifier reference circuit
 4.7.3. Audio Electronic Characteristic
@@ -1090,7 +1091,7 @@ be placed near module and another group needs to be placed near to connector.
 Conducting noise is mainly caused by the VBAT drop. If audio PA was powered by VBAT directly, then there
 SIM800H&SIM800L_Hardware Design_V2.02 37 2015-07-27
 
-===== page 38 =====
+=== PAGE 38 ===
 Smart Machine Smart Decision
 will be some cheep noise from speaker output easily. So it is better to put big capacitors and ferrite beads near
 audio PA input.
@@ -1134,7 +1135,7 @@ If the SIM card detection function is not used, customer can keep the SIM_DET pi
 of 6-pin SIM card holder is illustrated in the following figure.
 SIM800H&SIM800L_Hardware Design_V2.02 38 2015-07-27
 
-===== page 39 =====
+=== PAGE 39 ===
 Smart Machine Smart Decision
 SIM Card
 SIM_VDD
@@ -1163,7 +1164,7 @@ For 8 pins SIM card holder, SIMCom recommends to use Molex 91228.Customer can vi
 http://www.molex.com for more information about the holder.
 SIM800H&SIM800L_Hardware Design_V2.02 39 2015-07-27
 
-===== page 40 =====
+=== PAGE 40 ===
 Smart Machine Smart Decision
 Figure 35: Molex 91228 SIM card holder
 Table 18: Pin description (Molex SIM card holder)
@@ -1180,7 +1181,7 @@ For 6-pin SIM card holder, SIMCom recommends to use Amphenol C707 10M006 512 .Cu
 http://www.amphenol.com for more information about the holder.
 SIM800H&SIM800L_Hardware Design_V2.02 40 2015-07-27
 
-===== page 41 =====
+=== PAGE 41 ===
 Smart Machine Smart Decision
 Figure 36: Amphenol C707 10M006 512 SIM card holder
 Table 19: Pin description (Amphenol SIM card holder)
@@ -1194,7 +1195,7 @@ C7 SIM_DATA SIM card data I/O
 Note: Every time plug SIM card interval advice is greater than 2s. Otherwise may not be able to correct detection.
 SIM800H&SIM800L_Hardware Design_V2.02 41 2015-07-27
 
-===== page 42 =====
+=== PAGE 42 ===
 Smart Machine Smart Decision
 4.9. PCM Interface
 SIM800H&SIM800L provides a hardware PCM interface:
@@ -1230,7 +1231,7 @@ GPIO3 28 GPIO3 DISP_CLK SD_DATA1 -
 Note: Customer can use AT command set mode. For detail, please refer to document [1].
 SIM800H&SIM800L_Hardware Design_V2.02 42 2015-07-27
 
-===== page 43 =====
+=== PAGE 43 ===
 Smart Machine Smart Decision
 4.9.2. PCM Interface
 Refer to the following figure for PCM design:
@@ -1250,7 +1251,7 @@ Figure 38: LCD reference circuit
 Figure 39: SD reference circuit
 SIM800H&SIM800L_Hardware Design_V2.02 43 2015-07-27
 
-===== page 44 =====
+=== PAGE 44 ===
 Smart Machine Smart Decision
 If power supply is 2.8V for SD card, customer can use VDD_EXT; if power supply is 3.3V, please use external
 design LDO.
@@ -1267,7 +1268,7 @@ Module supports a new key connection, can support 50 keys, which meets full keyb
 diagram is as following:
 SIM800H&SIM800L_Hardware Design_V2.02 44 2015-07-27
 
-===== page 45 =====
+=== PAGE 45 ===
 Smart Machine Smart Decision
 Figure 41: 50 keys reference circuit
 Note：Do not change the 20KΩ resistor in the diagram.
@@ -1280,7 +1281,7 @@ below:
 Figure 43: Keypad detected
 SIM800H&SIM800L_Hardware Design_V2.02 45 2015-07-27
 
-===== page 46 =====
+=== PAGE 46 ===
 Smart Machine Smart Decision
 Table 23: Pin definition of the keypad interface
 Pin name Pin number Function Default state
@@ -1321,7 +1322,7 @@ Notes:
 Please contact SIMCom for more details.
 SIM800H&SIM800L_Hardware Design_V2.02 46 2015-07-27
 
-===== page 47 =====
+=== PAGE 47 ===
 Smart Machine Smart Decision
 2. If customers design I2C please pull up to VDD_EXT.
 4.11.1. I2C Multiplexing Function
@@ -1358,7 +1359,7 @@ AT command “AT+CADC” to read the voltage value. For details of this AT comma
 [1].
 SIM800H&SIM800L_Hardware Design_V2.02 47 2015-07-27
 
-===== page 48 =====
+=== PAGE 48 ===
 Smart Machine Smart Decision
 Table 29: ADC specification
 Parameter Min Typ Max Unit
@@ -1383,7 +1384,7 @@ Working current 16 mA
 Note: PWM pin must be kept at low power level when module is in the power on procedure.
 SIM800H&SIM800L_Hardware Design_V2.02 48 2015-07-27
 
-===== page 49 =====
+=== PAGE 49 ===
 Smart Machine Smart Decision
 4.14.1. PWM Multiplexing Function
 Table 32: PWM multiplexing function
@@ -1406,7 +1407,7 @@ Reference circuit is recommended in the following figure:
 Figure 46: Reference circuit of NETLIGHT
 SIM800H&SIM800L_Hardware Design_V2.02 49 2015-07-27
 
-===== page 50 =====
+=== PAGE 50 ===
 Smart Machine Smart Decision
 4.15.1. NETLIGHT Multiplexing Function
 Table 35: NETLIGHT multiplexing function
@@ -1434,7 +1435,7 @@ ISINK1 46 Sink current for keypad LED
 Reference circuit is recommended in the following figure:
 SIM800H&SIM800L_Hardware Design_V2.02 50 2015-07-27
 
-===== page 51 =====
+=== PAGE 51 ===
 Smart Machine Smart Decision
 Figure 47: LED driver reference circuit
 Table 39: ISINK specification
@@ -1453,7 +1454,7 @@ power consumption during transmission.
 Figure 48: RF_SYNC signal during transmit burst
 SIM800H&SIM800L_Hardware Design_V2.02 51 2015-07-27
 
-===== page 52 =====
+=== PAGE 52 ===
 Smart Machine Smart Decision
 4.18.1. RF_SYNC Multiplexing Function
 RF_SYNC can be used in the RF Jamming Detection function. The RF_SYNC function and RF Jamming
@@ -1482,7 +1483,7 @@ R101，C101，C102 are the matching circuit, the value should be defined by the 
 and antenna is not enough, the matching circuit should be designed as in the following figure:
 SIM800H&SIM800L_Hardware Design_V2.02 52 2015-07-27
 
-===== page 53 =====
+=== PAGE 53 ===
 Smart Machine Smart Decision
 Figure 50: GSM simple antenna matching circuit
 Normally R101 is 0Ω, C101 and C102 are not mounted.
@@ -1501,7 +1502,7 @@ There are some suggestions for placing components and RF trace lying for GSM and
 4.19.3. FM Antenna Interface
 SIM800H&SIM800L_Hardware Design_V2.02 53 2015-07-27
 
-===== page 54 =====
+=== PAGE 54 ===
 Smart Machine Smart Decision
 The module provides 2 FM antenna pad named FM_ANTP and FM_ANTN, these are difference signal. The FM
 antenna interface circuit is recommended as following:
@@ -1513,7 +1514,7 @@ Figure 53: GND pin of the earphone use to be the FM antenna interface
 Normally, R301\R303 are 0Ω, C301\C302\C303\C304\L301 are not mounted.
 SIM800H&SIM800L_Hardware Design_V2.02 54 2015-07-27
 
-===== page 55 =====
+=== PAGE 55 ===
 Smart Machine Smart Decision
 5. PCB Layout
 Usually, most electronic products with good performance are based on good PCB layout. A bad PCB layout will
@@ -1527,7 +1528,7 @@ external components. Following figure is the overview of pin assignment of the m
 Figure 54: Pin assignment
 SIM800H&SIM800L_Hardware Design_V2.02 55 2015-07-27
 
-===== page 56 =====
+=== PAGE 56 ===
 Smart Machine Smart Decision
 5.2 Principle of PCB Layout
 During layout, attention should be paid to the following interfaces, like Antenna, power supply, SIM card
@@ -1558,14 +1559,14 @@ should be far away from power and high-speed-frequency signal.
 It is better to trace signal lines of UART bunched, as well as signals of USB.
 SIM800H&SIM800L_Hardware Design_V2.02 56 2015-07-27
 
-===== page 57 =====
+=== PAGE 57 ===
 Smart Machine Smart Decision
 5.3 Recommended PCB Layout
 Based on above principles, recommended layout is shown in the following illustration.
 Figure 55: Recommended PCB layout
 SIM800H&SIM800L_Hardware Design_V2.02 57 2015-07-27
 
-===== page 58 =====
+=== PAGE 58 ===
 Smart Machine Smart Decision
 6. Electrical, Reliability and Radio Characteristics
 6.1 Absolute Maximum Ratings
@@ -1603,7 +1604,7 @@ OL
 Note: These parameters are for digital interface pins, such as keypad, GPIO, I2C, UART, LCD and PCM.
 SIM800H&SIM800L_Hardware Design_V2.02 58 2015-07-27
 
-===== page 59 =====
+=== PAGE 59 ===
 Smart Machine Smart Decision
 6.4 SIM Card Interface Characteristics
 Table 45: SIM card interface characteristics
@@ -1657,7 +1658,7 @@ I VRTC output current - 2.0 mA
 RTC-OUT
 SIM800H&SIM800L_Hardware Design_V2.02 59 2015-07-27
 
-===== page 60 =====
+=== PAGE 60 ===
 Smart Machine Smart Decision
 6.8 Current Consumption (VBAT=3.8V)
 Table 49: Current consumption
@@ -1706,7 +1707,7 @@ Note: In above table the current consumption value is the typical one of the mod
 stage, there may be differences among each individual.
 SIM800H&SIM800L_Hardware Design_V2.02 60 2015-07-27
 
-===== page 61 =====
+=== PAGE 61 ===
 Smart Machine Smart Decision
 Table 50: Bluetooth characteristics
 Terms Contents
@@ -1751,7 +1752,7 @@ Modulation Accuracy
 10.8 99% DEVM (8DPSK) 10 20 %
 SIM800H&SIM800L_Hardware Design_V2.02 61 2015-07-27
 
-===== page 62 =====
+=== PAGE 62 ===
 Smart Machine Smart Decision
 10.9 Peak DEVM (8DPSK) 16 25 %
 RX characteristics
@@ -1787,7 +1788,7 @@ SIM800H&SIM800L is an ESD sensitive component, so attention should be paid to th
 and packaging. The ESD test results are shown in the following table.
 SIM800H&SIM800L_Hardware Design_V2.02 62 2015-07-27
 
-===== page 63 =====
+=== PAGE 63 ===
 Smart Machine Smart Decision
 Table 52: The ESD characteristics (Temperature: 25℃, Humidity: 45 %)
 Pin name Contact discharge Air discharge
@@ -1823,7 +1824,7 @@ Normal Extreme
 19-31 5 ±5 ±6
 SIM800H&SIM800L_Hardware Design_V2.02 63 2015-07-27
 
-===== page 64 =====
+=== PAGE 64 ===
 Smart Machine Smart Decision
 Table 54: DCS1800 and PCS1900 conducted RF output power
 DCS1800,PCS1900
@@ -1863,7 +1864,7 @@ DCS1800 1805 ～ 1880MHz 1710 ～ 1785MHz
 PCS1900 1930 ～ 1990MHz 1850 ～ 1910MHz
 SIM800H&SIM800L_Hardware Design_V2.02 64 2015-07-27
 
-===== page 65 =====
+=== PAGE 65 ===
 Smart Machine Smart Decision
 7. Manufacturing
 7.1. Top and Bottom View of SIM800H&SIM800L
@@ -1871,7 +1872,7 @@ Figure 56: Top and bottom view of SIM800H
 Figure 57: Top and bottom view of SIM800L
 SIM800H&SIM800L_Hardware Design_V2.02 65 2015-07-27
 
-===== page 66 =====
+=== PAGE 66 ===
 Smart Machine Smart Decision
 7.2. Typical Solder Reflow Profile
 Figure 58: Typical solder reflow profile of lead-free processes
@@ -1894,7 +1895,7 @@ specified on the label.
 Note: For product handling, storage, processing, IPC / JEDEC J-STD-033 must be followed.
 SIM800H&SIM800L_Hardware Design_V2.02 66 2015-07-27
 
-===== page 67 =====
+=== PAGE 67 ===
 Smart Machine Smart Decision
 7.4. Baking Requirements
 SIM800H&SIM800L modules are vacuum packaged, and guaranteed for 6 months storage without opening or
@@ -1915,7 +1916,7 @@ Note: Care should be taken if that plastic tray is not heat-resistant, the modul
 tray may be damaged by high-temperature heating.
 SIM800H&SIM800L_Hardware Design_V2.02 67 2015-07-27
 
-===== page 68 =====
+=== PAGE 68 ===
 Smart Machine Smart Decision
 8. Appendix
 I. Related Documents
@@ -1957,7 +1958,7 @@ AN_SMT
 Design_Guide
 SIM800H&SIM800L_Hardware Design_V2.02 68 2015-07-27
 
-===== page 69 =====
+=== PAGE 69 ===
 Smart Machine Smart Decision
 II. Multiplexing Function
 Table 60: Multiplexing function
@@ -1995,7 +1996,7 @@ SDA I/PD 75 SDA GPIO26 - -
 Note: Multiplexing function need different software supply.
 SIM800H&SIM800L_Hardware Design_V2.02 69 2015-07-27
 
-===== page 70 =====
+=== PAGE 70 ===
 Smart Machine Smart Decision
 III. Terms and Abbreviations
 Table 61: Terms and abbreviations
@@ -2040,7 +2041,7 @@ UART Universal Asynchronous Receiver & Transmitter
 URC Unsolicited Result Code
 SIM800H&SIM800L_Hardware Design_V2.02 70 2015-07-27
 
-===== page 71 =====
+=== PAGE 71 ===
 Smart Machine Smart Decision
 USSD Unstructured Supplementary Service Data
 Phonebook abbreviations
@@ -2053,7 +2054,7 @@ SM SIM phonebook
 NC Not connect
 SIM800H&SIM800L_Hardware Design_V2.02 71 2015-07-27
 
-===== page 72 =====
+=== PAGE 72 ===
 Smart Machine Smart Decision
 IV. Safety Caution
 Table 62: Safety caution
@@ -2087,7 +2088,7 @@ Also, some networks require that a valid SIM card be properly inserted in the ce
 mobile.
 SIM800H&SIM800L_Hardware Design_V2.02 72 2015-07-27
 
-===== page 73 =====
+=== PAGE 73 ===
 Smart Machine Smart Decision
 Contact us:
 Shanghai SIMCom Wireless Solutions Co.,Ltd.

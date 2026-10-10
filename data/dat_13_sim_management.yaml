@@ -1,0 +1,261 @@
+# auto-generated from sources at 2026-10-10T15:17:38Z
+- id: dat_13_0001
+  category: SIM
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '7'
+    section: SIM
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CCID
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  hardware_pins: []
+- id: dat_13_0002
+  category: SIM
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '5'
+    section: SIM
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CIMI
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  hardware_pins: []
+- id: dat_13_0003
+  category: SIM
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '5'
+    section: SIM
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CLCK
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  hardware_pins: []
+- id: dat_13_0004
+  category: SIM
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '5'
+    section: SIM
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CPIN
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  hardware_pins: []
+- id: dat_13_0005
+  category: SIM
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '5'
+    section: SIM
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CPWD
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  hardware_pins: []
+- id: dat_13_0006
+  category: SIM
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '5'
+    section: SIM
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CRSM
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  hardware_pins: []
+- id: dat_13_0007
+  category: SIM
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '5'
+    section: SIM
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CSIM
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  hardware_pins: []
+- id: dat_13_0008
+  category: SIM
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '8'
+    section: SIM
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CSMINS
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  hardware_pins: []
+- id: dat_13_0009
+  category: SIM
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '7'
+    section: SIM
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CSPN
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  hardware_pins: []
+- id: dat_13_0010
+  category: SIM
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '5'
+    section: SIM
+  source_type: primary
+  confidence: 0.85
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - sim
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  command: +CUSD
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  related_urcs: []
+  hardware_pins: []

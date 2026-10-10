@@ -26,10 +26,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 4'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 4'
   related_commands:
-  - dat_01_0003
+  - +CFUN
 - mode_id: SLEEP_MODE_CFUN1
   mode_name: Sleep mode (AT+CFUN=1, MFRMS=9)
   description_fa: null
@@ -56,13 +55,12 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 49'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49'
   related_commands:
-  - dat_01_0004
-  - dat_01_0003
+  - +CSCLK
+  - +CFUN
   related_states:
-  - dat_05_0006
+  - SLEEP_MODE_1_(AT+CSCLK=1)
 - mode_id: POWER_DOWN_MODE
   mode_name: Power down mode
   description_fa: null
@@ -90,16 +88,14 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10 | Figure: Table 49'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49'
   related_commands:
-  - dat_01_0002
+  - +CPOWD
   related_states:
-  - dat_05_0001
+  - POWER_OFF
 - mode_id: MINIMUM_FUNCTIONALITY
   mode_name: Minimum functionality mode (AT+CFUN=0)
-  description_fa: RF و SIM غیرفعال؛ پورت سریال فعال. مقدار دقیق جریان در V2.02 Table
-    8 به‌درستی استخراج نشد.
+  description_fa: RF و SIM غیرفعال؛ پورت سریال فعال. مقدار دقیق جریان در V2.02 Table 8 به‌درستی استخراج نشد.
   current_consumption_typical: null
   current_consumption_max: null
   unit: mA
@@ -122,10 +118,9 @@ records:
   - SIM800L
   created_at: '2026-10-10T11:09:18Z'
   updated_at: '2026-10-10T11:09:18Z'
-  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
-    at: 2026-10-10'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10'
   related_commands:
-  - dat_01_0003
+  - +CFUN
 - mode_id: SLEEP_MFRMS5
   mode_name: Sleep mode (AT+CFUN=1, MFRMS=5)
   description_fa: null
@@ -138,7 +133,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0005
   category: power_consumption
   source:
@@ -167,7 +162,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0006
   category: power_consumption
   source:
@@ -196,7 +191,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0007
   category: power_consumption
   source:
@@ -225,7 +220,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0008
   category: power_consumption
   source:
@@ -254,7 +249,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0009
   category: power_consumption
   source:
@@ -283,7 +278,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0010
   category: power_consumption
   source:
@@ -312,7 +307,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0011
   category: power_consumption
   source:
@@ -341,7 +336,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0012
   category: power_consumption
   source:
@@ -370,7 +365,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0013
   category: power_consumption
   source:
@@ -399,7 +394,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0014
   category: power_consumption
   source:
@@ -428,7 +423,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0015
   category: power_consumption
   source:
@@ -457,7 +452,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0016
   category: power_consumption
   source:
@@ -486,7 +481,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0017
   category: power_consumption
   source:
@@ -515,7 +510,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0018
   category: power_consumption
   source:
@@ -544,7 +539,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0019
   category: power_consumption
   source:
@@ -573,7 +568,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0020
   category: power_consumption
   source:
@@ -602,7 +597,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0021
   category: power_consumption
   source:
@@ -631,7 +626,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0022
   category: power_consumption
   source:
@@ -660,7 +655,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0023
   category: power_consumption
   source:
@@ -689,7 +684,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0024
   category: power_consumption
   source:
@@ -718,7 +713,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0025
   category: power_consumption
   source:
@@ -747,7 +742,7 @@ records:
   related_pins:
   - VBAT
   related_commands:
-  - dat_01_0003
+  - +CFUN
   id: dat_15_0026
   category: power_consumption
   source:

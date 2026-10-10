@@ -1,0 +1,55 @@
+# auto-generated from sources at 2026-10-10T15:17:38Z
+- id: dat_04_0001
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Timing
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - timing
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  parameter: Change 300us to
+  min: null
+  typ: 105.0
+  max: null
+  unit: ms
+  condition: ''
+  related_command: null
+  related_state: null
+- id: dat_04_0002
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: ''
+    section: Timing
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - timing
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:17:38Z'
+  updated_at: '2026-10-10T15:17:38Z'
+  parameter: Off SIM800L is not running
+  min: null
+  typ: 64.0
+  max: null
+  unit: ms
+  condition: ''
+  related_command: null
+  related_state: null

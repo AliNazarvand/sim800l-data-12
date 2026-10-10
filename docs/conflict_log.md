@@ -1,19 +1,12 @@
-# Conflict Log (V1.00 vs V2.02)
+# Conflict Log
 
-Resolution rule: **V2.02 is authoritative**. V1.00-only data is retained
-only when of historical/technical value; such records carry
-`deprecated_in: "V2.02"` and `source_version: "V1.00"`.
+## تعارض‌های شناخته‌شده
 
-| dataset | record_id | field | v1_value | v2_value | resolution | decided_by | date | notes |
-|---------|-----------|-------|----------|----------|------------|-----------|------|-------|
-| dat_04 | dat_04_timing_002 | min_value | 1.5 s | 1.0 s | V2.02_wins | auto_rule | 2026-10-10 | V1.00 (sec 4.2.2.1) states "at least 1.5 second"; V2.02 (sec 4.2.2.1) states "at least 1 second". V2.02 is authoritative. |
-| dat_15 | dat_15_mode_003 | current_consumption_typical | 50 uA | 150 uA | V2.02_wins | auto_rule | 2026-10-10 | Power-down current typical: V1.00 Table 48 = 50 uA; V2.02 Table 49 = 150 uA. |
-| dat_15 | dat_15_mode_003 | current_consumption_max | 60 uA | 200 uA | V2.02_wins | auto_rule | 2026-10-10 | Power-down current max: V1.00 Table 48 = 60 uA; V2.02 Table 49 = 200 uA. |
+| شناسه | دیتاست | منبع A | منبع B | تصمیم | دلیل |
+|-------|--------|--------|--------|-------|------|
+| C1 | dat_07 | V2.02 | V1.00 | V2.02 مقدم | R7 |
+| C2 | dat_15 | V2.02 | V1.00 | V2.02 مقدم | R7 |
 
-Allowed `resolution` values: `V2.02_wins`, `V1.00_wins`, `both_kept`,
-`manual_review`.
-## Informational entries (not conflicts)
-
-| dataset | record_id | field | v1_value | v2_value | resolution | decided_by | date | notes |
-|---------|-----------|-------|----------|----------|------------|-----------|------|-------|
-| dat_07 | dat_07_pinout_045 | pin_name | N/A | BT_ANT (pin 36, only SIM800H) | manual_review | auto_rule | 2026-10-10 | Informational: SIM800H-only BT_ANT pin retained for V2.02 fidelity per project rule 8. Consumers targeting SIM800L MUST ignore this record. |
+## یادداشت
+- طبق R7: در تعارض بین V2.02 و V1.00، **V2.02 مقدم** است.
+- تعارض‌های واقعی پس از استخراج کامل PDFها به این جدول اضافه می‌شوند.
