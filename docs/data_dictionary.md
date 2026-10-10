@@ -71,3 +71,50 @@ Transitions: `transition_id`, `from_state`, `to_state`, `trigger`,
 `board_id`, `board_name`, `board_type`, `input_voltage`,
 `regulator_onboard`, `level_shifter_onboard`, `interfaces_exposed`,
 `pin_mapping`, `notes_fa`.
+## Phase 2 datasets
+
+### dat_01 — AT Command DB (deferred)
+Status: `deferred` — requires `SIM800 Series_AT Command Manual.pdf`.
+No records produced.
+
+### dat_02 — URC DB (partial: HW only)
+HW URC records: `urc_code`, `urc_name`, `description_fa`, `trigger`,
+`related_pins`.
+AT URC records (pending): populated when the AT Command Manual is available.
+
+### dat_03 — Error Code DB (CME/CMS) (deferred)
+Status: `deferred` — requires AT Command Manual.
+
+### dat_08 — Firmware Compatibility Matrix (deferred)
+Status: `deferred` — requires AT Command Manual + secondary firmware matrices.
+
+### dat_09 — SMS DB (deferred)
+Status: `deferred` — requires AT Command Manual.
+
+### dat_10 — GPRS/Data DB (deferred)
+Status: `deferred` — requires AT Command Manual.
+
+### dat_11 — HTTP/FTP/SSL DB (deferred)
+Status: `deferred` — requires AT Command Manual.
+
+### dat_12 — Audio DB (partial: HW only)
+HW audio records:
+- `category` — one of `pin`, `characteristic`, `design_guide`.
+- For `pin`: `pin_name`, `pin_number` (array), `direction`, `function_fa`.
+- For `characteristic`: `parameter` + characteristic-specific numeric/string fields.
+- For `design_guide`: `parameter`, `notes_fa`, and design values.
+
+AT audio records (pending): `audio_at.yaml`, empty until Manual arrives.
+
+### dat_13 — SIM Management DB (partial: HW only)
+HW SIM records: same shape as dat_12 HW records.
+AT SIM records (pending): `sim_management_at.yaml`, empty until Manual arrives.
+
+### dat_14 — Operator/APN DB (MCC/MNC) (deferred)
+Status: `deferred` — requires external MCC/MNC and APN databases.
+
+### dat_17 — Certificate/Key Store (deferred)
+Status: `deferred` — requires external certificate/key store sources.
+
+### dat_18 — Certification Data (deferred)
+Status: `deferred` — requires external certification body sources.

@@ -54,3 +54,20 @@ Format: [SemVer](https://semver.org/).
 - Added `raw/*_extract.md` and `raw/*_diagrams.md`.
 - Final `PHASE_1_REPORT.md`.
 - Final `README.md`.
+## [v1.1.0] — Phase 2a / 2b skeletons and partial datasets
+- Added schemas `dat_01`, `dat_02`, `dat_03`, `dat_08`, `dat_09`, `dat_10`,
+  `dat_11`, `dat_12`, `dat_13`, `dat_14`, `dat_17`, `dat_18`.
+- Added deferred dataset folders (records: []):
+  `at_commands`, `error_codes`, `firmware_compat`, `sms`, `gprs_data`,
+  `http_ftp_ssl`, `operator_apn`, `certificate_keystore`, `certification`.
+- Added partial dataset folders with HW records only:
+  - `urc` (dat_02) — 10 HW URC records; `urc_at.yaml` pending.
+  - `audio` (dat_12) — 8 HW audio records; `audio_at.yaml` pending.
+  - `sim_management` (dat_13) — 8 HW SIM records; `sim_management_at.yaml`
+    pending.
+- Updated `DATASET_MAP` in `tools/validate.py` to cover all 18 datasets.
+- Added `raw/dat_*_extract.md` and `raw/dat_*_diagrams.md` for Phase 2.
+- Updated `docs/source_mapping.md`, `docs/conflict_log.md`,
+  `docs/diagram_mapping.md`, `docs/data_dictionary.md`,
+  `docs/validation_guide.md`.
+- Added `PHASE_2_REPORT.md`.

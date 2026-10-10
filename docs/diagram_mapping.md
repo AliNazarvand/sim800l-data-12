@@ -17,3 +17,13 @@
 
 No image from the PDFs is stored in this repository. Only textual descriptions
 go under `raw/<dataset>_diagrams.md`.
+## Phase 2 additions
+
+| source_document | source_page | figure_number | figure_description | mapped_to_records | description_file |
+|-----------------|-------------|---------------|--------------------|--------------------|------------------|
+| SIM800H&SIM800L_Hardware_Design_V2.02 | 36 | Figure 31 | Speaker reference circuit | dat_12_audio_hw_002, dat_12_audio_hw_004 | raw/dat_12_diagrams.md |
+| SIM800H&SIM800L_Hardware_Design_V2.02 | 37 | Figure 32 | Speaker with amplifier reference circuit | dat_12_audio_hw_005 | raw/dat_12_diagrams.md |
+| SIM800H&SIM800L_Hardware_Design_V2.02 | 38 | Figure 33 | Reference circuit of the 8-pin SIM card holder | dat_13_sim_hw_001..008 | raw/dat_13_diagrams.md |
+| SIM800H&SIM800L_Hardware_Design_V2.02 | 39 | Figure 34 | Reference circuit of the 6-pin SIM card holder | dat_13_sim_hw_001..008 | raw/dat_13_diagrams.md |
+| SIM800H&SIM800L_Hardware_Design_V2.02 | 40 | Figure 35 | Molex 91228 SIM card holder | dat_13_sim_hw_001..005 | raw/dat_13_diagrams.md |
+| SIM800H&SIM800L_Hardware_Design_V2.02 | 41 | Figure 36 | Amphenol C707 10M006 512 SIM card holder | dat_13_sim_hw_001..005 | raw/dat_13_diagrams.md |

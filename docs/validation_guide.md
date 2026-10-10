@@ -88,3 +88,20 @@ Writes nothing. Exits non-zero if any JSON is missing or out of sync.
 | `status=deferred requires reason` | deferred without reason | add `reason:` |
 | `_meta.license_note: must equal ...` | wrong constant | set the exact string |
 | `DRIFT: ...` | generated JSON out of sync | re-run `tools/generate_json.py` |
+## Phase 2 additions
+
+`DATASET_MAP` in `tools/validate.py` now recognises all 18 datasets
+(dat_01 .. dat_18). Datasets with `status: deferred` and `record_count: 0`
+have their YAML files validated as empty `records: []` lists; the
+`_dataset_meta.yaml` is still validated for required keys, status,
+reason, and ISO date.
+
+Deferred datasets require the following sources not currently present in
+the repository:
+
+- AT Command Manual: dat_01, dat_03, dat_08, dat_09, dat_10, dat_11,
+  AT-part of dat_02, AT-part of dat_12, AT-part of dat_13.
+- Secondary sources: dat_14, dat_17, dat_18 (Phase 2b).
+
+Partial datasets (dat_02, dat_12, dat_13) list their pending AT fields
+in `_dataset_meta.yaml.pending_fields`.

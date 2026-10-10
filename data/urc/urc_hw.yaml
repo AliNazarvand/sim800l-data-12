@@ -1,0 +1,190 @@
+records:
+  - _meta:
+      id: "dat_02_urc_hw_001"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 23
+      source_section: "4.2.1"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    urc_code: "RDY"
+    urc_name: "Ready"
+    description_fa: "ماژول پس از power-on آماده به کار است. فقط با baud rate ثابت گزارش می‌شود."
+    trigger: "Power-on procedure completed"
+    related_pins: []
+
+  - _meta:
+      id: "dat_02_urc_hw_002"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 24
+      source_section: "4.2.2.1"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    urc_code: "NORMAL POWER DOWN"
+    urc_name: "Normal power down"
+    description_fa: "شروع خاموش‌شدن عادی توسط PWRKEY یا AT+CPOWD=1."
+    trigger: "PWRKEY low >=1s OR AT+CPOWD=1"
+    related_pins: ["PWRKEY", "STATUS"]
+
+  - _meta:
+      id: "dat_02_urc_hw_003"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 24
+      source_section: "4.2.2.3"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    urc_code: "UNDER-VOLTAGE WARNNING"
+    urc_name: "Under-voltage warning"
+    description_fa: "هشدار افت ولتاژ VBAT (V<=3.5V). املای URC در منبع: WARNNING."
+    trigger: "VBAT <= 3.5 V"
+    related_pins: ["VBAT"]
+
+  - _meta:
+      id: "dat_02_urc_hw_004"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 24
+      source_section: "4.2.2.3"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    urc_code: "OVER-VOLTAGE WARNNING"
+    urc_name: "Over-voltage warning"
+    description_fa: "هشدار افزونی ولتاژ VBAT (V>=4.3V)."
+    trigger: "VBAT >= 4.3 V"
+    related_pins: ["VBAT"]
+
+  - _meta:
+      id: "dat_02_urc_hw_005"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 24
+      source_section: "4.2.2.3"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    urc_code: "UNDER-VOLTAGE POWER DOWN"
+    urc_name: "Under-voltage power down"
+    description_fa: "خاموش‌شدن خودکار به دلیل افت شدید ولتاژ (V<3.4V)."
+    trigger: "VBAT < 3.4 V"
+    related_pins: ["VBAT"]
+
+  - _meta:
+      id: "dat_02_urc_hw_006"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 24
+      source_section: "4.2.2.3"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    urc_code: "OVER-VOLTAGE POWER DOWN"
+    urc_name: "Over-voltage power down"
+    description_fa: "خاموش‌شدن خودکار به دلیل افزایش بیش از حد ولتاژ (V>4.4V)."
+    trigger: "VBAT > 4.4 V"
+    related_pins: ["VBAT"]
+
+  - _meta:
+      id: "dat_02_urc_hw_007"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 24
+      source_section: "4.2.2.4"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    urc_code: "+CMTE: 1"
+    urc_name: "Over-temperature warning"
+    description_fa: "هشدار دمای بالا (T >= +80C)."
+    trigger: "Temperature >= +80 C"
+    related_pins: []
+
+  - _meta:
+      id: "dat_02_urc_hw_008"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 24
+      source_section: "4.2.2.4"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    urc_code: "+CMTE: -1"
+    urc_name: "Under-temperature warning"
+    description_fa: "هشدار دمای پایین (T <= -30C)."
+    trigger: "Temperature <= -30 C"
+    related_pins: []
+
+  - _meta:
+      id: "dat_02_urc_hw_009"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 24
+      source_section: "4.2.2.4"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    urc_code: "+CMTE: 2"
+    urc_name: "Over-temperature power down"
+    description_fa: "خاموش‌شدن خودکار به دلیل دمای بسیار بالا (T > +85C)."
+    trigger: "Temperature > +85 C"
+    related_pins: []
+
+  - _meta:
+      id: "dat_02_urc_hw_010"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 24
+      source_section: "4.2.2.4"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    urc_code: "+CMTE: -2"
+    urc_name: "Under-temperature power down"
+    description_fa: "خاموش‌شدن خودکار به دلیل دمای بسیار پایین (T < -40C)."
+    trigger: "Temperature < -40 C"
+    related_pins: []

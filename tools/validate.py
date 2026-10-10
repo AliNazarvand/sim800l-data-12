@@ -35,12 +35,24 @@ DATA = ROOT / "data"
 SCHEMAS = ROOT / "schemas"
 
 DATASET_MAP = {
-    "timing":           "dat_04",
-    "state_machine":    "dat_05",
-    "init_sequence":    "dat_06",
-    "hardware":         "dat_07",
-    "power_management": "dat_15",
-    "board_evb":        "dat_16",
+    "at_commands":          "dat_01",
+    "urc":                  "dat_02",
+    "error_codes":          "dat_03",
+    "timing":               "dat_04",
+    "state_machine":        "dat_05",
+    "init_sequence":        "dat_06",
+    "hardware":             "dat_07",
+    "firmware_compat":      "dat_08",
+    "sms":                  "dat_09",
+    "gprs_data":            "dat_10",
+    "http_ftp_ssl":         "dat_11",
+    "audio":                "dat_12",
+    "sim_management":       "dat_13",
+    "operator_apn":         "dat_14",
+    "power_management":     "dat_15",
+    "board_evb":            "dat_16",
+    "certificate_keystore": "dat_17",
+    "certification":        "dat_18",
 }
 
 LICENSE_NOTE = "See NOTICE file for licensing and copyright information."
@@ -204,3 +216,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
+

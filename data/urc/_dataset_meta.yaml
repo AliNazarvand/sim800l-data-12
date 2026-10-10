@@ -1,0 +1,12 @@
+dataset_id: "dat_02"
+dataset_name: "URC DB"
+phase_completed: 1
+record_count: 10
+min_records_required: 8
+status: "partial"
+reason: null
+pending_fields:
+  - "urc_at_* (AT-command-related URCs deferred; AT Command Manual not available)"
+completion_source: null
+last_updated: "2026-10-10"
+retry_count: 0

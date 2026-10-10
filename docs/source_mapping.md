@@ -41,3 +41,20 @@ Notes
   - `SIM800H&SIM800L_Hardware_Design_V2.02`
 - `source_figure` is populated only when the value came from a figure/diagram.
   Otherwise `null`.
+## Phase 2 additions
+
+| dataset | record_id | field | source_document | source_version | source_page | source_section | source_figure |
+|---------|-----------|-------|-----------------|----------------|-------------|----------------|---------------|
+| dat_02 | dat_02_urc_hw_001 | urc_code | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 23 | 4.2.1 | Figure 12 |
+| dat_02 | dat_02_urc_hw_002 | urc_code | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 24 | 4.2.2.1 | null |
+| dat_02 | dat_02_urc_hw_003 | urc_code | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 24 | 4.2.2.3 | null |
+| dat_02 | dat_02_urc_hw_007 | urc_code | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 24 | 4.2.2.4 | null |
+| dat_12 | dat_12_audio_hw_001 | pin_name | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 35 | 4.7 | Table 13 |
+| dat_12 | dat_12_audio_hw_005 | value_at_4_2V | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 36 | 4.7 | Table 14 |
+| dat_12 | dat_12_audio_hw_006 | bias_voltage | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 37 | 4.7.3 | Table 15 |
+| dat_12 | dat_12_audio_hw_007 | receiver_output_32ohm_typ | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 37 | 4.7.3 | Table 16 |
+| dat_12 | dat_12_audio_hw_008 | filter_caps_gsm850_egsm900 | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 37 | 4.7.4 | null |
+| dat_13 | dat_13_sim_hw_001 | pin_name | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 38 | 4.8.1 | Table 17 |
+| dat_13 | dat_13_sim_hw_006 | output_voltage | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 59 | 6.5 | Table 46 |
+| dat_13 | dat_13_sim_hw_007 | VIH_min_3v | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 59 | 6.4 | Table 45 |
+| dat_13 | dat_13_sim_hw_008 | notes_fa | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 39 | 4.8.2 | null |

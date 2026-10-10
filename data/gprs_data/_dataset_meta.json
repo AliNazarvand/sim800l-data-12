@@ -1,0 +1,17 @@
+{
+  "_auto_generated": {
+    "marker": "AUTO-GENERATED — DO NOT EDIT",
+    "generator": "tools/generate_json.py"
+  },
+  "dataset_id": "dat_10",
+  "dataset_name": "GPRS/Data DB",
+  "phase_completed": 2,
+  "record_count": 0,
+  "min_records_required": 10,
+  "status": "deferred",
+  "reason": "INSUFFICIENT_RECORDS",
+  "pending_fields": [],
+  "completion_source": null,
+  "last_updated": "2026-10-10",
+  "retry_count": 0
+}

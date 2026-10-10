@@ -12,3 +12,8 @@ only when of historical/technical value; such records carry
 
 Allowed `resolution` values: `V2.02_wins`, `V1.00_wins`, `both_kept`,
 `manual_review`.
+## Informational entries (not conflicts)
+
+| dataset | record_id | field | v1_value | v2_value | resolution | decided_by | date | notes |
+|---------|-----------|-------|----------|----------|------------|-----------|------|-------|
+| dat_07 | dat_07_pinout_045 | pin_name | N/A | BT_ANT (pin 36, only SIM800H) | manual_review | auto_rule | 2026-10-10 | Informational: SIM800H-only BT_ANT pin retained for V2.02 fidelity per project rule 8. Consumers targeting SIM800L MUST ignore this record. |
