@@ -15,8 +15,12 @@ carried inside the JSON as a reserved top-level key:
       ...payload...
     }
 
-The file remains parseable by any standard JSON library. This decision is
-documented in docs/validation_guide.md.
+Payload handling:
+  * dict  -> merged under the marker key
+  * list  -> placed under "data"
+  * other -> placed under "data"
+The original payload is never dropped. This decision is documented in
+docs/validation_guide.md.
 
 For every data/**/*.yaml - including _dataset_meta.yaml - a sibling .json
 file is written. JSON files are auto-generated and must never be edited by
@@ -48,21 +52,25 @@ DATA = ROOT / "data"
 MARKER = "AUTO-GENERATED — DO NOT EDIT"
 
 def dump_json(obj) -> str:
-    if not (isinstance(obj, dict) and "_auto_generated" in obj):
-        obj = {
-            "_auto_generated": {
-                "marker": MARKER,
-                "generator": "tools/generate_json.py",
-            },
-            **({} if not isinstance(obj, dict) else obj),
+    marker_block = {
+        "_auto_generated": {
+            "marker": MARKER,
+            "generator": "tools/generate_json.py",
         }
-    return json.dumps(obj, indent=2, ensure_ascii=False) + "\n"
+    }
+    if isinstance(obj, dict):
+        if "_auto_generated" in obj:
+            final = obj
+        else:
+            final = {**marker_block, **obj}
+    else:
+        # Preserve list / scalar / None payloads under a stable key.
+        final = {**marker_block, "data": obj}
+    return json.dumps(final, indent=2, ensure_ascii=False) + "\n"
 
 def process(path: Path, check: bool) -> int:
     with path.open("r", encoding="utf-8") as fh:
         obj = yaml.safe_load(fh)
-    if obj is None:
-        obj = {}
     target = path.with_suffix(".json")
     new_text = dump_json(obj)
     if check:
