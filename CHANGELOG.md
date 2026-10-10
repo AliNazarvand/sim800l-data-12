@@ -71,3 +71,20 @@ Format: [SemVer](https://semver.org/).
   `docs/diagram_mapping.md`, `docs/data_dictionary.md`,
   `docs/validation_guide.md`.
 - Added `PHASE_2_REPORT.md`.
+
+## [v1.2.0] — Phase 2c: best-effort AT/SMS/GPRS extraction from HW PDFs
+- dat_01 (AT Command DB): 0 → 18 records (commands mentioned in the two
+  hardware PDFs; full syntax/parameters/responses pending AT Command Manual).
+- dat_02 (URC DB): 10 → 12 records (added `+CFUN: 1` and `+CPIN: READY`
+  from Section 4.5.1; remaining AT-related URCs pending Manual).
+- dat_09 (SMS DB): 0 → 3 capability records (modes, storage, RI notification).
+- dat_10 (GPRS/Data DB): 0 → 7 capability records (multi-slot, coding
+  schemes, PPP, TCP/IP, PBCCH, CSD, max data rate).
+- Regenerated schemas `dat_01`, `dat_09`, `dat_10` with explicit field
+  definitions (previously deferred-only, `_meta`-only).
+- Updated `_dataset_meta.yaml` for dat_01, dat_02, dat_09, dat_10
+  (still `partial`, pending AT Command Manual).
+- Updated `docs/source_mapping.md`, `docs/data_dictionary.md`,
+  `docs/validation_guide.md`.
+- Added `PHASE_2C_REPORT.md`.
+- No changes to README.md, PHASE_1_REPORT.md, LICENSE, NOTICE.

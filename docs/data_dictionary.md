@@ -118,3 +118,24 @@ Status: `deferred` — requires external certificate/key store sources.
 
 ### dat_18 — Certification Data (deferred)
 Status: `deferred` — requires external certification body sources.
+
+## Phase 2c updates
+
+### dat_01 — AT Command DB (partial: 18 records)
+Records now include: `command`, `syntax` (best-effort), `parameters` (empty
+until Manual), `responses` (default OK/ERROR), `purpose_en`, `purpose_fa`,
+`category`. Full grammar and parameter lists remain pending from the AT
+Command Manual.
+
+### dat_02 — URC DB (partial: 12 records)
+Added `+CFUN: 1` and `+CPIN: READY` to `urc_at.yaml` (both mentioned in
+Section 4.5.1). Remaining AT-related URCs (e.g. +CMTI, RING, +CIPRXGET)
+require the AT Command Manual.
+
+### dat_09 — SMS DB (partial: 3 capability records)
+Records: `capability`, `description_en`, `description_fa`.
+AT-command records (AT+CMGS, AT+CMGR, etc.) remain pending.
+
+### dat_10 — GPRS/Data DB (partial: 7 capability records)
+Records: `capability`, `description_en`, `description_fa`.
+AT-command records (AT+CGATT, AT+CSTT, etc.) remain pending.

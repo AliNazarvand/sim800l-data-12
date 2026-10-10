@@ -2,8 +2,9 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "dat_10 - GPRS/Data DB (single record)",
   "type": "object",
-  "required": ["_meta"],
-  "properties": { "_meta": {
+  "required": ["_meta","capability","description_en","description_fa"],
+  "properties": {
+    "_meta": {
     "type": "object",
     "required": ["id","source","source_version","source_page","source_section","source_figure_number","extracted_at","pending_fields","compatible_models","missing_reason","completion_source","license_note"],
     "properties": {
@@ -22,6 +23,10 @@
       "deprecated_in": { "type": ["string","null"] }
     },
     "additionalProperties": false
-  } },
+    },
+    "capability": { "type": "string" },
+    "description_en": { "type": "string" },
+    "description_fa": { "type": ["string","null"] }
+  },
   "additionalProperties": false
 }

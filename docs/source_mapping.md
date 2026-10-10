@@ -58,3 +58,26 @@ Notes
 | dat_13 | dat_13_sim_hw_006 | output_voltage | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 59 | 6.5 | Table 46 |
 | dat_13 | dat_13_sim_hw_007 | VIH_min_3v | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 59 | 6.4 | Table 45 |
 | dat_13 | dat_13_sim_hw_008 | notes_fa | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 39 | 4.8.2 | null |
+
+## Phase 2c additions (best-effort from HW PDFs)
+
+| dataset | record_id | field | source_document | source_version | source_page | source_section | source_figure |
+|---------|-----------|-------|-----------------|----------------|-------------|----------------|---------------|
+| dat_01 | dat_01_at_001 | command | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 11 | 2.1 | Table 2 |
+| dat_01 | dat_01_at_002 | command | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 24 | 4.2.2.2 | null |
+| dat_01 | dat_01_at_003 | command | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 26 | 4.3.1 | null |
+| dat_01 | dat_01_at_006 | command | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 23 | 4.2.1 | null |
+| dat_01 | dat_01_at_007 | command | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 22 | 4.1.2 | null |
+| dat_01 | dat_01_at_012 | command | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 38 | 4.8.1 | null |
+| dat_01 | dat_01_at_013 | command | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 36 | 4.7 | null |
+| dat_01 | dat_01_at_016 | command | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 29 | 4.5 | Table 9 |
+| dat_01 | dat_01_at_018 | command | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 52 | 4.18.1 | null |
+| dat_02 | dat_02_urc_at_001 | urc_code | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 30 | 4.5.1 | null |
+| dat_02 | dat_02_urc_at_002 | urc_code | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 30 | 4.5.1 | null |
+| dat_09 | dat_09_cap_001 | capability | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 11 | 2.2 | Table 1 |
+| dat_09 | dat_09_cap_002 | capability | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 11 | 2.2 | Table 1 |
+| dat_09 | dat_09_cap_003 | capability | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 34 | 4.6 | Table 12 |
+| dat_10 | dat_10_cap_001 | capability | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 11 | 2.2 | Table 1 |
+| dat_10 | dat_10_cap_002 | capability | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 13 | 2.2 | Table 3 |
+| dat_10 | dat_10_cap_003 | capability | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 12 | 2.2 | Table 2 |
+| dat_10 | dat_10_cap_007 | capability | SIM800H&SIM800L_Hardware_Design_V2.02 | V2.02 | 12 | 2.2 | Table 2 |

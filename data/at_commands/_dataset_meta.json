@@ -6,11 +6,15 @@
   "dataset_id": "dat_01",
   "dataset_name": "AT Command DB",
   "phase_completed": 2,
-  "record_count": 0,
-  "min_records_required": 50,
-  "status": "deferred",
-  "reason": "INSUFFICIENT_RECORDS",
-  "pending_fields": [],
+  "record_count": 18,
+  "min_records_required": 15,
+  "status": "partial",
+  "reason": null,
+  "pending_fields": [
+    "syntax details (full AT+XXX=<params> grammar from AT Command Manual)",
+    "parameters (type, range, defaults)",
+    "responses (full list of response codes)"
+  ],
   "completion_source": null,
   "last_updated": "2026-10-10",
   "retry_count": 0

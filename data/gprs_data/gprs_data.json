@@ -3,5 +3,174 @@
     "marker": "AUTO-GENERATED — DO NOT EDIT",
     "generator": "tools/generate_json.py"
   },
-  "records": []
+  "records": [
+    {
+      "_meta": {
+        "id": "dat_10_cap_001",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 11,
+        "source_section": "2.2",
+        "source_figure_number": "Table 1",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [
+          "AT_command_details"
+        ],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "capability": "GPRS_multi_slot_class",
+      "description_en": "GPRS multi-slot class 12 (default) / class 10 (optional).",
+      "description_fa": "کلاس multi-slot جی‌پی‌آر‌اس: ۱۲ (پیش‌فرض) / ۱۰ (اختیاری)."
+    },
+    {
+      "_meta": {
+        "id": "dat_10_cap_002",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 13,
+        "source_section": "2.2",
+        "source_figure_number": "Table 3",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [
+          "AT_command_details"
+        ],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "capability": "GPRS_coding_schemes",
+      "description_en": "Coding schemes CS-1, CS-2, CS-3, CS-4.",
+      "description_fa": "طرح‌های کدگذاری CS-1، CS-2، CS-3، CS-4."
+    },
+    {
+      "_meta": {
+        "id": "dat_10_cap_003",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 12,
+        "source_section": "2.2",
+        "source_figure_number": "Table 2",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [
+          "AT_command_details"
+        ],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "capability": "PPP_protocol",
+      "description_en": "PAP protocol for PPP connect.",
+      "description_fa": "پروتکل PAP برای اتصال PPP."
+    },
+    {
+      "_meta": {
+        "id": "dat_10_cap_004",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 12,
+        "source_section": "2.2",
+        "source_figure_number": "Table 2",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [
+          "AT_command_details"
+        ],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "capability": "TCP_IP_integrated",
+      "description_en": "Integrated TCP/IP protocol stack.",
+      "description_fa": "پشته پروتکل TCP/IP یکپارچه."
+    },
+    {
+      "_meta": {
+        "id": "dat_10_cap_005",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 12,
+        "source_section": "2.2",
+        "source_figure_number": "Table 2",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [
+          "AT_command_details"
+        ],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "capability": "PBCCH_support",
+      "description_en": "Packet Broadcast Control Channel (PBCCH) support.",
+      "description_fa": "پشتیبانی از کانال کنترل پخش بسته (PBCCH)."
+    },
+    {
+      "_meta": {
+        "id": "dat_10_cap_006",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 12,
+        "source_section": "2.2",
+        "source_figure_number": "Table 2",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [
+          "AT_command_details"
+        ],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "capability": "CSD_transmission_rates",
+      "description_en": "CSD transmission rates: 2.4, 4.8, 9.6, 14.4 kbps.",
+      "description_fa": "نرخ‌های ارسال CSD: 2.4، 4.8، 9.6، 14.4 کیلوبیت بر ثانیه."
+    },
+    {
+      "_meta": {
+        "id": "dat_10_cap_007",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 12,
+        "source_section": "2.2",
+        "source_figure_number": "Table 2",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [
+          "AT_command_details"
+        ],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "capability": "GPRS_data_rate_max",
+      "description_en": "GPRS data downlink/uplink transfer: max 85.6 kbps.",
+      "description_fa": "حداکثر نرخ انتقال داده GPRS (بالا/پایین): 85.6 کیلوبیت بر ثانیه."
+    }
+  ]
 }

@@ -1,3 +1,38 @@
-records: []
-# STATUS: PENDING - AT Command Manual not available.
+records:
+  - _meta:
+      id: "dat_02_urc_at_001"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 30
+      source_section: "4.5.1"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: ["exact_trigger_conditions", "parameter_list"]
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    urc_code: "+CFUN: 1"
+    urc_name: "Functionality level report"
+    description_fa: "سطح عملکرد ماژول پس از power-on (فقط با baud rate ثابت گزارش می‌شود)."
+    trigger: "Power-on with fixed baud rate set via AT+IPR"
+    related_pins: []
 
+  - _meta:
+      id: "dat_02_urc_at_002"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 30
+      source_section: "4.5.1"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: ["exact_trigger_conditions", "parameter_list"]
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    urc_code: "+CPIN: READY"
+    urc_name: "SIM ready"
+    description_fa: "اعلام آماده‌بودن کارت SIM پس از power-on (فقط با baud rate ثابت)."
+    trigger: "Power-on with fixed baud rate set via AT+IPR"
+    related_pins: []

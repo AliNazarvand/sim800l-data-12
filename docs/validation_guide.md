@@ -105,3 +105,14 @@ the repository:
 
 Partial datasets (dat_02, dat_12, dat_13) list their pending AT fields
 in `_dataset_meta.yaml.pending_fields`.
+
+## Phase 2c additions
+
+Schemas `dat_01`, `dat_09`, `dat_10` were regenerated with explicit field
+definitions. Deferred datasets that are still empty (`dat_03`, `dat_08`,
+`dat_11`, `dat_14`, `dat_16`, `dat_17`, `dat_18`) keep their `_meta`-only
+strict schema.
+
+The following datasets moved from `deferred` to `partial` in Phase 2c:
+dat_01 (18), dat_09 (3), dat_10 (7). `dat_02` gained 2 URC records
+(10 → 12) but remains `partial` with pending AT URCs.
