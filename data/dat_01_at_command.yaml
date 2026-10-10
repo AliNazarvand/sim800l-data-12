@@ -10162,43 +10162,6 @@
   - general
   created_at: '2026-10-10T20:26:13Z'
   updated_at: '2026-10-10T20:26:13Z'
-- id: dat_01_0280
-  category: General
-  command: +CGSM
-  mode: exec
-  syntax: AT+CGSM
-  parameters: []
-  response_success: OK
-  response_error: ERROR
-  examples:
-  - AT+CGSM
-  related_urcs: []
-  related_states: []
-  related_commands: []
-  firmware_min: unknown
-  firmware_max: unknown
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: auto
-    section: auto-extracted
-    quote: 'Request Complete TA Capabilities List AT+GCAP Request Complete TA Capabilities List Execution Response Command TA reports a list of additional capabilities. AT+GCAP +GCAP: list of supported
-      <name>s SIM800 Series_AT Command Manual_V1.01 40 2013-07-23 Smart Machine Smart Decision OK Parameter <name> +CGSM GSM function is supported +FCLASS FAX function is supported Reference Note V.25ter
-      2.2.34 AT+GM'
-  source_type: primary
-  confidence: 0.6
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
-  applicable_models:
-  - SIM800L
-  tags:
-  - at-command
-  - auto-extracted
-  - general
-  created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
 - id: dat_01_0281
   category: General
   command: +CRING
@@ -10594,15 +10557,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - general
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0292
   category: General
   command: +STKENV
@@ -10631,15 +10595,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - general
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0293
   category: General
   command: +CALV
@@ -10853,15 +10818,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - general
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0299
   category: General
   command: +CEXTERN
@@ -10890,15 +10856,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - general
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0300
   category: General
   command: +CEXTERNT
@@ -10927,15 +10894,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - general
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0301
   category: General
   command: +CNETLIGH
@@ -10964,15 +10932,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - general
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0302
   category: General
   command: +CWHITELI
@@ -11075,15 +11044,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - gprs
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0305
   category: General
   command: +IPD
@@ -11333,15 +11303,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - http
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0312
   category: HTTP
   command: +HTTPACTI
@@ -11370,15 +11341,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - http
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0313
   category: HTTP
   command: +HTTPREA
@@ -11444,15 +11416,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - http
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0315
   category: HTTP
   command: +HTTPSTAT
@@ -11480,15 +11453,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - http
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0316
   category: FTP
   command: +FTPMOD
@@ -11517,15 +11491,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - ftp
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0317
   category: FTP
   command: +FTPPUTOP
@@ -11776,15 +11751,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - general
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0324
   category: General
   command: +POP3REST
@@ -11887,15 +11863,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - general
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0327
   category: General
   command: +CMMSDELRE
@@ -11998,15 +11975,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - general
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0330
   category: General
   command: +CMMSPROFI
@@ -12108,15 +12086,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - general
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0333
   category: HTTP
   command: +HTTPACTIO
@@ -12145,15 +12124,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - http
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0334
   category: General
   command: +CMMSSENDCF
@@ -12181,15 +12161,16 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
   - at-command
   - auto-extracted
   - general
+  - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-10T20:34:47Z'
 - id: dat_01_0335
   category: General
   command: +DTMF
