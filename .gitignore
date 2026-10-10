@@ -6,3 +6,9 @@ venv/
 .vscode/
 .idea/
 *.tmp
+# -----------------------------------------------------------------------------
+# Proprietary source PDFs (SIMCom). See NOTICE. Kept on disk locally, but not
+# committed to git for copyright reasons.
+# -----------------------------------------------------------------------------
+sources/*.pdf
+sources/*.PDF
