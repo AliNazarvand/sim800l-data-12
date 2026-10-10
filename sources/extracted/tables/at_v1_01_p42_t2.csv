@@ -1,0 +1,5 @@
+AT+GOI Request Global Object Identification	
+Test Command AT+GOI=?	Response OK
+Execution Command AT+GOI	Response TA reports one or more lines of information text which permit the user to identify the device, based on the ISO system for registering unique object identifiers. <Object Id> OK
+	Parameter <Object Id> Identifier of device type see X.208, 209 for the format of <Object Id>
+Reference V.25ter	Note

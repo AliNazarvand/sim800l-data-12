@@ -1,0 +1,6 @@
+AT+SLEDS Set the Timer Period of Net Light	
+Test Command AT+SLEDS=?	Response +SLEDS: (1-3),(0,40-65535),(0,40-65535) OK
+	Parameters See Write Command
+Read Command AT+SLEDS?	Response +SLEDS: <mode>,<timer_on>,<timer_off> OK
+	Parameters See Write Command
+Write Command AT+SLEDS=<m ode>,<timer_on>	Response OK ERROR

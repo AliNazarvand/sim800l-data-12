@@ -1,0 +1,22 @@
+	Parameter
+	See Write Command
+Write Command AT+SMTPRCPT=< rcptType>[,<index> ,<rcptAddress>[,<r cptName>]]]	Response
+	OK
+	If error is related to ME functionality:
+	ERROR
+	
+	Parameter
+	<rcptType> The type of recipient, the types of TO and CC are used to
+	construct e-mail header in the field:”To:” or “Cc:”.
+	0 TO, Normal Recipient.
+	1 CC, Carbon Copy recipient.
+	2 BCC, Blind Carbon Copy recipient.
+	<index> Index of the type of recipient, decimal format
+	<rcptAddress> The Email recipient address.
+	<rcptName> The Email recipient name.
+	<rcptAddressLength> The max length of <rcptAddress>.
+	<rcptNameLength> The max length of <rcptName>.
+Reference	Note
+	(cid:122) If only <rcptType> is given,it will delete all items of <rcptType>
+	(cid:122) If only <rcptType> and <index> are given,it will delete the <index>
+	item of <rcptType>.

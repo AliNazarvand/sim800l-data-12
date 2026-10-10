@@ -1,0 +1,30 @@
+Ve	rsion			Date		Chapter	What is new
+V1.00							New version
+V1.01			2013-07-23			All	Modify GSM 07.05 to 3GPP TS 27.005,modify GSM 07.07 to 3GPP TS 27.007
+						1.1 Scope of the document	Add SIM800
+						2.2.8 ATH	Delete ATH parameter [n]
+						2.2.12 +++	Change "0.5 second" to "1 second"
+						2.2.13 ATO	Change "NO CARRIER" to "ERROR"
+						2.2.26 ATX	Change default value from 0 to 4
+						2.2.32 AT&W	Add AT+CFGRI,AT+CSGS
+						2.2.41.1 Auto-bauding	Disable DTR auto-bauding
+						3.2.14 AT+CHLD	Delete parameter of CHLD
+						3.2.18 AT+CLIP	Change URC parameter
+						3.2.51 AT+CRSL	Delete reference Note
+						3.2.7 AT+CEER	Change description of 34 (emergency call not possible)
+						4.2.10 AT+CRES	Delete description of CSCB
+						4.2.11 AT+CSAS	Delete description of CSCB
+						6.2.4 AT+CMIC	Add reference Note
+						6.2.11 AT+CFGRI	Add default value
+						6.2.16 AT+CCVM	Modify Test Command response information and parameter description
+						6.2.18 AT+CHF	Add URC
+						6.2.26 AT+STTONE	Change <duration> supported range;delete reference note
+						6.2.27 AT+SIMTONE	Modify last parameter of Test Command to 10-500000
+						6.2.48 AT+SLEDS	Modify default value
+						6.2.55 AT+CSGS	Add ATC
+						6.2.56 AT+CMICBIAS	Add ATC
+						8.2.2 AT+CIPSTART	Modify parameter
+						8.2.15 AT+CIPHEAD	Modify parameter
+						8.2.20 AT+CIPSRIP	Modify parameter
+						8.2.23 AT+CIPCCFG	Modify write cmd parameters
+						8.2.26 AT+CIPRXGET	Add "single IP & multi IP connection"

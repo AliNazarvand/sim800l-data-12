@@ -1,0 +1,5 @@
+AT+CNETLIGHT Close the Net Light or Open It to Shining	
+Write Command AT+CNETLIGH T=<mode>	Response OK ERROR
+	Parameter <mode> 0 close the net light 1 open the net light to shining
+Parameter Saving Mode	AT&W_SAVE
+Reference	Note

@@ -1,0 +1,4 @@
+AT+FTPUN Set FTP User Name	
+Test Command AT+FTPUN=?	Response OK
+	Parameter See Write Command
+Read Command AT+FTPUN?	Response +FTPUN: <value>

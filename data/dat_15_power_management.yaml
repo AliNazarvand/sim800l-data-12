@@ -1,4 +1,4 @@
-# auto-generated from sources at 2026-10-10T15:17:38Z
+# auto-generated at 2026-10-10T15:24:03Z
 - id: dat_15_0001
   category: Sleep
   source:
@@ -6,18 +6,18 @@
     version: V2.02
     date: '2015-07-27'
     page: ''
-    section: Sleep
+    section: Sleep Mode
   source_type: primary
-  confidence: 0.8
-  status: partial
+  confidence: 0.5
+  status: inferred
   conflicts: []
-  notes: ''
+  notes: شواهد در PDF موجود است؛ استنتاج از الگو
   tags:
   - sleep
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: Sleep Mode 1
   command: AT+CSCLK=1
   parameter: DTR
@@ -32,6 +32,38 @@
   related_states:
   - SLEEP
 - id: dat_15_0002
+  category: CSCLK
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: ''
+    section: CSCLK
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: AT+CSCLK در AT Manual موجود است
+  tags:
+  - csclk
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
+  mode: Slow Clock
+  command: AT+CSCLK
+  parameter: mode
+  value_min: 0
+  value_typ: 0
+  value_max: 2
+  unit: int
+  condition: ''
+  wake_source: DTR
+  related_commands:
+  - +CSCLK
+  related_states:
+  - SLEEP
+- id: dat_15_0003
   category: CFUN
   source:
     name: SIM800 Series AT Command Manual
@@ -40,7 +72,7 @@
     page: ''
     section: CFUN
   source_type: primary
-  confidence: 0.8
+  confidence: 0.75
   status: partial
   conflicts: []
   notes: ''
@@ -48,14 +80,14 @@
   - cfun
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: Minimum Functionality
   command: AT+CFUN=0
   parameter: fun
   value_min: 0
   value_typ: 0
-  value_max: 1
+  value_max: 4
   unit: int
   condition: ''
   wake_source: ''
@@ -63,3 +95,35 @@
   - +CFUN
   related_states:
   - 'OFF'
+- id: dat_15_0004
+  category: CSDT
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: ''
+    section: CSDT
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: ''
+  tags:
+  - csdt
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
+  mode: Sleep
+  command: AT+CSDT
+  parameter: mode
+  value_min: 0
+  value_typ: 0
+  value_max: 1
+  unit: int
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - +CSDT
+  related_states:
+  - SLEEP

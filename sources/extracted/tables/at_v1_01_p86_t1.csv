@@ -1,0 +1,19 @@
+				+CME ERROR: <err>	
+					
+				Note: The Command is writing only.	
+					
+				Parameters	
+				<dtmf-string> Which has a max length of 20 characters, must be entered	
+				between double quotes ("") and consists of combinations of the following	
+				separated by commas. But a single character does not require quotes.	
+				1) <dtmf> A single ASCII characters in the set 0-9, #,*, A-D.	
+				This is interpreted as a sequence of DTMF tones whose duration	
+				is set by the +VTD Command.	
+				2) {<dtmf>, <duration>} This is interpreted as a DTMF tone	
+				whose duration is determined by <duration>.	
+				<duration> Duration of the tone in 1/10 seconds range :1-255	
+M Ti	ax Response		number of DTMF characters*duration.	number of DTMF characters*duration.	
+	me				
+R 3 [1	eference		Note		
+	GPP TS 27.007				
+	3]				

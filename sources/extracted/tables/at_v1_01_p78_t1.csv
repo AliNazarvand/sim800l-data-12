@@ -1,0 +1,26 @@
+				OK	
+				Parameter	
+				See Write Command	
+Write Command AT+CR=[<mode >]				Response	
+				TA controls whether or not intermediate result code +CR: <serv> is	
+				returned from the TA to the TE at a call set up.	
+				OK	
+				Parameter	
+				<mode> 0 Disable	
+				1 Enable	
+				Intermediate result code	
+				If enabled, an intermediate result code is transmitted at the point during	
+				connect negotiation at which the TA has determined which speed and	
+				quality of service will be used, before any error control or data	
+				compression reports are transmitted, and before any final result code (e.g.	
+				CONNECT) is transmitted.	
+				+CR:<serv>	
+				Parameter	
+				<serv> ASYNC Asynchronous transparent	
+				SYNC Synchronous transparent	
+				REL ASYNC Asynchronous non-transparent	
+				REL SYNC Synchronous non-transparent	
+				GPRS For GPRS	
+R 3 [1	eference		Note	Note	
+	GPP TS 27.007				
+	3]				

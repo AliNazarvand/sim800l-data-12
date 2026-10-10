@@ -1,0 +1,13 @@
+AT+STKUSSD STK USSD setup	
+Test Command AT+STKUSSD =?	Response
+	OK
+	Parameter
+	See Write Command
+Write Command AT+STKUSSD =< command>	Response
+	OK
+	ERROR
+	Parameter
+	<command > stk ss command
+	0 (Trigger modem to send STK USSD)
+	4 (Trigger modem to send STK USSD but icon cannot be
+	displayed)

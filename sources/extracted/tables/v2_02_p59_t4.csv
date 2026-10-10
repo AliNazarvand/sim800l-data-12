@@ -1,0 +1,5 @@
+	Symbol			Description			Min			Typ			Max			Unit	
+	V RTC-IN			VRTC input voltage			1.2			2.8			3.0			V	
+	I RTC-IN			VRTC input current			-			3.0			5.0			uA	
+	V RTC-OUT			VRTC output voltage			-			2.8			-			V	
+	I RTC-OUT			VRTC output current			-						2.0			mA	

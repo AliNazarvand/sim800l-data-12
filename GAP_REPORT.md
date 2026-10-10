@@ -1,24 +1,17 @@
-# GAP_REPORT — تحلیل شکاف‌ها
+# GAP_REPORT
+
+**تاریخ**: 2026-10-10T15:24:11Z
 
 ## شکاف‌های منابع
-| منبع | دیتاست‌های وابسته | شدت |
-|---|---|---|
-| AT Command Manual V1.09+ | dat_01, 02, 03, 09, 10, 11, 12, 13 | بحرانی |
-| TCP/IP Manual | dat_10 | بالا |
-| HTTP/FTP/SSL Manuals | dat_11, 17 | بالا |
-| Audio Manual | dat_12 | متوسط |
-| SIM Manual | dat_13 | متوسط |
-| Firmware Release Notes | dat_08 | بحرانی |
-| Certification Docs | dat_18 | بحرانی |
-| EVB Schematic | dat_16 | پایین |
-| mcc-mnc کامل | dat_14 | پایین |
+- AT Manual V1.09+ موجود نیست → dat_01..13 محدود به V1.01
+- TCP/IP, HTTP, FTP, SSL Manuals موجود نیستند
+- Audio Manual موجود نیست
+- Firmware Release Notes موجود نیست → dat_08 blocked
+- Certification Docs موجود نیستند → dat_18 blocked
+- EVB Schematic موجود نیست → dat_16 deferred
 
 ## شکاف‌های داده‌ای
-- dat_01 تا dat_13: بخشی از commandها فقط در AT Manual جدیدتر موجودند.
-- dat_11, dat_17: بدون SSL Manual، پوشش < ۶۰٪ است.
-- dat_12: بدون Audio Manual، پوشش < ۶۰٪ است.
-
-## شکاف‌های ساختاری
-- همه ۱۸ schema موجود است.
-- همه ۱۸ data file موجود است.
-- گزارش‌های مدیریتی به‌روزرسانی شدند.
+- dat_04: 16 رکورد (هدف ≥ ۲۰)
+- dat_07: 26 رکورد (هدف ≥ ۵۰)
+- dat_15: 4 رکورد (هدف ≥ ۱۵)
+- dat_17: 0 رکورد (هدف ≥ ۵)

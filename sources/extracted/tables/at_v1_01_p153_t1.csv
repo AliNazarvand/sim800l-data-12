@@ -1,0 +1,6 @@
+	Parameter
+	<mode> 0 Send SMS in ordinary way
+	1 Enable to send SMS varying from 0x00 to 0x7f except
+	0x1a and 0x1b under text mode and GSM character set
+Reference	Note
+	Only be available in TEXT mode and AT+CSCS="GSM".

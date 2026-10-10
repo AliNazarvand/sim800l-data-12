@@ -1,0 +1,44 @@
+	Data Coding Scheme (default 0), or Cell Broadcast Data Coding Scheme in
+	integer format
+	<fo> Depending on the Command or result code: first octet of
+	GSM 03.40 SMS-DELIVER, SMS-SUBMIT (default 17),
+	SMS-STATUS-REPORT, or SMS-COMMAND (default 2) in integer
+	format
+	<length> integer type value indicating in the text mode (+CMGF=1)
+	the length of the message body <data> (or <cdata>) in characters; or in
+	PDU mode (+CMGF=0), the length of the actual TP data unit in octets (i.e.
+	the RP layer SMSC address octets are not counted in the length)
+	<mid> GSM 03.41 CBM Message Identifier in integer format
+	<oa> GSM 03.40 TP-Originating-Address Address-Value field in
+	string format; BCD numbers (or GSM default alphabet characters) are
+	converted characters of the currently selected TE character set (specified by
+	+CSCS in 3GPP TS 27.007); type of address given by <tooa>
+	<pdu> In the case of SMS: GSM 04.11 SC address followed by
+	GSM 03.40 TPDU in hexadecimal format: ME/TA converts each octet of
+	TP data unit into two IRA character long hexadecimal number (e.g. octet
+	with integer value 42 is presented to TE as two characters 2A (IRA 50 and
+	65)). In the case of CBS: GSM 03.41 TPDU in hexadecimal format.
+	<pid> GSM 03.40 TP-Protocol-Identifier in integer format
+	(default 0)
+	<sca> GSM 04.11 RP SC address Address-Value field in string
+	format; BCD numbers (or GSM default alphabet characters) are converted
+	to characters of the currently selected TE character set (specified by +CSCS
+	in 3GPP TS 27.007); type of address given by <tosca>
+	<scts> GSM 03.40 TP-Service-Centre-Time-Stamp in time-string
+	format (refer <dt>)
+	<stat> 0 "REC UNREAD" Received unread messages
+	1 "REC READ" Received read messages
+	2 "STO UNSENT" Stored unsent messages
+	3 "STO SENT" Stored sent messages
+	4 "ALL" All messages
+	<toda> GSM 04.11 TP-Destination-Address Type-of-Address octet
+	in integer format (when first character of <da> is + (IRA 43) default is 145,
+	otherwise default is 129)
+	<tooa> GSM 04.11 TP-Originating-Address Type-of-Address octet
+	in integer format (default refer<toda>)
+	<tosca> GSM 04.11 RP SC address Type-of-Address octet in integer
+	format (default refer <toda>)
+	<vp> Depending on SMS-SUBMIT <fo> setting: GSM 03.40
+	TP-Validity-Period either in integer format (default 167) or in time-string
+	format (refer <dt>)
+ax Response	5s

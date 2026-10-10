@@ -1,0 +1,24 @@
+AT+CCFC Call Forwarding Number and Conditions Control	
+Test Command AT+CCFC=?	Response
+	+CCFC: (list of supported <reason>s)
+	
+	OK
+	Parameter
+	See Write Command
+Write Command AT+CCFC=<rea on>, <mode>[,<numb r> [,<type> ,<class>[,<subad dr>[,<satype>[,ti me]]]]]]	Response
+	TA controls the call forwarding supplementary service. Registration,
+	erasure, activation, deactivation, and status query are supported.
+	Only ,<reads> and <mode> should be entered with mode (0-2,4)
+	If <mode>≠2 and Command successful
+	OK
+	If <mode>=2 and Command successful (only in connection with <reads> 0
+	–3)
+	For registered call forwarding numbers:
+	when <mode>=2 and command successful:
+	+CCFC: <status>,<class1>
+	[,<number>,<type>[,<subaddr>,<satype>[,<time>]]]
+	[<CR><LF>+CCFC: <status>,<class2>
+	[,<number>,<type>[,<subaddr>,<satype>[,<time>]]][…]
+	OK
+	If no call forwarding numbers are registered (and therefore all classes are
+	inactive):

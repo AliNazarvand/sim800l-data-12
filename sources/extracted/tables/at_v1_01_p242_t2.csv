@@ -1,0 +1,15 @@
+AT+SMTPRCPT Set the Email Recipient(TO/CC/BCC) Address and Name	
+Test Command AT+SMTPRCPT=?	Response
+	+SMTPRCPT: (range of supported <rcptType>s),(range of supported
+	<index>s),<rcptAddressLength>,<rcptNameLength>
+	
+	OK
+	Parameter
+	See Write Command
+	
+Read Command AT+SMTPRCPT?	Response
+	[+SMTPRCPT: <rcptType>,<index>,<rcptAddress>,<rcptName>
+	[<CR><LF>+SMTPRCPT: <rcptType>,<index>,<rcptAddress>,
+	<rcptName>[…]]]
+	
+	OK

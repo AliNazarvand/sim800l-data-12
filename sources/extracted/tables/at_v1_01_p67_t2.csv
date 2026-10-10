@@ -1,0 +1,5 @@
+AT+CMEE Report Mobile Equipment Error	
+Test Command AT+CMEE=?	Response +CMEE: (list of supported <n>s) OK
+	Parameter See Write Command
+Read Command AT+CMEE?	Response +CMEE: <n> OK
+	Parameter See Write Command

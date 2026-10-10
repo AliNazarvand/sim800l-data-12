@@ -1,0 +1,18 @@
+AT+CIPSHOWTP Display Transfer Protocol in IP Head When Received Data	
+est Command	Response +CIPSHOWTP: (list of supported <mode>s) OK
+AT+CIPSHOWTP	
+?	
+	
+	Parameter See Write Command
+ead Command	Response +CIPSHOWTP: <mode> OK
+AT+CIPSHOWTP	
+	
+	
+	Parameter See Write Command
+Write Command	Response OK ERROR Parameter <mode> A numeric parameter which indicates whether to display transfer protocol in IP header to received data or not 0 Not display transfer protocol 1 Display transfer protocol, the format is "+IPD, <data size>,<TCP/UDP>:<data>"
+AT+CIPSHOWTP	
+<mode>	
+	
+eference	Note This command will be effective only in single connection mode (+CIPMUX=0)
+	
+	

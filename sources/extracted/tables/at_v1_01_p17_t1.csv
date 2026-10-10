@@ -1,0 +1,10 @@
+Test Command	AT+<x>=?		The mobile equipment returns the list of parameters	
+			and value ranges set with the corresponding Write	
+			Command or by internal processes.	
+Read Command	AT+<x>?		This command returns the currently set value of the	
+			parameter or parameters.	
+Write Command	AT+<x>=<…>		This command sets the user-definable parameter	
+			values.	
+Execution Command	AT+<x>		The execution command reads non-variable	
+			parameters affected by internal processes in the GSM	
+			engine.	

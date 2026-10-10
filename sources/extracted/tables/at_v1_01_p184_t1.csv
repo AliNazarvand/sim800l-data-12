@@ -1,0 +1,27 @@
+	0 IP INITIAL
+	1 IP START
+	2 IP CONFIG
+	3 IP GPRSACT
+	4 IP STATUS
+	5 TCP CONNECTING/UDP CONNECTING/
+	SERVER LISTENING
+	6 CONNECT OK
+	7 TCP CLOSING/UDP CLOSING
+	8 TCP CLOSED/UDP CLOSED
+	9 PDP DEACT
+	In Multi-IP state:
+	0 IP INITIAL
+	1 IP START
+	2 IP CONFIG
+	3 IP GPRSACT
+	4 IP STATUS
+	5 IP PROCESSING
+	9 PDP DEACT
+Reference	Note
+	This command allows establishment of a TCP/UDP connection only when
+	the state is IP INITIAL or IP STATUS when it is in single state. In
+	multi-IP state, the state is in IP STATUS only. So it is necessary to process
+	"AT+CIPSHUT" before user establishes a TCP/UDP connection with this
+	command when the state is not IP INITIAL or IP STATUS.
+	When module is in multi-IP state, before this command is executed, it is
+	necessary to process "AT+CSTT, AT+CIICR, AT+CIFSR".

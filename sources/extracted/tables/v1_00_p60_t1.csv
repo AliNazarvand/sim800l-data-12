@@ -1,0 +1,37 @@
+	Symbol		Parameter			Conditions			Min			Typ			Max			Unit	
+VBAT	VBAT		Voltage						3.4			4.0			4.4			V	
+		Power drop			PCL=5									350			mV		
+		Voltage ripple				PCL=5													
+						@ f<200kHz									50			mV	
+						@ f>200kHz									2			mV	
+I VBAT	I VBAT	Average currnet				Power down mode						50			60			uA	
+						Sleep mode (at+cfun=1)：													
+						( BS-PA-MFRMS=9 )						1.02						mA	
+						( BS-PA-MFRMS=5)						1.11						mA	
+						( BS-PA-MFRMS=2)						1.88						mA	
+						Idle mode (at+cfun=1)：											mA		
+						GSM850						18.7						mA	
+						EGSM900						18.7							
+						DCS1800						18.7							
+						PCS1900						18.7							
+						Voice call (PCL=5)：											mA mA		
+						GSM850						199.48							
+						EGSM900						216.12							
+						DCS1800						146.48							
+						PCS1900						131.77							
+						Data mode GPRS (1Rx,4Tx)：											mA mA		
+						GSM850						453.57							
+						EGSM900						344.74							
+						DCS1800						216.20							
+						PCS1900						274.04							
+						Data mode GPRS (3Rx,2Tx)：											mA mA		
+						GSM850						386.09							
+						EGSM900						345.02							
+						DCS1800						216.79							
+						PCS1900						239.12							
+						Data mode GPRS (4Rx,1Tx)：											mA mA		
+						GSM850						212.69							
+						EGSM900						227.95							
+						DCS1800						158.19							
+						PCS1900						148.49							
+	I MAX		Peak current			During Tx burst						2.0						A	

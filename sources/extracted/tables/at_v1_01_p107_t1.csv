@@ -1,0 +1,44 @@
+	
+	OK
+	3) If error is related to ME functionality:
+	+CMS ERROR: <err>
+	Parameters
+	<alpha> String type (string should be included in quotation marks)
+	alphanumeric representation of <da> or <oa> corresponding to the entry
+	found in MT phonebook; implementation of this feature is manufacturer
+	specific
+	<da> GSM 03.40 TP-Destination-Address Address-Value field in
+	string format; BCD numbers (or GSM default alphabet characters) are
+	converted to characters of the currently selected TE character set (specified
+	by +CSCS in 3GPP TS 27.007); type of address given by <toda>
+	<data> In the case of SMS: GSM 03.40 TP-User-Data in text mode
+	responses; format:
+	- if <dcs> indicates that GSM 03.38 default alphabet is used and
+	<fo> indicates that GSM 03.40 TPUser-Data-Header-Indication
+	is not set:
+	- if TE character set other than "HEX" (refer Command Select
+	TE Character Set +CSCS in 3GPP TS 27.007):ME/TA converts
+	GSM alphabet into current TE character set according to rules
+	of Annex A
+	- if TE character set is "HEX": ME/TA converts each 7-bit
+	character of GSM alphabet into two IRA character long
+	hexadecimal number (e.g. character P (GSM 23) is presented as
+	17 (IRA 49 and 55))
+	- if <dcs> indicates that 8-bit or UCS2 data coding scheme is
+	used, or <fo> indicates that GSM 03.40
+	TP-User-Data-Header-Indication is set: ME/TA converts each
+	8-bit octet into two IRA character long hexadecimal number
+	(e.g. octet with integer value 42 is presented to TE as two
+	characters 2A (IRA 50 and 65)) In the case of CBS: GSM 03.41
+	CBM Content of Message in text mode responses; format:
+	- if <dcs> indicates that GSM 03.38 default alphabet is used:
+	- if TE character set other than "HEX" (refer Command +CSCS
+	in 3GPP TS 27.007): ME/TA converts GSM alphabet into
+	current TE character set according to rules of Annex A
+	- if TE character set is "HEX": ME/TA converts each 7-bit
+	character of GSM alphabet into two IRA character long
+	hexadecimal number
+	- if <dcs> indicates that 8-bit or UCS2 data coding scheme is
+	used: ME/TA converts each 8-bit octet into two IRA character
+	long hexadecimal number
+	<dcs> Depending on the Command or result code: GSM 03.38 SMS

@@ -1,0 +1,12 @@
+	Feature			Implementation	
+	Power supply			3.4V ~4.4V	
+	Power saving			typical power consumption in sleep mode is 0.7mA (AT+CFUN=0 )	
+Frequency bands	Frequency bands			(cid:122) Quad-band: GSM 850, EGSM 900, DCS 1800, PCS 1900. SIM800L can	
+				search the 4 frequency bands automatically. The frequency bands can also be	
+				set by AT command “AT+CBAND”. For details, please refer to document [1].	
+				(cid:122) Compliant to GSM Phase 2/2+	
+Transmitting power				(cid:122) Class 4 (2W) at GSM 850 and EGSM 900	
+				(cid:122) Class 1 (1W) at DCS 1800 and PCS 1900	
+GPRS connectivity				(cid:122) GPRS multi-slot class 12（default）	
+				(cid:122) GPRS multi-slot class 1~12 (option)	
+	Temperature range			(cid:122) Normal operation: -40°C ~ +85°C	

@@ -1,0 +1,21 @@
+	
+	If <reqLength> is 0,it indicates that transferring the attachment have
+	finished:
+	OK
+	
+	If error is related to ME functionality:
+	ERROR
+	
+	If some error occur:
+	+SMTPSEND: <code>
+	Parameter
+	<reqLength> Requested number of data bytes(0-<maxLength>) to
+	be transmitted
+	<cnfLength> Confirmed number of data bytes to be transmitted
+	<maxLength> The max length of data can be sent at a time. It depends
+	on the network status.
+	<code> See AT+SMTPSEND
+Reference	Note
+	(cid:122) <reqLength> can not be greater than <maxLength>.
+	(cid:122) When “+SMTPFT: 1,<maxLength>” is reported, then use
+	AT+SMTPFT=<reqLength> to send data.

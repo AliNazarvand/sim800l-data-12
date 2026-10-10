@@ -1,0 +1,10 @@
+ow>]	result codes.
+	OK
+	Parameter
+	<show> 0 Do not show header values defined in commands +CSCA
+	and +CSMP (<sca>, <tosca>, <fo>, <vp>, <pid> and <dcs>) nor <length>,
+	<toda> or <tooa> in +CMT, +CMGL, +CMGR result codes for
+	SMS-DELIVERs and SMS-SUBMITs in text mode
+	1 Show the values in result codes
+Reference 3GPP TS 27.005	Note
+	

@@ -1,0 +1,44 @@
+	OK
+	4) mode=4,play record file
+	AT+CREC=4,<id>,<channel>,<level>[,<repeat>]
+	OK
+	5) mode=5,stop play record file
+	AT+CREC=5
+	+CREC: 0
+	
+	OK
+	6) mode=6,read record data
+	AT+CREC=6,<id>,<len>,<offset>
+	+CREC: 6,<id>,<len>
+	<data>
+	
+	OK
+	7) mode=7,view record file infomation
+	AT+CREC=7, [<id>]
+	+CREC: 7,<id>,<len>,<form>
+	
+	OK
+	
+	8) mode=8,query free space
+	AT+CREC=8
+	+CREC: 8,<len>
+	
+	OK
+	9) mode=9, create record file directory.
+	AT+CREC=9,<location>
+	OK
+	
+	If error is related to ME functionality:
+	+CME ERROR: <err>
+	<err> 5000 Be recoding
+	5001 Be playing
+	5002 Audio busy
+	5003 No space
+	5004 Format error
+	5005 File operation failure
+	5006 File is null
+	5007 File size is error
+	5008 File is not exist
+	Parameter
+	<n> number of operation support, if SD card is supported, the number
+	will be 9, or will be 8

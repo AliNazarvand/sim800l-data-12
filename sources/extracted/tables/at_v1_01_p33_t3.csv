@@ -1,0 +1,6 @@
+ATS6 Pause Before Blind Dialling	
+Read Command ATS6?	Response <n> OK
+Write Command ATS6=<n>	Response OK ERROR
+	Parameter <n> 0..999 Time
+Parameter Saving Mode	AT&W_SAVE
+Reference V.25ter	Note No effect in GSM

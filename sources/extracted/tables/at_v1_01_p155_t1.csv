@@ -1,0 +1,7 @@
+Write Command		Response OK If error is related to ME functionality: +CME ERROR: <err>
+AT+EXUNSOL=		
+<exunsol>,<mod		
+e>		
+		Parameters <exunsol> String type(string should be included in quotation marks). values are currently reserved by the present document "SQ" Signal Quality Report Displays signal strength and channel bit error rate (similar to AT+CSQ) in form +CSQN: <rssi>,<ber>when values change. <mode> 0 Disable 1 Enable 2 Query
+Reference		Note
+		

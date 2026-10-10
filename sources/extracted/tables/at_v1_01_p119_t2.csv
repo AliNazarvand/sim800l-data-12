@@ -1,0 +1,15 @@
+AT+CSDH Show SMS Text Mode Parameters	
+Test Command AT+CSDH=?	Response
+	+CSDH: (list of supported <show>s)
+	
+	OK
+	Parameter
+	See Write Command
+Read Command AT+CSDH?	Response
+	+CSDH: <show>
+	
+	OK
+	Parameter
+	See Write Command
+Write Command AT+CSDH=[<sh	Response
+	TA determines whether detailed header information is shown in text mode

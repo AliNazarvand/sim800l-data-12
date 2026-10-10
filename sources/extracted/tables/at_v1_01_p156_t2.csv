@@ -1,0 +1,6 @@
+AT+CCALR Call Ready Query	
+Test Command AT+CCALR=?	Response +CCALR: (list of supported <mode>s) OK
+	Parameter <mode> A numeric parameter which indicates whether the module is ready for phone call. 0 Module is not ready for phone call 1 Module is ready for phone call
+Read Command AT+CCALR?	Response ME returns the status of result code presentation and an integer <n> which shows whether the module is currently ready for phone call. +CCALR: <mode> OK
+	Parameter See Test Command
+Reference	Note

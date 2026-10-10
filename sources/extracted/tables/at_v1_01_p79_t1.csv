@@ -1,0 +1,20 @@
+AT+CRC=[<mod e>]				TA controls whether or not the extended format of incoming call	
+				indication is used.	
+				OK	
+				Parameter	
+				<mode> 0 Disable extended format	
+				1 Enable extended format	
+				Omitted Use previous value	
+				Unsolicited Result Code	
+				When enabled, an incoming call is indicated to the TE with unsolicited	
+				result code +CRING: <type> instead of the normal RING.	
+				Parameter	
+				<type> ASYNC Asynchronous transparent	
+				SYNC Synchronous transparent	
+				REL ASYNC Asynchronous non-transparent	
+				REL SYNC Synchronous non-transparent	
+				FAX Facsimile	
+				VOICE Voice	
+R 3 [1	eference		Note	Note	
+	GPP TS 27.007				
+	3]				

@@ -1,0 +1,8 @@
+<pri_dns>	ERROR
+[,<sec_dns>]	Parameters
+	<pri_dns> A string parameter which indicates the IP address of the
+	primary domain name server
+	<sec_dns> A string parameter which indicates the IP address of the
+	secondary domain name server
+Reference	Note
+	

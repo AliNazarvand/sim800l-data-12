@@ -1,0 +1,4 @@
+	OK If error is related to ME functionality: +CME ERROR: <err>
+	Parameters <idx> 1..7 Call identification number This number can be used in +CHLD command operations <dir> 0 Mobile originated (MO) call 1 Mobile terminated (MT) call <stat> State of the call: 0 Active 1 Held 2 Dialing (MO call) 3 Alerting (MO call) 4 Incoming (MT call) 5 Waiting (MT call) 6 Disconnect <mode> Bearer/tele service: 0 Voice 1 Data 2 Fax <mpty> 0 Call is not one of multiparty (conference) call parties 1 Call is one of multiparty (conference) call parties <number> String type (string should be included in quotation marks) phone number in format specified by <type>. <type> Type of address <alphaId> String type (string should be included in quotation marks) alphanumeric representation of <number> corresponding to the entry found in phone book.
+Parameter Saving Mode	AUTO_SAVE
+Reference 3GPP TS 27.007 [13][14]	Note

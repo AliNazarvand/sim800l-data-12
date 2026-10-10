@@ -1,0 +1,4 @@
+AT+SPWM Generate the Pulse-Width-Modulation		
+Test Command AT+SPWM=?	Response +SPWM: (list of supported <index>s),(list of supported <period>s),(list o supported <level>s) OK	f
+	Parameters See Write Command	
+Write Command AT+SPWM=<in	Response OK	

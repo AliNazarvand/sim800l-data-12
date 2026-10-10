@@ -1,0 +1,38 @@
+	184			failed to save mms	
+	185			It is in edit mode	
+	186			It is not in edit mode	
+	187			No content in the buffer	
+	188			Not find the file	
+	189			Failed to receive mms	
+	190			Failed to read mms	
+	191			Not M-Notification.ind	
+	192			The mms inclosure is full	
+	193			Unknown	
+	753			missing required cmd parameter	
+	754			invalid SIM command	
+	755			invalid File Id	
+	756			missing required P1/2/3 parameter	
+	757			invalid P1/2/3 parameter	
+	758			missing required command data	
+	759			invalid characters in command data	
+	765			Invalid input value	
+	766			Unsupported mode	
+	767			Operation failed	
+	768			Mux already running	
+	769			Unable to get control	
+	770			SIM network reject	
+	771			Call setup in progress	
+	772			SIM powered down	
+	773			SIM file not present	
+	791			Param count not enough	
+	792			Param count beyond	
+	793			Param value range beyond	
+	794			Param type not match	
+	795			Param format invalid	
+	796			Get a null param	
+	797			CFUN state is 0 or 4	
+	796			Get a null param	
+	810			No Error	
+	811			Unrecognized Command	
+	812			Return Value Error	
+	813			Syntax Error	

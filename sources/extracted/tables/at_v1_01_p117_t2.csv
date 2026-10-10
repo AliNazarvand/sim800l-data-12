@@ -1,0 +1,13 @@
+AT+CSCA SMS Service Center Address	
+Test Command AT+CSCA=?	Response
+	OK
+Read Command AT+CSCA?	Response
+	+CSCA: <sca>,<tosca>[,<scaAlpha>]
+	
+	OK
+	Parameters
+	See Write Command
+Write Command AT+CSCA= <sca>[,<tosca>]	Response
+	TA updates the SMSC address, through which mobile originated SMS are
+	transmitted. In text mode, setting is used by send and writes commands. In
+	PDU mode, setting is used by the same commands, but only when the

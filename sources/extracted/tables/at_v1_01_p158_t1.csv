@@ -1,0 +1,19 @@
+dex>,<period>,<l		If error is related to ME functionality:	
+evel>		+CME ERROR: <err>	
+		Parameters	
+		<index> Integer type: the index number of PWM port, which value is	
+		0-2; Current only support one channel,whether 0 or 1 or 2,the PWM port is	
+		the same.	
+		0: for buzzer (according to the hardware support or not).	
+		1: corresponding to PWM_OUT0 in the hardware circuit	
+		2: corresponding to PWM_OUT1 in the hardware circuit	
+			
+		<period> the range of <period> is 0-2000,	
+		the output frequency equals to CLK/(PWM_CNT+1),where	
+		PWM_CNT=CLK/ period-1.	
+		<level> 0-100: tone level, which can be converted to duty ratio.	
+Reference		Note	
+		The PWM clock source is 4KHz, the equation of the final frequency is:	
+		frequency = CLK/(PWM_CNT+1), where PWM_CNT = CLK/period – 1.	
+		However, the equation can not be simplified.	
+		If freq equals 0, the output of PWM is in low state;	

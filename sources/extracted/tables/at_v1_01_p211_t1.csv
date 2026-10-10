@@ -1,0 +1,19 @@
+	1 Add the rule specified by <item>.
+	If <item> is not given, it can find an empty item
+	automatically. <ipAddr> and <mask> must be given.
+	2 Delete all of rules
+	<item> The item of IP filter rule
+	1-20
+	<ipAddr> Remote IP address,string type. It can be any valid IP
+	address in the format of ”xxx.xxx.xxx.xxx”
+	<mask> Mask to be applied to the<ipAddr>,string type.
+	It can be any valid IP address mask in the
+	format of ”xxx.xxx.xxx.xxx”
+eference	Note
+	(cid:122) When a packet comes from the IP address coming_IP, All rules
+	will be scanned to match the following criteria:
+	<coming_IP> & <mask> = <ipAddr> & <mask>
+	If the criteria is matched, the IP packet will be accepted and the rule
+	scan is finished. If the criteria is not matched, the IP packet will be
+	ignored.
+	(cid:122) The rule is stored in non volatile memory.

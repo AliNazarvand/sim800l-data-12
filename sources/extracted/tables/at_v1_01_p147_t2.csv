@@ -1,0 +1,5 @@
+AT+CCID Show ICCID	
+Test Command AT+CCID =?	Response OK
+Execution Command AT+CCID	Response Ccid data [ex. 898600810906F8048812] OK
+Max Response Time	2s
+Reference	Note

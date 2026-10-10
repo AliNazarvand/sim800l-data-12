@@ -1,0 +1,28 @@
+Write Command AT+CLIR=<n>	Response
+	TA restricts or enables the presentation of the CLI to the called party when
+	originating a call.
+	The Command overrides the CLIR subscription (default is restricted or
+	allowed) when temporary mode is provisioned as a default adjustment for
+	all following outgoing calls. This adjustment can be revoked by using the
+	opposite Command.
+	OK
+	If error is related to ME functionality:
+	+CME ERROR: <err>
+	Parameters
+	<n> (parameter sets the adjustment for outgoing calls):
+	0 Presentation indicator is used according to the subscription of
+	the CLIR service.
+	1 CLIR invocation
+	2 CLIR suppression
+	<m> (parameter shows the subscriber CLIR service status in the
+	network):
+	0 CLIR not provisioned
+	1 CLIR provisioned in permanent mode
+	2 Unknown (e.g. no network, etc.)
+	3 CLIR temporary mode presentation restricted
+	4 CLIR temporary mode presentation allowed
+	
+Max Response Time	15s
+	
+Reference	Note
+	

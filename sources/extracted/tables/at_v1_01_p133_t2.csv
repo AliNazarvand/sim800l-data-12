@@ -1,0 +1,38 @@
+AT+CMIC Change the Microphone Gain Level	
+Test Command AT+CMIC=?	Response
+	+CMIC: (list of supported <channel>s),(list of supported <gainlevel>s)
+	
+	OK
+	Parameters
+	See Write Command
+Read Command AT+CMIC?	Response
+	+CMIC: (<channel0>,<gainlevel0>),…,(<channeln>,<gainleveln>)
+	
+	OK
+	Parameters
+	See Write Command
+Write Command AT+CMIC= <channel>,<gainl	Response
+	OK
+	ERROR
+evel>	Parameters
+	<channel> 0 Main audio channel
+	1 Aux audio channel
+	<gainlevel> Int: 0 – 15
+	0 0dB
+	1 +1.5dB
+	2 +3.0 dB
+	3 +4.5 dB
+	4 +6.0 dB
+	5 +7.5 dB
+	6 +9.0 dB
+	7 +10.5 dB
+	8 +12.0 dB
+	9 +13.5 dB
+	10 +15.0 dB
+	11 +16.5 dB
+	12 +18.0 dB
+	13 +19.5 dB
+	14 +21.0 dB
+	15 +22.5 dB
+Parameter Saving Mode	AUTO_SAVE
+	

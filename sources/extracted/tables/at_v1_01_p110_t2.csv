@@ -1,0 +1,39 @@
+AT+CMGW Write SMS Message to Memory	
+est Command AT+CMGW=?	Response
+	OK
+Write Command ) If text mode +CMGF=1): AT+CMGW=<o /da>[,<tooa/tod >][,<stat>] CR> text is ntered ctrl-Z/ESC> ESC> quits without sending	Response
+	TA transmits SMS message (either SMS-DELIVER or SMS-SUBMIT)
+	from TE to memory storage <mem2>. Memory location <index> of the
+	stored message is returned. By default message status will be set to 'stored
+	unsent', but parameter <stat> allows also other status values to be given.
+	
+	If writing is successful:
+	+CMGW: <index>
+	
+	OK
+	If error is related to ME functionality:
+	+CMS ERROR: <err>
+) If PDU mode +CMGF=0): AT+CMGW=<le gth>[,<stat>] CR>PDU is iven ctrl-Z/ESC>	Parameters
+	<oa> GSM 03.40 TP-Originating-Address Address-Value field in
+	string format(string should be included in quotation marks); BCD numbers
+	(or GSM default alphabet characters) are converted to characters of the
+	currently selected TE character set (specified by +CSCS in 3GPP TS
+	27.007);type of address given by <tooa>
+	<da> GSM 03.40 TP-Destination-Address Address-Value field in
+	string format(string should be included in quotation marks); BCD numbers
+	(or GSM default alphabet characters) are converted to characters of the
+	currently selected TE character set (specified by +CSCS in 3GPP TS
+	27.007); type of address given by <toda>
+	<tooa> GSM 04.11 TP-Originating-Address Type-of-Address octet
+	in integer format (default refer <toda>)
+	<toda> GSM 04.11 TP-Destination-Address Type-of-Address octet in
+	integer format (when first character of <da> is + (IRA 43) default is 145,
+	otherwise default is 129)
+	129 Unknown type(IDSN format number)
+	161 National number type(IDSN format)
+	145 International number type(ISDN format)
+	177 Network specific number(ISDN format)
+	<length> Integer type value (not exceed 160 bytes) indicating in the
+	text mode (+CMGF=1) the length of the message body <data> (or
+	<cdata>) in characters;
+	or in PDU mode (+CMGF=0), the length of the actual TP

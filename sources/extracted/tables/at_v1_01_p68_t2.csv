@@ -1,0 +1,24 @@
+AT+COLP Connected Line Identification Presentation	
+Test Command AT+COLP=?	Response
+	+COLP: (list of supported <n>s)
+	
+	OK
+	Parameter
+	See Write Command
+Read Command AT+COLP?	Response
+	+COLP: <n>,<m>
+	
+	OK
+	If error is related to ME functionality:
+	+CME ERROR: <err>
+	Parameters
+	See Write Command
+Write Command AT+COLP=<n>	Response
+	TA enables or disables the presentation of the COL (Connected Line) at the
+	TE for a mobile originated call. It has no effect on the execution of the
+	supplementary service COLR in the network.
+	Intermediate result code is returned from TA to TE before any +CR or
+	V.25ter responses.
+	OK
+	If error is related to ME functionality:
+	+CME ERROR: <err>

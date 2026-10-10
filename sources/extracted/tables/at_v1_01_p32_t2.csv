@@ -1,0 +1,18 @@
+ATS3 Set Command Line Termination Character	
+Read Command ATS3?	Response
+	<n>
+	
+	OK
+	Parameter
+	See Write Command
+Write Command ATS3=<n>	Response
+	This parameter setting determines the character recognized by TA to
+	terminate an incoming Command line. The TA also returns this character in
+	output.
+	OK
+	
+	ERROR
+	Parameter
+	<n> 13 Command line termination character
+Reference V.25ter	Note
+	Default 13 = CR. It only supports default value.

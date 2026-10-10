@@ -1,0 +1,5 @@
+AT+CMMSSEND Start mms sending	
+Test Command AT+CMMSSEND= ?	Response
+	+CMMSSEND: "ADDRESS"
+	
+	OK

@@ -1,0 +1,2 @@
+AT&V Display Current Configuration	
+Execution Command AT&V[<n>]	Response TA returns the current parameter setting. <current configurations text> OK

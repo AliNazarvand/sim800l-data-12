@@ -1,0 +1,4 @@
+AT+CPBS Select Phonebook Memory Storage	
+Test Command AT+CPBS=?	Response
+	+CPBS: (list of supported <storage>s)
+	

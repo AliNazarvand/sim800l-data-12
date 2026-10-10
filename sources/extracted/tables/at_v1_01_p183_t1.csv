@@ -1,0 +1,44 @@
+	OK
+	Parameters
+	See Write Command
+Write Command )If single IP onnection +CIPMUX=0) T+CIPSTART= mode>,<IP ddress>,<port> r T+CIPSTART= mode>,<domai name>,<port> )If multi-IP onnection +CIPMUX=1) T+CIPSTART= n>,<mode>,<ad ress>,<port> T+CIPSTART= n>,<mode>,<do main name>, port>	Response
+	1)If single IP connection (+CIPMUX=0)
+	If format is right response
+	OK
+	otherwise response
+	If error is related to ME functionality:
+	+CME ERROR <err>
+	Response when connection exists
+	ALREADY CONNECT
+	Response when connection is successful
+	CONNECT OK
+	Otherwise
+	STATE: <state>
+	
+	CONNECT FAIL
+	2)If multi-IP connection
+	(+CIPMUX=1)
+	If format is right
+	OK,
+	otherwise response
+	If error is related to ME functionality:
+	+CME ERROR <err>
+	Response when connection exists
+	<n>,ALREADY CONNECT
+	If connection is successful
+	<n>,CONNECT OK
+	Otherwise
+	<n>,CONNECT FAIL
+	Parameters
+	<n> 0..5 Anumeric parameter which indicates the connection
+	number
+	<mode> A string parameter which indicates the connection type
+	"TCP" Establish a TCP connection
+	"UDP" Establish a UDP connection
+	<IP address> A string parameter which indicates remote server IP
+	address
+	<port> Remote server port
+	<domain name> Astring parameter which indicates remote server domain
+	name
+	<state> A string parameter which indicates the progress of
+	connecting

@@ -1,0 +1,8 @@
+AT+CLDTMF Local DTMF Tone Generation					
+Test Command AT+CLDTMF=?				Response	
+				+CLDTMF: (1-100),(0-9,A,B,C,D,*,#)	
+					
+				OK	
+W A n>	rite Command			Response	
+	T+CLDTMF=<			OK	
+	,<DTMF			ERROR	

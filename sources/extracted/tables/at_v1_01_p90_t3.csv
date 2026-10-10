@@ -1,0 +1,35 @@
+AT+CFUN Set Phone Functionality			
+Test Command AT+CFUN=?		Response	
+		+CFUN: (list of supported <fun>s),(list of supported <rst>s)	
+			
+		OK	
+		If error is related to ME functionality:	
+		+CME ERROR: <err>	
+		Parameters	
+		See Write Command	
+Read Command AT+CFUN?		Response	
+		+CFUN: <fun>	
+			
+		OK	
+		If error is related to ME functionality:	
+		+CME ERROR: <err>	
+		Parameters	
+		See Write Command	
+Write Command AT+CFUN=<fun >[,<rst>]		Response	
+		OK	
+		If error is related to ME functionality:	
+		+CME ERROR: <err>	
+		Parameters	
+		<fun> 0 Minimum functionality	
+		1 Full functionality (Default)	
+		4 Disable phone both transmit and receive RF circuits.	
+		<rst> 1 Reset the MT before setting it to <fun> power level.	
+Reference 3GPP TS 27.007 [13]		Note	
+		Minimum functionality mode (AT+CFUN=0)and RF disabled	
+		functionality mode (AT+CFUN=4) cannot be switched to each other.	
+		The <fun> power level will be written to flash except minimum	
+		functionality.	
+		AT+CFUN=1,1 can be used to reset module purposely at minimum/full	
+		functionality mode.	
+		Response string "OK" will be returned after module resets if baud rate is	
+		set to fixed baud rate.	

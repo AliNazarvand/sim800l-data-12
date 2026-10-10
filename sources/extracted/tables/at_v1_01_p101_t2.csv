@@ -1,0 +1,11 @@
+AT+CMGD Delete SMS Message	
+Test Command AT+CMGD=?	Response
+	+CMGD: (list of supported <index>s),(list of supported <delflag>s)
+	
+	OK
+	Parameters
+	See Write Command
+Write Command AT+CMGD=<in dex>[,<delflag>]	Response
+	TA deletes message from preferred message storage <mem1> location
+	<index>.
+	OK

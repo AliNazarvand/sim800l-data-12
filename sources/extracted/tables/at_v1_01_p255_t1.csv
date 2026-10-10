@@ -1,0 +1,32 @@
+AT+POP3DEL Mark the Specific Email to Delete	
+Test Command AT+POP3DEL=?	Response
+	+POP3DEL: (range of supported <msgNumber>s)
+	
+	OK
+	Parameter
+	See Write Command
+	
+Write Command AT+POP3DEL=<m gNumber>	Response
+	OK
+	If error is related to ME functionality:
+	ERROR
+	If POP3 server issues a positive response:
+	+POP3DEL: 1
+	If POP3 server issues a negative response:
+	+POP3DEL: 0
+	If some error occur:
+	+POP3OUT: <code>
+	Parameter
+	<msgNumber> The message number of Email
+	<code> The result of logging out POP3 server
+	1 Normally log out POP3 server
+	61 Network error
+	62 DNS resolve error
+	63 POP3 tcp connection error
+	64 Timeout of POP3 server response
+Reference	Note
+	The POP3 server marks the Email as deleted. Any future reference to the
+	message-number associated with the Email in a POP3 command
+	generates an error. The POP3 server does not actually delete the Email
+	until the POP3 client logs out POP3 server and closes the session
+	normally.

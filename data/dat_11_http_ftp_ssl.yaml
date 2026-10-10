@@ -1,4 +1,4 @@
-# auto-generated from sources at 2026-10-10T15:17:38Z
+# auto-generated at 2026-10-10T15:24:03Z
 - id: dat_11_0001
   category: FTP
   source:
@@ -16,14 +16,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPCID
-  syntax: ''
+  syntax: AT+FTPCID Set FTP Bearer Profile Identifier.......................................................223
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPCID Set FTP Bearer Profile Identifier.......................................................223
+  related_commands:
+  - dat_01_0212
 - id: dat_11_0002
   category: FTP
   source:
@@ -41,14 +43,25 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPDELE
-  syntax: ''
-  parameters: []
+  syntax: AT+FTPDELE
+  parameters:
+  - name: res
+    type: string
+    description: ','
+  - name: size
+    type: string
+    description: FTP size session AT+FTPSIZE
+  - name: N
+    type: string
+    description: Return
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPDELE
+  related_commands:
+  - dat_01_0213
 - id: dat_11_0003
   category: FTP
   source:
@@ -66,14 +79,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPEXTPUT
-  syntax: ''
+  syntax: AT+FTPEXTPUT Extend Upload File.....................................................................232
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPEXTPUT Extend Upload File.....................................................................232
+  related_commands:
+  - dat_01_0214
 - id: dat_11_0004
   category: FTP
   source:
@@ -91,14 +106,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPGET
-  syntax: ''
+  syntax: AT+FTPGET Download File................................................................................228
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPGET Download File................................................................................228
+  related_commands:
+  - dat_01_0215
 - id: dat_11_0005
   category: FTP
   source:
@@ -116,14 +133,42 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPGETNA
-  syntax: ''
-  parameters: []
+  syntax: AT+FTPGETNA OK
+  parameters:
+  - name: value
+    type: string
+    description: ME?
+  - name: err
+    type: string
+    description: Parameter
+  - name: error
+    type: string
+    description: 'If mode is 2:'
+  - name: cnflength
+    type: string
+    description: 012345678…
+  - name: mode
+    type: string
+    description: 1 For opening FTP get session
+  - name: reqlength
+    type: string
+    description: Requested number of data bytes (1-1460)to be read
+  - name: length
+    type: string
+    description: . 0 indicates that no data can be read.
+  - name: maxlength
+    type: string
+    description: 'If mode is 1 and it is a failed FTP get session:'
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPGETNA OK
+  - 'AT+FTPGETNA +FTPGETNAME: <value>'
+  - AT+FTPGETNA OK
+  related_commands:
+  - dat_01_0216
 - id: dat_11_0006
   category: FTP
   source:
@@ -141,14 +186,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPGETNAME
-  syntax: ''
+  syntax: AT+FTPGETNAME Set Download File Name....................................................225
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPGETNAME Set Download File Name....................................................225
+  related_commands:
+  - dat_01_0217
 - id: dat_11_0007
   category: FTP
   source:
@@ -166,14 +213,42 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPGETPA
-  syntax: ''
-  parameters: []
+  syntax: AT+FTPGETPA OK
+  parameters:
+  - name: value
+    type: string
+    description: TH?
+  - name: err
+    type: string
+    description: Parameter
+  - name: error
+    type: string
+    description: 'If mode is 2:'
+  - name: cnflength
+    type: string
+    description: 012345678…
+  - name: mode
+    type: string
+    description: 1 For opening FTP get session
+  - name: reqlength
+    type: string
+    description: Requested number of data bytes (1-1460)to be read
+  - name: length
+    type: string
+    description: . 0 indicates that no data can be read.
+  - name: maxlength
+    type: string
+    description: 'If mode is 1 and it is a failed FTP get session:'
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPGETPA OK
+  - 'AT+FTPGETPA +FTPGETPATH: <value>'
+  - AT+FTPGETPA OK
+  related_commands:
+  - dat_01_0218
 - id: dat_11_0008
   category: FTP
   source:
@@ -191,14 +266,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPGETPATH
-  syntax: ''
+  syntax: AT+FTPGETPATH Set Download File Path.........................................................226
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPGETPATH Set Download File Path.........................................................226
+  related_commands:
+  - dat_01_0219
 - id: dat_11_0009
   category: FTP
   source:
@@ -216,14 +293,19 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPLIST
-  syntax: ''
-  parameters: []
+  syntax: AT+FTPLIST
+  parameters:
+  - name: N
+    type: string
+    description: Return
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPLIST
+  related_commands:
+  - dat_01_0220
 - id: dat_11_0010
   category: FTP
   source:
@@ -241,14 +323,22 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPMKD
-  syntax: ''
-  parameters: []
+  syntax: AT+FTPMKD
+  parameters:
+  - name: res
+    type: string
+    description: FTP delete directory (not supported for AT+FTPRMD
+  - name: N
+    type: string
+    description: Return
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPMKD
+  related_commands:
+  - dat_01_0221
 - id: dat_11_0011
   category: FTP
   source:
@@ -266,14 +356,15 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPMOD
   syntax: ''
   parameters: []
   response: OK
   examples: []
-  related_commands: []
+  related_commands:
+  - dat_01_0222
 - id: dat_11_0012
   category: FTP
   source:
@@ -291,14 +382,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPMODE
-  syntax: ''
+  syntax: AT+FTPMODE Set Active or Passive FTP Mode..................................................221
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPMODE Set Active or Passive FTP Mode..................................................221
+  related_commands:
+  - dat_01_0223
 - id: dat_11_0013
   category: FTP
   source:
@@ -316,14 +409,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPPORT
-  syntax: ''
+  syntax: AT+FTPPORT Set FTP Control Port......................................................................220
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPPORT Set FTP Control Port......................................................................220
+  related_commands:
+  - dat_01_0224
 - id: dat_11_0014
   category: FTP
   source:
@@ -341,14 +436,25 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPPUT
-  syntax: ''
-  parameters: []
+  syntax: AT+FTPPUT
+  parameters:
+  - name: res
+    type: string
+    description: FTP return result AT+FTPPUT
+  - name: size
+    type: string
+    description: FTP size session AT+FTPSIZE
+  - name: N
+    type: string
+    description: Return
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPPUT
+  related_commands:
+  - dat_01_0225
 - id: dat_11_0015
   category: FTP
   source:
@@ -366,14 +472,42 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPPUTNA
-  syntax: ''
-  parameters: []
+  syntax: AT+FTPPUTNA OK
+  parameters:
+  - name: value
+    type: string
+    description: ME?
+  - name: err
+    type: string
+    description: Parameter
+  - name: error
+    type: string
+    description: 'If mode is 2:'
+  - name: cnflength
+    type: string
+    description: 012345678…
+  - name: mode
+    type: string
+    description: 1 For opening FTP get session
+  - name: reqlength
+    type: string
+    description: Requested number of data bytes (1-1460)to be read
+  - name: length
+    type: string
+    description: . 0 indicates that no data can be read.
+  - name: maxlength
+    type: string
+    description: 'If mode is 1 and it is a failed FTP get session:'
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPPUTNA OK
+  - 'AT+FTPPUTNA +FTPPUTNAME: <value>'
+  - AT+FTPPUTNA OK
+  related_commands:
+  - dat_01_0226
 - id: dat_11_0016
   category: FTP
   source:
@@ -391,14 +525,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPPUTNAME
-  syntax: ''
+  syntax: AT+FTPPUTNAME Set Upload File Name.........................................................227
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPPUTNAME Set Upload File Name.........................................................227
+  related_commands:
+  - dat_01_0227
 - id: dat_11_0017
   category: FTP
   source:
@@ -416,14 +552,24 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPPUTOP
-  syntax: ''
-  parameters: []
+  syntax: AT+FTPPUTOP OK
+  parameters:
+  - name: value
+    type: string
+    description: T?
+  - name: err
+    type: string
+    description: SIM800 Series_AT Command Manual_V1.01 222 2013-07-23
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPPUTOP OK
+  - 'AT+FTPPUTOP +FTPPUTOPT: <value>'
+  - AT+FTPPUTOP OK
+  related_commands:
+  - dat_01_0228
 - id: dat_11_0018
   category: FTP
   source:
@@ -441,14 +587,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPPUTOPT
-  syntax: ''
+  syntax: AT+FTPPUTOPT Set FTP Put Type.......................................................................222
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPPUTOPT Set FTP Put Type.......................................................................222
+  related_commands:
+  - dat_01_0229
 - id: dat_11_0019
   category: FTP
   source:
@@ -466,14 +614,42 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPPUTPA
-  syntax: ''
-  parameters: []
+  syntax: AT+FTPPUTPA OK
+  parameters:
+  - name: value
+    type: string
+    description: TH?
+  - name: err
+    type: string
+    description: Parameter
+  - name: error
+    type: string
+    description: 'If mode is 2:'
+  - name: cnflength
+    type: string
+    description: 012345678…
+  - name: mode
+    type: string
+    description: 1 For opening FTP get session
+  - name: reqlength
+    type: string
+    description: Requested number of data bytes (1-1460)to be read
+  - name: length
+    type: string
+    description: . 0 indicates that no data can be read.
+  - name: maxlength
+    type: string
+    description: 'If mode is 1 and it is a failed FTP get session:'
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPPUTPA OK
+  - 'AT+FTPPUTPA +FTPPUTPATH: <value>'
+  - AT+FTPPUTPA OK
+  related_commands:
+  - dat_01_0230
 - id: dat_11_0020
   category: FTP
   source:
@@ -491,14 +667,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPPUTPATH
-  syntax: ''
+  syntax: AT+FTPPUTPATH Set Upload File Path..............................................................227
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPPUTPATH Set Upload File Path..............................................................227
+  related_commands:
+  - dat_01_0231
 - id: dat_11_0021
   category: FTP
   source:
@@ -516,14 +694,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPPW
-  syntax: ''
+  syntax: AT+FTPPW Set FTP Password...............................................................................225
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPPW Set FTP Password...............................................................................225
+  related_commands:
+  - dat_01_0232
 - id: dat_11_0022
   category: FTP
   source:
@@ -541,14 +721,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPREST
-  syntax: ''
+  syntax: AT+FTPREST Set Resume Broken Download.......................................................223
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPREST Set Resume Broken Download.......................................................223
+  related_commands:
+  - dat_01_0233
 - id: dat_11_0023
   category: FTP
   source:
@@ -566,14 +748,22 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPRMD
-  syntax: ''
-  parameters: []
+  syntax: AT+FTPRMD
+  parameters:
+  - name: res
+    type: string
+    description: FTP list session (not supported for all AT+FTPLIST
+  - name: N
+    type: string
+    description: Return
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPRMD
+  related_commands:
+  - dat_01_0234
 - id: dat_11_0024
   category: FTP
   source:
@@ -591,14 +781,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPSCONT
-  syntax: ''
+  syntax: AT+FTPSCONT Save FTP Application Context..................................................230
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPSCONT Save FTP Application Context..................................................230
+  related_commands:
+  - dat_01_0235
 - id: dat_11_0025
   category: FTP
   source:
@@ -616,14 +808,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPSERV
-  syntax: ''
+  syntax: AT+FTPSERV Set FTP Server Address..................................................................224
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPSERV Set FTP Server Address..................................................................224
+  related_commands:
+  - dat_01_0236
 - id: dat_11_0026
   category: FTP
   source:
@@ -641,14 +835,22 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPSIZE
-  syntax: ''
-  parameters: []
+  syntax: AT+FTPSIZE
+  parameters:
+  - name: res
+    type: string
+    description: FTP create directory (not supported for AT+FTPMKD
+  - name: N
+    type: string
+    description: Return
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPSIZE
+  related_commands:
+  - dat_01_0237
 - id: dat_11_0027
   category: FTP
   source:
@@ -666,14 +868,64 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPSTATE
-  syntax: ''
-  parameters: []
+  syntax: AT+FTPSTATE
+  parameters:
+  - name: err
+    type: string
+    description: Parameter
+  - name: state
+    type: string
+    description: 0 idle
+  - name: mode
+    type: string
+    description: '[,'
+  - name: pos
+    type: string
+    description: ','
+  - name: timeout
+    type: string
+    description: '] If mode is 2'
+  - name: address
+    type: string
+    description: ','
+  - name: len
+    type: string
+    description: 'If error is related to ME functionality:'
+  - name: error
+    type: string
+    description: ”,
+  - name: reqlength
+    type: string
+    description: OK
+  - name: cnflength
+    type: string
+    description: 012345678…
+  - name: type
+    type: string
+    description: '=1:'
+  - name: cid
+    type: string
+    description: '+CIPGSMLOC:'
+  - name: locationcode
+    type: string
+    description: '[,'
+  - name: longitude
+    type: string
+    description: ','
+  - name: latitude
+    type: string
+    description: ','
+  - name: date
+    type: string
+    description: ','
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPSTATE
+  related_commands:
+  - dat_01_0238
 - id: dat_11_0028
   category: FTP
   source:
@@ -691,14 +943,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPTYPE
-  syntax: ''
+  syntax: AT+FTPTYPE Set the Type of Data to Be Transferred...........................................222
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPTYPE Set the Type of Data to Be Transferred...........................................222
+  related_commands:
+  - dat_01_0239
 - id: dat_11_0029
   category: FTP
   source:
@@ -716,14 +970,16 @@
   - ftp
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +FTPUN
-  syntax: ''
+  syntax: AT+FTPUN Set FTP User Name............................................................................224
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+FTPUN Set FTP User Name............................................................................224
+  related_commands:
+  - dat_01_0240
 - id: dat_11_0030
   category: HTTP
   source:
@@ -741,14 +997,59 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPACTI
-  syntax: ''
-  parameters: []
+  syntax: 'AT+HTTPACTI +HTTPACTION: (0-2)'
+  parameters:
+  - name: Method
+    type: string
+    description: 'If error is related to ME functionality:'
+  - name: err
+    type: string
+    description: Unsolicited Result Code
+  - name: StatusCode
+    type: string
+    description: ','
+  - name: DataLen
+    type: string
+    description: Parameter
+  - name: start_address
+    type: string
+    description: s),(list of supported
+  - name: date_len
+    type: string
+    description: D=
+  - name: data
+    type: string
+    description: s>,
+  - name: byte_size
+    type: string
+    description: OK
+  - name: data_len
+    type: string
+    description: The actual length for data output.
+  - name: mode
+    type: string
+    description: 'CID:'
+  - name: value
+    type: string
+    description: 'URL:'
+  - name: status
+    type: string
+    description: ','
+  - name: finish
+    type: string
+    description: ','
+  - name: remain
+    type: string
+    description: US?
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - 'AT+HTTPACTI +HTTPACTION: (0-2)'
+  - AT+HTTPACTI OK
+  related_commands:
+  - dat_01_0250
 - id: dat_11_0031
   category: HTTP
   source:
@@ -766,14 +1067,31 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPACTIO
-  syntax: ''
-  parameters: []
+  syntax: AT+HTTPACTIO
+  parameters:
+  - name: Method
+    type: string
+    description: ','
+  - name: StatusCode
+    type: string
+    description: ','
+  - name: res
+    type: string
+    description: FTPGET session AT+FTPGET=1
+  - name: maxlength
+    type: string
+    description: It is ready to upload data. AT+FTPPUT
+  - name: size
+    type: string
+    description: FTP size session AT+FTPSIZE
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+HTTPACTIO
+  related_commands:
+  - dat_01_0251
 - id: dat_11_0032
   category: HTTP
   source:
@@ -791,14 +1109,16 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPACTION
-  syntax: ''
+  syntax: AT+HTTPACTION HTTP Method Action.............................................................215
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+HTTPACTION HTTP Method Action.............................................................215
+  related_commands:
+  - dat_01_0252
 - id: dat_11_0033
   category: HTTP
   source:
@@ -816,14 +1136,16 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPDATA
-  syntax: ''
+  syntax: AT+HTTPDATA Input HTTP Data.........................................................................214
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+HTTPDATA Input HTTP Data.........................................................................214
+  related_commands:
+  - dat_01_0253
 - id: dat_11_0034
   category: HTTP
   source:
@@ -841,14 +1163,40 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPINIT
-  syntax: ''
-  parameters: []
+  syntax: AT+HTTPINIT
+  parameters:
+  - name: err
+    type: string
+    description: Reference Note
+  - name: HTTPParamTag
+    type: string
+    description: ','
+  - name: HTTPParamValue
+    type: string
+    description: OK
+  - name: size
+    type: string
+    description: s),(list of supported
+  - name: time
+    type: string
+    description: s)
+  - name: Method
+    type: string
+    description: 'If error is related to ME functionality:'
+  - name: StatusCode
+    type: string
+    description: ','
+  - name: DataLen
+    type: string
+    description: Parameter
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+HTTPINIT
+  related_commands:
+  - dat_01_0254
 - id: dat_11_0035
   category: HTTP
   source:
@@ -866,14 +1214,16 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPPARA
-  syntax: ''
+  syntax: AT+HTTPPARA Set HTTP Parameters Value........................................................213
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+HTTPPARA Set HTTP Parameters Value........................................................213
+  related_commands:
+  - dat_01_0255
 - id: dat_11_0036
   category: HTTP
   source:
@@ -891,14 +1241,51 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPREA
-  syntax: ''
-  parameters: []
+  syntax: 'AT+HTTPREA +HTTPREAD: (list of supported <start_address>s),(list of supported<'
+  parameters:
+  - name: start_address
+    type: string
+    description: s),(list of supported
+  - name: date_len
+    type: string
+    description: D=
+  - name: data
+    type: string
+    description: s>,
+  - name: byte_size
+    type: string
+    description: OK
+  - name: err
+    type: string
+    description: Parameters
+  - name: data_len
+    type: string
+    description: The actual length for data output.
+  - name: mode
+    type: string
+    description: 'CID:'
+  - name: value
+    type: string
+    description: 'URL:'
+  - name: status
+    type: string
+    description: ','
+  - name: finish
+    type: string
+    description: ','
+  - name: remain
+    type: string
+    description: US?
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - 'AT+HTTPREA +HTTPREAD: (list of supported <start_address>s),(list of supported<'
+  - 'AT+HTTPREA +HTTPREAD: <date_len>'
+  - AT+HTTPREA <data>
+  related_commands:
+  - dat_01_0256
 - id: dat_11_0037
   category: HTTP
   source:
@@ -916,14 +1303,16 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPREAD
-  syntax: ''
+  syntax: AT+HTTPREAD Read the HTTP Server Response................................................217
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+HTTPREAD Read the HTTP Server Response................................................217
+  related_commands:
+  - dat_01_0257
 - id: dat_11_0038
   category: HTTP
   source:
@@ -941,14 +1330,35 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPSCON
-  syntax: ''
-  parameters: []
+  syntax: AT+HTTPSCON TA returns HTTP Application Context, which consists of the following
+  parameters:
+  - name: mode
+    type: string
+    description: 'CID:'
+  - name: value
+    type: string
+    description: 'URL:'
+  - name: err
+    type: string
+    description: Parameter
+  - name: status
+    type: string
+    description: ','
+  - name: finish
+    type: string
+    description: ','
+  - name: remain
+    type: string
+    description: US?
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+HTTPSCON TA returns HTTP Application Context, which consists of the following
+  - AT+HTTPSCON Command parameters, and when system is rebooted, the parameters will
+  related_commands:
+  - dat_01_0258
 - id: dat_11_0039
   category: HTTP
   source:
@@ -966,14 +1376,16 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPSCONT
-  syntax: ''
+  syntax: AT+HTTPSCONT Save HTTP Application Context..............................................218
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+HTTPSCONT Save HTTP Application Context..............................................218
+  related_commands:
+  - dat_01_0259
 - id: dat_11_0040
   category: HTTP
   source:
@@ -991,14 +1403,35 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPSTAT
-  syntax: ''
-  parameters: []
+  syntax: AT+HTTPSTAT OK
+  parameters:
+  - name: mode
+    type: string
+    description: ','
+  - name: status
+    type: string
+    description: ','
+  - name: finish
+    type: string
+    description: ','
+  - name: remain
+    type: string
+    description: US?
+  - name: err
+    type: string
+    description: 'Parameter:'
+  - name: value
+    type: string
+    description: OK
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+HTTPSTAT OK
+  - 'AT+HTTPSTAT +HTTPSTATUS: <mode>,<status>,<finish>,<remain>'
+  related_commands:
+  - dat_01_0260
 - id: dat_11_0041
   category: HTTP
   source:
@@ -1016,14 +1449,16 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPSTATUS
-  syntax: ''
+  syntax: AT+HTTPSTATUS Read HTTP Status...................................................................219
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+HTTPSTATUS Read HTTP Status...................................................................219
+  related_commands:
+  - dat_01_0261
 - id: dat_11_0042
   category: HTTP
   source:
@@ -1041,14 +1476,41 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPTER
-  syntax: ''
-  parameters: []
+  syntax: AT+HTTPTER OK
+  parameters:
+  - name: err
+    type: string
+    description: Reference Note
+  - name: HTTPParamTag
+    type: string
+    description: ','
+  - name: HTTPParamValue
+    type: string
+    description: OK
+  - name: size
+    type: string
+    description: s),(list of supported
+  - name: time
+    type: string
+    description: s)
+  - name: Method
+    type: string
+    description: 'If error is related to ME functionality:'
+  - name: StatusCode
+    type: string
+    description: ','
+  - name: DataLen
+    type: string
+    description: Parameter
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+HTTPTER OK
+  - 'AT+HTTPTER If error is related to ME functionality:'
+  related_commands:
+  - dat_01_0262
 - id: dat_11_0043
   category: HTTP
   source:
@@ -1066,11 +1528,13 @@
   - http
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +HTTPTERM
-  syntax: ''
+  syntax: AT+HTTPTERM Terminate HTTP Service............................................................212
   parameters: []
   response: OK
-  examples: []
-  related_commands: []
+  examples:
+  - AT+HTTPTERM Terminate HTTP Service............................................................212
+  related_commands:
+  - dat_01_0263

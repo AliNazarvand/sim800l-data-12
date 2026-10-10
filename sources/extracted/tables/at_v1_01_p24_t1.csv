@@ -1,0 +1,44 @@
+	
+	When TA returns to Command mode after call release
+	OK
+	
+	If connection successful and voice call
+	OK
+	Parameters
+	<n> String of dialing digits and optionally V.25ter modifiers dialing
+	digits:
+	0-9, * , #, +, A, B, C
+	Following V.25ter modifiers are ignored:
+	,(comma), T, P, !, W, @
+	
+	Emergency call:
+	<n> Standardized emergency number 112 (no SIM needed)
+	<mgsm> String of GSM modifiers:
+	I Actives CLIR (Disables presentation of own number to
+	called party)
+	i Deactivates CLIR (Enable presentation of own number
+	to called party)
+	G Activates Closed User Group invocation for this call
+	only
+	g Deactivates Closed User Group invocation for this call
+	only
+	<;> Only required to set up voice call , return to Command state
+ax Response ime	20s(voice call)
+	Timeout set with ATS7 (data call)
+eference .25ter	Note
+	Parameter "I" and "i" only if no *# code is within the dial string
+	<n> is default for last number that can be dialed by ATDL
+	*# codes sent with ATD are treated as voicecalls. Therefore, the Command
+	must be terminated with a semicolon ";"
+	See ATX Command for setting result code and call monitoring parameters.
+	
+	Responses returned after dialing with ATD
+	For voice call two different responses mode can be determined. TA returns
+	"OK" immediately either after dialing was completed or after the call is
+	established. The setting is controlled by AT+COLP. Factory default is
+	AT+COLP=0, this cause the TA returns "OK" immediately after dialing
+	was completed, otherwise TA will returns "OK", "BUSY", "NO DIAL
+	TONE", "NO CARRIER".
+	
+	Using ATD during an active voice call:
+	When a user originates a second voice call while there is already an active

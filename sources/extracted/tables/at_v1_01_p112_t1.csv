@@ -1,0 +1,27 @@
+	code.
+	1) If text mode(+CMGF=1) and sending successful:
+	+CMSS: <mr>
+	
+	OK
+	2) If PDU mode(+CMGF=0) and sending successful:
+	+CMSS: <mr>
+	
+	OK
+	3)If error is related to ME functionality:
+	+CMS ERROR: <err>
+	Parameters
+	<index> Integer type; value in the range of location numbers supported
+	by the associated memory
+	<da> GSM 03.40 TP-Destination-Address Address-Value field in
+	string format(string should be included in quotation marks); BCD numbers
+	(or GSM default alphabet characters) are converted to characters of the
+	currently selected TE character set (specified by +CSCS in 3GPP TS
+	27.007); type of address given by <toda>
+	<toda> GSM 04.11 TP-Destination-Address Type-of-Address octet
+	in integer format (when first character of <da> is + (IRA 43) default is 145,
+	otherwise default is 129)
+	<mr> GSM 03.40 TP-Message-Reference in integer format
+Max Response Time	60s
+	
+Reference 3GPP TS 27.005	Note
+	

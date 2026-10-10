@@ -1,0 +1,26 @@
+	+CMS ERROR: <err>
+	Parameters
+	<mode> 0 Message types specified in <mids> and <dcss> are
+	accepted
+	1 Message types specified in <mids> and <dcss> are not
+	accepted.
+	<mids> String type (string should be included in quotation marks); all
+	different possible combinations of CBM message identifiers (refer <mid>)
+	(default is empty string); e.g. "0,1,5,320,922". Total 15 different <mids>
+	values can be supported. <mids> values cannot be written consecutively,
+	such as "100-200"
+	<dcss> String type(string should be included in quotation marks); all
+	different possible combinations of CBM data coding schemes (refer <dcs>)
+	(default is empty string); e.g. "0,5". Total 5 different <dcss> values can be
+	supported. <dcss> values cannot be written consecutively, such as "0-5".
+Reference 3GPP TS 27.005	Note
+	AT+CSCB=0 will reset <mids> and <dcss> and select no <mids> and no
+	<dcss>.
+	AT+CSCB=1 means all <dcss> are accepted but this command has no effect
+	on the list of the <mids> accepted. "0-255" means all <dcss> are accepted.
+	AT+CSCB=0, <mids> will add the <mids> values in the <mids> current list
+	handled by module.
+	AT+CSCB=0, ,<dcss> will add the <dcss> values in the <dcss> current list
+	handled by module.
+	If AT+CSCB=0, <mids> is received while the list of <mids> is full, OK is
+	returned and new value is not added.

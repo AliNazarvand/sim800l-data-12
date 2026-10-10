@@ -1,0 +1,16 @@
+	+FTPSIZE:1,0,<size>
+	
+	If failed:
+	OK
+	+FTPSIZE:1,<error>,<0>
+	
+	If error is related to ME functionality:
+	+CME ERROR: <err>
+	Parameter
+	<error> See "AT+FTPGET"
+	<size> The file size. Unit: byte
+Max Response Time	60 seconds(In case no response is received from server)
+	
+Reference	Note
+	The file is specified by the "AT+FTPGETNAME" and
+	"AT+FTPGETPATH" commands.

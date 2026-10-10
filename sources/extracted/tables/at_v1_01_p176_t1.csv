@@ -1,0 +1,22 @@
+AT+CGDATA Enter Data State	
+Test Command AT+CGDATA=?	Response
+	+CGDATA: list of supported <L2P>s
+	
+	OK
+	Parameter
+	See Write Command
+Write Command AT+CGDATA=< L2P> [,<cid>]	Response
+	CONNECT
+	If error is related to ME functionality:
+	+CME ERROR: <err>
+	Parameters
+	<L2P> A string parameter (string should be included in quotation
+	marks) that indicates the layer 2 protocol to be used between the
+	TE and MT:
+	"PPP" Point to Point protocol for a PDP such as IP
+	Other values are not supported and will result in an ERROR
+	response to the execution Command.
+	<cid> A numeric parameter which specifies a particular PDP context
+	definition (see +CGDCONT Command)
+Reference	Note
+	

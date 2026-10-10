@@ -1,0 +1,8 @@
+AT+CGMI				<manufacturer>	
+					
+				OK	
+				Parameter	
+				<manufacturer> The ID of manufacturer	
+R 3 [1	eference		Note	Note	
+	GPP TS 27.007				
+	3]				

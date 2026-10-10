@@ -1,0 +1,24 @@
+AT+DDET DTMF Detection Control	
+Test Command AT+DDET=?	Response
+	+DDET: (0,1)
+	
+	OK
+	Parameter
+	See Write Command
+Read Command AT+DDET?	Response
+	+DDET: <mode>
+	
+	OK
+	Parameters
+	See Write Command
+Write Command AT+DDET=<mo de>	Response
+	OK
+	ERROR
+	Parameters
+	<mode> disable or enable DTMF detection control
+	0 disable
+	1 enable
+Parameter Saving Mode	AT&W_SAVE
+	
+Reference	Note
+	

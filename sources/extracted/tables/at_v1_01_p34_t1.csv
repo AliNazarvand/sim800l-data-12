@@ -1,0 +1,22 @@
+ATS7 Set Number of Seconds to Wait for Connection Completion	
+Read Command ATS7?	Response
+	<n>
+	
+	OK
+	Parameter
+	See Write Command
+Write Command ATS7=<n>	Response
+	This parameter setting determines the amount of time to wait for the
+	connection completion in case of answering or originating a call.
+	OK
+	
+	ERROR
+	Parameter
+	<n> 1-60-255 Number of seconds to wait for connection completion
+Parameter Saving Mode	AT&W_SAVE
+	
+Reference V.25ter	Note
+	If called party has specified a high value for ATS0=<n>, call setup may fail.
+	The correlation between ATS7 and ATS0 is important
+	Example: Call may fail if ATS7=30 and ATS0=20.
+	ATS7 is only applicable to data call.

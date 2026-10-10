@@ -1,0 +1,7 @@
+AT+FTPMODE Set Active or Passive FTP Mode	
+Test Command AT+FTPMOD=?	Response OK
+Read Command AT+FTPMODE?	Response +FTPMODE: <value> OK
+	Parameter See Write Command
+Write Command AT+FTPMOD=< value>	Response OK If error is related to ME functionality: +CME ERROR: <err>
+	Parameter <value> 0 Active FTP mode 1 Passive FTP mode
+Reference	Note

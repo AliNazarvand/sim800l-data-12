@@ -1,0 +1,2 @@
+AT+CMMSRDPUSH Read the information of the MMS PUSH message	
+Test Command AT+CMMSRDPUS H=?	Response +CMMSRDPUSH: (range of <index>) OK

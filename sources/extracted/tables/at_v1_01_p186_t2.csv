@@ -1,0 +1,18 @@
+AT+CIPQSEND Select Data Transmitting Mode	
+Test Command AT+CIPQSEND =?	Response
+	+CIPQSEND: (0,1)
+	
+	OK
+	Parameter
+	See Write Command
+Read Command AT+CIPQSEND ?	Response
+	+CIPQSEND: <n>
+	
+	OK
+	Parameter
+	See Write Command
+Write Command AT+CIPQSEND	Response
+	OK
+=<n>	Parameter
+	<n> 0 Normal mode – when the server receives TCP data, it will
+	responsd SEND OK.

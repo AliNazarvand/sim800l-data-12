@@ -1,0 +1,11 @@
+				Pin name			Pin number		Function	
+Serial port				DTR			69		Data terminal ready	
+				RI			68		Ring indicator	
+				DCD			70		Data carrier detect	
+				CTS			34		Request to send	
+				RTS			33		Clear to send	
+				TXD			32		Transmit data	
+				RXD			31		Receive data	
+Debug port				VBUS			7		USB power supply	
+				USB_DP			59			
+				USB_DN			19			

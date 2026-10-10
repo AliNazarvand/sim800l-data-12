@@ -1,0 +1,14 @@
+AT+FTPMKD Make Directory on the Remote Machine	
+Test Command AT+FTPMKD=?	Response
+	OK
+Execution Command AT+FTPMKD	Response
+	If success:
+	OK
+	+FTPMKD: 1,0
+	
+	If failed:
+	OK
+	+FTPMKD: 1,<error>
+	
+	If error is related to ME functionality:
+	+CME ERROR: <err>

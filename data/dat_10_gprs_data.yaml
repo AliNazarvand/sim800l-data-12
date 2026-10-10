@@ -1,4 +1,4 @@
-# auto-generated from sources at 2026-10-10T15:17:38Z
+# auto-generated at 2026-10-10T15:24:03Z
 - id: dat_10_0001
   category: GPRS/Data
   source:
@@ -16,16 +16,42 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CDNSGIP
-  syntax: ''
-  parameters: []
+  syntax: AT+CDNSGIP
+  parameters:
+  - name: IP
+    type: string
+    description: ','
+  - name: IP2
+    type: string
+    description: +CDNSGIP:0,
+  - name: cid
+    type: string
+    description: DEACT The bearer based on IP connection of
+  - name: Method
+    type: string
+    description: ','
+  - name: StatusCode
+    type: string
+    description: ','
+  - name: res
+    type: string
+    description: FTPGET session AT+FTPGET=1
+  - name: maxlength
+    type: string
+    description: It is ready to upload data. AT+FTPPUT
+  - name: size
+    type: string
+    description: FTP size session AT+FTPSIZE
   response: OK
-  examples: []
+  examples:
+  - AT+CDNSGIP
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0026
 - id: dat_10_0002
   category: GPRS/Data
   source:
@@ -43,16 +69,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CGACT
-  syntax: ''
+  syntax: AT+CGACT PDP Context Activate or Deactivate....................................................175
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CGACT PDP Context Activate or Deactivate....................................................175
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0039
 - id: dat_10_0003
   category: GPRS/Data
   source:
@@ -70,16 +98,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CGATT
-  syntax: ''
+  syntax: AT+CGATT Attach or Detach from GPRS Service..................................................170
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CGATT Attach or Detach from GPRS Service..................................................170
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0040
 - id: dat_10_0004
   category: GPRS/Data
   source:
@@ -97,16 +127,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CGDCONT
-  syntax: ''
+  syntax: AT+CGDCONT Define PDP Context.......................................................................171
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CGDCONT Define PDP Context.......................................................................171
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0043
 - id: dat_10_0005
   category: GPRS/Data
   source:
@@ -124,16 +156,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CGPADDR
-  syntax: ''
+  syntax: AT+CGPADDR Show PDP Address.........................................................................176
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CGPADDR Show PDP Address.........................................................................176
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0051
 - id: dat_10_0006
   category: GPRS/Data
   source:
@@ -151,16 +185,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CGREG
-  syntax: ''
+  syntax: AT+CGREG Network Registration Status..............................................................178
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CGREG Network Registration Status..............................................................178
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0054
 - id: dat_10_0007
   category: GPRS/Data
   source:
@@ -178,16 +214,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CIFSR
-  syntax: ''
+  syntax: AT+CIFSR Get Local IP Address............................................................................190
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIFSR Get Local IP Address............................................................................190
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0060
 - id: dat_10_0008
   category: GPRS/Data
   source:
@@ -205,16 +243,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CIICR
-  syntax: ''
+  syntax: AT+CIICR Bring Up Wireless Connection with GPRS or CSD.............................190
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIICR Bring Up Wireless Connection with GPRS or CSD.............................190
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0061
 - id: dat_10_0009
   category: GPRS/Data
   source:
@@ -232,16 +272,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CIPCCFG
-  syntax: ''
+  syntax: AT+CIPCCFG Configure Transparent Transfer Mode............................................199
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPCCFG Configure Transparent Transfer Mode............................................199
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0065
 - id: dat_10_0010
   category: GPRS/Data
   source:
@@ -259,16 +301,38 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CIPCLOSE
-  syntax: ''
-  parameters: []
+  syntax: AT+CIPCLOSE
+  parameters:
+  - name: id
+    type: string
+    description: ', ['
+  - name: n
+    type: string
+    description: ']'
+  - name: port
+    type: string
+    description: number this used in multi IP connection
+  - name: mode
+    type: string
+    description: A string parameter which indicates the connection type
+  - name: apn
+    type: string
+    description: ','
+  - name: password
+    type: string
+    description: SIM800 Series_AT Command Manual_V1.01 189 2013-07-23
   response: OK
-  examples: []
+  examples:
+  - AT+CIPCLOSE
+  - AT+CIPCLOSE CLOSE OK
+  - AT+CIPCLOSE only closes connection at the status of TCP/UDP which
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0066
 - id: dat_10_0011
   category: GPRS/Data
   source:
@@ -286,16 +350,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CIPMODE
-  syntax: ''
+  syntax: AT+CIPMODE Select TCPIP Application Mode....................................................198
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPMODE Select TCPIP Application Mode....................................................198
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0073
 - id: dat_10_0012
   category: GPRS/Data
   source:
@@ -313,16 +379,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CIPMUX
-  syntax: ''
+  syntax: AT+CIPMUX Start Up Multi-IP Connection............................................................182
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPMUX Start Up Multi-IP Connection............................................................182
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0074
 - id: dat_10_0013
   category: GPRS/Data
   source:
@@ -340,16 +408,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CIPQSEND
-  syntax: ''
+  syntax: AT+CIPQSEND Select Data Transmitting Mode.....................................................186
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPQSEND Select Data Transmitting Mode.....................................................186
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0076
 - id: dat_10_0014
   category: GPRS/Data
   source:
@@ -367,16 +437,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CIPRXGET
-  syntax: ''
+  syntax: AT+CIPRXGET Get Data from Network Manually...............................................202
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPRXGET Get Data from Network Manually...............................................202
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0079
 - id: dat_10_0015
   category: GPRS/Data
   source:
@@ -394,16 +466,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CIPSEND
-  syntax: ''
+  syntax: AT+CIPSEND Send Data Through TCP or UDP Connection...................................184
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPSEND Send Data Through TCP or UDP Connection...................................184
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0081
 - id: dat_10_0016
   category: GPRS/Data
   source:
@@ -421,16 +495,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CIPSHUT
-  syntax: ''
+  syntax: AT+CIPSHUT Deactivate GPRS PDP Context........................................................188
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPSHUT Deactivate GPRS PDP Context........................................................188
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0086
 - id: dat_10_0017
   category: GPRS/Data
   source:
@@ -448,16 +524,54 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CIPSTART
-  syntax: ''
-  parameters: []
+  syntax: AT+CIPSTART
+  parameters:
+  - name: n
+    type: string
+    description: ',]CONNECT FAIL TCP/UDP connection fails AT+CIPSTART'
+  - name: PORT
+    type: string
+    description: (only in single connection mode)
+  - name: data
+    type: string
+    description: received data or not (only in single AT+CIPSHOWTP
+  - name: length
+    type: string
+    description: Received data from remote client (only
+  - name: IP
+    type: string
+    description: ','
+  - name: IP2
+    type: string
+    description: +CDNSGIP:0,
+  - name: cid
+    type: string
+    description: DEACT The bearer based on IP connection of
+  - name: Method
+    type: string
+    description: ','
+  - name: StatusCode
+    type: string
+    description: ','
+  - name: res
+    type: string
+    description: FTPGET session AT+FTPGET=1
+  - name: maxlength
+    type: string
+    description: It is ready to upload data. AT+FTPPUT
+  - name: size
+    type: string
+    description: FTP size session AT+FTPSIZE
   response: OK
-  examples: []
+  examples:
+  - AT+CIPSTART
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0089
 - id: dat_10_0018
   category: GPRS/Data
   source:
@@ -475,16 +589,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CIPSTATUS
-  syntax: ''
+  syntax: AT+CIPSTATUS Query Current Connection Status...............................................191
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPSTATUS Query Current Connection Status...............................................191
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0091
 - id: dat_10_0019
   category: GPRS/Data
   source:
@@ -502,16 +618,18 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CREG
-  syntax: ''
+  syntax: AT+CREG Network Registration..............................................................................79
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CREG Network Registration..............................................................................79
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0175
 - id: dat_10_0020
   category: GPRS/Data
   source:
@@ -529,16 +647,39 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CSQ
-  syntax: ''
-  parameters: []
+  syntax: AT+CSQ
+  parameters:
+  - name: err
+    type: string
+    description: Execution Command returns received signal strength indication
+  - name: rssi
+    type: string
+    description: and channel bit error rate
+  - name: ber
+    type: string
+    description: from the ME. Test Command returns
+  - name: class
+    type: string
+    description: s)
+  - name: n
+    type: string
+    description: s)
+  - name: dtmf
+    type: string
+    description: s),(list of supported
+  - name: duration
+    type: string
+    description: s)
   response: OK
-  examples: []
+  examples:
+  - 'AT+VTS=<dtmf- Note: D is used only for dialing.'
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0194
 - id: dat_10_0021
   category: GPRS/Data
   source:
@@ -556,13 +697,15 @@
   - gprs/data
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   command: +CSTT
-  syntax: ''
+  syntax: AT+CSTT Start Task and Set APN, USER NAME, PASSWORD...........................189
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSTT Start Task and Set APN, USER NAME, PASSWORD...........................189
   related_urcs: []
   related_states: []
-  related_commands: []
+  related_commands:
+  - dat_01_0197

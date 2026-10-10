@@ -1,0 +1,20 @@
+AT+CREG Network Registration					
+Test Command AT+CREG=?				Response	
+				+CREG: (list of supported <n>s)	
+					
+				OK	
+				Parameter	
+				See Write Command	
+Read Command AT+CREG?				Response	
+				TA returns the status of result code presentation and an integer <stat>	
+				which shows whether the network has currently indicated the registration	
+				of the ME. Location information elements <lac> and <ci> are returned	
+				only when <n>=2 and ME is registered in the network.	
+				+CREG: <n>,<stat>[,<lac>,<ci>]	
+					
+				OK	
+				If error is related to ME functionality:	
+				+CME ERROR: <err>	
+W A ]	rite Command			Response	
+	T+CREG=[<n>			TA controls the presentation of an unsolicited result code +CREG: <stat>	
+				when <n>=1 and there is a change in the ME network registration status.	

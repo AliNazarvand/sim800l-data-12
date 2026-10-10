@@ -1,0 +1,13 @@
+SI	M800V			SIM800H/L,SIM800W,SIM800	
+				AT+CSDT=?	
+				+CSDT: (0-1)	
+					
+				OK	
+				AT+CSDT?	
+				+CSDT: <mode>	
+					
+				OK	
+				AT+CSDT= <mode>	
+				OK	
+				ERROR	
+D	ifference: SIM800V does not support this AT command				

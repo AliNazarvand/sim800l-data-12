@@ -1,0 +1,5 @@
+AT+FMR FAX: Report Revision ID	
+Test Command AT+FMR=?	Response OK
+Execution Command AT+FMR	Response TA reports one or more lines of information text which permit the user to identify the version, revision level or data or other information of the device. Revision:<Revision Id> OK
+	Parameter <Revision Id> The version, revision level or data or other information of the device.
+Reference EIA/TIA-578-D	Note

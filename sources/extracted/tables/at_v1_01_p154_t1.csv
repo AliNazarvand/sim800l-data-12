@@ -1,0 +1,15 @@
+	OK
+	Parameter
+	See Write Command
+Write Command AT+CIURC=<m ode>	Response
+	OK
+	If error is related to ME functionality:
+	+CME ERROR: <err>
+	Parameter
+	<mode> 0 Disable URC presentation.
+	1 Enable URC presentation
+Parameter Saving Mode	AT&W_SAVE
+	
+Reference	Note
+	When module is powered on andinitialization procedure is over.
+	URC "Call Ready" will be presented if <mode> is 1.

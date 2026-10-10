@@ -1,4 +1,4 @@
-# auto-generated from sources at 2026-10-10T15:17:38Z
+# auto-generated at 2026-10-10T15:24:03Z
 - id: dat_09_0001
   category: SMS
   source:
@@ -16,19 +16,22 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CMEE
-  syntax: ''
+  syntax: AT+CMEE Report Mobile Equipment Error.............................................................67
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMEE Report Mobile Equipment Error.............................................................67
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0103
 - id: dat_09_0002
   category: SMS
   source:
@@ -46,19 +49,22 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CMGD
-  syntax: ''
+  syntax: AT+CMGD Delete SMS Message.............................................................................101
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMGD Delete SMS Message.............................................................................101
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0104
 - id: dat_09_0003
   category: SMS
   source:
@@ -76,19 +82,22 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CMGF
-  syntax: ''
+  syntax: AT+CMGF Select SMS Message Format.................................................................102
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMGF Select SMS Message Format.................................................................102
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0106
 - id: dat_09_0004
   category: SMS
   source:
@@ -106,19 +115,83 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CMGL
-  syntax: ''
-  parameters: []
+  syntax: AT+CMGL
+  parameters:
+  - name: index
+    type: string
+    description: Integer type; value in the range of location numbers supported
+  - name: mode
+    type: string
+    description: '] by the associated memory'
+  - name: mem1
+    type: string
+    description: to the TE. If status of the message is 'received unread', status
+      in the
+  - name: stat
+    type: string
+    description: ','
+  - name: oa
+    type: string
+    description: '[,'
+  - name: alpha
+    type: string
+    description: '],'
+  - name: scts
+    type: string
+    description: '[,'
+  - name: tooa
+    type: string
+    description: ','
+  - name: fo
+    type: string
+    description: ','
+  - name: pid
+    type: string
+    description: ','
+  - name: dcs
+    type: string
+    description: ','
+  - name: sca
+    type: string
+    description: ','
+  - name: tosca
+    type: string
+    description: ','
+  - name: length
+    type: string
+    description: ']'
+  - name: CR
+    type: string
+    description: ''
+  - name: LF
+    type: string
+    description: ''
+  - name: data
+    type: string
+    description: 'for SMS-SUBMIT:'
+  - name: da
+    type: string
+    description: '[,'
+  - name: toda
+    type: string
+    description: ','
+  - name: vp
+    type: string
+    description: ']'
   response: OK
-  examples: []
+  examples:
+  - AT+CMGL
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0108
 - id: dat_09_0005
   category: SMS
   source:
@@ -136,19 +209,22 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CMGR
-  syntax: ''
+  syntax: AT+CMGR Read SMS Message...............................................................................106
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMGR Read SMS Message...............................................................................106
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0109
 - id: dat_09_0006
   category: SMS
   source:
@@ -166,19 +242,22 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CMGS
-  syntax: ''
+  syntax: AT+CMGS Send SMS Message................................................................................109
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMGS Send SMS Message................................................................................109
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0110
 - id: dat_09_0007
   category: SMS
   source:
@@ -196,19 +275,22 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CMGW
-  syntax: ''
+  syntax: AT+CMGW Write SMS Message to Memory..........................................................110
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMGW Write SMS Message to Memory..........................................................110
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0111
 - id: dat_09_0008
   category: SMS
   source:
@@ -226,19 +308,82 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CNMI
-  syntax: ''
-  parameters: []
+  syntax: AT+CNMI
+  parameters:
+  - name: mt
+    type: string
+    description: =1
+  - name: length
+    type: string
+    description: ''
+  - name: CR
+    type: string
+    description: ''
+  - name: LF
+    type: string
+    description: ''
+  - name: pdu
+    type: string
+    description: received.
+  - name: oa
+    type: string
+    description: ','
+  - name: scts
+    type: string
+    description: '[,'
+  - name: tooa
+    type: string
+    description: ','
+  - name: fo
+    type: string
+    description: ','
+  - name: dcs
+    type: string
+    description: ','
+  - name: sca
+    type: string
+    description: ','
+  - name: tosca
+    type: string
+    description: ', mode)'
+  - name: data
+    type: string
+    description: '+CBM: Indicates that new cell broadcast AT+CNMI'
+  - name: bm
+    type: string
+    description: =2 (PDU
+  - name: sn
+    type: string
+    description: ','
+  - name: mid
+    type: string
+    description: ','
+  - name: page
+    type: string
+    description: ','
+  - name: ds
+    type: string
+    description: =1 (PDU
+  - name: mr
+    type: string
+    description: '[,'
+  - name: ra
+    type: string
+    description: '][,'
   response: OK
-  examples: []
+  examples:
+  - AT+CMTE=1
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0155
 - id: dat_09_0009
   category: SMS
   source:
@@ -256,19 +401,22 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CPMS
-  syntax: ''
+  syntax: AT+CPMS Preferred SMS Message Storage............................................................115
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CPMS Preferred SMS Message Storage............................................................115
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0166
 - id: dat_09_0010
   category: SMS
   source:
@@ -286,19 +434,22 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CSCA
-  syntax: ''
+  syntax: AT+CSCA SMS Service Center Address................................................................117
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSCA SMS Service Center Address................................................................117
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0181
 - id: dat_09_0011
   category: SMS
   source:
@@ -316,19 +467,22 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CSCS
-  syntax: ''
+  syntax: AT+CSCS Select TE Character Set...........................................................................59
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSCS Select TE Character Set...........................................................................59
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0184
 - id: dat_09_0012
   category: SMS
   source:
@@ -346,19 +500,22 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CSDH
-  syntax: ''
+  syntax: AT+CSDH Show SMS Text Mode Parameters.......................................................119
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSDH Show SMS Text Mode Parameters.......................................................119
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0185
 - id: dat_09_0013
   category: SMS
   source:
@@ -376,19 +533,22 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CSMP
-  syntax: ''
+  syntax: AT+CSMP Set SMS Text Mode Parameters...........................................................120
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSMP Set SMS Text Mode Parameters...........................................................120
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0190
 - id: dat_09_0014
   category: SMS
   source:
@@ -406,16 +566,19 @@
   - sms
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   mode: text
   command: +CSMS
-  syntax: ''
+  syntax: AT+CSMS Select Message Service.........................................................................121
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSMS Select Message Service.........................................................................121
   related_urcs: []
   encoding: GSM7
   storage: SM
   concat_sms: false
   delivery_report: false
+  related_commands:
+  - dat_01_0191

@@ -1,0 +1,22 @@
+Check the class of the MS			AT+CGCLASS?				+CGCLASS:B	
+								
+							OK	
+	Establish a context using the terminal		AT+CGDCONT=1, "IP","CMNET" ATD*99#			OK CONNECT	OK	
+	equipment: defines CID 1							
+	and sets the PDP type to IP, access						CONNECT	
+	point name and IP address aren’t set.							
+	Cancel a context using the terminal			AT+CGDCONT=1,			OK	
+	equipment			"IP","CMNET"				
+				ATD*99#			CONNECT	
+								
+	Pause data transfer and enter Command			+++			OK	
+	mode by +++							
+	Stop the GPRS data transfer			ATH			OK	
+Reconnect a context using the terminal equipment Resume the data transfer	Reconnect a context using the terminal			AT+CGDCONT=1,			OK	
+	equipment			"IP","CMNET"				
+				ATD*99#			CONNECT	
+								
+								
+	Resume the data transfer			+++			OK	
+								
+				ATO			CONNECT	

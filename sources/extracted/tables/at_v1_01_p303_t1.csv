@@ -1,0 +1,16 @@
+List all SMS messages to show message has been deleted.	AT+CMGL="ALL"				+CMGL: 2, "REC READ",	
+					"+8613918186	
+					089","","02/01/30,20:45:12+	
+					00"	
+					Test again	
+						
+					OK	
+Send SMS using Chinese characters		AT+CSMP=17,167,2,			OK	
+		25				
+		AT+CSCS="UCS2"			OK	
+						
+		AT+CMGS="0031003			+CMGS:36	
+		300390031003800310				
+		038003x003x003x003			OK	
+		x"				
+		>4E014E50<Ctrl+Z>				

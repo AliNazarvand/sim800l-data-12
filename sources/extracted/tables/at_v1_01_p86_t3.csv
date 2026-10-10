@@ -1,0 +1,22 @@
+AT+CMUX Multiplexer Control			
+Test Command AT+CMUX=?		Response	
+		+CMUX: (0)	
+			
+		OK	
+		Parameters	
+		See Write Command	
+Read Command AT+CMUX?		Response:	
+		+CMUX:[<mode>[,<subset>[,<port_speed>[,<N1>[,<T1>[,<N2>[,<T2	
+		>[,<T3>[,<k>]]]]]]]]]	
+			
+		OK	
+		ERROR	
+		Parameters	
+		<mode> Multiplexer transparency mechanism	
+		0 Basic option	
+		<subset> The way in which the multiplexer control channel is set up	
+		0 UIH frames used only	
+		<port_speed> Transmission rate	
+		1 9600 bits/t	
+		2 19200 bits/t	
+		3 38400 bits/t	

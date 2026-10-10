@@ -1,0 +1,17 @@
+		text is “欢迎使用语音			thisresponse to play next	
+		合成系统”。			speech!	
+Play synthetic speech with ASCII coding text	AT+CTTS=2,"hello ， 欢迎使用语音合成系 统" // text in ASIIC coding format.Chinese in GBK coding format.	AT+CTTS=2,"hello ，			OK	
+		欢迎使用语音合成系			//speech synthetized	
+		统"			Successfully played locally.	
+		// text in ASIIC coding			+CTTS:0	
+		format.Chinese in			//speech played over. Note:	
+		GBK coding format.			User needs to wait	
+					thisresponse to play next	
+					speech!	
+Stop playing TTS		AT+CTTS=0		OK //speech played over.	OK	
+		//Stop playing			//speech played over.	
+		synthetic speech				
+Set parameters of the TTS playing		AT+CTTSPARAM=5		OK // set params over.		
+		0, 0,50,25,1				
+		// set params of the				
+		TTS playing				

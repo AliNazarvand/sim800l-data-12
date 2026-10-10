@@ -1,0 +1,6 @@
+AT+CPBF Find Phonebook Entries	
+Test Command AT+CPBF=?	Response
+	+CPBF: maximum length of field <nlength>,maximum length of field
+	<tlength>
+	
+	OK

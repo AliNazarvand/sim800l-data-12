@@ -1,0 +1,10 @@
+	Demonstration			Syntax			Expect Result	
+Activate bearer profile	Activate bearer profile			AT+SAPBR=3,1,"Con			OK	
+				type","GPRS"				
+								
+				AT+SAPBR=3,1,"AP			OK	
+				N","CMNET"				
+								
+				AT+SAPBR =1,1			OK	
+								
+				AT+SAPBR=2,1			+SAPBR: 1,1,"10.89.193.1"	

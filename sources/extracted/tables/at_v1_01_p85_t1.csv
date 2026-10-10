@@ -1,0 +1,25 @@
+A	T+VTD Tone Duration				
+Test Command AT+VTD=?	est Command			Response	
+	T+VTD=?			+VTD: (list of supported <n>s)	
+					
+				OK	
+				Parameter	
+				See Write Command	
+Read Command AT+VTD?				Response	
+				+VTD: <n>	
+					
+				OK	
+				Parameter	
+				See Write Command	
+Write Command AT+VTD=<n>				Response	
+				This command refers to an integer <n> that defines the length of tones	
+				emitted as a result of the +VTS command. This does not affect the D	
+				command.	
+				OK	
+				Parameter	
+				<n> 1-255 Duration of the tone in 1/10 seconds	
+P M	arameter Saving		AT&W_SAVE	AT&W_SAVE	
+	ode				
+R 3 [1	eference		Note		
+	GPP TS 27.007				
+	3]				

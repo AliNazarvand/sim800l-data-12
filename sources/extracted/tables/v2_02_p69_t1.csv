@@ -1,0 +1,31 @@
+	Pin name			Reset			Pin number			Mode 0(default)			Mode 1			Mode 2			Mode 3	
+	STATUS			I/PD			4			STATUS			GPIO4							
+	SIM_DET			I/PD			54			SIM_DET			GPIO5			EINT7				
+	KBC0			I/PU			20			KBC0			GPIO6			-			-	
+	KBC1			I/PD			25			KBC1			GPIO7			-			-	
+	KBC2			I/PD			22			KBC2			GPIO8			-			-	
+	KBC3			I/PD			21			KBC3			GPIO9			-			-	
+	KBC4			I/PD			24			KBC4			GPIO10			EINT1			UART2_DCD	
+	KBR0			LO			62			KBR0			GPIO11			-			-	
+	KBR1			I/PD			60			KBR1			GPIO12			-			-	
+	KBR2			I/PD			61			KBR2			GPIO13			-			-	
+	KBR3			I/PD			23			KBR3			GPIO14			-			-	
+	KBR4			I/PD			63			KBR4			GPIO15			EINT3			UART2_RI	
+	PWM			I/PD			26			PWM			GPIO16			EINT0			-	
+	NETLIGHT			I/PD			64			NETLIGHT			GPIO17			-			-	
+	PCM_CLK			I/PD			29			PCM_CLK			DISP_RST			SD_CMD			GPIO18	
+	PCM_OUT			I/PD			30			PCM_OUT			DISP_DI			SD_DATA3			GPIO19	
+	PCM_SYNC			I/PD			65			PCM_SYNC			DISP_CS			SD_CLK			GPIO20	
+	PCM_IN			I/PD			66			PCM_IN			DISP_DATA			SD_DATA2			GPIO21	
+	GPIO1			X			3			-			-			-			-	
+	GPIO2			X			27			GPIO2			DISP_D/C			SD_DATA0			-	
+	GPIO3			X			28			GPIO3			DISP_CLK			SD_DATA1			-	
+	DTR			I/PD			69			DTR			GPIO22			EINT8			-	
+	RI			I/PD			68			RI			GPIO23			-			UART2_RTS	
+	DCD			I/PD			70			DCD			GPIO24			-			UART2_CTS	
+	CTS			I/PD			34			CTS			-			-			UART2_RXD	
+	RTS			I/PD			33			RTS			-			-			UART2_TXD	
+	TXD			HO			32			TXD			UART1_TXD			-			-	
+	RXD			I/PD			31			RXD			UART1_RXD			EINT4			-	
+	SCL			I/PD			74			SCL			GPIO25			-			-	
+	SDA			I/PD			75			SDA			GPIO26			-			-	

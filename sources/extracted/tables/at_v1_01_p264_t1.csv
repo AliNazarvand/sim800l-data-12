@@ -1,0 +1,13 @@
+	<time> Maximum time in milliseconds to download data.
+	<name> The file name of the image or the text to be downloaded,
+	including extended name. The default name for image is
+	“image<m>.jpg” and the default name for text is
+	“text<n>.txt”. <m> and <n> are in the range of 0~255
+Max Response Time	Decided by <time>
+	
+Reference	Note
+	(cid:122) It is strongly recommended to set the time long enough to download
+	all the file data and make sure that the real size of the file to
+	download is not bigger than <size>.
+	(cid:122) The maximum size of <name> is 40 Bytes and only ASCII code is
+	recognized for <name>.

@@ -1,0 +1,26 @@
+AT+POP3IN Log in POP3 Server	
+Test Command AT+POP3IN=?	Response
+	OK
+	
+	Parameter
+	
+	
+Execution Command AT+POP3IN	Response
+	OK
+	If error is related to ME functionality:
+	ERROR
+	If logging in POP3 server or not, return:
+	+POP3IN: <code>
+	Parameter
+	<code> The result of logging in POP3 server
+	1 Log in POP3 server successfully
+	61 Network error
+	62 DNS resolve error
+	63 POP3 tcp connection error
+	64 Timeout of POP3 server response
+	65 POP3 server response error
+	66 POP3 server rejects to log in
+	67 Incorrect user name
+	68 Incorrect user name or password
+Reference	Note
+	

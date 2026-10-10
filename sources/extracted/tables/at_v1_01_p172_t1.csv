@@ -1,0 +1,22 @@
+	<PDP_type> (Packet Data Protocol type)
+	IP Internet Protocol (IETF STD 5)
+	<APN> (Access Point Name) A string parameter (string should be
+	included in quotation marks) which is a logical name that
+	is used to select the GGSN or the external packet data
+	network. If the value is null or omitted, then the
+	subscription value will be requested.The default value is
+	NULL.
+	<PDP_addr> A string parameter (IP address). Format:
+	"<n>.<n>.<n>.<n>" where <n>=0..255
+	If the value is null or equals 0.0.0.0 a dynamic address will
+	be requested. The allocated address may be read using the
+	+CGPADDR command
+	<d_comp> A numeric parameter that controls PDP data compression
+	0 –PDP data compression off (default if value is omitted)
+	<h_comp> A numeric parameter that controls PDP data compression
+	0 –PDP header compression off (default if value is omitted)
+	
+arameter Saving Mode	AUTO_SAVE
+	
+Reference	Note
+	

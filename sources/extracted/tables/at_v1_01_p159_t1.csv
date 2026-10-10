@@ -1,0 +1,14 @@
+	<nlp> nonlinear processing remove residual echo and background
+	noise
+	<aec> acoustic echo cancellation
+	<nr> noise reduction
+	<ns> noise suppression
+	< state> enable or disable to close echo algorithm
+	0 echo algorithm be closed
+	1 echo algorithm be actived
+Parameter Saving Mode	AUTO_SAVE
+	
+Reference	Note
+	For this command, please refer to actual model.
+	The default state the echo echo algorithm be actived, and the read command
+	is not displayed.

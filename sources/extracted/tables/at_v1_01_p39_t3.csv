@@ -1,0 +1,20 @@
+Command			Parameter name			Displayedby &V
+ATS0			<num>			Y
+ATS3			<char>			Y
+ATS4			<char>			Y
+ATS5			<char>			Y
+ATS6			<short>			Y
+ATS7			<time>			Y
+ATS8			<time>			Y
+ATS10			<time>			Y
+AT+CBST			<speed>,<name>,<ce>			Y
+AT+CRLP			<iws>,<mws>,<T1>,<N2>			Y
+ATV			<format>			Y
+ATE			<echo>			Y
+ATQ			<result>			Y
+ATX			<result>			Y
+AT&C			<behavior>			Y
+AT&D			<behavior>			Y
+AT+CLTS			<timestamp>			Y
+AT+CREG			<n>			Y
+AT+CGREG			<n>			Y

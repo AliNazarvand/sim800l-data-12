@@ -1,0 +1,7 @@
+AT+FTPPUTNAME Set Upload File Name	
+Test Command AT+FTPPUTNA ME=?	Response OK
+Read Command AT+FTPPUTNA ME?	Response +FTPPUTNAME: <value> OK
+	Parameter See Write Command
+Write Command AT+FTPPUTNA ME=<value>	Response OK If error is related to ME functionality: +CME ERROR: <err>
+	Parameter <value> Alphanumeric ASCII text string up to 99 characters
+Reference	Note

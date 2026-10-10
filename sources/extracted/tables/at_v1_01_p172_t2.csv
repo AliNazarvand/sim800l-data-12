@@ -1,0 +1,13 @@
+AT+CGQMIN Quality of Service Profile (Minimum Acceptable)	
+est Command AT+CGQMIN=?	Response
+	+CGQMIN: <PDP_type>,(list of supported <precedence>s),(list of
+	supported <delay>s),(list of supported <reliability>s),(list of supported
+	<peak>s),(list of supported <mean>s)
+	[<CR><LF>+CGQMIN: <PDP_type>,(list of supported <precedence>
+	s),(list of supported <delay>s),(list of supported <reliability>s),(list of
+	supported <peak>s),(list of supported <mean>s)
+	[…]]
+	
+	OK
+	Parameters
+	See Write Command

@@ -1,0 +1,18 @@
+AT+CBUZZERRING Use the Buzzer Sound as the Incoming Call Ring	
+Read Command AT+CBUZZER RING?	Response
+	+CBUZZERRING: <mode>
+	
+	OK
+	Parameter
+	See Write Command
+Write Command AT+CBUZZER RING=<mode>	Response
+	OK
+	ERROR
+	Parameter
+	<mode>
+	0 disable the function of using buzzer sound as the incoming call ring
+	1 enable the function of using buzzer sound as the incoming call ring
+Parameter Saving Mode	AT&W_SAVE
+	
+Reference	Note
+	This buzzer function is depending on the hardware.

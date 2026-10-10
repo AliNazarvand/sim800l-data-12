@@ -1,0 +1,33 @@
+AT+CMGL List SMS Messages from Preferred Store	
+Test Command AT+CMGL=?	Response
+	+CMGL: (list of supported <stat>s)
+	
+	OK
+	Parameter
+	See Write Command
+Write Command AT+CMGL=<sta >[,<mode>]	Parameters
+	1) If text mode:
+	<stat> "REC UNREAD" Received unread messages
+	"REC READ" Received read messages
+	"STO UNSENT" Stored unsent messages
+	"STO SENT" Stored sent messages
+	"ALL" All messages
+	<mode> 0 Normal
+	1 Not change status of the specified SMS record
+	2) If PDU mode:
+	<stat> 0 Received unread messages
+	1 Received read messages
+	2 Stored unsent messages
+	3 Stored sent messages
+	4 All messages
+	<mode> 0 Normal
+	1 Not change status of the specified SMS record
+	Response
+	TA returns messages with status value <stat> from message storage
+	<mem1> to the TE. If status of the message is 'received unread', status in the
+	storage changes to 'received read'.
+	
+	1) If text mode (+CMGF=1) and Command successful:
+	for SMS-SUBMITs and/or SMS-DELIVERs:
+	+CMGL: <index>,<stat>,<oa/da>[,<alpha>] [,<scts>]
+	[,<tooa/toda>,<length>]<CR><LF><data>

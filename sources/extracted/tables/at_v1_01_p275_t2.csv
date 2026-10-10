@@ -1,0 +1,25 @@
+AT+CMMSSTATUS Get MMS Status	
+Test Command AT+CMMSSTATU S=?	Response
+	OK
+	
+	Parameter
+	See Write Command
+Read Command AT+CMMSSTATU S？	Response
+	+CMMSSTATUS:<status>
+	OK
+	or
+	ERROR
+	or
+	+CME ERROR: <err>
+	Parameter
+	<status> status of MMS action
+	MMS_IDLE
+	MMS_DOWNLOADING
+	MMS_DOWNLOADED
+	MMS_SENDING
+	MMS_RECEIVING
+	MMS_RECEIVED
+	MMS_READING
+	MMS_READING_PUSH
+Reference	Note
+	

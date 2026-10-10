@@ -1,0 +1,12 @@
+AT+CCPD Enable or Disable Alpha String	
+Test Command AT+CCPD=?	Response
+	+CCPD: (0,1)
+	
+	OK
+	Parameter
+	See Write Command
+Read Command AT+CCPD?	Response
+	+CCPD: <mode>
+	
+	OK
+	Parameter

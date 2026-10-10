@@ -1,0 +1,8 @@
+AT+CMMSBCC Add Secret Recipients	
+Test Command AT+CMMSBCC=?	Response
+	+CMMSBCC: "ADDRESS"
+	
+	OK
+Read Command AT+CMMSBCC?	Response
+	+CMMSBCC: the list of <addr>s
+	

@@ -1,0 +1,34 @@
+							OK	
+								
+				AT+CMMSDOWN=“			CONNECT	
+				TITLE”,3,5000			... ...	
+							OK	
+				AT+CMMSRECP=“1			OK	
+				3918181818”				
+								
+				AT+CMMSSEND			……	
+							OK	
+Receive MMS When received a MMS push message,UART will output message,such as “+CMTI: "SM",3,"MMS PUSH"”				AT+CMMSEDIT=0			OK	
+								
+				AT+CMMSRECV=3			+CMMSRECV:	
+							"+8613818181818",	
+							"2008-05-02, 03:38:12","",	
+							26670	
+							1, "image0.jpg",7,26625	
+								
+							OK	
+				AT+CMGD=3			OK	
+Receive MMS when the MMS push message is a concatenated message. UART output messages: +CMTI: "SM",1,"MMS PUSH",2,1 +CMTI: "SM",2,"MMS PUSH",2,2 +CMTI: "SM",1,"MMS PUSH"				AT+CMMSEDIT=0			OK	
+								
+				AT+CMMSRECV=1			+CMMSRECV:	
+							"+85266097746","2009-04-1	
+							5,10:41:21","",49	
+							1,"text0.txt",4,7	
+								
+							OK	
+				AT+CMGD=1			OK	
+Read a file of MMS			AT+CMMSREAD=1	AT+CMMSREAD=1			+CMMSREAD:	
+							"image0.jpg", 26625	
+							……	
+							OK	
+	Exit MMS function			AT+CMMSTERM			OK	

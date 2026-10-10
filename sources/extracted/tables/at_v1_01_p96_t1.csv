@@ -1,0 +1,24 @@
+AT+CPUC?				+CPUC: <currency>,<ppu>	
+					
+				OK	
+				If error is related to ME functionality:	
+				+CME ERROR: <err>	
+				Parameters	
+				See Write Command	
+Write Command AT+CPUC=<cur rency>,<ppu>[,< passwd>]				Response	
+				OK	
+				+CME ERROR: <err>	
+				Parameters	
+				<currency> String type (string should be included in quotation marks);	
+				three-character currency code (e.g. "GBP", "DEM");	
+				character set as specified by Command Select TE	
+				Character Set +CSCS	
+				<ppu> String type (string should be included in quotation marks); price	
+				per unit; dot is used as a decimal separator(e.g. "2.66")	
+				<passwd> String type (string should be included in quotation marks);	
+				SIM PIN2	
+M T	ax Response		5s	5s	
+	ime				
+R 3 [1	eference		Note		
+	GPP TS 27.007				
+	3]				

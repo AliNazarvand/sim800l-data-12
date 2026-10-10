@@ -1,0 +1,34 @@
+	OK
+	Parameter
+	See Write Command
+Read Command AT+CPBS?	Response
+	+CPBS: <storage>,<used>,<total>
+	
+	OK
+	Parameters
+	See Write Command
+Write Command AT+CPBS=<stora ge>	Response
+	TA selects current phone book memory storage, which is used by other
+	phone book commands.
+	OK
+	Parameters
+	<storage>
+	"ON" SIM (or MT) own numbers (MSISDNs) list
+	(reading of this storage may be available through +CNUM
+	also). When storing information in the SIM/UICC, if a SIM
+	card is present or if a UICC with an active GSM application
+	is present, the information in EFMSISDN under
+	DFTelecom is selected.
+	"SM" SIM/UICC phonebook. If a SIM card is present or
+	if a UICC with an active GSM application is present, the
+	EFADN under DFTelecom is selected.
+	"ME" ME phonebook
+	<used> Integer type value indicating the total number of used
+	locations in selected memory
+	<total> Integer type value indicating the total number of locations
+	in selected memory
+Max Response Time	3 seconds
+	
+Reference 3GPP TS 27.007 13]	Note
+	
+	

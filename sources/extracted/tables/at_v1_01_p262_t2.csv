@@ -1,0 +1,7 @@
+AT+CMMSEDIT Enter or exit edit mode	
+est Command AT+CMMSEDIT=?	Response
+	+CMMSEDIT: (0,1)
+	
+	OK
+	Parameter
+	See Write Command

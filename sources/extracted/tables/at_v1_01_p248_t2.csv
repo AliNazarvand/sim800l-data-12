@@ -1,0 +1,31 @@
+AT+POP3SRV Set POP3 Server and Account	
+Test Command AT+POP3SRV=?	Response
+	+POP3SRV: <pop3ServerLength>,<userNameLength>,<password-
+	Length>,(range of supported <pop3Port>s)
+	
+	OK
+	Parameter
+	See Write Command
+	
+Read Command AT+POP3SRV?	Response
+	+POP3SRV: <pop3Server>,<userName>,<password>,<pop3Port>
+	
+	OK
+	Parameter
+	See Write Command
+Write Command AT+POP3SRV=<po 3Server>,<userNa e>,<password>[,<p p3Port>]	Response
+	OK
+	If error is related to ME functionality:
+	ERROR
+	
+	Parameter
+	<pop3Server> POP3 server address, string type. This parameter can
+	be either:
+	- IP address in the format: xxx.xxx.xxx.xxx
+	- Host name to be solved with a DNS query
+	<userName> The user name to log in POP3 server, string type.
+	<password> The password to log in POP3 server, string type.
+	<pop3Port> The port of POP3 server.
+	1-65535 Default: 110
+	<pop3ServerLength> The max length of <pop3Server>.
+	<userNameLength> The max length of <userName>.

@@ -1,0 +1,4 @@
+	Symbol			Parameter			Min			Typ			Max			Unit	
+V O			Output voltage	Output voltage			-			3			-		V		
+							-			1.80			-				
+	I O			Output voltage			-			-			10			mA	

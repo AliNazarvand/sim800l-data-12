@@ -1,0 +1,19 @@
+AT+CSCB Select Cell Broadcast SMS Messages	
+Test Command AT+CSCB=?	Response
+	+CSCB: (list of supported <mode>s)
+	
+	OK
+	Parameter
+	See Write Command
+Read Command AT+CSCB?	Response
+	+CSCB: <mode>,<mids>,<dcss>
+	
+	OK
+	Parameters
+	See Write Command
+Write Command AT+CSCB=<mo de>[,<mids>[,<d css>]]	Response
+	TA selects which types of CBMs are to be received by the ME.
+	
+	Note: The Command writes the parameters in NON-VOLATILE memory.
+	OK
+	If error is related to ME functionality:

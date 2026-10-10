@@ -1,0 +1,2 @@
+AT+COPS Operator Selection	
+Test Command AT+COPS=?	Response TA returns a list of quadruplets, each representing an operator present in the network. Any of the formats may be unavailable and should then be an empty field. The list of operators shall be in order: home network, networks referenced in SIM, and other networks. +COPS: (list of supported<stat>,long alphanumeric<oper>,short alphanumeric<oper>,numeric <oper>)s[,,(list of supported <mode>s), (list of supported <format>s)]

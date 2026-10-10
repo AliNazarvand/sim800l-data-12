@@ -1,0 +1,7 @@
+AT+CEER Extended Error Report	
+Test Command AT+CEER=?	Response +CEER: (list of supported <n>s) OK
+	Parameter See Write Command
+Read Command AT+CEER?	Response +CEER: <n> OK
+	Parameter See Write Command
+Write Command AT+CEER=<n>	Response OK
+	Parameter <n> 0 The reason for last call release as text code 1 The reason for last call release as number code

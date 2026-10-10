@@ -1,0 +1,10 @@
+	Overwrite the precedence class of		AT+CGQREQ=1,0,0,3 ,0,0	OK		
+	QOS of CID 1 and sets the QOS of					
+	CID 1 to be present					
+Response: all QOS values of the activated CID.	Response: all QOS values of the		AT+CGQREQ?		+CGQREQ: 1,0,0,3,0,0	
+	activated CID.				+CGQREQ: 2,0,0,3,0,0	
+					+CGQREQ: 3,0,0,3,0,0	
+						
+					OK	
+	Set the QOS of CID 1 to not present.		AT+CGQREQ=1	OK	OK	
+	Once defined, the CID can be activated.					

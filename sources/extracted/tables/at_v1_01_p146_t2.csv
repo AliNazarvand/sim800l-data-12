@@ -1,0 +1,10 @@
+AT+SCLASS0 Store Class 0 SMS to SIM When Module Received Class 0 SMS	
+Test Command AT+SCLASS0=?	Response
+	+SCLASS0: (0, 1)
+	
+	OK
+	Parameter
+	See Write Command
+Read Command AT+SCLASS0?	Response
+	+SCLASS0: <mode>
+	

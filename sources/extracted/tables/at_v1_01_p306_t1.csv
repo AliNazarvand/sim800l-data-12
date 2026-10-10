@@ -1,0 +1,27 @@
+	AT+CIFSR AT+CIPPING=”www. google.cn”				10.78.245.128	
+						
+					+CIPPING:1,"203.208.37.99	
+					",70,239	
+					+CIPPING:2,"203.208.37.99	
+					",53,238	
+					+CIPPING:3,"203.208.37.99	
+					",60,239	
+					+CIPPING:4,"203.208.37.99	
+					",50,239	
+						
+					OK	
+IP Filter Setting		AT+CIPFLT=1,1,”198			OK	
+		.211.19.12”,”255.255.				
+		0.0”				
+						
+		AT+CIPFLT=1,,”10.4			OK	
+		3.21.69”,”255.0.0.0”				
+						
+		AT+CIPFLT=0,1			OK	
+						
+		AT+CIPFLT=2			OK	
+Set the Mode When Receiving an IP Packet		AT+CIPCTL=0			OK	
+						
+		AT+CIPCTL=1			OK	
+						
+		AT+CIPCTL=2			OK	

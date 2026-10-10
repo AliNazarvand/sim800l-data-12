@@ -1,0 +1,9 @@
+	Example: The string "1,2,3,4,5" may be used to set an alarm for
+	all weekdays.
+	"0" – Set a recurrent alarm for all days in the week.
+Parameter Saving Mode	AUTO_SAVE
+	
+Reference	Note
+	If user sets recurr function, the string of <time> should not enter "yy/MM/dd",
+	for example: set Monday to Friday alarm at the time of 16PM of alarm 2.
+	AT+CALA="16:00:00",2,1,2,3,4,5

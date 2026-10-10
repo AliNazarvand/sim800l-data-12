@@ -1,0 +1,45 @@
+Frequency bands				(cid:122) Quad-band: GSM 850, EGSM 900, DCS 1800, PCS 1900.	
+				SIM800H&SIM800L can search the 4 frequency bands automatically. The	
+				frequency bands can also be set by AT command “AT+CBAND”. For details,	
+				please refer to document [1].	
+				(cid:122) Compliant to GSM Phase 2/2+	
+Transmitting power				(cid:122) Class 4 (2W) at GSM 850 and EGSM 900	
+				(cid:122) Class 1 (1W) at DCS 1800 and PCS 1900	
+GPRS connectivity				(cid:122) GPRS multi-slot class 12（default）	
+				(cid:122) GPRS multi-slot class 1~12 (option)	
+Temperature range				(cid:122) Normal operation: -40°C ~ +85°C	
+				(cid:122) Storage temperature -45°C ~ +90°C	
+Data GPRS				(cid:122) GPRS data downlink transfer: max. 85.6 kbps	
+				(cid:122) GPRS data uplink transfer: max. 85.6 kbps	
+				(cid:122) Coding scheme: CS-1, CS-2, CS-3 and CS-4	
+				(cid:122) PAP protocol for PPP connect	
+				(cid:122) Integrate the TCP/IP protocol.	
+				(cid:122) Support Packet Broadcast Control Channel (PBCCH)	
+				(cid:122) CSD transmission rates：2.4，4.8，9.6，14.4 kbps	
+	CSD			(cid:122) Support CSD transmission	
+	USSD			(cid:122) Unstructured Supplementary Services Data (USSD) support	
+SMS				(cid:122) MT, MO, CB, Text and PDU mode	
+				(cid:122) SMS storage: SIM card	
+	SIM interface			Support SIM card: 1.8V, 3V	
+	External antenna			Antenna pad	
+Audio features				Speech codec modes:	
+				(cid:122) Half Rate (ETS 06.20)	
+				(cid:122) Full Rate (ETS 06.10)	
+				(cid:122) Enhanced Full Rate (ETS 06.50 / 06.60 / 06.80)	
+				(cid:122) Adaptive multi rate (AMR)	
+				(cid:122) Echo Cancellation	
+				(cid:122) Noise Suppression	
+Serial port and debug port				Serial port:	
+				(cid:122) Default one Full modem serial port	
+				(cid:122) 1200bps to 460800bps.	
+				(cid:122) Can be used for AT commands or data stream.	
+				(cid:122) Support RTS/CTS hardware handshake and software ON/OFF flow control.	
+				(cid:122) Multiplex ability according to GSM 07.10 Multiplexer Protocol.	
+				(cid:122) Autobauding supports baud rate from 1200 bps to 115200bps.	
+				(cid:122) upgrading firmware	
+				Debug port:	
+				(cid:122) USB_DN and USB_DP	
+				(cid:122) Can be used for debugging and upgrading firmware.	
+	Phonebook management			Support phonebook types: SM, FD, LD, RC, ON, MC.	
+	SIM application toolkit			GSM 11.14 Release 99	
+	Real time clock			Support RTC	

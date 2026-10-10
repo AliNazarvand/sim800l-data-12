@@ -1,0 +1,36 @@
+AT+STTONE Play SIM Toolkit Tone	
+Test Command AT+STTONE=?	Response
+	+STTONE: (list of supported <mode>s),(list of supported <tone>s),(list of
+	supported <duration>s)
+	
+	OK
+	If error is related to ME functionality:
+	+CME ERROR: <err>
+	Parameters
+	See Write Command
+Write Command AT+STTONE=< mode>,<tone>,< duration>	Response
+	OK
+	If error is related to ME functionality:
+	+CME ERROR: <err>
+	Unsolicited Result Code
+	The playing is stopped or completed.
+	+STTONE: 0
+	Parameters
+	<mode> 0 Stop playing tone
+	1 Start playing tone
+	<tone> Numeric type
+	1 Dial Tone
+	2 Called Subscriber Busy
+	3 Congestion
+	4 Radio Path Acknowledge
+	5 Radio Path Not Available / Call Dropped
+	6 Error / Special information
+	7 Call Waiting Tone
+	8 Ringing Tone
+	16 General Beep
+	17 Positive Acknowledgement Tone
+	18 Negative Acknowledgement or Error Tone
+	19 Indian Dial Tone
+	20 American Dial Tone
+	<duration> Numeric type, in milliseconds.
+	Max requested value = 255*60*1000 = 15300000ms

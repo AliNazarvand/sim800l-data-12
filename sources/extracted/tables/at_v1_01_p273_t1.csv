@@ -1,0 +1,8 @@
+Max Response Time	5s
+	
+Reference	Note
+	(cid:122) This command is valid only when it is not allowed to edit MMS and
+	the buffer for MMS will be clear up. So it is recommended to save
+	the MMS in the buffer before receiving MMS.
+	(cid:122) The received MMS is just saved in the buffer but not saved in the
+	flash.

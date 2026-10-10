@@ -1,0 +1,44 @@
+	[<CR><LF>+CMGL: <index>,<stat>,<da/oa>
+	[,<alpha>][,<scts>][,<tooa/toda>,<length>]<CR><LF><data>[...]]
+	for SMS-STATUS-REPORTs:
+	+CMGL: <index>,<stat>,<fo>,<mr>[,<ra>][,<tora>],<scts>,<dt>,<st>
+	[<CR><LF>+CMGL: <index>,<stat>,<fo>,<mr>
+	[,<ra>][,<tora>],<scts>,<dt>,<st>[...]]
+	for SMS-COMMANDs:
+	+CMGL: <index>,<stat>,<fo>,<ct>[<CR><LF>
+	+CMGL: <index>,<stat>,<fo>,<ct>[...]]
+	for CBM storage:
+	+CMGL:<index>,<stat>,<sn>,<mid>,<page>,<pages>
+	<CR><LF><data>
+	<CR><LF>+CMGL: <index>,<stat>,<sn>,<mid>,<page>,<pages>
+	<CR><LF><data>[...]]
+	OK
+	
+	2) If PDU mode (+CMGF=0) and Command successful:
+	+CMGL:<index>,<stat>[,<alpha>],<length>
+	<CR><LF><pdu><CR><LF>
+	+CMGL: <index>,<stat>[,alpha],<length>
+	<CR><LF><pdu>[...]]
+	OK
+	
+	3)If error is related to ME functionality:
+	+CMS ERROR: <err>
+	Parameters
+	<alpha> String type(string should be included in quotation marks)
+	alphanumeric representation of <da> or <oa> corresponding to the entry
+	found in MT phonebook; implementation of this feature is manufacturer
+	specific; used character set should be the one selected with Command Select
+	TE Character Set +CSCS (see definition of this Command in 3GPP TS
+	27.007)
+	<da> GSM 03.40 TP-Destination-Address Address-Value field in
+	string format; BCD numbers (or GSM default alphabet characters) are
+	converted to characters of the currently selected TE character set (refer
+	Command+CSCS in 3GPP TS 27.007); type of address given by <toda>
+	<data> In the case of SMS: GSM 03.40 TP-User-Data in text mode
+	responses; format:
+	- if <dcs> indicates that GSM 03.38 default alphabet is used and
+	<fo> indicates that GSM 03.40 TPUser-Data-Header-Indication
+	is not set:
+	- if TE character set other than "HEX" (refer Command Select
+	TE Character Set +CSCS in 3GPP TS 27.007):ME/TA converts
+	GSM alphabet into current TE character set according to rules

@@ -1,0 +1,23 @@
+C	ommand			Description	
+A	T+EMAILCID			Set Email Bearer Profile Identifier	
+A	T+EMAILTO			Set Timeout Value of SMTP/POP3 Server Response	
+A	T+SMTPSRV			Set SMTP Server Address and Port	
+A	T+SMTPAUTH			Set User Name and Password for SMTP Authentication	
+A	T+SMTPFROM			Set Sender Address and Name	
+A	T+SMTPRCPT			Set the Email Recipient(TO/CC/BCC) Address and Name	
+A	T+SMTPSUB			Set the Email Subject	
+A	T+SMTPBODY			Set the Email Body	
+A	T+SMTPFILE			Set the Email Attachment	
+A	T+SMTPSEND			Send the Email	
+A	T+SMTPFT			Transfer the Email Attachment	
+A	T+SMTPCS			Set the Email Charset	
+A	T+POP3SRV			Set POP3 Server and Account	
+A	T+POP3IN			Log In POP3 Server	
+A	T+POP3NUM			Get Email Number and Total Size	
+A	T+POP3LIST			Get the Specific Email Size	
+A	T+POP3UIDL			Get the Specific Email Unique-id	
+A	T+POP3CMD			Get Multi-line Response	
+A	T+POP3READ			Read Multi-line Response	
+A	T+POP3DEL			Mark the Specific Email to Delete	
+A	T+POP3RSET			Unmark the Emails that Be Marked as Deleted	
+A	T+POP3OUT			Log Out POP3 Server	

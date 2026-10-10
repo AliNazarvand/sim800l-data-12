@@ -1,0 +1,5 @@
+AT+FTPPUTOPT Set FTP Put Type	
+Test Command AT+FTPPUTOP T =?	Response OK
+Read Command AT+FTPPUTOP T?	Response +FTPPUTOPT: <value> OK
+	Parameter See Write Command
+Write Command AT+FTPPUTOP T =<value>	Response OK If error is related to ME functionality: +CME ERROR: <err>

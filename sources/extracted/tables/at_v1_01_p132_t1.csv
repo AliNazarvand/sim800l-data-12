@@ -1,0 +1,18 @@
+Read Command AT+SIDET?	Response
+	+SIDET: (<channel0>,<gainlevel0>),…, (<channeln>,<gainleveln>)
+	
+	OK
+	Parameters
+	See Write Command
+Write Command AT+SIDET=<ch annel>,<gainleve	Response
+	OK
+	ERROR
+l>	Parameters
+	<channel> 0 Main audio channel
+	1 Aux audio channel
+	<gainlevel> Int: 0 – 16
+Parameter Saving Mode	AUTO_SAVE
+	
+Reference	Note
+	Please refer to actual model for channel number.
+	<gainleveln> value of read command is related to <channel> specific.

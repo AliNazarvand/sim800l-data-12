@@ -1,0 +1,5 @@
+AT+CCWA=1,1
+ATD6241xxxx;
+<RX incoming call>
+
+AT+CHLD=1

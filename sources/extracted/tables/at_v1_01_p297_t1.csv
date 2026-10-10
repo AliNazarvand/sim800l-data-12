@@ -1,0 +1,37 @@
+	Demonstration			Syntax			Expect Result	
+	The AT Command interpreter actively		AT	AT		OK	OK	
+	responds to input.							
+Display the product name and the product release information.	Display the product name and the		ATI				SIM800 R11.08	
+	product release information.							
+							OK	
+Display product identification information: the manufacturer, the product name and the product revision information.			AT+GSV				SIMCOM_Ltd	
+							SIMCOM_SIM800H	
+							Revision:	
+							1308B01SIM800H32	
+								
+							OK	
+Display current configuration, a list of the current active profile parameters.			AT&V				[A complete listing of the	
+							active profile]	
+							OK	
+Reporting of mobile equipment errors. The default CME error reporting setting is disabled. Switch to verbose mode Displays a string explaining the error in more details.			AT+CMEE=? AT+CMEE? AT+CSCS=? AT+CSCS="TEST" AT+CMEE=2 AT+CSCS="TEST"				+CMEE: (0-2)	
+								
+							OK	
+							+CMEE: 1	
+								
+							OK	
+							+CSCS:	
+							("IRA","GSM","UCS2","HE	
+							X","PCCP","PCDN","8859-	
+							1")	
+								
+							OK	
+							ERROR	
+							OK	
+							+CME ERROR: invalid	
+							input value	
+Store the current configuration in nonvolatile memory. When the board is reset, the configuration changes from the last session are loaded.				ATE0&W			OK	
+				AT			[No echo]	
+							OK	
+				[Reset the board]				
+				AT			[No echo]	
+							OK	

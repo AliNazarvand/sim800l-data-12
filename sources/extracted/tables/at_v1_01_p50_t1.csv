@@ -1,0 +1,13 @@
+				If error is related to ME functionality:	
+				+CME ERROR: <err>	
+				Parameters	
+				<acmmax> String type (string should be included in quotation	
+				marks); three bytes of the max. ACM value in hex-decimal format (e.g.	
+				"00001E" indicates decimal value 30)	
+				000000 disable ACMmax feature	
+				000001-FFFFFF	
+				<passwd> String type (string should be included in quotation marks)	
+				SIM PIN2	
+R 3 [1	eference		Note	Note	
+	GPP TS 27.007				
+	3]				

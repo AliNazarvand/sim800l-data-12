@@ -1,0 +1,32 @@
+	data unit in octets (i.e. the RP layer SMSC address octets are
+	not counted in the length)
+	<stat> in the text mode (+CMGF=1):
+	"STO UNSENT" Stored unsent messages
+	"STO SENT" Stored sent messages
+	in PDU mode (+CMGF=0):
+	0 Received unread messages
+	1 Received read messages
+	2 Stored unsent messages
+	3 Stored sent messages
+	<pdu> In the case of SMS: GSM 04.11 SC address followed by
+	GSM 03.40 TPDU in hexadecimal format: ME/TA converts each octet of
+	TP data unit into two IRA character long hexadecimal number (e.g. octet
+	with integer value 42 is presented to TE as two characters 2A (IRA 50 and
+	65)). In the case of CBS: GSM 03.41 TPDU in hexadecimal format.
+	<index> Index of message in selected storage <mem2>
+Execution Command AT+CMGW	Response
+	TA transmits SMS message (either SMS-DELIVER or SMS-SUBMIT)
+	from TE to memory storage <mem2>. Memory location <index> of the
+	stored message is returned. By default message status will be set to 'stored
+	unsent', but parameter <stat> allows also other status values to be given.
+	
+	If writing is successful:
+	+CMGW: <index>
+	
+	OK
+	If error is related to ME functionality:
+	+CMS ERROR: <err>
+Max Response Time	5s
+	
+Reference 3GPP TS 27.005	Note
+	

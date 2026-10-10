@@ -1,0 +1,4 @@
+All signals of SIM interface
+should be protected
+against ESD with a
+TVS diode array.

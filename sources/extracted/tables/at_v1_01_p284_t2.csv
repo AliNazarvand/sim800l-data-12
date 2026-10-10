@@ -1,0 +1,32 @@
+AT+CTTSPARAM Set parameters of the TTS playing	
+Test Command AT+CTTSPARAM =?	Response
+	+CTTSPARAM: (0-100),(0-3),(1-100),(1-100),(0,1)
+	
+	OK
+	Parameter
+	See Write Command
+Read Command AT+CTTSPARAM ?	Response
+	+CTTSPARAM: <volume>,<mode>,<pitch>,<speed>,<channel>
+	
+	OK
+	Parameter
+	See Write Command
+Write Command AT+CTTSPARAM= <volume>,<mode>, <pitch>,<speed>[,<c	Response
+	OK
+	If error is related to MS functionality, response：
+	+CME ERROR: <err>
+hannel>]	Parameter
+	<volume> TTS playing volume, the range is 0-100,the default is 50.
+	<mode> TTS playing mode, the range is 0-3
+	0 auto read digit, and read digit based on number rule first
+	1 auto read digit, and read digit based on telegram rule first
+	2 read digit based on telegram rule
+	3 read digit based on number rule
+	<pitch> TTS playing pitch, the range is 1-100,the default is 50.
+	<speed> TTS playing speed, the range is 1-100,the default is 25.
+	<channel> TTS play channel
+	0 main channel
+	1 aux channel
+Reference	Note
+	TTS play channel setting take no effect in call. TTS play channel depend
+	on CHFA when in call.

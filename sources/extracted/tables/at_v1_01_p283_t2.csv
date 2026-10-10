@@ -1,0 +1,29 @@
+AT+CTTS TTS Operation	
+Test Command AT+CTTS=?	Response
+	
+	OK
+	No prameter
+Read Command AT+CTTS?	Response
+	+CTTS: <status>
+	
+	OK
+	Parameter
+	<status> 0 idle mode
+	1 play mode
+Write Command AT+CTTS=<mo de>[,<text>]	Response
+	if<mode>=0，response：
+	OK
+	if<mode>=1 or 2，response:
+	OK
+	
+	+CTTS:0 // speech palyed over
+	
+	If error is related to MS functionality, response：
+	+CME ERROR: <err>
+	Parameter
+	<mode> 0 Stop playing speech
+	1 Start to play synthetic speech，<text> is in UCS2 coding
+	format.
+	2 Start to play synthetic speech， <text> is in ASCII coding
+	format.
+	Chinese text is in GBK coding format.

@@ -1,0 +1,3 @@
+AT+FTPLIST List Contents of Directory on the Remote Machine	
+Test Command AT+FTPLIST=?	Response OK
+Write Command AT+FTPLIST=<m ode>[,<reqlength> ]	Response If mode is 1 and it is a successful FTP get session: OK +FTPLIST: 1,1 If data transfer is finished: +FTPLIST: 1,0

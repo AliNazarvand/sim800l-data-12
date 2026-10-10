@@ -1,0 +1,27 @@
+AT+CAOC Advice of Charge			
+Test Command AT+CAOC=?		Response	
+		+CAOC: (list of supported <mode>s)	
+			
+		OK	
+		Parameters	
+		See Write Command	
+Read Command AT+CAOC?		Response	
+		+CAOC: <mode>	
+			
+		OK	
+		Parameters	
+		See Write Command	
+Write Command AT+CAOC=<mo de>		Response	
+		TA sets the Advice of Charge supplementary service function mode.	
+		If <mode>=0, TA returns the current call meter value	
+		+CAOC: <ccm>	
+			
+		OK	
+		If <mode>=1, TA deactivates the unsolicited reporting of CCM value	
+		OK	
+		If <mode>=2, TA activates the unsolicited reporting of CCM value	
+		OK	
+		ERROR	
+		If error is related to ME functionality:	
+		+CME ERROR: <err>	
+		Parameters	

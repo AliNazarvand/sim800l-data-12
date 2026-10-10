@@ -1,0 +1,43 @@
+est Command T+CCWA=?	Response
+	+CCWA: (list of supported <n>s)
+	
+	OK
+	Parameter
+	See Write Command
+ead Command T+CCWA?	Response
+	+CCWA: <n>
+	
+	OK
+	Parameter
+	See Write Command
+Write Command T+CCWA=<n>[, mode>[,<class>]]	Response
+	TA controls the Call Waiting supplementary service. Activation,
+	deactivation and status query are supported.
+	If <mode>≠2 and Command successful
+	OK
+	If <mode>=2 and Command successful
+	+CCWA:<status>,<class1>[<CR><LF>+CCWA:<status>,<class2>[...]]
+	
+	OK
+	ERROR
+	If error is related to ME functionality:
+	+CME ERROR: <err>
+	
+	Note: <status>=0 should be returned only if service is not active for any
+	<class> i.e. +CCWA: 0, 7 will be returned in this case.
+	When mode=2, all active call waiting classes will be reported. In this mode
+	the Command is aborted by pressing any key.
+	Parameters
+	<n> 0 Disable presentation of an unsolicited result code
+	1 Enable presentation of an unsolicited result code
+	<mode> When <mode> parameter not given, network is not
+	interrogated
+	0 Disable
+	1 Enable
+	2 Query status
+	<class> Is a sum of integers each representing a class of information
+	1 Voice (telephony)
+	2 Data (refers to all bearer services; with <mode>=2 this
+	may refer only to some bearer service if TA does not support values 16,
+	32, 64 and 128
+	4 Fax (facsimile services)

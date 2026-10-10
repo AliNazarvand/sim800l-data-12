@@ -1,0 +1,60 @@
+Execution Command AT+CEER			Response					
+			TA returns an extended report of the reason for the last call release.					
+			+CEER: <report>					
+								
+			OK					
+			Parameter					
+			<report> If AT+CEER=0, return <s>					
+			<s> a string that represents the Cause					
+			If AT+CEER=1, return					
+			Cause:<c>					
+			<c> number representing the Cause					
+			Parameters					
+			<c>(number) <s>(string)					
+			0 (No cause)					
+								
+			1 (unassigned (unallocated) number)					
+								
+			3 (no route to destination)					
+								
+			6 (channel unacceptable)					
+								
+			8 (operator determined barring)					
+								
+			16 (normal call clearing)					
+								
+			17 (user busy)					
+								
+			18 (no user responding)					
+								
+			19 (user alerting, no answer)					
+								
+			21 (call rejected)					
+								
+			22 (number changed)					
+								
+			26 (non-selected user clearing)					
+								
+			27 (destination out of order)					
+								
+			28 (invalid number format (incomplete number))					
+								
+			29 (facility rejected)					
+								
+			30 (response to STATUS ENQUIRY)					
+								
+			31 (normal, unspecified)					
+								
+			34 (emergency call not possible)					
+								
+			38 (network out of order)					
+								
+			41 (temporary failure)					
+								
+			42 (switching equipment congestion)					
+								
+			43 (access information discarded)					
+								
+			44 (requested circuit/channel not available)					
+								
+			47 (resource unavailable, unspecified)					

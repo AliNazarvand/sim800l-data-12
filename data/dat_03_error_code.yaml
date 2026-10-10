@@ -1,4 +1,4 @@
-# auto-generated from sources at 2026-10-10T15:17:38Z
+# auto-generated at 2026-10-10T15:24:03Z
 - id: dat_03_0001
   category: Error Code
   source:
@@ -16,8 +16,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '17'
   meaning: 'CME
@@ -45,8 +45,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '18'
   meaning: 'CME ERROR: 18'
@@ -70,8 +70,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '3'
   meaning: AT Commands According to 3GPP TS 27.007.....................................47
@@ -95,8 +95,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '4'
   meaning: AT Commands According to 3GPP TS 27.005...................................101
@@ -120,8 +120,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '5'
   meaning: AT Commands for SIM Application Toolkit......................................123
@@ -145,8 +145,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '8'
   meaning: AT Commands for TCPIP Application Toolkit ..................................181
@@ -170,8 +170,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '11'
   meaning: AT Commands for HTTP Application..............................................212
@@ -195,8 +195,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '13'
   meaning: AT Commands for GSM Location Application................................236
@@ -220,8 +220,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '15'
   meaning: AT Commands for MMS Application...............................................258
@@ -245,8 +245,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '16'
   meaning: AT Commands for DDET Application..............................................278
@@ -270,8 +270,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '21'
   meaning: ATC Differences among SIM800 Series...........................................313
@@ -295,8 +295,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '1'
   meaning: Introduction
@@ -320,8 +320,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '2'
   meaning: AT Commands According to V.25TER
@@ -345,8 +345,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '0'
   meaning: No flow control
@@ -370,8 +370,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '7'
   meaning: All classes
@@ -395,8 +395,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '129'
   meaning: Unknown type
@@ -420,8 +420,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '161'
   meaning: National number type
@@ -445,8 +445,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '145'
   meaning: International number type
@@ -470,8 +470,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '177'
   meaning: Network specific number
@@ -495,8 +495,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '6'
   meaning: Disconnect
@@ -520,8 +520,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '176'
   meaning: READ BINARY
@@ -545,8 +545,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '178'
   meaning: READ RECORD
@@ -570,8 +570,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '192'
   meaning: GET RESPONSE
@@ -595,8 +595,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '214'
   meaning: UPDATE BINARY
@@ -620,8 +620,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '220'
   meaning: UPDATE RECORD
@@ -645,8 +645,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '242'
   meaning: STATUS
@@ -670,8 +670,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '99'
   meaning: Not known or not detectable
@@ -695,8 +695,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '9'
   meaning: This is a deflected call (MT call setup)
@@ -720,8 +720,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '19'
   meaning: Indian Dial Tone
@@ -745,8 +745,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '20'
   meaning: American Dial Tone
@@ -770,8 +770,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '31'
   meaning: QOS mean throughput class best effort
@@ -795,8 +795,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '10'
   meaning: AT Commands for PING Support
@@ -820,8 +820,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '100'
   meaning: Continue
@@ -845,8 +845,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '101'
   meaning: Switching Protocols
@@ -870,8 +870,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '201'
   meaning: Created
@@ -895,8 +895,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '202'
   meaning: Accepted
@@ -920,8 +920,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '203'
   meaning: Non-Authoritative Information
@@ -945,8 +945,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '204'
   meaning: No Content
@@ -970,8 +970,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '205'
   meaning: Reset Content
@@ -995,8 +995,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '206'
   meaning: Partial Content
@@ -1020,8 +1020,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '300'
   meaning: Multiple Choices
@@ -1045,8 +1045,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '301'
   meaning: Moved Permanently
@@ -1070,8 +1070,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '302'
   meaning: Found
@@ -1095,8 +1095,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '303'
   meaning: See Other
@@ -1120,8 +1120,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '304'
   meaning: Not Modified
@@ -1145,8 +1145,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '305'
   meaning: Use Proxy
@@ -1170,8 +1170,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '307'
   meaning: Temporary Redirect
@@ -1195,8 +1195,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '400'
   meaning: Bad Request
@@ -1220,8 +1220,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '401'
   meaning: Unauthorized
@@ -1245,8 +1245,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '402'
   meaning: Payment Required
@@ -1270,8 +1270,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '403'
   meaning: Forbidden
@@ -1295,8 +1295,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '404'
   meaning: Not Found
@@ -1320,8 +1320,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '405'
   meaning: Method Not Allowed
@@ -1345,8 +1345,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '406'
   meaning: Not Acceptable
@@ -1370,8 +1370,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '407'
   meaning: Proxy Authentication Required
@@ -1395,8 +1395,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '408'
   meaning: Request Time-out
@@ -1420,8 +1420,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '409'
   meaning: Conflict
@@ -1445,8 +1445,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '411'
   meaning: Length Required
@@ -1470,8 +1470,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '412'
   meaning: Precondition Failed
@@ -1495,8 +1495,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '413'
   meaning: Request Entity Too Large
@@ -1520,8 +1520,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '414'
   meaning: Request-URI Too Large
@@ -1545,8 +1545,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '415'
   meaning: Unsupported Media Type
@@ -1570,8 +1570,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '416'
   meaning: Requested range not satisfiable
@@ -1595,8 +1595,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '417'
   meaning: Expectation Failed
@@ -1620,8 +1620,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '500'
   meaning: Internal Server Error
@@ -1645,8 +1645,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '501'
   meaning: Not Implemented
@@ -1670,8 +1670,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '502'
   meaning: Bad Gateway
@@ -1695,8 +1695,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '503'
   meaning: Service Unavailable
@@ -1720,8 +1720,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '504'
   meaning: Gateway Time-out
@@ -1745,8 +1745,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '505'
   meaning: HTTP Version not supported
@@ -1770,8 +1770,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '600'
   meaning: Not HTTP PDU
@@ -1795,8 +1795,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '601'
   meaning: Network Error
@@ -1820,8 +1820,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '602'
   meaning: No memory
@@ -1845,8 +1845,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '603'
   meaning: DNS Error
@@ -1870,8 +1870,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '604'
   meaning: Stack Busy
@@ -1895,8 +1895,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '12'
   meaning: AT Commands for FTP Application
@@ -1920,8 +1920,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '62'
   meaning: DNS error
@@ -1945,8 +1945,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '63'
   meaning: Connect error
@@ -1970,8 +1970,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '64'
   meaning: Timeout
@@ -1995,8 +1995,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '65'
   meaning: Server error
@@ -2020,8 +2020,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '66'
   meaning: Operation not allow
@@ -2045,8 +2045,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '70'
   meaning: Replay error
@@ -2070,8 +2070,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '71'
   meaning: User error
@@ -2095,8 +2095,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '72'
   meaning: Password error
@@ -2120,8 +2120,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '73'
   meaning: Type error
@@ -2145,8 +2145,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '74'
   meaning: Rest error
@@ -2170,8 +2170,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '75'
   meaning: Passive error
@@ -2195,8 +2195,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '76'
   meaning: Active error
@@ -2220,8 +2220,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '77'
   meaning: Operate error
@@ -2245,8 +2245,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '78'
   meaning: Upload error
@@ -2270,8 +2270,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '79'
   meaning: Download error
@@ -2295,8 +2295,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '14'
   meaning: AT Commands for Email Application
@@ -2320,8 +2320,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '61'
   meaning: Network error.
@@ -2345,8 +2345,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '67'
   meaning: Authentication failed. SMTP user name or password may
@@ -2370,8 +2370,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '68'
   meaning: Bad recipient.
@@ -2395,8 +2395,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '69'
   meaning: Read data timeout
@@ -2420,8 +2420,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '5001'
   meaning: Be playing
@@ -2445,8 +2445,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '5002'
   meaning: Audio busy
@@ -2470,8 +2470,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '5003'
   meaning: No space
@@ -2495,8 +2495,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '5004'
   meaning: Format error
@@ -2520,8 +2520,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '5005'
   meaning: File operation failure
@@ -2545,8 +2545,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '5006'
   meaning: File is null
@@ -2570,8 +2570,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '5007'
   meaning: File size is error
@@ -2595,8 +2595,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '5008'
   meaning: File is not exist
@@ -2620,8 +2620,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '103'
   meaning: Illegal MS
@@ -2645,8 +2645,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '106'
   meaning: Illegal ME
@@ -2670,8 +2670,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '107'
   meaning: GPRS services not allowed
@@ -2695,8 +2695,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '111'
   meaning: PLMN not allowed
@@ -2720,8 +2720,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '112'
   meaning: Location area not allowed
@@ -2745,8 +2745,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '113'
   meaning: Roaming not allowed in this location area
@@ -2770,8 +2770,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '149'
   meaning: PDP authentication failure
@@ -2795,8 +2795,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '160'
   meaning: DNS resolve failed
@@ -2820,8 +2820,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '171'
   meaning: MMS task is busy now
@@ -2845,8 +2845,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '172'
   meaning: The mms data is oversize
@@ -2870,8 +2870,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '173'
   meaning: The operation is overtime
@@ -2895,8 +2895,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '174'
   meaning: There is no mms receiver
@@ -2920,8 +2920,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '175'
   meaning: The storage for address is full
@@ -2945,8 +2945,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '179'
   meaning: This is not a push message
@@ -2970,8 +2970,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '182'
   meaning: The mms storage is full
@@ -2995,8 +2995,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '183'
   meaning: The box is empty
@@ -3020,8 +3020,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '185'
   meaning: It is in edit mode
@@ -3045,8 +3045,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '186'
   meaning: It is not in edit mode
@@ -3070,8 +3070,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '187'
   meaning: No content in the buffer
@@ -3095,8 +3095,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '188'
   meaning: Not find the file
@@ -3120,8 +3120,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '189'
   meaning: Failed to receive mms
@@ -3145,8 +3145,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '190'
   meaning: Failed to read mms
@@ -3170,8 +3170,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '191'
   meaning: Not M-Notification.ind
@@ -3195,8 +3195,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '193'
   meaning: Unknown
@@ -3220,8 +3220,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '765'
   meaning: Invalid input value
@@ -3245,8 +3245,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '766'
   meaning: Unsupported mode
@@ -3270,8 +3270,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '767'
   meaning: Operation failed
@@ -3295,8 +3295,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '768'
   meaning: Mux already running
@@ -3320,8 +3320,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '769'
   meaning: Unable to get control
@@ -3345,8 +3345,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '770'
   meaning: SIM network reject
@@ -3370,8 +3370,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '771'
   meaning: Call setup in progress
@@ -3395,8 +3395,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '772'
   meaning: SIM powered down
@@ -3420,8 +3420,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '773'
   meaning: SIM file not present
@@ -3445,8 +3445,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '791'
   meaning: Param count not enough
@@ -3470,8 +3470,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '792'
   meaning: Param count beyond
@@ -3495,8 +3495,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '793'
   meaning: Param value range beyond
@@ -3520,8 +3520,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '794'
   meaning: Param type not match
@@ -3545,8 +3545,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '795'
   meaning: Param format invalid
@@ -3570,8 +3570,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '796'
   meaning: Get a null param
@@ -3595,8 +3595,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '797'
   meaning: CFUN state is 0 or 4
@@ -3620,8 +3620,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '810'
   meaning: No Error
@@ -3645,8 +3645,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '811'
   meaning: Unrecognized Command
@@ -3670,8 +3670,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '812'
   meaning: Return Value Error
@@ -3695,8 +3695,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '813'
   meaning: Syntax Error
@@ -3720,8 +3720,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '814'
   meaning: Unspecified Error
@@ -3745,8 +3745,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '815'
   meaning: Data Transfer Already
@@ -3770,8 +3770,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '816'
   meaning: Action Already
@@ -3795,8 +3795,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '817'
   meaning: Not At Cmd
@@ -3820,8 +3820,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '818'
   meaning: Multi Cmd too long
@@ -3845,8 +3845,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '819'
   meaning: Abort Cops
@@ -3870,8 +3870,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '820'
   meaning: No Call Disc
@@ -3895,8 +3895,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '821'
   meaning: BT SAP Undefined
@@ -3920,8 +3920,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '822'
   meaning: BT SAP Not Accessible
@@ -3945,8 +3945,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '823'
   meaning: BT SAP Card Removed
@@ -3970,8 +3970,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '824'
   meaning: AT Not Allowed By Customer
@@ -3995,8 +3995,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '22'
   meaning: Number changed
@@ -4020,8 +4020,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '25'
   meaning: Pre-emption
@@ -4045,8 +4045,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '26'
   meaning: Non-selected user clearing
@@ -4070,8 +4070,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '27'
   meaning: Destination out of service
@@ -4095,8 +4095,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '28'
   meaning: Invalid number format (incomplete number)
@@ -4120,8 +4120,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '29'
   meaning: Facility rejected
@@ -4145,8 +4145,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '30'
   meaning: Response to STATUS ENQUIRY
@@ -4170,8 +4170,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '32'
   meaning: Normal, unspecified
@@ -4195,8 +4195,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '38'
   meaning: Network out of order
@@ -4220,8 +4220,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '41'
   meaning: Temporary failure
@@ -4245,8 +4245,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '42'
   meaning: Switching equipment Congestion
@@ -4270,8 +4270,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '43'
   meaning: Access information discarded
@@ -4295,8 +4295,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '47'
   meaning: Resources unavailable, unspecified
@@ -4320,8 +4320,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '49'
   meaning: Quality of service unavailable
@@ -4345,8 +4345,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '50'
   meaning: Requested facility not subscribed
@@ -4370,8 +4370,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '55'
   meaning: Requested facility not subscribed
@@ -4395,8 +4395,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '57'
   meaning: Bearer capability not authorized
@@ -4420,8 +4420,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '58'
   meaning: Bearer capability not presently available
@@ -4445,8 +4445,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '81'
   meaning: Invalid transaction identifier value
@@ -4470,8 +4470,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '87'
   meaning: User not member of CUG
@@ -4495,8 +4495,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '88'
   meaning: Incompatible destination
@@ -4520,8 +4520,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '91'
   meaning: Invalid transit network selection
@@ -4545,8 +4545,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '95'
   meaning: Semantically incorrect message
@@ -4570,8 +4570,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '96'
   meaning: Invalid mandatory information
@@ -4595,8 +4595,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '97'
   meaning: Message type non-existent or not implemented
@@ -4620,8 +4620,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '98'
   meaning: Message type not compatible with protocol state
@@ -4645,8 +4645,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '102'
   meaning: Recovery on timer expiry
@@ -4670,8 +4670,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '127'
   meaning: Interworking, unspecified
@@ -4695,8 +4695,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '128'
   meaning: Telematic interworking not supported
@@ -4720,8 +4720,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '130'
   meaning: Cannot replace short message
@@ -4745,8 +4745,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '143'
   meaning: Unspecified TP-PID error
@@ -4770,8 +4770,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '144'
   meaning: Data coding scheme (alphabet) not supported
@@ -4795,8 +4795,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '159'
   meaning: Unspecified TP-DCS error
@@ -4820,8 +4820,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '194'
   meaning: SC system failure
@@ -4845,8 +4845,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '195'
   meaning: Invalid SME address
@@ -4870,8 +4870,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '196'
   meaning: Destination SME barred
@@ -4895,8 +4895,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '197'
   meaning: SM Rejected-Duplicate SM
@@ -4920,8 +4920,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '198'
   meaning: TP-VPF not supported
@@ -4945,8 +4945,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '199'
   meaning: TP-VP not supported
@@ -4970,8 +4970,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '208'
   meaning: SIM SMS storage full
@@ -4995,8 +4995,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '209'
   meaning: No SMS storage capability in SIM
@@ -5020,8 +5020,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '210'
   meaning: Error in MS
@@ -5045,8 +5045,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '211'
   meaning: Memory Capacity Exceeded
@@ -5070,8 +5070,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '212'
   meaning: SIM Application Toolkit Busy
@@ -5095,8 +5095,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '213'
   meaning: SIM data download error
@@ -5120,8 +5120,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '224'
   meaning: CP retry exceed
@@ -5145,8 +5145,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '225'
   meaning: RP trim timeout
@@ -5170,8 +5170,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '226'
   meaning: SMS connection broken
@@ -5195,8 +5195,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '255'
   meaning: Unspecified error cause
@@ -5220,8 +5220,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '310'
   meaning: SIM not inserted
@@ -5245,8 +5245,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '311'
   meaning: SIM pin necessary
@@ -5270,8 +5270,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '312'
   meaning: PH SIM pin necessary
@@ -5295,8 +5295,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '313'
   meaning: SIM failure
@@ -5320,8 +5320,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '314'
   meaning: SIM busy
@@ -5345,8 +5345,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '315'
   meaning: SIM wrong
@@ -5370,8 +5370,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '316'
   meaning: SIM PUK required
@@ -5395,8 +5395,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '317'
   meaning: SIM PIN2 required
@@ -5420,8 +5420,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '318'
   meaning: SIM PUK2 required
@@ -5445,8 +5445,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '330'
   meaning: SMSC address unknown
@@ -5470,8 +5470,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '512'
   meaning: SMS no error
@@ -5495,8 +5495,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '513'
   meaning: Message length exceeds maximum length
@@ -5520,8 +5520,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '514'
   meaning: Invalid request parameters
@@ -5545,8 +5545,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '515'
   meaning: ME storage failure
@@ -5570,8 +5570,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '516'
   meaning: Invalid bearer service
@@ -5595,8 +5595,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '517'
   meaning: Invalid service mode
@@ -5620,8 +5620,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '518'
   meaning: Invalid storage type
@@ -5645,8 +5645,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '519'
   meaning: Invalid message format
@@ -5670,8 +5670,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '520'
   meaning: Too many MO concatenated messages
@@ -5695,8 +5695,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '521'
   meaning: SMSAL not ready
@@ -5720,8 +5720,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '522'
   meaning: SMSAL no more service
@@ -5745,8 +5745,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '524'
   meaning: Reserved MTI
@@ -5770,8 +5770,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '525'
   meaning: No free entity in RL layer
@@ -5795,8 +5795,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '526'
   meaning: The port number is already registerred
@@ -5820,8 +5820,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '527'
   meaning: There is no free entity for port number
@@ -5845,8 +5845,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '528'
   meaning: More Message to Send state error
@@ -5870,8 +5870,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '529'
   meaning: MO SMS is not allow
@@ -5895,8 +5895,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '530'
   meaning: GPRS is suspended
@@ -5920,8 +5920,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '531'
   meaning: ME storage full
@@ -5945,8 +5945,8 @@
   - error code
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:17:38Z'
-  updated_at: '2026-10-10T15:17:38Z'
+  created_at: '2026-10-10T15:24:03Z'
+  updated_at: '2026-10-10T15:24:03Z'
   error_type: CME
   code: '532'
   meaning: Doing SIM refresh

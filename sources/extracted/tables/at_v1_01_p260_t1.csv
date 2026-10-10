@@ -1,0 +1,6 @@
+Read Command AT+CMMSPROTO ?	Response +CMMSPROTO: <Gateway>,<Port> OK
+	Parameters See Write Command
+Write Command AT+CMMSPROTO =<Gateway>,<Port >	Response OK or ERROR or +CME ERROR: <err>
+	Parameters <Gateway> IP address of MMS proxy. <Port> Port of MMS proxy.
+Parameter Saving Mode	AT+CMMSSCONT
+Reference	Note

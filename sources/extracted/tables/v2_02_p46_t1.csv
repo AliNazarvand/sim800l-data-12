@@ -1,0 +1,11 @@
+	Pin name			Pin number		Function			Default state	
+	KBC0			20	Keypad matrix column				Pull up	
+	KBC1			25					Pull down	
+	KBC2			22					Pull down	
+	KBC3			21					Pull down	
+	KBC4			24					Pull down	
+	KBR0			62	Keypad matrix row				Pull down	
+	KBR1			60					Pull down	
+	KBR2			61					Pull down	
+	KBR3			23					Pull down	
+	KBR4			63					Pull down	

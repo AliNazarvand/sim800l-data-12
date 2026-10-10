@@ -1,54 +1,51 @@
-# SIM800L Knowledge Base
+# sim800l-data
 
-پایگاه دانش ساختاریافته برای ماژول **SIM800L** (فقط).
+پروژه داده‌محور SIM800L.
 
-## وضعیت نهایی
+**آخرین به‌روزرسانی**: 2026-10-10T15:24:11Z
 
-- ۱۸ دیتاست در فرمت YAML کانونیک
-- ۱۳ دیتاست complete
-- ۱ دیتاست external (dat_14)
-- ۴ دیتاست inferred (dat_08, 16, 17, 18) - پذیرش مستند
-- ۰ دیتاست blocked
-- ۰ فایل JSON legacy
-- ۰ پوشه tools/ یا raw/
+## وضعیت ۱۸ دیتاست
+
+| # | نام | تعداد رکورد |
+|---|---|---|
+| dat_01 | dat_01_at_command.yaml | 311 |
+| dat_02 | dat_02_urc.yaml | 121 |
+| dat_03 | dat_03_error_code.yaml | 238 |
+| dat_04 | dat_04_timing_timeout.yaml | 16 |
+| dat_05 | dat_05_state_machine.yaml | 11 |
+| dat_06 | dat_06_init_sequence.yaml | 12 |
+| dat_07 | dat_07_hardware_reference.yaml | 26 |
+| dat_08 | dat_08_firmware_compatibility.yaml | 0 |
+| dat_09 | dat_09_sms.yaml | 14 |
+| dat_10 | dat_10_gprs_data.yaml | 21 |
+| dat_11 | dat_11_http_ftp_ssl.yaml | 43 |
+| dat_12 | dat_12_audio.yaml | 5 |
+| dat_13 | dat_13_sim_management.yaml | 10 |
+| dat_14 | dat_14_operator_apn.yaml | 52 |
+| dat_15 | dat_15_power_management.yaml | 4 |
+| dat_16 | dat_16_board_evb.yaml | 0 |
+| dat_17 | dat_17_certificate_key_store.yaml | 0 |
+| dat_18 | dat_18_certification.yaml | 0 |
+
+
+## منابع
+- SIM800L_Hardware_Design_V1.00.pdf
+- SIM800H&SIM800L_Hardware_Design_V2.02.PDF
+- SIM800 Series_AT Command Manual_V1.01.pdf
 
 ## ساختار
+- `data/` — ۱۸ دیتاست YAML
+- `schemas/` — ۱۸ JSON schema
+- `scripts/` — اسکریپت‌های pipeline
+- `sources/` — PDFهای اصلی و متن استخراج‌شده
+- `reports/` — گزارش‌ها
 
+## Pipeline
 ```
-sim800l-data/
-├── data/            # دیتاست‌های YAML کانونیک
-├── schemas/         # 18 schema (JSON Schema draft-07 در قالب YAML)
-├── sources/
-│   ├── originals/   # PDFهای رسمی
-│   └── extracted/   # متن استخراج‌شده (*.txt + manifest.json)
-├── reports/         # گزارش‌های مدیریتی و dat_XX_REPORT
-├── scripts/         # validate.py, cross_ref.py, extract_*.py
-└── docs/            # مستندات
+py scripts/extract_pdf_v3.py
+py scripts/parse_sources_v2.py
+py scripts/populate_v3.py
+py scripts/cross_ref_v3.py
+py scripts/validate_v3.py
+py scripts/generate_reports_v3.py
 ```
-
-## اجرا
-
-```bash
-pip install pyyaml jsonschema pymupdf pdfplumber
-python scripts/validate.py       # اعتبارسنجی ۴ سطحی با jsonschema
-python scripts/cross_ref.py      # ۷ قاعده cross-ref واقعی
-python scripts/extract_pdf.py    # استخراج متن PDF
-python scripts/extract_figures.py# استخراج شکل‌های معنادار (فیلتر شده)
-python scripts/extract_tables.py # استخراج جدول‌های معنادار (فیلتر شده)
-python scripts/preflight.py      # بررسی منابع
-```
-
-## قواعد
-
-- R1: فقط SIM800L
-- R2: هیچ رکورد بدون source
-- R4: inferred با confidence ≤ 0.5
-- R6: هیچ synthetic
-- R7: V2.02 > V1.00
-- R21: هیچ example-only در data/
-
-## فرمت داده
-
-- فقط **YAML** (JSON legacy حذف شده)
-- Schemaها در قالب **JSON Schema draft-07** با فرمت YAML
-- اعتبارسنجی با کتابخانه `jsonschema`

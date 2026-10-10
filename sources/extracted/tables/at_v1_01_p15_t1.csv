@@ -1,0 +1,24 @@
+		6.2.25 CMGDA				Modify description of max response	
+						time	
+		15.2.8 AT+CMMSSEND				Modify description of max response	
+						time	
+		15.2.15 AT+CMMSRECV				Modify description of max response	
+						time	
+			2.2.16 ATS0			Add parameter saving mode	
+			2.2.20 ATS6			Add parameter saving mode	
+			2.2.21 ATS7			Add parameter saving mode	
+			2.2.22 ATS8			Add parameter saving mode	
+			2.2.26 ATX			Add parameter saving mode	
+			3.2.4 AT+CBST			Add parameter saving mode	
+			3.2.16 AT+CLCC			Add parameter saving mode	
+			3.2.12 AT+CSCS			Add parameter saving mode	
+			3.2.51 AT+CRSL			Add parameter saving mode	
+			3.2.52 AT+CLVL			Add parameter saving mode	
+			6.2.33 AT+CIURC			Add parameter saving mode	
+			6.2.53 AT_CSDT			Add parameter saving mode	
+			6.2.54 AT+CSMINS			Add parameter saving mode	
+			3.2.32 AT+CREG			Modify parameter save mode	
+			6.2.44 AT+SVR			Modify parameter save mode	
+			7.2.10 AT+CGREG			Modify parameter save mode	
+			3.2.24 AT+CPBS			Delete parameter save mode	
+			3.2.25 AT+CPBW			Delete parameter save mode	

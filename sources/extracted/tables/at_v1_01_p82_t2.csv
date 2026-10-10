@@ -1,0 +1,22 @@
+AT+CSQ Signal Quality Report			
+Test Command AT+CSQ=?		Response	
+		+CSQ: (list of supported <rssi>s),(list of supported <ber>s)	
+			
+		OK	
+Execution Command AT+CSQ		Response	
+		+CSQ: <rssi>,<ber>	
+			
+		OK	
+		If error is related to ME functionality:	
+		+CME ERROR: <err>	
+		Execution Command returns received signal strength indication <rssi>	
+		and channel bit error rate <ber> from the ME. Test Command returns	
+		values supported by the TA.	
+		Parameters	
+		<rssi>	
+		0 -115 dBm or less	
+		1 -111 dBm	
+		2...30 -110... -54 dBm	
+		31 -52 dBm or greater	
+		99 not known or not detectable	
+		<ber> (in percent):	

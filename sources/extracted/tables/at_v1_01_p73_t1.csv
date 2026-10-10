@@ -1,0 +1,35 @@
+AT+CPBR Read Current Phonebook Entries	
+Test Command AT+CPBR=?	Response
+	TA returns location range supported by the current storage as a compound
+	value and the maximum lengths of <number> and <text> fields.
+	
+	+CPBR: (list of supported <index>s), <nlength>, <tlength>
+	
+	OK
+	Parameters
+	<index> Location number
+	<nlength> Max. length of phone number
+	<tlength> Max. length of text for number
+Write Command AT+CPBR=<inde x1>[,<index2>]	Response
+	TA returns phone book entries in location number range <index1>...
+	<index2> from the current phone book memory storage selected with
+	+CPBS. If <index2> is left out, only location <index1> is returned.
+	
+	+CPBR:<index1>,<number>,<type>,<text>
+	[[…]<CR><LF>+CPBR: <index2>, <number>, <type>, <text>]
+	
+	OK
+	Parameters
+	<index1> Read as of this location number
+	<index2> Read to this location number
+	<number> Phone number
+	<type> Type of number
+	<text> Text for phone number in current TE character set specified by
+	+CSCS.
+Max Response Time	3 seconds (single reading)
+	30 seconds (complete reading of a 250 records full phonebook.
+	We use the China Mobile sim cards for testing, which produced by Axalto
+	at 2010 for Shanghai. Use other sim cards may have different results.
+Reference 3GPP TS 27.007 13]	Note
+	
+	

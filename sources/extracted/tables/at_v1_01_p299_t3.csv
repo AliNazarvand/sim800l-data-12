@@ -1,0 +1,3 @@
+	Demonstration	Syntax	Expect Result	
+Make a voice call		ATD6241xxxx;	OK MS makes a voice call	
+	Hang up a call	ATH	OK	

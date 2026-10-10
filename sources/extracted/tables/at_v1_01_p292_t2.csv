@@ -1,0 +1,38 @@
+	URC			Description			AT Command	
+	+CCWA:		Indication of a call that is currently waiting and can be accepted.	Indication of a call that is currently		AT+CCWA=1		
+	<number>,<type>,<class>[,<a			waiting and can be accepted.				
+	lpha>]							
+	+CLIP:		The calling line identity (CLI) of the calling party when receiving a mobile terminated call.			AT+CLIP=1		
+	<number>,<type>,<subaddr>,							
+	<satype>,<alphaId>,<CLI							
+	validity>							
++CRING: <type>	+CRING: <type>			Indicates incoming call to the TE if		AT+CRC=1		
+				extended format is enabled.				
++CREG: <stat>[,<lac>,<ci>]				There is a change in the MT network		AT+CREG=<n>		
+				registration status or a change of the				
+				network cell.				
++CCWV				Shortly before the ACM (Accumulated		AT+CCWE=1		
+				Call Meter) maximum value is reached.				
+				The warning is issued approximately				
+				when 5 seconds call time remains. It is				
+				also issued when starting a call if less				
+				than 5 s call time remains.				
++CMTI: <mem3>,<index>				Indicates that new message has been			AT+CNMI	
+				received.			<mt>=1	
++CMT: <length><CR><LF><pdu>			Indicates that new message has been received.	Indicates that new message has been			AT+CNMI	
+				received.			<mt>=2 (PDU	
+							mode)	
+	+CMT:		Indicates that new message has been received.			AT+CNMI <mt>=2 (text mode)	AT+CNMI	
+	<oa>,<scts>[,<tooa>,<fo>,<pi						<mt>=2 (text	
+	d>,<dcs>,<sca>,<tosca>,						mode)	
+	<length>]<CR><LF><data>							
++CBM: <length><CR><LF><pdu>	+CBM:		Indicates that new cell broadcast message has been received.				AT+CNMI	
+	<length><CR><LF><pdu>						<bm>=2 (PDU	
+							mode enabled):	
+	+CBM:		Indicates that new cell broadcast message has been received.				AT+CNMI	
+	<sn>,<mid>,<dcs>,<page>,<p						<bm>=2 (text	
+	ages><CR><LF><data>						mode enabled):	
++CDS: <length><CR><LF><pdu>	+CDS:		Indicates that new SMS status report has been received.				AT+CNMI	
+	<length><CR><LF><pdu>						<ds>=1 (PDU	
+							mode enabled):	
+	+CDS:			Indicates that new SMS status report has			AT+CNMI	

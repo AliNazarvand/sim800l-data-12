@@ -1,0 +1,44 @@
+	<mode> 1 start record
+	2 stop record
+	3 delete record
+	4 play record
+	5 stop play record
+	6 get record data in hex format, the max len is 10K in bytes
+	7 list record files infomation
+	8 query free space in bytes
+	9 create record file direcotry
+	<id> file ID number, 1-10
+	<form> record file format
+	0 AMR
+	1 WAV
+	2 WAV_ADPCM
+	<time> recording time limit. The recording will be stopped if the
+	recording time reaches the time limit, or there is a mistake/ memory
+	full/other events disturbed (call setup, etc.)/ Or manual operation.If 0 or
+	default value is set, no time limit is set.
+	<channel> channel
+	0 main channel
+	1 aux channel
+	<level> 0-100, play volume
+	<repeat> repeate
+	0 play once
+	1 play infinitely
+	<len> length in bytes
+	<offset> offset of the record file , it is less than the length of reord file.
+	when read the record file, if the len+offset is larger than the file length, then
+	we need to return to the actural data length.
+	<data> record file data in hex format
+	<location> record file location
+	0 system FAT
+	1 SD card (SIM800V and customized SIM800H/L support
+	SD card)
+	<inputpath> input channel
+	0 MIC1
+	1 MIC2
+	<quality> record quality
+	0 low
+	1 medium
+	2 high
+	3 best
+eference	Note
+	(cid:122) Record willl overwrite the recored file with the same ID

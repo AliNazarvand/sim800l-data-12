@@ -1,0 +1,6 @@
+AT+CALD Delete Alarm	
+Test Command AT+CALD=?	Response +CALD: (list of supported <n>s) OK
+	Parameter See Write Command
+Write Command AT+CALD=<n>	Response OK If error is related to ME functionality: +CME ERROR: <err>
+	Parameter <n> Integer type value indicating the index of the alarm; default is manufacturer specific (range from 1 to 5 now).
+Reference	Note

@@ -1,0 +1,43 @@
+		See Write Command	
+Read Command AT+CSSN?		Response	
+		+CSSN: <n>,<m>	
+			
+		OK	
+		Parameters	
+		See Write Command	
+Write Command AT+CSSN=<n>[, <m>]		Response	
+		OK	
+		If error is related to ME functionality:	
+		+CME ERROR: <err>	
+		Parameters	
+		<n> A numeric parameter which indicates whether to show the	
+		+CSSI:<code1>[,<index>] result code presentation status after a mobile	
+		originated call setup	
+		0 disable	
+		1 enable	
+		<m> A numeric parameter which indicates whether to show the	
+		+CSSU:<code2> result code presentation status during a mobile	
+		terminated call setup or during a call, or when a forward check	
+		supplementary service notification is received.	
+		0 disable	
+		1 enable	
+		<code1> 0 Unconditional call forwarding is active	
+		1 Some of the conditional call forwarding are active	
+		2 Call has been forwarded	
+		3 Call is waiting	
+		4 This is a CUG call (also <index> present)	
+		5 Outgoing calls are barred	
+		6 Incoming calls are barred	
+		7 CLIR suppression rejected	
+		<index> Closed user group index	
+		<code2> 0 This is a forwarded call	
+		1 This is a CUG call (also <index> present) (MT call	
+		setup)	
+		2 Call has been put on hold (during a voice call)	
+		3 Call has been retrieved (during a voice call)	
+		4 Multiparty call entered (during a voice call)	
+		5 Call on hold has been released (this is not a SS	
+		notification) (during a voice call)	
+		6 Forward check SS message received (can be received	
+		whenever)	
+		7 Call is being connected (alerting) with the remote party	

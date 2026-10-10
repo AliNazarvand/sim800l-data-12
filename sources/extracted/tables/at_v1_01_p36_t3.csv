@@ -1,0 +1,5 @@
+ATX Set CONNECT Result Code Format and Monitor Call Progress	
+Execution	Response This parameter setting determines whether or not the TA detected the presence of dial tone and busy signal and whether or not TA transmits particular result codes. OK ERROR
+Command	
+ATX<value>	
+	

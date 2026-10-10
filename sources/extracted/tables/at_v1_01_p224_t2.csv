@@ -1,0 +1,7 @@
+AT+FTPSERV Set FTP Server Address	
+Test Command AT+FTPSERV= ?	Response OK
+Read Command AT+FTPSERV?	Response +FTPSERV: <value> OK
+	Parameter See Write Command
+Write Command AT+FTPSERV= <value>	Response OK If error is related to ME functionality: +CME ERROR: <err>
+	Parameter <value> 32-bit number in dotted-decimal notation (i.e. xxx.xxx.xxx.xxx) or alphanumeric ASCII text string up to 49 characters if DNS is available
+Reference	Note

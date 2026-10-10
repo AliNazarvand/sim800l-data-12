@@ -1,0 +1,29 @@
+AT+CSCS Select TE Character Set			
+Test Command AT+CSCS=? b		Response	
+		+CSCS: (list of supported <chset>s)	
+			
+		OK	
+	e	Parameter	
+		<chset> "GSM" GSM 7 bit default alphabet (3GPP TS 23.038);	
+		"UCS2" 16-bit universal multiple-octet coded character set	
+		(ISO/IEC10646); UCS2 character strings are converted to	
+		hexadecimal numbers from 0000 to FFFF; e.g.	
+		"004100620063" equals three 16-bit characters with decimal	
+		values 65, 98 and 99	
+		"IRA" International reference alphabet (ITU-T T.50)	
+		"HEX" Character strings consist only of hexadecimal	
+		rs from 00 to FF;	
+		"PCCP" PC character set Code	
+		"PCDN" PC Danish/Norwegian character set	
+		"8859-1" ISO 8859 Latin 1 character set	
+			
+Read Command AT+CSCS?		Response	
+		+CSCS: <chset>	
+			
+		OK	
+		Parameter	
+		See Test Command	
+Write Command AT+CSCS=<chse t>		Response	
+		Sets which character set <chset> are used by the TE. The TA can then	
+		convert character strings correctly between the TE and ME character sets.	
+		OK	

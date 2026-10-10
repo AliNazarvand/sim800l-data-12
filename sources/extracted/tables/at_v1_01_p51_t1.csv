@@ -1,0 +1,14 @@
+				<mode> 0 Query CCM value	
+				1 Deactivate the unsolicited reporting of CCM value	
+				2 Activate the unsolicited reporting of CCM value	
+				<ccm> String type (string should be included in quotation marks);	
+				three bytes of the current CCM value in hex-decimal format (e.g.	
+				"00001E" indicates decimal value 30); bytes are similarly coded as	
+				ACMmax value in the SIM 000000-FFFFFF	
+Execution Command AT+CAOC				Response	
+				+CAOC: <ccm>	
+					
+				OK	
+R 3 [1	eference		Note	Note	
+	GPP TS 27.007				
+	3]				

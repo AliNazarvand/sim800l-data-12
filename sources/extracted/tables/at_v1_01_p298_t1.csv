@@ -1,0 +1,20 @@
+	ATE1&W AT		[No echo]	
+			OK	
+			[Echo on]	
+			OK	
+Set the ME to minimum functionality	AT+IPR？ AT+CFUN=0 AT+IPR = 115200 AT+IPR? AT+CFUN=0		+IPR:0	
+				
+			OK	
+			OK	
+				
+			+CPIN: NOT READY	
+			OK	
+			+IPR:115200	
+				
+			OK	
+			OK	
+				
+			+CPIN: NOT READY	
+ME has entered full functionality mode	AT+CFUN?		+CFUN:1	
+				
+			OK	
