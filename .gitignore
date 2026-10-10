@@ -17,3 +17,9 @@ sources/extracted/figures/**
 data/_backup_*/
 sources/_backup_*/
 *.pyc
+
+# Backups from local scripts
+data/*.prefix-*
+data/*.bak-*
+*.prefix-*
+*.bak-*
