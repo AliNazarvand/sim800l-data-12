@@ -7,28 +7,21 @@ This repository contains **data only** — no drivers, no libraries, no
 compilable code. The only Python files live under `tools/` and exist solely
 for schema validation, JSON generation, and PDF preflight checks.
 
-## Current Status — Awaiting Primary Source PDFs
+## Phase 1 Status
 
-**Phase 1 has not produced any dataset yet.** The two primary Hardware Design
-PDFs were not accessible when this repository was last touched. Per the
-project's explicit rule ("Before any other action, the two source PDFs must
-be obtained; if they are not accessible, stop work and report"), no data has
-been extracted and no dataset has been fabricated.
+Phase 1 delivers six hardware-focused datasets extracted only from the two
+primary hardware design PDFs.
 
-See `PHASE_1_REPORT.md` for the stop report and next steps.
+| ID     | Dataset                       | Records | Status   |
+|--------|-------------------------------|---------|----------|
+| dat_07 | Hardware Reference DB         | 80      | partial  |
+| dat_04 | Timing & Timeout DB           | 11      | complete |
+| dat_15 | Power Management DB           | 4       | partial  |
+| dat_05 | State Machine DB              | 19      | complete |
+| dat_06 | Init Sequence DB              | 5       | complete |
+| dat_16 | Board/EVB Definitions         | 0       | deferred |
 
-### To proceed
-
-1. Place the two PDFs in one of these locations (any of them is fine):
-   - `./` (repository root)
-   - `./sources/`
-   - `./pdfs/`
-   - the parent folder of this repository
-   with exactly these file names:
-   - `SIM800L_Hardware_Design_V1.00.pdf`
-   - `SIM800H&SIM800L_Hardware_Design_V2.02.PDF`
-2. Re-run the project pipeline. `tools/preflight.py` will confirm the PDFs
-   are reachable before any further work begins.
+See `PHASE_1_REPORT.md` for the complete status, gaps, and deferrals.
 
 ## Primary Sources
 
@@ -48,14 +41,14 @@ sim800l-data/
 ├── CONTRIBUTING.md
 ├── PHASE_1_REPORT.md
 ├── requirements.txt
-├── schemas/            JSON-Schema per dataset (added when data exists)
+├── schemas/            JSON-Schema per dataset
 ├── data/               YAML datasets (source of truth)
 ├── raw/                Raw extraction notes and diagram descriptions
 ├── sources/            Place the two primary PDFs here
 ├── tools/
-│   ├── preflight.py    Verifies the two source PDFs are present
-│   ├── validate.py     Validates YAML against schemas
-│   └── generate_json.py  Produces valid JSON from YAML
+│   ├── preflight.py
+│   ├── validate.py
+│   └── generate_json.py
 ├── docs/
 │   ├── data_dictionary.md
 │   ├── source_mapping.md
@@ -65,13 +58,20 @@ sim800l-data/
 └── .github/workflows/  CI: validate.yml
 ```
 
-## Tools
+## How to Use
+
+1. Read the relevant YAML under `data/<dataset>/`.
+2. JSON equivalents are auto-generated next to each YAML by
+   `tools/generate_json.py`. Never edit JSON by hand.
+3. Consult `docs/source_mapping.md` for the source page/section of each field.
+4. Consult `docs/conflict_log.md` for V1.00 vs V2.02 resolutions.
+
+## Running Validation and JSON Generation
 
 ```bash
 pip install -r requirements.txt
-python tools/preflight.py           # verify PDFs are reachable
-python tools/validate.py            # validate data/**/*.yaml
-python tools/generate_json.py       # write JSON next to each YAML
+python tools/validate.py
+python tools/generate_json.py
 python tools/generate_json.py --check   # CI mode
 ```
 
@@ -83,18 +83,24 @@ Data extracted from SIMCom documents may be subject to redistribution
 restrictions. See `NOTICE` and `LICENSE`. The `_meta.license_note` field of
 every record points to `NOTICE`.
 
+## Phase 2 Roadmap
+
+- **Phase 2a** — Completion of Phase 1 datasets with secondary sources
+  (AT Command Manual).
+- **Phase 2b** — Datasets that require secondary sources.
+
+Phase 2a will not start until `PHASE_1_REPORT.md` is explicitly approved.
+
 ---
 
 ## توضیحات فارسی
 
 این مخزن یک مرجع **داده‌محور** برای ماژول SIM800L (و در موارد مشخص SIM800H)
-است و هیچ کد اجرایی، درایور یا کتابخانه‌ای در آن عرضه نمی‌شود.
+است. هیچ کد اجرایی، درایور یا کتابخانه‌ای در آن عرضه نمی‌شود؛ تنها داده
+(YAML به‌عنوان منبع اصلی)، Schemaهای اعتبارسنجی، مستندات Markdown و دو ابزار
+سبک داخلی در `tools/` وجود دارد.
 
-**وضعیت فعلی:** هنوز هیچ دیتاستی تولید نشده است، چون دو فایل PDF مرجع در
-زمان اجرا در دسترس نبودند. طبق قاعده صریح پروژه («اگر دسترسی به PDF
-امکان‌پذیر نیست، کار متوقف و گزارش شود»)، هیچ داده‌ای استخراج یا بازسازی
-نشده است. برای ادامه، دو PDF را در یکی از مسیرهای `./`، `./sources/`،
-`./pdfs/` یا پوشه والد این ریپازیتوری با همان نام‌های دقیق قرار دهید و سپس
-`tools/preflight.py` را اجرا کنید.
+**قاعده طلایی:** هیچ داده‌ای از دانش پیشین مدل تولید نمی‌شود. هر فیلدی که
+در منابع موجود نباشد با `null` و `_meta.missing_reason` علامت‌گذاری می‌شود.
 
-برای جزئیات، فایل `PHASE_1_REPORT.md` را ببینید.
+برای جزئیات شکاف‌ها و وضعیت هر دیتاست، فایل `PHASE_1_REPORT.md` را ببینید.

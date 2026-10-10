@@ -1,0 +1,33 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+ 
+Table 6: Electronic characteristic of the RESET pin 
+Pin name Symbol Min Typ Max Unit 
+VIH 2.7 2.8 2.9 V 
+VIL - - 0.6 V RESET 
+Low power time 105  - ms 
+ 
+The reset scenarios are illustrated in the following figures.  
+ 
+Figure 15: Reset timing sequence 
+ 
+4.3. Power Saving Mode 
+ 
+SIM800L has two power saving modes: Minimum functionality mode and sleep mode. AT command 
+“AT+CSCLK=1”can be used to set SIM800L into sleep mode. AT command “AT+CFUN=<fun>“ can be used to 
+set SIM800L into minimum functionality. When SIM800L is in sleep mode and minimum functionality mode, 
+the current of module is lowest. 
+ 
+4.3.1. Minimum Functionality Mode 
+ 
+There are three functionality modes, which could be set by AT command “AT+CFUN=<fun>“. The command 
+provides the choice of the functionality levels <fun>=0,1,4. 
+z AT+CFUN=0： Minimum functionality. 
+z AT+CFUN=1： Full functionality (default). 
+z AT+CFUN=4： Flight mode (disable RF function). 
+Table 7: The current consumption of Minimum Functionality Mode (BS-PA-MFRMS=9) 
+<fun> Current consumption(mA) (sleep mode) 
+0 0.796 
+1 1.02 
+4 0.892 
+ 
+SIM800L_Hardware_Design_V1.00                      2 7                                       2013-08-20  

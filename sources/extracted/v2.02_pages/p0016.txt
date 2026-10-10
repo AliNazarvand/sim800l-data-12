@@ -1,0 +1,61 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+SIM800H&SIM800L_Hardware Design_V2.02                       1 6                            2015-07-27  
+3.2. Pin Description 
+Table 5: Pin description 
+Pin name Pin number I/O Description Comment 
+Power supply 
+VBAT 1,42  I Power supply  
+VRTC 56 I/O Power supply for RTC 
+It is recommended to 
+connect with a battery or a 
+capacitor (e.g. 4.7uF). 
+VDD_EXT 18 O 2.8V power output 
+If these pins are unused, 
+keep open. 
+GND 
+2,6,8,35,37,38,39,
+41,43,44,45,58,67
+,71,72,73,76,77,7
+8,79,80,81,82,83,
+84,85,86,87,88 
+ Ground GND for VBAT recommend to use 2,43,44,45pin 
+Power on/down 
+PWRKEY 48 I 
+PWRKEY should be pulled low at 
+least 1 second and then released to 
+power on/down the module.  
+Internally pulled up to 
+VBAT. 
+Audio interfaces 
+MIC1P 52 
+MIC1N 12 
+I Differential audio input 
+SPK1P 53 
+SPK1N 13 
+O Differential audio output 
+MIC2P 9 
+MIC2N 10 
+I Differential audio input 
+SPK2P 51 
+SPK2N 11 
+O Differential audio output 
+If these pins are unused, 
+keep open. 
+PCM interface 
+PCM_CLK 29 O 
+PCM_OUT 30 O 
+PCM_SYNC 65 O 
+PCM_IN 66 I 
+PCM interface for digital audio If these pins are unused, keep open. 
+Keypads interface 
+KBC4 24 I 
+KBC3 21 I 
+KBC2 22 I 
+KBC1 25 I 
+KBC0 20 I 
+KBR4 63 O 
+KBR3 23 O 
+Support up to 50 buttons (5*5*2) If these pins are unused, 
+keep open.（Please make 
+sure pin20 at high level 
+when power on） 

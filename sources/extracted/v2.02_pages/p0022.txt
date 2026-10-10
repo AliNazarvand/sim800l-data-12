@@ -1,0 +1,41 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+ 
+Figure 9: The minimal VBAT voltage requirement at VBAT drop 
+Note: Hardware power down voltage is 3.0V . 
+ 
+4.1.2. Monitoring Power Supply 
+ 
+AT command “AT+CBC” can be used to monitor the VBAT voltage. For detail, please refer to document [1]. 
+ 
+4.2. Power on/off Scenarios 
+ 
+4.2.1. Power on SIM800H&SIM800L 
+ 
+Customer can power on SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and 
+release. This pin is already pulled up to VBAT in the module internal, so external pull up is not necessary. 
+Reference circuit is shown as below. 
+ 
+SIM800H&SIM800L_Hardware Design_V2.02                       2 2                            2015-07-27  
+4.7K
+47K
+Turn on/off 
+impulse
+PWRKEY
+VBAT
+100K
+Power 
+on/down logic1K
+Module
+ 
+Figure 10: Powered on/off module using transistor 
+ 
+PWRKEY
+VBAT
+100K
+Power 
+on/down logic1K
+Module
+ 
+Figure 11: Powered on/off module using button 
+ 
+The power on timing is illustrated as in the following figure. 

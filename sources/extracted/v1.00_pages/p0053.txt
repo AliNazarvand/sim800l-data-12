@@ -1,0 +1,16 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+ 
+Figure 47: GSM antenna matching circuit 
+R101，C101，C102 are the matching circuit, the value should be defined by the antenna design. Normally R101 is 
+0Ω, C101 and C102 are not mounted. The RF connector is used for conduction test. If the space between RF pin 
+and antenna is not enough, the matching circuit should be designed as in the following figure: 
+ 
+Figure 48: GSM simple antenna matching circuit 
+Normally R101 is 0Ω, C101 and C102 are not mounted. 
+  
+4.19.2. FM Antenna Interface 
+ 
+The module provides 2 FM antenna pad named FM_ANT_P and FM_ANT_N, these are difference signal. The 
+FM antenna interface circuit is recommended as following:  
+ 
+SIM800L_Hardware_Design_V1.00                      5 3                                       2013-08-20  

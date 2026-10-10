@@ -1,0 +1,50 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+SIM800H&SIM800L_Hardware Design_V2.02                       5 6                            2015-07-27  
+5.2 Principle of PCB Layout 
+ 
+During layout, attention should be paid to the follow ing interfaces, like Antenna, power supply, SIM card 
+interface, audio interface, and so on. 
+ 
+5.2.1 Antenna Interface 
+ 
+z The length of trace between pin output and connector should be as short as possible; 
+z Do not trace RF signal over across the board;  
+z The RF signal should be far away from SIM card, power ICs. 
+ 
+5.2.2. Power Supply 
+ 
+z Not only VBAT but also return GND are very important in layout; 
+z The positive line of VBAT should be as short and wide as possible; 
+z The correct flow from source to VBAT pin should go though Zener diode then huge capacitor; 
+z Pin 2, Pin 43, Pin 44 and Pin45 are GND signals, and shortest layout to GND of power source 
+should be designed; 
+z There are 12 GND pads in middle of module; these pads could enhance the GND performances. On 
+the upper layer of these pads, do not trace any signal if possible. 
+ 
+5.2.3 SIM Card Interface 
+ 
+z SIM card holder has no anti-EMI component inside. Thus SIM card interface maybe interfered, 
+please pay more attention on this interface during layout;  
+z Ensure SIM card holder is far way from antenna or RF cable inside; 
+z Put SIM card holder near the module, as nearer as possible;  
+z Add ESD component to protect SIM_CLK, SIM_DATA, SIM_RST and SIM_VDD signals which 
+should be far away from power and high-speed-frequency signal. 
+ 
+5.2.4 Audio Interface 
+ 
+z The signal trace of audio should far away from antenna and power;  
+z The audio signal should avoid to parallel with VBAT trace. 
+ 
+5.2.5 Others 
+ 
+It is better to trace signal lines of UART bunched, as well as signals of USB. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

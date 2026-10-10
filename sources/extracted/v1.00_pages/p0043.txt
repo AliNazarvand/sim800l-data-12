@@ -1,0 +1,42 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+Pin name  Pin number Description 
+PCMCLK 29 PCM clock 
+PCMOUT 30 PCM data output 
+PCMSYNC 65 PCM synchrony 
+PCMIN 66 PCM data input 
+ 
+SIM800L PCM interface only supply master mode, data length is 16 bits (linear)，PCM clock rate is 256KHz. 
+Table 21: PCM specification 
+Parameter Specification 
+Line Interface Format Linear(Fixed) 
+Data length 16bits(Fixed) 
+PCM Clock/Sync Source Master Mode(Fixed) 
+PCM Clock Rate 256Khz(Fixed) 
+PCM Sync Format Short sync/Long sync both support 
+Zero Padding/Sign extension Zero Padding(Fixed) 
+Data Ordering MSB/LSB both support 
+ 
+Note: User can use AT command control PCM interface. For detail ,please refer to document[1]. 
+ 
+4.9.1. PCM Multiplexing Function 
+ 
+With GPIO17 and GPIO19, PCM interface can be configured as SPI or SD interface, the following table shows 
+the detailed multiplexing function. 
+ 
+ 
+ 
+ 
+Table 22: PCM multiplexing function 
+Pin name  Pin number Mode 0(default) Mode 1 Mode 2 Mode 3 
+PCMCLK 29 PCMCLK DISP_RSTB MC3CM0 GPIO18 
+PCMOUT 30 PCMOUT DISP_DI MC3DA3 GPIO19 
+PCMSYNC 65 PCMSYNC DISP_CEB MC3CK GPIO20 
+PCMIN 66 PCMIN DISP_DA MC3DA2 GPIO21 
+GPIO2 27 GPIO2 DISP_A0DA MC3DA0 - 
+GPIO3 28 GPIO3 DISP_CLK MC3DA1 - 
+ 
+Note: Multiplexing function need different software supply. 
+ 
+4.9.2. PCM Interface 
+Refer to the following figure for PCM design: 
+SIM800L_Hardware_Design_V1.00                      4 3                                       2013-08-20  

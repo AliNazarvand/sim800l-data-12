@@ -1,0 +1,143 @@
+{
+  "_auto_generated": {
+    "marker": "AUTO-GENERATED — DO NOT EDIT",
+    "generator": "tools/generate_json.py"
+  },
+  "records": [
+    {
+      "_meta": {
+        "id": "dat_06_step_001",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 20,
+        "source_section": "4.1",
+        "source_figure_number": "Figure 5",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "step_number": 1,
+      "action": "Apply VBAT power supply",
+      "hardware_operation": "Power VBAT pins (1, 42) with 3.4-4.4V capable of >=2A peak.",
+      "expected_result": "VBAT stable; no drop below 3.0V during TX",
+      "timeout_ms": null,
+      "retry_count": 0,
+      "critical": true,
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_06_step_002",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 22,
+        "source_section": "4.2.1",
+        "source_figure_number": "Figure 10",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "step_number": 2,
+      "action": "Pull PWRKEY low for >=1s",
+      "hardware_operation": "Drive PWRKEY (pin 48) low. Internal pull-up to VBAT present.",
+      "expected_result": "Power-on logic begins internal sequence",
+      "timeout_ms": 1000,
+      "retry_count": 0,
+      "critical": true,
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_06_step_003",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 22,
+        "source_section": "4.2.1",
+        "source_figure_number": "Figure 12",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "step_number": 3,
+      "action": "Release PWRKEY",
+      "hardware_operation": "Let PWRKEY float (internal pull-up returns to VBAT).",
+      "expected_result": "VDD_EXT rises to 2.8V; STATUS goes high",
+      "timeout_ms": null,
+      "retry_count": 0,
+      "critical": true,
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_06_step_004",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 23,
+        "source_section": "4.2.1",
+        "source_figure_number": "Figure 12",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "step_number": 4,
+      "action": "Wait for URC 'RDY'",
+      "hardware_operation": "Listen on main serial port. If autobauding is enabled, RDY is not sent.",
+      "expected_result": "'RDY' (fixed baud) OR 'OK' (autobaud sync)",
+      "timeout_ms": null,
+      "retry_count": 0,
+      "critical": true,
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_06_step_005",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 50,
+        "source_section": "4.16",
+        "source_figure_number": "Table 36",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "step_number": 5,
+      "action": "Verify module ready via STATUS / VDD_EXT",
+      "hardware_operation": "Check STATUS (pin 4) high; VDD_EXT (pin 18) at 2.8V.",
+      "expected_result": "STATUS=high, VDD_EXT=2.8V",
+      "timeout_ms": null,
+      "retry_count": 0,
+      "critical": false,
+      "notes_fa": null
+    }
+  ]
+}

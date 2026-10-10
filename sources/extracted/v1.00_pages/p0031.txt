@@ -1,0 +1,26 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+TXD
+RXD
+RTS
+CTS
+UART _DTR
+UART _ DCD
+UART 1_RI
+TXD
+RXD
+RTS
+CTS
+DTR
+DCD
+RING
+MODULE (DCE ) CUSTOMER (DTE)
+Serial portSerial port
+ 
+Figure 19: Connection of the serial interfaces 
+ 
+If the voltage of UART is 3.3V , the following reference circuits are recommended. If the voltage is 3.0V , please 
+change the resistors in the following figure from 5.6K to 14K. 
+ 
+Figure 20: Resistor matching circuit 
+If the voltage of UART is 3V or3.3V , the following reference circuits are recommended: 
+SIM800L_Hardware_Design_V1.00                      3 1                                       2013-08-20  

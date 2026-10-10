@@ -1,0 +1,11 @@
+{
+  "label": "V1.00",
+  "source_pdf": "D:\\Project\\Electronic Project\\Control Board SMS 2\\Documents\\New folder (2)\\New 2\\Datasheet\\01 - sim800l-data\\001\\sources\\SIM800L_Hardware_Design_V1.00.pdf",
+  "output_txt": "D:\\Project\\Electronic Project\\Control Board SMS 2\\Documents\\New folder (2)\\New 2\\Datasheet\\01 - sim800l-data\\001\\sources\\extracted\\v1.00.txt",
+  "pages_dir": "D:\\Project\\Electronic Project\\Control Board SMS 2\\Documents\\New folder (2)\\New 2\\Datasheet\\01 - sim800l-data\\001\\sources\\extracted\\v1.00_pages",
+  "page_count": 70,
+  "total_characters": 107808,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "extractor": "pypdf"
+}

@@ -1,0 +1,20 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+If power supply is 2.8V for SD card, customer can use VDD_EXT; if power supply is 3.3V , please use external 
+design LDO.  
+ 
+4.10. Keypad Interface 
+ 
+The keypad interface consists of 5 keypad column outputs and 5 keypad row inputs, with total 5*5*2, which is 50 
+keys. Module keys have two connections: connections 1, which can support 25 keys; connections 2, which can 
+support 50 keys. 
+ 
+Connections 1:  
+ 
+Figure 40: 25 keys reference circuit 
+Note：According to the traditional 5*5 to desi gn buttons, when there is spare KBC or KBR, customer can execute AT command 
+to define as GPIO for details please see the relevant manuals. 
+ 
+Connections 2:  
+Module supports a new key connection, can support 50 keys, which meets full keyboard demand, the connection 
+diagram is as following: 
+SIM800H&SIM800L_Hardware Design_V2.02                       4 4                            2015-07-27  

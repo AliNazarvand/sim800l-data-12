@@ -1,0 +1,39 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+is used to set the side-tone level. In addition, AT command “AT+CLVL” is used to adjust the output gain level. 
+For more details, please refer to document [1]. 
+ 
+In order to improve audio performance, the following reference circuits are recommended. The audio signals 
+have to be layout according to differential signal layout rules as shown in following figures.  
+ 
+4.7.1. Speaker Interfaces Configuration 
+ 
+ 
+Figure 30: Speaker reference circuit 
+ 
+4.7.2. Microphone Interfaces Configuration 
+ 
+10pF 33pF
+33pF
+33pF
+SIM800L_Hardware_Design_V1.00                      3 7                                       2013-08-20  
+MIC1P/2P
+MIC1N/2N
+Electret 
+Microphone
+10pF
+10pFESD 
+ANTI
+ESD
+ANTI
+The lines in bold type should 
+be accorded to differential 
+signal layout rules
+These components 
+should be placed to 
+microphone as close as 
+possible
+MODULE
+ 
+Figure 31: Speaker with amplifier reference circuit 
+ 
+ 

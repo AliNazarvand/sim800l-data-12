@@ -1,0 +1,327 @@
+{
+  "_auto_generated": {
+    "marker": "AUTO-GENERATED — DO NOT EDIT",
+    "generator": "tools/generate_json.py"
+  },
+  "records": [
+    {
+      "_meta": {
+        "id": "dat_04_timing_001",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 22,
+        "source_section": "4.2.1",
+        "source_figure_number": null,
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "parameter_id": "PWRKEY_power_on_duration_min",
+      "parameter_name": "PWRKEY power-on low duration minimum",
+      "description_fa": null,
+      "min_value": 1.0,
+      "typical_value": null,
+      "max_value": null,
+      "unit": "s",
+      "condition": "Power-on sequence",
+      "related_pin": "PWRKEY",
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_04_timing_002",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 23,
+        "source_section": "4.2.2.1",
+        "source_figure_number": "Figure 13",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "parameter_id": "PWRKEY_power_down_low_window",
+      "parameter_name": "PWRKEY power-down low duration window",
+      "description_fa": null,
+      "min_value": 1.0,
+      "typical_value": null,
+      "max_value": 33.0,
+      "unit": "s",
+      "condition": "Normal power-down by PWRKEY",
+      "related_pin": "PWRKEY",
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_04_timing_003",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 26,
+        "source_section": "4.2.3",
+        "source_figure_number": "Figure 16",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "parameter_id": "RESET_pulse_duration_min",
+      "parameter_name": "RESET low pulse minimum duration",
+      "description_fa": null,
+      "min_value": 105,
+      "typical_value": null,
+      "max_value": null,
+      "unit": "ms",
+      "condition": "Emergency reset",
+      "related_pin": "RESET",
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_04_timing_004",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 25,
+        "source_section": "4.2.2.5",
+        "source_figure_number": "Figure 14",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "parameter_id": "Restart_wait_after_STATUS_low",
+      "parameter_name": "Wait time after STATUS goes low before next power-on",
+      "description_fa": null,
+      "min_value": 800,
+      "typical_value": null,
+      "max_value": null,
+      "unit": "ms",
+      "condition": "Restart sequence",
+      "related_pin": "PWRKEY, STATUS",
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_04_timing_005",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 21,
+        "source_section": "4.1",
+        "source_figure_number": "Figure 8",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "parameter_id": "TX_burst_duration",
+      "parameter_name": "Transmit burst duration per GSM slot",
+      "description_fa": null,
+      "min_value": 577,
+      "typical_value": null,
+      "max_value": null,
+      "unit": "us",
+      "condition": "VBAT=4.0V, PCL=5",
+      "related_pin": "VBAT",
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_04_timing_006",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 24,
+        "source_section": "4.2.2.3",
+        "source_figure_number": null,
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "parameter_id": "VBAT_under_voltage_warning_threshold",
+      "parameter_name": "VBAT under-voltage warning threshold",
+      "description_fa": null,
+      "min_value": null,
+      "typical_value": 3.5,
+      "max_value": null,
+      "unit": "V",
+      "condition": "VBAT falling",
+      "related_pin": "VBAT",
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_04_timing_007",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 51,
+        "source_section": "4.18",
+        "source_figure_number": "Figure 48",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "parameter_id": "RF_SYNC_high_before_burst",
+      "parameter_name": "RF_SYNC high duration preceding TX burst",
+      "description_fa": null,
+      "min_value": 220,
+      "typical_value": null,
+      "max_value": null,
+      "unit": "us",
+      "condition": "During TX burst",
+      "related_pin": "RF_SYNC",
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_04_timing_008",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 27,
+        "source_section": "4.3.3",
+        "source_figure_number": null,
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "parameter_id": "Sleep_Mode_1_wake_DTR_low",
+      "parameter_name": "DTR low duration to wake from Sleep Mode 1",
+      "description_fa": null,
+      "min_value": 50,
+      "typical_value": null,
+      "max_value": null,
+      "unit": "ms",
+      "condition": "Sleep mode 1 (AT+CSCLK=1)",
+      "related_pin": "DTR",
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_04_timing_009",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 27,
+        "source_section": "4.3.4",
+        "source_figure_number": null,
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "parameter_id": "Sleep_Mode_2_entry_no_data",
+      "parameter_name": "No RXD data duration before Sleep Mode 2 entry",
+      "description_fa": null,
+      "min_value": 5,
+      "typical_value": null,
+      "max_value": null,
+      "unit": "s",
+      "condition": "Sleep mode 2 (AT+CSCLK=2)",
+      "related_pin": "RXD",
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_04_timing_010",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 34,
+        "source_section": "4.6",
+        "source_figure_number": "Figure 29",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "parameter_id": "RI_pulse_duration_SMS_URC",
+      "parameter_name": "RI low pulse width on incoming SMS or URC",
+      "description_fa": null,
+      "min_value": 120,
+      "typical_value": null,
+      "max_value": null,
+      "unit": "ms",
+      "condition": "SMS or URC arrival",
+      "related_pin": "RI",
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_04_timing_011",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 41,
+        "source_section": "4.8.3",
+        "source_figure_number": null,
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "parameter_id": "SIM_hot_plug_min_interval",
+      "parameter_name": "Minimum interval between SIM card plug operations",
+      "description_fa": null,
+      "min_value": 2.0,
+      "typical_value": null,
+      "max_value": null,
+      "unit": "s",
+      "condition": "SIM hot-plug",
+      "related_pin": "SIM_DET",
+      "notes_fa": null
+    }
+  ]
+}

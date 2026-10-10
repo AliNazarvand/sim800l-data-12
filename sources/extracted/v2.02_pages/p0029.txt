@@ -1,0 +1,43 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+ 
+Table 9: Serial port and USB pin definition 
+ Pin name Pin number Function 
+DTR 69 Data terminal ready 
+RI 68 Ring indicator 
+DCD 70 Data carrier detect 
+CTS 34 Request to send 
+RTS 33 Clear to send 
+TXD 32 Transmit data 
+Serial port 
+RXD 31 Receive data 
+VBUS 7 USB power supply 
+USB_DP 59  Debug port 
+USB_DN 19  
+ 
+Note: Hardware flow control is disable by default. AT command “AT+IFC=2,2”can enable hardware flow control. AT command 
+“AT+IFC=0,0”can disable hardware flow control. For more details please refer to document [1]. 
+Table 10: Serial port characteristics 
+Symbol Min Typ Max Unit 
+VIL -0.3 - 0.7 V 
+VIH 2.1 - 3.1  V 
+VOL - - 0.4 V 
+VOH 2.4 2.8 - V 
+ 
+SIM800H&SIM800L module can support dual serial port function, that need execute AT command 
+"AT+CMNRP=1"first. Dual serial port including one full modem serial port and one three-wire serial port, pin 
+definition is different with standard definition of the Figure 2: Pin assignment (Top view) and Table 5: Pin 
+description. For more details please refer to Document [2].  
+ 
+Note: Only B05 and later version support dual serial port function. 
+ 
+4.5.1 Function of Serial Port 
+Serial port: 
+z Full mode device. 
+z Contains data lines TXD and RXD, hardware flow control lines RTS and CTS, status lines DTR, DCD and 
+RI. 
+z Serial port can be used for CSD FAX, GPRS service and AT communication. It can also be used for 
+multiplexing function. For details about multiplexing function, please refer to table 11. 
+z Serial port supports the following baud rates: 
+1200, 2400, 4800, 9600, 19200, 38400, 57600,115200,230400 and 460800bps 
+z Autobauding only supports the following baud rates: 
+SIM800H&SIM800L_Hardware Design_V2.02                       2 9                            2015-07-27  

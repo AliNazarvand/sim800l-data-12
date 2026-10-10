@@ -1,0 +1,25 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+ 
+Figure 50: GSM simple antenna matching circuit 
+Normally R101 is 0Ω, C101 and C102 are not mounted. 
+ 
+4.19.2. Bluetooth Antenna Interface (Only SIM800H) 
+ 
+The SIM800H module provides a Bluetooth antenna pad named BT_ANT. 
+ 
+The external antenna must be matched properly to achieve best performance, so the matching circuit is necessary, 
+the connection is recommended as in the following figure: 
+ 
+Figure 51: Bluetooth antenna matching circuit 
+R201, C201, C202 are the matching circuit, the value should be defined by the antenna design. Normally R201 is 
+1.2nH, C202 is 1.5pF and C201 are not mounted. 
+ 
+There are some suggestions for placing components and RF trace lying for GSM and Bluetooth RF traces:  
+z The RF connector is used for conducted test, so keep it as close to pin GSM_ANT as possible; 
+z Antenna matching circuit should be closed to the antenna; 
+z Keep the RF traces as 50Ω; 
+z The RF traces should be kept far away from the high frequency signals and strong disturbing source.  
+ 
+4.19.3. FM Antenna Interface 
+ 
+SIM800H&SIM800L_Hardware Design_V2.02                       5 3                            2015-07-27  

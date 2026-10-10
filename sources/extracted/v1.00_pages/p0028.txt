@@ -1,0 +1,39 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+Minimum functionality mode minimizes the current consumption to the lowest level. If SIM800L is set to 
+minimum functionality by “AT+CFUN=0”, the RF function and SIM card function will be disabled. In this 
+case, the serial port is still accessible, but all AT comm ands correlative to RF fu nction and SIM card function 
+will not be accessible.  
+ 
+For detailed information about AT command “AT+CFUN=<fun>“, please refer to document [1]. 
+ 
+4.3.2. Sleep Mode (AT+CSCLK=1) 
+ 
+User can control SIM800L module to enter or exit the sleep mode (AT+CSCLK=1) by DTR signal. When 
+DTR is in high level and without interrupt (on air and hard ware such as GPIO interrupt or data in serial port), 
+SIM800L will enter sleep mode automatically. In this mode, SIM800L can still receive paging or SMS from 
+network but the serial port is not accessible. 
+ 
+Note: Autobauding is default. It cannot enter sleep mode in the absence of synchronous serial port baud rate 
+after module power on.  
+ 
+4.3.3. Wake Up SIM800L from Sleep Mode (AT+CSCLK=1) 
+ 
+When SIM800L is in sleep mode (AT+CSCLK=1), the following methods can wake up the module: 
+z Pull down DTR pin. 
+    The serial port will be active after DTR pin is pulled to low level for about 50ms. 
+z Receive a voice or data call from network. 
+z Receive a SMS from network. 
+z Receive external interrupt 
+ 
+4.4. RTC Backup 
+ 
+Current input for RTC when the VBAT is not supplied for the system. Current output for backup battery when 
+the VBAT power supply is in present and the backup battery is in low voltage state. The RTC power supply of 
+module can be provided by an external capacitor or a battery (non-chargeable or rechargeable) through the VRTC. 
+The following figures show various reference circuits for RTC back up. 
+ 
+z External capacitor backup 
+ 
+Figure 16: RTC supply from capacitor 
+z Non-chargeable battery backup 
+SIM800L_Hardware_Design_V1.00                      2 8                                       2013-08-20  

@@ -1,0 +1,1050 @@
+records:
+  - _meta:
+      id: "dat_07_pinout_001"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [1, 42]
+    pin_name: "VBAT"
+    type: "Power"
+    description_fa: "ورودی تغذیه اصلی ماژول."
+    voltage_level: "3.4 V - 4.4 V"
+    max_rating: "4.5 V (absolute max)"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_002"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [2, 6, 8, 35, 37, 38, 39, 41, 43, 44, 45, 58, 67, 71, 72, 73, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88]
+    pin_name: "GND"
+    type: "Ground"
+    description_fa: "اتصال زمین. برای VBAT توصیه می‌شود پین‌های 2, 43, 44, 45 استفاده شوند."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_003"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [56]
+    pin_name: "VRTC"
+    type: "Bidirectional"
+    description_fa: "تغذیه RTC در نبود VBAT."
+    voltage_level: "1.2 - 3.0 V (typ 2.8 V)"
+    max_rating: "3.0 V"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_004"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [18]
+    pin_name: "VDD_EXT"
+    type: "Output"
+    description_fa: "خروجی 2.8V. فقط هنگام کار ماژول فعال."
+    voltage_level: "2.7 / 2.8 / 2.9 V (min/typ/max)"
+    max_rating: "50 mA"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_005"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [48]
+    pin_name: "PWRKEY"
+    type: "Input"
+    description_fa: "کلید روشن/خاموش."
+    voltage_level: "Internally pulled up to VBAT"
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_006"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [49]
+    pin_name: "RESET"
+    type: "Input"
+    description_fa: "ریست اضطراری."
+    voltage_level: "V_IH min 2.4V; V_IL max 0.6V"
+    max_rating: "Low pulse min 105ms"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_007"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [52, 12]
+    pin_name: "MIC1P/MIC1N"
+    type: "Analog"
+    description_fa: "ورودی دیفرانسیل میکروفن اصلی."
+    voltage_level: "Bias 1.9 - 2.2 V"
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_008"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [53, 13]
+    pin_name: "SPK1P/SPK1N"
+    type: "Analog"
+    description_fa: "خروجی دیفرانسیل بلندگو اصلی."
+    voltage_level: null
+    max_rating: "0.87W @ 4.2V/8ohm (THD+N=1%)"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_009"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [9, 10]
+    pin_name: "MIC2P/MIC2N"
+    type: "Analog"
+    description_fa: "ورودی دیفرانسیل میکروفن دوم."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_010"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [51, 11]
+    pin_name: "SPK2P/SPK2N"
+    type: "Analog"
+    description_fa: "خروجی دیفرانسیل بلندگو دوم."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_011"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [29, 30, 65, 66]
+    pin_name: "PCM_CLK/PCM_OUT/PCM_SYNC/PCM_IN"
+    type: "Bidirectional"
+    description_fa: "رابط PCM دیجیتال صوتی."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_012"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [24]
+    pin_name: "KBC4"
+    type: "Input"
+    description_fa: "ستون ماتریس کیپد 4."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_013"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [21]
+    pin_name: "KBC3"
+    type: "Input"
+    description_fa: "ستون ماتریس کیپد 3."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_014"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [22]
+    pin_name: "KBC2"
+    type: "Input"
+    description_fa: "ستون ماتریس کیپد 2."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_015"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [25]
+    pin_name: "KBC1"
+    type: "Input"
+    description_fa: "ستون ماتریس کیپد 1."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_016"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [20]
+    pin_name: "KBC0"
+    type: "Input"
+    description_fa: "ستون ماتریس کیپد 0. باید در power-on بالا بماند."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_017"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [63]
+    pin_name: "KBR4"
+    type: "Output"
+    description_fa: "ردیف ماتریس کیپد 4."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_018"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [23]
+    pin_name: "KBR3"
+    type: "Output"
+    description_fa: "ردیف ماتریس کیپد 3."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_019"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [61]
+    pin_name: "KBR2"
+    type: "Output"
+    description_fa: "ردیف ماتریس کیپد 2."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_020"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [60]
+    pin_name: "KBR1"
+    type: "Output"
+    description_fa: "ردیف ماتریس کیپد 1."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_021"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 16
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [62]
+    pin_name: "KBR0"
+    type: "Output"
+    description_fa: "ردیف ماتریس کیپد 0."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_022"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [3, 27, 28]
+    pin_name: "GPIO1/GPIO2/GPIO3"
+    type: "Bidirectional"
+    description_fa: "ورودی/خروجی همه‌منظوره."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_023"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [64]
+    pin_name: "NETLIGHT"
+    type: "Output"
+    description_fa: "راهنمای وضعیت شبکه با LED."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_024"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [4]
+    pin_name: "STATUS"
+    type: "Output"
+    description_fa: "وضعیت روشن/خاموش. High=powered on."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_025"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [69]
+    pin_name: "DTR"
+    type: "Input"
+    description_fa: "Data terminal ready."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_026"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [68]
+    pin_name: "RI"
+    type: "Output"
+    description_fa: "Ring indicator."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_027"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [70]
+    pin_name: "DCD"
+    type: "Output"
+    description_fa: "Data carrier detect."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_028"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [34]
+    pin_name: "CTS"
+    type: "Output"
+    description_fa: "Clear to send."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_029"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [33]
+    pin_name: "RTS"
+    type: "Input"
+    description_fa: "Request to send."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_030"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [32]
+    pin_name: "TXD"
+    type: "Output"
+    description_fa: "Transmit data."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_031"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [31]
+    pin_name: "RXD"
+    type: "Input"
+    description_fa: "Receive data."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_032"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [7]
+    pin_name: "VBUS"
+    type: "Input"
+    description_fa: "USB power supply."
+    voltage_level: "4.3 - 7.0 V"
+    max_rating: "12 V"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_033"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [59]
+    pin_name: "USB_DP"
+    type: "Bidirectional"
+    description_fa: "USB data plus."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_034"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [19]
+    pin_name: "USB_DN"
+    type: "Bidirectional"
+    description_fa: "USB data minus."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_035"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [50]
+    pin_name: "ADC"
+    type: "Analog"
+    description_fa: "ورودی آنالوگ 10 بیتی."
+    voltage_level: "0 - 2.8 V"
+    max_rating: "2.8 V"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_036"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [26]
+    pin_name: "PWM"
+    type: "Output"
+    description_fa: "PWM برای درایو ویبراتور/backlight."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_037"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [75]
+    pin_name: "SDA"
+    type: "Bidirectional"
+    description_fa: "I2C serial bus data (open drain)."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_038"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [74]
+    pin_name: "SCL"
+    type: "Output"
+    description_fa: "I2C serial bus clock (open drain)."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_039"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [16]
+    pin_name: "SIM_VDD"
+    type: "Output"
+    description_fa: "تغذیه کارت SIM. پشتیبانی 1.8V و 3.0V."
+    voltage_level: "1.8 V or 3.0 V"
+    max_rating: "10 mA"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_040"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [14]
+    pin_name: "SIM_DATA"
+    type: "Bidirectional"
+    description_fa: "SIM data input/output."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_041"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [55]
+    pin_name: "SIM_CLK"
+    type: "Output"
+    description_fa: "SIM clock."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_042"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [15]
+    pin_name: "SIM_RST"
+    type: "Output"
+    description_fa: "SIM reset."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_043"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [54]
+    pin_name: "SIM_DET"
+    type: "Input"
+    description_fa: "SIM card detection."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_044"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [40]
+    pin_name: "GSM_ANT"
+    type: "RF"
+    description_fa: "پد آنتن GSM (50 ohm)."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_045"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [36]
+    pin_name: "BT_ANT"
+    type: "RF"
+    description_fa: "پد آنتن بلوتوث. فقط در SIM800H فعال."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_046"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [17]
+    pin_name: "FM_ANTP"
+    type: "RF"
+    description_fa: "آنتن FM دیفرانسیل (P)."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_047"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 17
+      source_section: "3.2"
+      source_figure_number: "Table 5"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [57]
+    pin_name: "FM_ANTN"
+    type: "RF"
+    description_fa: "آنتن FM دیفرانسیل (N)."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_048"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 51
+      source_section: "4.18"
+      source_figure_number: "Table 40"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [5]
+    pin_name: "RF_SYNC"
+    type: "Output"
+    description_fa: "سیگنال همگام‌سازی RF."
+    voltage_level: null
+    max_rating: null
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_049"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 51
+      source_section: "4.17"
+      source_figure_number: "Table 38"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [47]
+    pin_name: "ISINK0"
+    type: "Output"
+    description_fa: "Sink current for LCM module."
+    voltage_level: null
+    max_rating: "24 mA (6-level)"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_pinout_050"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 51
+      source_section: "4.17"
+      source_figure_number: "Table 38"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    pin_number: [46]
+    pin_name: "ISINK1"
+    type: "Output"
+    description_fa: "Sink current for keypad LED."
+    voltage_level: null
+    max_rating: "60-100 mA"
+    notes_fa: null

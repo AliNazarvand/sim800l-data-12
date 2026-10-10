@@ -1,0 +1,26 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+1200, 2400, 4800, 9600, 19200, 38400, 57600 and 115200bps 
+z The default setting is autobauding. 
+ 
+Autobauding allows SIM800H&SIM800L to automatically detect the baud rate of the host device. Pay more 
+attention to the following requirements: 
+z Synchronization between DTE and DCE: 
+When DCE powers on with autobauding enabled, it is recommended to send "AT" or "at" or "aT" or "At" 
+to synchronize the baud rate, until DTE receives the "OK" response, which means DTE and DCE are 
+correctly synchronized. For more information please refer to AT command "AT+IPR". 
+z Restrictions of autobauding operation: 
+The DTE serial port must be set at 8 data bits, no parity and 1 stop bit. 
+The URC such as "RDY", "+CFUN: 1" and "+CPIN: READY” will not be reported. 
+ 
+Note: Customer can use AT command “AT+IPR=x” to set a fixed baud rate and the setting will be saved to non-volatile flash 
+memory automatically. After the configuration is set as fixed baud rate, the URC such as "RDY", "+CFUN: 1" and "+CPIN: 
+READY” will be reported when SIM800H&SIM800L is powered on. 
+ 
+4.5.2 Serial Interfaces 
+ 
+The following figure shows the connection between module and client (DTE). 
+ 
+Figure 20: Connection of the serial interfaces 
+If the voltage of UART is 3.3V , the following reference circuits are recommended. If the voltage is 3.0V , please 
+change the resistors in the following figure from 5.6K to 14K. 
+SIM800H&SIM800L_Hardware Design_V2.02                       3 0                            2015-07-27  

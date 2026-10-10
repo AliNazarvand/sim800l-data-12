@@ -1,0 +1,31 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+The NETLIGHT pin can be used to drive a network status indication LED. The status of this pin is listed in 
+following table: 
+Table 34: Status of the NETLIGHT pin 
+Status SIM800L behavior 
+Off SIM800L is not running 
+64ms On/ 800ms Off SIM800L not registered the network 
+64ms On/ 3000ms Off SIM800L registered to the network 
+64ms On/ 300ms Off GPRS communication is established 
+  
+Reference circuit is recommended in the following figure: 
+ 
+Figure 44: Reference circuit of NETLIGHT 
+ 
+4.15.1. NETLIGHT Multiplexing Function 
+Table 35: NETLIGHT multiplexing function 
+Pin name Pin number Mode 0(default) Mode 1 
+NETLIGHT 64 NETLIGHT GPIO17 
+Note: Multiplexing function need different software supply. 
+ 
+4.16. Operating Status Indication 
+ 
+The pin4 is for operating status indication of the module. The pin output is high when module is powered on, 
+and output is low when module is powered off.  
+Table 36: Pin definition of the STATUS 
+Pin name Pin number Description 
+STATUS 4 operating Status Indication 
+ 
+Note: For timing about STATUS, please reference to the chapter “4.2 power on/off scenarios” 
+ 
+SIM800L_Hardware_Design_V1.00                      5 0                                       2013-08-20  

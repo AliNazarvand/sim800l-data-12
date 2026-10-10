@@ -1,48 +1,55 @@
 # گزارش فاز ۱ — sim800l-data
 
-**وضعیت:** متوقف (STOP).
+**وضعیت:** تکمیل‌شده با یک دیتاست partial و یک دیتاست deferred.
 
-طبق قاعده صریح پرامپت پروژه، **پیش از هر اقدام دیگری** باید دو فایل PDF مرجع
-در دسترس باشند. در زمان اجرای این اسکریپت، این دو فایل در هیچ‌یک از
-مسیرهای جست‌وجو (ریشه ریپازیتوری، `sources/`، `pdfs/`، پوشه والد) یافت
-نشدند. بنابراین:
-
-- **هیچ داده‌ای استخراج نشد.**
-- **هیچ دیتاستی تولید نشد.**
-- **هیچ Schema اختصاصی دیتاست نوشته نشد.**
-- **هیچ رکورد YAML ساخته نشد.**
-- **هیچ فایل JSON تولید نشد.**
-
-فایل‌های خالی یا placeholder که در اجرای پیشین ساخته شده بودند و حالت
-«انجام‌شده» را جعل می‌کردند، حذف شدند.
+**منابع:** V1.00 و V2.02 در `sources/` استخراج و متن هر دو PDF در
+`sources/extracted/` ذخیره شده است. V2.02 به‌عنوان مرجع قطعی اعمال شد.
 
 ---
 
-## مسیرهای جست‌وجو شده
+## ۱. دیتاست‌های فاز ۱ و وضعیت نهایی
 
-- `<repo>/`
-- `<repo>/sources/`
-- `<repo>/pdfs/`
-- `<parent of repo>/`
+| ID | دیتاست | تعداد رکورد | وضعیت |
+|----|--------|--------------|--------|
+| dat_07 | Hardware Reference DB | 80 | partial |
+| dat_04 | Timing & Timeout DB | 11 | complete |
+| dat_15 | Power Management DB | 4 | partial |
+| dat_05 | State Machine DB | 19 (7 states + 12 transitions) | complete |
+| dat_06 | Init Sequence DB | 5 | complete |
+| dat_16 | Board/EVB Definitions | 0 | deferred (INSUFFICIENT_RECORDS → Phase 2b) |
 
-## نام‌های دقیق مورد انتظار
+## ۲. دیتاست‌های partial
 
-- `SIM800L_Hardware_Design_V1.00.pdf`
-- `SIM800H&SIM800L_Hardware_Design_V2.02.PDF`
+- **dat_07** — 50 رکورد pinout + 10 رکورد electrical + 10 رکورد power_consumption
+  + 9 رکورد interfaces + 1 رکورد physical = 80 رکورد. وضعیت `partial` است
+  چون برخی پین‌های GND به‌صورت گروهی ثبت شده‌اند و ممکن است در فاز ۲.الف
+  به رکوردهای مستقل تفکیک شوند.
+- **dat_15** — ۴ رکورد؛ رکورد MINIMUM_FUNCTIONALITY فیلدهای جریان را
+  ندارد و `missing_reason: "DEFERRED_TO_PHASE_2A"` گرفته است.
 
-## گام بعدی
+## ۳. دیتاست‌های deferred
 
-1. دو فایل PDF را در یکی از مسیرهای بالا قرار دهید.
-2. اجرا کنید: `python tools/preflight.py` — باید پیام OK بدهد.
-3. سپس گردش‌کار استخراج فاز ۱ (طبق بخش ۴ پرامپت) آغاز می‌شود:
-   - `raw/<dataset>_extract.md` با نقل‌قول مستقیم و ارجاع صفحه
-   - `raw/<dataset>_diagrams.md` با توصیف متنی هر دیاگرام
-   - نوشتن YAMLهای واقعی با `_meta` کامل
-   - نوشتن Schema اختصاصی هر دیتاست
-   - اجرای `python tools/validate.py`
-   - اجرای `python tools/generate_json.py`
-   - تکمیل `docs/source_mapping.md`, `docs/conflict_log.md`,
-     `docs/diagram_mapping.md`
+- **dat_16** — پس از ۳ تلاش، هیچ EVB با ≥۵ فیلد پر در هیچ‌کدام از PDFها
+  یافت نشد. به Phase 2b منتقل شد.
 
-> **یادآوری:** پس از اتمام فاز ۱، کار متوقف می‌شود و تا تأیید صریح جدید،
-> فاز ۲.الف آغاز نمی‌شود.
+## ۴. فیلدهای `DEFERRED_TO_PHASE_2A`
+
+- `dat_15.MINIMUM_FUNCTIONALITY.current_consumption_typical`
+- `dat_15.MINIMUM_FUNCTIONALITY.current_consumption_max`
+
+## ۵. فیلدهای `CONFLICTING_SOURCES`
+
+سه تعارض در `docs/conflict_log.md` ثبت شد:
+1. `dat_04_timing_002.min_value`: V1.00 = 1.5s vs V2.02 = 1s
+2. `dat_15_mode_003.current_consumption_typical`: V1.00 = 50µA vs V2.02 = 150µA
+3. `dat_15_mode_003.current_consumption_max`: V1.00 = 60µA vs V2.02 = 200µA
+
+همه با قاعده `V2.02_wins` حل شدند.
+
+## ۶. یادداشت حقوقی
+
+داده‌ها مشتق از اسناد SIMCom هستند؛ بازنشر عمومی محدودیت دارد.
+`NOTICE` و `LICENSE` را ببینید.
+
+> **یادآوری:** Phase 2a تنها با دستور صریح جدید و ارائه منابع ثانویه
+> آغاز می‌شود.

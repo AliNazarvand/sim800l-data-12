@@ -1,0 +1,16 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+ 
+Figure 41: 50 keys reference circuit 
+Note：Do not change the 20KΩ resistor in the diagram. 
+ 
+Customer could cascade a less than 1K resistor to enhance the ESD performance, the connection diagram is as 
+following: 
+ 
+Figure 42: Keypad reference circuit 
+Whether using a 5*5 keys or 5*5*2 keys, the module can also detect the two buttons pressed. But when using a 
+5*5*2 button, the same row, column two buttons at the same time can not be detected when pressed, as shown 
+below: 
+ 
+ 
+Figure 43: Keypad detected 
+SIM800H&SIM800L_Hardware Design_V2.02                       4 5                            2015-07-27  

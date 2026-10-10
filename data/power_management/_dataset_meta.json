@@ -1,0 +1,20 @@
+{
+  "_auto_generated": {
+    "marker": "AUTO-GENERATED — DO NOT EDIT",
+    "generator": "tools/generate_json.py"
+  },
+  "dataset_id": "dat_15",
+  "dataset_name": "Power Management DB",
+  "phase_completed": 1,
+  "record_count": 4,
+  "min_records_required": 3,
+  "status": "partial",
+  "reason": null,
+  "pending_fields": [
+    "MINIMUM_FUNCTIONALITY.current_consumption_typical",
+    "MINIMUM_FUNCTIONALITY.current_consumption_max"
+  ],
+  "completion_source": null,
+  "last_updated": "2026-10-10",
+  "retry_count": 0
+}

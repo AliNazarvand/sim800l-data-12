@@ -1,0 +1,17 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+ 
+7. Manufacturing 
+7.1. Top and Bottom View of SIM800L  
+ 
+ 
+Figure 53: Top and bottom view of SIM800L 
+7.2. Typical Solder Reflow Profile 
+ 
+ 
+Figure 54: Typical solder reflow profile 
+ 
+7.3. The Moisture Sensitivity Level 
+ 
+The moisture sensitivity level of SIM800L module is 3. The modules should be mounted within 168 hours after 
+unpacking in the environmental conditions of temperature <30 ℃ and relative humidity of <60% (RH). It is 
+SIM800L_Hardware_Design_V1.00                      6 3                                       2013-08-20  

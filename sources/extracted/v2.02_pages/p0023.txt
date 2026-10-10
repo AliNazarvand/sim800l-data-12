@@ -1,0 +1,25 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+ 
+Figure 12: Timing of power on module 
+When power on procedure is completed, SIM800H&SIM800L will send following URC to indicate that the 
+module is ready to operate at fixed baud rate. 
+RDY 
+This URC does not appear when autobauding function is active. 
+Note: Customer can use AT command “AT+IPR=x” to set a fixe d baud rate and save the configuration to non-volatile flash 
+memory. After the configuration is saved as fixed baud rate, the Code “RDY” should be received from the serial port every time 
+when SIM800H&SIM800L is powered on. For details, please refer to the chapter “AT+IPR” in document [1]. 
+ 
+4.2.2. Power down SIM800H&SIM800L 
+ 
+SIM800H&SIM800L will be powered down in the following situations： 
+z Normal power down procedure: power down SIM800H&SIM800L by the PWRKEY pin.  
+z Normal power down procedure: power down SIM800H&SIM800L by AT command “AT+CPOWD=1”.  
+z Abnormal power down: over-voltage or under-voltage automatic power down. 
+z Abnormal power down: over-temperature or under-temperature automatic power down. 
+4.2.2.1. Power down SIM800H&SIM800L by the PWRKEY Pin 
+Customer can power down SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and 
+release. Please refer to the power on circuit. The power down timing is illustrated in the following figure. 
+ 
+Figure 13: Timing of power down SIM800H&SIM800L by PWRKEY 
+This procedure makes the module log off from the network an d allows the software to enter into a secure state to 
+SIM800H&SIM800L_Hardware Design_V2.02                       2 3                            2015-07-27  

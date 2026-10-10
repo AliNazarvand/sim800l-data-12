@@ -1,0 +1,25 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+Table 14: Performance of audio amplifier 
+Conditions Class-AB AMP 
+4.2V 8Ω THD+N=1% 0.87W 
+3.4V 8Ω THD+N=1% 0.53W 
+4.2V 8Ω THD+N=10% 1.08W 
+3.4V 8Ω THD+N=10% 0.65W 
+ 
+SPK2P/2N output can directly drive 8Ω speaker. 
+ 
+AT command “AT+CMIC” is used to adjust the input gain level of microphone. AT command “AT+SIDET” 
+is used to set the side-tone level. In addition, AT command “AT+CLVL” is used to adjust the output gain level. 
+For more details, please refer to document [1]. 
+ 
+In order to improve audio performance, the following reference circuits are recommended. The audio signals 
+have to be layout according to differential signal layout rules as shown in following figures.  
+ 
+4.7.1. Speaker Interfaces Configuration 
+ 
+ 
+Figure 31: Speaker reference circuit 
+ 
+4.7.2. Microphone Interfaces Configuration 
+ 
+SIM800H&SIM800L_Hardware Design_V2.02                       3 6                            2015-07-27  

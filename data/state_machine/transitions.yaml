@@ -1,0 +1,228 @@
+records:
+  - _meta:
+      id: "dat_05_transition_001"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 22
+      source_section: "4.2.1"
+      source_figure_number: "Figure 12"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    transition_id: "T001"
+    from_state: "POWER_OFF"
+    to_state: "POWER_ON_PWRKEY_PRESSED"
+    trigger: "PWRKEY pulled low"
+    hardware_condition: "PWRKEY low for >=1 second"
+
+  - _meta:
+      id: "dat_05_transition_002"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 23
+      source_section: "4.2.1"
+      source_figure_number: "Figure 12"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    transition_id: "T002"
+    from_state: "POWER_ON_PWRKEY_PRESSED"
+    to_state: "POWER_ON_RDY_RECEIVED"
+    trigger: "RDY URC received"
+    hardware_condition: "VDD_EXT=2.8V; STATUS=high"
+
+  - _meta:
+      id: "dat_05_transition_003"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 23
+      source_section: "4.2.2.1"
+      source_figure_number: "Figure 13"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    transition_id: "T003"
+    from_state: "NORMAL_OPERATION"
+    to_state: "POWER_DOWN_PWRKEY_PRESSED"
+    trigger: "PWRKEY pulled low >=1s"
+    hardware_condition: "PWRKEY low"
+
+  - _meta:
+      id: "dat_05_transition_004"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 24
+      source_section: "4.2.2.1"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    transition_id: "T004"
+    from_state: "POWER_DOWN_PWRKEY_PRESSED"
+    to_state: "POWER_OFF"
+    trigger: "NORMALPOWERDOWN URC emitted"
+    hardware_condition: "VDD_EXT=low; STATUS=low"
+
+  - _meta:
+      id: "dat_05_transition_005"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 25
+      source_section: "4.2.2.5"
+      source_figure_number: "Figure 14"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    transition_id: "T005"
+    from_state: "POWER_OFF"
+    to_state: "POWER_ON_PWRKEY_PRESSED"
+    trigger: "PWRKEY pulled low (restart)"
+    hardware_condition: "After T3>=800ms from STATUS low"
+
+  - _meta:
+      id: "dat_05_transition_006"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 26
+      source_section: "4.2.3"
+      source_figure_number: "Figure 16"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    transition_id: "T006"
+    from_state: "NORMAL_OPERATION"
+    to_state: "RESET_ACTIVE"
+    trigger: "RESET pulled low for >=105ms"
+    hardware_condition: "RESET V_IL <0.6V"
+
+  - _meta:
+      id: "dat_05_transition_007"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 26
+      source_section: "4.2.3"
+      source_figure_number: "Figure 16"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    transition_id: "T007"
+    from_state: "RESET_ACTIVE"
+    to_state: "POWER_ON_RDY_RECEIVED"
+    trigger: "RESET released"
+    hardware_condition: "STATUS high after 2.7s"
+
+  - _meta:
+      id: "dat_05_transition_008"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 27
+      source_section: "4.3.2"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    transition_id: "T008"
+    from_state: "NORMAL_OPERATION"
+    to_state: "SLEEP_MODE_1"
+    trigger: "AT+CSCLK=1 AND DTR high AND no interrupts"
+    hardware_condition: "DTR high"
+
+  - _meta:
+      id: "dat_05_transition_009"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 27
+      source_section: "4.3.3"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    transition_id: "T009"
+    from_state: "SLEEP_MODE_1"
+    to_state: "NORMAL_OPERATION"
+    trigger: "DTR pulled low for >=50ms OR incoming call/SMS"
+    hardware_condition: "DTR low >=50ms"
+
+  - _meta:
+      id: "dat_05_transition_010"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 27
+      source_section: "4.3.4"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    transition_id: "T010"
+    from_state: "NORMAL_OPERATION"
+    to_state: "SLEEP_MODE_2"
+    trigger: "AT+CSCLK=2 AND no RXD data for 5s"
+    hardware_condition: "No RXD activity"
+
+  - _meta:
+      id: "dat_05_transition_011"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 27
+      source_section: "4.3.5"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    transition_id: "T011"
+    from_state: "SLEEP_MODE_2"
+    to_state: "NORMAL_OPERATION"
+    trigger: "Send data via RXD OR incoming call/SMS"
+    hardware_condition: "RXD data received"
+
+  - _meta:
+      id: "dat_05_transition_012"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 24
+      source_section: "4.2.2.3"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    transition_id: "T012"
+    from_state: "NORMAL_OPERATION"
+    to_state: "POWER_OFF"
+    trigger: "VBAT <=3.4V OR >=4.4V (auto power-down)"
+    hardware_condition: "URC emitted first"

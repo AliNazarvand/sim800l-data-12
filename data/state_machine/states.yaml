@@ -1,0 +1,140 @@
+records:
+  - _meta:
+      id: "dat_05_state_001"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 22
+      source_section: "4.2"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    state_id: "POWER_OFF"
+    state_name: "Power off"
+    description_fa: null
+    entry_conditions: ["PWRKEY low >=1s OR AT+CPOWD=1 OR under/over-voltage"]
+    exit_conditions: ["PWRKEY low >=1s to power on"]
+    related_pins: ["PWRKEY", "VBAT", "VRTC", "STATUS"]
+
+  - _meta:
+      id: "dat_05_state_002"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 23
+      source_section: "4.2.1"
+      source_figure_number: "Figure 12"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    state_id: "POWER_ON_PWRKEY_PRESSED"
+    state_name: "Power on, PWRKEY pressed"
+    description_fa: null
+    entry_conditions: ["PWRKEY pulled low"]
+    exit_conditions: ["PWRKEY released AND power-on procedure complete"]
+    related_pins: ["PWRKEY", "VDD_EXT", "STATUS"]
+
+  - _meta:
+      id: "dat_05_state_003"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 23
+      source_section: "4.2.1"
+      source_figure_number: "Figure 12"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    state_id: "POWER_ON_RDY_RECEIVED"
+    state_name: "RDY received"
+    description_fa: null
+    entry_conditions: ["Power-on procedure completed AND RDY URC received"]
+    exit_conditions: ["Enter normal operation"]
+    related_pins: ["TXD", "RXD", "VDD_EXT", "STATUS"]
+
+  - _meta:
+      id: "dat_05_state_004"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 23
+      source_section: "4.2.2.1"
+      source_figure_number: "Figure 13"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    state_id: "POWER_DOWN_PWRKEY_PRESSED"
+    state_name: "Power down, PWRKEY pressed"
+    description_fa: null
+    entry_conditions: ["PWRKEY low >=1s during normal operation"]
+    exit_conditions: ["Power down complete"]
+    related_pins: ["PWRKEY", "VDD_EXT", "STATUS"]
+
+  - _meta:
+      id: "dat_05_state_005"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 25
+      source_section: "4.2.3"
+      source_figure_number: "Figure 16"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    state_id: "RESET_ACTIVE"
+    state_name: "Reset active"
+    description_fa: null
+    entry_conditions: ["RESET pulled low >=105ms"]
+    exit_conditions: ["RESET released AND STATUS returns high after 2.7s"]
+    related_pins: ["RESET", "VDD_EXT", "STATUS"]
+
+  - _meta:
+      id: "dat_05_state_006"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 27
+      source_section: "4.3.2"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    state_id: "SLEEP_MODE_1"
+    state_name: "Sleep mode 1 (AT+CSCLK=1)"
+    description_fa: null
+    entry_conditions: ["AT+CSCLK=1 AND DTR high AND no interrupts"]
+    exit_conditions: ["DTR pulled low >=50ms OR incoming call/SMS"]
+    related_pins: ["DTR", "TXD", "RXD"]
+
+  - _meta:
+      id: "dat_05_state_007"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 27
+      source_section: "4.3.4"
+      source_figure_number: null
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    state_id: "SLEEP_MODE_2"
+    state_name: "Sleep mode 2 (AT+CSCLK=2)"
+    description_fa: null
+    entry_conditions: ["AT+CSCLK=2 AND no RXD data for 5s AND no interrupts"]
+    exit_conditions: ["Send data via RXD OR incoming call/SMS"]
+    related_pins: ["RXD"]

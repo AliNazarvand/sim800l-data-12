@@ -1,0 +1,409 @@
+{
+  "_auto_generated": {
+    "marker": "AUTO-GENERATED — DO NOT EDIT",
+    "generator": "tools/generate_json.py"
+  },
+  "records": [
+    {
+      "_meta": {
+        "id": "dat_07_interfaces_001",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 29,
+        "source_section": "4.5",
+        "source_figure_number": "Table 9",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "interface_name": "UART (main serial port)",
+      "type": "UART",
+      "supported_baud_rates": [
+        1200,
+        2400,
+        4800,
+        9600,
+        19200,
+        38400,
+        57600,
+        115200,
+        230400,
+        460800
+      ],
+      "pin_mapping": [
+        {
+          "pin": "TXD",
+          "number": 32,
+          "direction": "O"
+        },
+        {
+          "pin": "RXD",
+          "number": 31,
+          "direction": "I"
+        },
+        {
+          "pin": "RTS",
+          "number": 33,
+          "direction": "I"
+        },
+        {
+          "pin": "CTS",
+          "number": 34,
+          "direction": "O"
+        },
+        {
+          "pin": "DTR",
+          "number": 69,
+          "direction": "I"
+        },
+        {
+          "pin": "DCD",
+          "number": 70,
+          "direction": "O"
+        },
+        {
+          "pin": "RI",
+          "number": 68,
+          "direction": "O"
+        }
+      ],
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_07_interfaces_002",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 29,
+        "source_section": "4.5",
+        "source_figure_number": "Table 9",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "interface_name": "USB",
+      "type": "USB",
+      "supported_baud_rates": [],
+      "pin_mapping": [
+        {
+          "pin": "VBUS",
+          "number": 7,
+          "direction": "I"
+        },
+        {
+          "pin": "USB_DP",
+          "number": 59,
+          "direction": "I/O"
+        },
+        {
+          "pin": "USB_DN",
+          "number": 19,
+          "direction": "I/O"
+        }
+      ],
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_07_interfaces_003",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 38,
+        "source_section": "4.8",
+        "source_figure_number": "Table 17",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "interface_name": "SIM card",
+      "type": "SIM",
+      "supported_baud_rates": [],
+      "pin_mapping": [
+        {
+          "pin": "SIM_VDD",
+          "number": 16,
+          "direction": "O"
+        },
+        {
+          "pin": "SIM_DATA",
+          "number": 14,
+          "direction": "I/O"
+        },
+        {
+          "pin": "SIM_CLK",
+          "number": 55,
+          "direction": "O"
+        },
+        {
+          "pin": "SIM_RST",
+          "number": 15,
+          "direction": "O"
+        },
+        {
+          "pin": "SIM_DET",
+          "number": 54,
+          "direction": "I"
+        }
+      ],
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_07_interfaces_004",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 35,
+        "source_section": "4.7",
+        "source_figure_number": "Table 13",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "interface_name": "Audio analog",
+      "type": "Audio",
+      "supported_baud_rates": [],
+      "pin_mapping": [
+        {
+          "pin": "MIC1P",
+          "number": 52,
+          "direction": "I"
+        },
+        {
+          "pin": "MIC1N",
+          "number": 12,
+          "direction": "I"
+        },
+        {
+          "pin": "SPK1P",
+          "number": 53,
+          "direction": "O"
+        },
+        {
+          "pin": "SPK1N",
+          "number": 13,
+          "direction": "O"
+        },
+        {
+          "pin": "MIC2P",
+          "number": 9,
+          "direction": "I"
+        },
+        {
+          "pin": "MIC2N",
+          "number": 10,
+          "direction": "I"
+        },
+        {
+          "pin": "SPK2P",
+          "number": 51,
+          "direction": "O"
+        },
+        {
+          "pin": "SPK2N",
+          "number": 11,
+          "direction": "O"
+        }
+      ],
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_07_interfaces_005",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 42,
+        "source_section": "4.9",
+        "source_figure_number": "Table 20",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "interface_name": "PCM digital audio",
+      "type": "PCM",
+      "supported_baud_rates": [],
+      "pin_mapping": [
+        {
+          "pin": "PCM_CLK",
+          "number": 29,
+          "direction": "O"
+        },
+        {
+          "pin": "PCM_OUT",
+          "number": 30,
+          "direction": "O"
+        },
+        {
+          "pin": "PCM_SYNC",
+          "number": 65,
+          "direction": "O"
+        },
+        {
+          "pin": "PCM_IN",
+          "number": 66,
+          "direction": "I"
+        }
+      ],
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_07_interfaces_006",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 44,
+        "source_section": "4.10",
+        "source_figure_number": "Table 23",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "interface_name": "Keypad",
+      "type": "GPIO",
+      "supported_baud_rates": [],
+      "pin_mapping": [
+        {
+          "pin": "KBC0..KBC4",
+          "number": 20,
+          "direction": "I"
+        },
+        {
+          "pin": "KBR0..KBR4",
+          "number": 62,
+          "direction": "O"
+        }
+      ],
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_07_interfaces_007",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 46,
+        "source_section": "4.11",
+        "source_figure_number": "Table 25",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "interface_name": "I2C",
+      "type": "I2C",
+      "supported_baud_rates": [],
+      "pin_mapping": [
+        {
+          "pin": "SCL",
+          "number": 74,
+          "direction": "O"
+        },
+        {
+          "pin": "SDA",
+          "number": 75,
+          "direction": "I/O"
+        }
+      ],
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_07_interfaces_008",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 47,
+        "source_section": "4.13",
+        "source_figure_number": "Table 28",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "interface_name": "ADC",
+      "type": "ADC",
+      "supported_baud_rates": [],
+      "pin_mapping": [
+        {
+          "pin": "ADC",
+          "number": 50,
+          "direction": "I"
+        }
+      ],
+      "notes_fa": null
+    },
+    {
+      "_meta": {
+        "id": "dat_07_interfaces_009",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 48,
+        "source_section": "4.14",
+        "source_figure_number": "Table 30",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "interface_name": "PWM",
+      "type": "PWM",
+      "supported_baud_rates": [],
+      "pin_mapping": [
+        {
+          "pin": "PWM",
+          "number": 26,
+          "direction": "O"
+        }
+      ],
+      "notes_fa": null
+    }
+  ]
+}

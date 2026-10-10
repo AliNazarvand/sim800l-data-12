@@ -1,0 +1,39 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+ 
+4.11.1. I2C Multiplexing Function 
+Table 26: I2C multiplexing function 
+Pin name Pin number Mode 0(default) Mode 1 
+SCL 74 SCL GPIO25 
+SDA 75 SDA GPIO26 
+Note: Multiplexing function need different software supply. 
+ 
+4.12. General Purpose Input/Output (GPIO) 
+ 
+SIM800L provides 3 GPIO pins. The output voltage level of the GPIO can be set by AT command “AT+ SGPIO”. 
+The input voltage level of the GPIO can also be read by AT command “AT+ SGPIO”. For more details, please 
+refer to document [1]. 
+Table 27: Pin definition of the GPIO 
+Pin name Pin number Reret state 
+GPIO1 3 - 
+GPIO2 27 Pull down 
+GPIO3 28 Pull down 
+ 
+4.13. ADC 
+Table 28: Pin definition of the ADC 
+Pin name Pin number Description 
+ADC 50 Analog voltage input 
+ 
+SIM800L provides an auxiliary ADC, which can be used  to measure the voltage. User can use AT command 
+“AT+CADC” to read the voltage value. For details of this AT command, please refer to document [1]. 
+ 
+Table 29: ADC specification 
+Parameter Min Typ Max Unit 
+Voltage range 0 - 2.8 V 
+ADC Resolution - 10 - bits 
+Sampling rate - - 1.0833 MHz 
+ADC precision  10 20 mV 
+ 
+4.14. PWM 
+Table 30: Pin definition of the PWM 
+Pin name Pin number Description 
+SIM800L_Hardware_Design_V1.00                      4 8                                       2013-08-20  

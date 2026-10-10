@@ -1,0 +1,30 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+ 
+Figure 32: Speaker with amplifier reference circuit 
+4.7.3. Audio Electronic Characteristic 
+Table 15: Microphone input characteristics 
+Parameter  Min Typ Max Unit 
+Microphone biasing voltage  1.9 2.2 V 
+Working current   2.0 mA 
+Input impedance(differential) 13 20 27 KΩ 
+Idle channel noise   -67 dBm0 
+Input level:-40dBm0 29   dB SINAD 
+Input level:0dBm0  69  dB 
+Table 16: Audio output characteristics 
+Parameter Conditions Min Typ Max Unit 
+RL=32 Ω receiver - 90 - mW Normal output 
+RL=8 Ω speaker - - 1080 mW 
+ 
+4.7.4. TDD 
+ 
+Audio signal could be interferenced by RF signal. Coupling noise could be filtered by adding 33pF and 10pF 
+capacitor to audio lines. 33pF capacitor could eliminate noise from GSM850/EGSM900MHz, while 10pF 
+capacitor could eliminate noise from DCS1800/PCS1900Mhz frequency. Customer should develop this filter 
+solution according to field test result. 
+ 
+GSM antenna is the key coupling interfering source of TDD noise. Thereat, pay attention to the layout of audio 
+lines which should be far away from RF cable, antenna and VBAT pin. The bypass capacitor for filtering should 
+be placed near module and another group needs to be placed near to connector. 
+ 
+Conducting noise is mainly caused by the VBAT drop.  If audio PA was powered by VBAT directly, then there 
+SIM800H&SIM800L_Hardware Design_V2.02                       3 7                            2015-07-27  

@@ -1,0 +1,136 @@
+{
+  "_auto_generated": {
+    "marker": "AUTO-GENERATED — DO NOT EDIT",
+    "generator": "tools/generate_json.py"
+  },
+  "records": [
+    {
+      "_meta": {
+        "id": "dat_15_mode_001",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 13,
+        "source_section": "2.3",
+        "source_figure_number": "Table 4",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "mode_id": "NORMAL_OPERATION",
+      "mode_name": "Normal operation",
+      "description_fa": "حالت عادی.",
+      "current_consumption_typical": null,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "entry_condition": "Power-on sequence completed, module registered to network",
+      "exit_condition": "AT+CPOWD, PWRKEY low, under/over-voltage, under/over-temp, AT+CFUN=0",
+      "related_pins": [
+        "VBAT",
+        "PWRKEY",
+        "STATUS"
+      ]
+    },
+    {
+      "_meta": {
+        "id": "dat_15_mode_002",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 60,
+        "source_section": "6.8",
+        "source_figure_number": "Table 49",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "mode_id": "SLEEP_MODE_CFUN1",
+      "mode_name": "Sleep mode (AT+CFUN=1, MFRMS=9)",
+      "description_fa": null,
+      "current_consumption_typical": 1.04,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "entry_condition": "AT+CSCLK=1 & DTR high OR no RXD data for 5s",
+      "exit_condition": "DTR low (Sleep 1) OR RXD data (Sleep 2)",
+      "related_pins": [
+        "DTR",
+        "RXD"
+      ]
+    },
+    {
+      "_meta": {
+        "id": "dat_15_mode_003",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 60,
+        "source_section": "6.8",
+        "source_figure_number": "Table 49",
+        "extracted_at": "2026-10-10",
+        "pending_fields": [],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": null,
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "mode_id": "POWER_DOWN_MODE",
+      "mode_name": "Power down mode",
+      "description_fa": null,
+      "current_consumption_typical": 150,
+      "current_consumption_max": 200,
+      "unit": "uA",
+      "entry_condition": "AT+CPOWD=1 OR PWRKEY low >=1s OR under/over-voltage OR under/over-temp",
+      "exit_condition": "PWRKEY low >=1s to power on",
+      "related_pins": [
+        "PWRKEY",
+        "VBAT",
+        "VRTC"
+      ]
+    },
+    {
+      "_meta": {
+        "id": "dat_15_mode_004",
+        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "source_version": "V2.02",
+        "source_page": 26,
+        "source_section": "4.3.1",
+        "source_figure_number": null,
+        "extracted_at": "2026-10-10",
+        "pending_fields": [
+          "current_consumption_typical",
+          "current_consumption_max"
+        ],
+        "compatible_models": [
+          "SIM800L",
+          "SIM800H"
+        ],
+        "missing_reason": "DEFERRED_TO_PHASE_2A",
+        "completion_source": null,
+        "license_note": "See NOTICE file for licensing and copyright information."
+      },
+      "mode_id": "MINIMUM_FUNCTIONALITY",
+      "mode_name": "Minimum functionality mode (AT+CFUN=0)",
+      "description_fa": "RF و SIM غیرفعال؛ پورت سریال فعال. مقدار دقیق جریان در V2.02 Table 8 به‌درستی استخراج نشد.",
+      "current_consumption_typical": null,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "entry_condition": "AT+CFUN=0",
+      "exit_condition": "AT+CFUN=1 (full) or AT+CFUN=4 (flight mode)",
+      "related_pins": [
+        "VBAT"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+dataset_id: "dat_07"
+dataset_name: "Hardware Reference DB"
+phase_completed: 1
+record_count: 80
+min_records_required: "all_pins_in_pdf + 10_electrical_parameters"
+status: "partial"
+reason: null
+pending_fields:
+  - "pin_records_for_remaining_GND_grouped_pins_if_required_individually"
+completion_source: null
+last_updated: "2026-10-10"
+retry_count: 0

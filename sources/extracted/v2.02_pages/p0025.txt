@@ -1,0 +1,30 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+mode can also be indicated by STATUS or VDD_EXT, which is at low level at this time. 
+ 
+Note：The default temperature detect is disable, AT command “A T+CMTE” could be used to re ad the temperature when the 
+module is running.For details please refer to document [1]. 
+ 
+4.2.2.5. Restart SIM800H&SIM800L by PWRKEY Pin: 
+ 
+When the module works normally, if the customer wants to restart the module, follow the procedure below: 
+1) Power down the module. 
+2) Wait for at least 800ms after STATUS pin changed to low level. 
+3) Power on the module. 
+ 
+Figure 14:Timing of restart SIM800H&SIM800L 
+ 
+4.2.3. Reset Function 
+ 
+SIM800H&SIM800L also has a RESET pin (pin 49) used to reset the module. This function is used as an 
+emergency reset only when AT command “AT+CPOWD=1” and the PWRKEY pin has no effect. Customer can 
+pull the RESET pin to ground, then the module will reset. 
+ 
+This pin is already isolated in the module, so the external isolation is not necessary. Following figure is internal 
+circuit of the RESET pin. 
+ 
+ 
+Figure 15: Reset circuit 
+ 
+The typical value of RESET pin at High level is 2.8V , so for the 3V or 3.3V , customer could use MCU’s GPIO to 
+driver this pin directly, cascading some resistors could enhance the ESD performance but the value should not be 
+SIM800H&SIM800L_Hardware Design_V2.02                       2 5                            2015-07-27  

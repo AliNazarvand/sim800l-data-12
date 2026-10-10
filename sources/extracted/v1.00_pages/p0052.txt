@@ -1,0 +1,32 @@
+                                                                      S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+Table 40: Definition of the BPI_BUS1 pin 
+Pin name Pin number Description 
+BPI_BUS1 5 Transmit synchronization signal 
+ 
+The timing of the synchronization signal is shown below. High level of the BPI_BUS1 pin indicates increased 
+power consumption during transmission. 
+ 
+ 
+Figure 46: BPI_BUS1 signal during transmit burst 
+ 
+4.19. Antenna Interface 
+ 
+There are three antenna ports for SIM800L, GSM antenna port named RF_ANT, antenna port named BT_ANT 
+and FM antenna port named FM_ANT_P/ FM_ANT_N, The RF interface of the three antenna ports has an 
+impedance of 50Ω. 
+z The input impendence of the antenna should be 50Ω, and the VSWR should be less than 2. 
+z It is recommended that the GSM antenna and the BT antenna should be placed as far as possible.  
+z The isolations of the three antenna should be bigger than 30db 
+ 
+NOTE：About the RF trace layout please refer to“AN_SMT Module_RF_Reference Design_Guide”. 
+ 
+4.19.1. GSM Antenna Interface 
+ 
+There is a GSM antenna pad named RF_ANT for SIM800L, the connection of the antenna must be decoupled 
+from DC voltage. This is necessary because the antenna co nnector is DC coupled to ground via an inductor for 
+ESD protection. 
+ 
+The external antenna must be matched properly to achieve best performance, so the matching circuit is necessary, 
+the connection is recommended as following: 
+ 
+SIM800L_Hardware_Design_V1.00                      5 2                                       2013-08-20  

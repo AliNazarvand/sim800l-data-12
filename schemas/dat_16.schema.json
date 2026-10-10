@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "dat_16 - Board/EVB Definitions (single record)",
+  "type": "object",
+  "required": ["_meta","board_id","board_name","board_type","input_voltage","regulator_onboard","level_shifter_onboard","interfaces_exposed","pin_mapping","notes_fa"],
+  "properties": {
+    "_meta": {
+  "type": "object",
+  "required": ["id","source","source_version","source_page","source_section","source_figure_number","extracted_at","pending_fields","compatible_models","missing_reason","completion_source","license_note"],
+  "properties": {
+    "id": { "type": "string" },
+    "source": { "type": "string", "enum": ["SIM800L_Hardware_Design_V1.00","SIM800H&SIM800L_Hardware_Design_V2.02"] },
+    "source_version": { "type": "string", "enum": ["V1.00","V2.02"] },
+    "source_page": { "type": ["integer","null"] },
+    "source_section": { "type": ["string","null"] },
+    "source_figure_number": { "type": ["string","null"] },
+    "extracted_at": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "pending_fields": { "type": "array", "items": { "type": "string" } },
+    "compatible_models": { "type": "array", "items": { "type": "string", "enum": ["SIM800L","SIM800H"] }, "minItems": 1 },
+    "missing_reason": { "type": ["string","null"], "enum": [null,"NOT_FOUND_IN_SOURCES","DEFERRED_TO_PHASE_2A","DEFERRED_TO_PHASE_2B","CONFLICTING_SOURCES","MIXED"] },
+    "completion_source": { "type": ["string","null"] },
+    "license_note": { "type": "string" },
+    "deprecated_in": { "type": ["string","null"] }
+  },
+  "additionalProperties": false
+},
+    "board_id": { "type": "string" },
+    "board_name": { "type": "string" },
+    "board_type": { "type": "string", "enum": ["EVB","Bare_PCB","Module"] },
+    "input_voltage": { "type": "object" },
+    "regulator_onboard": { "type": "boolean" },
+    "level_shifter_onboard": { "type": "boolean" },
+    "interfaces_exposed": { "type": "array", "items": { "type": "string" } },
+    "pin_mapping": { "type": "array" },
+    "notes_fa": { "type": ["string","null"] }
+  },
+  "additionalProperties": false
+}

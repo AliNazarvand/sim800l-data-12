@@ -1,0 +1,220 @@
+records:
+  - _meta:
+      id: "dat_07_electrical_001"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 58
+      source_section: "6.2"
+      source_figure_number: "Table 43"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    parameter: "VBAT_operating_range"
+    symbol: "VBAT"
+    min_value: 3.4
+    typical_value: 4.0
+    max_value: 4.4
+    unit: "V"
+    condition: "Normal operation"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_electrical_002"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 58
+      source_section: "6.1"
+      source_figure_number: "Table 42"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    parameter: "VBAT_absolute_max"
+    symbol: "VBAT"
+    min_value: null
+    typical_value: null
+    max_value: 4.5
+    unit: "V"
+    condition: "Absolute maximum (non-operating)"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_electrical_003"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 58
+      source_section: "6.1"
+      source_figure_number: "Table 42"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    parameter: "Peak_current_during_TX_burst"
+    symbol: "I"
+    min_value: 0
+    typical_value: null
+    max_value: 2.0
+    unit: "A"
+    condition: "During TX burst"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_electrical_004"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 58
+      source_section: "6.3"
+      source_figure_number: "Table 44"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    parameter: "Digital_VIH"
+    symbol: "V_IH"
+    min_value: 2.1
+    typical_value: null
+    max_value: 3.1
+    unit: "V"
+    condition: "Digital interface pins"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_electrical_005"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 58
+      source_section: "6.3"
+      source_figure_number: "Table 44"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    parameter: "Digital_VIL"
+    symbol: "V_IL"
+    min_value: -0.3
+    typical_value: null
+    max_value: 0.7
+    unit: "V"
+    condition: "Digital interface pins"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_electrical_006"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 58
+      source_section: "6.3"
+      source_figure_number: "Table 44"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    parameter: "Digital_VOH"
+    symbol: "V_OH"
+    min_value: 2.4
+    typical_value: 2.8
+    max_value: null
+    unit: "V"
+    condition: "Digital interface pins"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_electrical_007"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 58
+      source_section: "6.3"
+      source_figure_number: "Table 44"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    parameter: "Digital_VOL"
+    symbol: "V_OL"
+    min_value: null
+    typical_value: null
+    max_value: 0.4
+    unit: "V"
+    condition: "Digital interface pins"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_electrical_008"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 59
+      source_section: "6.6"
+      source_figure_number: "Table 47"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    parameter: "VDD_EXT_output"
+    symbol: "V_O"
+    min_value: 2.7
+    typical_value: 2.8
+    max_value: 2.9
+    unit: "V"
+    condition: "Normal operation"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_electrical_009"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 59
+      source_section: "6.5"
+      source_figure_number: "Table 46"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    parameter: "SIM_VDD_output"
+    symbol: "SIM_VDD"
+    min_value: 1.8
+    typical_value: null
+    max_value: 3.0
+    unit: "V"
+    condition: "Auto-detect 1.8V or 3.0V SIM"
+    notes_fa: null
+
+  - _meta:
+      id: "dat_07_electrical_010"
+      source: "SIM800H&SIM800L_Hardware_Design_V2.02"
+      source_version: "V2.02"
+      source_page: 59
+      source_section: "6.7"
+      source_figure_number: "Table 48"
+      extracted_at: "2026-10-10"
+      pending_fields: []
+      compatible_models: ["SIM800L", "SIM800H"]
+      missing_reason: null
+      completion_source: null
+      license_note: "See NOTICE file for licensing and copyright information."
+    parameter: "VRTC_input_voltage"
+    symbol: "V_RTC_IN"
+    min_value: 1.2
+    typical_value: 2.8
+    max_value: 3.0
+    unit: "V"
+    condition: "RTC backup input"
+    notes_fa: null
