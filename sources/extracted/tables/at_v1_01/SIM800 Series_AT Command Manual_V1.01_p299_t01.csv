@@ -1,0 +1,3 @@
+,,OK,
+Find an entry in the current phonebook using a text search.,"AT+CPBF=""Daniel""","+CPBF:5, ""13918186089"",129,""Daniel"" OK",
+Delete an entry from the current phonebook specified by its position index.,"AT+CPBW=2 AT+CPBR=1,10",OK [a listing of phonebook contents] OK,

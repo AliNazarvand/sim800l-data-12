@@ -1,0 +1,32 @@
+AT+CGACT PDP Context Activate or Deactivate,
+Test Command AT+CGACT=?,Response
+,+CGACT: (list of supported <state>s)
+,
+,OK
+,Parameters
+,See Write Command
+Read Command AT+CGACT?,Response
+,"+CGACT: <cid>,<state>[<CR><LF>+CGACT:<cid>,<state>…]"
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command AT+CGACT=<st ate> [,<cid>]",Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,<state> Indicates the state of PDP context activation
+,0 deactivated
+,1 activated
+,Other values are reserved and will result in an ERROR
+,response to the Write Command.
+,<cid> A numeric parameter which specifies a particular PDP context
+,definition (see +CGDCONT Command). If the <cid> is
+,"omitted, it only affects the first cid."
+Max Response Time,150 seconds
+,
+Reference,Note
+,This command is used to test PDPs with network simulators. Successful
+,activation of PDP on real network is not guaranteed.
+,Refer to AT+CGDATA clarification for more information.

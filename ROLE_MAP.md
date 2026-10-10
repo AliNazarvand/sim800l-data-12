@@ -1,22 +1,22 @@
-# ROLE_MAP
+# ROLE MAP
 
-| دیتاست | نقش | وابسته به | وضعیت |
+| Dataset | Role | Depends on | Status |
 |---|---|---|---|
-| dat_01 | مرجع command | - | partial |
-| dat_02 | مرجع URC | dat_01 | partial |
-| dat_03 | مرجع خطا | dat_01 | partial |
-| dat_04 | زمان‌بندی | - | partial |
-| dat_05 | حالت‌ها | - | inferred |
-| dat_06 | init | - | inferred |
-| dat_07 | سخت‌افزار | - | partial |
-| dat_08 | firmware | - | blocked |
-| dat_09 | SMS | dat_01 | partial |
-| dat_10 | GPRS | dat_01 | partial |
-| dat_11 | HTTP/FTP/SSL | dat_01 | partial |
-| dat_12 | Audio | dat_01 | partial |
-| dat_13 | SIM | dat_01, dat_07 | partial |
-| dat_14 | APN | - | external |
-| dat_15 | Power | - | partial |
-| dat_16 | EVB | - | deferred |
-| dat_17 | Certificate | dat_01, dat_11 | partial/blocked |
-| dat_18 | Certification | - | blocked |
+| dat_01 | command reference | - | see coverage |
+| dat_02 | URC reference | dat_01 | see coverage |
+| dat_03 | error codes | dat_01 | see coverage |
+| dat_04 | timing | dat_05, dat_06 | see coverage |
+| dat_05 | state machine | dat_04 | see coverage |
+| dat_06 | init sequences | dat_01, dat_05 | see coverage |
+| dat_07 | hardware pins | dat_16 | dat_13 |
+| dat_08 | firmware matrix | - | see coverage |
+| dat_09 | SMS | dat_01 | see coverage |
+| dat_10 | GPRS | dat_01, dat_14 | see coverage |
+| dat_11 | HTTP/FTP/SSL | dat_01, dat_17 | see coverage |
+| dat_12 | Audio | dat_01 | see coverage |
+| dat_13 | SIM mgmt | dat_01, dat_07 | see coverage |
+| dat_14 | MCC/MNC | external | dat_10 |
+| dat_15 | power mgmt | dat_05 | see coverage |
+| dat_16 | board/EVB | - | dat_07 |
+| dat_17 | cert/key store | dat_01 | dat_11 |
+| dat_18 | certification | - | see coverage |

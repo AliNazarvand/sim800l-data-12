@@ -1,0 +1,7 @@
+AT+FTPTYPE Set the Type of Data to Be Transferred,
+Test Command AT+FTPTYPE= ?,Response OK
+Read Command AT+FTPTYPE?,Response +FTPTYPE: <value> OK
+,Parameter See Write Command
+Write Command AT+FTPTYPE= <value>,Response OK If error is related to ME functionality: +CME ERROR: <err>
+,"Parameter <value> ""A"" For FTP ASCII sessions ""I"" For FTP Binary sessions"
+Reference,"Note When this value is set to A, all the data sent by the stackto the FTP server is made of 7 bits characters (NVT-ASCII: the MSB is set to 0). As a consequence binary data containing 8 bits characters will be corrupted during the transfer if the FTPTYPE is set to A."

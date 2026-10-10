@@ -1,0 +1,5 @@
+,Parameter,,,Min,,Typ,,,Max,,,Unit,
+,Voltage range,,,0,,-,,,2.8,,,V,
+,ADC Resolution,,,-,,10,,,-,,,bits,
+,Sampling rate,,,-,,-,,,1.0833,,,MHz,
+,ADC precision,,,,,10,,,30,,,mV,

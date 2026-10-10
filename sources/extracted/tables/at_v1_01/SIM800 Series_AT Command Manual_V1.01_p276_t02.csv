@@ -1,0 +1,6 @@
+AT+CMMSTERM Exit MMS Function,
+Test Command AT+CMMSTERM= ?,Response OK
+,Parameter No Parameter
+Execution Command AT+CMMSTERM,Response OK or ERROR or +CME ERROR: <err>
+,No Parameter
+Reference,"Note When exiting the MMS function, this command must be executed."

@@ -1,0 +1,4 @@
+AT+CR Service Reporting Control,
+Test Command AT+CR=?,Response +CR: (list of supported <mode>s) OK
+,Parameter See Write Command
+Read Command AT+CR?,Response +CR: <mode>

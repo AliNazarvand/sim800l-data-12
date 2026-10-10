@@ -1,0 +1,8 @@
+AT+CSIM Generic SIM Access,,,
+Test Command AT+CSIM=?,Response OK,,
+"Write Command AT+CSIM=<leng th>,<Command>",,Response,
+,,"+CSIM: <length>,<response>",
+,,,
+,,OK,
+,,If error is related to ME functionality:,
+,,+CME ERROR: <err>,

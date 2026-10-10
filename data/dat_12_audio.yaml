@@ -1,136 +1,264 @@
-# auto-generated at 2026-10-10T15:24:03Z
 - id: dat_12_0001
   category: Audio
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '7'
-    section: Audio
+    date: '2013-09-15'
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.85
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - audio
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CHFA
-  syntax: AT+CHFA Swap the Audio Channels.....................................................................143
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CLVL
+  syntax: AT+CLVL
   parameters: []
   response: OK
-  examples:
-  - AT+CHFA Swap the Audio Channels.....................................................................143
-  related_commands:
-  - dat_01_0058
+  examples: []
+  coverage_estimate: high
 - id: dat_12_0002
   category: Audio
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '5'
-    section: Audio
+    date: '2013-09-15'
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.85
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - audio
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CLVL
-  syntax: AT+CLVL Loud Speaker Volume Level...................................................................94
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CRSL
+  syntax: AT+CRSL
   parameters: []
   response: OK
-  examples:
-  - AT+CLVL Loud Speaker Volume Level...................................................................94
-  related_commands:
-  - dat_01_0102
+  examples: []
+  coverage_estimate: high
 - id: dat_12_0003
   category: Audio
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '6'
-    section: Audio
+    date: '2013-09-15'
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.85
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - audio
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CMIC
-  syntax: AT+CMIC Change the Microphone Gain Level.......................................................133
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CMUT
+  syntax: AT+CMUT
   parameters: []
   response: OK
-  examples:
-  - AT+CMIC Change the Microphone Gain Level.......................................................133
-  related_commands:
-  - dat_01_0112
+  examples: []
+  coverage_estimate: high
 - id: dat_12_0004
   category: Audio
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '5'
-    section: Audio
+    date: '2013-09-15'
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.85
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - audio
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CMUT
-  syntax: AT+CMUT Mute Control..........................................................................................95
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CRSM
+  syntax: AT+CRSM
   parameters: []
   response: OK
-  examples:
-  - AT+CMUT Mute Control..........................................................................................95
-  related_commands:
-  - dat_01_0151
+  examples: []
+  coverage_estimate: high
 - id: dat_12_0005
   category: Audio
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '5'
-    section: Audio
+    date: '2013-09-15'
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.85
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - audio
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CRSL
-  syntax: AT+CRSL Ringer Sound Level.................................................................................93
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+VTS
+  syntax: AT+VTS
   parameters: []
   response: OK
-  examples:
-  - AT+CRSL Ringer Sound Level.................................................................................93
-  related_commands:
-  - dat_01_0178
+  examples: []
+  coverage_estimate: high
+- id: dat_12_0006
+  category: Audio
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CATONE
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  coverage_estimate: high
+- id: dat_12_0007
+  category: Audio
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CADTONE
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  coverage_estimate: high
+- id: dat_12_0008
+  category: Audio
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CLDTONE
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  coverage_estimate: high
+- id: dat_12_0009
+  category: Audio
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CMIC
+  syntax: AT+CMIC
+  parameters: []
+  response: OK
+  examples: []
+  coverage_estimate: high
+- id: dat_12_0010
+  category: Audio
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CSDT
+  syntax: AT+CSDT
+  parameters: []
+  response: OK
+  examples: []
+  coverage_estimate: high
+- id: dat_12_0011
+  category: Audio
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CHFA
+  syntax: AT+CHFA
+  parameters: []
+  response: OK
+  examples: []
+  coverage_estimate: high
+- id: dat_12_0012
+  category: Audio
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CPCMREG
+  syntax: ''
+  parameters: []
+  response: OK
+  examples: []
+  coverage_estimate: high

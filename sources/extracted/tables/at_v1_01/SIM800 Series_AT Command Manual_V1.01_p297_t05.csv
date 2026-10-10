@@ -1,0 +1,12 @@
+AT+CMEE=?
+""
+""
+AT+CMEE?
+""
+""
+AT+CSCS=?
+""
+""
+"AT+CSCS=""TEST"""
+AT+CMEE=2
+"AT+CSCS=""TEST"""

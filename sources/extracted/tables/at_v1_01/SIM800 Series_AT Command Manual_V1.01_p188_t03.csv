@@ -1,0 +1,2 @@
+AT+CLPORT Set Local Port,
+Test Command AT+CLPORT=?,"Response 1) For single IP connection (+CIPMUX=0) +CLPORT: (""TCP"",""UDP""),(0-65535) OK 2) For multi IP connection (+CIPMUX=1) +CLPORT: (0-5),(""TCP"",""UDP""),(0-65535) OK"

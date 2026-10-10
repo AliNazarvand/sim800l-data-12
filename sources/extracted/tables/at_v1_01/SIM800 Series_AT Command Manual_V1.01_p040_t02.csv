@@ -1,0 +1,2 @@
+AT+GCAP Request Complete TA Capabilities List,
+Execution Command AT+GCAP,Response TA reports a list of additional capabilities. +GCAP: list of supported <name>s

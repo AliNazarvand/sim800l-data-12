@@ -1,0 +1,13 @@
+Execution Command AT+CMGL,1) If text mode:
+,"the same as AT+CMGL=""REC UNREAD"", received unread messages"
+,
+,2) If PDU mode:
+,"the same as AT+CMGL=0, received unread messages"
+,
+,See more messages please refer to Write Command.
+,Parameters
+,See Write Command
+Max Response Time,20s(list 50 messages)
+,20s(list 150 messages)
+Reference 3GPP TS 27.005,Note
+,

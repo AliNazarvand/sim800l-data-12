@@ -1,0 +1,4 @@
+,Symbol,Parameter,Min,Typ,,Max,,Unit,
+,VBAT,Power supply voltage,3.4,4.0,,4.4,,V,
+,T OPER,Operating temperature,-40,+25,,+85,,℃,
+,T STG,Storage temperature,-45,,,+90,,℃,

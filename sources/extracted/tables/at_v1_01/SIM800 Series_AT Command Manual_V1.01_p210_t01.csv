@@ -1,0 +1,15 @@
+Write Command AT+CIPCTL=<mod e>,Response
+,OK
+,or
+,ERROR
+,or
+,+CME ERROR: <err>
+,Parameters
+,<mode> 0 Disable to send Echo Reply
+,1 Enable to send Echo Reply to every IP address
+,pinging it
+,2 Enable to send Echo Reply only to a subset of IP
+,Addresses pinging it. This subset of IP Addresses
+,can be set by “AT+CIPFLT” command.
+Reference,Note
+,The value of <mode> is stored in non volatile memory.

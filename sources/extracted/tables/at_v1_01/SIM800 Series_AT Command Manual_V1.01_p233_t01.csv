@@ -1,0 +1,25 @@
+Test Command AT+FTPEXTPUT =?,Response
+,OK
+,
+"Write Command AT+FTPEXTPUT =<mode>[,<pos>,< en>,<timeout>]",Response
+,If mode is 0 or 1
+,OK
+,If mode is 2
+,"+FTPEXTPUT: <address>,<len>"
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameter
+,<mode>
+,0 use default FTPPUT method
+,1 use extend FTPPUT method
+,2 download data which neet to PUT to RAM
+,<pos> data offset address 0-300k
+,<len> data length 0-300k
+,<timeout> timeout value of serial port 1000ms-1000000ms
+Max Response Time,60 seconds(In case no response is received from server)
+,
+Reference,Note
+,"When extend FTPPUT mode is activated, input data then execute"
+,"“AT+FTPPUT=1” to transmit, after session is complete, if successful, it"
+,"returns “+FTPPUT: 1,0”, otherwise it returns “+FTPPUT: 1,<error>”,"
+,<error> see “AT+FTPGET”.

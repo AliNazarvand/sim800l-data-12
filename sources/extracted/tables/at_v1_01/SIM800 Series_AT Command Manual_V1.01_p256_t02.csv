@@ -1,0 +1,18 @@
+AT+POP3OUT Log Out POP3 Server,
+Test Command AT+POP3OUT=?,Response
+,OK
+,Parameter
+,
+Execution Command AT+POP3OUT,Response
+,OK
+,If error is related to ME functionality:
+,ERROR
+,"If the process is completed, return:"
+,+POP3OUT: <code>
+,Parameter
+,<code> The result of logging out POP3 server
+,1 Normally log out POP3 server
+,61 Network error
+,62 DNS resolve error
+,63 POP3 tcp connection error
+,64 Timeout of POP3 server response

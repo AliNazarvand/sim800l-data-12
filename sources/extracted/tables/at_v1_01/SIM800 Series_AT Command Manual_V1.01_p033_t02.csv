@@ -1,0 +1,6 @@
+ATS5 Set Command Line Editing Character,
+Read Command ATS5?,Response <n> OK
+,Parameter See Write Command
+Write Command ATS5=<n>,Response This parameter setting determines the character recognized by TA as a request to delete from the Command line the immediately preceding character. OK ERROR
+,Parameter <n> 0-8-127 Response formatting character
+Reference V.25ter,Note Default 8 = Backspace.

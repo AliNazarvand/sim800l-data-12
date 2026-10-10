@@ -1,0 +1,7 @@
+AT+CIPSERVER Configure Module as Server,
+Test Command AT+CIPSERVE R=?,Response
+,"+CIPSERVER: (0-CLOSE SERVER, 1-OPEN SERVER),(1-65535)"
+,
+,OK
+,Parameters
+,See Write Command

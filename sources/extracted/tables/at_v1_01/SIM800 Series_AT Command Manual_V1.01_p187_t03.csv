@@ -1,0 +1,4 @@
+AT+CIPCLOSE Close TCP or UDP Connection,
+Test Command AT+CIPCLOSE =?,Response OK
+Write Command 1) If single IP connection (+CIPMUX=0),"Response: 1) For single IP connection (+CIPMUX=0) CLOSE OK 2) For multi IP connection (+CIPMUX=1) <n>, CLOSE OK"
+AT+CIPCLOSE =<n> 2) If multi IP connection (+CIPMUX=1),Parameters <n> 0 Slow close 1 Quick close <id> A numeric parameter which indicates the connection number

@@ -1,0 +1,11 @@
+AT&C Set DCD Function Mode,
+Execution Command AT&C[<value>],Response
+,This parameter determines how the state of circuit 109 (DCD) relates to the
+,detection of received line signal from the distant end.
+,OK
+,
+,ERROR
+,Parameter
+,<value> 0 DCD line is always ON
+,1 DCD line is ON only in the presence of data carrier
+Parameter Saving,AT&W_SAVE

@@ -1,0 +1,22 @@
+,Parameter
+,
+,
+Execution Command AT+POP3RSET,Response
+,OK
+,If error is related to ME functionality:
+,ERROR
+,If POP3 server issues a positive response:
+,+POP3RSET: 1
+,If POP3 server issues a negative response:
+,+POP3REST: 0
+,If some error occur:
+,+POP3OUT: <code>
+,Parameter
+,<code> The result of logging out POP3 server
+,1 Normally log out POP3 server
+,61 Network error
+,62 DNS resolve error
+,63 POP3 tcp connection error
+,64 Timeout of POP3 server response
+Reference,Note
+,

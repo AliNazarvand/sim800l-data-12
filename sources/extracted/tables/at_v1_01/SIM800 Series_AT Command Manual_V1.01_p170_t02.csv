@@ -1,0 +1,18 @@
+AT+CGATT Attach or Detach from GPRS Service,
+Test Command AT+CGATT=?,Response
+,+CGATT: (list of supported <state>s)
+,
+,OK
+,Parameter
+,See Write Command
+Read Command AT+CGATT?,Response
+,+CGATT: <state>
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+CGATT=<st ate>,Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameter

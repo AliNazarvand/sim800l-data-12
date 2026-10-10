@@ -1,0 +1,21 @@
+,<clir>
+,I Override the CLIR supplementary service subscription
+,default value for this call
+,Invocation (restrict CLI presentation)
+,i Override the CLIR supplementary service subscription
+,default value for this call
+,Suppression (allow CLI presentation)
+,<cug>
+,G Control the CUG supplementary service information
+,for this call
+,CUG Not supported
+,g Control the CUG supplementary service information
+,for this call
+,CUG Not supported
+,"<;> Only required to set up voice call , return to"
+,Command state
+eference .25ter,Note
+,"Parameter ""I"" and ""i"" only if no *# code is within the dial string"
+,"*# codes sent with ATDare treated as voice calls. Therefore, the Command"
+,"must be terminated with a semicolon "";"""
+,See ATX Command for setting result code and call monitoring parameters.

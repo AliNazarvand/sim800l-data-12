@@ -1,0 +1,26 @@
+AT+SMTPSRV Set SMTP Server Address and Port,
+Test Command AT+SMTPSRV=?,Response
+,"+SMTPSRV: <smtpServerLength>,(range of supported <smtpPort>s)"
+,
+,OK
+,Parameter
+,See Write Command
+,
+Read Command AT+SMTPSRV?,Response
+,"+SMTPSRV: <smtpServer>,<smtpPort>"
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command AT+SMTPSRV= <smtpServer>[,<sm pPort>]",Response
+,OK
+,If error is related to ME functionality:
+,ERROR
+,
+,Parameter
+,"<smtpServer> SMTP server address, string type. This parameter"
+,can be either:
+,- IP address in the format: xxx.xxx.xxx.xxx
+,- Host name to be solved with a DNS query
+,<smtpPort> The SMTP port
+,1-65535 Default: 25

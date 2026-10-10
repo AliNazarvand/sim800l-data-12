@@ -1,0 +1,7 @@
+,Parameter
+,<IP address> a string parameter which indicates the IP address assigned
+,from GPRS or CSD.
+Reference,Note
+,"Only after PDP context is activated, local IP Address can be obtained by"
+,"AT+CIFSR, otherwise it will respond ERROR. The active status are IP"
+,"GPRSACT, TCP/UDP CONNECTING, CONNECT OK, IP CLOSE."

@@ -1,0 +1,32 @@
+,during some states of connection establishment such as handshaking.
+,
+,If error is related to ME functionality
+,+CME ERROR: <err>
+,
+,If no dial tone and (parameter setting ATX2 or ATX4)
+,NO DIALTONE
+,
+,If busy and (parameter setting ATX3 or ATX4)
+,BUSY
+,
+,If a connection cannot be established
+,NO CARRIER
+,
+,If the remote station does not answer
+,NO ANSWER
+,
+,If connection successful and non-voice call.
+,CONNECT<text> TA switches to data mode.
+,Note: <text> output only if ATX<value> parameter setting with the
+,<value> >0
+,
+,When TA returns to Command mode after call release
+,OK
+,
+,If successfully connected and voice call
+,OK
+,
+eference .25ter,Note
+,See ATX Command for setting result code and call monitoring parameters.
+,Return the numbers and symbols which ATD supports if there is no last
+,dialing context.

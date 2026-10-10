@@ -1,0 +1,26 @@
+AT+CSGS Netlight Indication of GPRS Status,
+Test Command AT+CSGS=?,Response
+,+CSGS: (0-1)
+,
+,OK
+,Parameter
+,See Write Command
+Read Command AT+CSGS?,Response
+,+CSGS: <mode>
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+CSGS=<mo de>,Response
+,OK
+,ERROR
+,Parameter
+,<mode>
+,0 disable
+,"1 enable, the netlight will be forced to enter into 64ms on/300ms off"
+,"blinking state in GPRS data transmission service. Otherwise, the"
+,netlight state is not restricted.
+Parameter Saving Mode,AT&W_SAVE
+,
+Reference,Note
+,

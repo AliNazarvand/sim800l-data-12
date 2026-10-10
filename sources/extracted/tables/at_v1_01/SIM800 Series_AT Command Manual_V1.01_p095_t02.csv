@@ -1,0 +1,8 @@
+AT+CMUT Mute Control,
+Test Command AT+CMUT=?,Response +CMUT: (list of supported <n>s) OK
+,Parameter See Write Command
+Read Command AT+CMUT?,Response +CMUT: <n> OK If error is related to ME functionality: +CME ERROR: <err>
+,Parameter See Write Command
+Write Command AT+CMUT=<n>,Response OK If error is related to ME functionality: +CME ERROR: <err>
+,Parameter <n> 0 Mute off 1 Mute on
+Reference 3GPP TS 27.007 [13],Note Only during a call this command can be set successfully.

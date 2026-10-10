@@ -1,0 +1,5 @@
+,OK
+,Parameter See Write Command
+Write Command AT+SCLASS0=< mode>,Response OK ERROR
+,Parameter <mode> 0 Disable to store Class 0 SMS to SIM when module receives Class 0 SMS 1 Enable to store Class 0 SMS to SIM when module receives Class 0 SMS
+Reference,Note

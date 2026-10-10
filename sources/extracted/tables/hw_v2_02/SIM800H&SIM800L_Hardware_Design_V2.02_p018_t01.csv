@@ -1,0 +1,7 @@
+,FM_ANTN,,,,57,,,,I,,,,,,,,
+,Synchronizing signal of RF,,,,,,,,,,,,,,,,
+,RF_SYNC,,,,5,,,,O,,,,Synchronizing signal of RF,,,,
+,Other,,,,,,,,,,,,,,,,
+,RESET,,,,49,,,,I,,,,Reset input(Active low),,,,
+,ISINK1,,,,46,,,,I,,,,Drive keypad backlight,,,,
+,ISINK0,,,,47,,,,I,,,,Drive LCD backlight,,,,

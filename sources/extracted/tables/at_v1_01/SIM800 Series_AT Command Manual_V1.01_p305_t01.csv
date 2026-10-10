@@ -1,0 +1,13 @@
+,"Activate CID 1, if the CID is already",,"AT+CGACT=1,1 AT+CGACT=1,3",OK +CME ERROR: requested service option not subscribed.
+,"active, the mobile returns OK at once.",,,
+,If no CID is defined the mobile responds,,,
+,+CME ERROR: invalid index.,,,
+,Note: If the mobile is NOT attached,,,
+,"by AT+CGATT=1 before activating, the",,,
+,attachment is automatically done by the,,,
+,AT+CGACT Command.,,,
+,Use the defined and activated CID,,"AT+CGDATA=""PPP"", 1",CONNECT
+,to get online. The mobile can be,,,
+,connected using the parameters of,,,
+,appointed CID or using default,,,
+,parameter,,,

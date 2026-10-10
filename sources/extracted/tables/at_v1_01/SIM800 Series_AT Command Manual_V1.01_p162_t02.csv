@@ -1,0 +1,14 @@
+AT*CELLLOCK Set the List of ARFCN Which Needs to Be Locked,
+Test Command AT*CELLLOC K=?,Response
+,"*CELLLOCK: (list of supported <mode>s)[,(list of supported"
+,"<amount>s),(list of supported <locked arfcn list>s)[, (list of supported"
+,"<locked arfcn list>s) [, (list of supported <locked arfcn list>s)]]]"
+,
+,OK
+,Parameter
+,See Write Command
+Read Command AT*CELLLOC K?,Response
+,"*CELLLOCK: <mode>[,<amount>,<locked arfcn list>[,<locked arfcn"
+,list>…]]
+,
+,OK

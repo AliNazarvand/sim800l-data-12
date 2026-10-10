@@ -1,0 +1,5 @@
+,format (refer <dt>)
+,<pid> GSM 03.40 TP-Protocol-Identifier in integer format (default 0).
+,<dcs> GSM 03.38 SMS Data Coding Scheme in Integer format.
+Reference 3GPP TS 27.005,Note
+,

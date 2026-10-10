@@ -1,0 +1,5 @@
+,Status,,,SIM800L behavior,
+,Off,,,SIM800L is not running,
+,64ms On/ 800ms Off,,,SIM800L not registered the network,
+,64ms On/ 3000ms Off,,,SIM800L registered to the network,
+,64ms On/ 300ms Off,,,GPRS communication is established,

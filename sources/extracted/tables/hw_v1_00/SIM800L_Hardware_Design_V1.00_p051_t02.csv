@@ -1,0 +1,3 @@
+,Pin name,,,Pin number,,,Description,
+,ISINK0,,,47,,,Sink current for LCM module,
+,ISINK1,,,46,,,Sink current for keypad LED,

@@ -1,39 +1,56 @@
-$schema: "http://json-schema.org/draft-07/schema#"
-title: "dat_14_operator_apn"
+$schema: http://json-schema.org/draft-07/schema#
+title: dat_14
 type: object
-additionalProperties: true
-required: [id, category, source, source_type, confidence, status, applicable_models, created_at, updated_at]
+required:
+- id
+- category
+- source
+- source_type
+- confidence
+- status
+- applicable_models
 properties:
-  id: {type: string}
-  category: {type: string}
+  id:
+    type: string
+  category:
+    type: string
   source:
     type: object
-    required: [name]
-    properties:
-      name: {type: string}
-      version: {type: string}
-      date: {type: string}
-      page: {type: string}
-      section: {type: string}
-      quote: {type: string}
-  source_type: {type: string, enum: [primary, secondary, external]}
-  confidence: {type: number, minimum: 0.0, maximum: 1.0}
-  status: {type: string, enum: [complete, partial, unknown, inferred, blocked, deferred]}
-  conflicts: {type: array, items: {type: object}}
-  notes: {type: string}
-  tags: {type: array, items: {type: string}}
+  source_type:
+    type: string
+    enum:
+    - primary
+    - secondary
+    - external
+  confidence:
+    type: number
+    minimum: 0.0
+    maximum: 1.0
+  status:
+    type: string
+    enum:
+    - complete
+    - partial
+    - unknown
+    - inferred
+    - blocked
+    - deferred
+  conflicts:
+    type: array
+  notes:
+    type: string
+  tags:
+    type: array
   applicable_models:
     type: array
-    items: {type: string}
-    contains: {const: "SIM800L"}
-  created_at: {type: string}
-  updated_at: {type: string}
-  mcc: {type: string}
-  mnc: {type: string}
-  country: {type: string}
-  country_code: {type: string}
-  operator: {type: string}
-  brand: {type: string}
-  network_type: {type: string}
-  apn_list: {type: array}
-  source_url: {type: string}
+  created_at:
+    type: string
+  updated_at:
+    type: string
+  coverage_estimate:
+    type: string
+    enum:
+    - high
+    - medium
+    - low
+additionalProperties: true

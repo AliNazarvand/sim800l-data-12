@@ -1,0 +1,5 @@
+AT+CMMSTIMEOUT Set MMS Timeout,
+Test Command AT+CMMSTIMEO UT=?,"Response +CMMSTIMEOUT: (10-1000),(10-1000) OK"
+,Parameters See Write Command
+Read Command AT+CMMSTIMEO UT?,"Response +CMMSTIMEOUT: <Send timeout>,<Recv timeout> OK"
+,Parameters See Write Command

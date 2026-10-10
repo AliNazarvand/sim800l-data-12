@@ -1,0 +1,7 @@
+AT+CLTS Get Local Timestamp,,
+Test Command AT+CLTS=?,,"Response +CLTS: ""yy/MM/dd,hh:mm:ss+/-zz"" OK"
+Read Command AT+CLTS?,,Response +CLTS: <mode> OK
+Write Command AT+CLTS= <mode>,,Response OK ERROR
+,,Parameter <mode> 0 Disable 1 Enable
+,,"Unsolicited Result Code When ""get local timestamp"" function is enabled, the following URC may be reported if network sends the message to the MS to provide the MS with subscriber specific information. 1. Refresh network name by network: *PSNWID: ""<mcc>"", ""<mnc>"", ""<full network name>"", <full network name CI>, ""<short network name>"",<short network name CI> 2. Refresh time and time zone by network: This is UTC time, the time queried by AT+CCLK command is local time. *PSUTTZ: <year>, <month>, <day>, <hour>, <min>, <sec>, ""<time zone>"", <dst> 3. Refresh network time zone by network: +CTZV: ""<time zone>"" 4. Refresh Network Daylight Saving Time by network: DST: <dst>"
+,,Parameters

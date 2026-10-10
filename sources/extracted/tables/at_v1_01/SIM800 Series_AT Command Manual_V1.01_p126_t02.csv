@@ -1,0 +1,18 @@
+AT+STKSS STK SS setup,
+Test Command AT+STKSS =?,Response
+,OK
+,Parameter
+,See Write Command
+Write Command AT+STKSS =< command>,Response
+,OK
+,ERROR
+,Parameter
+,<command > stk ss command
+,0 (Trigger modem to send STK SS)
+,4 (Trigger modem to send STK SS but icon cannot be
+,displayed)
+,50 (Command data not understood by ME)
+Reference,Note
+,Above are the possible terminal response value needed to be responded
+,by application. It’s modem’s responsibility to response for other terminal
+,response value.

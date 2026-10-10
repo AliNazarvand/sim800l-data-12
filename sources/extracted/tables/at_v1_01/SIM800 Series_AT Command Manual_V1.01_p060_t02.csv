@@ -1,0 +1,8 @@
+AT+CSTA Select Type of Address,
+Test Command AT+CSTA=?,Response +CSTA: (list of supported <type>s) OK
+,Parameter See Write Command
+Read Command AT+CSTA?,Response +CSTA: <type> OK
+,Parameter <type> Current address type setting.
+Write Command AT+CSTA=<type >,Response OK If <type> is not in the parameter range: ERROR
+,Parameter <type> Type of address octet in integer format; 129 Unknown type 161 National number type 145 International number type 177 Network specific number
+Reference 3GPP TS 27.007 [13],Note The ATD Command overrides this setting when a number is dialed.

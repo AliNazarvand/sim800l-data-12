@@ -1,0 +1,19 @@
+AT+CIPHEAD?,+CIPHEAD: <mode>
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+CIPHEAD= <mode>,Response
+,OK
+,ERROR
+,Parameter
+,<mode> Anumeric parameter which indicates whether an IP header
+,is added to the received data or not.
+,0 Not add IP header
+,"1 Add IP header, the format is:"
+,1) For single IP connection (+CIPMUX=0)
+,"+IPD,<data length>:"
+,2) For multi IP connection (+CIPMUX=1)
+,"+RECEIVE,<n>,<data length>:"
+Reference,Note
+,

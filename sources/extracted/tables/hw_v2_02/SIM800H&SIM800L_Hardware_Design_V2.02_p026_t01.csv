@@ -1,0 +1,4 @@
+,Pin name,,,Symbol,,,Min,,,Typ,,,Max,,,Unit,
+RESET,,,,V IH,,,2.4,,,-,,,-,,,V,
+,,,,V IL,,,-,,,-,,,0.6,,,V,
+,,,,Low power time,,,105,,,,,,-,,,ms,

@@ -1,0 +1,14 @@
+AT+CSPN Get Service Provider Name from SIM,
+Read Command AT+CSPN?,Response
+,"+CSPN: <spn>,<display mode>"
+,
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,<spn> String type(string should be included in quotation
+,marks); service provider name on SIM
+,<display mode> 0 Not display PLMN. Already registered on PLMN
+,1 Display PLMN
+Reference,Note
+,CME errors occur if SIM is not inserted.

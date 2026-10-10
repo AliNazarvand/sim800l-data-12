@@ -1,0 +1,3 @@
+AT+CREC=8
+//query free memory
+space

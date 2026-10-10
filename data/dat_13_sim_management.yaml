@@ -1,384 +1,220 @@
-# auto-generated at 2026-10-10T15:24:03Z
 - id: dat_13_0001
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '7'
-    section: SIM
+    date: '2013-09-15'
   source_type: primary
   confidence: 0.85
-  status: partial
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - sim
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CCID
-  syntax: AT+CCID
-  parameters:
-  - name: mode
-    type: string
-    description: ','
-  - name: Temperature
-    type: string
-    description: OK
-  - name: type
-    type: string
-    description: s)
-  - name: err
-    type: string
-    description: Parameter
-  - name: tone
-    type: string
-    description: s),(list of
-  - name: duration
-    type: string
-    description: s)
-  - name: periodOff
-    type: string
-    description: '[, Unsolicited Result Code'
-  - name: frequency
-    type: string
-    description: The frequency of tone to be generated
-  - name: periodOn
-    type: string
-    description: The period of generating tone, must be multiple of 100
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CPIN
+  syntax: AT+CPIN
+  parameters: []
   response: OK
-  examples:
-  - AT+CCID
-  related_urcs: []
-  hardware_pins: []
-  related_commands:
-  - dat_01_0017
+  examples: []
+  coverage_estimate: high
 - id: dat_13_0002
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '5'
-    section: SIM
+    date: '2013-09-15'
   source_type: primary
   confidence: 0.85
-  status: partial
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - sim
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CIMI
-  syntax: AT+CIMI Request International Mobile Subscriber Identity....................................61
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CLCK
+  syntax: AT+CLCK
   parameters: []
   response: OK
-  examples:
-  - AT+CIMI Request International Mobile Subscriber Identity....................................61
-  related_urcs: []
-  hardware_pins: []
-  related_commands:
-  - dat_01_0062
+  examples: []
+  coverage_estimate: high
 - id: dat_13_0003
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '5'
-    section: SIM
+    date: '2013-09-15'
   source_type: primary
   confidence: 0.85
-  status: partial
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - sim
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CLCK
-  syntax: AT+CLCK Facility Lock...........................................................................................63
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CPWD
+  syntax: AT+CPWD
   parameters: []
   response: OK
-  examples:
-  - AT+CLCK Facility Lock...........................................................................................63
-  related_urcs: []
-  hardware_pins: []
-  related_commands:
-  - dat_01_0096
+  examples: []
+  coverage_estimate: high
 - id: dat_13_0004
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '5'
-    section: SIM
+    date: '2013-09-15'
   source_type: primary
   confidence: 0.85
-  status: partial
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - sim
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CPIN
-  syntax: AT+CPIN
-  parameters:
-  - name: rssi
-    type: string
-    description: ','
-  - name: ber
-    type: string
-    description: error rate
-  - name: serv
-    type: string
-    description: AT+CR=1
-  - name: m
-    type: string
-    description: '['
-  - name: str_urc
-    type: string
-    description: '['
-  - name: dcs
-    type: string
-    description: ']]'
-  - name: n
-    type: string
-    description: The module temperature is abnormal.
-  - name: rate
-    type: string
-    description: the module is ready to operate at fixed
-  - name: fun
-    type: string
-    description: Phone functionality indication (This
-  - name: PORT
-    type: string
-    description: (only in single connection mode)
-  - name: data
-    type: string
-    description: received data or not (only in single AT+CIPSHOWTP
-  - name: length
-    type: string
-    description: Received data from remote client (only
-  - name: IP
-    type: string
-    description: ','
-  - name: IP2
-    type: string
-    description: +CDNSGIP:0,
-  - name: cid
-    type: string
-    description: DEACT The bearer based on IP connection of
-  - name: Method
-    type: string
-    description: ','
-  - name: StatusCode
-    type: string
-    description: ','
-  - name: res
-    type: string
-    description: FTPGET session AT+FTPGET=1
-  - name: maxlength
-    type: string
-    description: It is ready to upload data. AT+FTPPUT
-  - name: size
-    type: string
-    description: FTP size session AT+FTPSIZE
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CSIM
+  syntax: AT+CSIM
+  parameters: []
   response: OK
-  examples:
-  - AT+CMTE=1
-  related_urcs: []
-  hardware_pins: []
-  related_commands:
-  - dat_01_0165
+  examples: []
+  coverage_estimate: high
 - id: dat_13_0005
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '5'
-    section: SIM
+    date: '2013-09-15'
   source_type: primary
   confidence: 0.85
-  status: partial
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - sim
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CPWD
-  syntax: AT+CPWD Change Password...................................................................................76
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CRSM
+  syntax: AT+CRSM
   parameters: []
   response: OK
-  examples:
-  - AT+CPWD Change Password...................................................................................76
-  related_urcs: []
-  hardware_pins: []
-  related_commands:
-  - dat_01_0171
+  examples: []
+  coverage_estimate: high
 - id: dat_13_0006
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '5'
-    section: SIM
+    date: '2013-09-15'
   source_type: primary
   confidence: 0.85
-  status: partial
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - sim
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CRSM
-  syntax: AT+CRSM Restricted SIM Access...........................................................................81
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CIMI
+  syntax: AT+CIMI
   parameters: []
   response: OK
-  examples:
-  - AT+CRSM Restricted SIM Access...........................................................................81
-  related_urcs: []
-  hardware_pins: []
-  related_commands:
-  - dat_01_0179
+  examples: []
+  coverage_estimate: high
 - id: dat_13_0007
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '5'
-    section: SIM
+    date: '2013-09-15'
   source_type: primary
   confidence: 0.85
-  status: partial
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - sim
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CSIM
-  syntax: AT+CSIM Generic SIM Access................................................................................91
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CCID
+  syntax: AT+CCID
   parameters: []
   response: OK
-  examples:
-  - AT+CSIM Generic SIM Access................................................................................91
-  related_urcs: []
-  hardware_pins: []
-  related_commands:
-  - dat_01_0188
+  examples: []
+  coverage_estimate: high
 - id: dat_13_0008
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '8'
-    section: SIM
+    date: '2013-09-15'
   source_type: primary
   confidence: 0.85
-  status: partial
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - sim
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CSMINS
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CSMINS
   syntax: AT+CSMINS
-  parameters:
-  - name: n
-    type: string
-    description: s)
+  parameters: []
   response: OK
-  examples:
-  - AT+CSMINS
-  - AT+CSMINS=?
-  - AT+CSMINS?
-  - AT+CSMINS=<n>
-  related_urcs: []
-  hardware_pins: []
-  related_commands:
-  - dat_01_0189
+  examples: []
+  coverage_estimate: high
 - id: dat_13_0009
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '7'
-    section: SIM
+    date: '2013-09-15'
   source_type: primary
   confidence: 0.85
-  status: partial
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - sim
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CSPN
-  syntax: AT+CSPN Get Service Provider Name from SIM..................................................141
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CSPN
+  syntax: AT+CSPN
   parameters: []
   response: OK
-  examples:
-  - AT+CSPN Get Service Provider Name from SIM..................................................141
-  related_urcs: []
-  hardware_pins: []
-  related_commands:
-  - dat_01_0193
+  examples: []
+  coverage_estimate: high
 - id: dat_13_0010
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: ''
-    page: '5'
-    section: SIM
+    date: '2013-09-15'
   source_type: primary
   confidence: 0.85
-  status: partial
+  status: complete
   conflicts: []
   notes: ''
-  tags:
-  - sim
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  command: +CUSD
-  syntax: AT+CUSD Unstructured Supplementary Service Data.............................................98
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  command: AT+CUSD
+  syntax: AT+CUSD
   parameters: []
   response: OK
-  examples:
-  - AT+CUSD Unstructured Supplementary Service Data.............................................98
-  related_urcs: []
-  hardware_pins: []
-  related_commands:
-  - dat_01_0200
+  examples: []
+  coverage_estimate: high

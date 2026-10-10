@@ -1,0 +1,22 @@
+AT+CIPMUX Start Up Multi-IP Connection,
+Test Command AT+CIPMUX=?,Response
+,"+CIPMUX: (0,1)"
+,
+,OK
+,Parameter
+,See Write Command
+Read Command AT+CIPMUX?,Response
+,+CIPMUX: <n>
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+CIPMUX=<,Response
+,OK
+n>,Parameter
+,<n> 0 Single IP connection
+,1 Multi IP connection
+Reference,Note
+,"Only in IP initial state, AT+CIPMUX=1 is effective;"
+,"Only when multi IP connection and GPRS application are both shut down,"
+,AT+CIPMUX=0 is effective.

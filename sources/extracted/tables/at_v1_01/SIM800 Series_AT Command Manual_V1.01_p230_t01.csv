@@ -1,0 +1,10 @@
+,transmitted
+,<cnflength> Confirmed number of data bytes to be transmitted
+,<maxlength> The max. length of data can be sent at a time. It depends on
+,the network status.
+,"<error> See ""AT+FTPGET"""
+Max Response Time,60 seconds(In case no response is received from server)
+,
+Reference,Note
+,"When ""+FTPPUT:1,1,<maxlength>"" is shown, then use ""AT+FTPPUT=2,"
+,"<reqlength>"" to write data."

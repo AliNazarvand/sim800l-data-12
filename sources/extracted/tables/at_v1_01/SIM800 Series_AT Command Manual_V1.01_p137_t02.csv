@@ -1,0 +1,19 @@
+AT+CFGRI Indicate RI When Using URC,
+Test Command AT+CFGRI=?,Response
+,"+CFGRI: (0,1)"
+,
+,OK
+,Parameter
+,See Write Command
+Read Command AT+CFGRI?,Response
+,+CFGRI: <status>
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+CFGRI=<st atus>,Response
+,OK
+,ERROR
+,Parameter
+,<status> 1 On
+,0 Off

@@ -1,0 +1,7 @@
+AT+CIPACK Query Previous Connection Data Transmitting State,
+Test Command AT+CIPACK=?,Response OK
+Write Command If in multi IP connection (+CIPMUX=1),"Response +CIPACK: <txlen>, <acklen>, <nacklen> OK"
+AT+CIPACK=< n>,Parameters <n> A numeric parameter which indicates the connection number <txlen> The data amount which has been sent <acklen> The data amount confirmed successfully by the server <nacklen> The data amount without confirmation by the server
+Execution Command If in single IP connection,"Response +CIPACK: <txlen>, <acklen>, <nacklen> OK"
+(+CIPMUX=0) AT+CIPACK,Parameters See Write Command
+Reference,Note

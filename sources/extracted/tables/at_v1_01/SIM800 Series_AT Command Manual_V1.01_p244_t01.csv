@@ -1,0 +1,2 @@
+,"Parameter <subject> The Email subject, string type. It will be present in the header of the Email sent by SMTP client in the field: “Subject:”. <subjectLength> The max length of <subject>."
+Reference,"Note If the Email charset is not ASCII,<subject> must be in hexadecimal format."

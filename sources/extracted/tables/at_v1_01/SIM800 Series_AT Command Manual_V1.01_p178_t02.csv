@@ -1,0 +1,14 @@
+AT+CGREG Network Registration Status,
+Test Command AT+CGREG=?,Response
+,+CGREG: (list of supported <n>s)
+,
+,OK
+,Parameters
+,See Write Command
+Read Command AT+CGREG?,Response
+,"+CGREG: <n>,<stat>[,<lac>,<ci>]"
+,
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters

@@ -1,0 +1,8 @@
+"number>[,<alpha",ERROR If error is related to ME functionality: +CME ERROR: <err>
+string>],
+,
+,"Parameters <vm number> String type,The voice mail number to write to the SIM <alpha string> String type,The alpha-string to write to the SIM"
+Parameter Saving,AUTO_SAVE
+Mode,
+Reference,Note
+,

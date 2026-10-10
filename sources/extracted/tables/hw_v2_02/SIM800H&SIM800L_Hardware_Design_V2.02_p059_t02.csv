@@ -1,0 +1,4 @@
+,Symbol,,,Parameter,,,Min,,,Typ,,,Max,,,Unit,
+V O,,,Output voltage,,,,-,,,3.0,,,-,,V,,
+,,,,,,,-,,,1.8,,,-,,,,
+,I O,,,Output current,,,-,,,-,,,10,,,mA,

@@ -1,0 +1,23 @@
+AT+CIPCCFG Configure Transparent Transfer Mode,
+Test Command AT+CIPCCFG= ?,Response
+,+CIPCCFG:
+,"(NmRetry:3-8),(WaitTm:2-10),(SendSz:1-1460),(esc:0,1) ,(Rxmode:0,1),"
+,"(RxSize:50-1460),(Rxtimer:20-1000)"
+,
+,OK
+,Parameters
+,See Write Command
+Read Command AT+CIPCCFG?,Response
+,+CIPCCFG:
+,"<NmRetry>,<WaitTm>,<SendSz>,<esc>,<Rxmode>,<RxSize>,<Rxtime"
+,r>
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command AT+CIPCCFG= <NmRetry>,<Wa",Response
+,OK
+,ERROR
+"itTm>,<SendSz>, <esc>[,<Rxmode >,<RxSize>,<Rxt",Parameters
+,<NmRetry> Number of retries to be made for an IP packet.
+,<WaitTm> Number of 200ms intervals to wait for serial input before

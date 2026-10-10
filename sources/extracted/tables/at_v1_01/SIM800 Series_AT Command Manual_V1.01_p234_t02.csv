@@ -1,0 +1,6 @@
+AT+FTPRMD Remove Directory on the Remote Machine,
+Test Command AT+FTPRMD=?,Response OK
+Execution Command AT+FTPRMD,"Response If success: OK +FTPRMD: 1,0 If failed: OK +FTPRMD: 1,<error> If error is related to ME functionality: +CME ERROR: <err>"
+,Parameter <error> See “AT+FTPGET”
+Max Response Time,60 seconds(In case no response is received from server)
+Reference,Note The removed folder is specified by the “AT+FTPGETPATH” command.

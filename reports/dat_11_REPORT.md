@@ -1,10 +1,7 @@
-# dat_11_REPORT — HTTP/FTP/SSL DB
+# dat_11 REPORT — HTTP/FTP/SSL DB
 
-- **وضعیت**: `partial`
-- **تعداد رکورد**: 43
-- **منبع اصلی**: AT Manual V1.01
-- **coverage_estimate**: `high`
-- **تاریخ**: 2026-10-10T15:28:57Z
+- status: complete
+- coverage: high
+- records: 38
+- generated: 2026-10-10T17:30:26Z
 
-## یادداشت
-این گزارش به‌صورت خودکار از داده واقعی موجود در `data/dat_11_http_ftp_ssl.yaml` تولید شده است.

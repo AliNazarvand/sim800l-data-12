@@ -1,0 +1,31 @@
+AT+SMTPAUTH Set User Name and Password for SMTP Authentication,
+Test Command AT+SMTPAUTH=?,Response
+,"+SMTPAUTH: (range of supported<authType>s),<userNameLengt-"
+,"h>,<passwordLength>"
+,
+,OK
+,Parameter
+,See Write Command
+,
+Read Command AT+SMTPAUTH?,Response
+,"+SMTPAUTH: <authType>,<username>,<password>"
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command AT+SMTPAUTH=< uthType>[,<userNa e>,<password>]",Response
+,OK
+,If error is related to ME functionality:
+,ERROR
+,
+,Parameter
+,<authType> The type of SMTP authentication
+,0 SMTP server does not request authentication.
+,<username> and <password> must not be given.
+,1 SMTP server requests authentication
+,<userName> The user name for SMTP authentication.
+,<userNameLength> The max length of <userName>.
+,<password> The password for SMTP authentication.
+,<passwordLength> The max length of <password>.
+Reference,Note
+,

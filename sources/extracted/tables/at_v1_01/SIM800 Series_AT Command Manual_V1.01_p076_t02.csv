@@ -1,0 +1,7 @@
+AT+CPWD Change Password,
+Test Command AT+CPWD=?,Response
+,TA returns a list of pairs which present the available facilities and the
+,maximum length of their password.
+,"+CPWD: (list of supported <fac>s, list of supported <pwdlength>s)"
+,
+,OK

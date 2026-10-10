@@ -1,0 +1,33 @@
+AT+ICF Set TE-TA Control Character Framing,
+Test Command AT+ICF=?,Response
+,"+ICF: (list of supported <format>s),(list of supported <parity>s)"
+,
+,OK
+,Parameters
+,See Write Command
+Read Command AT+ICF?,Response
+,"+ICF: <format>,<parity>"
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command AT+ICF=<forma >[,<parity>]",Response
+,This parameter setting determines the serial interface character framing
+,format and parity received by TA from TE.
+,
+,OK
+,Parameters
+,<format> 1 8 data 0 parity 2 stop
+,2 8 data 1 parity 1 stop
+,3 8 data 0 parity 1 stop
+,4 7 data 0 parity 2 stop
+,5 7 data 1 parity 1 stop
+,6 7 data 0 parity 1 stop
+,<parity> 0 odd
+,1 even
+,3 space (0)
+Reference V.25ter,Note
+,The Command is applied for Command state;
+,"In <format> parameter, ""0 parity"" means no parity;"
+,The <parity> field is ignored if the <format> field specifies no parity and
+,"string ""+ICF: <format>,255"" will be response to AT+ICF? Command."

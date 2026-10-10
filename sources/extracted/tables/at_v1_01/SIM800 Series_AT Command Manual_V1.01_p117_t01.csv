@@ -1,0 +1,27 @@
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+CSAS=<prof ile>,Response
+,Execution command saves active message service settings to a non-volatile
+,memory. Settings specified in commands Service Centre Address +CSCA
+,and Set Message Parameters +CSMP are saved. Certain settings may not be
+,supported by the storage (e.g. (U)SIM SMS parameters) and therefore can
+,not be saved.
+,OK
+,ERROR
+,Parameter
+,<profile> 0 Save SM service setting in profile 0
+,1 Save SM service setting in profile 1
+,2 Save SM service setting in profile 2
+,3 Save SM service setting in profile 3
+Execution Command AT+CSAS,Response
+,Same as AT+CSAS=0
+,OK
+,
+,If error is related to ME functionality:
+,+CMS ERROR <err>
+Max Response Time,5s
+,
+Reference 3GPP TS 27.005,Note
+,

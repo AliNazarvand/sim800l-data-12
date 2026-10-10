@@ -1,0 +1,6 @@
+AT+CGATT?
+""
+""
+AT+CGATT=0
+""
+AT+CGATT?

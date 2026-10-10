@@ -1,0 +1,15 @@
+,OK
+,Parameter
+,See Write Command
+Write Command AT+CSDT=<mo de>,Response
+,OK
+,ERROR
+,Parameter
+,<mode>
+,0 Switch off detecting SIM card
+,1 Switch on detecting SIM card
+Parameter Saving Mode,AT&W_SAVE
+,
+Reference,Note
+,User should select 8-pin SIM card holder to implement SIM card detection
+,function.

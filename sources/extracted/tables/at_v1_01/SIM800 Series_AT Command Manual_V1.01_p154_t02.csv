@@ -1,0 +1,16 @@
+AT+CPSPWD Change PS Super Password,
+"Write Command AT+CPSPWD=< oldpwd>,<newp wd>",Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,<oldpwd> String type(string should be included in quotation marks).
+,Old password and length should be 8.
+,<newpwd> String type(string should be included in quotation marks).
+,New password and length should be 8.
+Reference,Note
+,"Default value of <oldpwd> is ""12345678""."
+,If module is locked to a specific SIM card through AT+CLCK and
+,"password lost or SIM state is PH-SIM PUK, user can use the super"
+,password to unlock it.
+,It is not supported temporarily.

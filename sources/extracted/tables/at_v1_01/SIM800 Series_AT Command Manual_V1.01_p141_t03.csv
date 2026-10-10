@@ -1,0 +1,11 @@
+AT+CCVM Get and Set the Voice Mail Number on the SIM,
+Test Command,"Response +CCVM: maximum length of field <vm number>, maximum length of field <alpha string> OK"
+AT+CCVM=?,
+,
+,Parameters See Write Command
+Read Command,"Response If voice mail number is not set: OK If voice mail number is set: +CCVM: <vm number>[,<alpha string>] OK"
+AT+CCVM?,
+,
+,Parameters See Write Command
+Write Command,Response OK
+AT+CCVM=<vm,

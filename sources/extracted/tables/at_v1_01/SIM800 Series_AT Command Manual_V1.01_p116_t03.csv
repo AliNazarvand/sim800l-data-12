@@ -1,0 +1,2 @@
+AT+CSAS Save SMS Settings,
+Test Command AT+CSAS=?,Response +CSAS: (list of supported <profile>s)

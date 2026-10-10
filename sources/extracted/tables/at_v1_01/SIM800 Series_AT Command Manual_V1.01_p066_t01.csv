@@ -1,0 +1,26 @@
+,(or +CRING: <type>) at a mobile terminating call.
+,"+CLIP: <number>,<type>[,<subaddr>,<satype>,<alphaId>,<CLI"
+,validity>]
+,
+,Parameters
+,<number> String type (string should be included in quotation marks)
+,phone number of calling address in format specified by <type>.
+,<type> Type of address octet in integer format;
+,129 Unknown type
+,161 National number type
+,145 International number type
+,177 Network specific number
+,<subaddr> String type (subaddress of format specified by <satype>)
+,<satype> Integer type (type of subaddress)
+,<alphaId> String type (string should be included in quotation marks)
+,alphanumeric representation of <number> corresponding to the entry
+,found in phone book.
+,<CLI validity>
+,0 CLI valid
+,1 CLI has been withheld by the originator.
+,2 CLI is not available due to interworking problems or
+,limitations of originating network.
+Max Response Time,15s
+,
+Reference,Note
+,

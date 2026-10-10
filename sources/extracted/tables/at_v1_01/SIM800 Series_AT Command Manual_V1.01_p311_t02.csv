@@ -1,0 +1,4 @@
+"AT+CREC=6,1,200,0"
+//get 200 bytes from
+record file with offset 0
+to file head

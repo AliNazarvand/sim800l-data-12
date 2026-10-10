@@ -1,0 +1,6 @@
+AT+EXUNSOL Enable or Disable Proprietary Unsolicited Indications,,
+Test Command,,Response +EXUNSOL: (list of supported <exunsol>s) OK
+AT+EXUNSOL=,,
+?,,
+,,
+,,Parameters See Write Command

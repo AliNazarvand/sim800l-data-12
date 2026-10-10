@@ -1,0 +1,21 @@
+AT+CIPATS Set Auto Sending Timer,
+Test Command AT+CIPATS=?,Response
+,"+CIPATS: (list of supported <mode>s),(list of supported <time>)"
+,
+,OK
+,Parameters
+,See Write Command
+Read Command AT+CIPATS?,Response
+,"+CIPATS: <mode>,<time>"
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command AT+CIPATS=<m ode>[,<time>]",Response
+,OK
+,ERROR
+,Parameters
+,<mode> A numeric parameter which indicates whether set timer when
+,module is sending data
+,0 Not set timer when module is sending data
+,1 Set timer when module is sending data

@@ -1,0 +1,41 @@
+est Command T+POP3READ=?,Response
+,+POP3READ: (range of supported <reqLength>s)
+,
+,OK
+,Parameter
+,See Write Command
+,
+Write Command T+POP3READ=< qLength>,Response
+,If the data of response not to be read completely:
+,"+POP3READ: 1,<cnfLength>"
+,If the data of response to be read completely:
+,"+POP3READ: 2,<cnfLength>"
+,"If some data need to be read,the URC below is reported:"
+,"+POP3READ: 3,<dataLength>"
+,If error is related to ME functionality:
+,ERROR
+,If some error occur:
+,+POP3OUT: <code>
+,Parameter
+,<reqLength> Requested number of data bytes (1-1460) to be read
+,"<cnfLength> Confirmed number of data bytes to be read, which may"
+,be less than <reqLength>. 0 indicates that no data can be
+,read.
+,<dataLength> Received number of data bytes.
+,<code> The result of logging out POP3 server
+,1 Normally log out POP3 server
+,61 Network error
+,62 DNS resolve error
+,63 POP3 tcp connection error
+,64 Timeout of POP3 server response
+,69 Read data timeout
+eference,Note
+,(cid:122) Other AT commands (but AT+POP3OUT) can not be executed
+,until the data of response are read completely.
+,"(cid:122) If <confLength> is less than <reqLength>, you should wait for a"
+,"URC “+POP3READ: 3,<dataLength>” reported. Then you may"
+,continue to read data by AT+POP3READ.
+,"(cid:122) If the module has some unread data, the URC “+POP3READ:"
+,"3,<dataLength>” is reported every once in a while. After so"
+,"me time, these data are not still read, the module will quit th"
+,e POP3 process.

@@ -1,0 +1,11 @@
+ATA Answer an Incoming Call,
+Execution Command ATA,Response
+,TA sends off-hook to the remote station.
+,Note1: Any additional commands on the same Command line are ignored.
+,Note2: This Command may be aborted generally by receiving a character
+,during execution. The aborting is not possible during some states of
+,connection establishment such as handshaking.
+,
+,"Response in case of data call, if successfully connected"
+,CONNECT<text> TA switches to data mode.
+,Note: <text> output only if ATX<value> parameter setting with the

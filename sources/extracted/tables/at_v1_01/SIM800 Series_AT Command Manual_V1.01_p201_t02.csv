@@ -1,0 +1,40 @@
+AT+CIPUDPMODE UDP Extended Mode,
+Test Command AT+CIPUDPMOD E=?,Response
+,1) For single IP connection (+CIPMUX=0)
+,"+CIPUDPMODE: (0-2),(""(0-255).(0-255).(0-255).(0-255)""),(1-65535)"
+,
+,OK
+,2) For multi IP connection (+CIPMUX=1)
+,+CIPUDPMODE:
+,"(0-5),(0-2),(""(0-255).(0-255).(0-255).(0-255)""),(1-65535)"
+,
+,OK
+,Parameters
+,See Write Command
+Read Command AT+CIPUDPMOD E?,Response
+,1) For single IP connection (+CIPMUX=0)
+,"+CIPUDPMODE: <mode> [,<IP address>,<Port>]"
+,
+,OK
+,2) For multi IP connection (+CIPMUX=1)
+,"+CIPUDPMODE: 0, <mode> [,<IP address>,<Port>]"
+,"+CIPUDPMODE: 1,<mode> [,<IP address>,<Port>]"
+,"+CIPUDPMODE: 2,<mode> [,<IP address>,<Port>]"
+,"+CIPUDPMODE: 3,<mode> [,<IP address>,<Port>]"
+,"+CIPUDPMODE: 4,<mode> [,<IP address>,<Port>]"
+,"+CIPUDPMODE: 5,<mode> [,<IP address>,<Port>]"
+,
+,OK
+,Parameter
+,See Write Command
+Write Command 1) For single IP connection,Response
+,OK
+,ERROR
+"(+CIPMUX=0) AT+CIPUDPMOD E=<mode>[,<IP address>,<Port>] 2) For multi IP connection (+CIPMUX=1) AT+CIPUDPMOD",<n> 0-5 A numeric parameter which indicates the connection
+,number
+,<mode> 0 UDP Normal Mode
+,1 UDP Extended Mode
+,2 Set UDP address to be sent
+,<IP address> A string parameter which indicates remote IP address
+,<port> Remote port
+,

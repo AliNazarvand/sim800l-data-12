@@ -1,0 +1,34 @@
+AT+CPIN?,TA returns an alphanumeric string indicating whether some password is
+,required or not.
+,+CPIN: <code>
+,
+,OK
+,Parameter
+,<code>
+,READY MT is not pending for any password
+,SIM PIN MT is waiting SIM PIN to be given
+,SIM PUK MT is waiting for SIM PUK to be given
+,PH_SIM PIN ME is waiting for phone to SIM card (antitheft)
+,PH_SIM PUK ME is waiting for SIM PUK (antitheft)
+,"SIM PIN2 PIN2, e.g. for editing the FDN book possible only"
+,if preceding Command was acknowledged with +CME
+,ERROR:17
+,SIM PUK2 Possible only if preceding Command was
+,acknowledged with error +CME ERROR: 18.
+Write Command AT+CPIN=<pin>[ <new pin>],Response
+,TA stores a password which is necessary before it can be operated (SIM
+,"PIN, SIM PUK, PH-SIM PIN, etc.)."
+,"If the PIN required is SIM PUK or SIM PUK2, the second pin is required."
+,"This second pin, <new pin>, is used to replace the old pin in the SIM."
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,<pin> String type; password
+,<new pin> String type; If the PIN required is SIM PUK or SIMPUK2:
+,new password
+Max Response Time,5s
+,
+Reference 3GPP TS 27.007 13],Note
+,
+,

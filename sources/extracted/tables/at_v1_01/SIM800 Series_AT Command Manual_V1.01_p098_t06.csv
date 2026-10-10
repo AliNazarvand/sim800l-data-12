@@ -1,0 +1,6 @@
+AT+CSSN Supplementary Services Notification,,,
+Test Command AT+CSSN=?,,Response,
+,,"+CSSN: (list of supported <n>s),(list of supported <m>s)",
+,,,
+,,OK,
+,,Parameters,

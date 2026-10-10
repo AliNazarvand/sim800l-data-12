@@ -1,0 +1,8 @@
+AT+CSNS Single Numbering Scheme,
+Test Command AT+CSNS=?,Response +CSNS: (list of supported <mode>s) OK
+,Parameter See Write Command
+Read Command AT+CSNS?,Response +CSNS: <mode> OK
+,Parameter See Write Command
+Write Command AT+CSNS=<mo de>,Response OK ERROR
+,Parameter <mode> 0 Voice 2 Fax 4 Data
+Reference,Note

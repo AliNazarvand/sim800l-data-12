@@ -1,0 +1,30 @@
+AT+CLIP Calling Line Identification Presentation,
+Test Command AT+CLIP=?,Response
+,+CLIP: (list of supported <n>s)
+,
+,OK
+,Parameter
+,See Write Command
+Read Command AT+CLIP?,Response
+,"+CLIP: <n>, <m>"
+,
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,See Write Command
+Write Command AT+CLIP=<n>,Response
+,TA enables or disables the presentation of the CLI at the TE. It has no
+,effect on the execution of the supplementary service CLIP in the network.
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,<n> 0 Disable +CLIP notification.
+,1 Enable +CLIP notification.
+,<m> 0 CLIP not provisioned
+,1 CLIP provisioned
+,"2 unknown (e.g. no network, etc.)"
+,Unsolicited Result Code
+,When the presentation of the CLI at the TE is enabled (and calling
+,"subscriber allows), an unsolicited result code is returned after every RING"

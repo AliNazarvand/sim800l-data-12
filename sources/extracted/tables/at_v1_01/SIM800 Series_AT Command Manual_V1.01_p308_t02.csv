@@ -1,0 +1,4 @@
+Receive MMS
+When received a MMS push
+"message,UART will output message,such"
+"as “+CMTI: ""SM"",3,""MMS PUSH""”"

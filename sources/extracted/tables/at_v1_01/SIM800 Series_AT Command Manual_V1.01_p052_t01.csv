@@ -1,0 +1,6 @@
+,,"12 9600 bps (V.34) 14 14400 bps (V.34) 68 2400 bps (V.110 or X.31 flag stuffing) 70 4800 bps (V.110 or X.31 flag stuffing) 71 9600 bps (V.110 or X.31 flag stuffing) 75 14400 bps (V.110 or X.31 flag stuffing) <name> 0 Data circuit asynchronous (UDI or 3.1 kHz modem) 4 Data circuit asynchronous (RDI) <ce> 0 Transparent 1 Non-transparent 2 Both, transparent prefered 3 Both, non-transparent prefered"
+Parameter Saving,AT&W_SAVE,
+Mode,,
+Reference,Note GSM 02.02[1]: lists the allowed combinations of the sub parameters.,
+3GPP TS 27.007,,
+[14],,

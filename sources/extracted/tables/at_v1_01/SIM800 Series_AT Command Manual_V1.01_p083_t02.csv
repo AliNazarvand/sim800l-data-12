@@ -1,0 +1,8 @@
+"AT+FCLASS FAX: Select, Read or Test Service Class",
+Test Command AT+FCLASS=?,Response +FCLASS: (list of supported <class>s) OK
+,Parameter See Write Command
+Read Command AT+FCLASS?,Response +FCLASS: <class> OK
+,Parameter See Write Command
+Write Command AT+FCLASS=<cl ass>,Response TA sets a particular mode of operation (data fax). This causes the TA to process information in a manner suitable for that type of information OK
+,Parameter <class> 0 data 1 fax class 1 (TIA-578-A)
+Reference 3GPP TS 27.007 [13],Note

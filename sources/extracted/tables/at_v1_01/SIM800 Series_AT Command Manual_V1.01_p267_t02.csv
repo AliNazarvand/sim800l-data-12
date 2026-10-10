@@ -1,0 +1,20 @@
+AT+CMMSDELRECP Delete recipients,
+Test Command AT+CMMSDELRE CP=?,Response
+,"+CMMSDELRECP: ""ADDRESS"""
+,
+,OK
+Write Command AT+CMMSDELRE CP=<addr>,Response
+,OK
+,or
+,ERROR
+,or
+,+CME ERROR: <err>
+,Parameter
+,<addr> a string parameter which indicates phone number or email
+,address of recipient. The maximum length of the string is
+,40.
+Execution Command AT+CMMSDELRE CP,Delete all the recipients
+,Response
+,OK
+Reference,Note
+,This command is valid when it is allowed to edit MMS

@@ -1,0 +1,44 @@
+"T+CLCK=<fac> mode>[,<passw >[,<class>]]","This Command is used to lock, unlock or interrogate a ME or a network"
+,facility <fac>. Password is normally needed to do such actions. When
+,querying the status of a network service (<mode>=2) the response line for
+,‘not active’ case (<status>=0) should be returned only if service is not
+,active for any <class>.
+,
+,If <mode>≠2 and Command is successful
+,OK
+,If <mode>=2 and Command is successful
+,"+CLCK: <status>[,<class1>[<CR><LF>+CLCK:"
+,"<status>,<class2>[…]]"
+,
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,<fac>
+,"""AO"" BAOC (Barr All Outgoing Calls)"
+,"""OI"" BOIC (Barr Outgoing International Calls)"
+,"""OX"" BOIC-exHC (Barr Outgoing International Calls"
+,except to Home Country)
+,"""AI"" BAIC (Barr All Incoming Calls)"
+,"""IR"" BIC-Roam (Barr Incoming Calls when Roaming"
+,outside the home country)
+,"""FD"" SIM card or active application in the UICC (GSM or"
+,USIM) fixed dialling memory feature (if PIN2 authentication has not been
+,"done during the current session, PIN2 is required as <passwd>)"
+,"""SC"" SIM (lock SIM/UICC card) (SIM/UICC asks"
+,password in MT power-up and when this lock command issued)
+,Correspond to PIN1 code.
+,"""PN"" Network Personalization, Correspond to NCK code"
+,"""PU"" Network subset Personalization"
+,Correspond to NSCK code
+,"""PP"" Service Provider Personalization"
+,Correspond to SPCK code
+,<mode> 0 unlock
+,1 lock
+,2 query status
+,<passwd> String type (Shall be the same as password specified for the
+,facility from the MT user interface or with command Change Password
+,+CPWD)
+,<class> 1 Voice (telephony)
+,2 Data refers to all bearer services; with <mode>=2 this
+,"may refer only to some bearer service if TA does not support values 16,"

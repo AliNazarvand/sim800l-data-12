@@ -1,0 +1,43 @@
+rite Command T+CMMSRDPUS =<index>,Response
+,+CMMSRDPUSH:
+,"2,”<sender>”,”<subject>”,”<transaction>”,”<location>”,”<time>”,<"
+,"class>,<size>"
+,
+,OK
+,or
+,"+CMMSRDPUSH: 6, “<receiver>”,”<time>”,<status>"
+,
+,OK
+,or
+,+CMMSRDPUSH: 255
+,
+,OK
+,or
+,+CME ERROR: <err>
+,Parameters
+,"The first parameter of the response should be 2 or 6, or the other type of"
+,the MMS PDU.
+,2 m-notification-ind[2]. To inform the contents of a
+,received MMS
+,6 m-delivery-ind[2]. A delivery report
+,255 unknown MMS PDU
+,<index> The index of the push message saved in the SIM
+,message box.
+,<sender> The address of the sender
+,<receiver> The address of the receiver
+,<subject> The title of the MMS
+,<transaction> The X-Mms-Transation-ID[2] of the received MMS
+,<location> The X-Mms-Content-Location[2] of the received MMS
+,<class> The X-Mms-Class[2] of the received MMS
+,0 Personal
+,1 Advertisement
+,2 Informational
+,3 Auto
+,<time> Date and time of the received push message.
+,<size> The size of the MMS
+,<status> The status of the sent MMS
+,0 Expired
+,1 Retrieved
+,2 Rejected
+,3 Defered
+,4 Unrecognized

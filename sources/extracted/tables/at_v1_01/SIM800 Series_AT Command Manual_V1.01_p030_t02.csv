@@ -1,0 +1,16 @@
++++ Switch from Data Mode or PPP Online Mode to Command Mode,
+Execution Command +++,Response
+,The +++ character sequence causes the TA to cancel the data flow over the
+,AT interface and switch to Command mode. This allows you to enter AT
+,Command while maintaining the data connection to the remote server.
+,OK
+,
+,"To prevent the +++ escape sequence from being misinterpreted as data, it"
+,should comply to following sequence:
+,No characters entered for T1 time (1 second)
+,"""+++"" characters entered with no characters in between (1 second)"
+,No characters entered for T1 timer (1 second)
+,"Switch to Command mode, otherwise go to step 1."
+,
+Reference V.25ter,Note
+,To return from Command mode back to data mode: Enter ATO.

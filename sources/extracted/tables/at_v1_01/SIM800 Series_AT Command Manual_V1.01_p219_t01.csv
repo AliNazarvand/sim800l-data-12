@@ -1,0 +1,23 @@
+T+HTTPSTATUS Read HTTP Status,,,
+est Command,,Response OK,Response
+AT+HTTPSTAT,,,OK
+US=?,,,
+Read Command,,,Response
+AT+HTTPSTAT,,,"+HTTPSTATUS: <mode>,<status>,<finish>,<remain>"
+US?,,,
+,,,OK
+,,,If error is related to ME functionality:
+,,,+CME ERROR: <err>
+,,,Parameter:
+,,,<mode>
+,,,GET
+,,,POST
+,,,HEAD
+,,,<status>
+,,,0 idle
+,,,1 receiving
+,,,2 sending
+,,,<finish>
+,,,The amount of data which have been transmitted
+,,,<remain>
+,,,The amount of data remaining to be sent or received

@@ -1,0 +1,32 @@
+AT+SAPBR Bearer Settings for Applications Based on IP,
+Test Command AT+SAPBR=?,Response
+,"+SAPBR: (0-4),(1-3), ""ConParamTag"",""ConParamValue"""
+,
+,OK
+,Parameters
+,See Write Command
+,
+"Write Command AT+SAPBR=<c md_type>,<cid>[ <ConParamTag >,<ConParamVa ue>]",Response
+,OK
+,
+,If<cmd_type> = 2
+,"+SAPBR: <cid>,<Status>,<IP_Addr>"
+,OK
+,If <cmd_type>=4
+,+SAPBR:
+,"<ConParamTag>,<ConParamValue>"
+,OK
+,
+,Unsolicited Result Code
+,+SAPBR <cid>: DEACT
+,Parameters
+,<cmd_type>
+,0 Close bearer
+,1 Open bearer
+,2 Query bearer
+,3 Set bearer parameters
+,4 Get bearer parameters
+,
+,<cid> Bearer profile identifier
+,<Status>
+,0 Bearer is connecting

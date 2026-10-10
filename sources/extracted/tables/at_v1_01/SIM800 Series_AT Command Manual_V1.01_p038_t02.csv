@@ -1,0 +1,5 @@
+AT&D Set DTR Function Mode,
+Execution Command AT&D[<value>],Response This parameter determines how the TA responds when circuit 108/2 (DTR) is changed from the ON to the OFF condition during data mode. OK ERROR
+,"Parameter <value> 0 TA ignores status on DTR. 1 ON->OFF on DTR: Change to Command mode with remaining the connected call. 2 ON->OFF on DTR: Disconnect call, change to Command mode. During state DTR = OFF is auto-answer off."
+Parameter Saving Mode,AT&W_SAVE
+Reference V.25ter,Note

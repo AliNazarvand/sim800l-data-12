@@ -1,0 +1,4 @@
+AT+CSDT Switch On or Off Detecting SIM Card,
+Test Command AT+CSDT=?,Response +CSDT: (0-1) OK
+,Parameter See Write Command
+Read Command AT+CSDT?,Response +CSDT: <mode>

@@ -1,0 +1,3 @@
+Command,,,Description
+AT+CTTS,,,TTS operation
+AT+CTTSPARAM,,,Set params of the TTS playing

@@ -1,0 +1,19 @@
+AT+SMTPCS Set the Email Charset,
+Test Command AT+SMTPCS=?,Response
+,+SMTPCS: <charsetLength>
+,
+,OK
+,Parameter
+,See Write Command
+,
+Read Command AT+SMTPCS?,Response
+,+SMTPCS: <charset>
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+SMTPCS=<cha set>,Response
+,OK
+,If error is related to ME functionality:
+,ERROR
+,

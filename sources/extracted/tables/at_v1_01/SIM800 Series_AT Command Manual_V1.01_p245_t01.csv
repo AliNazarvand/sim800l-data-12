@@ -1,0 +1,30 @@
+,Parameter
+,See Write Command
+,
+Read Command AT+SMTPFILE?,Response
+,"+SMTPFILE: <fileType>,<fileName>,<encodeType>"
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command AT+SMTPFILE=<fi Type>[,<fileName> encodeType>]",Response
+,OK
+,If error is related to ME functionality:
+,ERROR
+,
+,Parameter
+,<fileType> The type of the Email attachment.
+,0 no attachment
+,1 attach a txt file
+,"2 attach a binary file (bmp, mp3, video…)"
+,<fileName> The name of the Email attachment.
+,<fileNameLength> The max length of <fileName>.
+,<encodeType> Content-Transfer-Encoding used for attachment
+,0 “7bit” means data all represented as short lines of US-ASCII
+,data
+,1 “base64” designed to represent arbitrary sequences of octets
+,in a form that need not be humanly readable
+Reference,Note
+,"(cid:122) If a txt file (<fileType>=1) is attached, <encodeType> must be 0."
+,"(cid:122) If a binary file (<fileType>=2) is attached, <encodeType> must be"
+,1.

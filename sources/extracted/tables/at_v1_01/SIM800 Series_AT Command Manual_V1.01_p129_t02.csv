@@ -1,0 +1,9 @@
+AT+STKPCIS STK URC switch command,
+Test Command AT+STKPCIS=?,Response +STKPCIS: (0-1) OK
+,Parameter
+Read Command AT+STKPCIS?,Response +STKPCIS: <switch> OK
+,Parameter
+Write Command AT+STKPCIS =<switch>,Response OK ERROR
+,Parameter <switch>: the switch of STK URC -0 the STK URC is off -1 the STK URC is ON
+Parameter Saving Mode,AT&W_SAVE
+Reference,Note

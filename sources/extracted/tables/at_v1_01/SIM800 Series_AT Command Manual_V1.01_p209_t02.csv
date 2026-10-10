@@ -1,0 +1,5 @@
+AT+CIPCTL Set the Mode When Receiving an IP Packet,
+Test Command AT+CIPCTL=?,Response +CIPCTL: (list of supported <mode>s) OK
+,Parameters See Write Command
+Read Command AT+CIPCTL?,Response +CIPCTL: <mode> OK
+,Parameters See Write Command

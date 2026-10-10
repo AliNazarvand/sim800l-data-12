@@ -1,0 +1,26 @@
+,
+,If mode is 1 and it is a failed FTP get session:
+,OK
+,"+FTPLIST: 1,<error>"
+,
+,If mode is 2:
+,"+FTPLIST: 2,<cnflength>"
+,012345678…
+,OK
+,
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameter
+,<mode>
+,1 For opening FTP get file list session
+,2 For reading FTP file list
+,<reqlength> Requested number of data bytes (1-1460) to be read
+,"<cnflength> Confirmed number of data bytes to be read, which may be"
+,less than <reqlength>. 0 indicates that no data can be read.
+,<error> See “AT+FTPGET”
+ax Response ime,60 seconds(In case no response is received from server)
+,
+eference,Note
+,"When “+FTPLIST: 1,1” is shown, “AT+FTPLIST: 2,<reqlength>” can be"
+,"used to read data. If the module still has unread data, “+FTPLIST: 1,1”"
+,will be shown again in a certain time.

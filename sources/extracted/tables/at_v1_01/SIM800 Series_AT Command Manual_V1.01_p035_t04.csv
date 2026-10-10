@@ -1,0 +1,2 @@
+ATV TA Response Format,
+Execution Command ATV<value>,Response This parameter setting determines the contents of the header and trailer transmitted with result codes and information responses. When <value>=0 0 When <value>=1 OK

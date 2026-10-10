@@ -1,0 +1,37 @@
+,"POP3 service returns a positive response,"
+,"i.e. It does not issue an error response, but the “unique-"
+,"id listing” will be empty. In either case, each unique-id"
+,"listing will be finished by so-called “dotline”, i.e.a new"
+,line with just a singledot. <msgNumber> and <lineNumber>
+,must not be given.
+,3 Top command
+,The command retrieves the number of lines of the message’s
+,body from the POP3 server’s maildrop list. The POP3 server
+,"sends the headers of the message, the blank line separating"
+,"the headers from the body, and then the number of lines of the"
+,message’s body. If the number of lines requested by The
+,POP3 client is greater than the number of lines
+,"in the body, then the POP3 server sends the entire"
+,message. If no such message exists on the server the POP3
+,service issues an error response to the user.
+,"Each email will be finished by a so-called “dotline”,"
+,i.e.a new line with just a single dot.
+,<msgNumber> and <lineNumber> must be given.
+,4 Retrieve command
+,The command retrieves the related message from the
+,POP3 server’s maildrop list. If no such message exists
+,on the server the POP3 service issues an error response to the
+,"user. Each email will be finished by a so-called “dotline”, i.e."
+,a new line with just a single dot.
+,<msgNumber> must be given.
+,<msgNumber> The message number of Email.
+,<lineNumber> The number of lines of the message body.
+,<code> The result of logging out POP3 server
+,1 Normally log out POP3 server
+,61 Network error
+,62 DNS resolve error
+,63 POP3 tcp connection error
+,64 Timeout of POP3 server response
+eference,Note
+,After sending these POP3 commands and POP3 server issuing a positive
+,"response, you can get the response by AT+POP3READ."

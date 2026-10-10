@@ -11,4 +11,9 @@ Thumbs.db
 *.log
 !reports/*.log
 *.bak
-*~
+*~# Auto-generated extraction artifacts
+sources/extracted/figures/**
+!sources/extracted/figures/.gitkeep
+data/_backup_*/
+sources/_backup_*/
+*.pyc

@@ -1,0 +1,35 @@
+,"""PROIP""",,"Default value is ""SIMCom_MODULE"". The IP address of HTTP proxy server The port of HTTP proxy server This flag controls the redirection mechanism of the SIM800 when it is acting as HTTP client (numeric). If the server sends a redirect code (range 30x), the client will automatically send a new HTTP request when the flag is set to (1). Default value is 0 (no redirection). Parameter for HTTP method ""GET"", used for resuming broken transfer. Parameter for HTTP method ""GET"", used for resuming broken transfer. which is used together with ""BREAK"", If the value of ""BREAKEND"" is bigger than ""BREAK"", the transfer scope is from ""BREAK"" to ""BREAKEND"". If the value of ""BREAKEND"" is smaller than ""BREAK"", the transfer scope is from ""BREAK"" to the end of the file. If both ""BREAKEND"" and ""BREAK"" are 0, the resume broken transfer function is disabled. HTTP session timeout value, scope: 30-1000 second. Default value is 120 seconds. HTTP Parameter value. Type and supported content depend on related <HTTPParamTag>. Used to set the “Content-Type” field in HTTP header. HTTP Parameter value.Type and supported content depend on related <HTTPParamTag>.","Default value is ""SIMCom_MODULE""."
+,,,,The IP address of HTTP proxy server
+,"""PROPORT""",,,The port of HTTP proxy server
+,"""REDIR""",,,This flag controls the redirection mechanism of the
+,,,,SIM800 when it is acting as HTTP client
+,,,,(numeric). If the server sends a redirect code
+,,,,"(range 30x), the client will automatically send a"
+,,,,new HTTP request when the flag is set to (1).
+,,,,Default value is 0 (no redirection).
+,"""BREAK""",,,"Parameter for HTTP method ""GET"", used for"
+,"""BREAKEND""",,,resuming broken transfer.
+,,,,"Parameter for HTTP method ""GET"", used for"
+,"""TIMEOUT""",,,resuming broken transfer. which is used together
+,,,,"with ""BREAK"","
+,,,,"If the value of ""BREAKEND"" is bigger than"
+,,,,"""BREAK"", the transfer scope is from ""BREAK"" to"
+,,,,"""BREAKEND""."
+,,,,"If the value of ""BREAKEND"" is smaller than"
+,,,,"""BREAK"", the transfer scope is from ""BREAK"" to"
+,,,,the end of the file.
+,,,,"If both ""BREAKEND"" and ""BREAK"" are 0, the"
+,"""CONTENT""",,,resume broken transfer function is disabled.
+,,,,"HTTP session timeout value, scope: 30-1000"
+,,,,second.
+,,,,Default value is 120 seconds.
+,,,,HTTP Parameter value. Type and supported
+,,,,content depend on related <HTTPParamTag>.
+,,,,Used to set the “Content-Type” field in HTTP
+,<HTTPParamValue>,,,header.
+,,,,HTTP Parameter value.Type and supported content
+,,,,depend on related <HTTPParamTag>.
+,,,,
+eference,Note,,,
+,"Not all the HTTP Server supports ""BREAK"" and ""BREAKEND""",,,
+,parameters,,,

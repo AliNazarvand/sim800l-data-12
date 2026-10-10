@@ -1,0 +1,28 @@
+AT+CIPGSMLOC GSM Location and Time,
+Test Command AT+CIPGSMLOC= ?,Response
+,"+CIPGSMLOC: (1,2),(1-3)"
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command AT+CIPGSMLOC= <type>,<cid>",Response
+,If <type>=1:
+,"+CIPGSMLOC:<locationcode>[,<longitude>,<latitude>,<date>,<ti"
+,me>]
+,
+,OK
+,
+,If <type>=2:
+,"+CIPGSMLOC:<locationcode>[,<date>,<time>]"
+,
+,OK
+,If error is related to ME functionality:
+,+CME ERROR:<err>
+,Parameter
+,"<type> 1 View the longitude, latitude and time"
+,2 View time
+,"<cid> network parameters, refer to AT+SAPBR"
+,
+,<locationcode> 0 Success
+,"If the operation failed, the location code is not 0, such as:"
+,404 Not Found

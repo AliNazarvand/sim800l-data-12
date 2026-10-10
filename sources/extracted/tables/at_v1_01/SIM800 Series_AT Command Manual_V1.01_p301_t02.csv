@@ -1,0 +1,7 @@
+active calls. Held calls are not
+automatically resumed when all other
+calls are terminated. They need to be
+made active using the AT+CHLD=2x
+Command. Note call waiting must have
+been previously enabled for this
+demonstration to work.

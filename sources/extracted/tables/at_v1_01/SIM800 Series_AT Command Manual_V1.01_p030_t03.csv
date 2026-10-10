@@ -1,0 +1,15 @@
+ATO Switch from Command Mode to Data Mode,
+Execution Command ATO[n],Response
+,TA resumes the connection and switches back from Command mode to data
+,mode.
+,
+,CONNECT
+,If connection is not successfully resumed
+,ERROR
+,else
+,TA returns to data mode from command mode CONNECT <text>
+,Note: <text> only if parameter setting ATX>0
+,Parameter
+,<n> 0 Switch from command mode to data mode.
+Reference V.25ter,Note
+,

@@ -1,0 +1,9 @@
+AT+CGSMS Select Service for MO SMS Messages,
+Test Command AT+CGSMS=?,Response
+,+CGSMS: (list of currently available <service>s)
+,
+,OK
+,Parameter
+,See Write Command
+Read Command AT+CGSMS?,Response
+,+CGSMS: <service>

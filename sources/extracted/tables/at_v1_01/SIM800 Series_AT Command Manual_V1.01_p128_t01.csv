@@ -1,0 +1,25 @@
+,Parameter
+,<pci_type>
+,-0 The SAT command is handled by TE.
+,-1 The SAT command is handled by ME.
+,-2 No other command (end of session)
+,<proactive command>
+,"-DISPLAY TEXT,<Command Qualifier>,<text string>"
+,"-GET INKEY, <Command Qualifier>,<text string>"
+,"-GET INPUT, <Command Qualifier>,<text string>,<Min length>,<Max"
+,length>
+,"-PLAY TONE,<alpha id>,<tone>,< Time unit >,< Time interval>"
+,"-SET UP MENU,<the number of item >,<alpha id>"
+,"-SELECT ITEM, <the number of item >,<alpha id>"
+,"-ITEM,<index>,<id>,<item string>"
+,"-SEND SHORT MESSAGE,<alpha id>,<addr>,<sms tpdu>"
+,"-SEND SS,<alpha id>,<ss string>"
+,"-SEND USSD,<alpha id>,<ussd string>"
+,"-SETUP CALL,<alpha id>,<addr>"
+,"-SET UP IDLE MODE TEXT,<text string>"
+,"-SEND DTMF,<alpha id>,<dtmf string>."
+,
+,"If <alpha id> = 0, the alpha id is null"
+,"If <addr> = 0, the addr is null"
+Reference,Note
+,"For detail introduce, pleas refer to SIM800 Series_STK_Application Note.doc."

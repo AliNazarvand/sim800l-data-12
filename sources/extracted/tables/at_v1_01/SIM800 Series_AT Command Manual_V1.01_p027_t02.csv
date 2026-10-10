@@ -1,0 +1,5 @@
+TDL Redial Last Telephone Number Used,
+xecution ommand TDL,Response
+,This Command redials the last voice and data call number used.
+,Note: This Command may be aborted generally by receiving an ATH
+,Command or a character during execution. The aborting is not possible

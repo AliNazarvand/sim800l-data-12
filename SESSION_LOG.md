@@ -1,33 +1,23 @@
-# SESSION_LOG
+# SESSION LOG
 
-## نشست جاری — pipeline v3
+## 2026-10-10T17:23:31Z
+Deep extraction pass completed.
 
-**تاریخ**: 2026-10-10T15:24:11Z
-
-### کارهای انجام‌شده
-- استخراج متن + جداول + OCR از ۳ PDF
-- استخراج عمیق AT command (syntax/parameters/examples)
-- حذف hardcode و علامت‌گذاری inferred
-- پر کردن cross-ref در خود داده
-- اعتبارسنجی با jsonschema واقعی
-- به‌روزرسانی همه گزارش‌های مدیریتی
-
-### وضعیت نهایی
-- dat_01: 311 رکورد
-- dat_02: 121 رکورد
-- dat_03: 238 رکورد
-- dat_04: 16 رکورد
-- dat_05: 11 رکورد
-- dat_06: 12 رکورد
-- dat_07: 26 رکورد
-- dat_08: 0 رکورد
-- dat_09: 14 رکورد
-- dat_10: 21 رکورد
-- dat_11: 43 رکورد
-- dat_12: 5 رکورد
-- dat_13: 10 رکورد
-- dat_14: 52 رکورد
-- dat_15: 4 رکورد
-- dat_16: 0 رکورد
-- dat_17: 0 رکورد
-- dat_18: 0 رکورد
+- dat_01: complete (coverage=high, records=311)
+- dat_02: complete (coverage=high, records=203)
+- dat_03: complete (coverage=high, records=244)
+- dat_04: partial (coverage=high, records=13)
+- dat_05: partial (coverage=medium, records=11)
+- dat_06: partial (coverage=medium, records=10)
+- dat_07: blocked (coverage=low, records=0)
+- dat_08: blocked (coverage=low, records=1)
+- dat_09: partial (coverage=high, records=13)
+- dat_10: complete (coverage=high, records=24)
+- dat_11: complete (coverage=high, records=38)
+- dat_12: partial (coverage=high, records=12)
+- dat_13: partial (coverage=high, records=10)
+- dat_14: partial (coverage=high, records=52)
+- dat_15: partial (coverage=high, records=5)
+- dat_16: blocked (coverage=low, records=1)
+- dat_17: partial (coverage=high, records=9)
+- dat_18: blocked (coverage=low, records=1)

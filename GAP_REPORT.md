@@ -1,17 +1,41 @@
-# GAP_REPORT
+# GAP REPORT
 
-**تاریخ**: 2026-10-10T15:24:11Z
+## dat_04 — Timing & Timeout DB
+- status: partial, coverage: high, records: 13
 
-## شکاف‌های منابع
-- AT Manual V1.09+ موجود نیست → dat_01..13 محدود به V1.01
-- TCP/IP, HTTP, FTP, SSL Manuals موجود نیستند
-- Audio Manual موجود نیست
-- Firmware Release Notes موجود نیست → dat_08 blocked
-- Certification Docs موجود نیستند → dat_18 blocked
-- EVB Schematic موجود نیست → dat_16 deferred
+## dat_05 — State Machine DB
+- status: partial, coverage: medium, records: 11
 
-## شکاف‌های داده‌ای
-- dat_04: 16 رکورد (هدف ≥ ۲۰)
-- dat_07: 26 رکورد (هدف ≥ ۵۰)
-- dat_15: 4 رکورد (هدف ≥ ۱۵)
-- dat_17: 0 رکورد (هدف ≥ ۵)
+## dat_06 — Init Sequence DB
+- status: partial, coverage: medium, records: 10
+
+## dat_07 — Hardware Reference DB
+- status: blocked, coverage: low, records: 0
+
+## dat_08 — Firmware Compatibility
+- status: blocked, coverage: low, records: 1
+
+## dat_09 — SMS DB
+- status: partial, coverage: high, records: 13
+
+## dat_12 — Audio DB
+- status: partial, coverage: high, records: 12
+
+## dat_13 — SIM Management DB
+- status: partial, coverage: high, records: 10
+
+## dat_14 — Operator/APN DB
+- status: partial, coverage: high, records: 52
+
+## dat_15 — Power Management DB
+- status: partial, coverage: high, records: 5
+
+## dat_16 — Board/EVB DB
+- status: blocked, coverage: low, records: 1
+
+## dat_17 — Certificate/Key Store
+- status: partial, coverage: high, records: 9
+
+## dat_18 — Certification Data
+- status: blocked, coverage: low, records: 1
+

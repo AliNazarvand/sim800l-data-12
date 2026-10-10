@@ -1,0 +1,10 @@
+ATZ Reset Default Configuration,
+Execution Command ATZ[<value>],Response
+,TA sets all current parameters to the user defined profile.
+,OK
+,
+,ERROR
+,Parameter
+,<value> 0 Restore profile 0
+Reference V.25ter,Note
+,

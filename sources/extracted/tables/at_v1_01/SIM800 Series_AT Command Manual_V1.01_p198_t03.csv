@@ -1,0 +1,4 @@
+AT+CIPMODE Select TCPIP Application Mode,
+Test Command AT+CIPMODE= ?,Response
+,"+CIPMODE: (0-NORMAL MODE,1-TRANSPARENT MODE)"
+,

@@ -1,0 +1,21 @@
+AT+CMMSRECP Add recipients,
+Test Command AT+CMMSRECP= ?,Response
+,"+CMMSRECP: ""ADDRESS"""
+,
+,OK
+Read Command AT+CMMSRECP?,Response
+,+CMMSRECP: the list of <addr>s
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+CMMSRECP= <addr>,Response
+,OK
+,or
+,ERROR
+,or
+,+CME ERROR: <err>
+,Parameter
+,<addr> a string parameter which indicates phone number or email
+,address of recipients. The maximum length of the string is
+,40.

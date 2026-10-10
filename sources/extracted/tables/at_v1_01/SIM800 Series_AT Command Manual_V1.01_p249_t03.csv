@@ -1,0 +1,7 @@
+AT+POP3NUM Get Email Number and Total Size,
+Test Command AT+POP3NUM=?,Response
+,OK
+,
+,Parameter
+,
+,

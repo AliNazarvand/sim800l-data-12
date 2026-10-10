@@ -1,17 +1,7 @@
-# SOURCE_INVENTORY
+# SOURCE INVENTORY
 
-| نام سند | نسخه | مسیر | وضعیت | نوع |
-|---|---|---|---|---|
-| SIM800L_Hardware_Design | V1.00 | sources/originals/SIM800L_Hardware_Design_V1.00.pdf | available | primary |
-| SIM800H&SIM800L_Hardware_Design | V2.02 | sources/originals/SIM800H&SIM800L_Hardware_Design_V2.02.PDF | available | primary |
-| SIM800 Series AT Command Manual | V1.01 | sources/originals/SIM800 Series_AT Command Manual_V1.01.pdf | available | primary |
-| AT Manual V1.09+ | - | - | missing | primary |
-| TCP/IP AT Manual | - | - | missing | primary |
-| HTTP AT Manual | - | - | missing | primary |
-| FTP AT Manual | - | - | missing | primary |
-| SSL AT Manual | - | - | missing | primary |
-| Audio AT Manual | - | - | missing | primary |
-| Firmware Release Notes | - | - | missing | primary |
-| Certification Docs | - | - | missing | primary |
-| EVB Schematic | - | - | missing | primary |
-| mcc-mnc.com | - | - | available (external) | external |
+| Name | Version | Date | SHA256 |
+|---|---|---|---|
+| SIM800L_Hardware_Design_V1.00.pdf | V1.00 | 2013-08-20 | sha256:7fe4bf41ffb8af71... |
+| SIM800H&SIM800L_Hardware_Design_V2.02.PDF | V2.02 | 2015-07-27 | sha256:55a9a3f07c9afa3d... |
+| SIM800 Series_AT Command Manual_V1.01.pdf | V1.01 | 2013-09-15 | sha256:f84e3716ba388ece... |

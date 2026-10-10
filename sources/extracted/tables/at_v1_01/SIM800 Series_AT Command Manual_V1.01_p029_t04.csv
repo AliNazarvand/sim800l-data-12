@@ -1,0 +1,4 @@
+ATL Set Monitor speaker loudness,
+Execution Command,Response OK
+ATL<value>,Parameter <value> 0..9 Volume
+Reference V.25ter,Note No effect in GSM

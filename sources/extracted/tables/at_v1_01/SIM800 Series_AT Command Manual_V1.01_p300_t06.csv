@@ -1,0 +1,6 @@
+ATD6241xxxx;
+<RX incoming call>
+""
+AT+CHLD=2
+""
+AT+CHLD=1

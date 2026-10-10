@@ -1,0 +1,17 @@
+AT+CMGHEX Enable or Disable Sending Non-ASCII Character SMS,
+Test Command AT+CMGHEX= ?,Response
+,+CMGHEX: (list of supported <mode>s)
+,
+,OK
+,Parameter
+,See Write Command
+Read Command AT+CMGHEX?,Response
+,+CMGHEX: <mode>
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+CMGHEX= <mode>,Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>

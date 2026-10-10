@@ -1,0 +1,22 @@
+AT+CCODE Configure SMS Code Mode,
+Test Command AT+CCODE=?,Response
+,"+CCODE: (0,1)"
+,
+,OK
+,Parameter
+,See Write Command
+Read Command AT+CCODE?,Response
+,+CCODE:<mode>
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+CCODE=< mode>,Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameter
+,<mode> 0 Code mode compatible with NOKIA
+,1 Code mode compatible with SIEMENS
+Reference,Note
+,

@@ -1,0 +1,10 @@
+AT+SPIC Times Remained to Input SIM PIN/PUK,
+Execution Command AT+SPIC,Response
+,Times remained to input SIM PIN
+,"+SPIC: <pin1>,<pin2>,<puk1>,<puk2>"
+,
+,OK
+,Parameters
+,<pin1> Times remained to input chv1
+,<pin2> Times remained to input chv2
+,<puk1> Times remained to input puk1

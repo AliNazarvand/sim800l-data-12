@@ -1,0 +1,18 @@
+,Parameters
+,See Write Command
+,
+"Write Command AT+HTTPDATA =<size>,<time>",Response
+,DOWNLOAD
+,
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,<size> Size in bytes of the data to POST.
+,1-319488 (bytes)
+,0 means delete all the content.
+,<time> 1000-120000 (millisecond) Maximum time in milliseconds to
+,input data.
+Reference,Note
+,It is strongly recommended to set enough time to input all data with the
+,length of <size>.

@@ -1,0 +1,29 @@
+AT+CIPDPDP Set Whether to Check State of GPRS Network Timing,
+Test Command AT+CIPDPDP=?,Response
+,"+CIPDPDP: (list of supported<mode>s, list of supported <interval>, list"
+,of supported <timer>)
+,
+,OK
+,Parameters
+,See Write Command
+Read Command AT+CIPDPDP?,Response
+,"+CIPDPDP: <mode>, <interval>, <timer>"
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command AT+CIPDPDP=< mode>[,<interval",Response
+,OK
+,ERROR
+">,<timer>]",Parameters
+,<mode>
+,0 Not set detect PDP
+,1 Set detect PDP
+,<interval>
+,1<interval<=180(s)
+,<timer>
+,1<timer<=10
+Reference,Note
+,"If ""+PDP: DEACT"" urc is reported because of module not attaching to gprs"
+,"for a certain time or other reasons, user still needs to execute"
+,"""AT+CIPSHUT"" command makes PDP context come back to original state."

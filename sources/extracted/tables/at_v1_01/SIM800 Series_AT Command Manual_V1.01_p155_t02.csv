@@ -1,0 +1,23 @@
+AT+CGMSCLASS Change GPRS Multislot Class,
+Test Command AT+CGMSCLA SS=?,Response
+,"MULTISLOT CLASS: (2,4,8,9,10,12)"
+,
+,OK
+,
+,Parameter
+,See Write Command
+,
+Read Command AT+CGMSCLA SS?,Response
+,MULTISLOT CLASS: <class>
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+CGMSCLA SS=<class>,Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameter
+,<class> GPRS multi-slot class
+Reference,Note
+,

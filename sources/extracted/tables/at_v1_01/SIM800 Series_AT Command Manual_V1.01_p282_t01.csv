@@ -1,0 +1,11 @@
+,(cid:122) High priority event will stop recording and save record file.URC will
+,"report +CREC: n,<id>,<form>,<time>,<len>"
+,(cid:122) About 40K FAT space will remain for system use.。
+,"(cid:122) Call setup will stop the record. If record in call, call release will stop"
+,record too.
+,"(cid:122) Record in call only record remote input, the setting of input path don’t"
+,take effect
+,(cid:122) Play in call only support low quality WAV record file.
+,(cid:122) Location relative setting only take effect when SD is support and
+,plugged in
+,"(cid:122) When DDET is set to 1, record is not allowed in call"

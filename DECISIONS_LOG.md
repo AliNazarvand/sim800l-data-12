@@ -1,19 +1,8 @@
-# DECISIONS_LOG
+# DECISIONS LOG
 
-## D-001 — V2.02 بر V1.00 مقدم
-- **دلیل**: نسخه جدیدتر
-- **جایگزین‌های رد‌شده**: استفاده از V1.00 به عنوان مرجع
-
-## D-002 — عدم تولید داده synthetic
-- **دلیل**: قاعده R6
-
-## D-003 — dat_05/dat_06 به عنوان inferred
-- **دلیل**: این دیتاست‌ها از تجربه عمومی SIM800L استنتاج شده‌اند، نه استخراج مستقیم
-- **confidence**: 0.4-0.45
-- **جایگزین‌های رد‌شده**: hardcode کردن بدون ذکر منبع
-
-## D-004 — dat_14 external
-- **دلیل**: منبع mcc-mnc.com عمومی است
-
-## D-005 — dat_08/17/18 blocked در صورت نبود منبع
-- **دلیل**: قواعد R3, R11
+- 2026-10-10T17:23:31Z: extracted PDF text via pdfplumber; tables -> CSV; figures -> PNG.
+- 2026-10-10T17:23:31Z: parsed 311 AT commands from AT manual.
+- 2026-10-10T17:23:31Z: parsed CME + CMS error codes.
+- 2026-10-10T17:23:31Z: populated dat_04, dat_15 from real HW tables.
+- 2026-10-10T17:23:31Z: dat_05/dat_06 inferred (no consolidated table in manual).
+- 2026-10-10T17:23:31Z: dat_08/16/18 blocked (no source).

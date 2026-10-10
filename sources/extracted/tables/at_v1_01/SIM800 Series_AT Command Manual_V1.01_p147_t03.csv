@@ -1,0 +1,4 @@
+AT+CMTE Set Critical Temperature Operating Mode or Query Temperature,
+Read Command AT+CMTE?,"Response +CMTE: <mode>,<Temperature> OK"
+,Parameters See Write Command
+Write Command AT+CMTE=<mo de>,Response OK ERROR

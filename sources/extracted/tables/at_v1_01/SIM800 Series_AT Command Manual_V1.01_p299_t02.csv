@@ -1,0 +1,5 @@
+,Demonstration,Syntax,Expect Result,
+Display the current network operator that the handset is currently registered with.,,AT+COPS?,"+COPS: 0,0,""CHINA MOBILE"" OK",
+Display a full list of network operator names.,,AT+COPN,"+COPN: ""20201"", ""COSMO"" [skip a bit] +COPN: ""901012"",""Maritime Comm Partner AS"" OK",
+reduce its functionality. This will deregister the handset from the network.,,AT+IPR? AT+CFUN=0 [wait for deregister] ATD6241xxxx; AT+CFUN=1,+IPR: 0 OK OK ERROR OK,
+Request the IMSI,,AT+CIMI,460008184101641 OK,

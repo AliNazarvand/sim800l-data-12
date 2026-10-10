@@ -1,434 +1,338 @@
-# auto-generated at 2026-10-10T15:28:55Z
 - id: dat_04_0001
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: ''
-    section: Timing
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted via regex from hardware PDFs
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  parameter: Change 300us to
-  min: null
-  typ: 105.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: Change 300us to 10
+  min: 5.0
+  typ: null
   max: null
   unit: ms
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
 - id: dat_04_0002
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: ''
-    section: Timing
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted via regex from hardware PDFs
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  parameter: Wait for at least
-  min: null
-  typ: 800.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: Wait for at least 80
+  min: 0.0
+  typ: null
   max: null
   unit: ms
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
 - id: dat_04_0003
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: ''
-    section: Timing
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted via regex from hardware PDFs
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  parameter: The serial port will be active after DTR pin is pulled to low level for
-    about
-  min: null
-  typ: 50.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: DTR pin is pulled to low level for about 5
+  min: 0.0
+  typ: null
   max: null
   unit: ms
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
 - id: dat_04_0004
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: ''
-    section: Timing
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted via regex from hardware PDFs
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  parameter: Only after the DTR pin is pulled to low level for
-  min: null
-  typ: 50.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: Only after the DTR pin is pulled to low level for 5
+  min: 0.0
+  typ: null
   max: null
   unit: ms
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
 - id: dat_04_0005
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: ''
-    section: Timing
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted via regex from hardware PDFs
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  parameter: and kept low for
-  min: null
-  typ: 120.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: SIM card interval advice is greater than
+  min: 2.0
+  typ: null
   max: null
-  unit: ms
+  unit: s
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
 - id: dat_04_0006
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: ''
-    section: Timing
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted via regex from hardware PDFs
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  parameter: Every time plug SIM card interval advice is greater than
-  min: null
-  typ: 2.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: GPIO3 28 -
+  min: 0.29
+  typ: null
   max: null
   unit: s
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
 - id: dat_04_0007
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: ''
-    section: Timing
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted via regex from hardware PDFs
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  parameter: SIM800L is not running
-  min: null
-  typ: 64.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: GPIO2
+  min: 0.8
+  typ: null
   max: null
-  unit: ms
+  unit: s
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
 - id: dat_04_0008
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: ''
-    section: Timing
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted via regex from hardware PDFs
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  parameter: SIM800L not registered the network
-  min: null
-  typ: 64.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: SIM800L is not running
+  min: 64.0
+  typ: null
   max: null
   unit: ms
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
 - id: dat_04_0009
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: ''
-    section: Timing
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted via regex from hardware PDFs
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  parameter: SIM800L registered to the network
-  min: null
-  typ: 64.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: On/ 80
+  min: 0.0
+  typ: null
   max: null
   unit: ms
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
 - id: dat_04_0010
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: ''
-    section: Timing
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted via regex from hardware PDFs
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  parameter: Off SIM800L is not running
-  min: null
-  typ: 64.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: SIM800L not registered the network
+  min: 64.0
+  typ: null
   max: null
   unit: ms
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
 - id: dat_04_0011
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: ''
-    section: Timing
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted via regex from hardware PDFs
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  parameter: On/ 800ms Off SIM800L not registered the network
-  min: null
-  typ: 64.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: On/ 300
+  min: 0.0
+  typ: null
   max: null
   unit: ms
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
 - id: dat_04_0012
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: ''
-    section: Timing
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted via regex from hardware PDFs
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T15:24:03Z'
-  parameter: On/ 3000ms Off SIM800L registered to the network
-  min: null
-  typ: 64.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: SIM800L registered to the network
+  min: 64.0
+  typ: null
   max: null
   unit: ms
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
 - id: dat_04_0013
-  category: Timing
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: ''
-    page: '50'
-    section: Timing
-  source_type: primary
-  confidence: 0.75
-  status: partial
-  conflicts: []
-  notes: extracted from PDF table row
-  tags:
-  - timing
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T15:28:55Z'
-  updated_at: '2026-10-10T15:28:55Z'
-  parameter: ms On/
-  min: null
-  typ: 800.0
-  max: null
-  unit: ms
-  condition: ''
-  related_command: null
-  related_state: null
-- id: dat_04_0014
-  category: Timing
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: ''
-    page: '50'
-    section: Timing
-  source_type: primary
-  confidence: 0.75
-  status: partial
-  conflicts: []
-  notes: extracted from PDF table row
-  tags:
-  - timing
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T15:28:55Z'
-  updated_at: '2026-10-10T15:28:55Z'
-  parameter: ms On/
-  min: null
-  typ: 3000.0
-  max: null
-  unit: ms
-  condition: ''
-  related_command: null
-  related_state: null
-- id: dat_04_0015
-  category: Timing
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: ''
-    page: '50'
-    section: Timing
-  source_type: primary
-  confidence: 0.75
-  status: partial
-  conflicts: []
-  notes: extracted from PDF table row
-  tags:
-  - timing
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T15:28:55Z'
-  updated_at: '2026-10-10T15:28:55Z'
-  parameter: ms On/
-  min: null
-  typ: 300.0
-  max: null
-  unit: ms
-  condition: ''
-  related_command: null
-  related_state: null
-- id: dat_04_0016
   category: Timing
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: ''
-    page: '10'
-    section: Timing
+    date: '2015-07-27'
   source_type: primary
   confidence: 0.75
-  status: partial
+  status: complete
   conflicts: []
-  notes: extracted from PDF table row
-  tags:
-  - timing
+  notes: ''
+  tags: []
   applicable_models:
   - SIM800L
-  created_at: '2026-10-10T15:28:55Z'
-  updated_at: '2026-10-10T15:28:55Z'
-  parameter: Change
-  min: null
-  typ: 300.0
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-10T17:30:26Z'
+  parameter: On/ 30
+  min: 0.0
+  typ: null
   max: null
-  unit: us
+  unit: ms
   condition: ''
-  related_command: null
-  related_state: null
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high

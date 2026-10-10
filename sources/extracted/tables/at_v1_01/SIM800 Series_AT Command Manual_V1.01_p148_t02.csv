@@ -1,0 +1,30 @@
+AT+CMGDA Delete All SMS,
+Test Command AT+CMGDA=?,Response
+,+CMGDA: (list of supported <type>s)
+,
+,OK
+,+CMS ERROR: <err>
+,Parameter
+,See Write Command
+Write Command AT+CMGDA=<t ype>,Response
+,OK
+,ERROR
+,+CMS ERROR: <err>
+,Parameter
+,<type>
+,1) If text mode:
+,"""DEL READ"" Delete all read messages"
+,"""DEL UNREAD"" Delete all unread messages"
+,"""DEL SENT"" Delete all sent SMS"
+,"""DEL UNSENT"" Delete all unsent SMS"
+,"""DEL INBOX"" Delete all received SMS"
+,"""DEL ALL"" Delete all SMS"
+,2) If PDU mode:
+,1 Delete all read messages
+,2 Delete all unread messages
+,3 Delete all sent SMS
+,4 Delete all unsent SMS
+,5 Delete all received SMS
+,6 Delete all SMS
+Max Response Time,5s（delete 1 message）
+,25s（delete 50 messages）

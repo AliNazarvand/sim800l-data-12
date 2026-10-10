@@ -1,0 +1,21 @@
+AT+CIPCSGP Set CSD or GPRS for Connection Mode,
+Test Command AT+CIPCSGP=?,Response
+,"+CIPCSGP:0-CSD,DIALNUMBER,USER"
+,"NAME,PASSWORD,RATE(0-3)"
+,"+CIPCSGP: 1-GPRS,APN,USER NAME,PASSWORD"
+,
+,OK
+,Parameters
+,See Write Command
+Read Command AT+CIPCSGP?,Response
+,"+CIPCSGP: <mode>, <apn>, <user name>, <password>[,<rate>]"
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command AT+CIPCSGP=< mode>[,",Response
+,OK
+,ERROR
+"(<apn>,<user name>, <password>),(<d",Parameters
+,<mode> Anumeric parameter which indicates the wireless connection
+,mode

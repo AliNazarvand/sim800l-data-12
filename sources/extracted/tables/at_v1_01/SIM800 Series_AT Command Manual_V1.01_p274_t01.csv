@@ -1,0 +1,8 @@
+Test Command AT+CMMSPROFI LE=?,"Response +CMMSPROFILE: ""UserAgentProfile"" OK"
+,Parameter See Write Command
+Read Command AT+CMMSPROFI LE?,Response +CMMSPROFILE: <UAProfile> OK
+,Parameter See Write Command
+Write Command AT+CMMSPROFI LE=<UAProfile>,Response OK or ERROR or +CME ERROR: <err>
+,Parameter <UAProfile> string type user agent profile
+Parameter Saving Mode,AT+CMMSSCONT
+Reference,Note

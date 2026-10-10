@@ -1,0 +1,11 @@
+AT+IPR？
+""
+""
+AT+CFUN=0
+""
+""
+AT+IPR = 115200
+AT+IPR?
+""
+""
+AT+CFUN=0

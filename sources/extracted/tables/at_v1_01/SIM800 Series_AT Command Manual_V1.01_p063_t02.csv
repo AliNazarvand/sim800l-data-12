@@ -1,0 +1,8 @@
+AT+CLCK Facility Lock,
+Test Command AT+CLCK=?,Response
+,+CLCK: (list of supported <fac>s)
+,
+,OK
+,Parameter
+,See Write Command
+Write Command,Response

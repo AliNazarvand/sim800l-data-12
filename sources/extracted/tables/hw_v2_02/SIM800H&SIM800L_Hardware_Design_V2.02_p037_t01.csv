@@ -1,0 +1,7 @@
+,Parameter,,,,Min,,,Typ,,,Max,,,Unit,
+,Microphone biasing voltage,,,,,,,1.9,,,2.2,,,V,
+,Working current,,,,,,,,,,2.0,,,mA,
+,Input impedance(differential),,,,13,,,20,,,27,,,KΩ,
+,Idle channel noise,,,,,,,,,,-67,,,dBm0,
+SINAD,,,Input level:-40dBm0,,29,,,,,,,,,dB,
+,,,Input level:0dBm0,,,,,69,,,,,,dB,

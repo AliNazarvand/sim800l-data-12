@@ -1,0 +1,20 @@
+AT+CMMSDOWN Download the file data or title from UART,
+Test Command AT+CMMSDOWN =?,Response
+,"+CMMSDOWN: ""PIC"", (1-307200), (5000-),""NAME"""
+,"+CMMSDOWN: ""TEXT"", (1-15360), (2000-),""NAME"""
+,"+CMMSDOWN: ""TITLE"", (1-40), (2000-)"
+,
+,OK
+"Write Command AT+CMMSDOWN =<type>,<size>,<tim >[,<name>]",Response
+,CONNECT
+,or
+,ERROR
+,or
+,+CME ERROR: <err>
+,Parameters
+,<type> A string parameter which indicates type of downloaded
+,data
+,“TITLE”: mms title data
+,“TEXT”: mms text data
+,“PIC”: mms image data
+,<size> Size in bytes of the data to be downloaded.

@@ -1,0 +1,4 @@
+ATH Disconnect Existing Connection,
+Execution Command ATH,"Response Disconnect existing call by local TE from Command line and terminate call OK Note: OK is issued after circuit 109(DCD) is turned off, if it was previously on."
+Max Response Time,20s
+Reference V.25ter,Note

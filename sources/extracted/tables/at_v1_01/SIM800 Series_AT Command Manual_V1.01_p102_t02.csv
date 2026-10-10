@@ -1,0 +1,16 @@
+AT+CMGF Select SMS Message Format,
+Test Command AT+CMGF=?,Response
+,+CMGF: (list of supported <mode>s)
+,
+,OK
+,Parameter
+,See Write Command
+Read Command AT+CMGF?,Response
+,+CMGF: <mode>
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+CMGF=[<m ode>],Response
+,TA sets parameter to denote which input and output format of messages to
+,use.

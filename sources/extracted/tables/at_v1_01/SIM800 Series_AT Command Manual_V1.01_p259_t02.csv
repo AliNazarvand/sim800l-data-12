@@ -1,0 +1,6 @@
+AT+CMMSPROTO Set the protocol parameter and MMS proxy,
+Test Command,"Response +CMMSPROTO: “(0-255).(0-255).(0-255).(0-255)”,(1-65535) OK"
+AT+CMMSPROTO,
+=?,
+,
+,Parameters See Write Command

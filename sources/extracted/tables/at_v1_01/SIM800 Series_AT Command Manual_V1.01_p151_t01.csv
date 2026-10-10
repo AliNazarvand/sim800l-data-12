@@ -1,0 +1,13 @@
+,See Write Command
+Write Command AT+CCPD=<mo de>,Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameter
+,<mode>
+,0 Disable to present alpha string
+,1 Enable to present alpha string
+Parameter Saving Mode,AT&W_SAVE
+,
+Reference,Note
+,

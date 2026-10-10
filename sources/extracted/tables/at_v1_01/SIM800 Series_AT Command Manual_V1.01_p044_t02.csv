@@ -1,0 +1,7 @@
+AT+IPR Set TE-TA Fixed Local Rate,
+Test Command AT+IPR=?,Response
+,"+IPR: (list of supported auto detectable <rate>s),(list of supported"
+,fixed-only <rate>s)
+,
+,OK
+,Parameter

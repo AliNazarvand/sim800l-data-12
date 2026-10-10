@@ -1,0 +1,6 @@
+,Pin name,,,Pin number,,,Function,
+,VSIM,,,16,,,Voltage supply for SIM card. Support 1.8V or 3V SIM card,
+,SIM_DATA,,,14,,,SIM data input/output,
+,SIM_CLK,,,55,,,SIM clock,
+,SIM_RST,,,15,,,SIM reset,
+,SIM_PRE,,,54,,,SIM card detection,

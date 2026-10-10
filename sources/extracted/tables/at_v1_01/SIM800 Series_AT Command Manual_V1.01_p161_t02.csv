@@ -1,0 +1,24 @@
+AT+GSMBUSY Reject Incoming Call,
+Test Command AT+GSMBUSY= ?,Response
+,"+GSMBUSY: (0,1,2)"
+,
+,OK
+,Parameter
+,See Write Command
+Read Command AT+GSMBUSY?,Response
+,+GSMBUSY: <mode>
+,
+,OK
+,Parameter
+,See Write Command
+Write Command AT+GSMBUSY= <mode>,Response
+,
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <error>
+,Parameter
+,<mode> 0 Enable incoming call
+,1 Forbid all incoming calls
+,2 Forbid incoming voice calls but enable CSD calls
+Reference,Note
+,The parameter is not saved if the module power down.

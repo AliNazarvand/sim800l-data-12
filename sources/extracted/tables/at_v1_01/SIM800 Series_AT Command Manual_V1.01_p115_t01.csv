@@ -1,0 +1,42 @@
+AT+CPMS Preferred SMS Message Storage,
+est Command AT+CPMS=?,Response
+,"+CPMS: (list of supported <mem1>s),(list of supported <mem2>s),(list of"
+,supported <mem3>s)
+,
+,OK
+,Parameters
+,See Write Command
+Read Command AT+CPMS?,Response
+,"+CPMS: <mem1>,<used1>,<total1>,<mem2>,<used2>,<total2>,"
+,"<mem3>,<used3>,<total3>"
+,
+,OK
+,ERROR
+,Parameters
+,See Write Command
+"Write Command AT+CPMS= mem1>[,<mem >[,<mem3>]]",Response
+,"TA selects memory storages <mem1>, <mem2> and <mem3> to be used for"
+,"reading, writing, etc."
+,"+CPMS: <used1>,<total1>,<used2>,<total2>,<used3>,<total3>"
+,
+,OK
+,ERROR
+,Parameters
+,<mem1> Messages to be read and deleted from this memory storage
+,"""SM"" SIM message storage"
+,"""ME"" Phone message storage"
+,"""SM_P"" SM message storage preferred"
+,"""ME_P"" ME message storage preferred"
+,"""MT"" SM or ME message storage ( SM preferred)"
+,<mem2> Messages will be written and sent to this memory storage
+,"""SM"" SIM message storage"
+,"""ME"" Phone message storage"
+,"""SM_P"" SM message storage preferred"
+,"""ME_P"" ME message storage preferred"
+,"""MT"" SM or ME message storage ( SM preferred)"
+,<mem3> Received messages will be placed in this memory storage if
+,"routing to PC is not set (""+CNMI"")"
+,"""SM"" SIM message storage"
+,"""ME"" Phone message storage"
+,"""SM_P"" SM message storage preferred"
+,"""ME_P"" ME message storage preferred"

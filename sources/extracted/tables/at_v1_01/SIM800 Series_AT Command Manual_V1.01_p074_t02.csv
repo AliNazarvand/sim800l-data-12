@@ -1,0 +1,6 @@
+AT+CPBW Write Phonebook Entry,
+Test Command AT+CPBW=?,Response
+,"TA returns location range supported by the current storage, the maximum"
+,"length of <number> field, supported number formats of the storage, and"
+,the maximum length of <text> field.
+,

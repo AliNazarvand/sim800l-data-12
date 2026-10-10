@@ -1,0 +1,13 @@
+AT+CGID Get SIM Card Group Identifier,
+Execution Command AT+CGID,Response
+,"+GID: <gid1>,<gid2>"
+,
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,<gid1> Integer type of SIM card group identifier 1
+,<gid2> Integer type of SIM card group identifier 2
+Reference,Note
+,"If the SIM supports GID files, the GID values will be retuned. Otherwise"
+,0xff is retuned.

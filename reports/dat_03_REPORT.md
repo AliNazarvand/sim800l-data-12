@@ -1,10 +1,7 @@
-# dat_03_REPORT — Error Code DB (CME/CMS)
+# dat_03 REPORT — Error Code DB
 
-- **وضعیت**: `partial`
-- **تعداد رکورد**: 238
-- **منبع اصلی**: AT Command Manual V1.01
-- **coverage_estimate**: `medium`
-- **تاریخ**: 2026-10-10T15:28:57Z
+- status: complete
+- coverage: high
+- records: 244
+- generated: 2026-10-10T17:30:26Z
 
-## یادداشت
-این گزارش به‌صورت خودکار از داده واقعی موجود در `data/dat_03_error_code.yaml` تولید شده است.

@@ -1,0 +1,16 @@
+ATS8 Set Number of Seconds to Wait for Comma Dial Modifier Encountered in Dial,
+String of D Command,
+Read Command ATS8?,Response
+,<n>
+,
+,OK
+,Parameter
+,See Write Command
+Write Command ATS8=<n>,Response
+,OK
+,
+,ERROR
+,Parameter
+,<n> 0-255 The value of this register determines how long the modem
+,should pause when it sees a comma in the dialing string.
+Parameter Saving,AT&W_SAVE
