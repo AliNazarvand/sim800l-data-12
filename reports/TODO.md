@@ -1,7 +1,8 @@
 # TODO
 
 ## dat_07 — کارهای باقی‌مانده (partial → complete)
-- [ ] بازبینی رکوردهای Unclassified و انتقال به دسته صحیح.
+- [ ] بازبینی هم‌ارزهای علامت‌گذاری‌شده در `reports/dat_07_FIX.md` (C1..C8 ↔ SIM_*) و تصمیم برای ادغام یا حفظ هر دو.
+- [ ] بازبینی رکوردهای Keypad (COL/ROW/KBC/KBR) — احتمالاً مخصوص SIM800H هستند و باید در dat_07 بمانند یا حذف شوند (تصمیم مالک پروژه).
 - [ ] تکمیل `voltage_min`/`voltage_typ`/`voltage_max`، `current_typ`/`current_max` از متن manual.
 - [ ] تنظیم `direction` (input/output/power/ground) برای هر pin.
 - [ ] تطبیق کامل با فهرست pin در V2.02 برای اطمینان از پوشش ≥ ۹۵٪.
