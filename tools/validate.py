@@ -100,12 +100,18 @@ def check_meta(rec, path, idx, errs):
     if not (isinstance(cm, list) and cm and all(x in ("SIM800L","SIM800H") for x in cm)):
         errs.append(f"{path} record[{idx}] _meta.compatible_models: must be non-empty subset of ['SIM800L','SIM800H']")
 
-def validate_dataset_file(p: Path, schema: dict | None, cache: dict, errs):
+def validate_dataset_file(p: Path, schema: dict | None, cache: dict, errs) -> int:
+    """
+    Validate one dataset YAML file.
+
+    Returns the number of records found in the file (0 on parse error).
+    Errors are appended to `errs` in place.
+    """
     try:
         doc = load_yaml(p)
     except Exception as exc:
         errs.append(f"{p}: YAML parse error: {exc}")
-        return
+        return 0
     records = records_of(doc)
     ids = {}
     validator = None
@@ -127,6 +133,7 @@ def validate_dataset_file(p: Path, schema: dict | None, cache: dict, errs):
                 errs.append(f"{p}: duplicate id '{rid}' at records {ids[rid]} and {i}")
             elif rid:
                 ids[rid] = i
+    return len(records)
 
 def validate_dataset_meta(folder: Path, actual_count: int, errs):
     meta = folder / "_dataset_meta.yaml"
@@ -183,13 +190,7 @@ def main() -> int:
         for p in sorted(folder.rglob("*.yaml")):
             if p.name == "_dataset_meta.yaml":
                 continue
-            before = len(errs)
-            validate_dataset_file(p, schema, cache, errs)
-            if len(errs) >= before:
-                try:
-                    count += len(records_of(load_yaml(p)))
-                except Exception:
-                    pass
+            count += validate_dataset_file(p, schema, cache, errs)
 
         validate_dataset_meta(folder, count, errs)
 

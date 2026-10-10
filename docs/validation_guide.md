@@ -42,10 +42,33 @@ Exit code 0 = success. Exit code 1 = at least one error, printed to stderr.
 python tools/generate_json.py
 ```
 
-Writes a valid `.json` file next to every `data/**/*.yaml`, including
-`_dataset_meta.yaml`. The generated JSON contains a top-level
-`_auto_generated` object; it is still valid JSON and parses with any
-standard JSON library.
+Writes a `.json` file next to every `data/**/*.yaml`, including
+`_dataset_meta.yaml`.
+
+### About the "AUTO-GENERATED — DO NOT EDIT" marker
+
+The project brief asks for generated JSON files to carry the header string
+`AUTO-GENERATED — DO NOT EDIT`. Standard JSON has **no comment syntax**, so a
+literal `# ...` header would make the file unparseable and violate the
+"machine-readable" requirement.
+
+Instead, the marker is embedded as a reserved top-level key in every
+generated file:
+
+```json
+{
+  "_auto_generated": {
+    "marker": "AUTO-GENERATED — DO NOT EDIT",
+    "generator": "tools/generate_json.py"
+  },
+  ...payload...
+}
+```
+
+Every consumer that reads a generated JSON can check
+`obj["_auto_generated"]["marker"]` to detect an auto-generated file. The file
+parses with any standard JSON library (`json.loads`, `jq`, etc.) without
+special handling.
 
 ## Check mode (CI)
 

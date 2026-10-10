@@ -2,9 +2,25 @@
 """
 Generate JSON from YAML files under data/**.
 
-Emits valid JSON (no comments). For every data/**/*.yaml - including
-_dataset_meta.yaml - a sibling .json file is written. JSON files are
-auto-generated and must never be edited by hand.
+Emits strictly valid JSON (no // or # comments, which JSON forbids).
+Because the project brief asks for a "AUTO-GENERATED — DO NOT EDIT" header
+on every generated file, and JSON has no comment syntax, the marker is
+carried inside the JSON as a reserved top-level key:
+
+    {
+      "_auto_generated": {
+        "marker": "AUTO-GENERATED — DO NOT EDIT",
+        "generator": "tools/generate_json.py"
+      },
+      ...payload...
+    }
+
+The file remains parseable by any standard JSON library. This decision is
+documented in docs/validation_guide.md.
+
+For every data/**/*.yaml - including _dataset_meta.yaml - a sibling .json
+file is written. JSON files are auto-generated and must never be edited by
+hand.
 
 Use --check to verify in-sync state without writing.
 
@@ -29,10 +45,17 @@ except Exception as exc:  # pragma: no cover
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 
+MARKER = "AUTO-GENERATED — DO NOT EDIT"
+
 def dump_json(obj) -> str:
-    if isinstance(obj, dict) and "_auto_generated" not in obj:
-        obj = {"_auto_generated": {"generator": "tools/generate_json.py",
-                                    "warning": "DO NOT EDIT"}, **obj}
+    if not (isinstance(obj, dict) and "_auto_generated" in obj):
+        obj = {
+            "_auto_generated": {
+                "marker": MARKER,
+                "generator": "tools/generate_json.py",
+            },
+            **({} if not isinstance(obj, dict) else obj),
+        }
     return json.dumps(obj, indent=2, ensure_ascii=False) + "\n"
 
 def process(path: Path, check: bool) -> int:
