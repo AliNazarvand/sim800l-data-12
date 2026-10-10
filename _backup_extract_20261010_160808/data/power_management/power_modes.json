@@ -1,0 +1,926 @@
+{
+  "_auto_generated": {
+    "marker": "AUTO-GENERATED — DO NOT EDIT",
+    "generator": "tools/generate_json.py"
+  },
+  "records": [
+    {
+      "mode_id": "NORMAL_OPERATION",
+      "mode_name": "Normal operation",
+      "description_fa": "حالت عادی.",
+      "current_consumption_typical": null,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "entry_condition": "Power-on sequence completed, module registered to network",
+      "exit_condition": "AT+CPOWD, PWRKEY low, under/over-voltage, under/over-temp, AT+CFUN=0",
+      "related_pins": [
+        "VBAT",
+        "PWRKEY",
+        "STATUS"
+      ],
+      "id": "dat_15_0001",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "13",
+        "section": "2.3"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 4",
+      "related_commands": [
+        "dat_01_0003"
+      ]
+    },
+    {
+      "mode_id": "SLEEP_MODE_CFUN1",
+      "mode_name": "Sleep mode (AT+CFUN=1, MFRMS=9)",
+      "description_fa": null,
+      "current_consumption_typical": 1.04,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "entry_condition": "AT+CSCLK=1 & DTR high OR no RXD data for 5s",
+      "exit_condition": "DTR low (Sleep 1) OR RXD data (Sleep 2)",
+      "related_pins": [
+        "DTR",
+        "RXD"
+      ],
+      "id": "dat_15_0002",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49",
+      "related_commands": [
+        "dat_01_0004",
+        "dat_01_0003"
+      ],
+      "related_states": [
+        "dat_05_0006"
+      ]
+    },
+    {
+      "mode_id": "POWER_DOWN_MODE",
+      "mode_name": "Power down mode",
+      "description_fa": null,
+      "current_consumption_typical": 150,
+      "current_consumption_max": 200,
+      "unit": "uA",
+      "entry_condition": "AT+CPOWD=1 OR PWRKEY low >=1s OR under/over-voltage OR under/over-temp",
+      "exit_condition": "PWRKEY low >=1s to power on",
+      "related_pins": [
+        "PWRKEY",
+        "VBAT",
+        "VRTC"
+      ],
+      "id": "dat_15_0003",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49",
+      "related_commands": [
+        "dat_01_0002"
+      ],
+      "related_states": [
+        "dat_05_0001"
+      ]
+    },
+    {
+      "mode_id": "MINIMUM_FUNCTIONALITY",
+      "mode_name": "Minimum functionality mode (AT+CFUN=0)",
+      "description_fa": "RF و SIM غیرفعال؛ پورت سریال فعال. مقدار دقیق جریان در V2.02 Table 8 به‌درستی استخراج نشد.",
+      "current_consumption_typical": null,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "entry_condition": "AT+CFUN=0",
+      "exit_condition": "AT+CFUN=1 (full) or AT+CFUN=4 (flight mode)",
+      "related_pins": [
+        "VBAT"
+      ],
+      "id": "dat_15_0004",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "26",
+        "section": "4.3.1"
+      },
+      "source_type": "primary",
+      "confidence": 0.0,
+      "status": "unknown",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10",
+      "related_commands": [
+        "dat_01_0003"
+      ]
+    },
+    {
+      "mode_id": "SLEEP_MFRMS5",
+      "mode_name": "Sleep mode (AT+CFUN=1, MFRMS=5)",
+      "description_fa": null,
+      "current_consumption_typical": 1.14,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, AT+CFUN=1, MFRMS=5",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0005",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "SLEEP_MFRMS2",
+      "mode_name": "Sleep mode (AT+CFUN=1, MFRMS=2)",
+      "description_fa": null,
+      "current_consumption_typical": 1.57,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, AT+CFUN=1, MFRMS=2",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0006",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "IDLE_ALL_BANDS",
+      "mode_name": "Idle mode (all 4 bands)",
+      "description_fa": null,
+      "current_consumption_typical": 17.38,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, GSM850/EGSM900/DCS1800/PCS1900",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0007",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "VOICE_GSM850",
+      "mode_name": "Voice call (GSM850, PCL=5)",
+      "description_fa": null,
+      "current_consumption_typical": 221.11,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, PCL=5",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0008",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "VOICE_EGSM900",
+      "mode_name": "Voice call (EGSM900, PCL=5)",
+      "description_fa": null,
+      "current_consumption_typical": 238.44,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, PCL=5",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0009",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "VOICE_DCS1800",
+      "mode_name": "Voice call (DCS1800, PCL=5)",
+      "description_fa": null,
+      "current_consumption_typical": 157.48,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, PCL=5",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0010",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "VOICE_PCS1900",
+      "mode_name": "Voice call (PCS1900, PCL=5)",
+      "description_fa": null,
+      "current_consumption_typical": 159.22,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, PCL=5",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0011",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "GPRS_1RX4TX_GSM850",
+      "mode_name": "GPRS data (1Rx,4Tx) GSM850",
+      "description_fa": null,
+      "current_consumption_typical": 491.79,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, 1Rx/4Tx",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0012",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "GPRS_1RX4TX_EGSM900",
+      "mode_name": "GPRS data (1Rx,4Tx) EGSM900",
+      "description_fa": null,
+      "current_consumption_typical": 529.84,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, 1Rx/4Tx",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0013",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "GPRS_1RX4TX_DCS1800",
+      "mode_name": "GPRS data (1Rx,4Tx) DCS1800",
+      "description_fa": null,
+      "current_consumption_typical": 333.16,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, 1Rx/4Tx",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0014",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "GPRS_1RX4TX_PCS1900",
+      "mode_name": "GPRS data (1Rx,4Tx) PCS1900",
+      "description_fa": null,
+      "current_consumption_typical": 336.28,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, 1Rx/4Tx",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0015",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "GPRS_3RX2TX_GSM850",
+      "mode_name": "GPRS data (3Rx,2Tx) GSM850",
+      "description_fa": null,
+      "current_consumption_typical": 359.75,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, 3Rx/2Tx",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0016",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "GPRS_3RX2TX_EGSM900",
+      "mode_name": "GPRS data (3Rx,2Tx) EGSM900",
+      "description_fa": null,
+      "current_consumption_typical": 385.73,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, 3Rx/2Tx",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0017",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "GPRS_3RX2TX_DCS1800",
+      "mode_name": "GPRS data (3Rx,2Tx) DCS1800",
+      "description_fa": null,
+      "current_consumption_typical": 250.54,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, 3Rx/2Tx",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0018",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "GPRS_3RX2TX_PCS1900",
+      "mode_name": "GPRS data (3Rx,2Tx) PCS1900",
+      "description_fa": null,
+      "current_consumption_typical": 251.3,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, 3Rx/2Tx",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0019",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "GPRS_4RX1TX_GSM850",
+      "mode_name": "GPRS data (4Rx,1Tx) GSM850",
+      "description_fa": null,
+      "current_consumption_typical": 233.87,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, 4Rx/1Tx",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0020",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "GPRS_4RX1TX_EGSM900",
+      "mode_name": "GPRS data (4Rx,1Tx) EGSM900",
+      "description_fa": null,
+      "current_consumption_typical": 249.85,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, 4Rx/1Tx",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0021",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "GPRS_4RX1TX_DCS1800",
+      "mode_name": "GPRS data (4Rx,1Tx) DCS1800",
+      "description_fa": null,
+      "current_consumption_typical": 174.13,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, 4Rx/1Tx",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0022",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "GPRS_4RX1TX_PCS1900",
+      "mode_name": "GPRS data (4Rx,1Tx) PCS1900",
+      "description_fa": null,
+      "current_consumption_typical": 174.94,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, 4Rx/1Tx",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0023",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "PEAK_TX_BURST",
+      "mode_name": "Peak current during Tx burst",
+      "description_fa": null,
+      "current_consumption_typical": 2000.0,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, during Tx burst",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0024",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 6.8 (page 60) of V2.02 PDF."
+    },
+    {
+      "mode_id": "MIN_FUNC_FUN0",
+      "mode_name": "Minimum functionality (AT+CFUN=0)",
+      "description_fa": null,
+      "current_consumption_typical": 0.83,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, BS-PA-MFRMS=9",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0025",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "26",
+        "section": "4.3.1 / Table 8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 4.3.1 / Table 8 (page 26) of V2.02 PDF."
+    },
+    {
+      "mode_id": "MIN_FUNC_FUN4",
+      "mode_name": "Flight mode (AT+CFUN=4)",
+      "description_fa": null,
+      "current_consumption_typical": 0.92,
+      "current_consumption_max": null,
+      "unit": "mA",
+      "condition": "VBAT=3.8V, BS-PA-MFRMS=9",
+      "entry_condition": null,
+      "exit_condition": null,
+      "related_pins": [
+        "VBAT"
+      ],
+      "related_commands": [
+        "dat_01_0003"
+      ],
+      "id": "dat_15_0026",
+      "category": "power_consumption",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "26",
+        "section": "4.3.1 / Table 8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:05:40Z",
+      "updated_at": "2026-10-10T12:05:40Z",
+      "notes": "Extracted from section 4.3.1 / Table 8 (page 26) of V2.02 PDF."
+    }
+  ]
+}

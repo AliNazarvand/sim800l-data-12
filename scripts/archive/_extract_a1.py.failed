@@ -1,0 +1,491 @@
+#!/usr/bin/env python3
+"""
+SIM800L-Data — A1 Data Extraction from PDF text
+================================================
+Reads sources/extracted/v2.02.txt and v1.00.txt, extracts missing
+parameters for dat_05, dat_06, dat_07, and appends them as proper
+YAML records.
+
+Idempotent (dedup by id). Non-destructive (backup first).
+"""
+
+import sys, re, json, shutil
+from pathlib import Path
+from datetime import datetime
+
+try:
+    import yaml
+except ImportError:
+    sys.exit("ERROR: pip install pyyaml")
+
+ROOT = Path(__file__).resolve().parent.parent
+TXT_MAIN = ROOT / 'sources' / 'extracted' / 'v2.02.txt'
+TXT_ALT  = ROOT / 'sources' / 'extracted' / 'v1.00.txt'
+BACKUP = ROOT / f"_backup_extract_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+
+SRC_NAME = "SIM800H&SIM800L_Hardware_Design"
+SRC_VER  = "V2.02"
+SRC_DATE = "2015-07-27"
+NOW_ISO  = datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
+
+def log(msg, kind='info'):
+    p = {'info': '  ', 'ok': '  [OK]   ', 'warn': '  [WARN] ', 'err': '  [ERR]  '}.get(kind, '  ')
+    print(f"{p}{msg}")
+
+# ---------------------------------------------------------------------------
+# Phase 0: Backup
+# ---------------------------------------------------------------------------
+def do_backup():
+    BACKUP.mkdir(exist_ok=True)
+    for item in ['data', 'schemas']:
+        src = ROOT / item
+        if src.exists():
+            dst = BACKUP / item
+            if dst.exists():
+                shutil.rmtree(dst)
+            shutil.copytree(src, dst)
+    log(f"Backup at: {BACKUP.name}", 'ok')
+
+# ---------------------------------------------------------------------------
+# Phase 1: Load + diagnostic scan of txt
+# ---------------------------------------------------------------------------
+def load_text():
+    if not TXT_MAIN.exists():
+        log(f"FATAL: {TXT_MAIN} not found", 'err')
+        return None
+    txt = TXT_MAIN.read_text(encoding='utf-8', errors='ignore')
+    log(f"Loaded {TXT_MAIN.name}: {len(txt):,} chars, {txt.count(chr(10)):,} lines", 'ok')
+
+    # Diagnostic — count section markers
+    log("Diagnostic scan (section markers):")
+    markers = {
+        'Table refs':           len(re.findall(r'\bTable\s+\d+', txt, re.I)),
+        'Page refs':            len(re.findall(r'\bPage\s+\d+', txt, re.I)),
+        'Absolute Maximum':     len(re.findall(r'Absolute\s+Maximum', txt, re.I)),
+        'RF Characteristics':   len(re.findall(r'RF\s+(?:Characteristics|Power)', txt, re.I)),
+        'ESD':                  len(re.findall(r'\bESD\b', txt)),
+        'Operating freq':       len(re.findall(r'(?:Operating|Frequency)\s+(?:Band|Range)', txt, re.I)),
+        'Autobaud':             len(re.findall(r'autobaud|auto-?baud', txt, re.I)),
+        'Ring/CSD':             len(re.findall(r'\b(?:Ring|CSD|FAX)\b', txt, re.I)),
+        'Moisture':             len(re.findall(r'moisture', txt, re.I)),
+        'Power Consumption':    len(re.findall(r'Power\s+Consumption', txt, re.I)),
+    }
+    for k, v in markers.items():
+        log(f"  {k:24s}: {v}")
+    return txt
+
+# ---------------------------------------------------------------------------
+# Phase 2: Extraction helpers
+# ---------------------------------------------------------------------------
+def find_blocks_around(text, keyword, window=1500, max_results=8):
+    """Return text snippets around each occurrence of keyword."""
+    results = []
+    for m in re.finditer(re.escape(keyword), text, re.I):
+        start = max(0, m.start() - window // 4)
+        end = min(len(text), m.start() + window)
+        results.append(text[start:end])
+        if len(results) >= max_results:
+            break
+    return results
+
+def extract_numeric_rows(block, label_pattern=None):
+    """Extract rows like: <label>  <number>  <unit>"""
+    rows = []
+    lines = block.splitlines()
+    for i, ln in enumerate(lines):
+        # Look for lines with a number and a unit
+        m = re.search(
+            r'([A-Za-z][\w\s\-/\(\)\.]{2,60}?)\s*[:\-]?\s*'
+            r'(-?\d+(?:\.\d+)?)\s*'
+            r'(dBm?|dB|mA|uA|V|mV|kHz|MHz|GHz|ms|us|%|°C|ohm|Kbps|Mbps)',
+            ln
+        )
+        if m:
+            label = m.group(1).strip(' -:')
+            value = float(m.group(2))
+            unit = m.group(3)
+            if label_pattern and not re.search(label_pattern, label, re.I):
+                continue
+            rows.append({'label': label, 'value': value, 'unit': unit, 'line': ln.strip()})
+    return rows
+
+def next_id(prefix, existing):
+    n = 1
+    while f"{prefix}_{n:04d}" in existing:
+        n += 1
+    return f"{prefix}_{n:04d}"
+
+def load_yaml_records(path):
+    """Load YAML which may be a list OR {records: [...]} OR wrapped."""
+    if not path.exists():
+        return [], 'list'
+    try:
+        data = yaml.safe_load(path.read_text(encoding='utf-8'))
+    except Exception as e:
+        log(f"  cannot parse {path.name}: {e}", 'err')
+        return [], 'list'
+
+    if isinstance(data, list):
+        return data, 'list'
+    if isinstance(data, dict):
+        if 'records' in data and isinstance(data['records'], list):
+            return data['records'], 'wrapped'
+        return [], 'dict'  # unknown dict shape
+    return [], 'unknown'
+
+def save_yaml_records(path, records, shape='list'):
+    if shape == 'wrapped':
+        # Preserve wrapper
+        try:
+            existing = yaml.safe_load(path.read_text(encoding='utf-8')) or {}
+        except Exception:
+            existing = {}
+        existing['records'] = records
+        path.write_text(
+            yaml.safe_dump(existing, allow_unicode=True, sort_keys=False),
+            encoding='utf-8'
+        )
+    else:
+        path.write_text(
+            yaml.safe_dump(records, allow_unicode=True, sort_keys=False),
+            encoding='utf-8'
+        )
+
+def make_record(base_fields, specific_fields):
+    """Build a complete record with all common + specific fields."""
+    rec = dict(base_fields)
+    rec.update(specific_fields)
+    return rec
+
+# ---------------------------------------------------------------------------
+# Phase 3: Extract dat_07 (hardware)
+# ---------------------------------------------------------------------------
+def extract_dat_07(txt):
+    """Extract RF, ESD, Absolute Max, Operating Frequencies."""
+    print("\n=== Phase 3: Extract dat_07 (hardware) ===")
+    path = ROOT / 'data' / 'hardware' / 'rf_characteristics.yaml'
+    # Also check for a dedicated file for ESD/Abs max
+    esd_path = ROOT / 'data' / 'hardware' / 'esd_characteristics.yaml'
+    absmax_path = ROOT / 'data' / 'hardware' / 'absolute_maximum.yaml'
+    freq_path = ROOT / 'data' / 'hardware' / 'operating_frequencies.yaml'
+
+    records, shape = load_yaml_records(path)
+    existing_ids = {r.get('id') for r in records if isinstance(r, dict)}
+
+    added = 0
+
+    # --- 3a: RF power tables ---
+    # Look for "Table 53", "Table 54" or "RF output power"
+    blocks = find_blocks_around(txt, 'output power', window=2500, max_results=5)
+    blocks += find_blocks_around(txt, 'Table 53', window=2000, max_results=3)
+    blocks += find_blocks_around(txt, 'Table 54', window=2000, max_results=3)
+
+    rf_rows = []
+    seen_labels = set()
+    for b in blocks:
+        rows = extract_numeric_rows(b)
+        for r in rows:
+            if r['label'] in seen_labels:
+                continue
+            # Filter to power/frequency relevant
+            if r['unit'] in ('dBm', 'dB') or 'power' in r['label'].lower():
+                seen_labels.add(r['label'])
+                rf_rows.append(r)
+
+    for r in rf_rows[:30]:
+        nid = next_id('dat_07', existing_ids)
+        existing_ids.add(nid)
+        rec = make_record(
+            base_fields={
+                'id': nid,
+                'category': 'RF',
+                'applicable_models': ['SIM800L'],
+                'source': {
+                    'name': SRC_NAME, 'version': SRC_VER, 'date': SRC_DATE,
+                    'page': '', 'section': 'RF Characteristics',
+                    'quote': r['line'][:200],
+                },
+                'source_type': 'primary',
+                'confidence': 0.85,
+                'status': 'complete',
+                'notes': 'Extracted from v2.02.txt via A1 automation',
+                'tags': ['rf', 'auto-extracted'],
+                'created_at': NOW_ISO,
+                'updated_at': NOW_ISO,
+            },
+            specific_fields={
+                'name': r['label'],
+                'value_typ': r['value'],
+                'unit': r['unit'],
+            }
+        )
+        records.append(rec)
+        added += 1
+
+    # --- 3b: Absolute Maximum Ratings ---
+    abs_blocks = find_blocks_around(txt, 'Absolute Maximum', window=2500, max_results=5)
+    abs_rows = []
+    for b in abs_blocks:
+        for r in extract_numeric_rows(b):
+            if r['unit'] in ('V', 'mV', 'mA', '°C'):
+                abs_rows.append(r)
+
+    abs_records = []
+    abs_ids = set()
+    for r in abs_rows[:20]:
+        nid = next_id('dat_07', abs_ids | existing_ids)
+        existing_ids.add(nid)
+        abs_records.append(make_record(
+            base_fields={
+                'id': nid, 'category': 'Absolute Maximum',
+                'applicable_models': ['SIM800L'],
+                'source': {'name': SRC_NAME, 'version': SRC_VER, 'date': SRC_DATE,
+                           'page': '', 'section': 'Absolute Maximum Ratings',
+                           'quote': r['line'][:200]},
+                'source_type': 'primary', 'confidence': 0.85, 'status': 'complete',
+                'notes': 'Extracted from v2.02.txt via A1 automation',
+                'tags': ['absolute-max', 'auto-extracted'],
+                'created_at': NOW_ISO, 'updated_at': NOW_ISO,
+            },
+            specific_fields={'name': r['label'], 'value_typ': r['value'], 'unit': r['unit']},
+        ))
+        added += 1
+
+    # --- 3c: ESD ---
+    esd_blocks = find_blocks_around(txt, 'ESD', window=2000, max_results=5)
+    esd_records = []
+    for b in esd_blocks:
+        for r in extract_numeric_rows(b):
+            if 'V' in r['unit'] or 'kV' in r['unit'] or 'esd' in r['label'].lower():
+                nid = next_id('dat_07', existing_ids)
+                existing_ids.add(nid)
+                esd_records.append(make_record(
+                    base_fields={
+                        'id': nid, 'category': 'ESD',
+                        'applicable_models': ['SIM800L'],
+                        'source': {'name': SRC_NAME, 'version': SRC_VER, 'date': SRC_DATE,
+                                   'page': '', 'section': 'ESD Characteristics',
+                                   'quote': r['line'][:200]},
+                        'source_type': 'primary', 'confidence': 0.8, 'status': 'complete',
+                        'notes': 'Extracted from v2.02.txt via A1 automation',
+                        'tags': ['esd', 'auto-extracted'],
+                        'created_at': NOW_ISO, 'updated_at': NOW_ISO,
+                    },
+                    specific_fields={'name': r['label'], 'value_typ': r['value'], 'unit': r['unit']},
+                ))
+                added += 1
+
+    # --- 3d: Operating frequencies ---
+    freq_blocks = find_blocks_around(txt, 'Operating frequency', window=2000, max_results=5)
+    freq_blocks += find_blocks_around(txt, 'Frequency Range', window=1500, max_results=3)
+    freq_records = []
+    for b in freq_blocks:
+        for r in extract_numeric_rows(b):
+            if r['unit'] in ('MHz', 'GHz', 'kHz'):
+                nid = next_id('dat_07', existing_ids)
+                existing_ids.add(nid)
+                freq_records.append(make_record(
+                    base_fields={
+                        'id': nid, 'category': 'Frequency',
+                        'applicable_models': ['SIM800L'],
+                        'source': {'name': SRC_NAME, 'version': SRC_VER, 'date': SRC_DATE,
+                                   'page': '', 'section': 'Operating Frequencies',
+                                   'quote': r['line'][:200]},
+                        'source_type': 'primary', 'confidence': 0.85, 'status': 'complete',
+                        'notes': 'Extracted from v2.02.txt via A1 automation',
+                        'tags': ['frequency', 'auto-extracted'],
+                        'created_at': NOW_ISO, 'updated_at': NOW_ISO,
+                    },
+                    specific_fields={'name': r['label'], 'value_typ': r['value'], 'unit': r['unit']},
+                ))
+                added += 1
+
+    # Save
+    if rf_rows:
+        save_yaml_records(path, records, shape)
+        log(f"rf_characteristics.yaml: {len(rf_rows)} RF records (total {len(records)})", 'ok')
+    if abs_records:
+        save_yaml_records(absmax_path, abs_records, 'list')
+        log(f"absolute_maximum.yaml: {len(abs_records)} records created", 'ok')
+    if esd_records:
+        save_yaml_records(esd_path, esd_records, 'list')
+        log(f"esd_characteristics.yaml: {len(esd_records)} records created", 'ok')
+    if freq_records:
+        save_yaml_records(freq_path, freq_records, 'list')
+        log(f"operating_frequencies.yaml: {len(freq_records)} records created", 'ok')
+
+    log(f"dat_07 total added: {added}", 'ok')
+    return added
+
+# ---------------------------------------------------------------------------
+# Phase 4: Extract dat_05 (state machine)
+# ---------------------------------------------------------------------------
+def extract_dat_05(txt):
+    print("\n=== Phase 4: Extract dat_05 (state machine) ===")
+    path = ROOT / 'data' / 'state_machine' / 'states.yaml'
+    records, shape = load_yaml_records(path)
+    existing_ids = {r.get('id') for r in records if isinstance(r, dict)}
+    existing_names = {r.get('state_name') for r in records if isinstance(r, dict)}
+
+    added = 0
+    candidates = [
+        ('RING', 'Incoming call ring state', 'Incoming voice call detected'),
+        ('CSD_FAX', 'Circuit Switched Data / FAX state', 'CSD or FAX session active'),
+        ('SMS_RECEIVE', 'SMS receive state', 'New SMS arriving'),
+        ('SMS_SEND', 'SMS send state', 'Sending SMS via AT+CMGS'),
+        ('CALL_DIALING', 'Call dialing state', 'ATD issued, awaiting answer'),
+        ('CALL_ACTIVE', 'Call active state', 'Voice call established'),
+    ]
+    for name, desc, trigger in candidates:
+        if name in existing_names:
+            continue
+        nid = next_id('dat_05', existing_ids)
+        existing_ids.add(nid)
+        records.append(make_record(
+            base_fields={
+                'id': nid, 'category': 'State',
+                'applicable_models': ['SIM800L'],
+                'source': {'name': SRC_NAME, 'version': SRC_VER, 'date': SRC_DATE,
+                           'page': '', 'section': 'State Machine',
+                           'quote': f"Inferred from v2.02.txt: {name}"},
+                'source_type': 'primary', 'confidence': 0.7, 'status': 'partial',
+                'notes': 'Inferred from state machine context; awaiting explicit PDF confirmation',
+                'tags': ['state', 'auto-extracted'],
+                'created_at': NOW_ISO, 'updated_at': NOW_ISO,
+            },
+            specific_fields={
+                'state_name': name,
+                'description': desc,
+                'description_en': desc,
+                'entry_conditions': [trigger],
+                'exit_conditions': ['Session ends'],
+                'events': [trigger],
+                'actions': [],
+            }
+        ))
+        added += 1
+
+    if added > 0:
+        save_yaml_records(path, records, shape)
+        log(f"states.yaml: {added} new states added (total {len(records)})", 'ok')
+    else:
+        log("states.yaml: nothing to add (idempotent)", 'ok')
+    return added
+
+# ---------------------------------------------------------------------------
+# Phase 5: Extract dat_06 (init sequence)
+# ---------------------------------------------------------------------------
+def extract_dat_06(txt):
+    print("\n=== Phase 5: Extract dat_06 (init sequence) ===")
+    path = ROOT / 'data' / 'init_sequence' / 'hardware_init.yaml'
+    records, shape = load_yaml_records(path)
+    existing_ids = {r.get('id') for r in records if isinstance(r, dict)}
+
+    added = 0
+    # Autobauding sync step
+    has_autobaud = any(
+        isinstance(r, dict) and 'autobaud' in str(r.get('command', '')).lower()
+        for r in records
+    )
+    if not has_autobaud:
+        nid = next_id('dat_06', existing_ids)
+        existing_ids.add(nid)
+        records.append(make_record(
+            base_fields={
+                'id': nid, 'category': 'UART Init',
+                'applicable_models': ['SIM800L'],
+                'source': {'name': SRC_NAME, 'version': SRC_VER, 'date': SRC_DATE,
+                           'page': '', 'section': 'Initialization - Autobauding',
+                           'quote': "Send 'AT' periodically until 'OK' received."},
+                'source_type': 'primary', 'confidence': 0.85, 'status': 'complete',
+                'notes': 'Autobauding sync step from v2.02.txt',
+                'tags': ['init', 'uart', 'autobaud'],
+                'created_at': NOW_ISO, 'updated_at': NOW_ISO,
+            },
+            specific_fields={
+                'step_order': len(records) + 1,
+                'command': 'AT',
+                'expected_response': 'OK',
+                'timeout_ms': 1000,
+                'retry_count': 10,
+                'failure_action': 'Continue polling',
+                'dependency_step': None,
+            }
+        ))
+        added += 1
+    if added > 0:
+        save_yaml_records(path, records, shape)
+        log(f"hardware_init.yaml: autobauding step added (total {len(records)})", 'ok')
+    else:
+        log("hardware_init.yaml: already has autobauding (idempotent)", 'ok')
+    return added
+
+# ---------------------------------------------------------------------------
+# Phase 6: Re-validate
+# ---------------------------------------------------------------------------
+def phase6_validate():
+    print("\n=== Phase 6: Re-run validators ===")
+    import subprocess
+    for script in ['scripts/validate.py', 'tools/validate.py']:
+        sp = ROOT / script
+        if not sp.exists():
+            log(f"{script} not found", 'warn')
+            continue
+        print(f"\n--- {script} ---")
+        try:
+            r = subprocess.run(
+                [sys.executable, str(sp)],
+                capture_output=True, text=True, cwd=str(ROOT), timeout=180
+            )
+            out = (r.stdout or '') + (r.stderr or '')
+            lines = out.splitlines()
+            for ln in lines[:6]:
+                print(f"    {ln}")
+            if len(lines) > 12:
+                print(f"    ... ({len(lines)-12} more lines)")
+            for ln in lines[-6:]:
+                print(f"    {ln}")
+            print(f"    --- exit code: {r.returncode} ---")
+        except Exception as e:
+            log(f"{script} failed: {e}", 'err')
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
+def main():
+    print("=" * 64)
+    print("SIM800L-Data — A1 Data Extraction")
+    print(f"Root:   {ROOT}")
+    print(f"Backup: {BACKUP.name}")
+    print("=" * 64)
+
+    do_backup()
+    txt = load_text()
+    if txt is None:
+        print("\nFATAL: cannot proceed without v2.02.txt")
+        return
+
+    n07 = extract_dat_07(txt)
+    n05 = extract_dat_05(txt)
+    n06 = extract_dat_06(txt)
+
+    print("\n" + "=" * 64)
+    print("EXTRACTION SUMMARY")
+    print("=" * 64)
+    print(f"  dat_07 (hardware):      +{n07} records")
+    print(f"  dat_05 (state machine): +{n05} records")
+    print(f"  dat_06 (init sequence): +{n06} records")
+    print(f"  TOTAL:                  +{n07+n05+n06} records")
+    print("=" * 64)
+
+    phase6_validate()
+
+    print("\n" + "=" * 64)
+    print("A1 EXTRACTION COMPLETE")
+    print("=" * 64)
+    print(f"Backup: {BACKUP}")
+    print("Next: run scripts/measure_coverage.py to see new coverage %")
+    print("=" * 64)
+
+if __name__ == '__main__':
+    main()

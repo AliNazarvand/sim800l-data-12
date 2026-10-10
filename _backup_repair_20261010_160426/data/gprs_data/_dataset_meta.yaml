@@ -1,0 +1,12 @@
+dataset_id: "dat_10"
+dataset_name: "GPRS/Data DB"
+phase_completed: 2
+record_count: 7
+min_records_required: 7
+status: "blocked"
+reason: null
+pending_fields:
+  - "AT+CGATT, AT+CGDCONT, AT+CSTT, AT+CIICR, AT+CIFSR, AT+CIPSTART, AT+CIPSEND, AT+CIPCLOSE, AT+CIPSTATUS (from AT Command Manual)"
+completion_source: null
+last_updated: "2026-10-10"
+retry_count: 0

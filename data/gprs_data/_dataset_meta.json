@@ -8,7 +8,7 @@
   "phase_completed": 2,
   "record_count": 7,
   "min_records_required": 7,
-  "status": "partial",
+  "status": "blocked",
   "reason": null,
   "pending_fields": [
     "AT+CGATT, AT+CGDCONT, AT+CSTT, AT+CIICR, AT+CIFSR, AT+CIPSTART, AT+CIPSEND, AT+CIPCLOSE, AT+CIPSTATUS (from AT Command Manual)"

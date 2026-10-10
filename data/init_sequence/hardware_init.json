@@ -5,23 +5,6 @@
   },
   "records": [
     {
-      "_meta": {
-        "id": "dat_06_step_001",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 20,
-        "source_section": "4.1",
-        "source_figure_number": "Figure 5",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "step_number": 1,
       "action": "Apply VBAT power supply",
       "hardware_operation": "Power VBAT pins (1, 42) with 3.4-4.4V capable of >=2A peak.",
@@ -29,26 +12,30 @@
       "timeout_ms": null,
       "retry_count": 0,
       "critical": true,
-      "notes_fa": null
+      "notes_fa": null,
+      "id": "dat_06_0001",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "20",
+        "section": "4.1"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 5",
+      "related_states": [
+        "dat_05_0001"
+      ]
     },
     {
-      "_meta": {
-        "id": "dat_06_step_002",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 22,
-        "source_section": "4.2.1",
-        "source_figure_number": "Figure 10",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "step_number": 2,
       "action": "Pull PWRKEY low for >=1s",
       "hardware_operation": "Drive PWRKEY (pin 48) low. Internal pull-up to VBAT present.",
@@ -56,26 +43,30 @@
       "timeout_ms": 1000,
       "retry_count": 0,
       "critical": true,
-      "notes_fa": null
+      "notes_fa": null,
+      "id": "dat_06_0002",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "22",
+        "section": "4.2.1"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 10",
+      "related_states": [
+        "dat_05_0002"
+      ]
     },
     {
-      "_meta": {
-        "id": "dat_06_step_003",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 22,
-        "source_section": "4.2.1",
-        "source_figure_number": "Figure 12",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "step_number": 3,
       "action": "Release PWRKEY",
       "hardware_operation": "Let PWRKEY float (internal pull-up returns to VBAT).",
@@ -83,26 +74,30 @@
       "timeout_ms": null,
       "retry_count": 0,
       "critical": true,
-      "notes_fa": null
+      "notes_fa": null,
+      "id": "dat_06_0003",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "22",
+        "section": "4.2.1"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 12",
+      "related_states": [
+        "dat_05_0002"
+      ]
     },
     {
-      "_meta": {
-        "id": "dat_06_step_004",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 23,
-        "source_section": "4.2.1",
-        "source_figure_number": "Figure 12",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "step_number": 4,
       "action": "Wait for URC 'RDY'",
       "hardware_operation": "Listen on main serial port. If autobauding is enabled, RDY is not sent.",
@@ -110,26 +105,30 @@
       "timeout_ms": null,
       "retry_count": 0,
       "critical": true,
-      "notes_fa": null
+      "notes_fa": null,
+      "id": "dat_06_0004",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "23",
+        "section": "4.2.1"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Figure 12",
+      "related_states": [
+        "dat_05_0003"
+      ]
     },
     {
-      "_meta": {
-        "id": "dat_06_step_005",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 50,
-        "source_section": "4.16",
-        "source_figure_number": "Table 36",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "step_number": 5,
       "action": "Verify module ready via STATUS / VDD_EXT",
       "hardware_operation": "Check STATUS (pin 4) high; VDD_EXT (pin 18) at 2.8V.",
@@ -137,7 +136,59 @@
       "timeout_ms": null,
       "retry_count": 0,
       "critical": false,
-      "notes_fa": null
+      "notes_fa": null,
+      "id": "dat_06_0005",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "50",
+        "section": "4.16"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 36",
+      "related_states": [
+        "dat_05_0003"
+      ]
+    },
+    {
+      "step_number": 6,
+      "action": "Autobauding sync (if enabled)",
+      "hardware_operation": "Send 'AT' (or 'at'/'aT'/'At') from DTE until 'OK' is received. URCs RDY/+CFUN:1/+CPIN:READY are NOT reported when autobauding is active.",
+      "expected_result": "DTE receives 'OK'; baud rate synchronized",
+      "timeout_ms": 1000,
+      "retry_count": 3,
+      "critical": false,
+      "notes_fa": null,
+      "id": "dat_06_0006",
+      "category": "init_sequence",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "30",
+        "section": "4.5.1"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:57Z",
+      "updated_at": "2026-10-10T12:11:57Z",
+      "notes": "Autobauding is default; RDY/+CFUN:1/+CPIN:READY are suppressed until sync.",
+      "related_states": [
+        "dat_05_0003"
+      ]
     }
   ]
 }

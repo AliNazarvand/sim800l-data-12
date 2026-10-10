@@ -8,7 +8,7 @@
   "phase_completed": 1,
   "record_count": 8,
   "min_records_required": 5,
-  "status": "partial",
+  "status": "blocked",
   "reason": null,
   "pending_fields": [
     "audio_at_* (AT-command-related audio records deferred; AT Command Manual not available)"

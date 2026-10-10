@@ -1,0 +1,11 @@
+dataset_id: "dat_03"
+dataset_name: "Error Code DB (CME/CMS)"
+phase_completed: 2
+record_count: 0
+min_records_required: 50
+status: "blocked"
+reason: "INSUFFICIENT_RECORDS"
+pending_fields: []
+completion_source: null
+last_updated: "2026-10-10"
+retry_count: 0

@@ -5,244 +5,254 @@
   },
   "records": [
     {
-      "_meta": {
-        "id": "dat_07_power_consumption_001",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 60,
-        "source_section": "6.8",
-        "source_figure_number": "Table 49",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "mode": "Power down mode",
       "current_typical": 150,
       "current_max": 200,
       "unit": "uA",
-      "condition": "VBAT=3.8V, no operation"
+      "condition": "VBAT=3.8V, no operation",
+      "id": "dat_07_0071",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49"
     },
     {
-      "_meta": {
-        "id": "dat_07_power_consumption_002",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 60,
-        "source_section": "6.8",
-        "source_figure_number": "Table 49",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "mode": "Sleep mode (BS-PA-MFRMS=9)",
       "current_typical": 1.04,
       "current_max": null,
       "unit": "mA",
-      "condition": "VBAT=3.8V, AT+CFUN=1, MFRMS=9"
+      "condition": "VBAT=3.8V, AT+CFUN=1, MFRMS=9",
+      "id": "dat_07_0072",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49"
     },
     {
-      "_meta": {
-        "id": "dat_07_power_consumption_003",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 60,
-        "source_section": "6.8",
-        "source_figure_number": "Table 49",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "mode": "Sleep mode (BS-PA-MFRMS=5)",
       "current_typical": 1.14,
       "current_max": null,
       "unit": "mA",
-      "condition": "VBAT=3.8V, AT+CFUN=1, MFRMS=5"
+      "condition": "VBAT=3.8V, AT+CFUN=1, MFRMS=5",
+      "id": "dat_07_0073",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49"
     },
     {
-      "_meta": {
-        "id": "dat_07_power_consumption_004",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 60,
-        "source_section": "6.8",
-        "source_figure_number": "Table 49",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "mode": "Sleep mode (BS-PA-MFRMS=2)",
       "current_typical": 1.57,
       "current_max": null,
       "unit": "mA",
-      "condition": "VBAT=3.8V, AT+CFUN=1, MFRMS=2"
+      "condition": "VBAT=3.8V, AT+CFUN=1, MFRMS=2",
+      "id": "dat_07_0074",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49"
     },
     {
-      "_meta": {
-        "id": "dat_07_power_consumption_005",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 60,
-        "source_section": "6.8",
-        "source_figure_number": "Table 49",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "mode": "Idle mode (all bands)",
       "current_typical": 17.38,
       "current_max": null,
       "unit": "mA",
-      "condition": "VBAT=3.8V, GSM850/EGSM900/DCS1800/PCS1900"
+      "condition": "VBAT=3.8V, GSM850/EGSM900/DCS1800/PCS1900",
+      "id": "dat_07_0075",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49"
     },
     {
-      "_meta": {
-        "id": "dat_07_power_consumption_006",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 60,
-        "source_section": "6.8",
-        "source_figure_number": "Table 49",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "mode": "Voice call (PCL=5)",
       "current_typical": 221.11,
       "current_max": 238.44,
       "unit": "mA",
-      "condition": "GSM850 221.11; EGSM900 238.44; DCS1800 157.48; PCS1900 159.22"
+      "condition": "GSM850 221.11; EGSM900 238.44; DCS1800 157.48; PCS1900 159.22",
+      "id": "dat_07_0076",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49"
     },
     {
-      "_meta": {
-        "id": "dat_07_power_consumption_007",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 60,
-        "source_section": "6.8",
-        "source_figure_number": "Table 49",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "mode": "Data mode GPRS (1Rx,4Tx)",
       "current_typical": 336.28,
       "current_max": 529.84,
       "unit": "mA",
-      "condition": "GSM850 491.79; EGSM900 529.84; DCS1800 333.16; PCS1900 336.28"
+      "condition": "GSM850 491.79; EGSM900 529.84; DCS1800 333.16; PCS1900 336.28",
+      "id": "dat_07_0077",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49"
     },
     {
-      "_meta": {
-        "id": "dat_07_power_consumption_008",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 60,
-        "source_section": "6.8",
-        "source_figure_number": "Table 49",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "mode": "Data mode GPRS (3Rx,2Tx)",
       "current_typical": 250.54,
       "current_max": 385.73,
       "unit": "mA",
-      "condition": "GSM850 359.75; EGSM900 385.73; DCS1800 250.54; PCS1900 251.30"
+      "condition": "GSM850 359.75; EGSM900 385.73; DCS1800 250.54; PCS1900 251.30",
+      "id": "dat_07_0078",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49"
     },
     {
-      "_meta": {
-        "id": "dat_07_power_consumption_009",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 60,
-        "source_section": "6.8",
-        "source_figure_number": "Table 49",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "mode": "Data mode GPRS (4Rx,1Tx)",
       "current_typical": 174.13,
       "current_max": 249.85,
       "unit": "mA",
-      "condition": "GSM850 233.87; EGSM900 249.85; DCS1800 174.13; PCS1900 174.94"
+      "condition": "GSM850 233.87; EGSM900 249.85; DCS1800 174.13; PCS1900 174.94",
+      "id": "dat_07_0079",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49"
     },
     {
-      "_meta": {
-        "id": "dat_07_power_consumption_010",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 60,
-        "source_section": "6.8",
-        "source_figure_number": "Table 49",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "mode": "Peak current during Tx burst",
       "current_typical": 2000,
       "current_max": null,
       "unit": "mA",
-      "condition": "During transmit burst"
+      "condition": "During transmit burst",
+      "id": "dat_07_0080",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "60",
+        "section": "6.8"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 49"
     }
   ]
 }

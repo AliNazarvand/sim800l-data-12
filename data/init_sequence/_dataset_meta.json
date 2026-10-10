@@ -6,12 +6,15 @@
   "dataset_id": "dat_06",
   "dataset_name": "Init Sequence DB",
   "phase_completed": 1,
-  "record_count": 5,
-  "min_records_required": 5,
+  "record_count": 6,
+  "min_records_required": 6,
   "status": "complete",
   "reason": null,
   "pending_fields": [],
   "completion_source": null,
   "last_updated": "2026-10-10",
-  "retry_count": 0
+  "retry_count": 0,
+  "coverage_estimate": "high",
+  "coverage_pct": "100%",
+  "coverage_note": "All 6 init steps covered: VBAT, PWRKEY low, PWRKEY release, RDY wait, STATUS verify, autobaud sync (added Session 12)."
 }

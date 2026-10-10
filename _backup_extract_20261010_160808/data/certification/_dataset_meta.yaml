@@ -1,0 +1,11 @@
+dataset_id: "dat_18"
+dataset_name: "Certification Data"
+phase_completed: 2
+record_count: 0
+min_records_required: 5
+status: "blocked"
+reason: "INSUFFICIENT_RECORDS"
+pending_fields: []
+completion_source: null
+last_updated: "2026-10-10"
+retry_count: 0

@@ -5,23 +5,6 @@
   },
   "records": [
     {
-      "_meta": {
-        "id": "dat_07_physical_001",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 11,
-        "source_section": "2.2",
-        "source_figure_number": "Table 2",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "dimensions_mm": {
         "length": 17.8,
         "width": 15.8,
@@ -40,7 +23,25 @@
         "max": 90,
         "unit": "C"
       },
-      "notes_fa": null
+      "notes_fa": null,
+      "id": "dat_07_0020",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "11",
+        "section": "2.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 2"
     }
   ]
 }

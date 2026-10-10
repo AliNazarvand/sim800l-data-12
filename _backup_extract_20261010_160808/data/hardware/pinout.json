@@ -1,0 +1,1533 @@
+{
+  "_auto_generated": {
+    "marker": "AUTO-GENERATED — DO NOT EDIT",
+    "generator": "tools/generate_json.py"
+  },
+  "records": [
+    {
+      "pin_number": [
+        1,
+        42
+      ],
+      "pin_name": "VBAT",
+      "type": "Power",
+      "description_fa": "ورودی تغذیه اصلی ماژول.",
+      "voltage_level": "3.4 V - 4.4 V",
+      "max_rating": "4.5 V (absolute max)",
+      "notes_fa": null,
+      "id": "dat_07_0021",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5",
+      "related_commands": [
+        "dat_01_0007"
+      ]
+    },
+    {
+      "pin_number": [
+        2,
+        6,
+        8,
+        35,
+        37,
+        38,
+        39,
+        41,
+        43,
+        44,
+        45,
+        58,
+        67,
+        71,
+        72,
+        73,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "pin_name": "GND",
+      "type": "Ground",
+      "description_fa": "اتصال زمین. برای VBAT توصیه می‌شود پین‌های 2, 43, 44, 45 استفاده شوند.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0022",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        56
+      ],
+      "pin_name": "VRTC",
+      "type": "Bidirectional",
+      "description_fa": "تغذیه RTC در نبود VBAT.",
+      "voltage_level": "1.2 - 3.0 V (typ 2.8 V)",
+      "max_rating": "3.0 V",
+      "notes_fa": null,
+      "id": "dat_07_0023",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        18
+      ],
+      "pin_name": "VDD_EXT",
+      "type": "Output",
+      "description_fa": "خروجی 2.8V. فقط هنگام کار ماژول فعال.",
+      "voltage_level": "2.7 / 2.8 / 2.9 V (min/typ/max)",
+      "max_rating": "50 mA",
+      "notes_fa": null,
+      "id": "dat_07_0024",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        48
+      ],
+      "pin_name": "PWRKEY",
+      "type": "Input",
+      "description_fa": "کلید روشن/خاموش.",
+      "voltage_level": "Internally pulled up to VBAT",
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0025",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5",
+      "related_commands": [
+        "dat_01_0002"
+      ],
+      "related_states": [
+        "dat_05_0001",
+        "dat_05_0002"
+      ]
+    },
+    {
+      "pin_number": [
+        49
+      ],
+      "pin_name": "RESET",
+      "type": "Input",
+      "description_fa": "ریست اضطراری.",
+      "voltage_level": "V_IH min 2.4V; V_IL max 0.6V",
+      "max_rating": "Low pulse min 105ms",
+      "notes_fa": null,
+      "id": "dat_07_0026",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5",
+      "related_states": [
+        "dat_05_0005"
+      ]
+    },
+    {
+      "pin_number": [
+        52,
+        12
+      ],
+      "pin_name": "MIC1P/MIC1N",
+      "type": "Analog",
+      "description_fa": "ورودی دیفرانسیل میکروفن اصلی.",
+      "voltage_level": "Bias 1.9 - 2.2 V",
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0027",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        53,
+        13
+      ],
+      "pin_name": "SPK1P/SPK1N",
+      "type": "Analog",
+      "description_fa": "خروجی دیفرانسیل بلندگو اصلی.",
+      "voltage_level": null,
+      "max_rating": "0.87W @ 4.2V/8ohm (THD+N=1%)",
+      "notes_fa": null,
+      "id": "dat_07_0028",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        9,
+        10
+      ],
+      "pin_name": "MIC2P/MIC2N",
+      "type": "Analog",
+      "description_fa": "ورودی دیفرانسیل میکروفن دوم.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0029",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        51,
+        11
+      ],
+      "pin_name": "SPK2P/SPK2N",
+      "type": "Analog",
+      "description_fa": "خروجی دیفرانسیل بلندگو دوم.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0030",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        29,
+        30,
+        65,
+        66
+      ],
+      "pin_name": "PCM_CLK/PCM_OUT/PCM_SYNC/PCM_IN",
+      "type": "Bidirectional",
+      "description_fa": "رابط PCM دیجیتال صوتی.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0031",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        24
+      ],
+      "pin_name": "KBC4",
+      "type": "Input",
+      "description_fa": "ستون ماتریس کیپد 4.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0032",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        21
+      ],
+      "pin_name": "KBC3",
+      "type": "Input",
+      "description_fa": "ستون ماتریس کیپد 3.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0033",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        22
+      ],
+      "pin_name": "KBC2",
+      "type": "Input",
+      "description_fa": "ستون ماتریس کیپد 2.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0034",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        25
+      ],
+      "pin_name": "KBC1",
+      "type": "Input",
+      "description_fa": "ستون ماتریس کیپد 1.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0035",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        20
+      ],
+      "pin_name": "KBC0",
+      "type": "Input",
+      "description_fa": "ستون ماتریس کیپد 0. باید در power-on بالا بماند.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0036",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        63
+      ],
+      "pin_name": "KBR4",
+      "type": "Output",
+      "description_fa": "ردیف ماتریس کیپد 4.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0037",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        23
+      ],
+      "pin_name": "KBR3",
+      "type": "Output",
+      "description_fa": "ردیف ماتریس کیپد 3.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0038",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        61
+      ],
+      "pin_name": "KBR2",
+      "type": "Output",
+      "description_fa": "ردیف ماتریس کیپد 2.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0039",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        60
+      ],
+      "pin_name": "KBR1",
+      "type": "Output",
+      "description_fa": "ردیف ماتریس کیپد 1.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0040",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        62
+      ],
+      "pin_name": "KBR0",
+      "type": "Output",
+      "description_fa": "ردیف ماتریس کیپد 0.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0041",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "16",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        3,
+        27,
+        28
+      ],
+      "pin_name": "GPIO1/GPIO2/GPIO3",
+      "type": "Bidirectional",
+      "description_fa": "ورودی/خروجی همه‌منظوره.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0042",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        64
+      ],
+      "pin_name": "NETLIGHT",
+      "type": "Output",
+      "description_fa": "راهنمای وضعیت شبکه با LED.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0043",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        4
+      ],
+      "pin_name": "STATUS",
+      "type": "Output",
+      "description_fa": "وضعیت روشن/خاموش. High=powered on.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0044",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5",
+      "related_states": [
+        "dat_05_0003"
+      ]
+    },
+    {
+      "pin_number": [
+        69
+      ],
+      "pin_name": "DTR",
+      "type": "Input",
+      "description_fa": "Data terminal ready.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0045",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5",
+      "related_commands": [
+        "dat_01_0004"
+      ],
+      "related_states": [
+        "dat_05_0006"
+      ]
+    },
+    {
+      "pin_number": [
+        68
+      ],
+      "pin_name": "RI",
+      "type": "Output",
+      "description_fa": "Ring indicator.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0046",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        70
+      ],
+      "pin_name": "DCD",
+      "type": "Output",
+      "description_fa": "Data carrier detect.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0047",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        34
+      ],
+      "pin_name": "CTS",
+      "type": "Output",
+      "description_fa": "Clear to send.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0048",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        33
+      ],
+      "pin_name": "RTS",
+      "type": "Input",
+      "description_fa": "Request to send.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0049",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        32
+      ],
+      "pin_name": "TXD",
+      "type": "Output",
+      "description_fa": "Transmit data.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0050",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        31
+      ],
+      "pin_name": "RXD",
+      "type": "Input",
+      "description_fa": "Receive data.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0051",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5",
+      "related_commands": [
+        "dat_01_0004"
+      ],
+      "related_states": [
+        "dat_05_0007"
+      ]
+    },
+    {
+      "pin_number": [
+        7
+      ],
+      "pin_name": "VBUS",
+      "type": "Input",
+      "description_fa": "USB power supply.",
+      "voltage_level": "4.3 - 7.0 V",
+      "max_rating": "12 V",
+      "notes_fa": null,
+      "id": "dat_07_0052",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        59
+      ],
+      "pin_name": "USB_DP",
+      "type": "Bidirectional",
+      "description_fa": "USB data plus.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0053",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        19
+      ],
+      "pin_name": "USB_DN",
+      "type": "Bidirectional",
+      "description_fa": "USB data minus.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0054",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        50
+      ],
+      "pin_name": "ADC",
+      "type": "Analog",
+      "description_fa": "ورودی آنالوگ 10 بیتی.",
+      "voltage_level": "0 - 2.8 V",
+      "max_rating": "2.8 V",
+      "notes_fa": null,
+      "id": "dat_07_0055",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        26
+      ],
+      "pin_name": "PWM",
+      "type": "Output",
+      "description_fa": "PWM برای درایو ویبراتور/backlight.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0056",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        75
+      ],
+      "pin_name": "SDA",
+      "type": "Bidirectional",
+      "description_fa": "I2C serial bus data (open drain).",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0057",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        74
+      ],
+      "pin_name": "SCL",
+      "type": "Output",
+      "description_fa": "I2C serial bus clock (open drain).",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0058",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        16
+      ],
+      "pin_name": "SIM_VDD",
+      "type": "Output",
+      "description_fa": "تغذیه کارت SIM. پشتیبانی 1.8V و 3.0V.",
+      "voltage_level": "1.8 V or 3.0 V",
+      "max_rating": "10 mA",
+      "notes_fa": null,
+      "id": "dat_07_0059",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5",
+      "related_commands": [
+        "dat_01_0012"
+      ]
+    },
+    {
+      "pin_number": [
+        14
+      ],
+      "pin_name": "SIM_DATA",
+      "type": "Bidirectional",
+      "description_fa": "SIM data input/output.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0060",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        55
+      ],
+      "pin_name": "SIM_CLK",
+      "type": "Output",
+      "description_fa": "SIM clock.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0061",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        15
+      ],
+      "pin_name": "SIM_RST",
+      "type": "Output",
+      "description_fa": "SIM reset.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0062",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        54
+      ],
+      "pin_name": "SIM_DET",
+      "type": "Input",
+      "description_fa": "SIM card detection.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0063",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5",
+      "related_commands": [
+        "dat_01_0012"
+      ]
+    },
+    {
+      "pin_number": [
+        40
+      ],
+      "pin_name": "GSM_ANT",
+      "type": "RF",
+      "description_fa": "پد آنتن GSM (50 ohm).",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0064",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        36
+      ],
+      "pin_name": "BT_ANT",
+      "type": "RF",
+      "description_fa": "پد آنتن بلوتوث. فقط در SIM800H فعال.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0065",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        17
+      ],
+      "pin_name": "FM_ANTP",
+      "type": "RF",
+      "description_fa": "آنتن FM دیفرانسیل (P).",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0066",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        57
+      ],
+      "pin_name": "FM_ANTN",
+      "type": "RF",
+      "description_fa": "آنتن FM دیفرانسیل (N).",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0067",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "17",
+        "section": "3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 5"
+    },
+    {
+      "pin_number": [
+        5
+      ],
+      "pin_name": "RF_SYNC",
+      "type": "Output",
+      "description_fa": "سیگنال همگام‌سازی RF.",
+      "voltage_level": null,
+      "max_rating": null,
+      "notes_fa": null,
+      "id": "dat_07_0068",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "51",
+        "section": "4.18"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 40",
+      "related_commands": [
+        "dat_01_0018"
+      ]
+    },
+    {
+      "pin_number": [
+        47
+      ],
+      "pin_name": "ISINK0",
+      "type": "Output",
+      "description_fa": "Sink current for LCM module.",
+      "voltage_level": null,
+      "max_rating": "24 mA (6-level)",
+      "notes_fa": null,
+      "id": "dat_07_0069",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "51",
+        "section": "4.17"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 38"
+    },
+    {
+      "pin_number": [
+        46
+      ],
+      "pin_name": "ISINK1",
+      "type": "Output",
+      "description_fa": "Sink current for keypad LED.",
+      "voltage_level": null,
+      "max_rating": "60-100 mA",
+      "notes_fa": null,
+      "id": "dat_07_0070",
+      "category": "unspecified",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "51",
+        "section": "4.17"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 38"
+    }
+  ]
+}

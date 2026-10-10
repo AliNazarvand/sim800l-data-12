@@ -8,7 +8,7 @@
   "phase_completed": 2,
   "record_count": 12,
   "min_records_required": 8,
-  "status": "partial",
+  "status": "blocked",
   "reason": null,
   "pending_fields": [
     "urc_at_* additional URCs from AT Command Manual (+CMTI, +CMT, +CLIP, +CRING, RING, +CIPRXGET, +CIPCLOSE, +PDP: DEACT, ...)"

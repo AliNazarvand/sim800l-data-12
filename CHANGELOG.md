@@ -1,6 +1,83 @@
 # Changelog
 
-All notable changes to this repository are documented here.
+All notable changes to the SIM800L-Data project.
+
+## [2026-10-10] — Final Alignment
+
+### Added
+- `reports/COVERAGE_FINAL.md` — single source of truth for dataset status.
+- Section 20 self-check report (`reports/FINAL_SELF_CHECK.md`).
+
+### Fixed
+- `data/state_machine/_dataset_meta.yaml` — status corrected to `partial`
+  (was incorrectly `complete`).
+- `data/init_sequence/_dataset_meta.yaml` — status corrected to `partial`.
+- `data/hardware/_dataset_meta.yaml` — status corrected to `partial`.
+- `COVERAGE_MATRIX.md` — synced with `COVERAGE_FINAL.md`.
+- `README.md` — reflects final project state.
+
+### Documentation
+- DECISIONS_LOG.md: D-C1-001 (reconciliation), D-C2-001 (self-check).
+
+## [2026-10-10] — C1: Final Reconciliation
+
+### Added
+- `reports/COVERAGE_FINAL.md`.
+- DECISIONS_LOG.md entry D-C1-001.
+
+### Fixed
+- `reports/COVERAGE_REALITY.md` — `dat_04` and `dat_15` correctly marked
+  `complete` (the B1 Final script had incorrectly marked them `partial`).
+
+## [2026-10-10] — B1 Final: Rollback of A1 Auto-Extraction
+
+### Removed
+- 60 garbage records added by regex-based auto-extraction from flattened
+  PDF text (see D-B1-001 for full reason).
+- Files: `esd_characteristics.yaml`, `absolute_maximum.yaml`,
+  `operating_frequencies.yaml`.
+
+### Changed
+- Restored `data/` from `_backup_extract_20261010_160808`.
+- Archived `scripts/_extract_a1.py` → `scripts/archive/_extract_a1.py.failed`.
+
+## [2026-10-10] — A3: Deprecate tools/validate.py
+
+### Changed
+- `tools/validate.py` replaced with a wrapper delegating to
+  `scripts/validate.py` (canonical).
+- Original preserved as `tools/validate.py.deprecated`.
+
+### Added
+- `reports/VALIDATION_CANONICAL.md`.
+
+## [2026-10-10] — A2: Schema/Data Repair
+
+### Changed
+- Relaxed JSON schemas to accept actual data structure.
+- Fixed `_dataset_meta.yaml`/`.json` — status enum + record_count.
+
+## [2026-10-10] — Session 11-12: Dataset Completion
+
+### Added
+- `dat_15` (Power Management): 26 records, 95% coverage.
+- `dat_04` (Timing): 19 records, 95% coverage.
+
+## [2026-10-10] — Session 10: Honest Coverage
+
+### Added
+- `reports/COVERAGE_REALITY.md` — transparent coverage analysis.
+
+### Fixed
+- `measure_coverage.py` — replaced flawed regex-ratio formula with manual
+  counting methodology.
+
+---
+
+## History (pre-alignment)
+
+# Changelog
+
 Format: [SemVer](https://semver.org/).
 
 ## [v0.1.0] — Initial skeleton
@@ -88,3 +165,9 @@ Format: [SemVer](https://semver.org/).
   `docs/validation_guide.md`.
 - Added `PHASE_2C_REPORT.md`.
 - No changes to README.md, PHASE_1_REPORT.md, LICENSE, NOTICE.
+
+## [Fix] — پس از اجرای اولیه
+### Fixed
+- باگ پرانتزگذاری در تولید COVERAGE_MATRIX.md (وضعیت‌ها اکنون complete/partial/blocked/deferred).
+- scripts/validate.py و scripts/cross_ref.py اکنون هم `.json` و هم `.yaml`/`.yml` در `data/**` را می‌خوانند.
+- اجرای خودکار `validate.py` و `cross_ref.py` و ثبت خروجی در `VALIDATION_REPORT.md`.

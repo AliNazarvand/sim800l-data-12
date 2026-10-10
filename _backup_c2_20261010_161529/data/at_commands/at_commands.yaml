@@ -1,0 +1,517 @@
+records:
+- command: AT+CBAND
+  syntax: AT+CBAND=<band>
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Set the operating frequency band.
+  purpose_fa: تنظیم باند فرکانسی عملیاتی ماژول.
+  category: Network
+  id: dat_01_0001
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '11'
+    section: '2.1'
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Table 2'
+- command: AT+CPOWD
+  syntax: AT+CPOWD=1
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  - NORMAL POWER DOWN
+  purpose_en: Normal power down of the module.
+  purpose_fa: خاموش‌کردن عادی ماژول.
+  category: System
+  id: dat_01_0002
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '24'
+    section: 4.2.2.2
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+  related_states:
+  - dat_05_0001
+  - dat_05_0002
+  - dat_05_0003
+  - dat_05_0004
+  related_urcs:
+  - dat_02_0004
+- command: AT+CFUN
+  syntax: AT+CFUN=<fun>
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Set functionality level (0 = minimum, 1 = full, 4 = flight).
+  purpose_fa: تنظیم سطح عملکرد (0=حداقل، 1=کامل، 4=حالت پرواز).
+  category: Power
+  id: dat_01_0003
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '26'
+    section: 4.3.1
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+  related_states:
+  - dat_05_0001
+  - dat_05_0002
+  - dat_05_0003
+  - dat_05_0004
+  related_urcs:
+  - dat_02_0001
+- command: AT+CSCLK
+  syntax: AT+CSCLK=1
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Enable Sleep Mode 1 controlled by DTR.
+  purpose_fa: فعال‌سازی حالت خواب ۱ با کنترل DTR.
+  category: Power
+  id: dat_01_0004
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '27'
+    section: 4.3.2
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+  related_states:
+  - dat_05_0003
+  - dat_05_0006
+  - dat_05_0007
+- command: AT+CSCLK
+  syntax: AT+CSCLK=2
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Enable Sleep Mode 2 (auto entry after 5s of no RXD data).
+  purpose_fa: فعال‌سازی حالت خواب ۲ (ورود خودکار پس از ۵ ثانیه بی‌فعالیتی RXD).
+  category: Power
+  id: dat_01_0005
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '27'
+    section: 4.3.4
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- command: AT+IPR
+  syntax: AT+IPR=<rate>
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Set fixed baud rate and save to non-volatile memory.
+  purpose_fa: تنظیم baud rate ثابت و ذخیره در حافظه غیرفرار.
+  category: System
+  id: dat_01_0006
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '23'
+    section: 4.2.1
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+  related_urcs:
+  - dat_02_0001
+  - dat_02_0003
+- command: AT+CBC
+  syntax: AT+CBC
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  - '+CBC: <bcs>,<bcl>,<voltage>'
+  purpose_en: Read VBAT voltage (battery charge status).
+  purpose_fa: خواندن ولتاژ VBAT (وضعیت شارژ باتری).
+  category: Power
+  id: dat_01_0007
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '22'
+    section: 4.1.2
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+  related_states:
+  - dat_05_0001
+  - dat_05_0008
+  - dat_05_0009
+  - dat_05_0010
+  - dat_05_0011
+  related_urcs:
+  - dat_02_0005
+  - dat_02_0006
+  - dat_02_0007
+  - dat_02_0008
+- command: AT+CMTE
+  syntax: AT+CMTE
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  - '+CMTE: <temp>'
+  purpose_en: Read module temperature (when enabled).
+  purpose_fa: خواندن دمای ماژول (در صورت فعال بودن).
+  category: System
+  id: dat_01_0008
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '25'
+    section: 4.2.2.4
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+  related_urcs:
+  - dat_02_0009
+  - dat_02_0010
+  - dat_02_0011
+  - dat_02_0012
+- command: AT+CADC
+  syntax: AT+CADC
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  - '+CADC: <value>'
+  purpose_en: Read the auxiliary ADC input voltage.
+  purpose_fa: خواندن ولتاژ ورودی ADC کمکی.
+  category: System
+  id: dat_01_0009
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '47'
+    section: '4.13'
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- command: AT+SPWM
+  syntax: AT+SPWM=<period>,<duty>
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Set PWM output period and duty cycle.
+  purpose_fa: تنظیم پریود و چرخه کاری خروجی PWM.
+  category: System
+  id: dat_01_0010
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '48'
+    section: '4.14'
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- command: AT+SGPIO
+  syntax: AT+SGPIO=<pin>,<mode>,<value>
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Set or read GPIO pin state.
+  purpose_fa: تنظیم یا خواندن وضعیت پایه GPIO.
+  category: System
+  id: dat_01_0011
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '47'
+    section: '4.12'
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- command: AT+CSDT
+  syntax: AT+CSDT=<mode>
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Enable or disable SIM card detection.
+  purpose_fa: فعال/غیرفعال‌سازی تشخیص کارت SIM.
+  category: SIM
+  id: dat_01_0012
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '38'
+    section: 4.8.1
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- command: AT+CMIC
+  syntax: AT+CMIC=<channel>,<gain>
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Adjust microphone input gain level.
+  purpose_fa: تنظیم سطح بهره ورودی میکروفن.
+  category: Audio
+  id: dat_01_0013
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '36'
+    section: '4.7'
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- command: AT+SIDET
+  syntax: AT+SIDET=<channel>,<level>
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Set side-tone level.
+  purpose_fa: تنظیم سطح side-tone.
+  category: Audio
+  id: dat_01_0014
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '36'
+    section: '4.7'
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- command: AT+CLVL
+  syntax: AT+CLVL=<level>
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Adjust audio output gain level.
+  purpose_fa: تنظیم سطح بهره خروجی صدا.
+  category: Audio
+  id: dat_01_0015
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '36'
+    section: '4.7'
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- command: AT+IFC
+  syntax: AT+IFC=<dce_by_dte>,<dte_by_dce>
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Enable (2,2) or disable (0,0) hardware flow control.
+  purpose_fa: فعال‌سازی (2,2) یا غیرفعال‌سازی (0,0) کنترل جریان سخت‌افزاری.
+  category: System
+  id: dat_01_0016
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '29'
+    section: '4.5'
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Table 9'
+- command: AT+CMNRP
+  syntax: AT+CMNRP=1
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Enable dual serial port function (one full modem + one three-wire).
+  purpose_fa: فعال‌سازی قابلیت دو پورت سریال (یک full modem + یک سه‌سیمه).
+  category: System
+  id: dat_01_0017
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '29'
+    section: '4.5'
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- command: AT+SJDR
+  syntax: AT+SJDR
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  purpose_en: Switch RF_SYNC pin to RF jamming detection mode.
+  purpose_fa: تغییر حالت پایه RF_SYNC به تشخیص پارازیت RF.
+  category: Network
+  id: dat_01_0018
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '52'
+    section: 4.18.1
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- command: AT+CPIN
+  syntax: AT+CPIN=<pin>[,<newpin>]
+  parameters: []
+  responses:
+  - OK
+  - ERROR
+  - '+CME ERROR: <err>'
+  purpose_en: Enter PIN or query SIM status.
+  purpose_fa: ورود PIN یا استعلام وضعیت SIM.
+  category: SIM
+  id: dat_01_0019
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '30'
+    section: 4.5.1
+  source_type: primary
+  confidence: 0.5
+  status: partial
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T00:00:00Z'
+  updated_at: '2026-10-10T00:00:00Z'
+  notes: استخراج از Hardware Design PDF؛ syntax دقیق نیازمند AT Command Manual است.

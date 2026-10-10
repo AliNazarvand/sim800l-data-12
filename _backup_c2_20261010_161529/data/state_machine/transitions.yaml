@@ -1,0 +1,265 @@
+records:
+- transition_id: T001
+  from_state: POWER_OFF
+  to_state: POWER_ON_PWRKEY_PRESSED
+  trigger: PWRKEY pulled low
+  hardware_condition: PWRKEY low for >=1 second
+  id: dat_05_0012
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '22'
+    section: 4.2.1
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Figure 12'
+- transition_id: T002
+  from_state: POWER_ON_PWRKEY_PRESSED
+  to_state: POWER_ON_RDY_RECEIVED
+  trigger: RDY URC received
+  hardware_condition: VDD_EXT=2.8V; STATUS=high
+  id: dat_05_0013
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '23'
+    section: 4.2.1
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Figure 12'
+- transition_id: T003
+  from_state: NORMAL_OPERATION
+  to_state: POWER_DOWN_PWRKEY_PRESSED
+  trigger: PWRKEY pulled low >=1s
+  hardware_condition: PWRKEY low
+  id: dat_05_0014
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '23'
+    section: 4.2.2.1
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Figure 13'
+- transition_id: T004
+  from_state: POWER_DOWN_PWRKEY_PRESSED
+  to_state: POWER_OFF
+  trigger: NORMALPOWERDOWN URC emitted
+  hardware_condition: VDD_EXT=low; STATUS=low
+  id: dat_05_0015
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '24'
+    section: 4.2.2.1
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- transition_id: T005
+  from_state: POWER_OFF
+  to_state: POWER_ON_PWRKEY_PRESSED
+  trigger: PWRKEY pulled low (restart)
+  hardware_condition: After T3>=800ms from STATUS low
+  id: dat_05_0016
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '25'
+    section: 4.2.2.5
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Figure 14'
+- transition_id: T006
+  from_state: NORMAL_OPERATION
+  to_state: RESET_ACTIVE
+  trigger: RESET pulled low for >=105ms
+  hardware_condition: RESET V_IL <0.6V
+  id: dat_05_0017
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '26'
+    section: 4.2.3
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Figure 16'
+- transition_id: T007
+  from_state: RESET_ACTIVE
+  to_state: POWER_ON_RDY_RECEIVED
+  trigger: RESET released
+  hardware_condition: STATUS high after 2.7s
+  id: dat_05_0018
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '26'
+    section: 4.2.3
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Figure 16'
+- transition_id: T008
+  from_state: NORMAL_OPERATION
+  to_state: SLEEP_MODE_1
+  trigger: AT+CSCLK=1 AND DTR high AND no interrupts
+  hardware_condition: DTR high
+  id: dat_05_0019
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '27'
+    section: 4.3.2
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- transition_id: T009
+  from_state: SLEEP_MODE_1
+  to_state: NORMAL_OPERATION
+  trigger: DTR pulled low for >=50ms OR incoming call/SMS
+  hardware_condition: DTR low >=50ms
+  id: dat_05_0020
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '27'
+    section: 4.3.3
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- transition_id: T010
+  from_state: NORMAL_OPERATION
+  to_state: SLEEP_MODE_2
+  trigger: AT+CSCLK=2 AND no RXD data for 5s
+  hardware_condition: No RXD activity
+  id: dat_05_0021
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '27'
+    section: 4.3.4
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- transition_id: T011
+  from_state: SLEEP_MODE_2
+  to_state: NORMAL_OPERATION
+  trigger: Send data via RXD OR incoming call/SMS
+  hardware_condition: RXD data received
+  id: dat_05_0022
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '27'
+    section: 4.3.5
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+- transition_id: T012
+  from_state: NORMAL_OPERATION
+  to_state: POWER_OFF
+  trigger: VBAT <=3.4V OR >=4.4V (auto power-down)
+  hardware_condition: URC emitted first
+  id: dat_05_0023
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '24'
+    section: 4.2.2.3
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'

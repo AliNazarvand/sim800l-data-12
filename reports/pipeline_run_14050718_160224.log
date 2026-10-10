@@ -1,0 +1,972 @@
+Python: C:\Python314\python.exe
+================================================================
+SIM800L-Data Pipeline Orchestration
+Project: D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004
+Log:     D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\reports\pipeline_run_14050718_160224.log
+================================================================
+
+[STEP 0] preflight
+
+==> Running: tools\preflight.py 
+----------------------------------------
+  OK   [V1.00] D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\SIM800L_Hardware_Design_V1.00.pdf
+  OK   [V2.02] D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\SIM800H&SIM800L_Hardware_Design_V2.02.pdf
+  
+  All primary source PDFs are present.
+----------------------------------------
+  [OK] tools\preflight.py (exit 0)
+
+[STEP 1] extract PDF text
+
+==> Running: tools\extract_pdf.py 
+----------------------------------------
+  usage: _extract.py <pdf> <out.txt> <pages_dir> <label>
+----------------------------------------
+  [FAIL] tools\extract_pdf.py (exit 2)
+
+==> Running: scripts\extract_pdf.py 
+----------------------------------------
+  [WARN] no PDFs in D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\sources\originals
+----------------------------------------
+  [OK] scripts\extract_pdf.py (exit 0)
+
+==> Running: scripts\extract_pdf_v2.py 
+----------------------------------------
+  [FATAL] no PDF found in D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\sources
+----------------------------------------
+  [FAIL] scripts\extract_pdf_v2.py (exit 1)
+
+[STEP 2] migrate records
+
+==> Running: scripts\migrate_records.py 
+----------------------------------------
+  [OK]   data\state_machine\transitions.yaml: 12 records
+  [OK]   reports\MIGRATION_REPORT.md  (12 records)
+----------------------------------------
+  [OK] scripts\migrate_records.py (exit 0)
+
+[STEP 3] fix related fields
+
+==> Running: scripts\fix_related_fields.py 
+----------------------------------------
+  [SKIP] dat_07.schema.yaml: all fields already present
+  [SKIP] dat_13.schema.yaml: all fields already present
+  [OK]   fix_related_fields.py done (0 fields added)
+----------------------------------------
+  [OK] scripts\fix_related_fields.py (exit 0)
+
+[STEP 4] populate cross-references
+
+==> Running: scripts\populate_cross_refs.py 
+----------------------------------------
+  [OK]   data\timing\timing.yaml: 4 fields updated
+  [OK]   data\state_machine\states.yaml: 4 fields updated
+  [OK]   data\at_commands\at_commands.yaml: 1 fields updated
+  [OK]   populate_cross_refs.py v2 done (9 field updates)
+----------------------------------------
+  [OK] scripts\populate_cross_refs.py (exit 0)
+
+==> Running: scripts\populate_cross_refs_v3.py 
+----------------------------------------
+  [OK]   populate_cross_refs_v3.py done (0 updates)
+----------------------------------------
+  [OK] scripts\populate_cross_refs_v3.py (exit 0)
+
+==> Running: scripts\cross_ref.py 
+----------------------------------------
+  [OK]   reports\CROSS_REF_REPORT.md  (116 refs)
+----------------------------------------
+  [OK] scripts\cross_ref.py (exit 0)
+
+[STEP 5] clean schemas
+
+==> Running: scripts\clean_schemas.py 
+----------------------------------------
+  [OK]   reports\SCHEMA_CLEAN_REPORT.md  (removed: 0, missing: 4)
+----------------------------------------
+  [OK] scripts\clean_schemas.py (exit 0)
+
+[STEP 6] check meta consistency
+
+==> Running: scripts\check_meta_consistency.py 
+----------------------------------------
+  [OK]   reports\META_CONSISTENCY_REPORT.md  (0 mismatches, 0 missing)
+----------------------------------------
+  [OK] scripts\check_meta_consistency.py (exit 0)
+
+[STEP 7] generate JSON mirrors
+
+==> Running: tools\generate_json.py 
+----------------------------------------
+  wrote data\at_commands\_dataset_meta.json
+  wrote data\at_commands\at_commands.json
+  wrote data\audio\_dataset_meta.json
+  wrote data\audio\audio_at.json
+  wrote data\audio\audio_hw.json
+  wrote data\board_evb\_dataset_meta.json
+  wrote data\board_evb\boards.json
+  wrote data\certificate_keystore\_dataset_meta.json
+  wrote data\certificate_keystore\certificate_keystore.json
+  wrote data\certification\_dataset_meta.json
+  wrote data\certification\certification.json
+  wrote data\error_codes\_dataset_meta.json
+  wrote data\error_codes\error_codes.json
+  wrote data\firmware_compat\_dataset_meta.json
+  wrote data\firmware_compat\firmware_compat.json
+  wrote data\gprs_data\_dataset_meta.json
+  wrote data\gprs_data\gprs_data.json
+  wrote data\hardware\_dataset_meta.json
+  wrote data\hardware\electrical.json
+  wrote data\hardware\interfaces.json
+  wrote data\hardware\physical.json
+  wrote data\hardware\pinout.json
+  wrote data\hardware\power_consumption.json
+  wrote data\hardware\rf_characteristics.json
+  wrote data\http_ftp_ssl\_dataset_meta.json
+  wrote data\http_ftp_ssl\http_ftp_ssl.json
+  wrote data\init_sequence\_dataset_meta.json
+  wrote data\init_sequence\hardware_init.json
+  wrote data\operator_apn\_dataset_meta.json
+  wrote data\operator_apn\operator_apn.json
+  wrote data\power_management\_dataset_meta.json
+  wrote data\power_management\power_modes.json
+  wrote data\sim_management\_dataset_meta.json
+  wrote data\sim_management\sim_management_at.json
+  wrote data\sim_management\sim_management_hw.json
+  wrote data\sms\_dataset_meta.json
+  wrote data\sms\sms.json
+  wrote data\state_machine\_dataset_meta.json
+  wrote data\state_machine\states.json
+  wrote data\state_machine\transitions.json
+  wrote data\timing\_dataset_meta.json
+  wrote data\timing\timing.json
+  wrote data\urc\_dataset_meta.json
+  wrote data\urc\urc_at.json
+  wrote data\urc\urc_hw.json
+----------------------------------------
+  [OK] tools\generate_json.py (exit 0)
+
+[STEP 8] validate
+
+==> Running: scripts\validate.py 
+----------------------------------------
+  == validate.py (YAML only) ==
+  -- Level 1: schema (actual) --
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\hardware\rf_characteristics.yaml: Additional properties are not allowed ('value_max', 'value_min', 'value_typ' were unexpected) (path=[])
+  [FAIL] L1 data\state_machine\states.yaml: Additional properties are not allowed ('description_en' was unexpected) (path=[])
+  [FAIL] L1 data\state_machine\states.yaml: Additional properties are not allowed ('description_en' was unexpected) (path=[])
+  [FAIL] L1 data\state_machine\states.yaml: Additional properties are not allowed ('description_en' was unexpected) (path=[])
+  [FAIL] L1 data\state_machine\states.yaml: Additional properties are not allowed ('description_en' was unexpected) (path=[])
+  -- Level 2: business logic --
+  -- Level 3: cross-reference --
+  -- Level 4: consistency --
+  == total errors: 24 ==
+----------------------------------------
+  [FAIL] scripts\validate.py (exit 1)
+
+==> Running: tools\validate.py 
+----------------------------------------
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[0] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[1] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'related_urcs', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[2] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'related_urcs', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[3] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[4] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[5] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'related_urcs', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[6] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'related_urcs', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[7] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'related_urcs', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[8]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[8] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[8] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[9]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[9] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[9] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[10]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[10] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[10] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[11]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[11] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[11] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[12]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[12] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[12] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[13]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[13] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[13] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[14]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[14] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[14] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[15]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[15] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[15] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[16]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[16] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[16] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[17]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[17] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[17] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[18]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[18] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\at_commands.yaml record[18] <root>: Additional properties are not allowed ('applicable_models', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\_dataset_meta.yaml: invalid status 'blocked'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\at_commands\_dataset_meta.yaml: record_count=18 does not match actual 19
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_at.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_at.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_at.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_at.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[8]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[8] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[9]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\urc_hw.yaml record[9] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\urc\_dataset_meta.yaml: invalid status 'blocked'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\error_codes\_dataset_meta.yaml: invalid status 'blocked'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[0] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[1] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[2] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[3] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[4] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[5] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[6] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[7] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[8]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[8] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[8] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[9]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[9] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[9] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[10]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[10] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[10] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[11]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[11] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[11] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[12]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[12] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[12] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[13]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[13] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[13] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[14]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[14] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[14] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[15]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[15] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[15] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[16]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[16] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[16] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[17]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[17] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[17] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[18]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[18] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[18] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[19]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[19] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\timing.yaml record[19] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\timing\_dataset_meta.yaml: record_count=11 does not match actual 20
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[0] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[1] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[2] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[3] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[4] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[5] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[6] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[7] <root>: Additional properties are not allowed ('actions', 'applicable_models', 'category', 'confidence', 'created_at', 'description_en', 'events', 'id', 'notes', 'related_commands', 'related_timings', 'related_urcs', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[8]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[8] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[8] <root>: Additional properties are not allowed ('actions', 'applicable_models', 'category', 'confidence', 'created_at', 'description_en', 'events', 'id', 'notes', 'related_commands', 'related_timings', 'related_urcs', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[9]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[9] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[9] <root>: Additional properties are not allowed ('actions', 'applicable_models', 'category', 'confidence', 'created_at', 'description_en', 'events', 'id', 'notes', 'related_commands', 'related_timings', 'related_urcs', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[10]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[10] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\states.yaml record[10] <root>: Additional properties are not allowed ('actions', 'applicable_models', 'category', 'confidence', 'created_at', 'description_en', 'events', 'id', 'notes', 'related_commands', 'related_timings', 'related_urcs', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[0] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[1] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[2] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[3] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[4] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[5] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[6] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[7] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[8]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[8] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[8] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[9]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[9] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[9] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[10]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[10] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[10] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[11]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[11] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\transitions.yaml record[11] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\state_machine\_dataset_meta.yaml: record_count=19 does not match actual 23
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[0] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[1] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[2] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[3] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[4] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\hardware_init.yaml record[5] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\init_sequence\_dataset_meta.yaml: record_count=5 does not match actual 6
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[8]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[8] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[9]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\electrical.yaml record[9] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[8]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\interfaces.yaml record[8] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\physical.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\physical.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[8]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[8] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[9]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[9] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[10]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[10] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[11]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[11] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[12]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[12] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[13]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[13] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[14]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[14] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[15]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[15] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[16]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[16] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[17]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[17] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[18]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[18] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[19]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[19] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[20]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[20] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[21]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[21] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[22]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[22] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[23]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[23] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[24]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[24] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[25]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[25] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[26]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[26] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[27]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[27] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[28]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[28] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[29]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[29] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[30]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[30] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[31]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[31] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[32]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[32] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[33]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[33] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[34]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[34] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[35]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[35] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[36]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[36] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[37]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[37] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[38]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[38] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[39]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[39] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[40]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[40] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[41]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[41] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[42]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[42] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[43]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[43] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[44]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[44] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[45]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[45] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[46]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[46] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[47]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[47] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[48]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[48] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[49]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\pinout.yaml record[49] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[8]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[8] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[9]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\power_consumption.yaml record[9] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[8]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[8] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[9]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[9] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[10]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[10] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[11]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[11] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[12]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[12] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[13]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[13] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[14]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[14] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[15]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[15] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[16]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[16] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[17]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[17] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[18]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[18] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[19]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\rf_characteristics.yaml record[19] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\hardware\_dataset_meta.yaml: record_count=80 does not match actual 100
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\firmware_compat\_dataset_meta.yaml: invalid status 'blocked'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sms\sms.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sms\sms.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sms\sms.yaml record[0] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sms\sms.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sms\sms.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sms\sms.yaml record[1] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sms\sms.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sms\sms.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sms\sms.yaml record[2] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sms\_dataset_meta.yaml: invalid status 'blocked'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[0] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[1] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[2] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[3] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[4] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[5] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\gprs_data.yaml record[6] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\gprs_data\_dataset_meta.yaml: invalid status 'blocked'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\http_ftp_ssl\_dataset_meta.yaml: invalid status 'blocked'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\audio_hw.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\audio\_dataset_meta.yaml: invalid status 'blocked'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\sim_management_hw.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\sim_management\_dataset_meta.yaml: invalid status 'blocked'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[0]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[0] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[0] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[1]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[1] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[1] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[2]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[2] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[2] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'related_states', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[3]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[3] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[3] <root>: Additional properties are not allowed ('applicable_models', 'category', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[4]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[4] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[4] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[4] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[4] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[5]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[5] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[5] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[5] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[5] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[6]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[6] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[6] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[6] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[6] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[7]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[7] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[7] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[7] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[7] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[8]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[8] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[8] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[8] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[8] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[9]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[9] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[9] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[9] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[9] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[10]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[10] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[10] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[10] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[10] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[11]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[11] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[11] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[11] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[11] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[12]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[12] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[12] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[12] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[12] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[13]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[13] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[13] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[13] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[13] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[14]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[14] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[14] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[14] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[14] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[15]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[15] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[15] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[15] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[15] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[16]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[16] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[16] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[16] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[16] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[17]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[17] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[17] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[17] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[17] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[18]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[18] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[18] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[18] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[18] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[19]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[19] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[19] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[19] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[19] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[20]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[20] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[20] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[20] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[20] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[21]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[21] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[21] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[21] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[21] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[22]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[22] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[22] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[22] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[22] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[23]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[23] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[23] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[23] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[23] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[24]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[24] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[24] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[24] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[24] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[25]: missing _meta object
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[25] <root>: '_meta' is a required property
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[25] entry_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[25] exit_condition: None is not of type 'string'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\power_modes.yaml record[25] <root>: Additional properties are not allowed ('applicable_models', 'category', 'condition', 'confidence', 'created_at', 'id', 'notes', 'related_commands', 'source', 'source_type', 'status', 'updated_at' were unexpected)
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\power_management\_dataset_meta.yaml: record_count=4 does not match actual 26
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\certificate_keystore\_dataset_meta.yaml: invalid status 'blocked'
+  D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\data\certification\_dataset_meta.yaml: invalid status 'blocked'
+  
+  FAILED: 629 error(s).
+----------------------------------------
+  [FAIL] tools\validate.py (exit 1)
+
+[STEP 9] measure coverage
+
+==> Running: scripts\measure_coverage.py 
+----------------------------------------
+  [OK]   reports\COVERAGE_MEASUREMENT.md
+  [OK]   reports\_coverage_summary.json
+    dat_04_timing: data=20 pdf=18 cov=61% est=medium
+    dat_05_state_machine: data=23 pdf=7 cov=80% est=medium
+    dat_06_init_sequence: data=6 pdf=6 cov=83% est=medium
+    dat_07_hardware: data=100 pdf=100 cov=70% est=medium
+    dat_15_power: data=26 pdf=23 cov=17% est=low
+----------------------------------------
+  [OK] scripts\measure_coverage.py (exit 0)
+
+================================================================
+REAL COVERAGE REPORT
+================================================================
+
+Found: reports\_coverage_summary.json
+  {
+  "dat_04_timing": {
+    "folder": "timing",
+    "pdf_hits": 32,
+    "data_recs": 20,
+    "real_pdf_params": 18,
+    "coverage_estimate": "medium",
+    "coverage_pct": "61%",
+    "missing_examples": [
+      "NETLIGHT blink timings (64/800, 64/3000, 64/300ms) - p49",
+      "VBAT over-voltage warning = 4.3V - p24",
+      "VBAT over-voltage power-down = 4.4V - p24",
+      "RESET V_IH=2.4V, V_IL=0.6V - p26",
+      "Min functionality current = 0.83mA (fun=0) - p26",
+      "PWM frequency 0-2kHz - p48"
+    ]
+  },
+  "dat_05_state_machine": {
+    "folder": "state_machine",
+    "pdf_hits": 3,
+    "data_recs": 23,
+    "real_pdf_params": 7,
+    "coverage_estimate": "medium",
+    "coverage_pct": "80%",
+    "missing_examples": [
+      "Ring/CSD FAX states not fully modeled"
+    ]
+  },
+  "dat_06_init_sequence": {
+    "folder": "init_sequence",
+    "pdf_hits": 25,
+    "data_recs": 6,
+    "real_pdf_params": 6,
+    "coverage_estimate": "medium",
+    "coverage_pct": "83%",
+    "missing_examples": [
+      "Autobauding sync step (send 'AT' until 'OK')"
+    ]
+  },
+  "dat_07_hardware": {
+    "folder": "hardware",
+    "pdf_hits": 11,
+    "data_recs": 100,
+    "real_pdf_params": 100,
+    "coverage_estimate": "medium",
+    "coverage_pct": "70%",
+    "missing_examples": [
+      "RF output power tables (Tables 53-54) - p63-64",
+      "RF receive sensitivity (Table 55) - p64",
+      "Operating frequencies (Table 56) - p64",
+      "ESD characteristics (Table 52) - p62-63",
+      "Moisture sensitivity + baking (Tables 57-58)",
+      "Absolute maximum ratings (Table 42) - p58"
+    ]
+  },
+  "dat_15_power": {
+    "folder": "power_management",
+    "pdf_hits": 55,
+    "data_recs": 26,
+    "real_pdf_params": 23,
+    "coverage_estimate": "low",
+    "coverage_pct": "17%",
+    "missing_examples": [
+      "All GPRS data mode current values (1Rx/4Tx, 3Rx/2Tx, 4Rx/1Tx)",
+      "Voice call current per band (GSM850/EGSM900/DCS1800/PCS1900)",
+      "Min functionality currents for fun=0,4",
+      "Bluetooth current (Search/Match/Connect)"
+    ]
+  }
+}
+
+Existing COVERAGE_REALITY.md (head):
+  # COVERAGE REALITY REPORT
+  
+  > این گزارش یک اعتراف صادقانه است. در run 8، یک اسکریپت با فرمول
+  > معکوس، به‌اشتباه پوشش dat_05 و dat_07 را ۱۰۰٪ گزارش کرد. این گزارش
+  > اعداد واقعی را بر اساس **شمارش دستی جدول‌های PDF** ارائه می‌دهد.
+  
+  ## خطای run 8
+  
+  فرمول اشتباه در `measure_coverage.py`:
+  
+  ```python
+  ratio = min(data_recs / pdf_hits, 1.0)
+  ```
+  
+  این فرمول:
+  - `dat_05`: 19 رکورد ÷ 3 regex = 6.33 → min(6.33, 1.0) = **1.0** → 100% ❌
+  - `dat_07`: 80 رکورد ÷ 30 regex = 2.67 → min(2.67, 1.0) = **1.0** → 100% ❌
+  
+  اما این **بی‌معنی** است. regex-match معیار پوشش نیست.
+  
+  ## اعداد واقعی (بر اساس خواندن دستی PDF)
+  
+  ### dat_04 — Timing & Timeout
+  
+  **پارامترهای زمانی واقعی در PDF (~۱۸ مورد)**:
+  
+  | # | صفحه | پارامتر | در data |
+  |---|---|---|---|
+  | 1 | p21 | TX burst duration (577 µs) | ✅ |
+  | 2 | p22 | PWRKEY power-on low ≥ 1s | ✅ |
+  | 3 | p23 | PWRKEY power-down low ≥ 1s | ✅ |
+  | 4 | p23 | Power-down window 1s~33s | ✅ |
+  | 5 | p24 | VBAT under-voltage warning 3.5V | ✅ |
+  | 6 | p24 | VBAT over-voltage warning 4.3V | ❌ |
+  | 7 | p24 | VBAT under-voltage power-down 3.4V | ❌ |
+  | 8 | p24 | VBAT over-voltage power-down 4.4V | ❌ |
+  | 9 | p25 | Restart wait after STATUS low ≥ 800ms | ✅ |
+  | 10 | p26 | RESET low pulse ≥ 105ms | ✅ |
+  | 11 | p26 | RESET V_IH = 2.4V, V_IL = 0.6V | ❌ |
+  | 12 | p26 | Min functionality current 0.83mA | ❌ |
+
+================================================================
+PIPELINE FINISHED
+================================================================
+
+Log file: D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\004\reports\pipeline_run_14050718_160224.log
+
+NOTE: Data files were NOT modified by this script.
+      Only the existing project pipeline was executed.
+
+Next steps (choose one):
+  A) Paste content of sources\extracted\v2.02.txt here
+     -> I will generate missing hardware records (dat_07, dat_15, etc.)
+
+  B) Obtain SIM800 Series AT Command Manual
+     -> Unblocks 9 datasets (dat_01,02,03,09,10,11,12,13,17)
+
+  C) Accept the ceiling: 5 complete / 10 blocked / 2 deferred
+     -> 100% is IMPOSSIBLE without external sources
+

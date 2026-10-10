@@ -3,7 +3,7 @@ dataset_name: "Firmware Compatibility Matrix"
 phase_completed: 2
 record_count: 0
 min_records_required: 5
-status: "deferred"
+status: "blocked"
 reason: "INSUFFICIENT_RECORDS"
 pending_fields: []
 completion_source: null

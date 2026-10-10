@@ -6,9 +6,9 @@
   "dataset_id": "dat_01",
   "dataset_name": "AT Command DB",
   "phase_completed": 2,
-  "record_count": 18,
+  "record_count": 19,
   "min_records_required": 15,
-  "status": "partial",
+  "status": "blocked",
   "reason": null,
   "pending_fields": [
     "syntax details (full AT+XXX=<params> grammar from AT Command Manual)",

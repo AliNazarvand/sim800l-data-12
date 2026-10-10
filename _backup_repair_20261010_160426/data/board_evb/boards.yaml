@@ -1,0 +1,5 @@
+records: []
+# STATUS: DEFERRED TO PHASE 2B - INSUFFICIENT_RECORDS
+# Neither V1.00 nor V2.02 introduces a specific EVB with at least 5 populated
+# fields (input_voltage, interfaces_exposed, pin_mapping, regulator_onboard,
+# level_shifter_onboard). See raw/dat_16_extract.md.

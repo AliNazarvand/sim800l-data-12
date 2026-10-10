@@ -1,0 +1,12 @@
+dataset_id: "dat_09"
+dataset_name: "SMS DB"
+phase_completed: 2
+record_count: 3
+min_records_required: 3
+status: "blocked"
+reason: null
+pending_fields:
+  - "AT+CMGS, AT+CMGR, AT+CMGD, AT+CMGW, AT+CMGF, AT+CSCA, AT+CPMS, AT+CNMI (from AT Command Manual)"
+completion_source: null
+last_updated: "2026-10-10"
+retry_count: 0

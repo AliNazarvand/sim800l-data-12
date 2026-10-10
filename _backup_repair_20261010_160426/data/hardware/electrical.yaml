@@ -1,0 +1,251 @@
+records:
+- parameter: VBAT_operating_range
+  symbol: VBAT
+  min_value: 3.4
+  typical_value: 4.0
+  max_value: 4.4
+  unit: V
+  condition: Normal operation
+  notes_fa: null
+  id: dat_07_0001
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: '6.2'
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Table 43'
+- parameter: VBAT_absolute_max
+  symbol: VBAT
+  min_value: null
+  typical_value: null
+  max_value: 4.5
+  unit: V
+  condition: Absolute maximum (non-operating)
+  notes_fa: null
+  id: dat_07_0002
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: '6.1'
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Table 42'
+- parameter: Peak_current_during_TX_burst
+  symbol: I
+  min_value: 0
+  typical_value: null
+  max_value: 2.0
+  unit: A
+  condition: During TX burst
+  notes_fa: null
+  id: dat_07_0003
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: '6.1'
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Table 42'
+- parameter: Digital_VIH
+  symbol: V_IH
+  min_value: 2.1
+  typical_value: null
+  max_value: 3.1
+  unit: V
+  condition: Digital interface pins
+  notes_fa: null
+  id: dat_07_0004
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: '6.3'
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Table 44'
+- parameter: Digital_VIL
+  symbol: V_IL
+  min_value: -0.3
+  typical_value: null
+  max_value: 0.7
+  unit: V
+  condition: Digital interface pins
+  notes_fa: null
+  id: dat_07_0005
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: '6.3'
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Table 44'
+- parameter: Digital_VOH
+  symbol: V_OH
+  min_value: 2.4
+  typical_value: 2.8
+  max_value: null
+  unit: V
+  condition: Digital interface pins
+  notes_fa: null
+  id: dat_07_0006
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: '6.3'
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Table 44'
+- parameter: Digital_VOL
+  symbol: V_OL
+  min_value: null
+  typical_value: null
+  max_value: 0.4
+  unit: V
+  condition: Digital interface pins
+  notes_fa: null
+  id: dat_07_0007
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: '6.3'
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Table 44'
+- parameter: VDD_EXT_output
+  symbol: V_O
+  min_value: 2.7
+  typical_value: 2.8
+  max_value: 2.9
+  unit: V
+  condition: Normal operation
+  notes_fa: null
+  id: dat_07_0008
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: '6.6'
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Table 47'
+- parameter: SIM_VDD_output
+  symbol: SIM_VDD
+  min_value: 1.8
+  typical_value: null
+  max_value: 3.0
+  unit: V
+  condition: Auto-detect 1.8V or 3.0V SIM
+  notes_fa: null
+  id: dat_07_0009
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: '6.5'
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Table 46'
+- parameter: VRTC_input_voltage
+  symbol: V_RTC_IN
+  min_value: 1.2
+  typical_value: 2.8
+  max_value: 3.0
+  unit: V
+  condition: RTC backup input
+  notes_fa: null
+  id: dat_07_0010
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: '6.7'
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Table 48'

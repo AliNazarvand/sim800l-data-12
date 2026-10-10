@@ -1,0 +1,343 @@
+records:
+- state_id: POWER_OFF
+  state_name: Power off
+  description_fa: null
+  entry_conditions:
+  - PWRKEY low >=1s OR AT+CPOWD=1 OR under/over-voltage
+  exit_conditions:
+  - PWRKEY low >=1s to power on
+  related_pins:
+  - PWRKEY
+  - VBAT
+  - VRTC
+  - STATUS
+  id: dat_05_0001
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '22'
+    section: '4.2'
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+  related_commands:
+  - dat_01_0002
+  - dat_01_0003
+  - dat_01_0007
+- state_id: POWER_ON_PWRKEY_PRESSED
+  state_name: Power on, PWRKEY pressed
+  description_fa: null
+  entry_conditions:
+  - PWRKEY pulled low
+  exit_conditions:
+  - PWRKEY released AND power-on procedure complete
+  related_pins:
+  - PWRKEY
+  - VDD_EXT
+  - STATUS
+  id: dat_05_0002
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '23'
+    section: 4.2.1
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Figure 12'
+  related_commands:
+  - dat_01_0002
+  - dat_01_0003
+- state_id: POWER_ON_RDY_RECEIVED
+  state_name: RDY received
+  description_fa: null
+  entry_conditions:
+  - Power-on procedure completed AND RDY URC received
+  exit_conditions:
+  - Enter normal operation
+  related_pins:
+  - TXD
+  - RXD
+  - VDD_EXT
+  - STATUS
+  id: dat_05_0003
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '23'
+    section: 4.2.1
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Figure 12'
+  related_commands:
+  - dat_01_0004
+- state_id: POWER_DOWN_PWRKEY_PRESSED
+  state_name: Power down, PWRKEY pressed
+  description_fa: null
+  entry_conditions:
+  - PWRKEY low >=1s during normal operation
+  exit_conditions:
+  - Power down complete
+  related_pins:
+  - PWRKEY
+  - VDD_EXT
+  - STATUS
+  id: dat_05_0004
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '23'
+    section: 4.2.2.1
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Figure 13'
+  related_commands:
+  - dat_01_0002
+  - dat_01_0003
+- state_id: RESET_ACTIVE
+  state_name: Reset active
+  description_fa: null
+  entry_conditions:
+  - RESET pulled low >=105ms
+  exit_conditions:
+  - RESET released AND STATUS returns high after 2.7s
+  related_pins:
+  - RESET
+  - VDD_EXT
+  - STATUS
+  id: dat_05_0005
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '25'
+    section: 4.2.3
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10 | Figure: Figure 16'
+- state_id: SLEEP_MODE_1
+  state_name: Sleep mode 1 (AT+CSCLK=1)
+  description_fa: null
+  entry_conditions:
+  - AT+CSCLK=1 AND DTR high AND no interrupts
+  exit_conditions:
+  - DTR pulled low >=50ms OR incoming call/SMS
+  related_pins:
+  - DTR
+  - TXD
+  - RXD
+  id: dat_05_0006
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '27'
+    section: 4.3.2
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+  related_commands:
+  - dat_01_0004
+- state_id: SLEEP_MODE_2
+  state_name: Sleep mode 2 (AT+CSCLK=2)
+  description_fa: null
+  entry_conditions:
+  - AT+CSCLK=2 AND no RXD data for 5s AND no interrupts
+  exit_conditions:
+  - Send data via RXD OR incoming call/SMS
+  related_pins:
+  - RXD
+  id: dat_05_0007
+  category: unspecified
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '27'
+    section: 4.3.4
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T11:09:18Z'
+  updated_at: '2026-10-10T11:09:18Z'
+  notes: 'License: See NOTICE file for licensing and copyright information. | Extracted
+    at: 2026-10-10'
+  related_commands:
+  - dat_01_0004
+- state_id: GSM_IDLE
+  state_name: GSM Idle
+  description_fa: null
+  description_en: Module registered to GSM network, ready to communicate, no call/data
+    in progress.
+  entry_conditions:
+  - Power-on complete AND registered
+  exit_conditions:
+  - Call initiation or incoming call or data activation
+  events: []
+  actions: []
+  related_pins:
+  - VBAT
+  related_commands:
+  - dat_01_0007
+  related_urcs: []
+  related_timings: []
+  id: dat_05_0008
+  category: state_machine
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '13'
+    section: 2.3 / Table 4
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T12:11:58Z'
+  updated_at: '2026-10-10T12:11:58Z'
+  notes: Extracted from Table 4 (Overview of operating modes), page 13.
+- state_id: GSM_TALK
+  state_name: GSM Voice Call
+  description_fa: null
+  description_en: Voice call in progress between two subscribers.
+  entry_conditions:
+  - Call established (MO or MT)
+  exit_conditions:
+  - Call hangup from either side
+  events: []
+  actions: []
+  related_pins:
+  - VBAT
+  related_commands:
+  - dat_01_0007
+  related_urcs: []
+  related_timings: []
+  id: dat_05_0009
+  category: state_machine
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '13'
+    section: 2.3 / Table 4
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T12:11:58Z'
+  updated_at: '2026-10-10T12:11:58Z'
+  notes: Extracted from Table 4 (Overview of operating modes), page 13.
+- state_id: GPRS_STANDBY
+  state_name: GPRS Standby
+  description_fa: null
+  description_en: GPRS attached, ready for data transfer, no data currently sent/received.
+  entry_conditions:
+  - PDP context activated
+  - AT+CGATT=1
+  exit_conditions:
+  - Data transfer begins
+  events: []
+  actions: []
+  related_pins:
+  - VBAT
+  related_commands:
+  - dat_01_0007
+  related_urcs: []
+  related_timings: []
+  id: dat_05_0010
+  category: state_machine
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '13'
+    section: 2.3 / Table 4
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T12:11:58Z'
+  updated_at: '2026-10-10T12:11:58Z'
+  notes: Extracted from Table 4 (Overview of operating modes), page 13.
+- state_id: GPRS_DATA
+  state_name: GPRS Data Transfer
+  description_fa: null
+  description_en: Active GPRS data transfer (PPP / TCP / UDP).
+  entry_conditions:
+  - Data connection established
+  exit_conditions:
+  - Data transfer complete or connection closed
+  events: []
+  actions: []
+  related_pins:
+  - VBAT
+  related_commands:
+  - dat_01_0007
+  related_urcs: []
+  related_timings: []
+  id: dat_05_0011
+  category: state_machine
+  source:
+    name: SIM800H&SIM800L_Hardware_Design_V2.02
+    version: V2.02
+    date: '2015-07-27'
+    page: '13'
+    section: 2.3 / Table 4
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T12:11:58Z'
+  updated_at: '2026-10-10T12:11:58Z'
+  notes: Extracted from Table 4 (Overview of operating modes), page 13.

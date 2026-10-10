@@ -1,0 +1,528 @@
+{
+  "_auto_generated": {
+    "marker": "AUTO-GENERATED — DO NOT EDIT",
+    "generator": "tools/generate_json.py"
+  },
+  "records": [
+    {
+      "parameter": "VBAT_absolute_max",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": null,
+      "value_max": 4.5,
+      "unit": "V",
+      "condition": "Absolute maximum ratings (non-operating)",
+      "id": "dat_07_0081",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "58",
+        "section": "6.1 / Table 42"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Stresses beyond this will damage the module."
+    },
+    {
+      "parameter": "Current_absolute_max",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": null,
+      "value_max": 2.0,
+      "unit": "A",
+      "condition": "Absolute maximum ratings",
+      "id": "dat_07_0082",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "58",
+        "section": "6.1 / Table 42"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.1 / Table 42, page 58."
+    },
+    {
+      "parameter": "VBUS_absolute_max",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": null,
+      "value_max": 12.0,
+      "unit": "V",
+      "condition": "Absolute maximum ratings",
+      "id": "dat_07_0083",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "58",
+        "section": "6.1 / Table 42"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.1 / Table 42, page 58."
+    },
+    {
+      "parameter": "Digital_interface_current_max",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": null,
+      "value_max": 16.0,
+      "unit": "mA",
+      "condition": "Digital interface pins (keypad/GPIO/I2C/UART/LCD/PCM)",
+      "id": "dat_07_0084",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "58",
+        "section": "6.1 / Table 42"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.1 / Table 42, page 58."
+    },
+    {
+      "parameter": "ESD_VBAT_contact",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": null,
+      "value_max": 6.0,
+      "unit": "kV",
+      "condition": "Contact discharge, T=25C, RH=45%",
+      "id": "dat_07_0085",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "63",
+        "section": "6.9 / Table 52"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.9 / Table 52, page 63."
+    },
+    {
+      "parameter": "ESD_VBAT_air",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": null,
+      "value_max": 12.0,
+      "unit": "kV",
+      "condition": "Air discharge",
+      "id": "dat_07_0086",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "63",
+        "section": "6.9 / Table 52"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.9 / Table 52, page 63."
+    },
+    {
+      "parameter": "ESD_UART_contact",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": null,
+      "value_max": 2.0,
+      "unit": "kV",
+      "condition": "RXD/TXD contact discharge",
+      "id": "dat_07_0087",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "63",
+        "section": "6.9 / Table 52"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.9 / Table 52, page 63."
+    },
+    {
+      "parameter": "ESD_antenna_contact",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": null,
+      "value_max": 5.0,
+      "unit": "kV",
+      "condition": "Antenna port contact discharge",
+      "id": "dat_07_0088",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "63",
+        "section": "6.9 / Table 52"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.9 / Table 52, page 63."
+    },
+    {
+      "parameter": "ESD_audio_contact",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": null,
+      "value_max": 2.0,
+      "unit": "kV",
+      "condition": "SPK/MIC contact discharge",
+      "id": "dat_07_0089",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "63",
+        "section": "6.9 / Table 52"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.9 / Table 52, page 63."
+    },
+    {
+      "parameter": "ESD_PWRKEY_contact",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": null,
+      "value_max": 2.0,
+      "unit": "kV",
+      "condition": "PWRKEY contact discharge",
+      "id": "dat_07_0090",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "63",
+        "section": "6.9 / Table 52"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.9 / Table 52, page 63."
+    },
+    {
+      "parameter": "RF_output_power_GSM850_PCL5",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": 33.0,
+      "value_max": null,
+      "unit": "dBm",
+      "condition": "GSM850, PCL=5, normal",
+      "id": "dat_07_0091",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "63",
+        "section": "6.10.1 / Table 53"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.10.1 / Table 53, page 63."
+    },
+    {
+      "parameter": "RF_output_power_EGSM900_PCL5",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": 33.0,
+      "value_max": null,
+      "unit": "dBm",
+      "condition": "EGSM900, PCL=5, normal",
+      "id": "dat_07_0092",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "63",
+        "section": "6.10.1 / Table 53"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.10.1 / Table 53, page 63."
+    },
+    {
+      "parameter": "RF_output_power_DCS1800_PCL0",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": 30.0,
+      "value_max": null,
+      "unit": "dBm",
+      "condition": "DCS1800, PCL=0, normal",
+      "id": "dat_07_0093",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "64",
+        "section": "6.10.1 / Table 54"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.10.1 / Table 54, page 64."
+    },
+    {
+      "parameter": "RF_output_power_PCS1900_PCL0",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": 30.0,
+      "value_max": null,
+      "unit": "dBm",
+      "condition": "PCS1900, PCL=0, normal",
+      "id": "dat_07_0094",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "64",
+        "section": "6.10.1 / Table 54"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.10.1 / Table 54, page 64."
+    },
+    {
+      "parameter": "RF_receive_sensitivity_GSM850_EGSM900",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": -108.0,
+      "value_max": -106.0,
+      "unit": "dBm",
+      "condition": "Static condition",
+      "id": "dat_07_0095",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "64",
+        "section": "6.10.2 / Table 55"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.10.2 / Table 55, page 64."
+    },
+    {
+      "parameter": "RF_receive_sensitivity_DCS1800_PCS1900",
+      "category": "rf_esd",
+      "value_min": null,
+      "value_typ": -108.0,
+      "value_max": -106.0,
+      "unit": "dBm",
+      "condition": "Static condition",
+      "id": "dat_07_0096",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "64",
+        "section": "6.10.2 / Table 55"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.10.2 / Table 55, page 64."
+    },
+    {
+      "parameter": "Operating_frequency_GSM850",
+      "category": "rf_esd",
+      "value_min": 824.0,
+      "value_typ": null,
+      "value_max": 894.0,
+      "unit": "MHz",
+      "condition": "TX 824-849 / RX 869-894",
+      "id": "dat_07_0097",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "64",
+        "section": "6.10.3 / Table 56"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.10.3 / Table 56, page 64."
+    },
+    {
+      "parameter": "Operating_frequency_EGSM900",
+      "category": "rf_esd",
+      "value_min": 880.0,
+      "value_typ": null,
+      "value_max": 960.0,
+      "unit": "MHz",
+      "condition": "TX 880-915 / RX 925-960",
+      "id": "dat_07_0098",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "64",
+        "section": "6.10.3 / Table 56"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.10.3 / Table 56, page 64."
+    },
+    {
+      "parameter": "Operating_frequency_DCS1800",
+      "category": "rf_esd",
+      "value_min": 1710.0,
+      "value_typ": null,
+      "value_max": 1880.0,
+      "unit": "MHz",
+      "condition": "TX 1710-1785 / RX 1805-1880",
+      "id": "dat_07_0099",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "64",
+        "section": "6.10.3 / Table 56"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.10.3 / Table 56, page 64."
+    },
+    {
+      "parameter": "Operating_frequency_PCS1900",
+      "category": "rf_esd",
+      "value_min": 1850.0,
+      "value_typ": null,
+      "value_max": 1990.0,
+      "unit": "MHz",
+      "condition": "TX 1850-1910 / RX 1930-1990",
+      "id": "dat_07_0100",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "64",
+        "section": "6.10.3 / Table 56"
+      },
+      "source_type": "primary",
+      "confidence": 0.95,
+      "status": "complete",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T12:11:59Z",
+      "updated_at": "2026-10-10T12:11:59Z",
+      "notes": "Extracted from section 6.10.3 / Table 56, page 64."
+    }
+  ]
+}

@@ -5,26 +5,6 @@
   },
   "records": [
     {
-      "_meta": {
-        "id": "dat_01_at_001",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 11,
-        "source_section": "2.1",
-        "source_figure_number": "Table 2",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+CBAND",
       "syntax": "AT+CBAND=<band>",
       "parameters": [],
@@ -34,29 +14,26 @@
       ],
       "purpose_en": "Set the operating frequency band.",
       "purpose_fa": "تنظیم باند فرکانسی عملیاتی ماژول.",
-      "category": "Network"
+      "category": "Network",
+      "id": "dat_01_0001",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "11",
+        "section": "2.1"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 2"
     },
     {
-      "_meta": {
-        "id": "dat_01_at_002",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 24,
-        "source_section": "4.2.2.2",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+CPOWD",
       "syntax": "AT+CPOWD=1",
       "parameters": [],
@@ -67,29 +44,35 @@
       ],
       "purpose_en": "Normal power down of the module.",
       "purpose_fa": "خاموش‌کردن عادی ماژول.",
-      "category": "System"
+      "category": "System",
+      "id": "dat_01_0002",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "24",
+        "section": "4.2.2.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10",
+      "related_states": [
+        "dat_05_0001",
+        "dat_05_0002",
+        "dat_05_0003",
+        "dat_05_0004"
+      ],
+      "related_urcs": [
+        "dat_02_0004"
+      ]
     },
     {
-      "_meta": {
-        "id": "dat_01_at_003",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 26,
-        "source_section": "4.3.1",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+CFUN",
       "syntax": "AT+CFUN=<fun>",
       "parameters": [],
@@ -99,29 +82,35 @@
       ],
       "purpose_en": "Set functionality level (0 = minimum, 1 = full, 4 = flight).",
       "purpose_fa": "تنظیم سطح عملکرد (0=حداقل، 1=کامل، 4=حالت پرواز).",
-      "category": "Power"
+      "category": "Power",
+      "id": "dat_01_0003",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "26",
+        "section": "4.3.1"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10",
+      "related_states": [
+        "dat_05_0001",
+        "dat_05_0002",
+        "dat_05_0003",
+        "dat_05_0004"
+      ],
+      "related_urcs": [
+        "dat_02_0001"
+      ]
     },
     {
-      "_meta": {
-        "id": "dat_01_at_004",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 27,
-        "source_section": "4.3.2",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+CSCLK",
       "syntax": "AT+CSCLK=1",
       "parameters": [],
@@ -131,29 +120,31 @@
       ],
       "purpose_en": "Enable Sleep Mode 1 controlled by DTR.",
       "purpose_fa": "فعال‌سازی حالت خواب ۱ با کنترل DTR.",
-      "category": "Power"
+      "category": "Power",
+      "id": "dat_01_0004",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "27",
+        "section": "4.3.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10",
+      "related_states": [
+        "dat_05_0003",
+        "dat_05_0006",
+        "dat_05_0007"
+      ]
     },
     {
-      "_meta": {
-        "id": "dat_01_at_005",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 27,
-        "source_section": "4.3.4",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+CSCLK",
       "syntax": "AT+CSCLK=2",
       "parameters": [],
@@ -163,29 +154,26 @@
       ],
       "purpose_en": "Enable Sleep Mode 2 (auto entry after 5s of no RXD data).",
       "purpose_fa": "فعال‌سازی حالت خواب ۲ (ورود خودکار پس از ۵ ثانیه بی‌فعالیتی RXD).",
-      "category": "Power"
+      "category": "Power",
+      "id": "dat_01_0005",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "27",
+        "section": "4.3.4"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10"
     },
     {
-      "_meta": {
-        "id": "dat_01_at_006",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 23,
-        "source_section": "4.2.1",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+IPR",
       "syntax": "AT+IPR=<rate>",
       "parameters": [],
@@ -195,29 +183,30 @@
       ],
       "purpose_en": "Set fixed baud rate and save to non-volatile memory.",
       "purpose_fa": "تنظیم baud rate ثابت و ذخیره در حافظه غیرفرار.",
-      "category": "System"
+      "category": "System",
+      "id": "dat_01_0006",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "23",
+        "section": "4.2.1"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10",
+      "related_urcs": [
+        "dat_02_0001",
+        "dat_02_0003"
+      ]
     },
     {
-      "_meta": {
-        "id": "dat_01_at_007",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 22,
-        "source_section": "4.1.2",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+CBC",
       "syntax": "AT+CBC",
       "parameters": [],
@@ -228,29 +217,39 @@
       ],
       "purpose_en": "Read VBAT voltage (battery charge status).",
       "purpose_fa": "خواندن ولتاژ VBAT (وضعیت شارژ باتری).",
-      "category": "Power"
+      "category": "Power",
+      "id": "dat_01_0007",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "22",
+        "section": "4.1.2"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10",
+      "related_states": [
+        "dat_05_0001",
+        "dat_05_0008",
+        "dat_05_0009",
+        "dat_05_0010",
+        "dat_05_0011"
+      ],
+      "related_urcs": [
+        "dat_02_0005",
+        "dat_02_0006",
+        "dat_02_0007",
+        "dat_02_0008"
+      ]
     },
     {
-      "_meta": {
-        "id": "dat_01_at_008",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 25,
-        "source_section": "4.2.2.4",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+CMTE",
       "syntax": "AT+CMTE",
       "parameters": [],
@@ -261,29 +260,32 @@
       ],
       "purpose_en": "Read module temperature (when enabled).",
       "purpose_fa": "خواندن دمای ماژول (در صورت فعال بودن).",
-      "category": "System"
+      "category": "System",
+      "id": "dat_01_0008",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "25",
+        "section": "4.2.2.4"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10",
+      "related_urcs": [
+        "dat_02_0009",
+        "dat_02_0010",
+        "dat_02_0011",
+        "dat_02_0012"
+      ]
     },
     {
-      "_meta": {
-        "id": "dat_01_at_009",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 47,
-        "source_section": "4.13",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+CADC",
       "syntax": "AT+CADC",
       "parameters": [],
@@ -294,29 +296,26 @@
       ],
       "purpose_en": "Read the auxiliary ADC input voltage.",
       "purpose_fa": "خواندن ولتاژ ورودی ADC کمکی.",
-      "category": "System"
+      "category": "System",
+      "id": "dat_01_0009",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "47",
+        "section": "4.13"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10"
     },
     {
-      "_meta": {
-        "id": "dat_01_at_010",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 48,
-        "source_section": "4.14",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+SPWM",
       "syntax": "AT+SPWM=<period>,<duty>",
       "parameters": [],
@@ -326,29 +325,26 @@
       ],
       "purpose_en": "Set PWM output period and duty cycle.",
       "purpose_fa": "تنظیم پریود و چرخه کاری خروجی PWM.",
-      "category": "System"
+      "category": "System",
+      "id": "dat_01_0010",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "48",
+        "section": "4.14"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10"
     },
     {
-      "_meta": {
-        "id": "dat_01_at_011",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 47,
-        "source_section": "4.12",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+SGPIO",
       "syntax": "AT+SGPIO=<pin>,<mode>,<value>",
       "parameters": [],
@@ -358,29 +354,26 @@
       ],
       "purpose_en": "Set or read GPIO pin state.",
       "purpose_fa": "تنظیم یا خواندن وضعیت پایه GPIO.",
-      "category": "System"
+      "category": "System",
+      "id": "dat_01_0011",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "47",
+        "section": "4.12"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10"
     },
     {
-      "_meta": {
-        "id": "dat_01_at_012",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 38,
-        "source_section": "4.8.1",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+CSDT",
       "syntax": "AT+CSDT=<mode>",
       "parameters": [],
@@ -390,29 +383,26 @@
       ],
       "purpose_en": "Enable or disable SIM card detection.",
       "purpose_fa": "فعال/غیرفعال‌سازی تشخیص کارت SIM.",
-      "category": "SIM"
+      "category": "SIM",
+      "id": "dat_01_0012",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "38",
+        "section": "4.8.1"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10"
     },
     {
-      "_meta": {
-        "id": "dat_01_at_013",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 36,
-        "source_section": "4.7",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+CMIC",
       "syntax": "AT+CMIC=<channel>,<gain>",
       "parameters": [],
@@ -422,29 +412,26 @@
       ],
       "purpose_en": "Adjust microphone input gain level.",
       "purpose_fa": "تنظیم سطح بهره ورودی میکروفن.",
-      "category": "Audio"
+      "category": "Audio",
+      "id": "dat_01_0013",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "36",
+        "section": "4.7"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10"
     },
     {
-      "_meta": {
-        "id": "dat_01_at_014",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 36,
-        "source_section": "4.7",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+SIDET",
       "syntax": "AT+SIDET=<channel>,<level>",
       "parameters": [],
@@ -454,29 +441,26 @@
       ],
       "purpose_en": "Set side-tone level.",
       "purpose_fa": "تنظیم سطح side-tone.",
-      "category": "Audio"
+      "category": "Audio",
+      "id": "dat_01_0014",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "36",
+        "section": "4.7"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10"
     },
     {
-      "_meta": {
-        "id": "dat_01_at_015",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 36,
-        "source_section": "4.7",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+CLVL",
       "syntax": "AT+CLVL=<level>",
       "parameters": [],
@@ -486,29 +470,26 @@
       ],
       "purpose_en": "Adjust audio output gain level.",
       "purpose_fa": "تنظیم سطح بهره خروجی صدا.",
-      "category": "Audio"
+      "category": "Audio",
+      "id": "dat_01_0015",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "36",
+        "section": "4.7"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10"
     },
     {
-      "_meta": {
-        "id": "dat_01_at_016",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 29,
-        "source_section": "4.5",
-        "source_figure_number": "Table 9",
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+IFC",
       "syntax": "AT+IFC=<dce_by_dte>,<dte_by_dce>",
       "parameters": [],
@@ -518,29 +499,26 @@
       ],
       "purpose_en": "Enable (2,2) or disable (0,0) hardware flow control.",
       "purpose_fa": "فعال‌سازی (2,2) یا غیرفعال‌سازی (0,0) کنترل جریان سخت‌افزاری.",
-      "category": "System"
+      "category": "System",
+      "id": "dat_01_0016",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "29",
+        "section": "4.5"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10 | Figure: Table 9"
     },
     {
-      "_meta": {
-        "id": "dat_01_at_017",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 29,
-        "source_section": "4.5",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+CMNRP",
       "syntax": "AT+CMNRP=1",
       "parameters": [],
@@ -550,29 +528,26 @@
       ],
       "purpose_en": "Enable dual serial port function (one full modem + one three-wire).",
       "purpose_fa": "فعال‌سازی قابلیت دو پورت سریال (یک full modem + یک سه‌سیمه).",
-      "category": "System"
+      "category": "System",
+      "id": "dat_01_0017",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "29",
+        "section": "4.5"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10"
     },
     {
-      "_meta": {
-        "id": "dat_01_at_018",
-        "source": "SIM800H&SIM800L_Hardware_Design_V2.02",
-        "source_version": "V2.02",
-        "source_page": 52,
-        "source_section": "4.18.1",
-        "source_figure_number": null,
-        "extracted_at": "2026-10-10",
-        "pending_fields": [
-          "parameters",
-          "responses"
-        ],
-        "compatible_models": [
-          "SIM800L",
-          "SIM800H"
-        ],
-        "missing_reason": null,
-        "completion_source": null,
-        "license_note": "See NOTICE file for licensing and copyright information."
-      },
       "command": "AT+SJDR",
       "syntax": "AT+SJDR",
       "parameters": [],
@@ -582,7 +557,54 @@
       ],
       "purpose_en": "Switch RF_SYNC pin to RF jamming detection mode.",
       "purpose_fa": "تغییر حالت پایه RF_SYNC به تشخیص پارازیت RF.",
-      "category": "Network"
+      "category": "Network",
+      "id": "dat_01_0018",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "52",
+        "section": "4.18.1"
+      },
+      "source_type": "primary",
+      "confidence": 0.7,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T11:09:18Z",
+      "updated_at": "2026-10-10T11:09:18Z",
+      "notes": "License: See NOTICE file for licensing and copyright information. | Extracted at: 2026-10-10"
+    },
+    {
+      "command": "AT+CPIN",
+      "syntax": "AT+CPIN=<pin>[,<newpin>]",
+      "parameters": [],
+      "responses": [
+        "OK",
+        "ERROR",
+        "+CME ERROR: <err>"
+      ],
+      "purpose_en": "Enter PIN or query SIM status.",
+      "purpose_fa": "ورود PIN یا استعلام وضعیت SIM.",
+      "category": "SIM",
+      "id": "dat_01_0019",
+      "source": {
+        "name": "SIM800H&SIM800L_Hardware_Design_V2.02",
+        "version": "V2.02",
+        "date": "2015-07-27",
+        "page": "30",
+        "section": "4.5.1"
+      },
+      "source_type": "primary",
+      "confidence": 0.5,
+      "status": "partial",
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "created_at": "2026-10-10T00:00:00Z",
+      "updated_at": "2026-10-10T00:00:00Z",
+      "notes": "استخراج از Hardware Design PDF؛ syntax دقیق نیازمند AT Command Manual است."
     }
   ]
 }

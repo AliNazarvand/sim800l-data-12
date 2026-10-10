@@ -1,0 +1,70 @@
+{
+  "dat_04_timing": {
+    "folder": "timing",
+    "pdf_hits": 32,
+    "data_recs": 20,
+    "real_pdf_params": 18,
+    "coverage_estimate": "medium",
+    "coverage_pct": "61%",
+    "missing_examples": [
+      "NETLIGHT blink timings (64/800, 64/3000, 64/300ms) - p49",
+      "VBAT over-voltage warning = 4.3V - p24",
+      "VBAT over-voltage power-down = 4.4V - p24",
+      "RESET V_IH=2.4V, V_IL=0.6V - p26",
+      "Min functionality current = 0.83mA (fun=0) - p26",
+      "PWM frequency 0-2kHz - p48"
+    ]
+  },
+  "dat_05_state_machine": {
+    "folder": "state_machine",
+    "pdf_hits": 3,
+    "data_recs": 23,
+    "real_pdf_params": 7,
+    "coverage_estimate": "medium",
+    "coverage_pct": "80%",
+    "missing_examples": [
+      "Ring/CSD FAX states not fully modeled"
+    ]
+  },
+  "dat_06_init_sequence": {
+    "folder": "init_sequence",
+    "pdf_hits": 25,
+    "data_recs": 6,
+    "real_pdf_params": 6,
+    "coverage_estimate": "medium",
+    "coverage_pct": "83%",
+    "missing_examples": [
+      "Autobauding sync step (send 'AT' until 'OK')"
+    ]
+  },
+  "dat_07_hardware": {
+    "folder": "hardware",
+    "pdf_hits": 11,
+    "data_recs": 100,
+    "real_pdf_params": 100,
+    "coverage_estimate": "medium",
+    "coverage_pct": "70%",
+    "missing_examples": [
+      "RF output power tables (Tables 53-54) - p63-64",
+      "RF receive sensitivity (Table 55) - p64",
+      "Operating frequencies (Table 56) - p64",
+      "ESD characteristics (Table 52) - p62-63",
+      "Moisture sensitivity + baking (Tables 57-58)",
+      "Absolute maximum ratings (Table 42) - p58"
+    ]
+  },
+  "dat_15_power": {
+    "folder": "power_management",
+    "pdf_hits": 55,
+    "data_recs": 26,
+    "real_pdf_params": 23,
+    "coverage_estimate": "low",
+    "coverage_pct": "17%",
+    "missing_examples": [
+      "All GPRS data mode current values (1Rx/4Tx, 3Rx/2Tx, 4Rx/1Tx)",
+      "Voice call current per band (GSM850/EGSM900/DCS1800/PCS1900)",
+      "Min functionality currents for fun=0,4",
+      "Bluetooth current (Search/Match/Connect)"
+    ]
+  }
+}
