@@ -1,4 +1,0 @@
-Store the current configuration in
-nonvolatile memory. When the board is
-reset, the configuration changes from the
-last session are loaded.

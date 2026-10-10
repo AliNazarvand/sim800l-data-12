@@ -1,5 +1,0 @@
-AT+CGMI Request Manufacturer Identification					
-Te A	st Command			Response	
-	T+CGMI=?			OK	
-Ex C	ecution			Response	
-	ommand			TA returns manufacturer identification text.	

@@ -1,6 +1,0 @@
-Receive MMS when the MMS push
-message is a concatenated message.
-UART output messages:
-+CMTI: "SM",1,"MMS PUSH",2,1
-+CMTI: "SM",2,"MMS PUSH",2,2
-+CMTI: "SM",1,"MMS PUSH"

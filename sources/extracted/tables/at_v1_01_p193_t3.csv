@@ -1,8 +1,0 @@
-AT+CIPHEAD Add an IP Head at the Beginning of a Package Received	
-Test Command AT+CIPHEAD= ?	Response
-	+CIPHEAD: (list of supported <mode>s)
-	
-	OK
-	Parameter
-	See Write Command
-Read Command	Response

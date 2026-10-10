@@ -1,4 +1,0 @@
-AT&W Store Active Profile	
-Execution Command AT&W[<n>]	Response TA stores the current parameter setting in the user defined profile. OK ERROR
-	Parameter <n> 0 Store the current configuration in profile 0
-Reference V.25ter	Note The user defined profile is stored in non volatile memory.

@@ -1,7 +1,0 @@
-	BPI_BUS1				5				O				Synchronizing signal of RF				
-	Other																
-	RESET				49				I				Reset input(Active low)				
-	ISINK1				46				I				Drive keypad backlight				
-	ISINK0				47				I				Drive LCD backlight				
-	NC																
-	NC				36												

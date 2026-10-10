@@ -1,6 +1,0 @@
-AT+FTPPUTPATH Set Upload File Path	
-Test Command AT+FTPPUTPA TH=?	Response OK
-Read Command AT+FTPPUTPA TH?	Response +FTPPUTPATH: <value> OK
-	Parameter See Write Command
-Write Command AT+FTPPUTPA TH=<value>	Response OK If error is related to ME functionality: +CME ERROR: <err>
-	Parameter <value> Alphanumeric ASCII text string up to 255 characters

@@ -1,6 +1,0 @@
-AT+CPAS Phone Activity Status	
-Test Command AT+CPAS=?	Response +CPAS: (list of supported <pas>s) OK
-	Parameter See Execution Command
-Execution Command AT+CPAS	Response TA returns the activity status of ME. +CPAS: <pas> OK If error is related to ME functionality: +CME ERROR: <err>
-	Parameter <pas> 0 Ready (MT allows commands from TA/TE) 2 Unknown (MT is not guaranteed to respond to tructions) 3 Ringing (MT is ready for commands from TA/TE, but the ringer is active) 4 Call in progress (MT is ready for commands from TA/TE, a call is in progress)
-Reference 3GPP TS 27.007 [13]	Note

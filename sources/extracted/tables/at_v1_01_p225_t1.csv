@@ -1,5 +1,0 @@
-	OK
-	Parameter See Write Command
-Write Command AT+FTPUN=<va lue>	Response OK If error is related to ME functionality: +CME ERROR: <err>
-	Parameter <value> Alphanumeric ASCII text string up to 49 characters.
-Reference	Note

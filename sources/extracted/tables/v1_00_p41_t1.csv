@@ -1,9 +1,0 @@
-	Pin name			Signal			Description	
-	C1			VSIM			SIM card power supply	
-	C2			SIM_RST			SIM card reset	
-	C3			SIM_CLK			SIM card clock	
-	C3			GND			Connect to GND	
-	C5			GND			Connect to GND	
-	C6			VPP			Not connect	
-	C7			SIM_DATA			SIM card data I/O	
-	C8			SIM_PRE			Detect SIM card presence	

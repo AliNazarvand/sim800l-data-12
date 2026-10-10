@@ -1,6 +1,0 @@
-AT+SMTPBODY Set the Email Body	
-Test Command AT+SMTPBODY=?	Response +SMTPBODY: <bodyLength> OK
-	Parameter See Write Command
-Write Command AT+SMTPBODY=< ength> then type data as mail body. When ody’s length equal	Response DOWNLOAD OK If error is related to ME functionality: ERROR
-ength, command is ver!	Parameter <length> The length of Email body.
-Reference	Note (cid:122) If the Email charset is not ASCII, the body of Email must be in hexadecimal format. (cid:122) After urc string “DOWNLOAD”, User can input email’s body!

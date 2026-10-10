@@ -1,6 +1,0 @@
-	Parameter See Write Command
-ead Command AT+CMICBIAS	Response +CMICBIAS: <mode> OK
-	Parameter See Write Command
-Write Command AT+CMICBIAS <mode>	Response OK ERROR
-	Parameter <mode> 0 re-open the micbias 1 close the micbias
-eference	Note

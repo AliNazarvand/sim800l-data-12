@@ -1,4 +1,0 @@
-AT+CIPSHUT Deactivate GPRS PDP Context	
-Test Command AT+CIPSHUT=?	Response OK
-Execution Command AT+CIPSHUT	Response If close is successful: SHUT OK If close fails: ERROR
-Reference	Note If this command is executed in multi-connection mode, all of the IP connection will be shut. User can close gprs pdp context by AT+CIPSHUT. After it is closed, the status is IP INITIAL. If "+PDP: DEACT" urc is reported which means the gprs is released by the network, then user still needs to execute "AT+CIPSHUT" command to make PDP context come back to original state.

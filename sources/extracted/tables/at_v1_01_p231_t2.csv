@@ -1,7 +1,0 @@
-AT+FTPDELE Delete Specified File in FTP Server	
-Test Command AT+FTPDELE=?	Response OK
-	Parameter
-Execution Command AT+FTPDELE	Response If successed: OK +FTPDELE:1,0 If failed: OK +FTPDELE:1,<error> If error is related to ME functionality: +CME ERROR: <err>
-	Parameter <error> See "AT+FTPGET"
-Max Response Time	60 seconds(In case no response is received from server)
-Reference	Note The file to be deleted is specified by the "AT+FTPGETNAME" and "AT+FTPGETPATH" commands.

@@ -1,9 +1,0 @@
-AT+CMSS Send SMS Message from Storage	
-Test Command AT+CMSS=?	Response
-	OK
-Write Command AT+CMSS=<ind x>[,<da>,<toda >]	Response
-	TA sends message with location value <index> from message storage
-	<mem2> to the network (SMS-SUBMIT). If new recipient address <da> is
-	given, it shall be used instead of the one stored with the message. Reference
-	value <mr> is returned to the TE on successful message delivery. Values can
-	be used to identify message upon unsolicited delivery status report result

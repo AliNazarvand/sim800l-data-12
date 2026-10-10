@@ -1,4 +1,0 @@
-	voice call, the first call will be automatically put on hold.
-	The current states of all calls can be easily checked at any time by using the
-	AT+CLCC Command.
-	

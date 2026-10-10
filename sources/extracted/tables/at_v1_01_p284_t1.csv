@@ -1,6 +1,0 @@
-	<text> The text which is synthetized to speech to be played, maximum
-	data length is 956 Bytes
-Reference	Note
-	(cid:122) Call setup will stop the current tts play
-	(cid:122) TTS can play in call, but call release will stop the tts play
-	(cid:122) TTS play is not allowed when alert or ring

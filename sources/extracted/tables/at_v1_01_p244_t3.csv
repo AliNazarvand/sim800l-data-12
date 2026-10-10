@@ -1,2 +1,0 @@
-AT+SMTPFILE Set the Email Attachment	
-Test Command AT+SMTPFILE=?	Response +SMTPFILE: (range of <fileType>s),<fileNameLength>,(range of <encodeType>s) OK

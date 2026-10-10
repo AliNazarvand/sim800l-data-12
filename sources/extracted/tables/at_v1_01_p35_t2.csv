@@ -1,6 +1,0 @@
-ATS10 Set Disconnect Delay after Indicating the Absence of Data Carrier	
-Read Command ATS10?	Response <n> OK
-	Parameter See Write Command
-Write Command ATS10=<n>	Response This parameter setting determines the amount of time that the TA will remain connected in absence of data carrier. If the data carrier is once more detected before disconnecting, the TA remains connected. OK ERROR
-	Parameter <n> 1-15-254 Number of tenths seconds of delay
-Reference V.25ter	Note

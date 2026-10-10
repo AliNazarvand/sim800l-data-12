@@ -1,7 +1,0 @@
-	Pin name			Contact discharge			Air discharge	
-	VBAT			±6KV			±12KV	
-	GND			±6KV			±12KV	
-	RXD, TXD			±2KV			±8KV	
-	Antenna port			±5KV			±10KV	
-	SPK_P/SPK_N/MIC_P/MIC_N			±2KV			±5KV	
-	PWRKEY			±2KV			±8KV	

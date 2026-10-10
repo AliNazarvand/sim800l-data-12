@@ -1,7 +1,0 @@
-AT+SIDET Change the Side Tone Gain Level	
-Test Command AT+SIDET=?	Response
-	+SIDET: (list of supported <channel>s),(list of supported <gainlevel>s)
-	
-	OK
-	Parameters
-	See Write Command

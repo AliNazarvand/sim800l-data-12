@@ -1,6 +1,0 @@
-Test Command AT+FTPPORT= ?	Response OK
-Read Command AT+FTPPORT?	Response +FTPPORT: <value> OK
-	Parameter See Write Command
-Write Command AT+FTPPORT= <value>	Response OK If error is related to ME functionality: +CME ERROR: <err>
-	Parameter <value> The value of FTP Control port, from 1 to 65535. Default value is 21
-Reference	Note Numbers above 65535 are illegal as the port identification fields are 16 bits long in the TCP header.

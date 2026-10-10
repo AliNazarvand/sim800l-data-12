@@ -1,3 +1,0 @@
-AT+CGQREQ Quality of Service Profile (Requested)	
-Test Command AT+CGQREQ=?	Response
-	+CGQREQ: <PDP_type>,(list of supported <precedence>s),(list of

@@ -1,5 +1,0 @@
-AT+CMICBIAS Close or Open the MICBIAS	
-Test Command AT+ CMICBIAS =?	Response
-	+CMICBIAS: (0,1)
-	
-	OK

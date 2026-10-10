@@ -1,9 +1,0 @@
-AT+CRLP Select Radio Link Protocol Parameters			
-Test Command AT+CRLP=?		Response	
-		TA returns values supported. RLP versions 0 and 1 share the same	
-		parameter set.	
-		+CRLP: (list of supported <iws>s),(list of supported <mws>s),(list of	
-		supported <T1>s),(list of supported <N2>s),(list of supported <T4>s)	
-			
-		OK	
-		Parameters	

@@ -1,6 +1,0 @@
-AT+CMMSREAD Read the given file of the MMS in the buffer	
-Test Command AT+CMMSREAD= ?	Response OK
-Write Command AT+CMMSREAD= <fileIndex>	Response +CMMSREAD: <name> <datSize> File content OK
-	Parameters <fileIndex> the index of the file to be read from the MMS in the buffer，i.e. the parameter <fileIndex> in “AT+CMMSRECV” and “AT+CMMSVIEW” <name> the file name to be read <datSize> the size of the file to be read.
-Max Response Time	5s
-Reference	Note If the file type is text, the character set of the output text is Unicode little endian without the header “FF FE”.

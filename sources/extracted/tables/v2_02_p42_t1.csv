@@ -1,5 +1,0 @@
-	Pin name			Pin number		Description	
-	PCM_CLK			29		PCM clock	
-	PCM_OUT			30		PCM data output	
-	PCM_SYNC			65		PCM synchrony	
-	PCM_IN			66		PCM data input	

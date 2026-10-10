@@ -1,4 +1,0 @@
-AT+CIICR Bring Up Wireless Connection with GPRS or CSD	
-Test Command AT+CIICR=?	Response OK
-Execution Command AT+CIICR	Response OK ERROR
-Reference	Note AT+CIICR only activates moving scene at the status of IP START, after operating this Command is executed, the state will be changed to IP CONFIG. After module accepts the activated operation, if it is activated successfully, module state will be changed to IP GPRSACT, and it responds OK, otherwise it will respond ERROR.

@@ -1,8 +1,0 @@
-	Parameter			Specification	
-	Line Interface Format			Linear(Fixed)	
-	Data length			16bits(Fixed)	
-	PCM Clock/Sync Source			Master Mode(Fixed)	
-	PCM Clock Rate			256Khz(Fixed)	
-	PCM Sync Format			Short sync/Long sync both support	
-	Zero Padding/Sign extension			Zero Padding(Fixed)	
-	Data Ordering			MSB/LSB both support	

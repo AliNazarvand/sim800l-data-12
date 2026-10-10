@@ -1,9 +1,0 @@
-AT+GSV Display Product Identification Information	
-Execution Command AT+GSV	Response
-	TA returns product information text
-	
-	Example:
-	SIMCOM_Ltd
-	SIMCOM_SIM800H
-	Revision: 1308B01SIM800H32
-	

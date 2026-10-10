@@ -1,8 +1,0 @@
-	Pin name			Pin number			Mode 0(default)		Mode 1	
-	UART_DTR			69			UART_DTR		GPIO22	
-	UART_RI			68			UART_RI		GPIO23	
-	UART_DCD			70			UART_DCD		GPIO24	
-	CTS			34			CTS		URXD2(IN)	
-	RTS			33			RTS		UTXD2(OUT)	
-	TXD			32			TXD		UTXD1(OUT)	
-	RXD			31			RXD		URXD1(IN)	

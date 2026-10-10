@@ -1,3 +1,0 @@
-AT+CIFSR Get Local IP Address	
-Test Command AT+CIFSR=?	Response OK
-Execution Command AT+CIFSR	Response <IP address> ERROR

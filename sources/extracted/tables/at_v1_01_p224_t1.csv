@@ -1,3 +1,0 @@
-Write Command AT+FTPREST= <value>	Response OK If error is related to ME functionality: +CME ERROR: <err>
-	Parameter <value> Broken point to be resumed
-Reference	Note

@@ -1,8 +1,0 @@
-AT+CRES Restore SMS Settings	
-Test Command AT+CRES=?	Response +CRES: (list of supported <profile>s) OK
-	Parameter See Write Command
-Write Command AT+CRES=<pro file>	Response Execution command restores message service settings from non-volatile memory to active memory. A TA can contain several profiles of settings. Settings specified in commands Service Centre Address +CSCA and Set Message Parameters +CSMP are restored. Certain settings may not be supported by the storage (e.g. (U)SIM SMS parameters) and therefore can not be restored. OK ERROR
-	Parameter <profile> 0 Restore SM service settings from profile 0 1 Restore SM service settings from profile 1 2 Restore SM service settings from profile 2 3 Restore SM service settings from profile 3
-Execution Command AT+CRES	Response Same as AT+CRES=0. OK If error is related to ME functionality: +CMS ERROR <err>
-Max Response Time	5s
-Reference 3GPP TS 27.005	Note

@@ -1,7 +1,0 @@
-AT+FTPGETPATH Set Download File Path	
-Test Command AT+FTPGETPA TH=?	Response OK
-Read Command AT+FTPGETPA TH?	Response +FTPGETPATH: <value> OK
-	Parameter See Write Command
-Write Command AT+FTPGETPA TH=<value>	Response OK If error is related to ME functionality: +CME ERROR: <err>
-	Parameter <value> Alphanumeric ASCII text string up to 255 characters
-Reference	Note

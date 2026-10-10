@@ -1,9 +1,0 @@
-	USSD			Unstructured Supplementary Service Data	
-	Phonebook abbreviations				
-	FD			SIM fix dialing phonebook	
-	LD			SIM last dialing phonebook (list of numbers most recently dialed)	
-	MC			Mobile Equipment list of unanswered MT calls (missed calls)	
-	ON			SIM (or ME) own numbers (MSISDNs) list	
-	RC			Mobile Equipment list of received calls	
-	SM			SIM phonebook	
-	NC			Not connect	

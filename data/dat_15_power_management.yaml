@@ -1,4 +1,4 @@
-# auto-generated at 2026-10-10T15:24:03Z
+# auto-generated at 2026-10-10T15:28:55Z
 - id: dat_15_0001
   category: Sleep
   source:
@@ -127,3 +127,1053 @@
   - +CSDT
   related_states:
   - SLEEP
+- id: dat_15_0005
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '130'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: ''
+  parameter: A T+CSCLK CONFIGURE SLOW CLOCK
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands: []
+  related_states: []
+- id: dat_15_0006
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '144'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CSCLK
+  parameter: AT+CSCLK Configure Slow Clock
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CSCLK
+  related_states: []
+- id: dat_15_0007
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '144'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CSCLK
+  parameter: Test Command AT+CSCLK=? Response
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CSCLK
+  related_states: []
+- id: dat_15_0008
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '144'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CSCLK
+  parameter: Read Command AT+CSCLK? Response
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CSCLK
+  related_states: []
+- id: dat_15_0009
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '144'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CSCLK
+  parameter: Write Command AT+CSCLK=<n > Response
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CSCLK
+  related_states: []
+- id: dat_15_0010
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '144'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: ''
+  parameter: <n> 0 Disable slow clock, module will not enter sleep mode.
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands: []
+  related_states: []
+- id: dat_15_0011
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '144'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: ''
+  parameter: 1 Enable slow clock, it is controlled by DTR. When DTR is
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands: []
+  related_states: []
+- id: dat_15_0012
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '144'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: ''
+  parameter: high, module can enter sleep mode. When DTR changes to low
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands: []
+  related_states: []
+- id: dat_15_0013
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '298'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+IPR
+  parameter: Set the ME to minimum functionality AT+IPR？ AT+CFUN=0 AT+IPR = 115200
+    AT+IPR? AT+CFUN=0 +IPR:0
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+IPR
+  related_states: []
+- id: dat_15_0014
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '298'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CFUN
+  parameter: ME has entered full functionality mode AT+CFUN? +CFUN:1
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CFUN
+  related_states: []
+- id: dat_15_0015
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '299'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+IPR
+  parameter: 'reduce its functionality. This will deregister the handset from the
+    network. AT+IPR? AT+CFUN=0 [wait for deregister] ATD6241xxxx; AT+CFUN=1 +IPR:
+    0 OK OK ERROR OK'
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+IPR
+  related_states: []
+- id: dat_15_0016
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '40'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CSCLK
+  parameter: AT+CSCLK <n> Y
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CSCLK
+  related_states: []
+- id: dat_15_0017
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '40'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CSDT
+  parameter: AT+CSDT <mode> Y
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CSDT
+  related_states: []
+- id: dat_15_0018
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '90'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CFUN
+  parameter: AT+CFUN Set Phone Functionality
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CFUN
+  related_states: []
+- id: dat_15_0019
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '90'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CFUN
+  parameter: Test Command AT+CFUN=? Response
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CFUN
+  related_states: []
+- id: dat_15_0020
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '90'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CFUN
+  parameter: Read Command AT+CFUN? Response
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CFUN
+  related_states: []
+- id: dat_15_0021
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '90'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CFUN
+  parameter: Write Command AT+CFUN=<fun >[,<rst>] Response
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CFUN
+  related_states: []
+- id: dat_15_0022
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '90'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: ''
+  parameter: <fun> 0 Minimum functionality
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands: []
+  related_states: []
+- id: dat_15_0023
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '90'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CFUN
+  parameter: Minimum functionality mode (AT+CFUN=0)and RF disabled
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CFUN
+  related_states: []
+- id: dat_15_0024
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '90'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CFUN
+  parameter: functionality mode (AT+CFUN=4) cannot be switched to each other.
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CFUN
+  related_states: []
+- id: dat_15_0025
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: '90'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CFUN
+  parameter: AT+CFUN=1,1 can be used to reset module purposely at minimum/full
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CFUN
+  related_states: []
+- id: dat_15_0026
+  category: Power
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: ''
+    page: '11'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CFUN
+  parameter: Power saving typical power consumption in sleep mode is 0.7mA (AT+CFUN=0
+    )
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CFUN
+  related_states: []
+- id: dat_15_0027
+  category: Power
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: ''
+    page: '13'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: ''
+  parameter: Normal operation GSM/GPRS SLEEP Module will automatically go into sleep
+    mode if the conditions of sleep
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands: []
+  related_states: []
+- id: dat_15_0028
+  category: Power
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: ''
+    page: '13'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: ''
+  parameter: In sleep mode, the module can still receive paging message and SMS.
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands: []
+  related_states: []
+- id: dat_15_0029
+  category: Power
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: ''
+    page: '13'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CFUN
+  parameter: Minimum functionality mode AT command “AT+CFUN” can be used to set the
+    module to a minimum functionality mode
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CFUN
+  related_states: []
+- id: dat_15_0030
+  category: Power
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: ''
+    page: '27'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: ''
+  parameter: <fun> Current consumption(mA) (sleep mode)
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands: []
+  related_states: []
+- id: dat_15_0031
+  category: Power
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: ''
+    page: '60'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: ''
+  parameter: Sleep mode (at+cfun=1)：
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands: []
+  related_states: []
+- id: dat_15_0032
+  category: Power
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: ''
+    page: '60'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: ''
+  parameter: Idle mode (at+cfun=1)： mA
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands: []
+  related_states: []
+- id: dat_15_0033
+  category: Power
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: ''
+    page: '10'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CSCLK
+  parameter: Add “4.3.4 and 4.3.5” sleep mode 2(AT+CSCLK=2)
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CSCLK
+  related_states: []
+- id: dat_15_0034
+  category: Power
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: ''
+    page: '11'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: ''
+  parameter: Power saving Typical power consumption in sleep mode is 1.04mA (BS_PA_MFRMS=9
+    )
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands: []
+  related_states: []
+- id: dat_15_0035
+  category: Power
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: ''
+    page: '60'
+    section: Power Management
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: extracted from table row
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CFUN
+  parameter: Idle mode (AT+CFUN=1)：
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - AT+CFUN
+  related_states: []
+- id: dat_15_0036
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: ''
+    section: Power
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: command found in AT Manual V1.01
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CSCLK
+  parameter: +CSCLK
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - +CSCLK
+  related_states: []
+- id: dat_15_0037
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: ''
+    section: Power
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: command found in AT Manual V1.01
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CFUN
+  parameter: +CFUN
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - +CFUN
+  related_states: []
+- id: dat_15_0038
+  category: Power
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: ''
+    page: ''
+    section: Power
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: command found in AT Manual V1.01
+  tags:
+  - power
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T15:28:55Z'
+  updated_at: '2026-10-10T15:28:55Z'
+  mode: ''
+  command: AT+CSDT
+  parameter: +CSDT
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: ''
+  condition: ''
+  wake_source: ''
+  related_commands:
+  - +CSDT
+  related_states: []

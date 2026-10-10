@@ -1,6 +1,0 @@
-AT+CACM Accumulated Call Meter(ACM) Reset or Query					
-T A	est Command			Response	
-	T+CACM=?			OK	
-Read Command AT+CACM?	ead Command			Response	
-	T+CACM?			TA returns the current value of ACM.	
-				+CACM: <acm>	

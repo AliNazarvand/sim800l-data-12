@@ -1,3 +1,0 @@
-	Demonstration			Syntax			Expect Result	
-DTMF tones	DTMF tones			AT+CLDTMF=2,		OK	OK	
-				"1,2,3,4,5"				

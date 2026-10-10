@@ -1,6 +1,0 @@
-Test Command AT+FTPGETNA ME=?	Response OK
-Read Command AT+FTPGETNA ME?	Response +FTPGETNAME: <value> OK
-	Parameter See Write Command
-Write Command AT+FTPGETNA ME =<value>	Response OK If error is related to ME functionality: +CME ERROR: <err>
-	Parameter <value> Alphanumeric ASCII text string up to 99 characters
-Reference	Note

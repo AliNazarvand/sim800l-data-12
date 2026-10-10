@@ -1,7 +1,0 @@
-	Demonstration			Syntax			Expect Result	
-Play synthetic speech with UCS2 coding text	Play synthetic speech with UCS2 coding			AT+CTTS=1,"6B228F			OK	
-	text			CE4F7F75288BED97			//speech synthetized	
-				F3540862107CFB7E			successfully, played locally.	
-				DF"			+CTTS:0	
-				// text in UCS2 coding			//speech played over Note:	
-				format，context of the			User needs to wait	

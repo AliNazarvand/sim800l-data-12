@@ -1,8 +1,0 @@
-AT+CEXTERNTONE Close or Open the Microphone	
-Test Command AT+CEXTERN TONE=?	Response +CEXTERNTONE: (0,1) OK
-	Parameter See Write Command
-Read Command AT+CEXTERN TONE?	Response +CEXTERNTONE: <mode> OK
-	Parameter See Write Command
-Write Command AT+CEXTERNT ONE=<mode>	Response OK ERROR
-	Parameter <mode> 0 re-open the microphone 1 close the microphone
-Reference	Note

@@ -1,2 +1,0 @@
-AT+HTTPTERM Terminate HTTP Service	
-Test Command AT+HTTPTER M=?	Response OK

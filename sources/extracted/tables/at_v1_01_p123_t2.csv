@@ -1,6 +1,0 @@
-AT+STKTRS STK Terminal Response.	
-Test Command AT+STKTRS=?	Response +STKTRS: <result_length>,<text_length> OK
-	Parameter See Write Command
-Read Command AT+STKTRS?	Response OK
-	
-Write Command AT+STKTRS =<result>[,<text>]	Response OK ERROR

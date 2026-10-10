@@ -1,7 +1,0 @@
-AT+CRSL?	+CRSL: <level> OK If error is related to ME functionality: +CME ERROR: <err>
-	Parameter See Write Command
-Write Command AT+CRSL=<leve l>	Response OK If error is related to ME functionality: +CME ERROR: <err>
-	Parameter <level> integer type value (0-100) with manufacturer specific range
-Parameter Saving Mode	AUTO_SAVE
-	
-Reference 3GPP TS 27.007 [13]	Note

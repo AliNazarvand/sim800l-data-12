@@ -1,3 +1,0 @@
-	Pin name			Pin number		Description	
-	SCL			74		I2C serial bus clock(open drain output)	
-	SDA			75		I2C serial bus data(open drain output)	

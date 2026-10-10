@@ -1,4 +1,0 @@
-AT+CMMSDELBC C	Response
-	OK
-Reference	Note
-	This command is valid when it is allowed to edit MMS

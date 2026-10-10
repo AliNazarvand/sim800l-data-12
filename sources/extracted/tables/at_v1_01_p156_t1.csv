@@ -1,8 +1,0 @@
-AT+CDEVICE View Current Flash Device Type	
-Read Command AT+CDEVICE?	Response
-	Device Name: Current flash device type
-	
-	OK
-	
-Reference V.25ter	Note
-	

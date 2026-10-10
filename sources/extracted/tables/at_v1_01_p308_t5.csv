@@ -1,6 +1,0 @@
-	Demonstration			Syntax			Expect Result	
-	enable DTMF detection			AT+DDET=1			OK	
-Set up a call connection	Set up a call connection		ATD***********;	ATD***********;			OK	
-							If module detected DTMF,	
-							URC will be reported via	
-							serial port	

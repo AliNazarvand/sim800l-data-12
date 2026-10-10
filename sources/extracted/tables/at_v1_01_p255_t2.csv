@@ -1,4 +1,0 @@
-AT+POP3RSET Unmark the Emails that Be Marked as Deleted	
-Test Command AT+POP3RSET=?	Response
-	OK
-	

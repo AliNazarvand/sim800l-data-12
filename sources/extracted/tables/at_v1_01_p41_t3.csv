@@ -1,5 +1,0 @@
-AT+GMM Request TA Model Identification	
-Test Command AT+GMM=?	Response OK
-Execution Command AT+GMM	TA reports one or more lines of information text which permit the user to identify the specific model of device. <model> OK
-	Parameter <model> Product model identification text
-Reference V.25ter	Note
