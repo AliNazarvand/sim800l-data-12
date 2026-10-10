@@ -1,21 +1,25 @@
 # TODO
 
-## بازبینی دستی موردنیاز — ۱۸ رکورد weak_at_signal در dat_01
+## dat_07 — کارهای باقی‌مانده (partial → complete)
+- [ ] بازبینی رکوردهای Unclassified و انتقال به دسته صحیح.
+- [ ] تکمیل `voltage_min`/`voltage_typ`/`voltage_max`، `current_typ`/`current_max` از متن manual.
+- [ ] تنظیم `direction` (input/output/power/ground) برای هر pin.
+- [ ] تطبیق کامل با فهرست pin در V2.02 برای اطمینان از پوشش ≥ ۹۵٪.
 
-این رکوردها در data/dat_01_at_command.yaml با `status: partial` و `notes: "weak signal..."` علامت‌گذاری شده‌اند. حذف نشده‌اند چون classifier قطعی نیست.
-
-فهرست در `reports/dat_01_APPLY_REFINE.md` ثبت شده است. تصمیم‌گیری درباره هر کدام نیازمند بازبینی دستی مالک پروژه در manual V1.01 است.
+## ۱۸ رکورد weak_at_signal در dat_01 (منتظر بازبینی دستی)
+- فهرست در `reports/dat_01_APPLY_REFINE.md`.
 
 ## منابع گمشده (خارج از پروژه)
-- [ ] SIM800 Series TCP/IP AT Command Manual — موردنیاز برای dat_10
-- [ ] SIM800 Series HTTP AT Command Manual — موردنیاز برای dat_11
-- [ ] SIM800 Series FTP AT Command Manual — موردنیاز برای dat_11
-- [ ] SIM800 Series SSL AT Command Manual — موردنیاز برای dat_11, dat_17
-- [ ] SIM800 Series Audio AT Command Manual — موردنیاز برای dat_12
-- [ ] SIM800 Series SIM AT Command Manual — موردنیاز برای dat_13 (تکمیلی)
-- [ ] SIM800 Series Firmware Release Notes — موردنیاز برای dat_08
-- [ ] اسناد رسمی CE/FCC/GCF — موردنیاز برای dat_18
+- [ ] SIM800 Series TCP/IP AT Command Manual — dat_10
+- [ ] SIM800 Series HTTP AT Command Manual — dat_11
+- [ ] SIM800 Series FTP AT Command Manual — dat_11
+- [ ] SIM800 Series SSL AT Command Manual — dat_11, dat_17
+- [ ] SIM800 Series Audio AT Command Manual — dat_12
+- [ ] SIM800 Series SIM AT Command Manual — dat_13
+- [ ] SIM800 Series Firmware Release Notes — dat_08
+- [ ] اسناد رسمی CE/FCC/GCF — dat_18
 
 ## گام بعدی
-- [ ] خوشه A، عضو A1: `dat_07` Hardware Reference از V2.02 و V1.00
-- [ ] پس از آن: `dat_15` (Power)، `dat_04/05/06` (Timing/State/Init)، `dat_16` (EVB/deferred)
+- [ ] خوشه A، عضو A2: `dat_15` Power Management (از V2.02 و V1.00).
+- [ ] سپس A3: `dat_04` + `dat_05` + `dat_06`.
+- [ ] سپس A4: `dat_16` Board/EVB.

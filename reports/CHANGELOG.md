@@ -1,15 +1,16 @@
 # CHANGELOG
 
-## [0.3.0] — 14050719-000446
+## [0.4.0] — 14050719-000709
 ### Added
-- scripts/apply_refine_dat_01.py — اعمال حذف confirmed_noise + علامت‌گذاری weak_at_signal
-- reports/dat_01_APPLY_REFINE.md و .json
+- scripts/extract_dat_07.py — استخراج pinها از جدول‌های _raw/.
+- data/dat_07_hardware_reference.yaml — پر شد با رکوردهای pin.
+- reports/dat_07_REPORT.md و reports/dat_07_EXTRACT.json.
 
 ### Changed
-- data/dat_01_at_command.yaml — ۱ رکورد حذف، ۱۸ رکورد با status=partial علامت‌گذاری
-- reports/COVERAGE_MATRIX.md — dat_01 وضعیت partial با یادداشت ۱۸ weak
-- reports/TODO.md — بخش weak_at_signal اضافه شد
-- reports/SESSION_LOG.md، DECISIONS_LOG.md
+- reports/COVERAGE_MATRIX.md — dat_07 از pending به partial.
+- reports/TODO.md — کارهای باقی‌مانده dat_07.
+- reports/SESSION_LOG.md، DECISIONS_LOG.md.
 
 ### Notes
-- حذف دیگر انجام نشد؛ منتظر بازبینی دستی مالک پروژه.
+- برنچ: feature/cluster-a.
+- فقط data/dat_07_hardware_reference.yaml تغییر داده شد.

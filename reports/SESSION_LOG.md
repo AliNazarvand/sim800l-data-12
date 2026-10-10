@@ -1,11 +1,14 @@
 # SESSION_LOG
 
-## نشست ۲ — اعمال پاک‌سازی ریز dat_01
-- گام ۴.۱: ۱ رکورد `confirmed_noise` حذف شد.
-- گام ۴.۲: ۱۸ رکورد `weak_at_signal` با `status: partial` و `notes` علامت‌گذاری شدند (بدون حذف).
-- `scripts/apply_refine_dat_01.py` و `scripts/diagnose_refine_dat_01.py` اضافه شدند.
-- `validate.py` و `cross_ref.py` مجدداً اجرا شدند.
-- گزارش‌های `COVERAGE_MATRIX`، `TODO`، `CHANGELOG`، `DECISIONS_LOG` به‌روز شدند.
+## نشست ۳ — خوشه A، عضو A1: dat_07 Hardware Reference
+- برنچ `feature/cluster-a` از `chore/cleanup-v7` ساخته شد.
+- `scripts/extract_dat_07.py` نوشته و اجرا شد.
+- `data/dat_07_hardware_reference.yaml` از جدول‌های _raw/ دو PDF پر شد.
+- اولویت V2.02 بر V1.00 اعمال شد.
+- `validate.py` و `cross_ref.py` اجرا شدند.
+- گزارش `reports/dat_07_REPORT.md` ساخته شد.
+- `COVERAGE_MATRIX`، `TODO`، `SESSION_LOG`، `CHANGELOG` به‌روز شدند.
+- دیتاست `dat_07` در وضعیت `partial` بسته شد؛ نیازمند بازبینی دستی voltage/current.
 
-## کار بعدی (نشست ۳)
-- شروع خوشه A، عضو A1: `dat_07` Hardware Reference از V2.02 و V1.00.
+## کار بعدی
+- خوشه A، عضو A2: `dat_15` Power Management.
