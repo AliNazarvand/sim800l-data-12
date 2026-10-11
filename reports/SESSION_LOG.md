@@ -1,35 +1,36 @@
 # SESSION_LOG
 
-## گام A3 (اصلاح‌شده) — تصحیح وضعیت dat_05 و dat_06
+## گام B1 — بازسازی dat_01 AT Command از AT Manual V1.01
 
-- تاریخ: 1405-07-19T16:28:39Z
+- تاریخ: 1405-07-19T16:30:32Z
 - برنچ: feature/complete-datasets
 
-### ۱) خلاصه A3
-- اسکن ساختاریافته PDF انجام شد (12۹ جدول، 120 شکل، 19 بخش در V2.02).
-- هیچ رکورد auto-detected اضافه نشد (طبق D-019).
-- وضعیت اولیه A3 برای dat_05 و dat_06 اشتباهاً blocked ثبت شد.
+### ۱) استخراج PDF
+- at_manual_v1_01_paged.txt با page markers تولید شد.
 
-### ۲) تصحیح این نشست
-- تشخیص: dat_05 دارای 11 رکورد inferred و dat_06 دارای 10 رکورد inferred است. منبع (V2.02/V1.00) در دسترس است.
-- COVERAGE_MATRIX: dat_05 و dat_06 از blocked به partial تغییر یافت.
-- DECISIONS_LOG: D-021 اضافه شد (تصحیح وضعیت + قاعده D-022).
-- TODO: بازبینی دستی جداول V2.02 صفحات 6، 15-25 ثبت شد.
+### ۲) تشخیص وضعیت اولیه dat_01
+- total: 334
 
-### ۳) قاعده جدید (D-022)
-- یک دیتاست blocked نباید هیچ رکوردی در فایل داده داشته باشد.
-- اگر رکورد هست -> حداقل partial.
-- اگر منبع در دسترس است -> حداکثر partial (نه blocked).
+### ۳) اسکن ساختاریافته
+- manual commands found: 275
+- اسکن کامل: reports/_step_B1_at_manual_scan.json
+- فقط سکشن‌های AT+COMMAND با header شماره‌دار شناسایی شدند (بدون auto-detection آزاد).
 
-### ۴) وضعیت نهایی خوشه A3
-- dat_04: partial
-- dat_05: partial
-- dat_06: partial
+### ۴) بازسازی
+- annotated: 0
+- added: 275
+- total final: 609
+- گزارش: reports/_step_B1_dat01_rebuild.json
 
-### ۵) کار گام بعد
-- خوشه A4: dat_16 Board/EVB (احتمالاً deferred)
-- یا بازگشت به dat_04/dat_05/dat_06/dat_15 برای استخراج دستی (نشست جداگانه)
+### ۵) وضعیت validate.py
+- L1: 0
+- L2: 0
+- L3: 46
+- L4: 0
 
-### ۶) منابع موردنیاز
-- SIM800 Series Sleep Mode Application Manual — dat_15
-- بازبینی دستی PDF برای dat_04/dat_05/dat_06
+### ۶) کار گام بعد
+- اگر L3 به‌طور معنادار کاهش یافت → خوشه B فعال می‌شود (dat_02, dat_03, dat_09, ...).
+- در غیر این صورت → تکمیل dat_01 ادامه یابد.
+
+### ۷) منابع موردنیاز
+- AT Command Manualهای تخصصی (TCP/IP, HTTP, FTP, SSL, Audio, SIM) برای دیتاست‌های وابسته در خوشه B.

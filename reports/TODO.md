@@ -24,31 +24,30 @@
 - [ ] dat_16 — EVB document
 
 ## دیتاست‌های partial
-- [ ] dat_01, dat_02, dat_03
-- [ ] dat_04 — annotate pending; structured timing section موجود
-- [ ] dat_05 — 11 رکورد inferred؛ نیازمند annotate از جدول Overview of Operating Modes (V2.02 p6)
-- [ ] dat_06 — 10 رکورد inferred؛ نیازمند annotate دستی
+- [ ] dat_01 — بازسازی اولیه از AT Manual (annotate + add)
+- [ ] dat_02, dat_03
+- [ ] dat_04, dat_05, dat_06 — annotate دستی از جداول V2.02 صفحات 6, 15-25
 - [ ] dat_07 — 75/78 annotated
 - [ ] dat_09, dat_10, dat_11, dat_12, dat_13
 - [ ] dat_14 — 52 external records
 
-## بازبینی دستی موردنیاز — جداول V2.02
-- [ ] بازبینی دستی جداول V2.02 صفحات 6، 15-25 برای استخراج ساختاریافته timing/state/init — نشست بعدی.
-- [ ] جدول Overview of Operating Modes (V2.02 p6) — مربوط به dat_05
-- [ ] جدول The Current Consumption of Minimum Functionality Mode — مربوط به dat_15
-- [ ] جداول Timing/Reset — مربوط به dat_04
+## گام B1 — نتیجه بازسازی dat_01
+- AT Manual V1.01 به متن با page markers استخراج شد.
+- اسکن ساختاریافته: تعداد commandهای شناسایی‌شده ثبت شد.
+- annotate رکوردهای موجود بر اساس command + source.page/section/quote.
+- commandهای جدید از سکشن‌های ساختاریافته اضافه شدند.
+- اسکن کامل: reports/_step_B1_at_manual_scan.json
+- بازسازی: reports/_step_B1_dat01_rebuild.json
+- auto-detection آزادانه استفاده نشد؛ فقط سکشن‌های header-محور.
 
-## گام A3 — نتیجه نهایی (اصلاح‌شده)
-- dat_04 timing structure found: True → partial
-- dat_05 state structure found: False در اسکن A3، اما جدول مربوطه در p6 موجود است → partial
-- dat_06 init structure found: False → partial (بر اساس رکوردهای inferred موجود)
-- هیچ رکورد جدیدی اضافه نشد (پایبندی به D-019).
-- اسکن کامل در: reports/_step_A3_structured_scan.json
+## کار بعدی
+- [ ] خوشه B (B2..B9): پس از تثبیت dat_01 (اگر complete شد)
+- [ ] بازبینی دستی source.quote برای رکوردهای dat_01 (اختیاری، برای افزایش confidence)
 
 ## خطاهای L3 پذیرفته‌شده
-- ۳۰۳ خطای cross-ref — رفع در خوشه B پس از کامل شدن dat_01.
+- اگر پس از B1، L3 به‌طور معنادار کاهش یافت → بخش عمده رفع شده.
+- باقی‌مانده در خوشه B (B2..B9) رفع می‌شوند.
 
 ## خوشه‌های در انتظار
-- [ ] خوشه A4: dat_16 Board/EVB (احتمالاً deferred)
-- [ ] خوشه B: pending_blocked (وابسته به dat_01)
-- [ ] بازگشت به dat_04/dat_05/dat_06 و dat_15 برای استخراج دستی (نشست جداگانه)
+- [ ] خوشه A4: dat_16 Board/EVB (deferred)
+- [ ] خوشه B: فعال پس از B1

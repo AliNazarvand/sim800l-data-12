@@ -173,3 +173,21 @@
 - گزینه‌های رد شده:
   - نگه داشتن blocked: رد شد چون با محتوای فایل تناقض دارد.
   - ارتقا به complete: رد شد چون annotate دقیق انجام نشده است.
+
+
+## D-023
+- تاریخ: 1405-07-19T16:30:32Z
+- زمینه: گام B1 — بازسازی dat_01 AT Command از AT Manual V1.01.
+- رویکرد:
+  - استخراج PDF به متن با page markers (at_manual_v1_01_paged.txt).
+  - اسکن ساختاریافته: شناسایی سکشن‌های AT command از طریق header regex (شماره بخش + AT+COMMAND + عنوان).
+  - annotate رکوردهای موجود با page/section/quote از سکشن‌ها.
+  - افزودن commandهای جدید که در AT Manual هستند ولی در dat_01 نبودند.
+- نتیجه:
+  - total: 609
+  - annotated: 0
+  - added: 275
+  - manual commands found: 275
+- تصمیم: هیچ auto-detection بر اساس کلیدواژه آزاد انجام نشد؛ فقط header-محور.
+- محدودیت: responses/parameters/examples برای commandهای جدید پر نشده‌اند؛ در TODO ثبت می‌شود.
+- دلیل: R2 (منبع دقیق), R6 (بدون داده ساختگی), D-019.

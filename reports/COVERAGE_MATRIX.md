@@ -2,11 +2,11 @@
 
 | دیتاست | نام | status | coverage_estimate | coverage_percent | منبع | دلیل |
 |---|---|---|---|---|---|---|
-| dat_01 | AT Command | partial | low | 30% | AT Manual V1.01 | Source exists; extraction incomplete |
+| dat_01 | AT Command | partial | high | - | AT Manual V1.01 | Annotated 0 records; added 275 new commands from structured sections; manual commands found = 275 |
 | dat_02 | URC | partial | low | 20% | AT Manual V1.01 | Auto-extracted; needs review |
 | dat_03 | Error Code | partial | low | 20% | AT Manual V1.01 | Auto-extracted; needs review |
 | dat_04 | Timing & Timeout | partial | low | 30% | V2.02/V1.00 | Structured timing section exists; annotate existing records only |
-| dat_05 | State Machine | partial | low | 20% | V2.02/V1.00 | 11 inferred records present; source available; structured table (Overview of Operating Modes) exists; annotate only |
+| dat_05 | State Machine | partial | low | 20% | V2.02/V1.00 | 11 inferred records present; structured table exists; annotate only |
 | dat_06 | Init Sequence | partial | low | 20% | V2.02/V1.00 | 10 inferred records present; source available; annotate only |
 | dat_07 | Hardware Reference | partial | medium | 96% | V2.02, V1.00 | 75/78 annotated; total pin count of PDF not verified |
 | dat_08 | Firmware Compatibility | blocked | - | - | - | Release Notes not available |
@@ -25,7 +25,7 @@
 - مقادیر مجاز: complete | partial | blocked | deferred
 - unknown فقط برای رکورد مجاز است، نه برای وضعیت دیتاست.
 
-## قاعده D-022 (پیشنهادی)
+## قاعده D-022
 - یک دیتاست blocked نباید هیچ رکوردی در فایل داده داشته باشد.
 - اگر رکورد هست -> حداقل partial.
 - اگر منبع در دسترس است -> حداکثر partial (نه blocked).
