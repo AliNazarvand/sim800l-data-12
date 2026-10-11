@@ -1,46 +1,34 @@
 # SESSION_LOG
 
-## گام ۱ — بسته شد
+## گام ۲ — خوشه A / A1: بازسازی dat_07 از PDF
 
-- تاریخ: 1405-07-19T14:40:26Z
+- تاریخ: 1405-07-19T14:42:25Z
 - برنچ: feature/complete-datasets
-- وضعیت: **CLOSED (L1=0, L2=0)**
 
-### ۱) خلاصه مراحل گام ۱
-1. رفع باگ نام‌گذاری فایل‌ها (glob-based lookup در validate.py و اسکریپت‌های پاکسازی)
-2. پاکسازی source.page/section در dat_01 (334 رکورد) و dat_07 (78 رکورد)
-3. بازنویسی validate.py با jsonschema + cross-ref status-aware + consistency
-4. تصحیح وضعیت dat_01/dat_07 از blocked به partial (R11 تصحیح شد)
-5. دسته‌بندی خطاهای L2: تمام 52 خطا از نوع source.date invalid در dat_14
-6. پاکسازی source.date در dat_14 (52 رکورد)
-7. استثنای R3 در validate.py: source.date غایب + status=unknown + confidence=0.0 → بدون خطا
+### ۱) تشخیص dat_14
+- توزیع status: unknown=52
+- نتیجه: COVERAGE_MATRIX → unknown
 
-### ۲) خروجی نهایی validate.py
-- L1 (Schema): 0
-- L2 (Business): 0
-- L3 (Cross-ref): 303
-- L4 (Consistency): 0
-- مجموع: 303
+### ۲) استخراج PDF
+- scripts/extract_pdf.py ساخته شد.
+- خروجی با page markers در sources/extracted/v2_02_paged.txt و v1_00_paged.txt
 
-### ۳) خطاهای L3 (303 خطا) — پذیرفته‌شده
-- ماهیت: ارجاع commandهای دیتاست‌های partial به commandهایی که در dat_01 یافت نشدند.
-- راه‌حل: با کامل شدن dat_01 در خوشه B، این خطاها رفع می‌شوند.
-- جزئیات: در reports/CROSS_REF_REPORT.md ثبت شد.
+### ۳) بازسازی dat_07
+- فایل: data/dat_07_hardware_reference.yaml
+- کل: 78
+- به‌روزرسانی‌شده: 75
+- حل‌نشده: 3
+- خطاهای L1 در dat_07: 0
+- خطاهای L2 در dat_07: 0
 
-### ۴) رفع تناقض dat_14
-- در اجرای قبل، COVERAGE_MATRIX برای dat_14 وضعیت deferred را نشان می‌داد، در حالی که 52 رکورد در فایل وجود داشت.
-- این گام: COVERAGE به partial تغییر یافت؛ رکوردها نرمال‌سازی شدند (source_type=external، confidence<=0.7، applicable_models شامل SIM800L).
-- تعداد رکوردهای کل: 52
-- تعداد رکوردهای نرمال‌شده: 0
+### ۴) به‌روزرسانی‌ها
+- COVERAGE_MATRIX: dat_07 → partial (medium, 60%)
+- TODO: dat_07 unresolved records ثبت شدند
+- DECISIONS_LOG: D-014, D-015, D-016 اضافه شدند
 
-### ۵) رفع ParserError در SESSION_LOG قبلی
-- در اجرای قبلی، بخش «تفکیک» به‌دلیل خطای $ds: (بدون ${}) خالی ماند.
-- این گام: SESSION_LOG بازتولید شد و بخش «تفکیک» با اطلاعات صحیح پر شد.
+### ۵) کار گام بعد
+- خوشه A2: dat_15 Power Management
 
-### ۶) کار گام بعد
-- ورود به خوشه A — A1: بازسازی dat_07 از PDF (V2.02 و V1.00)
-
-### ۷) منابع موردنیاز برای گام بعد
-- SIM800L_Hardware_Design_V2.02.PDF (اولویت)
-- SIM800L_Hardware_Design_V1.00.pdf
-- SIM800 Series_AT Command Manual_V1.01.pdf (برای مرجع cross-ref)
+### ۶) منابع موردنیاز
+- SIM800 Series Sleep Mode Application Note
+- SIM800L Datasheet
