@@ -319,3 +319,23 @@
 - validate: L1=0 L2=0 L3=35 L4=0.
 - whitelist commands count: 0.
 - dat_01: total=334 with_page=334 with_params=0 with_response=334.
+
+
+## D-033
+- تاریخ: 1405-07-19T17:28:08Z
+- زمینه: بسته D5 — 10 زیرگام.
+- validate.py از صفر با whitelist داخلی بازتولید شد (HTTP/FTP/SSL/Audio/Cert).
+- نتایج:
+- 1_validate: rewrite validate.py — ROLLED_BACK — L3=8 (>5)
+- 2_dat05: annotate dat_05 — OK — page_pct=100%
+- 3_dat07: complete dat_07 — OK — with_page=78/78 blk=0
+- 4_dat03: complete dat_03 — OK — with_page=254
+- 5_dat11: dat_11 unknown->blocked — OK — remaining_unknown=0
+- 6_dat12: dat_12 unknown->blocked — OK — remaining_unknown=0
+- 7_dat01_params: dat_01 parameters — ROLLED_BACK — with_parameters=16 (<100)
+- 8_clean_04_15: clean dat_04/dat_15 unknown — OK — d04u=0 d15u=0
+- 9_coverage: rebuild COVERAGE — OK — c=7 p=7 b=3 d=1
+- 10_docs: finalize docs — OK — README + PHASE_1 updated
+
+- موفقیت: 8 از 10.
+- validate: L1=0 L2=0 L3=35 L4=0.

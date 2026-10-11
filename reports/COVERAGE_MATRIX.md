@@ -4,11 +4,11 @@
 |---|---|---|---|---|---|
 | dat_01 | AT Command | complete | 334 | 334 | all 334 records sourced |
 | dat_02 | URC | complete | 206 | 206 | all 206 records sourced |
-| dat_03 | Error Code | partial | 255 | 186 | 186/255 records sourced |
+| dat_03 | Error Code | partial | 255 | 254 | 254/255 records sourced |
 | dat_04 | Timing & Timeout | complete | 25 | 25 | all 25 records sourced |
-| dat_05 | State Machine | blocked | 11 | 0 | no records sourced |
+| dat_05 | State Machine | complete | 11 | 11 | all 11 records sourced |
 | dat_06 | Init Sequence | partial | 10 | 5 | 5/10 records sourced |
-| dat_07 | Hardware Reference | partial | 78 | 75 | 75/78 records sourced |
+| dat_07 | Hardware Reference | complete | 78 | 78 | all 78 records sourced |
 | dat_08 | Firmware Compatibility | blocked | 1 | 0 | external source (Release Notes) not available |
 | dat_09 | SMS | complete | 14 | 14 | all 14 records sourced |
 | dat_10 | GPRS/Data | partial | 24 | 21 | 21/24 records sourced |

@@ -202,10 +202,11 @@
     version: V2.02
     date: '2015-07-27'
     section: Pin Description
-    quote: ''
+    quote: C6 VPP Not connect
+    page: '40'
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -215,7 +216,7 @@
   - pin
   - nc
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-10T20:40:22Z'
+  updated_at: '2026-10-11T17:28:15Z'
 - id: dat_07_0007
   category: SIM
   name: C7
@@ -709,10 +710,11 @@
     version: V2.02
     date: '2015-07-27'
     section: Pin Description
-    quote: ''
+    quote: ISINK0 47 I Drive LCD backlight
+    page: '18'
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -722,7 +724,7 @@
   - pin
   - led
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-10T20:40:22Z'
+  updated_at: '2026-10-11T17:28:15Z'
 - id: dat_07_0021
   category: LED
   name: ISINK1
@@ -744,10 +746,11 @@
     version: V2.02
     date: '2015-07-27'
     section: Pin Description
-    quote: ''
+    quote: ISINK1 46 I Drive keypad backlight
+    page: '18'
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -757,7 +760,7 @@
   - pin
   - led
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-10T20:40:22Z'
+  updated_at: '2026-10-11T17:28:15Z'
 - id: dat_07_0022
   category: Keypad
   name: KBC0

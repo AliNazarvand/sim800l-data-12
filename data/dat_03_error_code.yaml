@@ -4,6 +4,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '3'
+    section: CME/CMS Error Codes
+    quote: 1 Introduction............................................................................................16
   source_type: primary
   confidence: 0.9
   status: complete
@@ -13,7 +16,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 1
   meaning: Echo mode on
@@ -27,6 +30,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '3'
+    section: CME/CMS Error Codes
+    quote: 2 AT Commands According to V.25TER ................................................21
   source_type: primary
   confidence: 0.9
   status: complete
@@ -36,7 +42,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 2
   meaning: AT Commands According to V.25TER
@@ -50,6 +56,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '4'
+    section: CME/CMS Error Codes
+    quote: 3 AT Commands According to 3GPP TS 27.007.....................................47
   source_type: primary
   confidence: 0.9
   status: complete
@@ -59,7 +68,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 3
   meaning: Both, non-tran sparent prefered
@@ -73,6 +82,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '6'
+    section: CME/CMS Error Codes
+    quote: 4 AT Commands According to 3GPP TS 27.005...................................101
   source_type: primary
   confidence: 0.9
   status: complete
@@ -82,7 +94,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 4
   meaning: Data circuit asynchronous (RDI)
@@ -174,6 +186,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: CME/CMS Error Codes
+    quote: 8 AT Commands for TCPIP Application Toolkit ..................................181
   source_type: primary
   confidence: 0.9
   status: complete
@@ -183,7 +198,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 8
   meaning: Call has been connected with the other remote party in
@@ -197,6 +212,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: CME/CMS Error Codes
+    quote: 9 AT Commands for IP Application.......................................................206
   source_type: primary
   confidence: 0.9
   status: complete
@@ -206,7 +224,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 9
   meaning: This is a deflected call (MT call setup)
@@ -376,6 +394,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '11'
+    section: CME/CMS Error Codes
+    quote: 16 AT Commands for DDET Application..............................................278
   source_type: primary
   confidence: 0.9
   status: complete
@@ -385,7 +406,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 16
   meaning: General Beep
@@ -477,6 +498,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '12'
+    section: CME/CMS Error Codes
+    quote: 20 AT Commands Examples ..................................................................297
   source_type: primary
   confidence: 0.9
   status: complete
@@ -486,7 +510,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 20
   meaning: AT Commands Examples ..................................................................297
@@ -500,6 +524,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '12'
+    section: CME/CMS Error Codes
+    quote: 21 ATC Differences among SIM800 Series...........................................313
   source_type: primary
   confidence: 0.9
   status: complete
@@ -509,7 +536,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 21
   meaning: ATC Differences among SIM800 Series...........................................313
@@ -523,6 +550,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 22 Number changed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -532,7 +562,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 22
   meaning: Number changed
@@ -546,6 +576,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 25 Pre-emption
   source_type: primary
   confidence: 0.9
   status: complete
@@ -555,7 +588,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 25
   meaning: Pre-emption
@@ -569,6 +602,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 26 Non-selected user clearing
   source_type: primary
   confidence: 0.9
   status: complete
@@ -578,7 +614,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 26
   meaning: Non-selected user clearing
@@ -592,6 +628,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 27 Destination out of service
   source_type: primary
   confidence: 0.9
   status: complete
@@ -601,7 +640,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 27
   meaning: Destination out of service
@@ -615,6 +654,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 28 Invalid number format (incomplete number)
   source_type: primary
   confidence: 0.9
   status: complete
@@ -624,7 +666,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 28
   meaning: Invalid number format (incomplete number)
@@ -638,6 +680,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 29 Facility rejected
   source_type: primary
   confidence: 0.9
   status: complete
@@ -647,7 +692,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 29
   meaning: Facility rejected
@@ -661,6 +706,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 30 Response to STATUS ENQUIRY
   source_type: primary
   confidence: 0.9
   status: complete
@@ -670,7 +718,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 30
   meaning: Response to STATUS ENQUIRY
@@ -684,6 +732,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '173'
+    section: CME/CMS Error Codes
+    quote: 31    QOS mean throughput class best effort
   source_type: primary
   confidence: 0.9
   status: complete
@@ -693,7 +744,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 31
   meaning: QOS mean throughput class best effort
@@ -707,6 +758,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 32 Normal, unspecified
   source_type: primary
   confidence: 0.9
   status: complete
@@ -716,7 +770,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 32
   meaning: Normal, unspecified
@@ -730,6 +784,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 34 No circuit/channel available
   source_type: primary
   confidence: 0.9
   status: complete
@@ -739,7 +796,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 34
   meaning: No circuit/channel available
@@ -753,6 +810,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 38 Network out of order
   source_type: primary
   confidence: 0.9
   status: complete
@@ -762,7 +822,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 38
   meaning: Network out of order
@@ -776,6 +836,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 41 Temporary failure
   source_type: primary
   confidence: 0.9
   status: complete
@@ -785,7 +848,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 41
   meaning: Temporary failure
@@ -799,6 +862,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 42 Switching equipment Congestion
   source_type: primary
   confidence: 0.9
   status: complete
@@ -808,7 +874,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 42
   meaning: Switching equipment Congestion
@@ -822,6 +888,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 43 Access information discarded
   source_type: primary
   confidence: 0.9
   status: complete
@@ -831,7 +900,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 43
   meaning: Access information discarded
@@ -845,6 +914,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 44 Requested circuit/channel not available
   source_type: primary
   confidence: 0.9
   status: complete
@@ -854,7 +926,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 44
   meaning: Requested circuit/channel not available
@@ -868,6 +940,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 47 Resources unavailable, unspecified
   source_type: primary
   confidence: 0.9
   status: complete
@@ -877,7 +952,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 47
   meaning: Resources unavailable, unspecified
@@ -891,6 +966,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 49 Quality of service unavailable
   source_type: primary
   confidence: 0.9
   status: complete
@@ -900,7 +978,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 49
   meaning: Quality of service unavailable
@@ -914,6 +992,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 50 Requested facility not subscribed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -923,7 +1004,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 50
   meaning: Requested facility not subscribed
@@ -937,6 +1018,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 55 Requested facility not subscribed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -946,7 +1030,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 55
   meaning: Requested facility not subscribed
@@ -960,6 +1044,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 57 Bearer capability not authorized
   source_type: primary
   confidence: 0.9
   status: complete
@@ -969,7 +1056,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 57
   meaning: Bearer capability not authorized
@@ -983,6 +1070,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 58 Bearer capability not presently available
   source_type: primary
   confidence: 0.9
   status: complete
@@ -992,7 +1082,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 58
   meaning: Bearer capability not presently available
@@ -1006,6 +1096,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '246'
+    section: CME/CMS Error Codes
+    quote: 63 SMTP TCP connection error.
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1015,7 +1108,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 63
   meaning: Service or option not available, unspecified
@@ -1029,6 +1122,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '246'
+    section: CME/CMS Error Codes
+    quote: 65 SMTP server response error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1038,7 +1134,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 65
   meaning: Bearer service not implemented
@@ -1052,6 +1148,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '246'
+    section: CME/CMS Error Codes
+    quote: 68 B a d  r e c i p i e n t .
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1061,7 +1160,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 68
   meaning: ACM equal or greater than ACM maximum
@@ -1075,6 +1174,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '254'
+    section: CME/CMS Error Codes
+    quote: 69    Read data timeout
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1084,7 +1186,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 69
   meaning: Requested facility not implemented
@@ -1098,6 +1200,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 70 Only restricted digital information bearer capability is available
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1107,7 +1212,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 70
   meaning: Only restricted digital information bearer capability is available
@@ -1121,6 +1226,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '229'
+    section: CME/CMS Error Codes
+    quote: 79  Download error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1130,7 +1238,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 79
   meaning: Download error
@@ -1144,6 +1252,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 81 Invalid transaction identifier value
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1153,7 +1264,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 81
   meaning: Invalid transaction identifier value
@@ -1167,6 +1278,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 87 User not member of CUG
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1176,7 +1290,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 87
   meaning: User not member of CUG
@@ -1190,6 +1304,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 88 Incompatible destination
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1199,7 +1316,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 88
   meaning: Incompatible destination
@@ -1213,6 +1330,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 91 Invalid transit network selection
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1222,7 +1342,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 91
   meaning: Invalid transit network selection
@@ -1236,6 +1356,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 95 Semantically incorrect message
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1245,7 +1368,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 95
   meaning: Semantically incorrect message
@@ -1259,6 +1382,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 96 Invalid mandatory information
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1268,7 +1394,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 96
   meaning: Invalid mandatory information
@@ -1282,6 +1408,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CME/CMS Error Codes
+    quote: 97 Message type non-existent or not implemented
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1291,7 +1420,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 97
   meaning: Message t
@@ -1305,16 +1434,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '83'
+    section: CME/CMS Error Codes
+    quote: 99     Not known or not detectable
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.6
+  status: partial
   conflicts: []
   notes: Suspected non-error-code entry. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:17:20Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 99
   meaning: Not known or not detectable
@@ -1484,6 +1616,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '55'
+    section: CME/CMS Error Codes
+    quote: 129  Unknown type
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1493,7 +1628,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 129
   meaning: Unknown type
@@ -1507,6 +1642,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '55'
+    section: CME/CMS Error Codes
+    quote: 145  International number type
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1516,7 +1654,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 145
   meaning: International number type
@@ -2128,6 +2266,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '216'
+    section: CME/CMS Error Codes
+    quote: 404  Not Found
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2137,7 +2278,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 404
   meaning: Not Found
@@ -2151,6 +2292,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '216'
+    section: CME/CMS Error Codes
+    quote: 408  Request Time-out
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2160,7 +2304,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 408
   meaning: Request Time-out
@@ -2174,6 +2318,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '216'
+    section: CME/CMS Error Codes
+    quote: 601  Network Error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2183,7 +2330,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 601
   meaning: Network Error
@@ -2197,6 +2344,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '216'
+    section: CME/CMS Error Codes
+    quote: 602  No memory
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2206,7 +2356,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 602
   meaning: No memory
@@ -2220,6 +2370,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '216'
+    section: CME/CMS Error Codes
+    quote: 603  DNS Error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2229,7 +2382,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 603
   meaning: DNS Error
@@ -2243,6 +2396,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '216'
+    section: CME/CMS Error Codes
+    quote: 604  Stack Busy
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2252,7 +2408,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 604
   meaning: Stack Busy
@@ -2786,6 +2942,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 814 Unspecified Error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2795,7 +2954,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 814
   meaning: Unspecified Error
@@ -2809,6 +2968,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 815 Data Transfer Already
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2818,7 +2980,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 815
   meaning: Data Transfer Already
@@ -2832,6 +2994,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 816 Action Already
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2841,7 +3006,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 816
   meaning: Action Already
@@ -2855,6 +3020,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 817 Not At Cmd
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2864,7 +3032,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 817
   meaning: Not At Cmd
@@ -2878,6 +3046,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 818 Multi Cmd too long
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2887,7 +3058,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 818
   meaning: Multi Cmd too long
@@ -2901,6 +3072,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 819 Abort Cops
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2910,7 +3084,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 819
   meaning: Abort Cops
@@ -2924,6 +3098,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 820 No Call Disc
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2933,7 +3110,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 820
   meaning: No Call Disc
@@ -2947,6 +3124,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 821 BT SAP Undefined
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2956,7 +3136,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 821
   meaning: BT SAP Undefined
@@ -2970,6 +3150,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 822 BT SAP Not Accessible
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2979,7 +3162,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 822
   meaning: BT SAP Not Accessible
@@ -2993,6 +3176,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 823 BT SAP Card Removed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3002,7 +3188,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 823
   meaning: BT SAP Card Removed
@@ -3016,6 +3202,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CME/CMS Error Codes
+    quote: 824 AT Not Allowed By Customer
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3025,7 +3214,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CME
   code: 824
   meaning: AT Not Allowed By Customer
@@ -3065,6 +3254,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '3'
+    section: CME/CMS Error Codes
+    quote: 2 AT Commands According to V.25TER ................................................21
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3074,7 +3266,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CMS
   code: 2
   meaning: AT Commands According to V.25TER
@@ -3114,6 +3306,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '6'
+    section: CME/CMS Error Codes
+    quote: 4 AT Commands According to 3GPP TS 27.005...................................101
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3123,7 +3318,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CMS
   code: 4
   meaning: Delete all messages from preferred message storage
@@ -3137,6 +3332,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '6'
+    section: CME/CMS Error Codes
+    quote: 5 AT Commands for SIM Application Toolkit ......................................123
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3146,7 +3344,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CMS
   code: 5
   meaning: AT Commands for SIM Application Toolkit
@@ -3186,6 +3384,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: CME/CMS Error Codes
+    quote: 7 AT Commands for GPRS Support ......................................................170
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3195,7 +3396,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CMS
   code: 7
   meaning: Call Waiting Tone
@@ -4769,6 +4970,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '55'
+    section: CME/CMS Error Codes
+    quote: 177  Network specific number
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4778,7 +4982,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:28:16Z'
   error_type: CMS
   code: 177
   meaning: Network specific number(ISDN format)
