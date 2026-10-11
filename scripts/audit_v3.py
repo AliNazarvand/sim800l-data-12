@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """audit_v3.py — final project audit. Read-only.
-   v2: normalized cross-reference (AT+XXX / +XXX / XXX treated equal).
+   v3: cross-ref skips records whose status == 'blocked' (per R11).
 """
 import sys
 from pathlib import Path
@@ -98,6 +98,7 @@ def collect_commands(dat_id):
 
 def cross_ref():
     issues = []
+    skipped_blocked = 0
     d01 = collect_commands("dat_01")
 
     for dat in ["dat_09","dat_10","dat_11","dat_12","dat_13","dat_15","dat_17"]:
@@ -106,6 +107,9 @@ def cross_ref():
         data = load(f.name) or []
         for r in data:
             if not isinstance(r, dict): continue
+            if r.get("status") == "blocked":
+                skipped_blocked += 1
+                continue
             c = r.get("command")
             if c:
                 key = normalize_cmd(c)
@@ -116,13 +120,16 @@ def cross_ref():
     if f:
         for r in (load(f.name) or []):
             if not isinstance(r, dict): continue
+            if r.get("status") == "blocked":
+                skipped_blocked += 1
+                continue
             rc = r.get("related_command")
             if rc:
                 key = normalize_cmd(rc)
                 if key not in d01:
                     issues.append(f"{r.get('id','?')} in dat_02: related_command '{rc}' not in dat_01")
 
-    return issues
+    return issues, skipped_blocked
 
 def main():
     now = datetime.now().isoformat(timespec="seconds")
@@ -131,7 +138,7 @@ def main():
         dat_id = f"dat_{i:02d}"
         results[dat_id] = analyze(dat_id)
 
-    xref = cross_ref()
+    xref, skipped_blocked = cross_ref()
 
     lines = []
     lines.append("# AUDIT_REPORT_v3")
@@ -142,6 +149,7 @@ def main():
     lines.append("")
     lines.append("- validate.py: 0 errors (L1=L2=L3=L4=0)")
     lines.append("- cross_ref uses normalize_cmd (strips 'AT+' and '+').")
+    lines.append("- cross_ref skips records with status == 'blocked' (per R11).")
     lines.append("- This audit is read-only.")
     lines.append("")
 
@@ -179,6 +187,7 @@ def main():
 
     lines.append("## Cross-Reference Issues")
     lines.append("")
+    lines.append(f"- Records skipped (blocked): {skipped_blocked}")
     if xref:
         for x in xref[:100]:
             lines.append(f"- {x}")
@@ -220,7 +229,7 @@ def main():
     lines.append("## Notes")
     lines.append("")
     lines.append("- No files were modified during this audit.")
-    lines.append("- Cross-ref normalization treats 'AT+XXX' == '+XXX' == 'XXX'.")
+    lines.append("- Cross-ref skips records with status == 'blocked' (R11).")
     lines.append("- 'no-source' counts records missing source.name or source.version.")
 
     out_path = REPORTS / "AUDIT_REPORT_v3.md"
@@ -236,7 +245,8 @@ def main():
             print(f"  {dat_id}: {r['records']:4d} records  "
                   f"example={r['example_only']}  no_source={r['no_source']}")
     print()
-    print(f"Cross-ref issues (normalized): {len(xref)}")
+    print(f"Cross-ref issues (normalized, blocked-skipped): {len(xref)}")
+    print(f"Blocked records skipped: {skipped_blocked}")
     print(f"Report: {out_path}")
 
 

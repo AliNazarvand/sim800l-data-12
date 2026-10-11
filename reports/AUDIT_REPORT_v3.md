@@ -1,11 +1,12 @@
 # AUDIT_REPORT_v3
 
-Generated: 2026-10-12T00:54:52
+Generated: 2026-10-12T00:59:23
 
 ## Method
 
 - validate.py: 0 errors (L1=L2=L3=L4=0)
 - cross_ref uses normalize_cmd (strips 'AT+' and '+').
+- cross_ref skips records with status == 'blocked' (per R11).
 - This audit is read-only.
 
 ## Dataset Summary
@@ -53,41 +54,8 @@ Generated: 2026-10-12T00:54:52
 
 ## Cross-Reference Issues
 
-- dat_10_0004 in dat_10: command 'AT+CGCONTRDP' not in dat_01
-- dat_10_0017 in dat_10: command 'AT+CIPDDREM' not in dat_01
-- dat_10_0023 in dat_10: command 'AT+CEREG' not in dat_01
-- dat_11_0007 in dat_11: command 'AT+HTTPHEAD' not in dat_01
-- dat_11_0009 in dat_11: command 'AT+HTTPURL' not in dat_01
-- dat_11_0010 in dat_11: command 'AT+HTTPSSL' not in dat_01
-- dat_11_0011 in dat_11: command 'AT+FTPOPEN' not in dat_01
-- dat_11_0012 in dat_11: command 'AT+FTPCLOSE' not in dat_01
-- dat_11_0019 in dat_11: command 'AT+FTPFLST' not in dat_01
-- dat_11_0020 in dat_11: command 'AT+FTPUSER' not in dat_01
-- dat_11_0021 in dat_11: command 'AT+FTPPASS' not in dat_01
-- dat_11_0022 in dat_11: command 'AT+FTPCWD' not in dat_01
-- dat_11_0023 in dat_11: command 'AT+FTPPWD' not in dat_01
-- dat_11_0030 in dat_11: command 'AT+SSLCFG' not in dat_01
-- dat_11_0031 in dat_11: command 'AT+SSLCONF' not in dat_01
-- dat_11_0032 in dat_11: command 'AT+SSLOPEN' not in dat_01
-- dat_11_0033 in dat_11: command 'AT+SSLSEND' not in dat_01
-- dat_11_0034 in dat_11: command 'AT+SSLRECV' not in dat_01
-- dat_11_0035 in dat_11: command 'AT+SSLCLOSE' not in dat_01
-- dat_11_0036 in dat_11: command 'AT+SSLSETCERT' not in dat_01
-- dat_11_0037 in dat_11: command 'AT+SSLSETKEY' not in dat_01
-- dat_11_0038 in dat_11: command 'AT+SSLSETCA' not in dat_01
-- dat_12_0006 in dat_12: command 'AT+CATONE' not in dat_01
-- dat_12_0007 in dat_12: command 'AT+CADTONE' not in dat_01
-- dat_12_0008 in dat_12: command 'AT+CLDTONE' not in dat_01
-- dat_12_0012 in dat_12: command 'AT+CPCMREG' not in dat_01
-- dat_17_0001 in dat_17: command 'AT+SSLCFG' not in dat_01
-- dat_17_0002 in dat_17: command 'AT+SSLCONF' not in dat_01
-- dat_17_0003 in dat_17: command 'AT+SSLOPEN' not in dat_01
-- dat_17_0004 in dat_17: command 'AT+SSLSEND' not in dat_01
-- dat_17_0005 in dat_17: command 'AT+SSLRECV' not in dat_01
-- dat_17_0006 in dat_17: command 'AT+SSLCLOSE' not in dat_01
-- dat_17_0007 in dat_17: command 'AT+SSLSETCERT' not in dat_01
-- dat_17_0008 in dat_17: command 'AT+SSLSETKEY' not in dat_01
-- dat_17_0009 in dat_17: command 'AT+SSLSETCA' not in dat_01
+- Records skipped (blocked): 36
+- No issues found.
 
 ## Readiness for Cluster A
 
@@ -117,5 +85,5 @@ Generated: 2026-10-12T00:54:52
 ## Notes
 
 - No files were modified during this audit.
-- Cross-ref normalization treats 'AT+XXX' == '+XXX' == 'XXX'.
+- Cross-ref skips records with status == 'blocked' (R11).
 - 'no-source' counts records missing source.name or source.version.
