@@ -16,10 +16,19 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:54Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+CPIN
   syntax: AT+CPIN
-  parameters: []
+  parameters:
+  - name: code
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
+  - name: pin
+    type: string
+    description: ''
   response: OK
   examples: []
   coverage_estimate: high
@@ -41,10 +50,40 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:54Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+CLCK
   syntax: AT+CLCK
-  parameters: []
+  parameters:
+  - name: fac
+    type: string
+    description: ''
+  - name: mode
+    type: integer
+    description: ''
+  - name: status
+    type: string
+    description: ''
+  - name: class
+    type: string
+    description: ''
+  - name: class1
+    type: string
+    description: ''
+  - name: CR
+    type: string
+    description: ''
+  - name: LF
+    type: string
+    description: ''
+  - name: class2
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
+  - name: passwd
+    type: string
+    description: ''
   response: OK
   examples: []
   coverage_estimate: high
@@ -66,10 +105,22 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:54Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+CPWD
   syntax: AT+CPWD
-  parameters: []
+  parameters:
+  - name: fac
+    type: string
+    description: ''
+  - name: pwdlength
+    type: string
+    description: ''
+  - name: oldpwd
+    type: string
+    description: ''
+  - name: newpwd
+    type: string
+    description: ''
   response: OK
   examples: []
   coverage_estimate: high
@@ -91,10 +142,22 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:54Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+CSIM
   syntax: AT+CSIM
-  parameters: []
+  parameters:
+  - name: Command
+    type: string
+    description: ''
+  - name: length
+    type: string
+    description: ''
+  - name: response
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples: []
   coverage_estimate: high
@@ -116,10 +179,40 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:54Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+CRSM
   syntax: AT+CRSM
-  parameters: []
+  parameters:
+  - name: sw1
+    type: string
+    description: ''
+  - name: sw2
+    type: string
+    description: ''
+  - name: response
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
+  - name: P1
+    type: string
+    description: ''
+  - name: P2
+    type: string
+    description: ''
+  - name: data
+    type: string
+    description: ''
+  - name: Command
+    type: string
+    description: ''
+  - name: fileId
+    type: string
+    description: ''
+  - name: P3
+    type: string
+    description: ''
   response: OK
   examples: []
   coverage_estimate: high
@@ -141,10 +234,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:54Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+CIMI
   syntax: AT+CIMI
-  parameters: []
+  parameters:
+  - name: IMSI
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples: []
   coverage_estimate: high
@@ -191,10 +290,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:54Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+CSMINS
   syntax: AT+CSMINS
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples: []
   coverage_estimate: high
@@ -216,10 +321,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:54Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+CSPN
   syntax: AT+CSPN
-  parameters: []
+  parameters:
+  - name: spn
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples: []
   coverage_estimate: high
@@ -241,10 +352,22 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:54Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+CUSD
   syntax: AT+CUSD
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
+  - name: str
+    type: string
+    description: ''
+  - name: dcs
+    type: string
+    description: ''
   response: OK
   examples: []
   coverage_estimate: high

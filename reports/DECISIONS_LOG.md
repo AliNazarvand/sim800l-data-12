@@ -423,3 +423,32 @@
 - موفقیت: 5 از 5.
 - validate: L1=0 L2=0 L3=8 L4=0.
 - Coverage: complete=6 partial=8 blocked=3 deferred=1.
+
+
+## D-038
+- تاریخ: 1405-07-19T17:44:20Z
+- زمینه: بسته D10 — 20 زیرگام، معیار تولید.
+- نتایج:
+- s0_sections: build section index — OK — see _section_index.json
+- s1_dat09: dat_09 SMS params — OK — with_params=14
+- s2_dat10: dat_10 GPRS params — PARTIAL — with_params=17
+- s3_dat12: dat_12 Audio params — PARTIAL — with_params=9
+- s4_dat13: dat_13 SIM params — OK — with_params=9
+- s5_dat11: dat_11 HTTP/FTP params — OK — with_params=19
+- s6_dat02: dat_02 URC examples verify — OK — with_examples=206
+- s7_dat05: dat_05 related_urcs — OK — with_urcs=9
+- s8_dat03: dat_03 recovery — OK — with_recovery=86
+- s9_dat04: dat_04 values ext — PARTIAL — with_values=11
+- s10_dat15: dat_15 verify — OK — with_values=13
+- s11_dat06: dat_06 finalize — OK — unknown=0
+- s12_dat07: dat_07 function — OK — with_function=78
+- s13_coverage: COVERAGE params — OK — c=9 p=5 b=3 d=1
+- s14_docs: finalize docs — OK — L1=0 L2=0 L3=8
+- s15_changelog: CHANGELOG — OK — written
+- s16_sources: source inventory — OK — files=4
+- s17_todo: TODO — OK — updated
+
+- موفقیت: 15 از 18.
+- validate: L1=0 L2=0 L3=8 L4=0.
+- Coverage (production): complete=9 partial=5 blocked=3 deferred=1.
+- تغییر کلیدی: complete = with_page==count AND params_pct >= 50% (به جای strict_depth >= 50%).

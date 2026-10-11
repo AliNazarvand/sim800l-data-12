@@ -4,6 +4,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '5'
+    section: 3.2.28 Enter PIN ..................................................................................................75
+    quote: 3.2.28 AT+CPIN  Enter PIN ..................................................................................................75
   source_type: primary
   confidence: 0.85
   status: complete
@@ -13,7 +16,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:54Z'
   command: AT+CPIN
   syntax: AT+CPIN
   parameters: []
@@ -26,6 +29,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '5'
+    section: 3.2.17 Facility Lock ...........................................................................................63
+    quote: 3.2.17 AT+CLCK  Facility Lock ...........................................................................................63
   source_type: primary
   confidence: 0.85
   status: complete
@@ -35,7 +41,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:54Z'
   command: AT+CLCK
   syntax: AT+CLCK
   parameters: []
@@ -48,6 +54,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '5'
+    section: 3.2.29 Change Password ...................................................................................76
+    quote: 3.2.29 AT+CPWD  Change Password ...................................................................................76
   source_type: primary
   confidence: 0.85
   status: complete
@@ -57,7 +66,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:54Z'
   command: AT+CPWD
   syntax: AT+CPWD
   parameters: []
@@ -70,6 +79,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '5'
+    section: 3.2.48 Generic SIM Access ................................................................................91
+    quote: 3.2.48 AT+CSIM  Generic SIM Access ................................................................................91
   source_type: primary
   confidence: 0.85
   status: complete
@@ -79,7 +91,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:54Z'
   command: AT+CSIM
   syntax: AT+CSIM
   parameters: []
@@ -92,6 +104,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '5'
+    section: 3.2.34 Restricted SIM Access ...........................................................................81
+    quote: 3.2.34 AT+CRSM  Restricted SIM Access ...........................................................................81
   source_type: primary
   confidence: 0.85
   status: complete
@@ -101,7 +116,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:54Z'
   command: AT+CRSM
   syntax: AT+CRSM
   parameters: []
@@ -114,6 +129,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '5'
+    section: 3.2.15 Request Internat ional Mobile Subscriber Identity....................................61
+    quote: 3.2.15 AT+CIMI  Request Internat ional Mobile Subscriber Identity....................................61
   source_type: primary
   confidence: 0.85
   status: complete
@@ -123,7 +141,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:54Z'
   command: AT+CIMI
   syntax: AT+CIMI
   parameters: []
@@ -136,6 +154,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '7'
+    section: 6.2.23 Show ICCID ..........................................................................................147
+    quote: 6.2.23 AT+CCID  Show ICCID ..........................................................................................147
   source_type: primary
   confidence: 0.85
   status: complete
@@ -145,7 +166,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:54Z'
   command: AT+CCID
   syntax: AT+CCID
   parameters: []
@@ -158,6 +179,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 6.2.54 SIM In serted Status Reporting.........................................................167
+    quote: 6.2.54 AT+CSMINS  SIM In serted Status Reporting.........................................................167
   source_type: primary
   confidence: 0.85
   status: complete
@@ -167,7 +191,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:54Z'
   command: AT+CSMINS
   syntax: AT+CSMINS
   parameters: []
@@ -180,6 +204,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '7'
+    section: 6.2.15 Get Service Provider Name from SIM ..................................................141
+    quote: 6.2.15 AT+CSPN  Get Service Provider Name from SIM ..................................................141
   source_type: primary
   confidence: 0.85
   status: complete
@@ -189,7 +216,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:54Z'
   command: AT+CSPN
   syntax: AT+CSPN
   parameters: []
@@ -202,6 +229,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '5'
+    section: 3.2.57 Unstructured Supplementary Service Data .............................................98
+    quote: 3.2.57 AT+CUSD  Unstructured Supplementary Service Data .............................................98
   source_type: primary
   confidence: 0.85
   status: complete
@@ -211,7 +241,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:54Z'
   command: AT+CUSD
   syntax: AT+CUSD
   parameters: []

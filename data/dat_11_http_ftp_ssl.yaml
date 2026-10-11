@@ -68,10 +68,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+HTTPPARA
   syntax: AT+HTTPPARA
-  parameters: []
+  parameters:
+  - name: para
+    type: string
+    description: parameter name
+  - name: value
+    type: string
+    description: parameter value
   response: OK
   examples:
   - 11.2.3 AT+HTTPPARA  Set HTTP Parameters Value ........................................................213
@@ -94,10 +100,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+HTTPDATA
   syntax: AT+HTTPDATA
-  parameters: []
+  parameters:
+  - name: size
+    type: integer
+    description: data size
   response: OK
   examples:
   - 11.2.4 AT+HTTPDATA  Input HTTP Data .........................................................................214
@@ -120,10 +129,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+HTTPACTION
   syntax: AT+HTTPACTION
-  parameters: []
+  parameters:
+  - name: method
+    type: integer
+    description: 0=GET 1=POST 2=HEAD
   response: OK
   examples:
   - 11.2.5 AT+HTTPACTION  HTTP Method Action .............................................................215
@@ -146,10 +158,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+HTTPREAD
   syntax: AT+HTTPREAD
-  parameters: []
+  parameters:
+  - name: start
+    type: integer
+    description: start address
+  - name: size
+    type: integer
+    description: read length
   response: '................................................217'
   examples:
   - 11.2.6 AT+HTTPREAD  Read the HTTP Server Response ................................................217
@@ -169,10 +187,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+HTTPHEAD
   syntax: ''
-  parameters: []
+  parameters:
+  - name: size
+    type: integer
+    description: head size
   response: OK
   examples:
   - AT+HTTPHEAD
@@ -218,10 +239,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+HTTPURL
   syntax: ''
-  parameters: []
+  parameters:
+  - name: url
+    type: string
+    description: URL
   response: OK
   examples:
   - AT+HTTPURL
@@ -264,10 +288,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+FTPOPEN
   syntax: ''
-  parameters: []
+  parameters:
+  - name: host
+    type: string
+    description: FTP host
   response: OK
   examples:
   - AT+FTPOPEN
@@ -489,10 +516,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+FTPUSER
   syntax: ''
-  parameters: []
+  parameters:
+  - name: user
+    type: string
+    description: username
   response: OK
   examples:
   - AT+FTPUSER
@@ -512,10 +542,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+FTPPASS
   syntax: ''
-  parameters: []
+  parameters:
+  - name: pass
+    type: string
+    description: password
   response: OK
   examples:
   - AT+FTPPASS
@@ -535,10 +568,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+FTPCWD
   syntax: ''
-  parameters: []
+  parameters:
+  - name: path
+    type: string
+    description: directory
   response: OK
   examples:
   - AT+FTPCWD
@@ -584,10 +620,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+FTPTYPE
   syntax: AT+FTPTYPE
-  parameters: []
+  parameters:
+  - name: type
+    type: integer
+    description: 0=binary 1=ascii
   response: OK
   examples:
   - 12.2.3 AT+FTPTYPE  Set the Type of Data to Be Transferred ...........................................222
@@ -737,10 +776,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+SSLCFG
   syntax: ''
-  parameters: []
+  parameters:
+  - name: ssl_type
+    type: integer
+    description: config index
+  - name: value
+    type: string
+    description: value
   response: OK
   examples:
   - AT+SSLCFG
@@ -760,10 +805,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+SSLCONF
   syntax: ''
-  parameters: []
+  parameters:
+  - name: ssl_type
+    type: integer
+    description: config index
   response: OK
   examples:
   - AT+SSLCONF
@@ -783,10 +831,22 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+SSLOPEN
   syntax: ''
-  parameters: []
+  parameters:
+  - name: cid
+    type: integer
+    description: context id
+  - name: mode
+    type: string
+    description: TCP or UDP
+  - name: host
+    type: string
+    description: server host
+  - name: port
+    type: integer
+    description: server port
   response: OK
   examples:
   - AT+SSLOPEN
@@ -806,10 +866,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+SSLSEND
   syntax: ''
-  parameters: []
+  parameters:
+  - name: length
+    type: integer
+    description: data length
   response: OK
   examples:
   - AT+SSLSEND
@@ -829,10 +892,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+SSLRECV
   syntax: ''
-  parameters: []
+  parameters:
+  - name: length
+    type: integer
+    description: max bytes
   response: OK
   examples:
   - AT+SSLRECV
@@ -875,10 +941,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+SSLSETCERT
   syntax: ''
-  parameters: []
+  parameters:
+  - name: cert_name
+    type: string
+    description: certificate name
   response: OK
   examples:
   - AT+SSLSETCERT
@@ -898,10 +967,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+SSLSETKEY
   syntax: ''
-  parameters: []
+  parameters:
+  - name: key_name
+    type: string
+    description: key name
   response: OK
   examples:
   - AT+SSLSETKEY
@@ -921,10 +993,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:29Z'
   command: AT+SSLSETCA
   syntax: ''
-  parameters: []
+  parameters:
+  - name: ca_name
+    type: string
+    description: CA name
   response: OK
   examples:
   - AT+SSLSETCA

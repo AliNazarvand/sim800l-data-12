@@ -1,17 +1,30 @@
 # SESSION_LOG
 
-## Batch D9 — corrective (5 substeps)
+## Batch D10 — 20 substeps (production criteria)
 
-- تاریخ: 1405-07-19T17:37:24Z
-- موفق: 5 / 5
+- تاریخ: 1405-07-19T17:44:20Z
+- موفق: 15 / 18
 
 | زیرگام | نام | نتیجه | وضعیت |
 |---|---|---|---|
-| s1_diagnose | diagnose params=0 | see _step_D9_diagnosis.json | OK |
-| s2_parse_fix | parse fix dat_09/10/12/13 | total_with_params=0 | OK |
-| s3_dat01_params | dat_01 params heading | with_params=271 | OK |
-| s4_coverage | redefine complete | c=6 p=8 b=3 d=1 | OK |
-| s5_docs | validation + docs | L1=0 L2=0 L3=8 | OK |
+| s0_sections | build section index | see _section_index.json | OK |
+| s1_dat09 | dat_09 SMS params | with_params=14 | OK |
+| s2_dat10 | dat_10 GPRS params | with_params=17 | PARTIAL |
+| s3_dat12 | dat_12 Audio params | with_params=9 | PARTIAL |
+| s4_dat13 | dat_13 SIM params | with_params=9 | OK |
+| s5_dat11 | dat_11 HTTP/FTP params | with_params=19 | OK |
+| s6_dat02 | dat_02 URC examples verify | with_examples=206 | OK |
+| s7_dat05 | dat_05 related_urcs | with_urcs=9 | OK |
+| s8_dat03 | dat_03 recovery | with_recovery=86 | OK |
+| s9_dat04 | dat_04 values ext | with_values=11 | PARTIAL |
+| s10_dat15 | dat_15 verify | with_values=13 | OK |
+| s11_dat06 | dat_06 finalize | unknown=0 | OK |
+| s12_dat07 | dat_07 function | with_function=78 | OK |
+| s13_coverage | COVERAGE params | c=9 p=5 b=3 d=1 | OK |
+| s14_docs | finalize docs | L1=0 L2=0 L3=8 | OK |
+| s15_changelog | CHANGELOG | written | OK |
+| s16_sources | source inventory | files=4 | OK |
+| s17_todo | TODO | updated | OK |
 
 
 ### validate.py
@@ -20,12 +33,13 @@
 - L3: 8
 - L4: 0
 
-### Coverage (strict)
-- complete: 6
-- partial: 8
+### Coverage (production)
+- complete: 9
+- partial: 5
 - blocked: 3
 - deferred: 1
 
-### Fix
-- D8 else bug fixed in D9.
-- complete redefined to require strict_depth >= 50%.
+### Notes
+- } else { در یک خط نوشته شد (رفع باگ D8).
+- params_pct معیار واقعی تولید است.
+- Section body AT Manual برای پر کردن params استفاده شد.

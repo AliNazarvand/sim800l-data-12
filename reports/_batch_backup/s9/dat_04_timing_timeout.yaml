@@ -1,0 +1,715 @@
+- id: dat_04_0001
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: Change 300us to 10
+  min: 5.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_0002
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: Wait for at least 80
+  min: 0.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_0003
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: DTR pin is pulled to low level for about 5
+  min: 0.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_0004
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: Only after the DTR pin is pulled to low level for 5
+  min: 0.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_0005
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '41'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'Note: Every time plug SIM card interval advice is greater than 2s. Otherwise may not be able to correct detection.'
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: SIM card interval advice is greater than
+  min: 2.0
+  typ: null
+  max: null
+  unit: s
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_0006
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: GPIO3 28 -
+  min: 0.29
+  typ: null
+  max: null
+  unit: s
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_0007
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: GPIO2
+  min: 0.8
+  typ: null
+  max: null
+  unit: s
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_0008
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: SIM800L is not running
+  min: 64.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_0009
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: On/ 80
+  min: 0.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_0010
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '49'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 64ms On/ 800ms Off SIM800H&SIM800L not registered the network
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: SIM800L not registered the network
+  min: 64.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_0011
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: On/ 300
+  min: 0.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_0012
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '49'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 64ms On/ 3000ms Off SIM800H&SIM800L registered to the network
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: SIM800L registered to the network
+  min: 64.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_0013
+  category: Timing
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+  source_type: primary
+  confidence: 0.75
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
+  parameter: On/ 30
+  min: 0.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
+  coverage_estimate: high
+- id: dat_04_9001
+  category: Timing
+  parameter: VBUS 4.3 5.0 7.0 V
+  value_min: 4.3
+  value_typ: 5.0
+  value_max: 7.0
+  unit: V
+  condition: null
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '32'
+    section: Table (V2.02)
+    quote: VBUS 4.3 5.0 7.0 V
+  source_type: primary
+  confidence: 0.4
+  status: partial
+  conflicts: []
+  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  applicable_models:
+  - SIM800L
+  tags: &id001
+  - timing
+  - extracted-table
+  created_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
+- id: dat_04_9002
+  category: Timing
+  parameter: FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: null
+  condition: null
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '38'
+    section: Table (V2.02)
+    quote: FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an
+  source_type: primary
+  confidence: 0.4
+  status: partial
+  conflicts: []
+  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  applicable_models:
+  - SIM800L
+  tags: *id001
+  created_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:23:49Z'
+- id: dat_04_9003
+  category: Timing
+  parameter: VBAT Power supply voltage 3.4 4.0 4.4 V
+  value_min: 3.4
+  value_typ: 4.0
+  value_max: 4.4
+  unit: V
+  condition: null
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: Table (V2.02)
+    quote: VBAT Power supply voltage 3.4 4.0 4.4 V
+  source_type: primary
+  confidence: 0.4
+  status: partial
+  conflicts: []
+  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  applicable_models:
+  - SIM800L
+  tags: *id001
+  created_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
+- id: dat_04_9004
+  category: Timing
+  parameter: I High-level input current -1.0 - 1.0 uA
+  value_min: 1.0
+  value_typ: 1.0
+  value_max: 1.0
+  unit: uA
+  condition: null
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: Table (V2.02)
+    quote: I High-level input current -1.0 - 1.0 uA
+  source_type: primary
+  confidence: 0.4
+  status: partial
+  conflicts: []
+  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  applicable_models:
+  - SIM800L
+  tags: *id001
+  created_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
+- id: dat_04_9005
+  category: Timing
+  parameter: I Low-level input current -1.0 - 1.0 uA
+  value_min: 1.0
+  value_typ: 1.0
+  value_max: 1.0
+  unit: uA
+  condition: null
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: Table (V2.02)
+    quote: I Low-level input current -1.0 - 1.0 uA
+  source_type: primary
+  confidence: 0.4
+  status: partial
+  conflicts: []
+  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  applicable_models:
+  - SIM800L
+  tags: *id001
+  created_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
+- id: dat_04_9006
+  category: Timing
+  parameter: I VRTC input current - 3.0 5.0 uA
+  value_min: 3.0
+  value_typ: 4.0
+  value_max: 5.0
+  unit: uA
+  condition: null
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: Table (V2.02)
+    quote: I VRTC input current - 3.0 5.0 uA
+  source_type: primary
+  confidence: 0.4
+  status: partial
+  conflicts: []
+  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  applicable_models:
+  - SIM800L
+  tags: *id001
+  created_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
+- id: dat_04_9007
+  category: Timing
+  parameter: Power drop PCL=5 350 mV
+  value_min: 5.0
+  value_typ: 177.5
+  value_max: 350.0
+  unit: mV
+  condition: null
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: Table (V2.02)
+    quote: Power drop PCL=5 350 mV
+  source_type: primary
+  confidence: 0.4
+  status: partial
+  conflicts: []
+  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  applicable_models:
+  - SIM800L
+  tags: *id001
+  created_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
+- id: dat_04_9008
+  category: Timing
+  parameter: Power down mode 150 200 uA
+  value_min: 150.0
+  value_typ: 175.0
+  value_max: 200.0
+  unit: uA
+  condition: null
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: Table (V2.02)
+    quote: Power down mode 150 200 uA
+  source_type: primary
+  confidence: 0.4
+  status: partial
+  conflicts: []
+  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  applicable_models:
+  - SIM800L
+  tags: *id001
+  created_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
+- id: dat_04_9009
+  category: Timing
+  parameter: ( BS-PA-MFRMS=9 ) 1.04 mA
+  value_min: 9.0
+  value_typ: 5.02
+  value_max: 1.04
+  unit: mA
+  condition: null
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: Table (V2.02)
+    quote: ( BS-PA-MFRMS=9 ) 1.04 mA
+  source_type: primary
+  confidence: 0.4
+  status: partial
+  conflicts: []
+  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  applicable_models:
+  - SIM800L
+  tags: *id001
+  created_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
+- id: dat_04_9010
+  category: Timing
+  parameter: ( BS-PA-MFRMS=5) 1.14 mA
+  value_min: 5.0
+  value_typ: 3.07
+  value_max: 1.14
+  unit: mA
+  condition: null
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: Table (V2.02)
+    quote: ( BS-PA-MFRMS=5) 1.14 mA
+  source_type: primary
+  confidence: 0.4
+  status: partial
+  conflicts: []
+  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  applicable_models:
+  - SIM800L
+  tags: *id001
+  created_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
+- id: dat_04_9011
+  category: Timing
+  parameter: ( BS-PA-MFRMS=2) 1.57 mA
+  value_min: 2.0
+  value_typ: 1.7850000000000001
+  value_max: 1.57
+  unit: mA
+  condition: null
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: Table (V2.02)
+    quote: ( BS-PA-MFRMS=2) 1.57 mA
+  source_type: primary
+  confidence: 0.4
+  status: partial
+  conflicts: []
+  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  applicable_models:
+  - SIM800L
+  tags: *id001
+  created_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
+- id: dat_04_9012
+  category: Timing
+  parameter: '[10] GSM 11.10 Station (MS) conformance specification； Part 1： Conformance'
+  value_min: 10.0
+  value_typ: 11.1
+  value_max: 1.0
+  unit: MS
+  condition: null
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '68'
+    section: Table (V2.02)
+    quote: '[10] GSM 11.10 Station (MS) conformance specification； Part 1： Conformance'
+  source_type: primary
+  confidence: 0.4
+  status: partial
+  conflicts: []
+  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  applicable_models:
+  - SIM800L
+  tags: *id001
+  created_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'

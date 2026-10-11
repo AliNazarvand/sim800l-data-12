@@ -1,0 +1,386 @@
+- id: dat_09_0001
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '6'
+    section: 4.2.2 Select SMS Message Format .................................................................102
+    quote: 4.2.2 AT+CMGF  Select SMS Message Format .................................................................102
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CMGF
+  syntax: AT+CMGF
+  parameters: []
+  response: OK
+  examples:
+  - AT+CMGF
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0002
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '6'
+    section: 4.2.5 Send SMS Message ................................................................................109
+    quote: 4.2.5 AT+CMGS  Send SMS Message ................................................................................109
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CMGS
+  syntax: AT+CMGS
+  parameters: []
+  response: OK
+  examples:
+  - AT+CMGS
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0003
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '6'
+    section: 4.2.4 Read SMS Message ...............................................................................106
+    quote: 4.2.4 AT+CMGR  Read SMS Message ...............................................................................106
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CMGR
+  syntax: AT+CMGR
+  parameters: []
+  response: OK
+  examples:
+  - AT+CMGR
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0004
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '6'
+    section: 4.2.3 List SMS Messages from Preferred Store ..............................................103
+    quote: 4.2.3 AT+CMGL  List SMS Messages from Preferred Store ..............................................103
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CMGL
+  syntax: AT+CMGL
+  parameters: []
+  response: OK
+  examples:
+  - AT+CMGL
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0005
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '6'
+    section: 4.2.1 De lete SMS Message.............................................................................101
+    quote: 4.2.1 AT+CMGD  De lete SMS Message.............................................................................101
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CMGD
+  syntax: AT+CMGD
+  parameters: []
+  response: OK
+  examples:
+  - AT+CMGD
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0006
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '6'
+    section: 4.2.6 Write SMS Message to Memory ..........................................................110
+    quote: 4.2.6 AT+CMGW  Write SMS Message to Memory ..........................................................110
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CMGW
+  syntax: AT+CMGW
+  parameters: []
+  response: OK
+  examples:
+  - AT+CMGW
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0007
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '6'
+    section: 4.2.12 SMS Service Center Address ................................................................117
+    quote: 4.2.12 AT+CSCA  SMS Service Center Address ................................................................117
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CSCA
+  syntax: AT+CSCA
+  parameters: []
+  response: OK
+  examples:
+  - AT+CSCA
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0008
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '6'
+    section: 4.2.16 Sele ct Message Service.........................................................................121
+    quote: 4.2.16 AT+CSMS  Sele ct Message Service.........................................................................121
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CSMS
+  syntax: AT+CSMS
+  parameters: []
+  response: OK
+  examples:
+  - AT+CSMS
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0009
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '6'
+    section: 4.2.9 Preferred SMS Message Storage ............................................................115
+    quote: 4.2.9 AT+CPMS  Preferred SMS Message Storage ............................................................115
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CPMS
+  syntax: AT+CPMS
+  parameters: []
+  response: OK
+  examples:
+  - AT+CPMS
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0010
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '6'
+    section: 4.2.8 New SMS Message Indications ..............................................................112
+    quote: 4.2.8 AT+CNMI  New SMS Message Indications ..............................................................112
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CNMI
+  syntax: AT+CNMI
+  parameters: []
+  response: OK
+  examples:
+  - AT+CNMI
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0011
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '6'
+    section: 4.2.15 Set SMS Text Mode Parameters ...........................................................120
+    quote: 4.2.15 AT+CSMP  Set SMS Text Mode Parameters ...........................................................120
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CSMP
+  syntax: AT+CSMP
+  parameters: []
+  response: OK
+  examples:
+  - AT+CSMP
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0012
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '6'
+    section: 4.2.14 Show SMS Text Mode Parameters .......................................................119
+    quote: 4.2.14 AT+CSDH  Show SMS Text Mode Parameters .......................................................119
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CSDH
+  syntax: AT+CSDH
+  parameters: []
+  response: OK
+  examples:
+  - AT+CSDH
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0013
+  category: SMS
+  source:
+    name: SIM800 Series AT Command Manual
+    version: V1.01
+    date: '2013-09-15'
+    page: '5'
+    section: 3.2.20 Report Mobile Equipment Error .............................................................67
+    quote: 3.2.20 AT+CMEE  Report Mobile Equipment Error .............................................................67
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: ''
+  tags: []
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  command: AT+CMEE
+  syntax: AT+CMEE
+  parameters: []
+  response: OK
+  examples:
+  - AT+CMEE
+  coverage_estimate: high
+  encoding: GSM7
+- id: dat_09_0014
+  category: SMS
+  mode: write
+  command: AT+CSCS
+  syntax: 3.2.12 AT+CSCS  Select TE Character Set ...........................................................................59
+  parameters: []
+  response_success: null
+  response_error: null
+  examples:
+  - AT+CSCS
+  related_urcs: []
+  related_states: []
+  related_commands: []
+  firmware_min: null
+  firmware_max: null
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '4'
+    section: 3.2.12 Select TE Character Set ...........................................................................59
+    quote: 3.2.12 AT+CSCS  Select TE Character Set ...........................................................................59
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 SMS section.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sms
+  - extracted
+  created_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  encoding: GSM7

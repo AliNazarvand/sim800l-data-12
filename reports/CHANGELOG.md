@@ -1,20 +1,19 @@
 # CHANGELOG
 
-## 1405-07-19T17:21:50Z — Batch B6+C+D2
-- dat_10 (GPRS/Data): 21 records annotated from AT Manual V1.01
-- dat_11 (HTTP/FTP/SSL): 10 records annotated
-- dat_12 (Audio): 7 records annotated
-- dat_17 (Certificate/Key Store): BLOCKED (SSL Manual required)
-- dat_04, dat_06: re-annotate attempts with per-dataset gates
-- dat_02: suspicious records attempt fix
-- dat_01: unknown records attempt completion
-- L3 analysis: see reports/_step_D2_L3_analysis.json
+## 1405-07-19T17:44:20Z — Batch D10
+- Section body parsing for params across datasets.
+- dat_09/10/12/13 params filled from AT Manual section body.
+- dat_11 HTTP/FTP specialist params added.
+- dat_05 related_urcs + dat_03 extended recovery_steps.
+- dat_04 values extended.
+- dat_07 function field populated.
+- COVERAGE redefined: complete requires params_pct >= 50%.
 
-## Earlier batches
-- B1: dat_01 rebuild from AT Manual V1.01 (275 commands)
-- B1 fix: dedup dat_01, cmd_norm fix
-- B2+B3 retry: dat_02 + dat_03 extraction (with suspicious flags)
-- A1: dat_07 hardware reference (75/78 annotated)
-- A2: dat_15 (revert — auto-detection failed)
-- A3: structured scan for dat_04/dat_05/dat_06
-- Step 1: infrastructure cleanup + validate.py rewrite
+## Earlier
+- D9: else bug fix, dat_01 params 16 -> 271, complete rule tightened.
+- D8: depth enrichment for multiple datasets.
+- D7: strict_depth metric introduced.
+- D5/D6: batch larger operations with per-dataset gates.
+- A1-A4: hardware datasets.
+- B1-B3: AT Command, URC, Error extraction.
+- Step 1: infrastructure cleanup.

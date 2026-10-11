@@ -16,10 +16,43 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CGDCONT
   syntax: AT+CGDCONT
-  parameters: []
+  parameters:
+  - name: cid
+    type: integer
+    description: ''
+  - name: PDP_type
+    type: string
+    description: ''
+  - name: d_comp
+    type: string
+    description: ''
+  - name: h_comp
+    type: string
+    description: ''
+  - name: CR
+    type: string
+    description: ''
+  - name: LF
+    type: string
+    description: ''
+  - name: APN
+    type: string
+    description: ''
+  - name: PDP_addr
+    type: string
+    description: ''
+  - name: data_comp
+    type: string
+    description: ''
+  - name: head_comp
+    type: string
+    description: ''
+  - name: n
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CGDCONT
@@ -42,10 +75,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CGATT
   syntax: AT+CGATT
-  parameters: []
+  parameters:
+  - name: state
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CGATT
@@ -68,10 +107,25 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CGACT
   syntax: AT+CGACT
-  parameters: []
+  parameters:
+  - name: state
+    type: string
+    description: ''
+  - name: cid
+    type: integer
+    description: ''
+  - name: CR
+    type: string
+    description: ''
+  - name: LF
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CGACT
@@ -120,10 +174,25 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CGPADDR
   syntax: AT+CGPADDR
-  parameters: []
+  parameters:
+  - name: cid
+    type: integer
+    description: ''
+  - name: PDP_addr
+    type: string
+    description: ''
+  - name: CR
+    type: string
+    description: ''
+  - name: LF
+    type: string
+    description: ''
+  - name: n
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CGPADDR
@@ -146,10 +215,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CSTT
   syntax: AT+CSTT
-  parameters: []
+  parameters:
+  - name: apn
+    type: string
+    description: ''
+  - name: password
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CSTT
@@ -224,10 +299,25 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CIPSTART
   syntax: AT+CIPSTART
-  parameters: []
+  parameters:
+  - name: mode
+    type: integer
+    description: ''
+  - name: port
+    type: integer
+    description: ''
+  - name: n
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
+  - name: state
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CIPSTART
@@ -250,10 +340,22 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CIPSEND
   syntax: AT+CIPSEND
-  parameters: []
+  parameters:
+  - name: length
+    type: string
+    description: ''
+  - name: size
+    type: string
+    description: ''
+  - name: n
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CIPSEND
@@ -276,10 +378,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CIPCLOSE
   syntax: AT+CIPCLOSE
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
+  - name: id
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CIPCLOSE
@@ -328,10 +436,22 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CIPSTATUS
   syntax: AT+CIPSTATUS
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
+  - name: bearer
+    type: integer
+    description: ''
+  - name: port
+    type: integer
+    description: ''
+  - name: state
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CIPSTATUS
@@ -354,10 +474,31 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CIPRXGET
   syntax: AT+CIPRXGET
-  parameters: []
+  parameters:
+  - name: mode
+    type: integer
+    description: ''
+  - name: reqlength
+    type: string
+    description: ''
+  - name: id
+    type: string
+    description: ''
+  - name: PORT
+    type: integer
+    description: ''
+  - name: cnflength
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
+  - name: length
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CIPRXGET
@@ -380,10 +521,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CIPMUX
   syntax: AT+CIPMUX
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CIPMUX
@@ -406,10 +550,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CIPQSEND
   syntax: AT+CIPQSEND
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
+  - name: length
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CIPQSEND
@@ -458,10 +608,34 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CIPMODE
   syntax: AT+CIPMODE
-  parameters: []
+  parameters:
+  - name: mode
+    type: integer
+    description: ''
+  - name: NmRetry
+    type: string
+    description: ''
+  - name: WaitTm
+    type: string
+    description: ''
+  - name: SendSz
+    type: string
+    description: ''
+  - name: esc
+    type: string
+    description: ''
+  - name: Rxmode
+    type: string
+    description: ''
+  - name: RxSize
+    type: string
+    description: ''
+  - name: Rxtimer
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CIPMODE
@@ -510,10 +684,19 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CSQ
   syntax: AT+CSQ
-  parameters: []
+  parameters:
+  - name: rssi
+    type: string
+    description: ''
+  - name: ber
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CSQ
@@ -536,10 +719,25 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CREG
   syntax: AT+CREG
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
+  - name: stat
+    type: string
+    description: ''
+  - name: lac
+    type: string
+    description: ''
+  - name: ci
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CREG
@@ -562,10 +760,25 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CGREG
   syntax: AT+CGREG
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
+  - name: stat
+    type: string
+    description: ''
+  - name: lac
+    type: string
+    description: ''
+  - name: ci
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CGREG
@@ -614,10 +827,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CDNSGIP
   syntax: AT+CDNSGIP
-  parameters: []
+  parameters:
+  - name: IP1
+    type: string
+    description: ''
+  - name: IP2
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CDNSGIP

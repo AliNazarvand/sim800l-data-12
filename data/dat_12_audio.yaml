@@ -16,10 +16,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CLVL
   syntax: AT+CLVL
-  parameters: []
+  parameters:
+  - name: level
+    type: integer
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CLVL
@@ -42,10 +48,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CRSL
   syntax: AT+CRSL
-  parameters: []
+  parameters:
+  - name: level
+    type: integer
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CRSL
@@ -68,10 +80,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CMUT
   syntax: AT+CMUT
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CMUT
@@ -94,10 +112,40 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CRSM
   syntax: AT+CRSM
-  parameters: []
+  parameters:
+  - name: sw1
+    type: string
+    description: ''
+  - name: sw2
+    type: string
+    description: ''
+  - name: response
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
+  - name: P1
+    type: string
+    description: ''
+  - name: P2
+    type: string
+    description: ''
+  - name: data
+    type: string
+    description: ''
+  - name: Command
+    type: string
+    description: ''
+  - name: fileId
+    type: string
+    description: ''
+  - name: P3
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CRSM
@@ -120,10 +168,19 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+VTS
   syntax: AT+VTS
-  parameters: []
+  parameters:
+  - name: dtmf
+    type: string
+    description: ''
+  - name: duration
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+VTS
@@ -224,10 +281,28 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CMIC
   syntax: AT+CMIC
-  parameters: []
+  parameters:
+  - name: channel
+    type: integer
+    description: ''
+  - name: gainlevel
+    type: string
+    description: ''
+  - name: channel0
+    type: string
+    description: ''
+  - name: gainlevel0
+    type: string
+    description: ''
+  - name: channeln
+    type: string
+    description: ''
+  - name: gainleveln
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CMIC
@@ -250,10 +325,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CSDT
   syntax: AT+CSDT
-  parameters: []
+  parameters:
+  - name: mode
+    type: integer
+    description: ''
   response: OK
   examples:
   - AT+CSDT
@@ -276,10 +354,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:28Z'
   command: AT+CHFA
   syntax: AT+CHFA
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
+  - name: err
+    type: string
+    description: ''
   response: OK
   examples:
   - AT+CHFA
@@ -314,7 +398,13 @@
   category: Audio
   command: AT+CADC
   syntax: 6.2.7 AT+CADC  Read ADC .............................................................................................135
-  parameters: []
+  parameters:
+  - name: status
+    type: string
+    description: ''
+  - name: value
+    type: string
+    description: ''
   response: null
   examples:
   - AT+CADC
@@ -337,4 +427,4 @@
   - audio
   - extracted
   created_at: '2026-10-11T17:19:47Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:44:28Z'
