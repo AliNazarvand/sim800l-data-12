@@ -1,0 +1,138 @@
+{
+  "generated": "2026-10-11T08:13:03Z",
+  "errors": [
+    {
+      "dataset": "dat_01",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_03",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_04",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_05",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_06",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_07",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_08",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_13",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_15",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_16",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_17",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    },
+    {
+      "dataset": "dat_18",
+      "level": 1,
+      "record": "-",
+      "error": "data file missing",
+      "suggestion": "create file"
+    }
+  ],
+  "counts": {
+    "1": 18,
+    "2": 0,
+    "3": 0,
+    "4": 0
+  },
+  "total": 18
+}

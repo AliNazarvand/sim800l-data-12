@@ -1,12 +1,12 @@
 # SESSION_LOG
 
-## گام ۱ — پاکسازی زیرساخت
-- تاریخ: 1405-07-19T08:11:01Z
-- بکاپ: D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\sim800l-data-backup-14050719114050
+## گام ۱ (اصلاحی) — پاکسازی زیرساخت و رفع انحراف
+- تاریخ: 1405-07-19T08:13:01Z
 - برنچ: feature/complete-datasets
-- dat_01: پاکسازی شد (page: auto → unknown، quote خالی، confidence: 0.0، status: unknown)
-- dat_07: پاکسازی شد (page: auto → unknown، quote خالی، confidence: 0.0، status: unknown)
-- validate.py: بازنویسی شد
-- گزارش‌ها: COVERAGE_MATRIX، SOURCE_INVENTORY، TODO به‌روز شدند
-- کار گام بعد: ورود به خوشه A، عضو A1: dat_07 Hardware Reference
-- منابع موردنیاز: SIM800L Datasheet، AT Command Manual (بازبینی دقیق)
+- validate.py: بازنویسی کامل (jsonschema + cross-ref کامل + consistency + گزارش جدولی)
+- dat_01: 0 رکورد پاکسازی شد (منبع auto حذف، status=unknown، confidence=0.0)
+- dat_07: 0 رکورد پاکسازی شد (منبع auto حذف، status=unknown، confidence=0.0)
+- وضعیت dat_01 و dat_07 → blocked (R11)
+- COVERAGE_MATRIX، SOURCE_INVENTORY، TODO، DECISIONS_LOG، SESSION_LOG به‌روز شدند
+- کار گام بعد: پس از تأمین منبع دقیق برای dat_07، شروع خوشه A. تا آن زمان خوشه A pending_blocked است.
+- منابع موردنیاز: SIM800L Datasheet، بازبینی دقیق AT Command Manual V1.01

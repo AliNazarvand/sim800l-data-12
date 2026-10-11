@@ -15,13 +15,18 @@
 - [ ] GSMA / ITU / mcc-mnc.com — موردنیاز برای dat_14
 
 ## دیتاست‌های بلاک‌شده
+- [ ] dat_01 — records lack verifiable source.page/section (R11)
+- [ ] dat_07 — records lack verifiable source.page/section (R11)
 - [ ] dat_08 — نیازمند Release Notes
 - [ ] dat_17 — نیازمند SSL Manual
 - [ ] dat_18 — نیازمند اسناد رسمی CE/FCC/...
 
-## تأیید دستی موردنیاز
-- [ ] dat_01 — بازبینی source.page و source.quote برای 311 رکورد
-- [ ] dat_07 — بازبینی source.page و source.quote برای 26 رکورد
+## رکوردهای نیازمند بازبینی دستی — dat_01 (0 رکورد)
+    - (لیست خالی)
+
+## رکوردهای نیازمند بازبینی دستی — dat_07 (0 رکورد)
+    - (لیست خالی)
 
 ## خوشه‌های در انتظار
-- [ ] خوشه A — شروع با A1: dat_07
+- [ ] خوشه A — شروع با A1: dat_07 (blocked تا تأمین منبع دقیق)
+- [ ] خوشه B — pending_blocked (وابسته به dat_01)
