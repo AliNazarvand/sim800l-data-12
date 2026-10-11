@@ -1,26 +1,27 @@
 # TODO
 
-## dat_07 — کارهای باقی‌مانده (partial → complete)
-- [ ] بازبینی هم‌ارزهای علامت‌گذاری‌شده در `reports/dat_07_FIX.md` (C1..C8 ↔ SIM_*) و تصمیم برای ادغام یا حفظ هر دو.
-- [ ] بازبینی رکوردهای Keypad (COL/ROW/KBC/KBR) — احتمالاً مخصوص SIM800H هستند و باید در dat_07 بمانند یا حذف شوند (تصمیم مالک پروژه).
-- [ ] تکمیل `voltage_min`/`voltage_typ`/`voltage_max`، `current_typ`/`current_max` از متن manual.
-- [ ] تنظیم `direction` (input/output/power/ground) برای هر pin.
-- [ ] تطبیق کامل با فهرست pin در V2.02 برای اطمینان از پوشش ≥ ۹۵٪.
+## منابع گمشده
+- [ ] SIM800 Series TCP/IP AT Command Manual — موردنیاز برای dat_10
+- [ ] SIM800 Series HTTP AT Command Manual — موردنیاز برای dat_11
+- [ ] SIM800 Series FTP AT Command Manual — موردنیاز برای dat_11
+- [ ] SIM800 Series SSL AT Command Manual — موردنیاز برای dat_11, dat_17
+- [ ] SIM800 Series Audio AT Command Manual — موردنیاز برای dat_12
+- [ ] SIM800 Series SIM AT Command Manual — موردنیاز برای dat_13
+- [ ] SIM800L Datasheet — موردنیاز برای dat_07
+- [ ] SIM800 Series Sleep Mode Application Note — موردنیاز برای dat_15
+- [ ] SIM800 Series URC Application Note — موردنیاز برای dat_02
+- [ ] SIM800 Series Firmware Release Notes — موردنیاز برای dat_08
+- [ ] SIM800 Series Certification Documents — موردنیاز برای dat_18
+- [ ] GSMA / ITU / mcc-mnc.com — موردنیاز برای dat_14
 
-## ۱۸ رکورد weak_at_signal در dat_01 (منتظر بازبینی دستی)
-- فهرست در `reports/dat_01_APPLY_REFINE.md`.
+## دیتاست‌های بلاک‌شده
+- [ ] dat_08 — نیازمند Release Notes
+- [ ] dat_17 — نیازمند SSL Manual
+- [ ] dat_18 — نیازمند اسناد رسمی CE/FCC/...
 
-## منابع گمشده (خارج از پروژه)
-- [ ] SIM800 Series TCP/IP AT Command Manual — dat_10
-- [ ] SIM800 Series HTTP AT Command Manual — dat_11
-- [ ] SIM800 Series FTP AT Command Manual — dat_11
-- [ ] SIM800 Series SSL AT Command Manual — dat_11, dat_17
-- [ ] SIM800 Series Audio AT Command Manual — dat_12
-- [ ] SIM800 Series SIM AT Command Manual — dat_13
-- [ ] SIM800 Series Firmware Release Notes — dat_08
-- [ ] اسناد رسمی CE/FCC/GCF — dat_18
+## تأیید دستی موردنیاز
+- [ ] dat_01 — بازبینی source.page و source.quote برای 311 رکورد
+- [ ] dat_07 — بازبینی source.page و source.quote برای 26 رکورد
 
-## گام بعدی
-- [ ] خوشه A، عضو A2: `dat_15` Power Management (از V2.02 و V1.00).
-- [ ] سپس A3: `dat_04` + `dat_05` + `dat_06`.
-- [ ] سپس A4: `dat_16` Board/EVB.
+## خوشه‌های در انتظار
+- [ ] خوشه A — شروع با A1: dat_07

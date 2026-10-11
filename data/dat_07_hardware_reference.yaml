@@ -18,12 +18,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p040_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0063'
   applicable_models:
@@ -55,12 +55,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p040_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0062'
   applicable_models:
@@ -92,12 +92,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p040_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0058'
   applicable_models:
@@ -129,12 +129,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p040_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -165,12 +165,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p040_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -201,12 +201,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p040_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -237,12 +237,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p040_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0059'
   applicable_models:
@@ -274,12 +274,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p040_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0060'
   applicable_models:
@@ -311,12 +311,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -347,12 +347,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -383,12 +383,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -419,12 +419,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -455,12 +455,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -491,12 +491,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -527,12 +527,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0070'
   applicable_models:
@@ -564,12 +564,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0071'
   applicable_models:
@@ -601,12 +601,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p047_t02.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -637,12 +637,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p042_t03.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -673,12 +673,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p042_t03.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -709,12 +709,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p050_t04.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -745,12 +745,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p050_t04.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -781,12 +781,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -817,12 +817,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -853,12 +853,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -889,12 +889,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -925,12 +925,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -961,12 +961,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p046_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -997,12 +997,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p046_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1033,12 +1033,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p046_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1069,12 +1069,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1105,12 +1105,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1141,12 +1141,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1177,12 +1177,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1213,12 +1213,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1249,12 +1249,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1285,12 +1285,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p069_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1321,12 +1321,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0041'
   applicable_models:
@@ -1358,12 +1358,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0042'
   applicable_models:
@@ -1395,12 +1395,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0043'
   applicable_models:
@@ -1432,12 +1432,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0044'
   applicable_models:
@@ -1469,12 +1469,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0037'
   applicable_models:
@@ -1506,12 +1506,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0038'
   applicable_models:
@@ -1543,12 +1543,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0039'
   applicable_models:
@@ -1580,12 +1580,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0040'
   applicable_models:
@@ -1617,12 +1617,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p069_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1653,12 +1653,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p063_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1689,12 +1689,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0072'
   applicable_models:
@@ -1726,12 +1726,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p047_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1762,12 +1762,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p047_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1798,12 +1798,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p047_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1834,12 +1834,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1870,12 +1870,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1906,12 +1906,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1942,12 +1942,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1978,12 +1978,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p046_t03.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2014,12 +2014,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p046_t03.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2050,12 +2050,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p066_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2086,12 +2086,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p038_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0003'
   applicable_models:
@@ -2123,12 +2123,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p038_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0007'
   applicable_models:
@@ -2160,12 +2160,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p038_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0008'
   applicable_models:
@@ -2197,12 +2197,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p039_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2233,12 +2233,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p038_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0002'
   applicable_models:
@@ -2270,12 +2270,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p038_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0001'
   applicable_models:
@@ -2307,12 +2307,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2343,12 +2343,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2379,12 +2379,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2415,12 +2415,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2451,12 +2451,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p069_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2487,12 +2487,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2523,12 +2523,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0015'
   applicable_models:
@@ -2560,12 +2560,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0016'
   applicable_models:
@@ -2597,12 +2597,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0047'
   applicable_models:
@@ -2634,12 +2634,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2670,12 +2670,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2706,12 +2706,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2742,12 +2742,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2778,12 +2778,12 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800H&SIM800L_Hardware_Design_V2.02_p029_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2814,12 +2814,12 @@
     name: SIM800L_Hardware_Design
     version: V1.00
     date: '2013-08-20'
-    page: auto
+    page: unknown
     section: Pin Description
-    quote: SIM800L_Hardware_Design_V1.00_p039_t01.csv
+    quote: ''
   source_type: primary
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:

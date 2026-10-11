@@ -1,24 +1,34 @@
 # VALIDATION_REPORT
 
-## خطاها (18)
+Generated: 2026-10-11T08:11:02.140281Z
 
-- [dat_01] missing data file
-- [dat_02] missing data file
-- [dat_03] missing data file
-- [dat_04] missing data file
-- [dat_05] missing data file
-- [dat_06] missing data file
-- [dat_07] missing data file
-- [dat_08] missing data file
-- [dat_09] missing data file
-- [dat_10] missing data file
-- [dat_11] missing data file
-- [dat_12] missing data file
-- [dat_13] missing data file
-- [dat_14] missing data file
-- [dat_15] missing data file
-- [dat_16] missing data file
-- [dat_17] missing data file
-- [dat_18] missing data file
+## خلاصه
+- خطاهای سطح ۱ (Schema): 0
+- خطاهای سطح ۲ (Business): 0
+- خطاهای سطح ۳ (Cross-ref): 0
+- خطاهای سطح ۴ (Consistency): 0
 
-## هشدارها (0)
+## خطاها
+
+- [dat_01] data file missing
+- [dat_02] data file missing
+- [dat_03] data file missing
+- [dat_04] data file missing
+- [dat_05] data file missing
+- [dat_06] data file missing
+- [dat_07] data file missing
+- [dat_08] data file missing
+- [dat_09] data file missing
+- [dat_10] data file missing
+- [dat_11] data file missing
+- [dat_12] data file missing
+- [dat_13] data file missing
+- [dat_14] data file missing
+- [dat_15] data file missing
+- [dat_16] data file missing
+- [dat_17] data file missing
+- [dat_18] data file missing
+
+## هشدارها
+
+- (none)
