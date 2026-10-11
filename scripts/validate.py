@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""validate.py - Full validation: schema (jsonschema) + business + cross-ref + consistency."""
+"""validate.py - Full validation with glob-aware data file lookup."""
 import sys
 import json
 from pathlib import Path
@@ -27,7 +27,7 @@ VALID_STATUS = {"complete","partial","unknown","inferred","blocked","deferred","
 VALID_SOURCE_TYPE = {"primary","secondary","external"}
 REQ_FIELDS = ["id","category","source","source_type","confidence","status","applicable_models","created_at","updated_at"]
 
-errors = []  # dicts: dataset, level, record, error, suggestion
+errors = []
 
 def add(dataset, level, record, error, suggestion=""):
     errors.append({
@@ -48,22 +48,34 @@ def norm_records(data):
         return data
     return [data]
 
+def find_data_file(dat_id):
+    """Find data file matching dat_XX.yaml OR dat_XX_*.yaml."""
+    candidates = sorted(DATA.glob(f"{dat_id}_*.yaml"))
+    if candidates:
+        return candidates[0]
+    exact = DATA / f"{dat_id}.yaml"
+    if exact.exists():
+        return exact
+    return None
+
 all_data = {}
+data_paths = {}
 
 # ---------- Level 1: schema + required fields ----------
 for i in range(1, 19):
     dat_id = f"dat_{i:02d}"
-    data_path = DATA / f"{dat_id}.yaml"
+    data_path = find_data_file(dat_id)
     schema_path = SCHEMAS / f"{dat_id}.schema.yaml"
-    if not data_path.exists():
-        add(dat_id, 1, "-", "data file missing", "create file")
+    if data_path is None:
+        add(dat_id, 1, "-", f"data file missing (no dat_{i:02d}*.yaml)", "create file")
         continue
+    data_paths[dat_id] = str(data_path.name)
     if not schema_path.exists():
-        add(dat_id, 1, "-", "schema file missing", "create schema")
+        add(dat_id, 1, "-", f"schema file missing: {schema_path.name}", "create schema")
         continue
     data = load_yaml(data_path)
     if isinstance(data, Exception):
-        add(dat_id, 1, "-", f"YAML parse error: {data}", "fix YAML")
+        add(dat_id, 1, "-", f"YAML parse error in {data_path.name}: {data}", "fix YAML")
         continue
     records = norm_records(data)
     all_data[dat_id] = records
@@ -81,7 +93,6 @@ for i in range(1, 19):
             add(dat_id, 1, rid, "duplicate id", "make unique")
         ids.add(rid)
 
-    # jsonschema validation (per record, tolerating root-array schemas)
     if HAS_JS:
         schema = load_yaml(schema_path)
         if isinstance(schema, Exception):
@@ -89,18 +100,17 @@ for i in range(1, 19):
         else:
             try:
                 validator = Draft7Validator(schema)
-                # If schema declares array, validate the whole thing; else per-record
                 if isinstance(schema, dict) and schema.get("type") == "array":
                     for err in validator.iter_errors(data):
-                        path = "/".join(str(p) for p in err.absolute_path) or "(root)"
-                        add(dat_id, 1, path, err.message, "")
+                        p = "/".join(str(x) for x in err.absolute_path) or "(root)"
+                        add(dat_id, 1, p, err.message, "")
                 else:
                     for rec in records:
                         if not isinstance(rec, dict):
                             continue
                         for err in validator.iter_errors(rec):
-                            path = "/".join(str(p) for p in err.absolute_path) or "(root)"
-                            add(dat_id, 1, f"{rec.get('id','?')}:{path}", err.message, "")
+                            p = "/".join(str(x) for x in err.absolute_path) or "(root)"
+                            add(dat_id, 1, f"{rec.get('id','?')}:{p}", err.message, "")
             except Exception as e:
                 add(dat_id, 1, "-", f"schema validation failed: {e}", "check schema")
 
@@ -132,8 +142,10 @@ for dat_id, records in all_data.items():
         d = src.get("date")
         if d in (None, "", "auto"):
             add(dat_id, 2, rid, "source.date invalid", "provide date")
-        if src.get("page") == "auto":
-            add(dat_id, 2, rid, "source.page == auto (R2)", "clear or fix")
+        if src.get("page") in ("auto", "unknown"):
+            add(dat_id, 2, rid, "source.page invalid (auto/unknown)", "fix or remove")
+        if src.get("section") in ("auto-extracted", "unknown"):
+            add(dat_id, 2, rid, "source.section invalid", "fix or remove")
         notes = str(rec.get("notes", ""))
         if "SIM800H-only" in notes or "SIM800H only" in notes:
             add(dat_id, 2, rid, "SIM800H-only record (R1)", "remove")
@@ -162,28 +174,19 @@ def cmd_norm(c):
 dat01_cmds = commands_in_dat01()
 dat01_nonblocked = bool(dat01_cmds)
 
-# dat_02 URC -> dat_01 command, dat_05 state
 if dat01_nonblocked:
     for rec in all_data.get("dat_02", []):
         if not isinstance(rec, dict):
             continue
-        rid = rec.get("id")
         rc = rec.get("related_command")
         if rc and cmd_norm(rc) not in dat01_cmds:
-            add("dat_02", 3, rid, f"related_command {rc} not in dat_01", "add or fix reference")
-
-# dat_03 error -> dat_01 commands
-if dat01_nonblocked:
+            add("dat_02", 3, rec.get("id"), f"related_command {rc} not in dat_01", "add or fix")
     for rec in all_data.get("dat_03", []):
         if not isinstance(rec, dict):
             continue
-        rid = rec.get("id")
         for rc in (rec.get("related_commands") or []):
             if cmd_norm(rc) not in dat01_cmds:
-                add("dat_03", 3, rid, f"related_command {rc} not in dat_01", "add or fix reference")
-
-# dat_09..dat_13, dat_15, dat_17 -> dat_01
-if dat01_nonblocked:
+                add("dat_03", 3, rec.get("id"), f"related_command {rc} not in dat_01", "add or fix")
     for ds in ["dat_09","dat_10","dat_11","dat_12","dat_13","dat_15","dat_17"]:
         for rec in all_data.get(ds, []):
             if not isinstance(rec, dict):
@@ -192,7 +195,6 @@ if dat01_nonblocked:
             if cmd and cmd_norm(cmd) not in dat01_cmds:
                 add(ds, 3, rec.get("id"), f"command {cmd} not in dat_01", "add to dat_01 or fix")
 
-# dat_04 timing -> dat_05/dat_06 (soft check via related_state)
 dat05_states = set()
 for rec in all_data.get("dat_05", []):
     if isinstance(rec, dict) and rec.get("state_name"):
@@ -202,7 +204,7 @@ for rec in all_data.get("dat_04", []):
         continue
     rs = rec.get("related_state")
     if rs and str(rs).upper() not in dat05_states:
-        add("dat_04", 3, rec.get("id"), f"related_state {rs} not in dat_05", "add or fix reference")
+        add("dat_04", 3, rec.get("id"), f"related_state {rs} not in dat_05", "add or fix")
 
 # ---------- Level 4: consistency ----------
 for dat_id, records in all_data.items():
@@ -216,16 +218,19 @@ by_level = {1:0, 2:0, 3:0, 4:0}
 for e in errors:
     by_level[e["level"]] = by_level.get(e["level"], 0) + 1
 
-lines = []
-lines.append("# VALIDATION_REPORT")
-lines.append("")
-lines.append(f"Generated: {ts}")
-lines.append("")
-lines.append("## خلاصه")
+lines = ["# VALIDATION_REPORT", "", f"Generated: {ts}", "", "## خلاصه"]
 lines.append(f"- خطاهای سطح ۱ (Schema): {by_level[1]}")
 lines.append(f"- خطاهای سطح ۲ (Business): {by_level[2]}")
 lines.append(f"- خطاهای سطح ۳ (Cross-ref): {by_level[3]}")
 lines.append(f"- خطاهای سطح ۴ (Consistency): {by_level[4]}")
+lines.append("")
+lines.append("## فایل‌های کشف‌شده")
+lines.append("")
+lines.append("| دیتاست | فایل |")
+lines.append("|---|---|")
+for i in range(1, 19):
+    dat_id = f"dat_{i:02d}"
+    lines.append(f"| {dat_id} | {data_paths.get(dat_id, '-')} |")
 lines.append("")
 lines.append("## جزئیات خطاها")
 lines.append("")
@@ -241,20 +246,13 @@ else:
 lines.append("")
 
 (REPORTS / "VALIDATION_REPORT.md").write_text("\n".join(lines), encoding="utf-8")
-
-# Also write JSON for downstream use
 (REPORTS / "_validation_summary.json").write_text(
-    json.dumps({
-        "generated": ts,
-        "errors": errors,
-        "counts": by_level,
-        "total": len(errors)
-    }, ensure_ascii=False, indent=2),
+    json.dumps({"generated": ts, "errors": errors, "counts": by_level, "total": len(errors),
+                "data_paths": data_paths}, ensure_ascii=False, indent=2),
     encoding="utf-8"
 )
 
-print(f"Validation: {len(errors)} errors "
-      f"(L1={by_level[1]} L2={by_level[2]} L3={by_level[3]} L4={by_level[4]})")
+print(f"Validation: {len(errors)} errors (L1={by_level[1]} L2={by_level[2]} L3={by_level[3]} L4={by_level[4]})")
 if not HAS_JS:
     print("WARNING: jsonschema not installed; schema-level validation was skipped.")
     print("         Install with: pip install jsonschema")

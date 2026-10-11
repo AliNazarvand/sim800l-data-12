@@ -1,138 +1,2517 @@
 {
-  "generated": "2026-10-11T08:13:03Z",
+  "generated": "2026-10-11T08:14:23Z",
   "errors": [
     {
-      "dataset": "dat_01",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
-    },
-    {
-      "dataset": "dat_02",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
-    },
-    {
-      "dataset": "dat_03",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
-    },
-    {
-      "dataset": "dat_04",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
-    },
-    {
-      "dataset": "dat_05",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
-    },
-    {
-      "dataset": "dat_06",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
-    },
-    {
-      "dataset": "dat_07",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
-    },
-    {
-      "dataset": "dat_08",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
-    },
-    {
-      "dataset": "dat_09",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
-    },
-    {
-      "dataset": "dat_10",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
-    },
-    {
-      "dataset": "dat_12",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
-    },
-    {
-      "dataset": "dat_13",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0001",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
     },
     {
       "dataset": "dat_14",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
+      "level": 2,
+      "record": "dat_14_0002",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
     },
     {
-      "dataset": "dat_15",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0003",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
     },
     {
-      "dataset": "dat_16",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0004",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0005",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0006",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0007",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0008",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0009",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0010",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0011",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0012",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0013",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0014",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0015",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0016",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0017",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0018",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0019",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0020",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0021",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0022",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0023",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0024",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0025",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0026",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0027",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0028",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0029",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0030",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0031",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0032",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0033",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0034",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0035",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0036",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0037",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0038",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0039",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0040",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0041",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0042",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0043",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0044",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0045",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0046",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0047",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0048",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0049",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0050",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0051",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_14",
+      "level": 2,
+      "record": "dat_14_0052",
+      "error": "source.date invalid",
+      "suggestion": "provide date"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0001",
+      "error": "related_command AT+CAAS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0002",
+      "error": "related_command AT+CACM not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0003",
+      "error": "related_command AT+CADC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0004",
+      "error": "related_command AT+CALA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0005",
+      "error": "related_command AT+CALD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0006",
+      "error": "related_command AT+CALM not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0007",
+      "error": "related_command AT+CALS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0008",
+      "error": "related_command AT+CALA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0009",
+      "error": "related_command AT+CAMM not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0010",
+      "error": "related_command AT+CAOC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0011",
+      "error": "related_command AT+CBAND not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0012",
+      "error": "related_command AT+CBC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0014",
+      "error": "related_command AT+CBST not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0015",
+      "error": "related_command AT+CBUZZERRING not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0016",
+      "error": "related_command AT+CCALR not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0017",
+      "error": "related_command AT+CCFC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0018",
+      "error": "related_command AT+CCLK not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0019",
+      "error": "related_command AT+CCODE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0020",
+      "error": "related_command AT+CCPD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0021",
+      "error": "related_command AT+CCVM not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0022",
+      "error": "related_command AT+CCWA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0023",
+      "error": "related_command AT+CCWE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0024",
+      "error": "related_command AT+CDNSCFG not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0025",
+      "error": "related_command AT+CDNSGIP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0026",
+      "error": "related_command AT+CDRIND not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0028",
+      "error": "related_command AT+CEER not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0029",
+      "error": "related_command AT+CEMNL not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0030",
+      "error": "related_command AT+CENG not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0031",
+      "error": "related_command AT+CEXTERNTONE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0032",
+      "error": "related_command AT+CFGRI not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0033",
+      "error": "related_command AT+CFUN not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0034",
+      "error": "related_command AT+CGACT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0035",
+      "error": "related_command AT+CGATT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0036",
+      "error": "related_command AT+CGCLASS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0037",
+      "error": "related_command AT+CGDATA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0038",
+      "error": "related_command AT+CGDCONT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0039",
+      "error": "related_command AT+CGEREP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0040",
+      "error": "related_command AT+CGPADDR not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0041",
+      "error": "related_command AT+CGQMIN not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0042",
+      "error": "related_command AT+CGQREQ not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0043",
+      "error": "related_command AT+CGREG not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0044",
+      "error": "related_command AT+CGSMS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0045",
+      "error": "related_command AT+CHF not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0046",
+      "error": "related_command AT+CHFA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0047",
+      "error": "related_command AT+CHLD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0048",
+      "error": "related_command AT+CIPACK not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0049",
+      "error": "related_command AT+CIPATS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0050",
+      "error": "related_command AT+CIPCCFG not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0051",
+      "error": "related_command AT+CIPCSGP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0052",
+      "error": "related_command AT+CIPCTL not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0053",
+      "error": "related_command AT+CIPDPDP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0054",
+      "error": "related_command AT+CIPFLT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0055",
+      "error": "related_command AT+CIPGSMLOC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0056",
+      "error": "related_command AT+CIPHEAD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0057",
+      "error": "related_command AT+CIPMODE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0058",
+      "error": "related_command AT+CIPMUX not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0059",
+      "error": "related_command AT+CIPPING not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0060",
+      "error": "related_command AT+CIPQSEND not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0061",
+      "error": "related_command AT+CIPSCONT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0062",
+      "error": "related_command AT+CIPRXGET not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0063",
+      "error": "related_command AT+CIPSCONT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0064",
+      "error": "related_command AT+CIPSEND not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0065",
+      "error": "related_command AT+CIPSERVER not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0066",
+      "error": "related_command AT+CIPSGTXT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0067",
+      "error": "related_command AT+CIPSHOWTP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0068",
+      "error": "related_command AT+CIPSPRT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0069",
+      "error": "related_command AT+CIPSRIP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0070",
+      "error": "related_command AT+CIPMUX not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0071",
+      "error": "related_command AT+CIPSTATUS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0072",
+      "error": "related_command AT+CIPUDPMODE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0073",
+      "error": "related_command AT+CIURC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0074",
+      "error": "related_command AT+CLCC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0075",
+      "error": "related_command AT+CLCK not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0076",
+      "error": "related_command AT+CLDTMF not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0077",
+      "error": "related_command AT+CLIP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0078",
+      "error": "related_command AT+CLIR not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0079",
+      "error": "related_command AT+CLPORT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0080",
+      "error": "related_command AT+CLTS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0081",
+      "error": "related_command AT+CLVL not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0083",
+      "error": "related_command AT+CMEE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0084",
+      "error": "related_command AT+CMGD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0085",
+      "error": "related_command AT+CMGDA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0086",
+      "error": "related_command AT+CMGF not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0087",
+      "error": "related_command AT+CMGHEX not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0088",
+      "error": "related_command AT+CMGL not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0089",
+      "error": "related_command AT+CMGR not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0091",
+      "error": "related_command AT+CMGW not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0092",
+      "error": "related_command AT+CMIC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0093",
+      "error": "related_command AT+CMICBIAS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0094",
+      "error": "related_command AT+CMMSBCC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0095",
+      "error": "related_command AT+CMMSCC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0096",
+      "error": "related_command AT+CMMSCID not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0097",
+      "error": "related_command AT+CMMSCURL not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0098",
+      "error": "related_command AT+CMMSDELBC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0099",
+      "error": "related_command AT+CMMSDELCC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0100",
+      "error": "related_command AT+CMMSDELRE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0101",
+      "error": "related_command AT+CMMSDOWN not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0102",
+      "error": "related_command AT+CMMSEDIT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0103",
+      "error": "related_command AT+CMMSPROFILE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0104",
+      "error": "related_command AT+CMMSPROTO not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0105",
+      "error": "related_command AT+CMMSRDPUS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0106",
+      "error": "related_command AT+CMMSREAD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0107",
+      "error": "related_command AT+CMMSRECP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0108",
+      "error": "related_command AT+CMMSRECV not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0109",
+      "error": "related_command AT+CMMSSCONT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0110",
+      "error": "related_command AT+CMMSSEND not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0111",
+      "error": "related_command AT+CMMSSENDCFG not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0112",
+      "error": "related_command AT+CMMSSTATU not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0113",
+      "error": "related_command AT+CMMSTIMEOUT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0114",
+      "error": "related_command AT+CMMSUA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0115",
+      "error": "related_command AT+CMMSVIEW not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0116",
+      "error": "related_command AT+CMOD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0117",
+      "error": "related_command AT+CMGD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0118",
+      "error": "related_command AT+CMSS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0120",
+      "error": "related_command AT+CMTE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0122",
+      "error": "related_command AT+CMUT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0123",
+      "error": "related_command AT+CMUX not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0124",
+      "error": "related_command AT+CNMI not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0125",
+      "error": "related_command AT+CNUM not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0126",
+      "error": "related_command AT+COLP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0127",
+      "error": "related_command AT+COPN not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0128",
+      "error": "related_command AT+COPS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0129",
+      "error": "related_command AT+CPAS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0130",
+      "error": "related_command AT+CPBF not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0131",
+      "error": "related_command AT+CPBR not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0132",
+      "error": "related_command AT+CPBS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0133",
+      "error": "related_command AT+CPBW not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0134",
+      "error": "related_command AT+CPIN not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0135",
+      "error": "related_command AT+CPMS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0136",
+      "error": "related_command AT+CPOL not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0137",
+      "error": "related_command AT+CPUC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0138",
+      "error": "related_command AT+CPWD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0139",
+      "error": "related_command AT+CR not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0140",
+      "error": "related_command AT+CRC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0141",
+      "error": "related_command AT+CREC not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0142",
+      "error": "related_command AT+CREG not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0143",
+      "error": "related_command AT+CRES not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0144",
+      "error": "related_command AT+CLIP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0145",
+      "error": "related_command AT+CRLP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0146",
+      "error": "related_command AT+CRSL not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0147",
+      "error": "related_command AT+CRSM not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0148",
+      "error": "related_command AT+CSAS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0149",
+      "error": "related_command AT+CSCA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0150",
+      "error": "related_command AT+CSCB not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0151",
+      "error": "related_command AT+CSCLK not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0152",
+      "error": "related_command AT+CSCS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0153",
+      "error": "related_command AT+CSDH not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0154",
+      "error": "related_command AT+CSDT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0155",
+      "error": "related_command AT+CSGS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0156",
+      "error": "related_command AT+CSIM not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0157",
+      "error": "related_command AT+CSMINS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0158",
+      "error": "related_command AT+CSMP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0159",
+      "error": "related_command AT+CSMS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0160",
+      "error": "related_command AT+CSNS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0161",
+      "error": "related_command AT+CSPN not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0162",
+      "error": "related_command AT+CSQ not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0163",
+      "error": "related_command AT+CPIN not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0164",
+      "error": "related_command AT+CSSN not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0165",
+      "error": "related_command AT+CSSN not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0166",
+      "error": "related_command AT+CSSN not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0167",
+      "error": "related_command AT+CSTA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0168",
+      "error": "related_command AT+CSTT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0169",
+      "error": "related_command AT+CTTS not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0170",
+      "error": "related_command AT+CTTSPARAM not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0171",
+      "error": "related_command AT+CCLK not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0172",
+      "error": "related_command AT+CUSD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0173",
+      "error": "related_command AT+CWHITELIST not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0174",
+      "error": "related_command AT+FTPCID not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0175",
+      "error": "related_command AT+FTPDELE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0176",
+      "error": "related_command AT+FTPEXTPUT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0177",
+      "error": "related_command AT+FTPGET not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0178",
+      "error": "related_command AT+FTPGETNA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0179",
+      "error": "related_command AT+FTPGETPA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0180",
+      "error": "related_command AT+FTPLIST not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0181",
+      "error": "related_command AT+FTPMKD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0182",
+      "error": "related_command AT+FTPMOD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0183",
+      "error": "related_command AT+FTPPORT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0184",
+      "error": "related_command AT+FTPPUT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0185",
+      "error": "related_command AT+FTPPUTNA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0186",
+      "error": "related_command AT+FTPPUTOP not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0187",
+      "error": "related_command AT+FTPPUTPA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0188",
+      "error": "related_command AT+FTPPW not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0189",
+      "error": "related_command AT+FTPREST not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0190",
+      "error": "related_command AT+FTPRMD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0191",
+      "error": "related_command AT+FTPSCONT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0192",
+      "error": "related_command AT+FTPSERV not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0193",
+      "error": "related_command AT+FTPSIZE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0194",
+      "error": "related_command AT+FTPSTATE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0195",
+      "error": "related_command AT+FTPSCONT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0196",
+      "error": "related_command AT+FTPTYPE not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0197",
+      "error": "related_command AT+FTPUN not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0198",
+      "error": "related_command AT+HTTPACTION not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0199",
+      "error": "related_command AT+HTTPDATA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0200",
+      "error": "related_command AT+HTTPPARA not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0201",
+      "error": "related_command AT+HTTPREAD not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0202",
+      "error": "related_command AT+HTTPSCONT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_02",
+      "level": 3,
+      "record": "dat_02_0203",
+      "error": "related_command AT+HTTPSTAT not in dat_01",
+      "suggestion": "add or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0001",
+      "error": "command AT+CMGF not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0002",
+      "error": "command AT+CMGS not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0003",
+      "error": "command AT+CMGR not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0004",
+      "error": "command AT+CMGL not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0005",
+      "error": "command AT+CMGD not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0006",
+      "error": "command AT+CMGW not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0007",
+      "error": "command AT+CSCA not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0008",
+      "error": "command AT+CSMS not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0009",
+      "error": "command AT+CPMS not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0010",
+      "error": "command AT+CNMI not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0011",
+      "error": "command AT+CSMP not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0012",
+      "error": "command AT+CSDH not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_09",
+      "level": 3,
+      "record": "dat_09_0013",
+      "error": "command AT+CMEE not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0001",
+      "error": "command AT+CGDCONT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0002",
+      "error": "command AT+CGATT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0003",
+      "error": "command AT+CGACT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0004",
+      "error": "command AT+CGCONTRDP not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0005",
+      "error": "command AT+CGPADDR not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0006",
+      "error": "command AT+CSTT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0007",
+      "error": "command AT+CIICR not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0008",
+      "error": "command AT+CIFSR not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0009",
+      "error": "command AT+CIPSTART not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0010",
+      "error": "command AT+CIPSEND not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0011",
+      "error": "command AT+CIPCLOSE not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0012",
+      "error": "command AT+CIPSHUT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0013",
+      "error": "command AT+CIPSTATUS not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0014",
+      "error": "command AT+CIPRXGET not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0015",
+      "error": "command AT+CIPMUX not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0016",
+      "error": "command AT+CIPQSEND not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0017",
+      "error": "command AT+CIPDDREM not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0018",
+      "error": "command AT+CIPMODE not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0019",
+      "error": "command AT+CIPCCFG not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0020",
+      "error": "command AT+CSQ not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0021",
+      "error": "command AT+CREG not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0022",
+      "error": "command AT+CGREG not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0023",
+      "error": "command AT+CEREG not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_10",
+      "level": 3,
+      "record": "dat_10_0024",
+      "error": "command AT+CDNSGIP not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0001",
+      "error": "command AT+HTTPINIT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0002",
+      "error": "command AT+HTTPTERM not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0003",
+      "error": "command AT+HTTPPARA not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0004",
+      "error": "command AT+HTTPDATA not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0005",
+      "error": "command AT+HTTPACTION not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0006",
+      "error": "command AT+HTTPREAD not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0007",
+      "error": "command AT+HTTPHEAD not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0008",
+      "error": "command AT+HTTPSTATUS not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0009",
+      "error": "command AT+HTTPURL not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0010",
+      "error": "command AT+HTTPSSL not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0011",
+      "error": "command AT+FTPOPEN not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0012",
+      "error": "command AT+FTPCLOSE not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0013",
+      "error": "command AT+FTPPUT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0014",
+      "error": "command AT+FTPGET not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0015",
+      "error": "command AT+FTPDELE not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0016",
+      "error": "command AT+FTPMKD not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0017",
+      "error": "command AT+FTPRMD not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0018",
+      "error": "command AT+FTPLIST not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0019",
+      "error": "command AT+FTPFLST not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0020",
+      "error": "command AT+FTPUSER not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0021",
+      "error": "command AT+FTPPASS not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0022",
+      "error": "command AT+FTPCWD not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0023",
+      "error": "command AT+FTPPWD not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0024",
+      "error": "command AT+FTPTYPE not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0025",
+      "error": "command AT+FTPMODE not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0026",
+      "error": "command AT+FTPPUTOPT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0027",
+      "error": "command AT+FTPGETPATH not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0028",
+      "error": "command AT+FTPPUTPATH not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0029",
+      "error": "command AT+FTPPORT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0030",
+      "error": "command AT+SSLCFG not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0031",
+      "error": "command AT+SSLCONF not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0032",
+      "error": "command AT+SSLOPEN not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0033",
+      "error": "command AT+SSLSEND not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0034",
+      "error": "command AT+SSLRECV not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0035",
+      "error": "command AT+SSLCLOSE not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0036",
+      "error": "command AT+SSLSETCERT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0037",
+      "error": "command AT+SSLSETKEY not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_11",
+      "level": 3,
+      "record": "dat_11_0038",
+      "error": "command AT+SSLSETCA not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 3,
+      "record": "dat_12_0001",
+      "error": "command AT+CLVL not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 3,
+      "record": "dat_12_0002",
+      "error": "command AT+CRSL not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 3,
+      "record": "dat_12_0003",
+      "error": "command AT+CMUT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 3,
+      "record": "dat_12_0004",
+      "error": "command AT+CRSM not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 3,
+      "record": "dat_12_0005",
+      "error": "command AT+VTS not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 3,
+      "record": "dat_12_0006",
+      "error": "command AT+CATONE not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 3,
+      "record": "dat_12_0007",
+      "error": "command AT+CADTONE not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 3,
+      "record": "dat_12_0008",
+      "error": "command AT+CLDTONE not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 3,
+      "record": "dat_12_0009",
+      "error": "command AT+CMIC not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 3,
+      "record": "dat_12_0010",
+      "error": "command AT+CSDT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 3,
+      "record": "dat_12_0011",
+      "error": "command AT+CHFA not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_12",
+      "level": 3,
+      "record": "dat_12_0012",
+      "error": "command AT+CPCMREG not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_13",
+      "level": 3,
+      "record": "dat_13_0001",
+      "error": "command AT+CPIN not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_13",
+      "level": 3,
+      "record": "dat_13_0002",
+      "error": "command AT+CLCK not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_13",
+      "level": 3,
+      "record": "dat_13_0003",
+      "error": "command AT+CPWD not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_13",
+      "level": 3,
+      "record": "dat_13_0004",
+      "error": "command AT+CSIM not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_13",
+      "level": 3,
+      "record": "dat_13_0005",
+      "error": "command AT+CRSM not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_13",
+      "level": 3,
+      "record": "dat_13_0006",
+      "error": "command AT+CIMI not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_13",
+      "level": 3,
+      "record": "dat_13_0007",
+      "error": "command AT+CCID not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_13",
+      "level": 3,
+      "record": "dat_13_0008",
+      "error": "command AT+CSMINS not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_13",
+      "level": 3,
+      "record": "dat_13_0009",
+      "error": "command AT+CSPN not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_13",
+      "level": 3,
+      "record": "dat_13_0010",
+      "error": "command AT+CUSD not in dat_01",
+      "suggestion": "add to dat_01 or fix"
     },
     {
       "dataset": "dat_17",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
+      "level": 3,
+      "record": "dat_17_0001",
+      "error": "command AT+SSLCFG not in dat_01",
+      "suggestion": "add to dat_01 or fix"
     },
     {
-      "dataset": "dat_18",
-      "level": 1,
-      "record": "-",
-      "error": "data file missing",
-      "suggestion": "create file"
+      "dataset": "dat_17",
+      "level": 3,
+      "record": "dat_17_0002",
+      "error": "command AT+SSLCONF not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_17",
+      "level": 3,
+      "record": "dat_17_0003",
+      "error": "command AT+SSLOPEN not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_17",
+      "level": 3,
+      "record": "dat_17_0004",
+      "error": "command AT+SSLSEND not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_17",
+      "level": 3,
+      "record": "dat_17_0005",
+      "error": "command AT+SSLRECV not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_17",
+      "level": 3,
+      "record": "dat_17_0006",
+      "error": "command AT+SSLCLOSE not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_17",
+      "level": 3,
+      "record": "dat_17_0007",
+      "error": "command AT+SSLSETCERT not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_17",
+      "level": 3,
+      "record": "dat_17_0008",
+      "error": "command AT+SSLSETKEY not in dat_01",
+      "suggestion": "add to dat_01 or fix"
+    },
+    {
+      "dataset": "dat_17",
+      "level": 3,
+      "record": "dat_17_0009",
+      "error": "command AT+SSLSETCA not in dat_01",
+      "suggestion": "add to dat_01 or fix"
     }
   ],
   "counts": {
-    "1": 18,
-    "2": 0,
-    "3": 0,
+    "1": 0,
+    "2": 52,
+    "3": 303,
     "4": 0
   },
-  "total": 18
+  "total": 355,
+  "data_paths": {
+    "dat_01": "dat_01_at_command.yaml",
+    "dat_02": "dat_02_urc.yaml",
+    "dat_03": "dat_03_error_code.yaml",
+    "dat_04": "dat_04_timing_timeout.yaml",
+    "dat_05": "dat_05_state_machine.yaml",
+    "dat_06": "dat_06_init_sequence.yaml",
+    "dat_07": "dat_07_hardware_reference.yaml",
+    "dat_08": "dat_08_firmware_compatibility.yaml",
+    "dat_09": "dat_09_sms.yaml",
+    "dat_10": "dat_10_gprs_data.yaml",
+    "dat_11": "dat_11_http_ftp_ssl.yaml",
+    "dat_12": "dat_12_audio.yaml",
+    "dat_13": "dat_13_sim_management.yaml",
+    "dat_14": "dat_14_operator_apn.yaml",
+    "dat_15": "dat_15_power_management.yaml",
+    "dat_16": "dat_16_board_evb.yaml",
+    "dat_17": "dat_17_certificate_key_store.yaml",
+    "dat_18": "dat_18_certification.yaml"
+  }
 }
