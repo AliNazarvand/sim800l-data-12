@@ -1,476 +1,3 @@
-- id: dat_07_0001
-  category: SIM
-  name: C1
-  pin_number: C1
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: SIM card power supply
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    section: Pin Description
-    quote: C1 SIM_VDD SIM card power supply
-    page: '40'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0063'
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - sim
-  - possible-duplicate
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0002
-  category: SIM
-  name: C2
-  pin_number: C2
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: SIM card reset
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    section: Pin Description
-    quote: C2 SIM_RST SIM card reset
-    page: '40'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0062'
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - sim
-  - possible-duplicate
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0003
-  category: SIM
-  name: C3
-  pin_number: C3
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: SIM card clock
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    section: Pin Description
-    quote: C3 SIM_CLK SIM card clock
-    page: '40'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0058'
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - sim
-  - possible-duplicate
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0004
-  category: Ground
-  name: C4
-  pin_number: C4
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: Connect to GND
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    section: Pin Description
-    quote: C4 GND Connect to GND
-    page: '40'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - ground
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0005
-  category: Ground
-  name: C5
-  pin_number: C5
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: Connect to GND
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    section: Pin Description
-    quote: C5 GND Connect to GND
-    page: '40'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - ground
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0006
-  category: NC
-  name: C6
-  pin_number: C6
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: Not connect
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    section: Pin Description
-    quote: C6 VPP Not connect
-    page: '40'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - nc
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:28:15Z'
-- id: dat_07_0007
-  category: SIM
-  name: C7
-  pin_number: C7
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: SIM card data I/O
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    section: Pin Description
-    quote: C7 SIM_DATA SIM card data I/O
-    page: '40'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0059'
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - sim
-  - possible-duplicate
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0008
-  category: SIM
-  name: C8
-  pin_number: C8
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: Detect SIM card presence
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    section: Pin Description
-    quote: C8 SIM_DET Detect SIM card presence
-    page: '40'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0060'
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - sim
-  - possible-duplicate
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0009
-  category: Keypad
-  name: COL0
-  pin_number: COL0
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: 'Note: When only USB_DP and USB_DM are connected, no VBUS, customer need to pull down COL0(pin20)'
-    page: '33'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - keypad
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0010
-  category: Keypad
-  name: COL1
-  pin_number: COL1
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: COL1 25 COL1 GPIO7
-    page: '47'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - keypad
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0011
-  category: Keypad
-  name: COL2
-  pin_number: COL2
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: COL2 22 COL2 GPIO8
-    page: '47'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - keypad
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0012
-  category: Keypad
-  name: COL3
-  pin_number: COL3
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: COL3 21 I keep open.（Pin number 20
-    page: '16'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - keypad
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0013
-  category: Keypad
-  name: COL4
-  pin_number: COL4
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: COL4 24 I Support up to 50 buttons (5*5*2) If these pins are unused,
-    page: '16'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - keypad
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
 - id: dat_07_0014
   category: UART
   name: CTS
@@ -495,8 +22,8 @@
     quote: (cid:122) Support RTS/CTS hardware handshake and software ON/OFF flow control.
     page: '12'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -506,7 +33,7 @@
   - pin
   - uart
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0015
   category: UART
   name: DCD
@@ -518,7 +45,7 @@
   current_typ: null
   current_max: null
   function: Data carrier detect
-  alternate_function: GPIO
+  alternate_function: 'GPIO; V1.00: UART_DCD'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -531,9 +58,11 @@
     quote: DCD 70 O Data carrier detect
     page: '17'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it UART_DCD
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0070'
   applicable_models:
   - SIM800L
@@ -543,7 +72,7 @@
   - uart
   - possible-duplicate
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0016
   category: UART
   name: DTR
@@ -555,7 +84,7 @@
   current_typ: null
   current_max: null
   function: Data terminal ready
-  alternate_function: GPIO
+  alternate_function: 'GPIO; V1.00: UART_DTR'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -568,9 +97,11 @@
     quote: DTR 69 I Data terminal ready
     page: '17'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it UART_DTR
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0071'
   applicable_models:
   - SIM800L
@@ -580,7 +111,7 @@
   - uart
   - possible-duplicate
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0017
   category: GPIO
   name: GPIO1
@@ -605,8 +136,8 @@
     quote: GPIO1 3 I/O
     page: '17'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -616,7 +147,7 @@
   - pin
   - gpio
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0018
   category: GPIO
   name: GPIO2
@@ -641,8 +172,8 @@
     quote: GPIO2 27 I/O
     page: '17'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -652,7 +183,7 @@
   - pin
   - gpio
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0019
   category: GPIO
   name: GPIO3
@@ -677,8 +208,8 @@
     quote: GPIO3 28 I/O
     page: '17'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -688,7 +219,7 @@
   - pin
   - gpio
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0020
   category: LED
   name: ISINK0
@@ -713,8 +244,8 @@
     quote: ISINK0 47 I Drive LCD backlight
     page: '18'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -724,7 +255,7 @@
   - pin
   - led
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:28:15Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0021
   category: LED
   name: ISINK1
@@ -749,8 +280,8 @@
     quote: ISINK1 46 I Drive keypad backlight
     page: '18'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -760,7 +291,7 @@
   - pin
   - led
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:28:15Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0022
   category: Keypad
   name: KBC0
@@ -772,7 +303,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: COL0'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -785,9 +316,11 @@
     quote: 'Note: When only USB_DP and USB_DN are connected, no VBUS, customers need to pull down KBC0 (pin20) before power on'
     page: '33'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it COL0
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
   - SIM800L
@@ -796,7 +329,7 @@
   - pin
   - keypad
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0023
   category: Keypad
   name: KBC1
@@ -808,7 +341,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: COL1'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -821,9 +354,11 @@
     quote: KBC1 25 KBC1 GPIO7
     page: '46'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it COL1
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
   - SIM800L
@@ -832,7 +367,7 @@
   - pin
   - keypad
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0024
   category: Keypad
   name: KBC2
@@ -844,7 +379,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: COL2'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -857,9 +392,11 @@
     quote: KBC2 22 KBC2 GPIO8
     page: '46'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it COL2
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
   - SIM800L
@@ -868,7 +405,7 @@
   - pin
   - keypad
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0025
   category: Keypad
   name: KBC3
@@ -880,7 +417,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: COL3'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -893,9 +430,11 @@
     quote: KBC3 21 KBC3 GPIO9
     page: '46'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it COL3
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
   - SIM800L
@@ -904,7 +443,7 @@
   - pin
   - keypad
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0026
   category: Keypad
   name: KBC4
@@ -916,7 +455,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: COL4'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -929,9 +468,11 @@
     quote: KBC4 24 I Support up to 50 buttons (5*5*2) If these pins are unused,
     page: '16'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it COL4
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
   - SIM800L
@@ -940,7 +481,7 @@
   - pin
   - keypad
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0027
   category: Keypad
   name: KBR0
@@ -952,7 +493,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: ROW0'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -965,9 +506,11 @@
     quote: KBR0 62 KBR0 GPIO11
     page: '46'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it ROW0
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
   - SIM800L
@@ -976,7 +519,7 @@
   - pin
   - keypad
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0028
   category: Keypad
   name: KBR1
@@ -988,7 +531,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: ROW1'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -1001,9 +544,11 @@
     quote: KBR1 60 KBR1 GPIO12
     page: '46'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it ROW1
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
   - SIM800L
@@ -1012,7 +557,7 @@
   - pin
   - keypad
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0029
   category: Keypad
   name: KBR2
@@ -1024,7 +569,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: ROW2'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -1037,9 +582,11 @@
     quote: KBR2 61 KBR2 GPIO13
     page: '46'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it ROW2
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
   - SIM800L
@@ -1048,7 +595,7 @@
   - pin
   - keypad
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0030
   category: Keypad
   name: KBR3
@@ -1060,7 +607,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: ROW3'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -1073,9 +620,11 @@
     quote: KBR3 23 KBR3 GPIO14
     page: '46'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it ROW3
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
   - SIM800L
@@ -1084,7 +633,7 @@
   - pin
   - keypad
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0031
   category: Keypad
   name: KBR4
@@ -1096,7 +645,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: ROW4'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -1109,9 +658,11 @@
     quote: KBR4 63 KBR4 GPIO15
     page: '46'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it ROW4
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
   - SIM800L
@@ -1120,7 +671,7 @@
   - pin
   - keypad
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0032
   category: Audio
   name: MIC1N
@@ -1145,8 +696,8 @@
     quote: MIC1N 12
     page: '16'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1156,7 +707,7 @@
   - pin
   - audio
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0033
   category: Audio
   name: MIC1P
@@ -1181,8 +732,8 @@
     quote: MIC1P 52
     page: '16'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1192,7 +743,7 @@
   - pin
   - audio
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0034
   category: Audio
   name: MIC2N
@@ -1217,8 +768,8 @@
     quote: MIC2N 10
     page: '16'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1228,7 +779,7 @@
   - pin
   - audio
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0035
   category: Audio
   name: MIC2P
@@ -1253,8 +804,8 @@
     quote: MIC2P 9 keep open.
     page: '16'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1264,7 +815,7 @@
   - pin
   - audio
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0036
   category: NETLIGHT
   name: NETLIGHT
@@ -1289,8 +840,8 @@
     quote: 4.15.1. NETLIGHT Multiplexing Function.................................................................................................50
     page: '4'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1300,155 +851,7 @@
   - pin
   - netlight
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
-- id: dat_07_0037
-  category: Audio
-  name: PCMCLK
-  pin_number: PCMCLK
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: PCMCLK 29 PCMCLK DISP_RSTB MC3CM0 GPIO18
-    page: '43'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0041'
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - audio
-  - possible-duplicate
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0038
-  category: Audio
-  name: PCMIN
-  pin_number: PCMIN
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: PCMIN 66 PCMIN DISP_DA MC3DA2 GPIO21
-    page: '43'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0042'
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - audio
-  - possible-duplicate
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0039
-  category: Audio
-  name: PCMOUT
-  pin_number: PCMOUT
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: PCMOUT 30 O If these pins are unused,
-    page: '16'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0043'
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - audio
-  - possible-duplicate
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0040
-  category: Audio
-  name: PCMSYNC
-  pin_number: PCMSYNC
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: PCMSYNC 65 PCMSYNC DISP_CEB MC3CK GPIO20
-    page: '43'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0044'
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - audio
-  - possible-duplicate
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0041
   category: Audio
   name: PCM_CLK
@@ -1460,7 +863,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: PCMCLK'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -1473,9 +876,11 @@
     quote: PCM_CLK 29 PCM_CLK DISP_RST SD_CMD GPIO18
     page: '42'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it PCMCLK
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0037'
   applicable_models:
   - SIM800L
@@ -1485,7 +890,7 @@
   - audio
   - possible-duplicate
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0042
   category: Audio
   name: PCM_IN
@@ -1497,7 +902,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: PCMIN'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -1510,9 +915,11 @@
     quote: PCM_IN 66 PCM_IN DISP_DATA SD_DATA2 GPIO21
     page: '42'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it PCMIN
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0038'
   applicable_models:
   - SIM800L
@@ -1522,7 +929,7 @@
   - audio
   - possible-duplicate
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0043
   category: Audio
   name: PCM_OUT
@@ -1534,7 +941,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: PCMOUT'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -1547,9 +954,11 @@
     quote: PCM_OUT 30 O If these pins are unused,
     page: '16'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it PCMOUT
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0039'
   applicable_models:
   - SIM800L
@@ -1559,7 +968,7 @@
   - audio
   - possible-duplicate
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0044
   category: Audio
   name: PCM_SYNC
@@ -1571,7 +980,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: PCMSYNC'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -1584,9 +993,11 @@
     quote: PCM_SYNC 65 PCM_SYNC DISP_CS SD_CLK GPIO20
     page: '42'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it PCMSYNC
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0040'
   applicable_models:
   - SIM800L
@@ -1596,7 +1007,7 @@
   - audio
   - possible-duplicate
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0045
   category: PWM
   name: PWM
@@ -1621,8 +1032,8 @@
     quote: 'FIGURE 45: REFERENCE CIRCUIT OF PWM DRIVER BUZZER............................................................................48'
     page: '8'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1632,7 +1043,7 @@
   - pin
   - pwm
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0046
   category: PWRKEY
   name: PWRKEY
@@ -1657,8 +1068,8 @@
     quote: 'FIGURE 13: TIMING OF POWER DOWN SIM800H&SIM800L BY PWRKEY.........................................................23'
     page: '8'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1668,7 +1079,7 @@
   - pin
   - pwrkey
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0047
   category: UART
   name: RI
@@ -1680,7 +1091,7 @@
   current_typ: null
   current_max: null
   function: Ring indicator
-  alternate_function: GPIO
+  alternate_function: 'GPIO; V1.00: UART_RI'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -1693,9 +1104,11 @@
     quote: 4.6. RI Behaviors.......................................................................................................................34
     page: '3'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it UART_RI
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0072'
   applicable_models:
   - SIM800L
@@ -1705,187 +1118,7 @@
   - uart
   - possible-duplicate
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
-- id: dat_07_0048
-  category: Keypad
-  name: ROW0
-  pin_number: ROW0
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: ROW0 62 ROW0 GPIO11
-    page: '47'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - keypad
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0049
-  category: Keypad
-  name: ROW1
-  pin_number: ROW1
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: ROW1 60 ROW1 GPIO12
-    page: '47'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - keypad
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0050
-  category: Keypad
-  name: ROW2
-  pin_number: ROW2
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: ROW2 61 ROW2 GPIO13
-    page: '47'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - keypad
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0051
-  category: Keypad
-  name: ROW3
-  pin_number: ROW3
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: ROW3 23 ROW3 GPIO14
-    page: '47'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - keypad
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0052
-  category: Keypad
-  name: ROW4
-  pin_number: ROW4
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: ROW4 63 ROW4 GPIO15
-    page: '47'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - keypad
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0053
   category: UART
   name: RTS
@@ -1910,8 +1143,8 @@
     quote: (cid:122) Support RTS/CTS hardware handshake and software ON/OFF flow control.
     page: '12'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1921,7 +1154,7 @@
   - pin
   - uart
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0054
   category: UART
   name: RXD
@@ -1946,8 +1179,8 @@
     quote: RXD 31 I Receive data
     page: '17'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1957,7 +1190,7 @@
   - pin
   - uart
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0055
   category: I2C
   name: SCL
@@ -1982,8 +1215,8 @@
     quote: SCL 74 SCL GPIO25
     page: '47'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -1993,7 +1226,7 @@
   - pin
   - i2c
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0056
   category: I2C
   name: SDA
@@ -2018,8 +1251,8 @@
     quote: SDA 75 I/O Open drain output If these pins are unused,
     page: '17'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2029,43 +1262,7 @@
   - pin
   - i2c
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0057
-  category: SIM
-  name: SIMPRE
-  pin_number: SIMPRE
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: SIMPRE 54 I SIM card detection Reservation function
-    page: '17'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - sim
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0058
   category: SIM
   name: SIM_CLK
@@ -2090,8 +1287,8 @@
     quote: SIM_CLK 55 O SIM clock
     page: '17'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0003'
   applicable_models:
@@ -2102,7 +1299,7 @@
   - sim
   - possible-duplicate
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0059
   category: SIM
   name: SIM_DATA
@@ -2127,8 +1324,8 @@
     quote: SIM_DATA 14 I/O SIM data input/output
     page: '17'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0007'
   applicable_models:
@@ -2139,7 +1336,7 @@
   - sim
   - possible-duplicate
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0060
   category: SIM
   name: SIM_DET
@@ -2151,7 +1348,7 @@
   current_typ: null
   current_max: null
   function: SIM card detection
-  alternate_function: null
+  alternate_function: 'V1.00: SIMPRE; V1.00: SIM_PRE'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -2164,9 +1361,13 @@
     quote: SIM_DET 54 I SIM card detection
     page: '17'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it SIMPRE
+  - type: alias
+    detail: V1.00 named it SIM_PRE
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0008'
   applicable_models:
   - SIM800L
@@ -2176,43 +1377,7 @@
   - sim
   - possible-duplicate
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
-- id: dat_07_0061
-  category: SIM
-  name: SIM_PRE
-  pin_number: SIM_PRE
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: SIM card detection
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: SIM_PRE 54 SIM card detection
-    page: '39'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - sim
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0062
   category: SIM
   name: SIM_RST
@@ -2237,8 +1402,8 @@
     quote: SIM_RST 15 O SIM reset
     page: '17'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0002'
   applicable_models:
@@ -2249,7 +1414,7 @@
   - sim
   - possible-duplicate
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0063
   category: Power
   name: SIM_VDD
@@ -2261,7 +1426,7 @@
   current_typ: null
   current_max: null
   function: Voltage supply for SIM card. Support 1.8V or 3V SIM card
-  alternate_function: null
+  alternate_function: 'V1.00: VSIM'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -2274,9 +1439,11 @@
     quote: 6.5 SIM_VDD Characteristics..................................................................................................59
     page: '5'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it VSIM
   notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0001'
   applicable_models:
   - SIM800L
@@ -2286,7 +1453,7 @@
   - power
   - possible-duplicate
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0064
   category: Audio
   name: SPK1N
@@ -2311,8 +1478,8 @@
     quote: SPK1N 13 If these pins are unused,
     page: '16'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2322,7 +1489,7 @@
   - pin
   - audio
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0065
   category: Audio
   name: SPK1P
@@ -2347,8 +1514,8 @@
     quote: SPK1P 53
     page: '16'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2358,7 +1525,7 @@
   - pin
   - audio
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0066
   category: Audio
   name: SPK2N
@@ -2383,8 +1550,8 @@
     quote: SPK2N 11
     page: '16'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2394,7 +1561,7 @@
   - pin
   - audio
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0067
   category: Audio
   name: SPK2P
@@ -2419,8 +1586,8 @@
     quote: SPK2P 51
     page: '16'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2430,7 +1597,7 @@
   - pin
   - audio
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0068
   category: STATUS
   name: STATUS
@@ -2455,8 +1622,8 @@
     quote: 4.16.1. STATUS Multiplexing Function......................................................................................................50
     page: '4'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2466,7 +1633,7 @@
   - pin
   - status
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0069
   category: UART
   name: TXD
@@ -2491,8 +1658,8 @@
     quote: TXD 32 O Transmit data
     page: '17'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2502,154 +1669,7 @@
   - pin
   - uart
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
-- id: dat_07_0070
-  category: UART
-  name: UART_DCD
-  pin_number: UART_DCD
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: Data carrier detect
-  alternate_function: GPIO
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: UART_DCD 70 O Data carrier detect
-    page: '17'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0015'
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - uart
-  - possible-duplicate
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
-- id: dat_07_0071
-  category: UART
-  name: UART_DTR
-  pin_number: UART_DTR
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: Data terminal ready
-  alternate_function: GPIO
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: UART_DTR 69 I Data terminal ready
-    page: '17'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0016'
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - uart
-  - possible-duplicate
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
-- id: dat_07_0072
-  category: UART
-  name: UART_RI
-  pin_number: UART_RI
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: Ring indicator
-  alternate_function: GPIO
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: UART_RI 68 O Ring indicator
-    page: '17'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: 'Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number. | possible_duplicate_of: dat_07_0047'
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - uart
-  - possible-duplicate
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T17:47:34Z'
-- id: dat_07_0073
-  category: USB
-  name: USB_DM
-  pin_number: USB_DM
-  direction: unknown
-  voltage_min: null
-  voltage_typ: null
-  voltage_max: null
-  current_typ: null
-  current_max: null
-  function: unknown
-  alternate_function: null
-  pull_up_down: null
-  esd_rating: null
-  impedance: null
-  decoupling: null
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: VBUS,USB_DP,USB_DM, and GND to PC, then install the driver following the prompts, a UART port could be
-    page: '33'
-  source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
-  applicable_models:
-  - SIM800L
-  tags:
-  - hardware
-  - pin
-  - usb
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0074
   category: USB
   name: USB_DN
@@ -2661,7 +1681,7 @@
   current_typ: null
   current_max: null
   function: unknown
-  alternate_function: null
+  alternate_function: 'V1.00: USB_DM'
   pull_up_down: null
   esd_rating: null
   impedance: null
@@ -2674,9 +1694,11 @@
     quote: module, connect VBUS, USB_DP, USB_DN, and GND to PC, then install the driver following the prompts, a
     page: '32'
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.9
+  status: complete
+  conflicts:
+  - type: alias
+    detail: V1.00 named it USB_DM
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
   - SIM800L
@@ -2685,7 +1707,7 @@
   - pin
   - usb
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0075
   category: USB
   name: USB_DP
@@ -2710,8 +1732,8 @@
     quote: module, connect VBUS, USB_DP, USB_DN, and GND to PC, then install the driver following the prompts, a
     page: '32'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2721,7 +1743,7 @@
   - pin
   - usb
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0076
   category: Power
   name: VBAT
@@ -2746,8 +1768,8 @@
     quote: 6.8 Current Consumption (VBAT=3.8V).................................................................................60
     page: '5'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2757,7 +1779,7 @@
   - pin
   - power
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0077
   category: Power
   name: VBUS
@@ -2782,8 +1804,8 @@
     quote: module, connect VBUS, USB_DP, USB_DN, and GND to PC, then install the driver following the prompts, a
     page: '32'
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
   notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
   applicable_models:
@@ -2793,40 +1815,256 @@
   - pin
   - power
   created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  updated_at: '2026-10-11T21:43:18Z'
 - id: dat_07_0078
-  category: SIM
-  name: VSIM
-  pin_number: VSIM
-  direction: unknown
+  category: Antenna
+  name: FM_ANTP
+  pin_number: '17'
+  direction: input
   voltage_min: null
   voltage_typ: null
   voltage_max: null
   current_typ: null
   current_max: null
-  function: Voltage supply for SIM card. Support 1.8V or 3V SIM card
+  function: Differential antenna for FM
   alternate_function: null
   pull_up_down: null
   esd_rating: null
   impedance: null
   decoupling: null
   source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    section: Pin Description
-    quote: VSIM 16 O All signals of SIM interface
-    page: '17'
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '16'
+    section: 'Table 5: Pin description'
+    quote: FM_ANTP 17 I Differential antenna for FM
   source_type: primary
-  confidence: 0.5
-  status: partial
+  confidence: 0.9
+  status: complete
   conflicts: []
-  notes: Auto-extracted from pin table. Needs manual verification of direction/voltage/current and pin_number.
+  notes: Added in A1 final pass from V2.02 Table 5.
   applicable_models:
   - SIM800L
   tags:
   - hardware
   - pin
-  - sim
-  created_at: '2026-10-10T20:37:12Z'
-  updated_at: '2026-10-11T14:42:22Z'
+  - added-a1
+  created_at: '2026-10-11T21:43:18Z'
+  updated_at: '2026-10-11T21:43:18Z'
+- id: dat_07_0079
+  category: Antenna
+  name: FM_ANTN
+  pin_number: '57'
+  direction: input
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: Differential antenna for FM
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '16'
+    section: 'Table 5: Pin description'
+    quote: FM_ANTN 57 I (differential pair with FM_ANTP)
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: Added in A1 final pass from V2.02 Table 5.
+  applicable_models:
+  - SIM800L
+  tags:
+  - hardware
+  - pin
+  - added-a1
+  created_at: '2026-10-11T21:43:18Z'
+  updated_at: '2026-10-11T21:43:18Z'
+- id: dat_07_0080
+  category: Antenna
+  name: GSM_ANT
+  pin_number: '40'
+  direction: io
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: Connect GSM antenna
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '16'
+    section: 'Table 5: Pin description'
+    quote: GSM_ANT 40 I/O Connect GSM antenna
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: Added in A1 final pass from V2.02 Table 5.
+  applicable_models:
+  - SIM800L
+  tags:
+  - hardware
+  - pin
+  - added-a1
+  created_at: '2026-10-11T21:43:18Z'
+  updated_at: '2026-10-11T21:43:18Z'
+- id: dat_07_0081
+  category: Reset
+  name: RESET
+  pin_number: '49'
+  direction: input
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: Reset input (Active low)
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '16'
+    section: 'Table 5: Pin description'
+    quote: RESET 49 I Reset input(Active low)
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: Added in A1 final pass from V2.02 Table 5.
+  applicable_models:
+  - SIM800L
+  tags:
+  - hardware
+  - pin
+  - added-a1
+  created_at: '2026-10-11T21:43:18Z'
+  updated_at: '2026-10-11T21:43:18Z'
+- id: dat_07_0082
+  category: RF
+  name: RF_SYNC
+  pin_number: '5'
+  direction: output
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: Synchronizing signal of RF
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '16'
+    section: 'Table 5: Pin description'
+    quote: RF_SYNC 5 O Synchronizing signal of RF
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: Added in A1 final pass from V2.02 Table 5.
+  applicable_models:
+  - SIM800L
+  tags:
+  - hardware
+  - pin
+  - added-a1
+  created_at: '2026-10-11T21:43:18Z'
+  updated_at: '2026-10-11T21:43:18Z'
+- id: dat_07_0083
+  category: Power
+  name: VDD_EXT
+  pin_number: '18'
+  direction: output
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: 2.8V power output
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '16'
+    section: 'Table 5: Pin description'
+    quote: VDD_EXT 18 O 2.8V power output
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: Added in A1 final pass from V2.02 Table 5.
+  applicable_models:
+  - SIM800L
+  tags:
+  - hardware
+  - pin
+  - added-a1
+  created_at: '2026-10-11T21:43:18Z'
+  updated_at: '2026-10-11T21:43:18Z'
+- id: dat_07_0084
+  category: Power
+  name: VRTC
+  pin_number: '56'
+  direction: io
+  voltage_min: null
+  voltage_typ: null
+  voltage_max: null
+  current_typ: null
+  current_max: null
+  function: Power supply for RTC
+  alternate_function: null
+  pull_up_down: null
+  esd_rating: null
+  impedance: null
+  decoupling: null
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '16'
+    section: 'Table 5: Pin description'
+    quote: VRTC 56 I/O Power supply for RTC
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: Added in A1 final pass from V2.02 Table 5.
+  applicable_models:
+  - SIM800L
+  tags:
+  - hardware
+  - pin
+  - added-a1
+  created_at: '2026-10-11T21:43:18Z'
+  updated_at: '2026-10-11T21:43:18Z'
