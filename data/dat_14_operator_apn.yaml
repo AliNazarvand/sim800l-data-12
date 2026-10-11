@@ -3,12 +3,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -33,12 +32,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -63,12 +61,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -93,12 +90,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -123,12 +119,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -153,12 +148,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -183,12 +177,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -213,12 +206,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -243,12 +235,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -273,12 +264,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -303,12 +293,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -333,12 +322,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -363,12 +351,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -393,12 +380,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -423,12 +409,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -453,12 +438,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -483,12 +467,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -513,12 +496,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -543,12 +525,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -573,12 +554,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -603,12 +583,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -633,12 +612,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -663,12 +641,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -693,12 +670,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -723,12 +699,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -753,12 +728,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -783,12 +757,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -813,12 +786,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -843,12 +815,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -873,12 +844,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -903,12 +873,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -933,12 +902,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -963,12 +931,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -993,12 +960,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1023,12 +989,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1053,12 +1018,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1083,12 +1047,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1113,12 +1076,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1143,12 +1105,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1173,12 +1134,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1203,12 +1163,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1233,12 +1192,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1263,12 +1221,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1293,12 +1250,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1323,12 +1279,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1353,12 +1308,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1383,12 +1337,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1413,12 +1366,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1443,12 +1395,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1473,12 +1424,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1503,12 +1453,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:
@@ -1533,12 +1482,11 @@
   source:
     name: mcc-mnc.com
     version: public
-    date: ''
     page: ''
     section: Operator/APN
   source_type: external
-  confidence: 0.7
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
   notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
   tags:

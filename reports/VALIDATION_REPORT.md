@@ -1,10 +1,10 @@
 # VALIDATION_REPORT
 
-Generated: 2026-10-11T08:16:03Z
+Generated: 2026-10-11T14:38:44Z
 
 ## خلاصه
 - خطاهای سطح ۱ (Schema): 0
-- خطاهای سطح ۲ (Business): 52
+- خطاهای سطح ۲ (Business): 0
 - خطاهای سطح ۳ (Cross-ref): 303
 - خطاهای سطح ۴ (Consistency): 0
 
@@ -40,58 +40,6 @@ Generated: 2026-10-11T08:16:03Z
 
 | دیتاست | سطح | رکورد | خطا | پیشنهاد اصلاح |
 |---|---|---|---|---|
-| dat_14 | 2 | dat_14_0001 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0002 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0003 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0004 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0005 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0006 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0007 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0008 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0009 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0010 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0011 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0012 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0013 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0014 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0015 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0016 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0017 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0018 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0019 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0020 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0021 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0022 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0023 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0024 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0025 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0026 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0027 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0028 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0029 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0030 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0031 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0032 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0033 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0034 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0035 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0036 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0037 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0038 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0039 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0040 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0041 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0042 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0043 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0044 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0045 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0046 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0047 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0048 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0049 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0050 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0051 | source.date invalid | provide date |
-| dat_14 | 2 | dat_14_0052 | source.date invalid | provide date |
 | dat_02 | 3 | dat_02_0001 | related_command AT+CAAS not in dat_01 | add or fix |
 | dat_02 | 3 | dat_02_0002 | related_command AT+CACM not in dat_01 | add or fix |
 | dat_02 | 3 | dat_02_0003 | related_command AT+CADC not in dat_01 | add or fix |

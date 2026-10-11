@@ -20,16 +20,64 @@
 - [ ] dat_18 — نیازمند اسناد رسمی CE/FCC/...
 
 ## دیتاست‌های partial (منبع موجود، استخراج ناقص)
-- [ ] dat_01 — records lack verifiable source.page/section (needs re-verification against AT Manual V1.01)
-- [ ] dat_07 — records lack verifiable source.page/section (needs re-verification against V2.02/V1.00)
+- [ ] dat_01 — needs re-verification of source.page/section against AT Manual V1.01
+- [ ] dat_07 — needs re-verification of source.page/section against V2.02/V1.00
 
-## رکوردهای نیازمند بازبینی دستی (dat_01)
-- در اجرای آخر، ۳۳۴ رکورد dat_01 پاکسازی شدند (منبع auto حذف شد؛ status=unknown، confidence=0.0)
-- نیازمند: بازبینی دستی source.page/section از AT Manual V1.01
+## رکوردهای دارای source.date پاک‌شده (R3: unknown / 0.0)
+### dat_14 (52 رکورد — فایل: dat_14_operator_apn.yaml)
+- [ ] dat_14_0001
+- [ ] dat_14_0002
+- [ ] dat_14_0003
+- [ ] dat_14_0004
+- [ ] dat_14_0005
+- [ ] dat_14_0006
+- [ ] dat_14_0007
+- [ ] dat_14_0008
+- [ ] dat_14_0009
+- [ ] dat_14_0010
+- [ ] dat_14_0011
+- [ ] dat_14_0012
+- [ ] dat_14_0013
+- [ ] dat_14_0014
+- [ ] dat_14_0015
+- [ ] dat_14_0016
+- [ ] dat_14_0017
+- [ ] dat_14_0018
+- [ ] dat_14_0019
+- [ ] dat_14_0020
+- [ ] dat_14_0021
+- [ ] dat_14_0022
+- [ ] dat_14_0023
+- [ ] dat_14_0024
+- [ ] dat_14_0025
+- [ ] dat_14_0026
+- [ ] dat_14_0027
+- [ ] dat_14_0028
+- [ ] dat_14_0029
+- [ ] dat_14_0030
+- [ ] dat_14_0031
+- [ ] dat_14_0032
+- [ ] dat_14_0033
+- [ ] dat_14_0034
+- [ ] dat_14_0035
+- [ ] dat_14_0036
+- [ ] dat_14_0037
+- [ ] dat_14_0038
+- [ ] dat_14_0039
+- [ ] dat_14_0040
+- [ ] dat_14_0041
+- [ ] dat_14_0042
+- [ ] dat_14_0043
+- [ ] dat_14_0044
+- [ ] dat_14_0045
+- [ ] dat_14_0046
+- [ ] dat_14_0047
+- [ ] dat_14_0048
+- [ ] dat_14_0049
+- [ ] dat_14_0050
+- [ ] dat_14_0051
+- [ ] dat_14_0052
 
-## رکوردهای نیازمند بازبینی دستی (dat_07)
-- در اجرای آخر، ۷۸ رکورد dat_07 پاکسازی شدند
-- نیازمند: بازبینی دستی source.page/section از V2.02 (اولویت) و V1.00
 
 ## خوشه‌های در انتظار
 - [ ] خوشه A — شروع با A1: dat_07 (partial — نیازمند استخراج دقیق از PDF)

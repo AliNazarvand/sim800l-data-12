@@ -158,7 +158,13 @@ for dat_id, records in all_data.items():
             add(dat_id, 2, rid, "source.version invalid", "provide version")
         d = src.get("date")
         if d in (None, "", "auto"):
-            add(dat_id, 2, rid, "source.date invalid", "provide date")
+            # R3 exception: missing date is acceptable when record is explicitly unknown
+            _conf_v = rec.get("confidence")
+            _r3_ok = (status == "unknown"
+                      and isinstance(_conf_v, (int, float))
+                      and _conf_v == 0.0)
+            if not _r3_ok:
+                add(dat_id, 2, rid, "source.date invalid", "provide date")
         if src.get("page") in ("auto", "unknown"):
             add(dat_id, 2, rid, "source.page invalid (auto/unknown)", "fix or remove")
         if src.get("section") in ("auto-extracted", "unknown"):
