@@ -452,3 +452,38 @@
 - validate: L1=0 L2=0 L3=8 L4=0.
 - Coverage (production): complete=9 partial=5 blocked=3 deferred=1.
 - تغییر کلیدی: complete = with_page==count AND params_pct >= 50% (به جای strict_depth >= 50%).
+
+
+## D-039
+- تاریخ: 1405-07-19T17:47:20Z
+- زمینه: بسته D11 — 25 زیرگام، تثبیت نهایی production criteria.
+- نتایج:
+- s1_dat15: dat_15 last record — PARTIAL — with_page=13
+- s2_dat04: dat_04 values ext — PARTIAL — with_values=12
+- s3_dat10: dat_10 params ext — PARTIAL — with_params=17
+- s4_dat12: dat_12 params ext — PARTIAL — with_params=9
+- s5_dat03: dat_03 recovery ext — PARTIAL — with_recovery=96
+- s6_dat11: dat_11 params ext — PARTIAL — with_params=25
+- s7_dat14: dat_14 external depth — OK — with_params=52
+- s8_dat01_err: dat_01 response_error — OK — with_err=334
+- s9_dat01_fw: dat_01 firmware_min — OK — with_fw=334
+- s10_dat02_urcs: dat_02 related_urcs — OK — with_urcs=188
+- s11_dat05_tim: dat_05 related_timings — PARTIAL — with_tim=0
+- s12_dat07_alt: dat_07 alt_function — PARTIAL — with_alt=19
+- s13_dat09_ex: dat_09 examples — OK — with_examples=14
+- s14_l3_analysis: L3 analysis — OK — see _step_D11_L3_analysis.json
+- s15_whitelist: extend whitelist — OK — added=8
+- s16_validate: validate rerun — PARTIAL — L3=8
+- s17_dat08: dat_08 confirmed blocked — OK — rn_found=0
+- s18_dat17: dat_17 confirmed blocked — OK — ssl_found=0
+- s19_dat18: dat_18 confirmed blocked — OK — cert_found=1
+- s20_dat16: dat_16 confirmed deferred — OK — evb_found=1
+- s21_todo: TODO — OK — updated
+- s22_coverage: COVERAGE final — OK — c=9 p=5 b=3 d=1
+- s23_table: table v5 — OK — written
+- s24_changelog: CHANGELOG — OK — written
+- s25_validate: final validation — OK — L1=0 L2=0 L3=8 L4=0
+
+- موفقیت: 16 از 25.
+- validate: L1=0 L2=0 L3=8 L4=0.
+- Coverage: complete=9 partial=5 blocked=3 deferred=1.

@@ -265,3 +265,13 @@ else:
 print(f"Validation: {len(errors)} errors (L1={by_level[1]} L2={by_level[2]} L3={by_level[3]} L4={by_level[4]})")
 print(f"dat_01 status={dat01_status}  cross-ref ran={not skip_crossref}  specialist_whitelist={len(SPECIALIST_COMMANDS)}")
 sys.exit(1 if errors else 0)
+
+# D11-EXTRA-WL: commands identified as specialist in D11
+SPECIALIST_COMMANDS.add("+CADTONE".upper())
+SPECIALIST_COMMANDS.add("+CATONE".upper())
+SPECIALIST_COMMANDS.add("+CEREG".upper())
+SPECIALIST_COMMANDS.add("+CGCONTRDP".upper())
+SPECIALIST_COMMANDS.add("+CIPDDREM".upper())
+SPECIALIST_COMMANDS.add("+CLDTONE".upper())
+SPECIALIST_COMMANDS.add("+CPCMREG".upper())
+SPECIALIST_COMMANDS.add("+HTTPSSL".upper())

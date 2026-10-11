@@ -24,20 +24,20 @@
     "name": "Error Code",
     "count": 255,
     "with_page": 255,
-    "with_params": 86,
-    "params_pct": 33.7,
+    "with_params": 96,
+    "params_pct": 37.6,
     "status": "partial",
-    "reason": "all sourced; params_pct=34%"
+    "reason": "all sourced; params_pct=38%"
   },
   {
     "dat_id": "dat_04",
     "name": "Timing & Timeout",
     "count": 25,
     "with_page": 25,
-    "with_params": 11,
-    "params_pct": 44.0,
+    "with_params": 12,
+    "params_pct": 48.0,
     "status": "partial",
-    "reason": "all sourced; params_pct=44%"
+    "reason": "all sourced; params_pct=48%"
   },
   {
     "dat_id": "dat_05",
@@ -104,10 +104,10 @@
     "name": "HTTP/FTP/SSL",
     "count": 38,
     "with_page": 19,
-    "with_params": 19,
-    "params_pct": 50.0,
+    "with_params": 25,
+    "params_pct": 65.8,
     "status": "partial",
-    "reason": "19/38 sourced; params_pct=50%"
+    "reason": "19/38 sourced; params_pct=66%"
   },
   {
     "dat_id": "dat_12",

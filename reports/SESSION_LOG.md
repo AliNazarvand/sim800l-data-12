@@ -1,30 +1,37 @@
 # SESSION_LOG
 
-## Batch D10 — 20 substeps (production criteria)
+## Batch D11 — 25 substeps
 
-- تاریخ: 1405-07-19T17:44:20Z
-- موفق: 15 / 18
+- تاریخ: 1405-07-19T17:47:20Z
+- موفق: 16 / 25
 
 | زیرگام | نام | نتیجه | وضعیت |
 |---|---|---|---|
-| s0_sections | build section index | see _section_index.json | OK |
-| s1_dat09 | dat_09 SMS params | with_params=14 | OK |
-| s2_dat10 | dat_10 GPRS params | with_params=17 | PARTIAL |
-| s3_dat12 | dat_12 Audio params | with_params=9 | PARTIAL |
-| s4_dat13 | dat_13 SIM params | with_params=9 | OK |
-| s5_dat11 | dat_11 HTTP/FTP params | with_params=19 | OK |
-| s6_dat02 | dat_02 URC examples verify | with_examples=206 | OK |
-| s7_dat05 | dat_05 related_urcs | with_urcs=9 | OK |
-| s8_dat03 | dat_03 recovery | with_recovery=86 | OK |
-| s9_dat04 | dat_04 values ext | with_values=11 | PARTIAL |
-| s10_dat15 | dat_15 verify | with_values=13 | OK |
-| s11_dat06 | dat_06 finalize | unknown=0 | OK |
-| s12_dat07 | dat_07 function | with_function=78 | OK |
-| s13_coverage | COVERAGE params | c=9 p=5 b=3 d=1 | OK |
-| s14_docs | finalize docs | L1=0 L2=0 L3=8 | OK |
-| s15_changelog | CHANGELOG | written | OK |
-| s16_sources | source inventory | files=4 | OK |
-| s17_todo | TODO | updated | OK |
+| s1_dat15 | dat_15 last record | with_page=13 | PARTIAL |
+| s2_dat04 | dat_04 values ext | with_values=12 | PARTIAL |
+| s3_dat10 | dat_10 params ext | with_params=17 | PARTIAL |
+| s4_dat12 | dat_12 params ext | with_params=9 | PARTIAL |
+| s5_dat03 | dat_03 recovery ext | with_recovery=96 | PARTIAL |
+| s6_dat11 | dat_11 params ext | with_params=25 | PARTIAL |
+| s7_dat14 | dat_14 external depth | with_params=52 | OK |
+| s8_dat01_err | dat_01 response_error | with_err=334 | OK |
+| s9_dat01_fw | dat_01 firmware_min | with_fw=334 | OK |
+| s10_dat02_urcs | dat_02 related_urcs | with_urcs=188 | OK |
+| s11_dat05_tim | dat_05 related_timings | with_tim=0 | PARTIAL |
+| s12_dat07_alt | dat_07 alt_function | with_alt=19 | PARTIAL |
+| s13_dat09_ex | dat_09 examples | with_examples=14 | OK |
+| s14_l3_analysis | L3 analysis | see _step_D11_L3_analysis.json | OK |
+| s15_whitelist | extend whitelist | added=8 | OK |
+| s16_validate | validate rerun | L3=8 | PARTIAL |
+| s17_dat08 | dat_08 confirmed blocked | rn_found=0 | OK |
+| s18_dat17 | dat_17 confirmed blocked | ssl_found=0 | OK |
+| s19_dat18 | dat_18 confirmed blocked | cert_found=1 | OK |
+| s20_dat16 | dat_16 confirmed deferred | evb_found=1 | OK |
+| s21_todo | TODO | updated | OK |
+| s22_coverage | COVERAGE final | c=9 p=5 b=3 d=1 | OK |
+| s23_table | table v5 | written | OK |
+| s24_changelog | CHANGELOG | written | OK |
+| s25_validate | final validation | L1=0 L2=0 L3=8 L4=0 | OK |
 
 
 ### validate.py
@@ -33,13 +40,13 @@
 - L3: 8
 - L4: 0
 
-### Coverage (production)
+### Coverage
 - complete: 9
 - partial: 5
 - blocked: 3
 - deferred: 1
 
 ### Notes
-- } else { در یک خط نوشته شد (رفع باگ D8).
-- params_pct معیار واقعی تولید است.
-- Section body AT Manual برای پر کردن params استفاده شد.
+- } else { در یک خط (رفع باگ D8).
+- L3 whitelist extended.
+- Production criteria: complete = with_page==count AND params_pct >= 50%.

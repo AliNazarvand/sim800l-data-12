@@ -15,7 +15,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '310'
   mnc: '260'
   country: United States
@@ -27,6 +27,13 @@
   - fast.t-mobile.com
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0002
   category: MCC/MNC
   source:
@@ -44,7 +51,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '310'
   mnc: '410'
   country: United States
@@ -56,6 +63,13 @@
   - phone
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0003
   category: MCC/MNC
   source:
@@ -73,7 +87,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '310'
   mnc: '150'
   country: United States
@@ -85,6 +99,13 @@
   - phone
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0004
   category: MCC/MNC
   source:
@@ -102,7 +123,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '310'
   mnc: '030'
   country: United States
@@ -114,6 +135,13 @@
   - phone
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0005
   category: MCC/MNC
   source:
@@ -131,7 +159,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '311'
   mnc: '480'
   country: United States
@@ -143,6 +171,13 @@
   - vzwinternet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0006
   category: MCC/MNC
   source:
@@ -160,7 +195,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '234'
   mnc: '15'
   country: United Kingdom
@@ -172,6 +207,13 @@
   - internet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0007
   category: MCC/MNC
   source:
@@ -189,7 +231,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '234'
   mnc: '10'
   country: United Kingdom
@@ -201,6 +243,13 @@
   - mobile.o2.co.uk
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0008
   category: MCC/MNC
   source:
@@ -218,7 +267,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '234'
   mnc: '20'
   country: United Kingdom
@@ -230,6 +279,13 @@
   - three.co.uk
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0009
   category: MCC/MNC
   source:
@@ -247,7 +303,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '234'
   mnc: '30'
   country: United Kingdom
@@ -259,6 +315,13 @@
   - everytime
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0010
   category: MCC/MNC
   source:
@@ -276,7 +339,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '234'
   mnc: '33'
   country: United Kingdom
@@ -288,6 +351,13 @@
   - orangeinternet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0011
   category: MCC/MNC
   source:
@@ -305,7 +375,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '262'
   mnc: '01'
   country: Germany
@@ -317,6 +387,13 @@
   - internet.t-mobile
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0012
   category: MCC/MNC
   source:
@@ -334,7 +411,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '262'
   mnc: '02'
   country: Germany
@@ -346,6 +423,13 @@
   - web.vodafone.de
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0013
   category: MCC/MNC
   source:
@@ -363,7 +447,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '262'
   mnc: '03'
   country: Germany
@@ -375,6 +459,13 @@
   - internet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0014
   category: MCC/MNC
   source:
@@ -392,7 +483,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '262'
   mnc: '07'
   country: Germany
@@ -404,6 +495,13 @@
   - internet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0015
   category: MCC/MNC
   source:
@@ -421,7 +519,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '208'
   mnc: '01'
   country: France
@@ -433,6 +531,13 @@
   - orange.fr
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0016
   category: MCC/MNC
   source:
@@ -450,7 +555,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '208'
   mnc: '10'
   country: France
@@ -462,6 +567,13 @@
   - websfr
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0017
   category: MCC/MNC
   source:
@@ -479,7 +591,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '208'
   mnc: '20'
   country: France
@@ -491,6 +603,13 @@
   - mmsbouygtel.com
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0018
   category: MCC/MNC
   source:
@@ -508,7 +627,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '222'
   mnc: '01'
   country: Italy
@@ -520,6 +639,13 @@
   - ibox.tim.it
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0019
   category: MCC/MNC
   source:
@@ -537,7 +663,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '222'
   mnc: '10'
   country: Italy
@@ -549,6 +675,13 @@
   - web.omnitel.it
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0020
   category: MCC/MNC
   source:
@@ -566,7 +699,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '222'
   mnc: '88'
   country: Italy
@@ -578,6 +711,13 @@
   - internet.wind
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0021
   category: MCC/MNC
   source:
@@ -595,7 +735,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '214'
   mnc: '01'
   country: Spain
@@ -607,6 +747,13 @@
   - airtelnet.es
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0022
   category: MCC/MNC
   source:
@@ -624,7 +771,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '214'
   mnc: '03'
   country: Spain
@@ -636,6 +783,13 @@
   - orangeworld
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0023
   category: MCC/MNC
   source:
@@ -653,7 +807,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '214'
   mnc: '07'
   country: Spain
@@ -665,6 +819,13 @@
   - movistar.es
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0024
   category: MCC/MNC
   source:
@@ -682,7 +843,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '204'
   mnc: '04'
   country: Netherlands
@@ -694,6 +855,13 @@
   - web.vodafone.de
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0025
   category: MCC/MNC
   source:
@@ -711,7 +879,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '204'
   mnc: 08
   country: Netherlands
@@ -723,6 +891,13 @@
   - internet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0026
   category: MCC/MNC
   source:
@@ -740,7 +915,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '204'
   mnc: '16'
   country: Netherlands
@@ -752,6 +927,13 @@
   - internet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0027
   category: MCC/MNC
   source:
@@ -769,7 +951,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '286'
   mnc: '01'
   country: Turkey
@@ -781,6 +963,13 @@
   - internet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0028
   category: MCC/MNC
   source:
@@ -798,7 +987,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '286'
   mnc: '02'
   country: Turkey
@@ -810,6 +999,13 @@
   - internet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0029
   category: MCC/MNC
   source:
@@ -827,7 +1023,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '286'
   mnc: '03'
   country: Turkey
@@ -839,6 +1035,13 @@
   - internet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0030
   category: MCC/MNC
   source:
@@ -856,7 +1059,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '432'
   mnc: '11'
   country: Iran
@@ -868,6 +1071,13 @@
   - mci-gprs
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0031
   category: MCC/MNC
   source:
@@ -885,7 +1095,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '432'
   mnc: '35'
   country: Iran
@@ -897,6 +1107,13 @@
   - mtnirancell
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0032
   category: MCC/MNC
   source:
@@ -914,7 +1131,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '432'
   mnc: '14'
   country: Iran
@@ -926,6 +1143,13 @@
   - rightel
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0033
   category: MCC/MNC
   source:
@@ -943,7 +1167,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '440'
   mnc: '10'
   country: Japan
@@ -955,6 +1179,13 @@
   - mopera.net
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0034
   category: MCC/MNC
   source:
@@ -972,7 +1203,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '440'
   mnc: '20'
   country: Japan
@@ -984,6 +1215,13 @@
   - softbank
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0035
   category: MCC/MNC
   source:
@@ -1001,7 +1239,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '440'
   mnc: '50'
   country: Japan
@@ -1013,6 +1251,13 @@
   - au.au-net.ne.jp
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0036
   category: MCC/MNC
   source:
@@ -1030,7 +1275,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '450'
   mnc: '05'
   country: South Korea
@@ -1042,6 +1287,13 @@
   - internet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0037
   category: MCC/MNC
   source:
@@ -1059,7 +1311,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '450'
   mnc: 08
   country: South Korea
@@ -1071,6 +1323,13 @@
   - internet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0038
   category: MCC/MNC
   source:
@@ -1088,7 +1347,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '450'
   mnc: '06'
   country: South Korea
@@ -1100,6 +1359,13 @@
   - internet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0039
   category: MCC/MNC
   source:
@@ -1117,7 +1383,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '460'
   mnc: '00'
   country: China
@@ -1129,6 +1395,13 @@
   - cmnet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0040
   category: MCC/MNC
   source:
@@ -1146,7 +1419,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '460'
   mnc: '01'
   country: China
@@ -1158,6 +1431,13 @@
   - 3gnet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0041
   category: MCC/MNC
   source:
@@ -1175,7 +1455,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '460'
   mnc: '03'
   country: China
@@ -1187,6 +1467,13 @@
   - ctnet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0042
   category: MCC/MNC
   source:
@@ -1204,7 +1491,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '404'
   mnc: '10'
   country: India
@@ -1216,6 +1503,13 @@
   - airtelgprs.com
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0043
   category: MCC/MNC
   source:
@@ -1233,7 +1527,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '404'
   mnc: '45'
   country: India
@@ -1245,6 +1539,13 @@
   - airtelgprs.com
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0044
   category: MCC/MNC
   source:
@@ -1262,7 +1563,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '404'
   mnc: '20'
   country: India
@@ -1274,6 +1575,13 @@
   - www
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0045
   category: MCC/MNC
   source:
@@ -1291,7 +1599,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '404'
   mnc: '11'
   country: India
@@ -1303,6 +1611,13 @@
   - www
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0046
   category: MCC/MNC
   source:
@@ -1320,7 +1635,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '405'
   mnc: '840'
   country: India
@@ -1332,6 +1647,13 @@
   - jionet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0047
   category: MCC/MNC
   source:
@@ -1349,7 +1671,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '505'
   mnc: '01'
   country: Australia
@@ -1361,6 +1683,13 @@
   - telstra.internet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0048
   category: MCC/MNC
   source:
@@ -1378,7 +1707,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '505'
   mnc: '02'
   country: Australia
@@ -1390,6 +1719,13 @@
   - yesinternet
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0049
   category: MCC/MNC
   source:
@@ -1407,7 +1743,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '505'
   mnc: '03'
   country: Australia
@@ -1419,6 +1755,13 @@
   - vfinternet.au
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0050
   category: MCC/MNC
   source:
@@ -1436,7 +1779,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '724'
   mnc: '05'
   country: Brazil
@@ -1448,6 +1791,13 @@
   - claro.com.br
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0051
   category: MCC/MNC
   source:
@@ -1465,7 +1815,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '724'
   mnc: '06'
   country: Brazil
@@ -1477,6 +1827,13 @@
   - zap.vivo.com.br
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL
 - id: dat_14_0052
   category: MCC/MNC
   source:
@@ -1494,7 +1851,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-10T17:17:37Z'
+  updated_at: '2026-10-11T17:47:29Z'
   mcc: '724'
   mnc: '10'
   country: Brazil
@@ -1506,3 +1863,10 @@
   - tim.br
   source_url: https://www.mcc-mnc.com/
   coverage_estimate: high
+  parameters:
+  - name: mcc
+    type: string
+    description: from external URL
+  - name: mnc
+    type: string
+    description: from external URL

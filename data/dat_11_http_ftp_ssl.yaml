@@ -216,10 +216,12 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:47:28Z'
   command: AT+HTTPSTATUS
   syntax: AT+HTTPSTATUS
-  parameters: []
+  parameters:
+  - name: method
+    type: integer
   response: OK
   examples:
   - 11.2.8 AT+HTTPSTATUS  Read HTTP Status ...................................................................219
@@ -649,10 +651,12 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:47:28Z'
   command: AT+FTPMODE
   syntax: AT+FTPMODE
-  parameters: []
+  parameters:
+  - name: mode
+    type: integer
   response: OK
   examples:
   - 12.2.2 AT+FTPMODE  Set Active or Passive FTP Mode ..................................................221
@@ -675,10 +679,12 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:47:28Z'
   command: AT+FTPPUTOPT
   syntax: AT+FTPPUTOPT
-  parameters: []
+  parameters:
+  - name: value
+    type: string
   response: OK
   examples:
   - 12.2.4 AT+FTPPUTOPT  Set FTP Put Type .......................................................................222
@@ -701,10 +707,12 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:47:28Z'
   command: AT+FTPGETPATH
   syntax: AT+FTPGETPATH
-  parameters: []
+  parameters:
+  - name: path
+    type: string
   response: OK
   examples:
   - 12.2.11 AT+FTPGETPATH  Set Download File Path .........................................................226
@@ -727,10 +735,12 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:47:28Z'
   command: AT+FTPPUTPATH
   syntax: AT+FTPPUTPATH
-  parameters: []
+  parameters:
+  - name: path
+    type: string
   response: OK
   examples:
   - 12.2.13 AT+FTPPUTPATH  Set Upload File Path ..............................................................227
@@ -753,10 +763,12 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:47:28Z'
   command: AT+FTPPORT
   syntax: AT+FTPPORT
-  parameters: []
+  parameters:
+  - name: port
+    type: integer
   response: OK
   examples:
   - 12.2.1 AT+FTPPORT  Set FTP Control Port ......................................................................220

@@ -1,0 +1,13 @@
+{
+  "total": 8,
+  "commands": [
+    "+CADTONE",
+    "+CATONE",
+    "+CEREG",
+    "+CGCONTRDP",
+    "+CIPDDREM",
+    "+CLDTONE",
+    "+CPCMREG",
+    "+HTTPSSL"
+  ]
+}

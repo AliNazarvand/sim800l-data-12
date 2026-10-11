@@ -408,10 +408,10 @@
 - id: dat_04_9002
   category: Timing
   parameter: FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: null
+  value_min: 64.0
+  value_typ: 1.0
+  value_max: 3.0
+  unit: kbps
   condition: null
   wake_source: null
   related_commands: []
@@ -432,7 +432,7 @@
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:47:26Z'
 - id: dat_04_9003
   category: Timing
   parameter: VBAT Power supply voltage 3.4 4.0 4.4 V
