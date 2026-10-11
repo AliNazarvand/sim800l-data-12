@@ -1,27 +1,31 @@
 # SESSION_LOG
 
-## بسته بزرگ B2+B3 clean + B4+B5 + A3-ext
+## Batch B6+B7+B8+B9 + cluster C — گیت per-dataset
 
-- تاریخ: 1405-07-19T17:17:15Z
-- برنچ: feature/complete-datasets
-- موفق: 2 از 5
+- تاریخ: 1405-07-19T17:19:43Z
+- موفق: 4 / 6
 
-### جدول زیرگام‌ها
+| زیرگام | نام | نتیجه | وضعیت |
+|---|---|---|---|
+| 1_dat10 | dat_10 GPRS/Data | sum=21 | OK |
+| 2_dat11 | dat_11 HTTP/FTP/SSL | sum=10 found=10 | OK |
+| 3_dat12 | dat_12 Audio | sum=7 found=7 | OK |
+| 4_dat17 | dat_17 Cert/Key | found=0 | BLOCKED |
+| 5_0406 | annotate dat_04/dat_06 | d04=15.4% d06=10% | ROLLED_BACK |
+| 6_clusterC | cluster C status | see report | OK |
 
-| زیرگام | نام | وضعیت | گیت | جزئیات |
-|---|---|---|---|---|
-| 1 | Audit B2B3 | OK | True | dat_02=188/206 susp; dat_03=7/255 susp |
-| 2 | Cleanup B2B3 | OK | True | partial: dat_02 3->2, dat_03 11->11 |
-| 3 | dat_09 SMS | ROLLED_BACK | False | partial=1 (<10) |
-| 4 | dat_13 SIM | ROLLED_BACK | False | partial=0 (<5) |
-| 5 | Annotate 04/05/06 | ROLLED_BACK | False | page%: 04=15.4 05=100 06=10 (need >=50 each) |
-
-### وضعیت نهایی validate.py
+### وضعیت validate.py
 - L1: 0
 - L2: 0
 - L3: 35
 - L4: 0
 
+### تغییرات کلیدی این نشست
+- گیت‌ها per-dataset طراحی شدند (نه group).
+- معیار موفقیت = annotated_or_added یا page_pct (نه partial count).
+- هر دیتاست fail مستقل rollback شد.
+- منابع تخصصی (HTTP/FTP/SSL/Audio/Cert) طبق D-019 فقط با ساختار header-محور بررسی شدند.
+
 ### کار گام بعد
-- ادامه خوشه B (B6, B7, B8, B9) در صورت تأمین منابع تخصصی.
-- کار دستی برای dat_02/dat_03 در صورت باقی‌ماندن مشکوک‌ها.
+- کار دستی برای dat_11, dat_12, dat_17 در صورت نیاز.
+- یا ادامه خوشه C.

@@ -250,3 +250,19 @@
 - مجموع موفقیت: 2 از 5.
 - validate.py پس از همه: L1=0 L2=0 L3=35 L4=0.
 - قواعد: auto-detection ممنوع (D-019)؛ هر زیرگام با گیت اختصاصی بررسی شد؛ زیرگام‌های ردشده rollback شدند.
+
+
+## D-029
+- تاریخ: 1405-07-19T17:19:43Z
+- زمینه: بسته B6+B7+B8+B9 + cluster C با گیت per-dataset.
+- نتایج:
+- 1_dat10: dat_10 GPRS/Data — OK — sum=21
+- 2_dat11: dat_11 HTTP/FTP/SSL — OK — sum=10 found=10
+- 3_dat12: dat_12 Audio — OK — sum=7 found=7
+- 4_dat17: dat_17 Cert/Key — BLOCKED — found=0
+- 5_0406: annotate dat_04/dat_06 — ROLLED_BACK — d04=15.4% d06=10%
+- 6_clusterC: cluster C status — OK — see report
+- موفقیت: 4 از 6.
+- validate: L1=0 L2=0 L3=35 L4=0
+- گیت‌ها این بار per-dataset بودند؛ معیار = annotated_or_added یا page_pct، نه partial count.
+- هر دیتاست fail مستقل rollback شد.

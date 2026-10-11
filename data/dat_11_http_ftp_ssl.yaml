@@ -4,6 +4,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: 11.2.1 Initialize HTTP Service .................................................................212
+    quote: 11.2.1 AT+HTTPINIT  Initialize HTTP Service .................................................................212
   source_type: primary
   confidence: 0.85
   status: complete
@@ -13,7 +16,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:47Z'
   command: AT+HTTPINIT
   syntax: AT+HTTPINIT
   parameters: []
@@ -26,6 +29,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: 11.2.2 Terminate HTTP Service ............................................................212
+    quote: 11.2.2 AT+HTTPTERM  Terminate HTTP Service ............................................................212
   source_type: primary
   confidence: 0.85
   status: complete
@@ -35,7 +41,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:47Z'
   command: AT+HTTPTERM
   syntax: AT+HTTPTERM
   parameters: []
@@ -48,6 +54,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: 11.2.3 Set HTTP Parameters Value ........................................................213
+    quote: 11.2.3 AT+HTTPPARA  Set HTTP Parameters Value ........................................................213
   source_type: primary
   confidence: 0.85
   status: complete
@@ -57,7 +66,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:47Z'
   command: AT+HTTPPARA
   syntax: AT+HTTPPARA
   parameters: []
@@ -70,6 +79,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: 11.2.4 Input HTTP Data .........................................................................214
+    quote: 11.2.4 AT+HTTPDATA  Input HTTP Data .........................................................................214
   source_type: primary
   confidence: 0.85
   status: complete
@@ -79,7 +91,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:47Z'
   command: AT+HTTPDATA
   syntax: AT+HTTPDATA
   parameters: []
@@ -92,6 +104,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: 11.2.5 HTTP Method Action .............................................................215
+    quote: 11.2.5 AT+HTTPACTION  HTTP Method Action .............................................................215
   source_type: primary
   confidence: 0.85
   status: complete
@@ -101,7 +116,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:47Z'
   command: AT+HTTPACTION
   syntax: AT+HTTPACTION
   parameters: []
@@ -114,6 +129,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: 11.2.6 Read the HTTP Server Response ................................................217
+    quote: 11.2.6 AT+HTTPREAD  Read the HTTP Server Response ................................................217
   source_type: primary
   confidence: 0.85
   status: complete
@@ -123,7 +141,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:47Z'
   command: AT+HTTPREAD
   syntax: AT+HTTPREAD
   parameters: []
@@ -158,6 +176,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: 11.2.8 Read HTTP Status ...................................................................219
+    quote: 11.2.8 AT+HTTPSTATUS  Read HTTP Status ...................................................................219
   source_type: primary
   confidence: 0.85
   status: complete
@@ -167,7 +188,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:47Z'
   command: AT+HTTPSTATUS
   syntax: AT+HTTPSTATUS
   parameters: []
@@ -268,6 +289,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '10'
+    section: 12.2.15 Set Upload File ...............................................................................229
+    quote: 12.2.15 AT+FTPPUT  Set Upload File ...............................................................................229
   source_type: primary
   confidence: 0.85
   status: complete
@@ -277,7 +301,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:47Z'
   command: AT+FTPPUT
   syntax: AT+FTPPUT
   parameters: []
@@ -290,6 +314,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '10'
+    section: 12.2.14 Download File ................................................................................228
+    quote: 12.2.14 AT+FTPGET  Download File ................................................................................228
   source_type: primary
   confidence: 0.85
   status: complete
@@ -299,7 +326,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:47Z'
   command: AT+FTPGET
   syntax: AT+FTPGET
   parameters: []
@@ -510,6 +537,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: 12.2.3 Set the Type of Data to Be Transferred ...........................................222
+    quote: 12.2.3 AT+FTPTYPE  Set the Type of Data to Be Transferred ...........................................222
   source_type: primary
   confidence: 0.85
   status: complete
@@ -519,7 +549,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:47Z'
   command: AT+FTPTYPE
   syntax: AT+FTPTYPE
   parameters: []

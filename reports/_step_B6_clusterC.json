@@ -1,0 +1,16 @@
+{
+  "dat_08": {
+    "status": "blocked",
+    "reason": "Release Notes not available"
+  },
+  "dat_18": {
+    "status": "blocked",
+    "reason": "Certification documents not available"
+  },
+  "dat_14": {
+    "status": "partial",
+    "total": 52,
+    "external": 52,
+    "conf_le_07": 52
+  }
+}

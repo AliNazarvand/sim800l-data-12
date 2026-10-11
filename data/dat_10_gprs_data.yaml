@@ -4,6 +4,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 7.2.2 Define PDP Context .......................................................................171
+    quote: 7.2.2 AT+CGDCONT  Define PDP Context .......................................................................171
   source_type: primary
   confidence: 0.85
   status: complete
@@ -13,7 +16,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CGDCONT
   syntax: AT+CGDCONT
   parameters: []
@@ -26,6 +29,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 7.2.1 Attach or Detach from GPRS Service ..................................................170
+    quote: 7.2.1 AT+CGATT  Attach or Detach from GPRS Service ..................................................170
   source_type: primary
   confidence: 0.85
   status: complete
@@ -35,7 +41,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CGATT
   syntax: AT+CGATT
   parameters: []
@@ -48,6 +54,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 7.2.5 PDP Context Activate or Deactivate ....................................................175
+    quote: 7.2.5 AT+CGACT  PDP Context Activate or Deactivate ....................................................175
   source_type: primary
   confidence: 0.85
   status: complete
@@ -57,7 +66,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CGACT
   syntax: AT+CGACT
   parameters: []
@@ -92,6 +101,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 7.2.7 Show PDP Address .........................................................................176
+    quote: 7.2.7 AT+CGPADDR  Show PDP Address .........................................................................176
   source_type: primary
   confidence: 0.85
   status: complete
@@ -101,7 +113,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CGPADDR
   syntax: AT+CGPADDR
   parameters: []
@@ -114,6 +126,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 8.2.9 Start Task and Set APN, USER NAME, PASSWORD ...........................189
+    quote: 8.2.9 AT+CSTT  Start Task and Set APN, USER NAME, PASSWORD ...........................189
   source_type: primary
   confidence: 0.85
   status: complete
@@ -123,7 +138,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CSTT
   syntax: AT+CSTT
   parameters: []
@@ -136,6 +151,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 8.2.10 Bring Up Wireless Connection with GPRS or CSD .............................190
+    quote: 8.2.10 AT+CIICR  Bring Up Wireless Connection with GPRS or CSD .............................190
   source_type: primary
   confidence: 0.85
   status: complete
@@ -145,7 +163,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CIICR
   syntax: AT+CIICR
   parameters: []
@@ -158,6 +176,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 8.2.11 Get Local IP Address ............................................................................190
+    quote: 8.2.11 AT+CIFSR  Get Local IP Address ............................................................................190
   source_type: primary
   confidence: 0.85
   status: complete
@@ -167,7 +188,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CIFSR
   syntax: AT+CIFSR
   parameters: []
@@ -180,6 +201,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 8.2.2 Start Up TCP or UDP Connection...................................................182
+    quote: 8.2.2 AT+CIPSTART  Start Up TCP or UDP Connection...................................................182
   source_type: primary
   confidence: 0.85
   status: complete
@@ -189,7 +213,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CIPSTART
   syntax: AT+CIPSTART
   parameters: []
@@ -202,6 +226,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 8.2.3 Send Data Through TCP or UDP Connection ...................................184
+    quote: 8.2.3 AT+CIPSEND  Send Data Through TCP or UDP Connection ...................................184
   source_type: primary
   confidence: 0.85
   status: complete
@@ -211,7 +238,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CIPSEND
   syntax: AT+CIPSEND
   parameters: []
@@ -224,6 +251,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 8.2.6 Close TCP or UDP Connection .....................................................187
+    quote: 8.2.6 AT+CIPCLOSE  Close TCP or UDP Connection .....................................................187
   source_type: primary
   confidence: 0.85
   status: complete
@@ -233,7 +263,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CIPCLOSE
   syntax: AT+CIPCLOSE
   parameters: []
@@ -246,6 +276,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 8.2.7 Deactivate GPRS PDP Context ........................................................188
+    quote: 8.2.7 AT+CIPSHUT  Deactivate GPRS PDP Context ........................................................188
   source_type: primary
   confidence: 0.85
   status: complete
@@ -255,7 +288,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CIPSHUT
   syntax: AT+CIPSHUT
   parameters: []
@@ -268,6 +301,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 8.2.12 Query Current Connection Status ...............................................191
+    quote: 8.2.12 AT+CIPSTATUS  Query Current Connection Status ...............................................191
   source_type: primary
   confidence: 0.85
   status: complete
@@ -277,7 +313,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CIPSTATUS
   syntax: AT+CIPSTATUS
   parameters: []
@@ -290,6 +326,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: 8.2.26 Get Data from Network Manually ...............................................202
+    quote: 8.2.26 AT+CIPRXGET  Get Data from Network Manually ...............................................202
   source_type: primary
   confidence: 0.85
   status: complete
@@ -299,7 +338,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CIPRXGET
   syntax: AT+CIPRXGET
   parameters: []
@@ -312,6 +351,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 8.2.1 Start Up Multi-IP Connection ............................................................182
+    quote: 8.2.1 AT+CIPMUX  Start Up Multi-IP Connection ............................................................182
   source_type: primary
   confidence: 0.85
   status: complete
@@ -321,7 +363,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CIPMUX
   syntax: AT+CIPMUX
   parameters: []
@@ -334,6 +376,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 8.2.4 Select Data Transmitting Mode .....................................................186
+    quote: 8.2.4 AT+CIPQSEND  Select Data Transmitting Mode .....................................................186
   source_type: primary
   confidence: 0.85
   status: complete
@@ -343,7 +388,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CIPQSEND
   syntax: AT+CIPQSEND
   parameters: []
@@ -378,6 +423,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: 8.2.22 Select TCPIP Application Mode ....................................................198
+    quote: 8.2.22 AT+CIPMODE  Select TCPIP Application Mode ....................................................198
   source_type: primary
   confidence: 0.85
   status: complete
@@ -387,7 +435,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CIPMODE
   syntax: AT+CIPMODE
   parameters: []
@@ -400,6 +448,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '13'
+    section: 8.2.23 Modify write cmd parameters
+    quote: 8.2.23 AT+CIPCCFG Modify write cmd parameters
   source_type: primary
   confidence: 0.85
   status: complete
@@ -409,7 +460,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CIPCCFG
   syntax: AT+CIPCCFG
   parameters: []
@@ -422,6 +473,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '5'
+    section: 3.2.35 Signal Quality Report ................................................................................82
+    quote: 3.2.35 AT+CSQ  Signal Quality Report ................................................................................82
   source_type: primary
   confidence: 0.85
   status: complete
@@ -431,7 +485,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CSQ
   syntax: AT+CSQ
   parameters: []
@@ -444,6 +498,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '5'
+    section: 3.2.32 Network Registration ..............................................................................79
+    quote: 3.2.32 AT+CREG  Network Registration ..............................................................................79
   source_type: primary
   confidence: 0.85
   status: complete
@@ -453,7 +510,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CREG
   syntax: AT+CREG
   parameters: []
@@ -466,6 +523,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 7.2.10 Network Registration Status ..............................................................178
+    quote: 7.2.10 AT+CGREG  Network Registration Status ..............................................................178
   source_type: primary
   confidence: 0.85
   status: complete
@@ -475,7 +535,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CGREG
   syntax: AT+CGREG
   parameters: []
@@ -510,6 +570,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '8'
+    section: 8.2.14 Query the IP Address of Given Domain Name ...............................193
+    quote: 8.2.14 AT+CDNSGIP  Query the IP Address of Given Domain Name ...............................193
   source_type: primary
   confidence: 0.85
   status: complete
@@ -519,7 +582,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:19:46Z'
   command: AT+CDNSGIP
   syntax: AT+CDNSGIP
   parameters: []
