@@ -2,13 +2,13 @@
 
 | دیتاست | نام | status | coverage_estimate | coverage_percent | منبع | دلیل |
 |---|---|---|---|---|---|---|
-| dat_01 | AT Command | blocked | - | - | AT Manual V1.01 | Records lack verifiable source.page/section/quote (R11) |
+| dat_01 | AT Command | partial | low | 30% | AT Manual V1.01 | Source exists; extraction incomplete; source.page/section cleared (R11 corrected: blocked only if source missing) |
 | dat_02 | URC | partial | low | 20% | AT Manual V1.01 | Auto-extracted; needs review |
 | dat_03 | Error Code | partial | low | 20% | AT Manual V1.01 | Auto-extracted; needs review |
 | dat_04 | Timing & Timeout | partial | low | 30% | Hardware Design V1.00/V2.02 | Needs full review |
 | dat_05 | State Machine | partial | low | 20% | Hardware Design V1.00/V2.02 | Needs full review |
 | dat_06 | Init Sequence | partial | low | 20% | Hardware Design V1.00/V2.02 | Needs full review |
-| dat_07 | Hardware Reference | blocked | - | - | V2.02, V1.00 | Records lack verifiable source.page/section/quote (R11) |
+| dat_07 | Hardware Reference | partial | low | 40% | V2.02, V1.00 | Source exists; extraction incomplete; source.page/section cleared (R11 corrected) |
 | dat_08 | Firmware Compatibility | blocked | - | - | - | Release Notes not available |
 | dat_09 | SMS | partial | low | 10% | AT Manual V1.01 | Auto-extracted; needs review |
 | dat_10 | GPRS/Data | partial | low | 10% | AT Manual V1.01 | Auto-extracted; needs review |

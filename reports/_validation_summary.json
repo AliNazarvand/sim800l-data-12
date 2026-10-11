@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T08:14:23Z",
+  "generated": "2026-10-11T08:16:03Z",
   "errors": [
     {
       "dataset": "dat_14",
@@ -2487,6 +2487,7 @@
       "suggestion": "add to dat_01 or fix"
     }
   ],
+  "notes": [],
   "counts": {
     "1": 0,
     "2": 52,
@@ -2494,6 +2495,8 @@
     "4": 0
   },
   "total": 355,
+  "dat01_status": "partial",
+  "skip_crossref": false,
   "data_paths": {
     "dat_01": "dat_01_at_command.yaml",
     "dat_02": "dat_02_urc.yaml",

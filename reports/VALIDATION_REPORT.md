@@ -1,12 +1,17 @@
 # VALIDATION_REPORT
 
-Generated: 2026-10-11T08:14:23Z
+Generated: 2026-10-11T08:16:03Z
 
 ## خلاصه
 - خطاهای سطح ۱ (Schema): 0
 - خطاهای سطح ۲ (Business): 52
 - خطاهای سطح ۳ (Cross-ref): 303
 - خطاهای سطح ۴ (Consistency): 0
+
+## وضعیت cross-ref
+
+- dat_01 status: `partial`
+- cross-ref اجرا شد: `True`
 
 ## فایل‌های کشف‌شده
 

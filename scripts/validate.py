@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""validate.py - Full validation with glob-aware data file lookup."""
+"""validate.py - Schema + business + cross-ref + consistency.
+Cross-ref is skipped when dat_01 status is blocked/pending_blocked (R11/R24)."""
 import sys
+import re
 import json
 from pathlib import Path
 from datetime import datetime, timezone
@@ -28,12 +30,16 @@ VALID_SOURCE_TYPE = {"primary","secondary","external"}
 REQ_FIELDS = ["id","category","source","source_type","confidence","status","applicable_models","created_at","updated_at"]
 
 errors = []
+notes  = []   # informational, not errors (e.g., pending_blocked)
 
 def add(dataset, level, record, error, suggestion=""):
     errors.append({
         "dataset": dataset, "level": level, "record": str(record),
         "error": str(error), "suggestion": str(suggestion)
     })
+
+def note(dataset, msg):
+    notes.append({"dataset": dataset, "note": str(msg)})
 
 def load_yaml(path):
     try:
@@ -49,7 +55,6 @@ def norm_records(data):
     return [data]
 
 def find_data_file(dat_id):
-    """Find data file matching dat_XX.yaml OR dat_XX_*.yaml."""
     candidates = sorted(DATA.glob(f"{dat_id}_*.yaml"))
     if candidates:
         return candidates[0]
@@ -57,6 +62,18 @@ def find_data_file(dat_id):
     if exact.exists():
         return exact
     return None
+
+def load_coverage_status():
+    """Parse reports/COVERAGE_MATRIX.md for dataset statuses."""
+    status_map = {}
+    cm = REPORTS / "COVERAGE_MATRIX.md"
+    if not cm.exists():
+        return status_map
+    for line in cm.read_text(encoding="utf-8").splitlines():
+        m = re.match(r"\|\s*(dat_\d{2})\s*\|[^|]*\|\s*([A-Za-z_\-]+)\s*\|", line)
+        if m:
+            status_map[m.group(1)] = m.group(2).strip().lower()
+    return status_map
 
 all_data = {}
 data_paths = {}
@@ -67,7 +84,7 @@ for i in range(1, 19):
     data_path = find_data_file(dat_id)
     schema_path = SCHEMAS / f"{dat_id}.schema.yaml"
     if data_path is None:
-        add(dat_id, 1, "-", f"data file missing (no dat_{i:02d}*.yaml)", "create file")
+        add(dat_id, 1, "-", f"data file missing (no {dat_id}*.yaml)", "create file")
         continue
     data_paths[dat_id] = str(data_path.name)
     if not schema_path.exists():
@@ -146,8 +163,8 @@ for dat_id, records in all_data.items():
             add(dat_id, 2, rid, "source.page invalid (auto/unknown)", "fix or remove")
         if src.get("section") in ("auto-extracted", "unknown"):
             add(dat_id, 2, rid, "source.section invalid", "fix or remove")
-        notes = str(rec.get("notes", ""))
-        if "SIM800H-only" in notes or "SIM800H only" in notes:
+        notes_txt = str(rec.get("notes", ""))
+        if "SIM800H-only" in notes_txt or "SIM800H only" in notes_txt:
             add(dat_id, 2, rid, "SIM800H-only record (R1)", "remove")
         conf = rec.get("confidence")
         if not isinstance(conf, (int, float)) or conf < 0.0 or conf > 1.0:
@@ -160,7 +177,13 @@ for dat_id, records in all_data.items():
                 except Exception:
                     add(dat_id, 2, rid, f"{tf} not ISO 8601", "fix timestamp")
 
-# ---------- Level 3: cross-reference ----------
+# ---------- Level 3: cross-reference (status-aware) ----------
+status_map = load_coverage_status()
+dat01_status = status_map.get("dat_01", "unknown")
+
+# Skip cross-ref if dat_01 is blocked/pending_blocked (per R11/R24)
+skip_crossref = dat01_status in ("blocked", "pending_blocked")
+
 def commands_in_dat01():
     s = set()
     for rec in all_data.get("dat_01", []):
@@ -172,28 +195,32 @@ def cmd_norm(c):
     return str(c).lstrip("+").upper()
 
 dat01_cmds = commands_in_dat01()
-dat01_nonblocked = bool(dat01_cmds)
 
-if dat01_nonblocked:
-    for rec in all_data.get("dat_02", []):
-        if not isinstance(rec, dict):
-            continue
-        rc = rec.get("related_command")
-        if rc and cmd_norm(rc) not in dat01_cmds:
-            add("dat_02", 3, rec.get("id"), f"related_command {rc} not in dat_01", "add or fix")
-    for rec in all_data.get("dat_03", []):
-        if not isinstance(rec, dict):
-            continue
-        for rc in (rec.get("related_commands") or []):
-            if cmd_norm(rc) not in dat01_cmds:
-                add("dat_03", 3, rec.get("id"), f"related_command {rc} not in dat_01", "add or fix")
-    for ds in ["dat_09","dat_10","dat_11","dat_12","dat_13","dat_15","dat_17"]:
-        for rec in all_data.get(ds, []):
+if skip_crossref:
+    note("dat_01", f"status={dat01_status}; cross-ref skipped, dependent datasets marked pending_blocked")
+    for ds in ["dat_02","dat_03","dat_09","dat_10","dat_11","dat_12","dat_13","dat_15","dat_17"]:
+        note(ds, "pending_blocked (dat_01 is blocked/pending_blocked)")
+else:
+    if dat01_cmds:
+        for rec in all_data.get("dat_02", []):
             if not isinstance(rec, dict):
                 continue
-            cmd = rec.get("command")
-            if cmd and cmd_norm(cmd) not in dat01_cmds:
-                add(ds, 3, rec.get("id"), f"command {cmd} not in dat_01", "add to dat_01 or fix")
+            rc = rec.get("related_command")
+            if rc and cmd_norm(rc) not in dat01_cmds:
+                add("dat_02", 3, rec.get("id"), f"related_command {rc} not in dat_01", "add or fix")
+        for rec in all_data.get("dat_03", []):
+            if not isinstance(rec, dict):
+                continue
+            for rc in (rec.get("related_commands") or []):
+                if cmd_norm(rc) not in dat01_cmds:
+                    add("dat_03", 3, rec.get("id"), f"related_command {rc} not in dat_01", "add or fix")
+        for ds in ["dat_09","dat_10","dat_11","dat_12","dat_13","dat_15","dat_17"]:
+            for rec in all_data.get(ds, []):
+                if not isinstance(rec, dict):
+                    continue
+                cmd = rec.get("command")
+                if cmd and cmd_norm(cmd) not in dat01_cmds:
+                    add(ds, 3, rec.get("id"), f"command {cmd} not in dat_01", "add to dat_01 or fix")
 
 dat05_states = set()
 for rec in all_data.get("dat_05", []):
@@ -224,6 +251,11 @@ lines.append(f"- خطاهای سطح ۲ (Business): {by_level[2]}")
 lines.append(f"- خطاهای سطح ۳ (Cross-ref): {by_level[3]}")
 lines.append(f"- خطاهای سطح ۴ (Consistency): {by_level[4]}")
 lines.append("")
+lines.append("## وضعیت cross-ref")
+lines.append("")
+lines.append(f"- dat_01 status: `{dat01_status}`")
+lines.append(f"- cross-ref اجرا شد: `{not skip_crossref}`")
+lines.append("")
 lines.append("## فایل‌های کشف‌شده")
 lines.append("")
 lines.append("| دیتاست | فایل |")
@@ -232,6 +264,14 @@ for i in range(1, 19):
     dat_id = f"dat_{i:02d}"
     lines.append(f"| {dat_id} | {data_paths.get(dat_id, '-')} |")
 lines.append("")
+if notes:
+    lines.append("## پیام‌های pending_blocked / اطلاعی")
+    lines.append("")
+    lines.append("| دیتاست | پیام |")
+    lines.append("|---|---|")
+    for n in notes:
+        lines.append(f"| {n['dataset']} | {n['note']} |")
+    lines.append("")
 lines.append("## جزئیات خطاها")
 lines.append("")
 lines.append("| دیتاست | سطح | رکورد | خطا | پیشنهاد اصلاح |")
@@ -247,13 +287,15 @@ lines.append("")
 
 (REPORTS / "VALIDATION_REPORT.md").write_text("\n".join(lines), encoding="utf-8")
 (REPORTS / "_validation_summary.json").write_text(
-    json.dumps({"generated": ts, "errors": errors, "counts": by_level, "total": len(errors),
+    json.dumps({"generated": ts, "errors": errors, "notes": notes,
+                "counts": by_level, "total": len(errors),
+                "dat01_status": dat01_status, "skip_crossref": skip_crossref,
                 "data_paths": data_paths}, ensure_ascii=False, indent=2),
     encoding="utf-8"
 )
 
 print(f"Validation: {len(errors)} errors (L1={by_level[1]} L2={by_level[2]} L3={by_level[3]} L4={by_level[4]})")
+print(f"dat_01 status={dat01_status}  cross-ref ran={not skip_crossref}")
 if not HAS_JS:
     print("WARNING: jsonschema not installed; schema-level validation was skipped.")
-    print("         Install with: pip install jsonschema")
 sys.exit(1 if errors else 0)
