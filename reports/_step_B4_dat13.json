@@ -1,0 +1,20 @@
+{
+  "file": "dat_13_sim_management.yaml",
+  "total": 10,
+  "added": 0,
+  "annotated": 10,
+  "partial": 0,
+  "commands_found": 10,
+  "commands": [
+    "AT+CIMI",
+    "AT+CLCK",
+    "AT+CPIN",
+    "AT+CPWD",
+    "AT+CRSM",
+    "AT+CSIM",
+    "AT+CUSD",
+    "AT+CSPN",
+    "AT+CCID",
+    "AT+CSMINS"
+  ]
+}

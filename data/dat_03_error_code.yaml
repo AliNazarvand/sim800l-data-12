@@ -1306,15 +1306,15 @@
     version: V1.01
     date: '2013-09-15'
   source_type: primary
-  confidence: 0.9
-  status: complete
+  confidence: 0.0
+  status: unknown
   conflicts: []
-  notes: ''
+  notes: Suspected non-error-code entry. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:17:20Z'
   error_type: CME
   code: 99
   meaning: Not known or not detectable
@@ -2296,15 +2296,15 @@
     section: CME Error Codes
     quote: 766 Unsupported mode
   source_type: primary
-  confidence: 0.9
-  status: complete
+  confidence: 0.0
+  status: unknown
   conflicts: []
-  notes: ''
+  notes: Suspected non-error-code entry. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:17:20Z'
   error_type: CME
   code: 766
   meaning: Unsupported mode
@@ -4487,15 +4487,15 @@
     section: CMS Error Codes
     quote: 128 Telematic interworking not supported
   source_type: primary
-  confidence: 0.9
-  status: complete
+  confidence: 0.0
+  status: unknown
   conflicts: []
-  notes: ''
+  notes: Suspected non-error-code entry. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:17:20Z'
   error_type: CMS
   code: 128
   meaning: Telematic interworking not supported
@@ -4591,15 +4591,15 @@
     section: CMS Error Codes
     quote: 144 Data coding scheme (alphabet) not supported
   source_type: primary
-  confidence: 0.9
-  status: complete
+  confidence: 0.0
+  status: unknown
   conflicts: []
-  notes: ''
+  notes: Suspected non-error-code entry. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:17:20Z'
   error_type: CMS
   code: 144
   meaning: Data coding scheme (alphabet) not supported
@@ -4747,15 +4747,15 @@
     section: CMS Error Codes
     quote: 176 TPDU not supported
   source_type: primary
-  confidence: 0.9
-  status: complete
+  confidence: 0.0
+  status: unknown
   conflicts: []
-  notes: ''
+  notes: Suspected non-error-code entry. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:17:20Z'
   error_type: CMS
   code: 176
   meaning: TPDU not supported
@@ -4952,15 +4952,15 @@
     section: CMS Error Codes
     quote: 198 TP-VPF not supported
   source_type: primary
-  confidence: 0.9
-  status: complete
+  confidence: 0.0
+  status: unknown
   conflicts: []
-  notes: ''
+  notes: Suspected non-error-code entry. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:17:20Z'
   error_type: CMS
   code: 198
   meaning: TP-VPF not supported
@@ -4978,15 +4978,15 @@
     section: CMS Error Codes
     quote: 199 TP-VP not supported
   source_type: primary
-  confidence: 0.9
-  status: complete
+  confidence: 0.0
+  status: unknown
   conflicts: []
-  notes: ''
+  notes: Suspected non-error-code entry. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:17:20Z'
   error_type: CMS
   code: 199
   meaning: TP-VP not supported

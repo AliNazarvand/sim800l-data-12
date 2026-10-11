@@ -236,3 +236,17 @@
   - Error entries parsed: 0
 - دلیل: R2, R6, D-019.
 - محدودیت: بخش‌هایی که فقط در منابع تخصصی هستند (مانند TLS/SSL URCs) در این گام پوشش داده نشده‌اند.
+
+
+## D-028
+- تاریخ: 1405-07-19T17:17:15Z
+- زمینه: بسته بزرگ (B2+B3 cleanup + B4+B5 + A3-ext) با ۵ زیرگام و گیت کیفیت مستقل هر زیرگام.
+- نتیجه هر زیرگام:
+- Substep 1 (Audit B2B3): OK — gate=True — dat_02=188/206 susp; dat_03=7/255 susp
+- Substep 2 (Cleanup B2B3): OK — gate=True — partial: dat_02 3->2, dat_03 11->11
+- Substep 3 (Rebuild dat_09): ROLLED_BACK — gate=False — partial=1 (<10)
+- Substep 4 (Rebuild dat_13): ROLLED_BACK — gate=False — partial=0 (<5)
+- Substep 5 (Annotate 04/05/06): ROLLED_BACK — gate=False — page%: 04=15.4 05=100 06=10 (need >=50 each)
+- مجموع موفقیت: 2 از 5.
+- validate.py پس از همه: L1=0 L2=0 L3=35 L4=0.
+- قواعد: auto-detection ممنوع (D-019)؛ هر زیرگام با گیت اختصاصی بررسی شد؛ زیرگام‌های ردشده rollback شدند.

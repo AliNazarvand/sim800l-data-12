@@ -1,0 +1,24 @@
+{
+  "file": "dat_09_sms.yaml",
+  "total": 14,
+  "added": 1,
+  "annotated": 13,
+  "partial": 1,
+  "commands_found": 14,
+  "commands": [
+    "AT+CSCS",
+    "AT+CMEE",
+    "AT+CMGD",
+    "AT+CMGF",
+    "AT+CMGL",
+    "AT+CMGR",
+    "AT+CMGS",
+    "AT+CMGW",
+    "AT+CNMI",
+    "AT+CPMS",
+    "AT+CSCA",
+    "AT+CSDH",
+    "AT+CSMP",
+    "AT+CSMS"
+  ]
+}
