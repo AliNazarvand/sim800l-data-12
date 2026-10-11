@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T17:22:01Z",
+  "generated": "2026-10-11T17:23:52Z",
   "errors": [
     {
       "dataset": "dat_10",
@@ -255,7 +255,7 @@
     "4": 0
   },
   "total": 35,
-  "dat01_status": "partial",
+  "dat01_status": "complete",
   "skip_crossref": false,
   "data_paths": {
     "dat_01": "dat_01_at_command.yaml",

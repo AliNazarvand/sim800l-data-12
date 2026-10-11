@@ -1,0 +1,181 @@
+{
+  "total_l3": 35,
+  "decided": 35,
+  "decisions": [
+    {
+      "dataset": "dat_10",
+      "record": "dat_10_0004",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_10",
+      "record": "dat_10_0017",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_10",
+      "record": "dat_10_0023",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0007",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0009",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0010",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0011",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0012",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0019",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0020",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0021",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0022",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0023",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0030",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0031",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0032",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0033",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0034",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0035",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0036",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0037",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0038",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_12",
+      "record": "dat_12_0006",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_12",
+      "record": "dat_12_0007",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_12",
+      "record": "dat_12_0008",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_12",
+      "record": "dat_12_0012",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0001",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0002",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0003",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0004",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0005",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0006",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0007",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0008",
+      "decision": "marked-blocked"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0009",
+      "decision": "marked-blocked"
+    }
+  ]
+}

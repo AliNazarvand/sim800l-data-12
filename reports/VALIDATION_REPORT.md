@@ -1,6 +1,6 @@
 # VALIDATION_REPORT
 
-Generated: 2026-10-11T17:22:01Z
+Generated: 2026-10-11T17:23:52Z
 
 ## خلاصه
 - خطاهای سطح ۱ (Schema): 0
@@ -10,7 +10,7 @@ Generated: 2026-10-11T17:22:01Z
 
 ## وضعیت cross-ref
 
-- dat_01 status: `partial`
+- dat_01 status: `complete`
 - cross-ref اجرا شد: `True`
 
 ## فایل‌های کشف‌شده

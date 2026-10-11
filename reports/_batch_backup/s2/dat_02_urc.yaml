@@ -4,16 +4,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '159'
+    section: URC Section
+    quote: '+CAAS: (0-2)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CAAS
   trigger_event: event code (indicating
   related_command: AT+CAAS
@@ -35,16 +38,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '48'
+    section: URC Section
+    quote: '+CACM: <acm>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CACM
   trigger_event: decimal value 30)
   related_command: AT+CACM
@@ -70,16 +76,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '135'
+    section: URC Section
+    quote: '+CADC: (list of supported <status>s),(list of supported <value>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CADC
   trigger_event: ''
   related_command: AT+CADC
@@ -103,16 +112,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '134'
+    section: URC Section
+    quote: '+CALA: ("yy/mm/dd,hh:mm:ss","hh:mm:ss"),(1-5),(0-7)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CALA
   trigger_event: Result Code
   related_command: AT+CALA
@@ -142,16 +154,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '135'
+    section: URC Section
+    quote: '+CALD: (list of supported <n>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CALD
   trigger_event: ''
   related_command: AT+CALD
@@ -179,16 +194,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '92'
+    section: URC Section
+    quote: '+CALM: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CALM
   trigger_event: ''
   related_command: AT+CALM
@@ -212,16 +230,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '93'
+    section: URC Section
+    quote: '+CALS: (list of supported <n>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CALS
   trigger_event: ''
   related_command: AT+CALS
@@ -245,16 +266,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '134'
+    section: URC Section
+    quote: '+CALV: <n>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CALV
   trigger_event: the time when alarm arrives
   related_command: AT+CALA
@@ -278,16 +302,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '49'
+    section: URC Section
+    quote: '+CAMM: <acmmax>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CAMM
   trigger_event: decimal value 30)
   related_command: AT+CAMM
@@ -313,16 +340,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '50'
+    section: URC Section
+    quote: '+CAOC: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CAOC
   trigger_event: reporting of CCM value
   related_command: AT+CAOC
@@ -346,16 +376,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '142'
+    section: URC Section
+    quote: '+CBAND: (list of supported <op_band>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CBAND
   trigger_event: ''
   related_command: AT+CBAND
@@ -381,16 +414,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '97'
+    section: URC Section
+    quote: '+CBC: (list of supported <bcs>s),(list of supported <bcl>s),(<voltage>)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CBC
   trigger_event: ''
   related_command: AT+CBC
@@ -478,16 +514,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '51'
+    section: URC Section
+    quote: '+CBST: (list of supported <speed>s),(list of supported <name>s),(list of'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CBST
   trigger_event: ''
   related_command: AT+CBST
@@ -511,16 +550,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '164'
+    section: URC Section
+    quote: '+CBUZZERRING: <mode>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CBUZZERRING
   trigger_event: ''
   related_command: AT+CBUZZERRING
@@ -540,16 +582,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '156'
+    section: URC Section
+    quote: '+CCALR: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CCALR
   trigger_event: whether the module
   related_command: AT+CCALR
@@ -571,16 +616,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '52'
+    section: URC Section
+    quote: '+CCFC: (list of supported <reason>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CCFC
   trigger_event: ''
   related_command: AT+CCFC
@@ -624,16 +672,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '91'
+    section: URC Section
+    quote: '+CCLK: <time>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CCLK
   trigger_event: the difference, expressed in quarters of an hour, between the
   related_command: AT+CCLK
@@ -659,16 +710,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '153'
+    section: URC Section
+    quote: '+CCODE: (0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CCODE
   trigger_event: Enable or Disable Initial URC Presentation
   related_command: AT+CCODE
@@ -690,16 +744,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '150'
+    section: URC Section
+    quote: '+CCPD: (0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CCPD
   trigger_event: ''
   related_command: AT+CCPD
@@ -725,16 +782,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '141'
+    section: URC Section
+    quote: '+CCVM: maximum length of field <vm number>, maximum length of'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CCVM
   trigger_event: ''
   related_command: AT+CCVM
@@ -756,16 +816,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '54'
+    section: URC Section
+    quote: '+CCWA: (list of supported <n>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CCWA
   trigger_event: result code
   related_command: AT+CCWA
@@ -797,16 +860,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '96'
+    section: URC Section
+    quote: '+CCWE: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CCWE
   trigger_event: 'result codes supported:'
   related_command: AT+CCWE
@@ -828,16 +894,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '192'
+    section: URC Section
+    quote: '+CDNSCFG: ("Primary DNS"),("Secondary DNS")'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CDNSCFG
   trigger_event: the IP address of the
   related_command: AT+CDNSCFG
@@ -859,16 +928,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '193'
+    section: URC Section
+    quote: '+CDNSGIP: 1, <domain name>,<IP1>[,<IP2>]'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CDNSGIP
   trigger_event: the domain name
   related_command: AT+CDNSGIP
@@ -888,16 +960,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '140'
+    section: URC Section
+    quote: '+CDRIND: (list of supported <n>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CDRIND
   trigger_event: event code indicating
   related_command: AT+CDRIND
@@ -983,16 +1058,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '55'
+    section: URC Section
+    quote: '+CEER: (list of supported <n>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CEER
   trigger_event: ''
   related_command: AT+CEER
@@ -1018,16 +1096,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '162'
+    section: URC Section
+    quote: '+CEMNL: (0-1),(1-11), ("0"-"999")…'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CEMNL
   trigger_event: ''
   related_command: AT+CEMNL
@@ -1049,16 +1130,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '145'
+    section: URC Section
+    quote: '+CENG: (list of supported <mode>s),(list of supported <Ncell>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CENG
   trigger_event: ''
   related_command: AT+CENG
@@ -1100,16 +1184,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '165'
+    section: URC Section
+    quote: '+CEXTERNTONE: (0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CEXTERNTONE
   trigger_event: ''
   related_command: AT+CEXTERNTONE
@@ -1129,16 +1216,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '137'
+    section: URC Section
+    quote: '+CFGRI: (0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CFGRI
   trigger_event: Result Code
   related_command: AT+CFGRI
@@ -1164,16 +1254,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '90'
+    section: URC Section
+    quote: '+CFUN: (list of supported <fun>s),(list of supported <rst>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CFUN
   trigger_event: ''
   related_command: AT+CFUN
@@ -1197,16 +1290,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '175'
+    section: URC Section
+    quote: '+CGACT: (list of supported <state>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CGACT
   trigger_event: the state of PDP context activation
   related_command: AT+CGACT
@@ -1230,16 +1326,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '170'
+    section: URC Section
+    quote: '+CGATT: (list of supported <state>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CGATT
   trigger_event: the state of GPRS attachment
   related_command: AT+CGATT
@@ -1267,16 +1366,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '177'
+    section: URC Section
+    quote: '+CGCLASS: (list of supported <class>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CGCLASS
   trigger_event: the GPRS mobile class (in
   related_command: AT+CGCLASS
@@ -1300,16 +1402,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '176'
+    section: URC Section
+    quote: '+CGDATA: list of supported <L2P>s'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CGDATA
   trigger_event: the layer 2 protocol to be used between the
   related_command: AT+CGDATA
@@ -1333,16 +1438,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '171'
+    section: URC Section
+    quote: '+CGDCONT: (range of supported <cid>s),<PDP_type>,,,(list of'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CGDCONT
   trigger_event: ''
   related_command: AT+CGDCONT
@@ -1370,16 +1478,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '178'
+    section: URC Section
+    quote: '+CGEREP: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CGEREP
   trigger_event: result codes in the MT; if MT
   related_command: AT+CGEREP
@@ -1409,16 +1520,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '176'
+    section: URC Section
+    quote: '+CGPADDR: (list of defined <cid>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CGPADDR
   trigger_event: ''
   related_command: AT+CGPADDR
@@ -1444,16 +1558,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '172'
+    section: URC Section
+    quote: '+CGQMIN: <PDP_type>,(list of supported <precedence>s),(list of'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CGQMIN
   trigger_event: ''
   related_command: AT+CGQMIN
@@ -1485,16 +1602,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '173'
+    section: URC Section
+    quote: '+CGQREQ: <PDP_type>,(list of supported  <precedence> s),(list of'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CGQREQ
   trigger_event: ''
   related_command: AT+CGQREQ
@@ -1566,16 +1686,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '179'
+    section: URC Section
+    quote: '+CGSMS: (list of currently available <service>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CGSMS
   trigger_event: the service or service
   related_command: AT+CGSMS
@@ -1597,16 +1720,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '143'
+    section: URC Section
+    quote: '+CHF: (list of supported <ind>s),(list of supported <state>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CHF
   trigger_event: Result Code
   related_command: AT+CHF
@@ -1632,16 +1758,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '144'
+    section: URC Section
+    quote: '+CHFA: (0 = NORMAL_AUDIO, 1 = AUX_AUDIO)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CHFA
   trigger_event: ''
   related_command: AT+CHFA
@@ -1663,16 +1792,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '61'
+    section: URC Section
+    quote: '+CHLD: (list of supported <n>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CHLD
   trigger_event: ''
   related_command: AT+CHLD
@@ -1694,16 +1826,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '187'
+    section: URC Section
+    quote: '+CIPACK: <txlen>, <acklen>, <nacklen>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPACK
   trigger_event: the connection number
   related_command: AT+CIPACK
@@ -1731,16 +1866,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '194'
+    section: URC Section
+    quote: '+CIPATS: (list of supported <mode>s),(list of supported <time>)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPATS
   trigger_event: whether set timer when
   related_command: AT+CIPATS
@@ -1762,16 +1900,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '199'
+    section: URC Section
+    quote: '+CIPCCFG:'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPCCFG
   trigger_event: ''
   related_command: AT+CIPCCFG
@@ -1791,16 +1932,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '196'
+    section: URC Section
+    quote: +CIPCSGP:0-CSD,DIALNUMBER,USER
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPCSGP
   trigger_event: the wireless connection
   related_command: AT+CIPCSGP
@@ -1826,16 +1970,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '209'
+    section: URC Section
+    quote: '+CIPCTL: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPCTL
   trigger_event: ''
   related_command: AT+CIPCTL
@@ -1863,16 +2010,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '198'
+    section: URC Section
+    quote: '+CIPDPDP: (list of supported<mode> s, list of supported <interval>, list'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPDPDP
   trigger_event: is reported because of module not attaching to gprs
   related_command: AT+CIPDPDP
@@ -1896,16 +2046,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '210'
+    section: URC Section
+    quote: '+CIPFLT: (list of supported <action>s),(list of supported <item>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPFLT
   trigger_event: ''
   related_command: AT+CIPFLT
@@ -1931,16 +2084,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '236'
+    section: URC Section
+    quote: '+CIPGSMLOC: (1,2),(1-3)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPGSMLOC
   trigger_event: ''
   related_command: AT+CIPGSMLOC
@@ -1974,16 +2130,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '193'
+    section: URC Section
+    quote: '+CIPHEAD: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPHEAD
   trigger_event: whether an IP header
   related_command: AT+CIPHEAD
@@ -2007,16 +2166,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '198'
+    section: URC Section
+    quote: '+CIPMODE: (0-NORMAL MODE,1-TRANSPARENT MODE)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPMODE
   trigger_event: ''
   related_command: AT+CIPMODE
@@ -2038,16 +2200,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '182'
+    section: URC Section
+    quote: '+CIPMUX: (0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPMUX
   trigger_event: ''
   related_command: AT+CIPMUX
@@ -2071,16 +2236,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '208'
+    section: URC Section
+    quote: '+CIPPING: (list of supported <retryNum>s),(list of supported'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPPING
   trigger_event: ''
   related_command: AT+CIPPING
@@ -2104,16 +2272,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '186'
+    section: URC Section
+    quote: '+CIPQSEND: (0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPQSEND
   trigger_event: the connection number
   related_command: AT+CIPQSEND
@@ -2141,16 +2312,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '204'
+    section: URC Section
+    quote: '+CIPRDTIMER: <rdsigtimer>,<rdmuxtimer>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPRDTIMER
   trigger_event: ''
   related_command: AT+CIPSCONT
@@ -2214,16 +2388,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '204'
+    section: URC Section
+    quote: '+CIPSCONT: <mode0>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPSCONT
   trigger_event: ''
   related_command: AT+CIPSCONT
@@ -2265,16 +2442,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '184'
+    section: URC Section
+    quote: '+CIPSEND: <length>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPSEND
   trigger_event: the connection number
   related_command: AT+CIPSEND
@@ -2300,16 +2480,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '195'
+    section: URC Section
+    quote: '+CIPSERVER: (0-CLOSE SERVER, 1-OPEN SERVER),(1-65535)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPSERVER
   trigger_event: ''
   related_command: AT+CIPSERVER
@@ -2335,16 +2518,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '205'
+    section: URC Section
+    quote: '+CIPSGTXT: (0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPSGTXT
   trigger_event: Result Code
   related_command: AT+CIPSGTXT
@@ -2370,16 +2556,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '200'
+    section: URC Section
+    quote: '+CIPSHOWTP: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPSHOWTP
   trigger_event: whether to display
   related_command: AT+CIPSHOWTP
@@ -2401,16 +2590,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '195'
+    section: URC Section
+    quote: '+CIPSPRT: (list of supported <send prompt>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPSPRT
   trigger_event: whether to echo
   related_command: AT+CIPSPRT
@@ -2434,16 +2626,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '197'
+    section: URC Section
+    quote: '+CIPSRIP: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPSRIP
   trigger_event: ''
   related_command: AT+CIPSRIP
@@ -2469,16 +2664,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '182'
+    section: URC Section
+    quote: '+CIPSTART: (list of supported <mode>),(<IP address>),(<port>)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPSTART
   trigger_event: ''
   related_command: AT+CIPMUX
@@ -2544,16 +2742,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '201'
+    section: URC Section
+    quote: '+CIPUDPMODE: (0-2),("(0-255).(0-255).(0-255).(0-255)"),(1-65535)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIPUDPMODE
   trigger_event: the connection
   related_command: AT+CIPUDPMODE
@@ -2575,16 +2776,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '153'
+    section: URC Section
+    quote: '+CIURC: (0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CIURC
   trigger_event: (0,1)
   related_command: AT+CIURC
@@ -2610,16 +2814,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '62'
+    section: URC Section
+    quote: '+CLCC: (0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CLCC
   trigger_event: ''
   related_command: AT+CLCC
@@ -2659,16 +2866,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '63'
+    section: URC Section
+    quote: '+CLCK: (list of supported <fac>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CLCK
   trigger_event: ''
   related_command: AT+CLCK
@@ -2700,16 +2910,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '139'
+    section: URC Section
+    quote: '+CLDTMF: (1-100),(0-9,A,B,C,D,*,#)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CLDTMF
   trigger_event: the duration of all
   related_command: AT+CLDTMF
@@ -2773,16 +2986,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '66'
+    section: URC Section
+    quote: '+CLIR: (list of supported <n>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CLIR
   trigger_event: ''
   related_command: AT+CLIR
@@ -2806,16 +3022,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '188'
+    section: URC Section
+    quote: '+CLPORT: ("TCP","UDP"),(0-65535)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CLPORT
   trigger_event: the connection
   related_command: AT+CLPORT
@@ -2837,16 +3056,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '138'
+    section: URC Section
+    quote: '+CLTS: "yy/MM/dd,hh:mm:ss+/-zz"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CLTS
   trigger_event: Result Code
   related_command: AT+CLTS
@@ -2884,16 +3106,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '94'
+    section: URC Section
+    quote: '+CLVL: (list of supported <level>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CLVL
   trigger_event: ''
   related_command: AT+CLVL
@@ -2917,16 +3142,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '23'
+    section: URC Section
+    quote: '+CME ERROR: <err>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CME ERROR
   trigger_event: ''
   related_command: ''
@@ -2954,16 +3182,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '67'
+    section: URC Section
+    quote: '+CMEE: (list of supported <n>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMEE
   trigger_event: of an error relating to the functionality of the ME
   related_command: AT+CMEE
@@ -2987,16 +3218,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '101'
+    section: URC Section
+    quote: '+CMGD: (list of supported <index>s),(list of supported <delflag>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMGD
   trigger_event: ''
   related_command: AT+CMGD
@@ -3020,16 +3254,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '148'
+    section: URC Section
+    quote: '+CMGDA: (list of supported <type>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMGDA
   trigger_event: ''
   related_command: AT+CMGDA
@@ -3051,16 +3288,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '102'
+    section: URC Section
+    quote: '+CMGF: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMGF
   trigger_event: ''
   related_command: AT+CMGF
@@ -3082,16 +3322,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '152'
+    section: URC Section
+    quote: '+CMGHEX: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMGHEX
   trigger_event: ''
   related_command: AT+CMGHEX
@@ -3113,16 +3356,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '103'
+    section: URC Section
+    quote: '+CMGL: (list of supported <stat>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMGL
   trigger_event: ''
   related_command: AT+CMGL
@@ -3156,16 +3402,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '106'
+    section: URC Section
+    quote: '+CMGR: <stat>,<oa>[,<alpha>],<scts>[,<tooa>,<fo>,<pid>,<dcs>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMGR
   trigger_event: ''
   related_command: AT+CMGR
@@ -3213,16 +3462,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '109'
+    section: URC Section
+    quote: +CMGS=<da>[,
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMGS
   trigger_event: ''
   related_command: ''
@@ -3250,16 +3502,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '110'
+    section: URC Section
+    quote: '+CMGW: <index>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMGW
   trigger_event: ''
   related_command: AT+CMGW
@@ -3291,16 +3546,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '133'
+    section: URC Section
+    quote: '+CMIC: (list of supported <channel>s),(list of supported <gainlevel>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMIC
   trigger_event: ''
   related_command: AT+CMIC
@@ -3330,16 +3588,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '168'
+    section: URC Section
+    quote: '+CMICBIAS: (0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMICBIAS
   trigger_event: GPRS EVENT REPORTING
   related_command: AT+CMICBIAS
@@ -3359,16 +3620,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '266'
+    section: URC Section
+    quote: '+CMMSBCC: "ADDRESS"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSBCC
   trigger_event: phone number or email
   related_command: AT+CMMSBCC
@@ -3390,16 +3654,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '266'
+    section: URC Section
+    quote: '+CMMSCC: "ADDRESS"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSCC
   trigger_event: phone number or email
   related_command: AT+CMMSCC
@@ -3421,16 +3688,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '260'
+    section: URC Section
+    quote: '+CMMSCID: (1-3)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSCID
   trigger_event: ''
   related_command: AT+CMMSCID
@@ -3468,16 +3738,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '259'
+    section: URC Section
+    quote: '+CMMSCURL: “URL”'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSCURL
   trigger_event: ''
   related_command: AT+CMMSCURL
@@ -3499,16 +3772,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '268'
+    section: URC Section
+    quote: '+CMMSDELBCC: "ADDRESS"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSDELBCC
   trigger_event: phone number or
   related_command: AT+CMMSDELBC
@@ -3540,16 +3816,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '268'
+    section: URC Section
+    quote: '+CMMSDELCC: "ADDRESS"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSDELCC
   trigger_event: phone number or
   related_command: AT+CMMSDELCC
@@ -3571,16 +3850,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '267'
+    section: URC Section
+    quote: '+CMMSDELRECP: "ADDRESS"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSDELRECP
   trigger_event: phone number or email
   related_command: AT+CMMSDELRE
@@ -3602,16 +3884,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '263'
+    section: URC Section
+    quote: '+CMMSDOWN: "PIC", (1-307200), (5000-),"NAME"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSDOWN
   trigger_event: type of downloaded
   related_command: AT+CMMSDOWN
@@ -3643,16 +3928,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '262'
+    section: URC Section
+    quote: '+CMMSEDIT: (0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSEDIT
   trigger_event: type of downloaded
   related_command: AT+CMMSEDIT
@@ -3680,16 +3968,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '274'
+    section: URC Section
+    quote: '+CMMSPROFILE: "UserAgentProfile"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSPROFILE
   trigger_event: ''
   related_command: AT+CMMSPROFILE
@@ -3709,16 +4000,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '259'
+    section: URC Section
+    quote: '+CMMSPROTO: “(0-255).(0-255).(0-255).(0-255)”,(1-65535)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSPROTO
   trigger_event: ''
   related_command: AT+CMMSPROTO
@@ -3740,16 +4034,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '271'
+    section: URC Section
+    quote: '+CMMSRDPUSH: (range of <index>)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSRDPUSH
   trigger_event: ''
   related_command: AT+CMMSRDPUS
@@ -3789,16 +4086,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '271'
+    section: URC Section
+    quote: '+CMMSREAD: <name> <datSize>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSREAD
   trigger_event: ''
   related_command: AT+CMMSREAD
@@ -3838,16 +4138,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '265'
+    section: URC Section
+    quote: '+CMMSRECP: "ADDRESS"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSRECP
   trigger_event: phone number or email
   related_command: AT+CMMSRECP
@@ -3869,16 +4172,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '269'
+    section: URC Section
+    quote: '+CMMSRECV: (range of <index>)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSRECV
   trigger_event: ''
   related_command: AT+CMMSRECV
@@ -3908,16 +4214,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '277'
+    section: URC Section
+    quote: '+CMMSSCONT: <mode>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSSCONT
   trigger_event: ''
   related_command: AT+CMMSSCONT
@@ -3955,16 +4264,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '264'
+    section: URC Section
+    quote: '+CMMSSEND: "ADDRESS"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSSEND
   trigger_event: address of recipients
   related_command: AT+CMMSSEND
@@ -3988,16 +4300,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '261'
+    section: URC Section
+    quote: '+CMMSSENDCFG: (0-6), (0-3),(0,1), (0,1),(0-2),(0-4),(1-2),(0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSSENDCFG
   trigger_event: ''
   related_command: AT+CMMSSENDCFG
@@ -4033,16 +4348,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '275'
+    section: URC Section
+    quote: +CMMSSTATUS:<status>
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSSTATUS
   trigger_event: ''
   related_command: AT+CMMSSTATU
@@ -4064,16 +4382,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '274'
+    section: URC Section
+    quote: '+CMMSTIMEOUT: (10-1000),(10-1000)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSTIMEOUT
   trigger_event: ''
   related_command: AT+CMMSTIMEOUT
@@ -4095,16 +4416,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '273'
+    section: URC Section
+    quote: '+CMMSUA: "UserAgent"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSUA
   trigger_event: ''
   related_command: AT+CMMSUA
@@ -4124,16 +4448,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '270'
+    section: URC Section
+    quote: '+CMMSVIEW: <mmstype>,"<sender>", "<receipts>", "<ccs>",'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMMSVIEW
   trigger_event: ''
   related_command: AT+CMMSVIEW
@@ -4169,16 +4496,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '137'
+    section: URC Section
+    quote: '+CMOD: (0)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMOD
   trigger_event: AT+CFGRI  Indicate RI When Using URC
   related_command: AT+CMOD
@@ -4200,16 +4530,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '102'
+    section: URC Section
+    quote: +CMS ERROR:<err>
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMS ERROR
   trigger_event: ''
   related_command: AT+CMGD
@@ -4235,16 +4568,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '112'
+    section: URC Section
+    quote: '+CMSS: <mr>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMSS
   trigger_event: ''
   related_command: AT+CMSS
@@ -4342,16 +4678,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '147'
+    section: URC Section
+    quote: '+CMTE: <mode>,<Temperature>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMTE
   trigger_event: s indicating the alert level "1" or "-1" are intended to enable the user to
   related_command: AT+CMTE
@@ -4435,16 +4774,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '95'
+    section: URC Section
+    quote: '+CMUT: (list of supported <n>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMUT
   trigger_event: ''
   related_command: AT+CMUT
@@ -4470,16 +4812,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '86'
+    section: URC Section
+    quote: '+CMUX: (0)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CMUX
   trigger_event: ''
   related_command: AT+CMUX
@@ -4505,16 +4850,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '112'
+    section: URC Section
+    quote: '+CNMI: (list of supported <mode>s),(list of supported <mt>s),(list of'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CNMI
   trigger_event: result codes in the TA
   related_command: AT+CNMI
@@ -4542,16 +4890,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '88'
+    section: URC Section
+    quote: '+CNUM: [<alpha1>],<number1>,<type1>[,<speed>,<service>]'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CNUM
   trigger_event: ''
   related_command: AT+CNUM
@@ -4599,16 +4950,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '68'
+    section: URC Section
+    quote: '+COLP: (list of supported <n>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +COLP
   trigger_event: ''
   related_command: AT+COLP
@@ -4632,16 +4986,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '89'
+    section: URC Section
+    quote: '+COPN: <numeric1>,<alpha1>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +COPN
   trigger_event: ''
   related_command: AT+COPN
@@ -4677,16 +5034,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '69'
+    section: URC Section
+    quote: '+COPS: (list of supported<stat>,long alphanumeric<oper>,short'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +COPS
   trigger_event: ''
   related_command: AT+COPS
@@ -4714,16 +5074,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '71'
+    section: URC Section
+    quote: '+CPAS: (list of supported <pas>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CPAS
   trigger_event: ''
   related_command: AT+CPAS
@@ -4749,16 +5112,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '71'
+    section: URC Section
+    quote: '+CPBF: maximum length of field  <nlength>, maximum length of field'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CPBF
   trigger_event: ''
   related_command: AT+CPBF
@@ -4794,16 +5160,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '73'
+    section: URC Section
+    quote: '+CPBR: (list of supported <index>s), <nlength>, <tlength>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CPBR
   trigger_event: ''
   related_command: AT+CPBR
@@ -4837,16 +5206,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '73'
+    section: URC Section
+    quote: +CPBS. If <index2> is left out, only location <index1> is returned.
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CPBS
   trigger_event: ''
   related_command: AT+CPBS
@@ -4870,16 +5242,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '75'
+    section: URC Section
+    quote: '+CPBW: ( list of supported <index>s), <nlength>, ( list of supported'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CPBW
   trigger_event: ''
   related_command: AT+CPBW
@@ -4945,16 +5320,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '115'
+    section: URC Section
+    quote: '+CPMS: (list of supported <mem1>s),(list of supported <mem2>s),(list of'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CPMS
   trigger_event: ''
   related_command: AT+CPMS
@@ -4990,16 +5368,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '88'
+    section: URC Section
+    quote: '+CPOL: (list of supported <index>s),(list of supported <format>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CPOL
   trigger_event: whether alphanumeric or numeric
   related_command: AT+CPOL
@@ -5033,16 +5414,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '96'
+    section: URC Section
+    quote: '+CPUC: <currency>,<ppu>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CPUC
   trigger_event: ''
   related_command: AT+CPUC
@@ -5070,16 +5454,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '76'
+    section: URC Section
+    quote: '+CPWD: (list of supported <fac>s, list of supported <pwdlength>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CPWD
   trigger_event: ''
   related_command: AT+CPWD
@@ -5105,16 +5492,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '77'
+    section: URC Section
+    quote: '+CR: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CR
   trigger_event: ''
   related_command: AT+CR
@@ -5136,16 +5526,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '78'
+    section: URC Section
+    quote: '+CRC: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CRC
   trigger_event: is used
   related_command: AT+CRC
@@ -5169,16 +5562,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '279'
+    section: URC Section
+    quote: '+CREC: (1-n),(1-10)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CREC
   trigger_event: ''
   related_command: AT+CREC
@@ -5262,16 +5658,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '116'
+    section: URC Section
+    quote: '+CRES: (list of supported <profile>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CRES
   trigger_event: ''
   related_command: AT+CRES
@@ -5353,16 +5752,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '80'
+    section: URC Section
+    quote: '+CRLP: ( list of supported <iws>s),(list of supported <mws>s),(list of'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CRLP
   trigger_event: ''
   related_command: AT+CRLP
@@ -5384,16 +5786,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '93'
+    section: URC Section
+    quote: '+CRSL: (list of supported <level>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CRSL
   trigger_event: ''
   related_command: AT+CRSL
@@ -5415,16 +5820,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '81'
+    section: URC Section
+    quote: '+CRSM: <sw1>, <sw2> [,<response>]'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CRSM
   trigger_event: ''
   related_command: AT+CRSM
@@ -5452,16 +5860,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '116'
+    section: URC Section
+    quote: '+CSAS: (list of supported <profile>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSAS
   trigger_event: ''
   related_command: AT+CSAS
@@ -5487,16 +5898,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '117'
+    section: URC Section
+    quote: '+CSCA: <sca>,<tosca>[,<scaAlpha>]'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSCA
   trigger_event: ''
   related_command: AT+CSCA
@@ -5522,16 +5936,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '118'
+    section: URC Section
+    quote: '+CSCB: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSCB
   trigger_event: ''
   related_command: AT+CSCB
@@ -5559,16 +5976,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '144'
+    section: URC Section
+    quote: '+CSCLK: (list of supported <n>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSCLK
   trigger_event: ''
   related_command: AT+CSCLK
@@ -5590,16 +6010,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '59'
+    section: URC Section
+    quote: '+CSCS: (list of supported <chset>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSCS
   trigger_event: ''
   related_command: AT+CSCS
@@ -5621,16 +6044,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '119'
+    section: URC Section
+    quote: '+CSDH: (list of supported <show>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSDH
   trigger_event: ''
   related_command: AT+CSDH
@@ -5668,16 +6094,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '166'
+    section: URC Section
+    quote: '+CSDT: (0-1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSDT
   trigger_event: Result Code
   related_command: AT+CSDT
@@ -5701,16 +6130,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '168'
+    section: URC Section
+    quote: '+CSGS: (0-1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSGS
   trigger_event: ''
   related_command: AT+CSGS
@@ -5730,16 +6162,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '91'
+    section: URC Section
+    quote: '+CSIM: <length>,<response>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSIM
   trigger_event: ''
   related_command: AT+CSIM
@@ -5765,16 +6200,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '167'
+    section: URC Section
+    quote: '+CSMINS: (list of supported <n>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSMINS
   trigger_event: Result Code
   related_command: AT+CSMINS
@@ -5798,16 +6236,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '120'
+    section: URC Section
+    quote: '+CSMP: (list of supported <fo>s),(list of supported <vp>s),(list of'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSMP
   trigger_event: ''
   related_command: AT+CSMP
@@ -5833,16 +6274,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '121'
+    section: URC Section
+    quote: '+CSMS: (list of supported <service>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSMS
   trigger_event: ''
   related_command: AT+CSMS
@@ -5870,16 +6314,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '136'
+    section: URC Section
+    quote: '+CSNS: (list of supported <mode>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSNS
   trigger_event: AT+CFGRI  Indicate RI When Using URC
   related_command: AT+CSNS
@@ -5899,16 +6346,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '141'
+    section: URC Section
+    quote: '+CSPN: <spn>,<display mode>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSPN
   trigger_event: ''
   related_command: AT+CSPN
@@ -5930,16 +6380,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '82'
+    section: URC Section
+    quote: '+CSQ: (list of supported <rssi>s),(list of supported <ber>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSQ
   trigger_event: <rssi>
   related_command: AT+CSQ
@@ -5965,16 +6418,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '294'
+    section: URC Section
+    quote: '+CSQN: <rssi>,<ber>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSQN
   trigger_event: '>[<dcs>]]'
   related_command: AT+CPIN
@@ -6006,16 +6462,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '99'
+    section: URC Section
+    quote: +CSSI:<code1>[,<index>] result code presentation status after a mobile
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSSI
   trigger_event: whether to show the
   related_command: AT+CSSN
@@ -6041,16 +6500,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '98'
+    section: URC Section
+    quote: '+CSSN: (list of supported <n>s),(list of supported <m>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSSN
   trigger_event: whether to show the
   related_command: AT+CSSN
@@ -6080,16 +6542,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '99'
+    section: URC Section
+    quote: +CSSU:<code2> result code presentation status during a mobile
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSSU
   trigger_event: ''
   related_command: AT+CSSN
@@ -6113,16 +6578,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '60'
+    section: URC Section
+    quote: '+CSTA: (list of supported <type>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSTA
   trigger_event: ''
   related_command: AT+CSTA
@@ -6144,16 +6612,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '189'
+    section: URC Section
+    quote: '+CSTT: "APN","USER","PWD"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CSTT
   trigger_event: the GPRS access point
   related_command: AT+CSTT
@@ -6175,16 +6646,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '283'
+    section: URC Section
+    quote: '+CTTS: <status>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CTTS
   trigger_event: ''
   related_command: AT+CTTS
@@ -6210,16 +6684,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '284'
+    section: URC Section
+    quote: '+CTTSPARAM: (0-100),(0-3),(1-100),(1-100),(0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CTTSPARAM
   trigger_event: ''
   related_command: AT+CTTSPARAM
@@ -6249,16 +6726,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '138'
+    section: URC Section
+    quote: '+CTZV: "<time zone>"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CTZV
   trigger_event: whether to add CI
   related_command: AT+CCLK
@@ -6324,16 +6804,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '166'
+    section: URC Section
+    quote: '+CWHITELIST: (0,1)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +CWHITELIST
   trigger_event: ''
   related_command: AT+CWHITELIST
@@ -6355,16 +6838,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '223'
+    section: URC Section
+    quote: '+FTPCID: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPCID
   trigger_event: ''
   related_command: AT+FTPCID
@@ -6386,16 +6872,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '231'
+    section: URC Section
+    quote: +FTPDELE:1,0
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPDELE
   trigger_event: ''
   related_command: AT+FTPDELE
@@ -6419,16 +6908,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '233'
+    section: URC Section
+    quote: '+FTPEXTPUT: <address>,<len>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPEXTPUT
   trigger_event: ''
   related_command: AT+FTPEXTPUT
@@ -6502,16 +6994,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '226'
+    section: URC Section
+    quote: '+FTPGETNAME: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPGETNAME
   trigger_event: ''
   related_command: AT+FTPGETNA
@@ -6533,16 +7028,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '226'
+    section: URC Section
+    quote: '+FTPGETPATH: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPGETPATH
   trigger_event: ''
   related_command: AT+FTPGETPA
@@ -6564,16 +7062,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '234'
+    section: URC Section
+    quote: '+FTPLIST: 1,1'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPLIST
   trigger_event: that no data can be read
   related_command: AT+FTPLIST
@@ -6599,16 +7100,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '233'
+    section: URC Section
+    quote: '+FTPMKD: 1,0'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPMKD
   trigger_event: ''
   related_command: AT+FTPMKD
@@ -6630,16 +7134,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '221'
+    section: URC Section
+    quote: '+FTPMODE: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPMODE
   trigger_event: ''
   related_command: AT+FTPMOD
@@ -6661,16 +7168,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '221'
+    section: URC Section
+    quote: '+FTPPORT: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPPORT
   trigger_event: ''
   related_command: AT+FTPPORT
@@ -6734,16 +7244,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '227'
+    section: URC Section
+    quote: '+FTPPUTNAME: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPPUTNAME
   trigger_event: ''
   related_command: AT+FTPPUTNA
@@ -6765,16 +7278,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '222'
+    section: URC Section
+    quote: '+FTPPUTOPT: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPPUTOPT
   trigger_event: ''
   related_command: AT+FTPPUTOP
@@ -6796,16 +7312,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '227'
+    section: URC Section
+    quote: '+FTPPUTPATH: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPPUTPATH
   trigger_event: ''
   related_command: AT+FTPPUTPA
@@ -6835,16 +7354,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '225'
+    section: URC Section
+    quote: '+FTPPW: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPPW
   trigger_event: ''
   related_command: AT+FTPPW
@@ -6866,16 +7388,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '223'
+    section: URC Section
+    quote: '+FTPREST: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPREST
   trigger_event: ''
   related_command: AT+FTPREST
@@ -6897,16 +7422,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '234'
+    section: URC Section
+    quote: '+FTPRMD: 1,0'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPRMD
   trigger_event: ''
   related_command: AT+FTPRMD
@@ -6932,16 +7460,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '230'
+    section: URC Section
+    quote: +FTPSCONT:<mode>
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPSCONT
   trigger_event: ''
   related_command: AT+FTPSCONT
@@ -6965,16 +7496,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '224'
+    section: URC Section
+    quote: '+FTPSERV: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPSERV
   trigger_event: ''
   related_command: AT+FTPSERV
@@ -6996,16 +7530,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '232'
+    section: URC Section
+    quote: +FTPSIZE:1,0,<size>
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPSIZE
   trigger_event: ''
   related_command: AT+FTPSIZE
@@ -7035,16 +7572,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '232'
+    section: URC Section
+    quote: +FTPSTATE:<state>
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPSTATE
   trigger_event: ''
   related_command: AT+FTPSTATE
@@ -7076,16 +7616,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '230'
+    section: URC Section
+    quote: '+FTPTIMEOUT: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPTIMEOUT
   trigger_event: ''
   related_command: AT+FTPSCONT
@@ -7111,16 +7654,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '222'
+    section: URC Section
+    quote: '+FTPTYPE: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPTYPE
   trigger_event: ''
   related_command: AT+FTPTYPE
@@ -7142,16 +7688,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '224'
+    section: URC Section
+    quote: '+FTPUN: <value>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +FTPUN
   trigger_event: ''
   related_command: AT+FTPUN
@@ -7205,16 +7754,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '214'
+    section: URC Section
+    quote: '+HTTPDATA: (list of supported <size>s),(list of supported <time>s)'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +HTTPDATA
   trigger_event: Result Code
   related_command: AT+HTTPDATA
@@ -7238,16 +7790,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '213'
+    section: URC Section
+    quote: '+HTTPPARA: "HTTPParamTag","HTTPParmValue"'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +HTTPPARA
   trigger_event: ''
   related_command: AT+HTTPPARA
@@ -7309,16 +7864,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '218'
+    section: URC Section
+    quote: +HTTPSCONT:<mode>
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +HTTPSCONT
   trigger_event: ''
   related_command: AT+HTTPSCONT
@@ -7348,16 +7906,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '219'
+    section: URC Section
+    quote: '+HTTPSTATUS: <mode>,<status>,<finish>,<remain>'
   source_type: primary
-  confidence: 0.7
-  status: complete
+  confidence: 0.6
+  status: partial
   conflicts: []
-  notes: ''
+  notes: Suspected command syntax, not URC. Needs manual verification.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:55Z'
   urc_string: +HTTPSTATUS
   trigger_event: ''
   related_command: AT+HTTPSTAT
@@ -7398,17 +7959,17 @@
     section: URC Section
     quote: through serial port after SIM800 Series is powered on and Unsolicited Result Code "RDY"
   source_type: primary
-  confidence: 0.6
-  status: partial
+  confidence: 0.0
+  status: unknown
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (broad retry).
+  notes: Extracted from AT Manual V1.01 (broad retry). | Suspected command syntax, not URC. Needs manual verification.
   applicable_models:
   - SIM800L
   tags:
   - urc
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:17:20Z'
 - id: dat_02_0205
   category: URC
   urc_string: RING

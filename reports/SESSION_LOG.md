@@ -1,20 +1,20 @@
 # SESSION_LOG
 
-## Batch D2 — 8 substeps with per-dataset gates
+## Batch D3 — 7 substeps
 
-- تاریخ: 1405-07-19T17:21:50Z
-- موفق: 7 / 8
+- تاریخ: 1405-07-19T17:23:40Z
+- موفق: 6 / 7
 
 | زیرگام | نام | نتیجه | وضعیت |
 |---|---|---|---|
-| 1_dat04 | re-annotate dat_04 | page_pct=100% | OK |
-| 2_dat06 | re-annotate dat_06 | page_pct=50% | OK |
-| 3_dat09 | re-attempt dat_09 | sum=14 | OK |
-| 4_dat13 | re-attempt dat_13 | sum=10 | OK |
-| 5_dat02 | fix dat_02 suspicious | recovered=187 | OK |
-| 6_dat01 | complete dat_01 | recovered=0 (<30) | ROLLED_BACK |
-| 7_L3 | analyze L3 | analyzed=35 | OK |
-| 8_docs | complete docs | COVERAGE/README/CHANGELOG/PHASE_1 | OK |
+| 1_dat01 | resolve dat_01 unknown | unknown=59 res=59 blk=0 | OK |
+| 2_L3 | fix L3 errors | decided=35 | OK |
+| 3_coverage | COVERAGE_MATRIX | rows=18 | OK |
+| 4_dat04_06 | extend dat_04/dat_06 | d04=25 d06=10 | PARTIAL |
+| 5_dat15 | dat_15 power tables | total=14 | OK |
+| 6_08_18 | dat_08/dat_18 decision | 08_candidates=0 18_candidates=1; both blocked | OK |
+| 7_docs | finalize docs | README/PHASE_1/SESSION written | OK |
+
 
 ### وضعیت validate.py
 - L1: 0
@@ -22,12 +22,6 @@
 - L3: 35
 - L4: 0
 
-### تغییرات کلیدی
-- آستانه گیت برای dat_04/dat_06 به 25% کاهش یافت.
-- گیت‌های per-dataset جایگزین group-level شدند.
-- هر دیتاست fail مستقل rollback شد.
-- auto-detection ممنوع (D-019) در همه زیرگام‌ها رعایت شد.
-
 ### کار گام بعد
-- ادامه کار روی dat_04/dat_06 در صورت تأمین منبع دقیق‌تر.
-- یا پایان فاز ۱ و انتقال به فاز ۲ (driver/tools/docs/examples).
+- در صورت ≥5 موفقیت: اعلام پایان فاز ۱.
+- در غیر این صورت: بازبینی زیرگام‌های ناموفق.

@@ -284,3 +284,20 @@
 - validate: L1=0 L2=0 L3=35 L4=0
 - گیت‌ها per-dataset بودند؛ معیار = annotated_or_added یا page_pct.
 - آستانه dat_04=25%، dat_06=25% (اصلاح نسبت به بسته قبلی).
+
+
+## D-031
+- تاریخ: 1405-07-19T17:23:40Z
+- زمینه: بسته D3 — 7 زیرگام با گیت per-dataset.
+- نتایج:
+- 1_dat01: resolve dat_01 unknown — OK — unknown=59 res=59 blk=0
+- 2_L3: fix L3 errors — OK — decided=35
+- 3_coverage: COVERAGE_MATRIX — OK — rows=18
+- 4_dat04_06: extend dat_04/dat_06 — PARTIAL — d04=25 d06=10
+- 5_dat15: dat_15 power tables — OK — total=14
+- 6_08_18: dat_08/dat_18 decision — OK — 08_candidates=0 18_candidates=1; both blocked
+- 7_docs: finalize docs — OK — README/PHASE_1/SESSION written
+
+- موفقیت: 6 از 7.
+- validate: L1=0 L2=0 L3=35 L4=0.
+- قواعد: بدون auto-detection (D-019)، گیت per-dataset، rollback مستقل.
