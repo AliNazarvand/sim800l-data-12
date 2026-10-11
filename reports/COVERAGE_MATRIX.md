@@ -8,15 +8,19 @@
 | dat_04 | Timing & Timeout | partial | low | 30% | Hardware Design V1.00/V2.02 | Needs full review |
 | dat_05 | State Machine | partial | low | 20% | Hardware Design V1.00/V2.02 | Needs full review |
 | dat_06 | Init Sequence | partial | low | 20% | Hardware Design V1.00/V2.02 | Needs full review |
-| dat_07 | Hardware Reference | partial | medium | 60% | V2.02, V1.00 | Rebuilt from V2.02 (priority) and V1.00; updated=75, unresolved=3 |
+| dat_07 | Hardware Reference | partial | medium | 96% | V2.02, V1.00 | 75/78 records annotated with source.page/quote; total pin count of PDF not yet verified (R12 prevents 'complete') |
 | dat_08 | Firmware Compatibility | blocked | - | - | - | Release Notes not available |
 | dat_09 | SMS | partial | low | 10% | AT Manual V1.01 | Auto-extracted; needs review |
 | dat_10 | GPRS/Data | partial | low | 10% | AT Manual V1.01 | Auto-extracted; needs review |
 | dat_11 | HTTP/FTP/SSL | partial | low | 10% | AT Manual V1.01 | Auto-extracted; needs review |
 | dat_12 | Audio | partial | low | 5% | AT Manual V1.01 | Auto-extracted; needs review |
 | dat_13 | SIM Management | partial | low | 10% | AT Manual V1.01 | Auto-extracted; needs review |
-| dat_14 | Operator/APN | unknown | low | 10% | mcc-mnc.com / external | All 52 records have status=unknown (no verifiable source fields) |
+| dat_14 | Operator/APN | partial | low | 10% | mcc-mnc.com / external | 52 external records; source_type=external, confidence<=0.7; source available but records incomplete |
 | dat_15 | Power Management | partial | low | 10% | Hardware Design V1.00/V2.02 | Needs full review |
 | dat_16 | Board/EVB | deferred | - | - | - | EVB document not available |
 | dat_17 | Certificate/Key Store | blocked | - | - | - | SSL Manual not available |
 | dat_18 | Certification | blocked | - | - | - | Certification documents not available |
+
+## قواعد وضعیت دیتاست (طبق R22)
+- مقادیر مجاز: `complete | partial | blocked | deferred`
+- `unknown` فقط برای رکورد مجاز است، نه برای وضعیت دیتاست.

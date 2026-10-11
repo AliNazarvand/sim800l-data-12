@@ -12,25 +12,36 @@
 - [ ] SIM800 Series URC Application Note — dat_02
 - [ ] SIM800 Series Firmware Release Notes — dat_08
 - [ ] SIM800 Series Certification Documents — dat_18
-- [ ] GSMA / ITU / mcc-mnc.com — dat_14 (فقط 52 رکورد نمونه)
+- [ ] GSMA / ITU / mcc-mnc.com — dat_14 (فقط ۵۲ رکورد نمونه)
 
 ## دیتاست‌های بلاک‌شده
-- [ ] dat_08, dat_17, dat_18
+- [ ] dat_08 — Release Notes
+- [ ] dat_17 — SSL Manual
+- [ ] dat_18 — اسناد رسمی CE/FCC/...
 
 ## دیتاست‌های deferred
-- [ ] dat_16
+- [ ] dat_16 — EVB document
 
 ## دیتاست‌های partial
-- [ ] dat_01, dat_02..dat_07, dat_09..dat_15
+- [ ] dat_01, dat_02, dat_03, dat_04, dat_05, dat_06
+- [ ] dat_07 — 75/78 رکورد annotate شد؛ تعداد کل پین‌های PDF تأیید نشده
+- [ ] dat_09, dat_10, dat_11, dat_12, dat_13
+- [ ] dat_14 — 52 رکورد external (همه status=unknown؛ دیتاست partial چون منبع در دسترس است)
+- [ ] dat_15
+
+## محدودیت‌های استخراج dat_07 (A1)
+- [ ] اسکریپت `_rebuild_dat07.py` صرفاً ۷۵ رکورد موجود را annotate کرده (جستجوی نام پین در متن PDF و ثبت source.page/quote).
+- [ ] استخراج «واقعی» جدول پین‌ها (تشخیص تمام پین‌های PDF و افزودن رکوردهای جدید) انجام **نشده** است.
+- [ ] بازبینی دستی جدول پین‌های V2.02 و V1.00 لازم است تا:
+  - تمام پین‌های موجود در PDF در دیتاست حضور داشته باشند
+  - پین‌های غایب به دیتاست اضافه شوند
+- [ ] ۳ رکورد حل‌نشده در dat_07: نیازمند بازبینی دستی (بخش «بدون منبع»).
 
 ## رکوردهای بدون منبع در dat_07 (نیازمند بازبینی دستی)
-- [ ] dat_07_0006
-- [ ] dat_07_0020
-- [ ] dat_07_0021
-
+- [ ] بازبینی دستی سه رکورد حل‌نشده طبق `_step2_dat07_rebuild.json`.
 
 ## خطاهای L3 پذیرفته‌شده
-- 303 خطای cross-ref — رفع در خوشه B پس از کامل شدن dat_01
+- ۳۰۳ خطای cross-ref — رفع در خوشه B پس از کامل شدن dat_01.
 
 ## خوشه‌های در انتظار
 - [ ] خوشه A2: dat_15 Power Management
