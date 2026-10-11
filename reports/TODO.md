@@ -24,30 +24,29 @@
 - [ ] dat_16 — EVB document
 
 ## دیتاست‌های partial
-- [ ] dat_01 — بازسازی اولیه از AT Manual (annotate + add)
+- [ ] dat_01 — بازسازی شده از AT Manual + dedup
 - [ ] dat_02, dat_03
-- [ ] dat_04, dat_05, dat_06 — annotate دستی از جداول V2.02 صفحات 6, 15-25
+- [ ] dat_04, dat_05, dat_06 — annotate دستی از جداول V2.02
 - [ ] dat_07 — 75/78 annotated
 - [ ] dat_09, dat_10, dat_11, dat_12, dat_13
 - [ ] dat_14 — 52 external records
 
-## گام B1 — نتیجه بازسازی dat_01
+## گام B1 — نتیجه نهایی (پس از رفع باگ)
 - AT Manual V1.01 به متن با page markers استخراج شد.
-- اسکن ساختاریافته: تعداد commandهای شناسایی‌شده ثبت شد.
-- annotate رکوردهای موجود بر اساس command + source.page/section/quote.
-- commandهای جدید از سکشن‌های ساختاریافته اضافه شدند.
-- اسکن کامل: reports/_step_B1_at_manual_scan.json
-- بازسازی: reports/_step_B1_dat01_rebuild.json
-- auto-detection آزادانه استفاده نشد؛ فقط سکشن‌های header-محور.
+- اسکن ساختاریافته: 275 command.
+- باگ تطبیق AT+ prefix کشف شد و 275 رکورد تکراری ادغام شدند.
+- قبل: 609، بعد: N، حذف‌شده: M (طبق _step_B1_duplicates.json)
+- گزارش: reports/_step_B1_duplicates.json
 
-## کار بعدی
-- [ ] خوشه B (B2..B9): پس از تثبیت dat_01 (اگر complete شد)
-- [ ] بازبینی دستی source.quote برای رکوردهای dat_01 (اختیاری، برای افزایش confidence)
+## محدودیت‌های B1
+- رکوردهای جدید AT Manual parameters/response_success/response_error/examples ندارند (خالی هستند).
+- برای تکمیل این فیلدها، بازبینی دستی هر section AT Manual لازم است (نشست جداگانه).
+- source.quote و source.section برای رکوردهای ادغام‌شده باید دستی بازبینی شوند.
 
-## خطاهای L3 پذیرفته‌شده
-- اگر پس از B1، L3 به‌طور معنادار کاهش یافت → بخش عمده رفع شده.
-- باقی‌مانده در خوشه B (B2..B9) رفع می‌شوند.
+## خطاهای L3 باقی‌مانده
+- اگر L3 بالای 40 ماند، این‌ها احتمالاً مربوط به commandهای تخصصی (HTTP, FTP, SSL) هستند که در AT Manual V1.01 نیستند.
+- رفع در خوشه B با منبع تخصصی.
 
 ## خوشه‌های در انتظار
 - [ ] خوشه A4: dat_16 Board/EVB (deferred)
-- [ ] خوشه B: فعال پس از B1
+- [ ] خوشه B: B2 (URC), B3 (Error Code), B4 (SMS), B5 (SIM), B6 (GPRS/Data), B7 (HTTP/FTP/SSL), B8 (Cert), B9 (Audio)

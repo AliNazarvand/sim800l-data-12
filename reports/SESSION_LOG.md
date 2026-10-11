@@ -1,36 +1,38 @@
 # SESSION_LOG
 
-## گام B1 — بازسازی dat_01 AT Command از AT Manual V1.01
+## گام B1 (اصلاح‌شده) — ادغام تکرارها در dat_01
 
-- تاریخ: 1405-07-19T16:30:32Z
+- تاریخ: 1405-07-19T16:34:05Z
 - برنچ: feature/complete-datasets
 
-### ۱) استخراج PDF
-- at_manual_v1_01_paged.txt با page markers تولید شد.
+### ۱) خلاصه B1 (اولیه)
+- استخراج AT Manual V1.01 به متن با page markers.
+- اسکن ساختاریافته: 275 command.
+- افزودن commandهای جدید به dat_01 بدون تطبیق صحیح.
 
-### ۲) تشخیص وضعیت اولیه dat_01
-- total: 334
+### ۲) کشف باگ
+- رکوردهای قدیمی dat_01 از الگوی "+CMGS" استفاده می‌کردند.
+- اسکن AT Manual از "AT+CMGS" استفاده کرده بود.
+- نتیجه: هیچ رکوردی annotate نشد و 275 رکورد تکراری اضافه شد.
 
-### ۳) اسکن ساختاریافته
-- manual commands found: 275
-- اسکن کامل: reports/_step_B1_at_manual_scan.json
-- فقط سکشن‌های AT+COMMAND با header شماره‌دار شناسایی شدند (بدون auto-detection آزاد).
+### ۳) اصلاح (D-024)
+- اسکریپت dedup با نرمال‌سازی command اجرا شد.
+- Before: 609
+- After: 334
+- Removed: 275
+- Duplicate groups: 275
+- گزارش: reports/_step_B1_duplicates.json
 
-### ۴) بازسازی
-- annotated: 0
-- added: 275
-- total final: 609
-- گزارش: reports/_step_B1_dat01_rebuild.json
-
-### ۵) وضعیت validate.py
+### ۴) وضعیت validate.py
 - L1: 0
 - L2: 0
-- L3: 46
+- L3: 303
 - L4: 0
 
-### ۶) کار گام بعد
-- اگر L3 به‌طور معنادار کاهش یافت → خوشه B فعال می‌شود (dat_02, dat_03, dat_09, ...).
-- در غیر این صورت → تکمیل dat_01 ادامه یابد.
+### ۵) کار گام بعد
+- بررسی خطاهای L3 باقی‌مانده.
+- شروع خوشه B اگر L3 به حد قابل قبول رسید.
+- در غیر این صورت، تکمیل dat_01 (parameters/response) با بازبینی دستی.
 
-### ۷) منابع موردنیاز
-- AT Command Manualهای تخصصی (TCP/IP, HTTP, FTP, SSL, Audio, SIM) برای دیتاست‌های وابسته در خوشه B.
+### ۶) منابع موردنیاز
+- AT Command Manualهای تخصصی برای خوشه B.
