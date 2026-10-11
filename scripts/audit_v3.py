@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""audit_v3.py — final project audit. Read-only."""
+"""audit_v3.py — final project audit. Read-only.
+   v2: normalized cross-reference (AT+XXX / +XXX / XXX treated equal).
+"""
 import sys
 from pathlib import Path
 from datetime import datetime
@@ -17,6 +19,15 @@ CLUSTERS = {
     "B": ["dat_01","dat_02","dat_03","dat_09","dat_10","dat_11","dat_12","dat_13","dat_17"],
     "C": ["dat_08","dat_14","dat_18"],
 }
+
+def normalize_cmd(c):
+    """Normalize AT command so 'AT+CMGF', '+CMGF', 'CMGF' are equal."""
+    s = str(c).strip().upper()
+    if s.startswith("AT+"):
+        s = s[3:]
+    elif s.startswith("+"):
+        s = s[1:]
+    return s
 
 def load(name):
     p = DATA / name
@@ -82,14 +93,13 @@ def collect_commands(dat_id):
     for r in data:
         if isinstance(r, dict):
             c = r.get("command")
-            if c: out.add(str(c).lstrip("+"))
+            if c: out.add(normalize_cmd(c))
     return out
 
 def cross_ref():
     issues = []
     d01 = collect_commands("dat_01")
 
-    # commands in dat_09..13, 15, 17 must exist in dat_01
     for dat in ["dat_09","dat_10","dat_11","dat_12","dat_13","dat_15","dat_17"]:
         f = find_file(dat)
         if not f: continue
@@ -98,20 +108,19 @@ def cross_ref():
             if not isinstance(r, dict): continue
             c = r.get("command")
             if c:
-                key = str(c).lstrip("+")
+                key = normalize_cmd(c)
                 if key not in d01:
-                    issues.append(f"{r.get('id','?')} in {dat}: command '+{key}' not in dat_01")
+                    issues.append(f"{r.get('id','?')} in {dat}: command '{c}' not in dat_01")
 
-    # URC related_command in dat_02 must exist in dat_01
     f = find_file("dat_02")
     if f:
         for r in (load(f.name) or []):
             if not isinstance(r, dict): continue
             rc = r.get("related_command")
             if rc:
-                key = str(rc).lstrip("+")
+                key = normalize_cmd(rc)
                 if key not in d01:
-                    issues.append(f"{r.get('id','?')} in dat_02: related_command '+{key}' not in dat_01")
+                    issues.append(f"{r.get('id','?')} in dat_02: related_command '{rc}' not in dat_01")
 
     return issues
 
@@ -132,10 +141,10 @@ def main():
     lines.append("## Method")
     lines.append("")
     lines.append("- validate.py: 0 errors (L1=L2=L3=L4=0)")
+    lines.append("- cross_ref uses normalize_cmd (strips 'AT+' and '+').")
     lines.append("- This audit is read-only.")
     lines.append("")
 
-    # Dataset summary
     lines.append("## Dataset Summary")
     lines.append("")
     lines.append("| Dataset | Records | Status | example-only | no-source | conf<0.5 | conf>=0.7 | Sources |")
@@ -154,7 +163,6 @@ def main():
                          f"{r['no_source']} | {r['low_conf']} | {r['high_conf']} | {srcs} |")
     lines.append("")
 
-    # Cluster status
     lines.append("## Cluster Status")
     lines.append("")
     for cl, dats in CLUSTERS.items():
@@ -169,7 +177,6 @@ def main():
         lines.append(f"- Complete datasets: {', '.join(complete) if complete else 'none'}")
         lines.append("")
 
-    # Cross-ref
     lines.append("## Cross-Reference Issues")
     lines.append("")
     if xref:
@@ -181,7 +188,6 @@ def main():
         lines.append("- No issues found.")
     lines.append("")
 
-    # Readiness
     lines.append("## Readiness for Cluster A")
     lines.append("")
     cluster_a = CLUSTERS["A"]
@@ -199,7 +205,6 @@ def main():
         lines.append(f"- {r}")
     lines.append("")
 
-    # Source inventory per dataset
     lines.append("## Source Inventory")
     lines.append("")
     for i in range(1, 19):
@@ -215,7 +220,7 @@ def main():
     lines.append("## Notes")
     lines.append("")
     lines.append("- No files were modified during this audit.")
-    lines.append("- Review cross-reference issues above before declaring datasets complete.")
+    lines.append("- Cross-ref normalization treats 'AT+XXX' == '+XXX' == 'XXX'.")
     lines.append("- 'no-source' counts records missing source.name or source.version.")
 
     out_path = REPORTS / "AUDIT_REPORT_v3.md"
@@ -231,8 +236,9 @@ def main():
             print(f"  {dat_id}: {r['records']:4d} records  "
                   f"example={r['example_only']}  no_source={r['no_source']}")
     print()
-    print(f"Cross-ref issues: {len(xref)}")
+    print(f"Cross-ref issues (normalized): {len(xref)}")
     print(f"Report: {out_path}")
+
 
 if __name__ == "__main__":
     main()
