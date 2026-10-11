@@ -116,16 +116,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '6'
+    section: Hardware Design V2.02
+    quote: 'TABLE 9: SERIAL PORT AND USB PIN DEFINITION...............................................................................................29'
   source_type: primary
   confidence: 0.45
-  status: inferred
+  status: partial
   conflicts: []
   notes: Inferred from standard SIM800 init flow.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:51Z'
   step_order: 5
   command: AT+CREG?
   expected_response: '+CREG: 0,1'
@@ -197,16 +200,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '6'
+    section: Hardware Design V2.02
+    quote: 'TABLE 9: SERIAL PORT AND USB PIN DEFINITION...............................................................................................29'
   source_type: primary
   confidence: 0.45
-  status: inferred
+  status: partial
   conflicts: []
   notes: Inferred from standard SIM800 init flow.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:51Z'
   step_order: 8
   command: AT+CIICR
   expected_response: OK
@@ -222,16 +228,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '6'
+    section: Hardware Design V2.02
+    quote: 'TABLE 9: SERIAL PORT AND USB PIN DEFINITION...............................................................................................29'
   source_type: primary
   confidence: 0.45
-  status: inferred
+  status: partial
   conflicts: []
   notes: Inferred from standard SIM800 init flow.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:51Z'
   step_order: 9
   command: AT+CIFSR
   expected_response: IP
@@ -247,16 +256,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '6'
+    section: Hardware Design V2.02
+    quote: 'TABLE 9: SERIAL PORT AND USB PIN DEFINITION...............................................................................................29'
   source_type: primary
   confidence: 0.45
-  status: inferred
+  status: partial
   conflicts: []
   notes: Inferred from standard SIM800 init flow.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:51Z'
   step_order: 10
   command: AT+CIPSTART="TCP","host",port
   expected_response: CONNECT OK

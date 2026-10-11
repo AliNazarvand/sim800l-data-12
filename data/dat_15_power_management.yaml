@@ -20,9 +20,9 @@
   mode: null
   command: null
   parameter: ISINK1 60 - 100 mA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 60.0
+  value_typ: 100.0
+  value_max: 60.0
   unit: mA
   condition: null
   wake_source: null
@@ -46,15 +46,15 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'
 - id: dat_15_9002
   category: Power Consumption
   mode: null
   command: null
   parameter: I* - 4 16 mA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 4.0
+  value_typ: 16.0
+  value_max: 4.0
   unit: mA
   condition: null
   wake_source: null
@@ -78,15 +78,15 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'
 - id: dat_15_9003
   category: Power Consumption
   mode: null
   command: null
   parameter: I * - 4 16 mA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 4.0
+  value_typ: 16.0
+  value_max: 4.0
   unit: mA
   condition: null
   wake_source: null
@@ -110,15 +110,15 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'
 - id: dat_15_9004
   category: Power Consumption
   mode: null
   command: null
   parameter: I High-level input current -1.0 - 1.0 uA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 1.0
+  value_typ: 1.0
+  value_max: 1.0
   unit: mA
   condition: null
   wake_source: null
@@ -142,15 +142,15 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'
 - id: dat_15_9005
   category: Power Consumption
   mode: null
   command: null
   parameter: I Low-level input current -1.0 - 1.0 uA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 1.0
+  value_typ: 1.0
+  value_max: 1.0
   unit: mA
   condition: null
   wake_source: null
@@ -174,15 +174,15 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'
 - id: dat_15_9006
   category: Power Consumption
   mode: null
   command: null
   parameter: I VRTC input current - 3.0 5.0 uA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 3.0
+  value_typ: 5.0
+  value_max: 3.0
   unit: mA
   condition: null
   wake_source: null
@@ -206,15 +206,15 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'
 - id: dat_15_9007
   category: Power Consumption
   mode: null
   command: null
   parameter: Power down mode 150 200 uA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 150.0
+  value_typ: 200.0
+  value_max: 150.0
   unit: mA
   condition: null
   wake_source: null
@@ -238,15 +238,15 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'
 - id: dat_15_9008
   category: Power Consumption
   mode: null
   command: null
   parameter: ( BS-PA-MFRMS=9 ) 1.04 mA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 9.0
+  value_typ: 1.04
+  value_max: 9.0
   unit: mA
   condition: null
   wake_source: null
@@ -270,15 +270,15 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'
 - id: dat_15_9009
   category: Power Consumption
   mode: null
   command: null
   parameter: ( BS-PA-MFRMS=5) 1.14 mA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 5.0
+  value_typ: 1.14
+  value_max: 5.0
   unit: mA
   condition: null
   wake_source: null
@@ -302,15 +302,15 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'
 - id: dat_15_9010
   category: Power Consumption
   mode: null
   command: null
   parameter: ( BS-PA-MFRMS=2) 1.57 mA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 2.0
+  value_typ: 1.57
+  value_max: 2.0
   unit: mA
   condition: null
   wake_source: null
@@ -334,15 +334,15 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'
 - id: dat_15_9011
   category: Power Consumption
   mode: null
   command: null
   parameter: Search 16.4 38.3 107.6 mA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 16.4
+  value_typ: 38.3
+  value_max: 107.6
   unit: mA
   condition: null
   wake_source: null
@@ -366,15 +366,15 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'
 - id: dat_15_9012
   category: Power Consumption
   mode: null
   command: null
   parameter: Matches 13.3 17.1 58.4 mA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 13.3
+  value_typ: 17.1
+  value_max: 58.4
   unit: mA
   condition: null
   wake_source: null
@@ -398,15 +398,15 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'
 - id: dat_15_9013
   category: Power Consumption
   mode: null
   command: null
   parameter: Connect 17.5 24.1 74.8 mA
-  value_min: null
-  value_typ: null
-  value_max: null
+  value_min: 17.5
+  value_typ: 24.1
+  value_max: 74.8
   unit: mA
   condition: null
   wake_source: null
@@ -430,4 +430,4 @@
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:23:50Z'
+  updated_at: '2026-10-11T17:35:51Z'

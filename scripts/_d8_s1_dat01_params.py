@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+"""Extract dat_01 parameters by parsing =<...> from syntax/quote."""
+import sys, json, re
+from pathlib import Path
+from datetime import datetime, timezone
+try:
+    import yaml
+except ImportError:
+    print("PyYAML required", file=sys.stderr); sys.exit(2)
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
+REPORTS = ROOT / "reports"
+
+def find(dat_id):
+    c = sorted(DATA.glob(dat_id + "_*.yaml"))
+    return c[0] if c else (DATA / (dat_id + ".yaml") if (DATA / (dat_id + ".yaml")).exists() else None)
+
+# match all <name> including nested lists
+TOKEN_RE = re.compile(r"<([A-Za-z_][A-Za-z0-9_]*)>")
+
+def infer_type(name):
+    n = name.lower()
+    if n in ("index","mode","level","channel","port","cid","bearer","n","i","p"):
+        return "integer"
+    return "string"
+
+p = find("dat_01")
+records = yaml.safe_load(p.read_text(encoding="utf-8")) or []
+if not isinstance(records, list): records = [records]
+ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+filled = 0
+for r in records:
+    if not isinstance(r, dict): continue
+    if r.get("parameters"): continue
+    parts = []
+    if r.get("syntax"): parts.append(str(r["syntax"]))
+    src = r.get("source") or {}
+    if isinstance(src, dict) and src.get("quote"): parts.append(str(src["quote"]))
+    # Also check examples
+    for ex in (r.get("examples") or []):
+        if ex: parts.append(str(ex))
+    text = " ".join(parts)
+    names = TOKEN_RE.findall(text)
+    seen = set(); params = []
+    for n in names:
+        if n in seen: continue
+        seen.add(n)
+        params.append({"name": n, "type": infer_type(n), "description": ""})
+    if params:
+        r["parameters"] = params
+        r["updated_at"] = ts
+        filled += 1
+
+with p.open("w", encoding="utf-8", newline="\n") as f:
+    yaml.safe_dump(records, f, allow_unicode=True, sort_keys=False, default_flow_style=False, width=1000)
+
+wp = sum(1 for r in records if isinstance(r, dict) and r.get("parameters"))
+summary = {"total": len(records), "with_parameters": wp, "filled": filled}
+(REPORTS / "_step_D8_dat01_params.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+print(f"dat_01: total={len(records)} with_parameters={wp} filled={filled}")

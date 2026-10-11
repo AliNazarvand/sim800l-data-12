@@ -9,13 +9,13 @@ Structured, sourced, reproducible dataset for SIM800L.
 - L4 (Consistency): 0
 
 ## Coverage Summary
-- complete: 11
-- partial: 3
+- complete: 12
+- partial: 2
 - blocked: 3
 - deferred: 1
 
-## Depth
-See reports/COVERAGE_MATRIX.md for with_depth and depth% per dataset.
+## Strict Depth
+See reports/COVERAGE_MATRIX.md for strict_depth per dataset.
 
 ## Reports
 - reports/COVERAGE_MATRIX.md

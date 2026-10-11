@@ -378,10 +378,10 @@
 - id: dat_04_9001
   category: Timing
   parameter: VBUS 4.3 5.0 7.0 V
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: null
+  value_min: 4.3
+  value_typ: 5.0
+  value_max: 7.0
+  unit: V
   condition: null
   wake_source: null
   related_commands: []
@@ -404,7 +404,7 @@
   - timing
   - extracted-table
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
 - id: dat_04_9002
   category: Timing
   parameter: FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an
@@ -436,10 +436,10 @@
 - id: dat_04_9003
   category: Timing
   parameter: VBAT Power supply voltage 3.4 4.0 4.4 V
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: null
+  value_min: 3.4
+  value_typ: 4.0
+  value_max: 4.4
+  unit: V
   condition: null
   wake_source: null
   related_commands: []
@@ -460,14 +460,14 @@
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
 - id: dat_04_9004
   category: Timing
   parameter: I High-level input current -1.0 - 1.0 uA
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: null
+  value_min: 1.0
+  value_typ: 1.0
+  value_max: 1.0
+  unit: uA
   condition: null
   wake_source: null
   related_commands: []
@@ -488,14 +488,14 @@
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
 - id: dat_04_9005
   category: Timing
   parameter: I Low-level input current -1.0 - 1.0 uA
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: null
+  value_min: 1.0
+  value_typ: 1.0
+  value_max: 1.0
+  unit: uA
   condition: null
   wake_source: null
   related_commands: []
@@ -516,14 +516,14 @@
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
 - id: dat_04_9006
   category: Timing
   parameter: I VRTC input current - 3.0 5.0 uA
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: null
+  value_min: 3.0
+  value_typ: 4.0
+  value_max: 5.0
+  unit: uA
   condition: null
   wake_source: null
   related_commands: []
@@ -544,14 +544,14 @@
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
 - id: dat_04_9007
   category: Timing
   parameter: Power drop PCL=5 350 mV
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: null
+  value_min: 5.0
+  value_typ: 177.5
+  value_max: 350.0
+  unit: mV
   condition: null
   wake_source: null
   related_commands: []
@@ -572,14 +572,14 @@
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
 - id: dat_04_9008
   category: Timing
   parameter: Power down mode 150 200 uA
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: null
+  value_min: 150.0
+  value_typ: 175.0
+  value_max: 200.0
+  unit: uA
   condition: null
   wake_source: null
   related_commands: []
@@ -600,14 +600,14 @@
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
 - id: dat_04_9009
   category: Timing
   parameter: ( BS-PA-MFRMS=9 ) 1.04 mA
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: null
+  value_min: 9.0
+  value_typ: 5.02
+  value_max: 1.04
+  unit: mA
   condition: null
   wake_source: null
   related_commands: []
@@ -628,14 +628,14 @@
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
 - id: dat_04_9010
   category: Timing
   parameter: ( BS-PA-MFRMS=5) 1.14 mA
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: null
+  value_min: 5.0
+  value_typ: 3.07
+  value_max: 1.14
+  unit: mA
   condition: null
   wake_source: null
   related_commands: []
@@ -656,14 +656,14 @@
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
 - id: dat_04_9011
   category: Timing
   parameter: ( BS-PA-MFRMS=2) 1.57 mA
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: null
+  value_min: 2.0
+  value_typ: 1.7850000000000001
+  value_max: 1.57
+  unit: mA
   condition: null
   wake_source: null
   related_commands: []
@@ -684,14 +684,14 @@
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'
 - id: dat_04_9012
   category: Timing
   parameter: '[10] GSM 11.10 Station (MS) conformance specification； Part 1： Conformance'
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: null
+  value_min: 10.0
+  value_typ: 11.1
+  value_max: 1.0
+  unit: MS
   condition: null
   wake_source: null
   related_commands: []
@@ -712,4 +712,4 @@
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:23:49Z'
+  updated_at: '2026-10-11T17:35:45Z'

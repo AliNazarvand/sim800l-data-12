@@ -466,10 +466,10 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:35:50Z'
   urc_string: +CBM
   trigger_event: 'result code: +CDS:'
-  related_command: ''
+  related_command: AT+CNMI
   related_state: ''
   format: <sn>,<mid>,<dcs>,<page>,<pages><CR><LF><data>
   parameters:
@@ -1010,10 +1010,10 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:35:50Z'
   urc_string: +CDS
   trigger_event: result codes defined within this
-  related_command: ''
+  related_command: AT+CNMI
   related_state: ''
   format: <fo>,<mr>[,<ra>][,<tora>],<scts>,<dt>,<st>
   parameters:
@@ -3474,10 +3474,10 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:55Z'
+  updated_at: '2026-10-11T17:35:50Z'
   urc_string: +CMGS
   trigger_event: ''
-  related_command: ''
+  related_command: AT+CSSN
   related_state: ''
   format: <mr>
   parameters:
@@ -4630,10 +4630,10 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:35:50Z'
   urc_string: +CMT
   trigger_event: that new cell broadcast message has been received
-  related_command: ''
+  related_command: AT+CNMI
   related_state: ''
   format: <length><CR><LF><pdu>
   parameters:
@@ -4726,10 +4726,10 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:35:50Z'
   urc_string: +CMTI
   trigger_event: 'result code: +CMT:'
-  related_command: ''
+  related_command: AT+CNMI
   related_state: ''
   format: <mem>,<index>
   parameters:

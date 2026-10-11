@@ -16,13 +16,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CMGF
   syntax: AT+CMGF
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMGF
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0002
   category: SMS
   source:
@@ -41,13 +43,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CMGS
   syntax: AT+CMGS
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMGS
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0003
   category: SMS
   source:
@@ -66,13 +70,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CMGR
   syntax: AT+CMGR
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMGR
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0004
   category: SMS
   source:
@@ -91,13 +97,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CMGL
   syntax: AT+CMGL
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMGL
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0005
   category: SMS
   source:
@@ -116,13 +124,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CMGD
   syntax: AT+CMGD
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMGD
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0006
   category: SMS
   source:
@@ -141,13 +151,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CMGW
   syntax: AT+CMGW
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMGW
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0007
   category: SMS
   source:
@@ -166,13 +178,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CSCA
   syntax: AT+CSCA
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSCA
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0008
   category: SMS
   source:
@@ -191,13 +205,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CSMS
   syntax: AT+CSMS
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSMS
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0009
   category: SMS
   source:
@@ -216,13 +232,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CPMS
   syntax: AT+CPMS
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CPMS
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0010
   category: SMS
   source:
@@ -241,13 +259,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CNMI
   syntax: AT+CNMI
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CNMI
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0011
   category: SMS
   source:
@@ -266,13 +286,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CSMP
   syntax: AT+CSMP
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSMP
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0012
   category: SMS
   source:
@@ -291,13 +313,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CSDH
   syntax: AT+CSDH
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSDH
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0013
   category: SMS
   source:
@@ -316,13 +340,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
   command: AT+CMEE
   syntax: AT+CMEE
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMEE
   coverage_estimate: high
+  encoding: GSM7
 - id: dat_09_0014
   category: SMS
   mode: write
@@ -331,7 +357,8 @@
   parameters: []
   response_success: null
   response_error: null
-  examples: []
+  examples:
+  - AT+CSCS
   related_urcs: []
   related_states: []
   related_commands: []
@@ -355,4 +382,5 @@
   - sms
   - extracted
   created_at: '2026-10-11T17:21:53Z'
-  updated_at: '2026-10-11T17:21:53Z'
+  updated_at: '2026-10-11T17:35:46Z'
+  encoding: GSM7

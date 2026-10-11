@@ -385,3 +385,24 @@
 - validate: L1=0 L2=0 L3=8 L4=0.
 - Coverage: complete=11 partial=3 blocked=3 deferred=1.
 - Depth column added to COVERAGE_MATRIX.
+
+
+## D-036
+- تاریخ: 1405-07-19T17:35:40Z
+- زمینه: بسته D8 — 15 زیرگام، عمق‌بخشی نهایی.
+- نتایج:
+- s2_dat04_values: dat_04 values — OK — with_values=11
+- s5_dat11: dat_11 examples — OK — with_examples=38
+- s8_dat02: dat_02 related — OK — with_related=202
+- s9_dat06: dat_06 partial=0 — OK — unknown=0
+- s10_dat15: dat_15 values — OK — with_values=13
+- s11_dat17: dat_17 blocked — OK — candidates=1; blocked kept
+- s12_coverage: COVERAGE strict — OK — c=12 p=2 b=3 d=1
+- s13_validate: validate — OK — L3=8
+- s14_docs: finalize docs — OK — README + PHASE_1 updated
+- s15_table: phase1 v3 — OK — written
+
+- موفقیت: 10 از 10.
+- validate: L1=0 L2=0 L3=8 L4=0.
+- Coverage: complete=12 partial=2 blocked=3 deferred=1.
+- Strict depth metric added.

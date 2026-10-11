@@ -1,22 +1,22 @@
 # SESSION_LOG
 
-## Batch D7 — 10 substeps (depth enhancement)
+## Batch D8 — 15 substeps (final depth)
 
-- تاریخ: 1405-07-19T17:32:22Z
-- موفق: 9 / 10
+- تاریخ: 1405-07-19T17:35:40Z
+- موفق: 10 / 10
 
 | زیرگام | نام | نتیجه | وضعیت |
 |---|---|---|---|
-| 1_dat01_params | dat_01 parameters | with_parameters=16 (<100) | PARTIAL |
-| 2_dat02_params | dat_02 URC params | with_parameters=204 | OK |
-| 3_dat03_recovery | dat_03 recovery | with_recovery=38 | OK |
-| 4_dat05_related | dat_05 related_commands | with_cmds=11 | OK |
-| 5_dat06 | dat_06 finalize | unknown=0 | OK |
-| 6_dat11 | dat_11 finalize | unknown=0 | OK |
-| 7_dat15 | dat_15 finalize | unknown=0 | OK |
-| 8_coverage | rebuild COVERAGE depth | c=11 p=3 b=3 d=1 | OK |
-| 9_docs | finalize docs | README + PHASE_1 updated | OK |
-| 10_phase1_table | phase1 table v2 | written | OK |
+| s2_dat04_values | dat_04 values | with_values=11 | OK |
+| s5_dat11 | dat_11 examples | with_examples=38 | OK |
+| s8_dat02 | dat_02 related | with_related=202 | OK |
+| s9_dat06 | dat_06 partial=0 | unknown=0 | OK |
+| s10_dat15 | dat_15 values | with_values=13 | OK |
+| s11_dat17 | dat_17 blocked | candidates=1; blocked kept | OK |
+| s12_coverage | COVERAGE strict | c=12 p=2 b=3 d=1 | OK |
+| s13_validate | validate | L3=8 | OK |
+| s14_docs | finalize docs | README + PHASE_1 updated | OK |
+| s15_table | phase1 v3 | written | OK |
 
 
 ### validate.py
@@ -26,17 +26,16 @@
 - L4: 0
 
 ### Coverage
-- complete: 11
-- partial: 3
+- complete: 12
+- partial: 2
 - blocked: 3
 - deferred: 1
 
-### Depth Fields Filled
-- dat_01 parameters
-- dat_02 URC parameters/examples
+### Strict Depth Filled
+- dat_01/02/04/09/10/11/12/15 parameters/examples/values
 - dat_03 recovery_steps
 - dat_05 related_commands
-- dat_06/11/15 remaining records → blocked
+- dat_06 partial -> 0
 
 ### Phase 1
-- جدول نهایی v2: reports/PHASE_1_FINAL_TABLE.md
+- جدول نهایی v3: reports/PHASE_1_FINAL_TABLE.md

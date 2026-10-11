@@ -16,12 +16,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:47Z'
+  updated_at: '2026-10-11T17:35:48Z'
   command: AT+CLVL
   syntax: AT+CLVL
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CLVL
   coverage_estimate: high
 - id: dat_12_0002
   category: Audio
@@ -41,12 +42,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:47Z'
+  updated_at: '2026-10-11T17:35:48Z'
   command: AT+CRSL
   syntax: AT+CRSL
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CRSL
   coverage_estimate: high
 - id: dat_12_0003
   category: Audio
@@ -66,12 +68,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:47Z'
+  updated_at: '2026-10-11T17:35:48Z'
   command: AT+CMUT
   syntax: AT+CMUT
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMUT
   coverage_estimate: high
 - id: dat_12_0004
   category: Audio
@@ -91,12 +94,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:30:03Z'
+  updated_at: '2026-10-11T17:35:48Z'
   command: AT+CRSM
   syntax: AT+CRSM
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CRSM
   coverage_estimate: high
 - id: dat_12_0005
   category: Audio
@@ -116,12 +120,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:30:03Z'
+  updated_at: '2026-10-11T17:35:48Z'
   command: AT+VTS
   syntax: AT+VTS
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+VTS
   coverage_estimate: high
 - id: dat_12_0006
   category: Audio
@@ -141,12 +146,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:30:03Z'
+  updated_at: '2026-10-11T17:35:48Z'
   command: AT+CATONE
   syntax: ''
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CATONE
   coverage_estimate: high
 - id: dat_12_0007
   category: Audio
@@ -166,12 +172,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:30:03Z'
+  updated_at: '2026-10-11T17:35:48Z'
   command: AT+CADTONE
   syntax: ''
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CADTONE
   coverage_estimate: high
 - id: dat_12_0008
   category: Audio
@@ -191,12 +198,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:30:03Z'
+  updated_at: '2026-10-11T17:35:48Z'
   command: AT+CLDTONE
   syntax: ''
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CLDTONE
   coverage_estimate: high
 - id: dat_12_0009
   category: Audio
@@ -216,12 +224,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:47Z'
+  updated_at: '2026-10-11T17:35:48Z'
   command: AT+CMIC
   syntax: AT+CMIC
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CMIC
   coverage_estimate: high
 - id: dat_12_0010
   category: Audio
@@ -241,12 +250,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:47Z'
+  updated_at: '2026-10-11T17:35:48Z'
   command: AT+CSDT
   syntax: AT+CSDT
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSDT
   coverage_estimate: high
 - id: dat_12_0011
   category: Audio
@@ -266,12 +276,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:47Z'
+  updated_at: '2026-10-11T17:35:48Z'
   command: AT+CHFA
   syntax: AT+CHFA
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CHFA
   coverage_estimate: high
 - id: dat_12_0012
   category: Audio
@@ -291,12 +302,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:30:03Z'
+  updated_at: '2026-10-11T17:35:48Z'
   command: AT+CPCMREG
   syntax: ''
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CPCMREG
   coverage_estimate: high
 - id: dat_12_0013
   category: Audio
@@ -304,7 +316,8 @@
   syntax: 6.2.7 AT+CADC  Read ADC .............................................................................................135
   parameters: []
   response: null
-  examples: []
+  examples:
+  - AT+CADC
   related_commands: []
   source:
     name: SIM800 Series_AT Command Manual
@@ -324,4 +337,4 @@
   - audio
   - extracted
   created_at: '2026-10-11T17:19:47Z'
-  updated_at: '2026-10-11T17:19:47Z'
+  updated_at: '2026-10-11T17:35:48Z'
