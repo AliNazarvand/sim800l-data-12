@@ -487,3 +487,26 @@
 - موفقیت: 16 از 25.
 - validate: L1=0 L2=0 L3=8 L4=0.
 - Coverage: complete=9 partial=5 blocked=3 deferred=1.
+
+
+## D-040
+- تاریخ: 1405-07-19T17:49:49Z
+- زمینه: بسته D12 — بستن فاز ۱ با پذیرش سقف PDF.
+- تصمیم: 7 دیتاست partial (dat_03, 04, 10, 11, 12, 14, 15) با limit_reason صریح در notes ثبت شدند.
+- دلیل: PDF/منابع موجود سقف دارند؛ این‌ها شکست نیستند بلکه محدودیت داده هستند.
+- L3 پس از whitelist: 0
+- Specialist whitelist size: 46
+- Tag: v1.0.0-phase1
+
+
+## D-041
+- Date: 1405-07-19T17:51:49Z
+- Context: Batch D13 — closing Phase 1.
+- Fixes:
+  - Applied limit_reason in notes to 7 partial datasets (D12 Phase B failed due to PowerShell $var: parser error).
+  - PowerShell syntax corrected: using -f format instead of inline $var:.
+- Verified: all 7 partial datasets have limit_reason in notes.
+- Validation: L1=0 L2=0 L3=0 L4=0 (specialist whitelist=46).
+- Coverage: complete=9 partial=5 blocked=3 deferred=1.
+- Tag: v1.0.0-phase1.
+- Status: PHASE 1 COMPLETE.

@@ -11,12 +11,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+HTTPINIT
   syntax: AT+HTTPINIT
   parameters: []
@@ -37,12 +37,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+HTTPTERM
   syntax: AT+HTTPTERM
   parameters: []
@@ -63,12 +63,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+HTTPPARA
   syntax: AT+HTTPPARA
   parameters:
@@ -95,12 +95,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+HTTPDATA
   syntax: AT+HTTPDATA
   parameters:
@@ -124,12 +124,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+HTTPACTION
   syntax: AT+HTTPACTION
   parameters:
@@ -153,12 +153,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+HTTPREAD
   syntax: AT+HTTPREAD
   parameters:
@@ -182,12 +182,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+HTTPHEAD
   syntax: ''
   parameters:
@@ -211,12 +211,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+HTTPSTATUS
   syntax: AT+HTTPSTATUS
   parameters:
@@ -236,12 +236,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+HTTPURL
   syntax: ''
   parameters:
@@ -262,12 +262,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+HTTPSSL
   syntax: ''
   parameters: []
@@ -285,12 +285,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPOPEN
   syntax: ''
   parameters:
@@ -311,12 +311,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPCLOSE
   syntax: ''
   parameters: []
@@ -337,12 +337,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPPUT
   syntax: AT+FTPPUT
   parameters: []
@@ -363,12 +363,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPGET
   syntax: AT+FTPGET
   parameters: []
@@ -389,12 +389,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPDELE
   syntax: AT+FTPDELE
   parameters: []
@@ -415,12 +415,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPMKD
   syntax: AT+FTPMKD
   parameters: []
@@ -441,12 +441,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPRMD
   syntax: AT+FTPRMD
   parameters: []
@@ -467,12 +467,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPLIST
   syntax: AT+FTPLIST
   parameters: []
@@ -490,12 +490,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPFLST
   syntax: ''
   parameters: []
@@ -513,12 +513,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPUSER
   syntax: ''
   parameters:
@@ -539,12 +539,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPPASS
   syntax: ''
   parameters:
@@ -565,12 +565,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPCWD
   syntax: ''
   parameters:
@@ -591,12 +591,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPPWD
   syntax: ''
   parameters: []
@@ -617,12 +617,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPTYPE
   syntax: AT+FTPTYPE
   parameters:
@@ -646,12 +646,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPMODE
   syntax: AT+FTPMODE
   parameters:
@@ -674,12 +674,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPPUTOPT
   syntax: AT+FTPPUTOPT
   parameters:
@@ -702,12 +702,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPGETPATH
   syntax: AT+FTPGETPATH
   parameters:
@@ -730,12 +730,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPPUTPATH
   syntax: AT+FTPPUTPATH
   parameters:
@@ -758,12 +758,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+FTPPORT
   syntax: AT+FTPPORT
   parameters:
@@ -783,12 +783,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+SSLCFG
   syntax: ''
   parameters:
@@ -812,12 +812,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+SSLCONF
   syntax: ''
   parameters:
@@ -838,12 +838,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+SSLOPEN
   syntax: ''
   parameters:
@@ -873,12 +873,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+SSLSEND
   syntax: ''
   parameters:
@@ -899,12 +899,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+SSLRECV
   syntax: ''
   parameters:
@@ -925,12 +925,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+SSLCLOSE
   syntax: ''
   parameters: []
@@ -948,12 +948,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+SSLSETCERT
   syntax: ''
   parameters:
@@ -974,12 +974,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+SSLSETKEY
   syntax: ''
   parameters:
@@ -1000,12 +1000,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+SSLSETCA
   syntax: ''
   parameters:

@@ -17,3 +17,7 @@
 | SIM800 Series Firmware Release Notes | - | - | - | missing | primary | - | Needed for dat_08 |
 | SIM800 Series Certification Documents | - | - | - | missing | primary | - | Needed for dat_18 |
 | GSMA / ITU / mcc-mnc.com | - | - | - | missing | external | - | Needed for dat_14 |
+
+## Refresh
+- Updated at: 1405-07-19T17:49:49Z
+- Limit reasons now recorded in dataset records (notes field)

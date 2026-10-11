@@ -11,12 +11,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: Change 300us to 10
   min: 5.0
   typ: null
@@ -40,12 +40,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: Wait for at least 80
   min: 0.0
   typ: null
@@ -69,12 +69,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: DTR pin is pulled to low level for about 5
   min: 0.0
   typ: null
@@ -98,12 +98,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: Only after the DTR pin is pulled to low level for 5
   min: 0.0
   typ: null
@@ -127,12 +127,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: SIM card interval advice is greater than
   min: 2.0
   typ: null
@@ -156,12 +156,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: GPIO3 28 -
   min: 0.29
   typ: null
@@ -185,12 +185,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: GPIO2
   min: 0.8
   typ: null
@@ -214,12 +214,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: SIM800L is not running
   min: 64.0
   typ: null
@@ -243,12 +243,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: On/ 80
   min: 0.0
   typ: null
@@ -272,12 +272,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: SIM800L not registered the network
   min: 64.0
   typ: null
@@ -301,12 +301,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: On/ 300
   min: 0.0
   typ: null
@@ -330,12 +330,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: SIM800L registered to the network
   min: 64.0
   typ: null
@@ -359,12 +359,12 @@
   confidence: 0.75
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF timing table limit (12/25)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:52Z'
+  updated_at: '2026-10-11T17:51:50Z'
   parameter: On/ 30
   min: 0.0
   typ: null
@@ -397,14 +397,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
   applicable_models:
   - SIM800L
   tags: &id001
   - timing
   - extracted-table
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:35:45Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_04_9002
   category: Timing
   parameter: FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an
@@ -427,12 +427,12 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
   applicable_models:
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:47:26Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_04_9003
   category: Timing
   parameter: VBAT Power supply voltage 3.4 4.0 4.4 V
@@ -455,12 +455,12 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
   applicable_models:
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:35:45Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_04_9004
   category: Timing
   parameter: I High-level input current -1.0 - 1.0 uA
@@ -483,12 +483,12 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
   applicable_models:
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:35:45Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_04_9005
   category: Timing
   parameter: I Low-level input current -1.0 - 1.0 uA
@@ -511,12 +511,12 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
   applicable_models:
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:35:45Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_04_9006
   category: Timing
   parameter: I VRTC input current - 3.0 5.0 uA
@@ -539,12 +539,12 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
   applicable_models:
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:35:45Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_04_9007
   category: Timing
   parameter: Power drop PCL=5 350 mV
@@ -567,12 +567,12 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
   applicable_models:
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:35:45Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_04_9008
   category: Timing
   parameter: Power down mode 150 200 uA
@@ -595,12 +595,12 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
   applicable_models:
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:35:45Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_04_9009
   category: Timing
   parameter: ( BS-PA-MFRMS=9 ) 1.04 mA
@@ -623,12 +623,12 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
   applicable_models:
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:35:45Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_04_9010
   category: Timing
   parameter: ( BS-PA-MFRMS=5) 1.14 mA
@@ -651,12 +651,12 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
   applicable_models:
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:35:45Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_04_9011
   category: Timing
   parameter: ( BS-PA-MFRMS=2) 1.57 mA
@@ -679,12 +679,12 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
   applicable_models:
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:35:45Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_04_9012
   category: Timing
   parameter: '[10] GSM 11.10 Station (MS) conformance specification； Part 1： Conformance'
@@ -707,9 +707,9 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification.
+  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
   applicable_models:
   - SIM800L
   tags: *id001
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:35:45Z'
+  updated_at: '2026-10-11T17:51:50Z'

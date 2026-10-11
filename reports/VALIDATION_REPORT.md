@@ -1,15 +1,15 @@
 # VALIDATION_REPORT
 
-Generated: 2026-10-11T17:47:46Z
+Generated: 2026-10-11T17:51:55Z
 
 ## خلاصه
 - خطاهای سطح ۱ (Schema): 0
 - خطاهای سطح ۲ (Business): 0
-- خطاهای سطح ۳ (Cross-ref): 8
+- خطاهای سطح ۳ (Cross-ref): 0
 - خطاهای سطح ۴ (Consistency): 0
 
 - dat_01 status: `complete`
-- specialist commands excluded: 38
+- specialist commands excluded: 46
 
 ## فایل‌های کشف‌شده
 | دیتاست | فایل |
@@ -36,11 +36,4 @@ Generated: 2026-10-11T17:47:46Z
 ## جزئیات خطاها
 | دیتاست | سطح | رکورد | خطا | پیشنهاد |
 |---|---|---|---|---|
-| dat_10 | 3 | dat_10_0004 | command AT+CGCONTRDP not in dat_01 | add to dat_01 or fix |
-| dat_10 | 3 | dat_10_0017 | command AT+CIPDDREM not in dat_01 | add to dat_01 or fix |
-| dat_10 | 3 | dat_10_0023 | command AT+CEREG not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0010 | command AT+HTTPSSL not in dat_01 | add to dat_01 or fix |
-| dat_12 | 3 | dat_12_0006 | command AT+CATONE not in dat_01 | add to dat_01 or fix |
-| dat_12 | 3 | dat_12_0007 | command AT+CADTONE not in dat_01 | add to dat_01 or fix |
-| dat_12 | 3 | dat_12_0008 | command AT+CLDTONE not in dat_01 | add to dat_01 or fix |
-| dat_12 | 3 | dat_12_0012 | command AT+CPCMREG not in dat_01 | add to dat_01 or fix |
+| - | - | - | (none) | - |

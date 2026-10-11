@@ -8,12 +8,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Needs sleep mode app note. | Not found in AT Manual V1.01. | No additional power source in V2.02/V1.00.
+  notes: 'Needs sleep mode app note. | Not found in AT Manual V1.01. | No additional power source in V2.02/V1.00. | limit_reason: Power table limit (13/14)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:25Z'
+  updated_at: '2026-10-11T17:51:51Z'
   coverage_estimate: low
 - id: dat_15_9001
   category: Power Consumption
@@ -39,14 +39,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'
 - id: dat_15_9002
   category: Power Consumption
   mode: null
@@ -71,14 +71,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'
 - id: dat_15_9003
   category: Power Consumption
   mode: null
@@ -103,14 +103,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'
 - id: dat_15_9004
   category: Power Consumption
   mode: null
@@ -135,14 +135,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'
 - id: dat_15_9005
   category: Power Consumption
   mode: null
@@ -167,14 +167,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'
 - id: dat_15_9006
   category: Power Consumption
   mode: null
@@ -199,14 +199,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'
 - id: dat_15_9007
   category: Power Consumption
   mode: null
@@ -231,14 +231,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'
 - id: dat_15_9008
   category: Power Consumption
   mode: null
@@ -263,14 +263,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'
 - id: dat_15_9009
   category: Power Consumption
   mode: null
@@ -295,14 +295,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'
 - id: dat_15_9010
   category: Power Consumption
   mode: null
@@ -327,14 +327,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'
 - id: dat_15_9011
   category: Power Consumption
   mode: null
@@ -359,14 +359,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'
 - id: dat_15_9012
   category: Power Consumption
   mode: null
@@ -391,14 +391,14 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'
 - id: dat_15_9013
   category: Power Consumption
   mode: null
@@ -423,11 +423,11 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: Extracted from V2.02 power table row. Values need manual verification.
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
   - power
   - extracted-table
   created_at: '2026-10-11T17:23:50Z'
-  updated_at: '2026-10-11T17:35:51Z'
+  updated_at: '2026-10-11T17:51:51Z'

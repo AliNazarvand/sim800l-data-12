@@ -11,12 +11,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual Audio limit (9/13)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CLVL
   syntax: AT+CLVL
   parameters:
@@ -43,12 +43,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual Audio limit (9/13)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CRSL
   syntax: AT+CRSL
   parameters:
@@ -75,12 +75,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual Audio limit (9/13)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CMUT
   syntax: AT+CMUT
   parameters:
@@ -107,12 +107,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual Audio limit (9/13)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CRSM
   syntax: AT+CRSM
   parameters:
@@ -163,12 +163,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual Audio limit (9/13)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+VTS
   syntax: AT+VTS
   parameters:
@@ -198,12 +198,12 @@
   confidence: 0.5
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | limit_reason: AT Manual Audio limit (9/13)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CATONE
   syntax: ''
   parameters: []
@@ -224,12 +224,12 @@
   confidence: 0.5
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | limit_reason: AT Manual Audio limit (9/13)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CADTONE
   syntax: ''
   parameters: []
@@ -250,12 +250,12 @@
   confidence: 0.5
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | limit_reason: AT Manual Audio limit (9/13)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CLDTONE
   syntax: ''
   parameters: []
@@ -276,12 +276,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual Audio limit (9/13)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CMIC
   syntax: AT+CMIC
   parameters:
@@ -320,12 +320,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual Audio limit (9/13)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CSDT
   syntax: AT+CSDT
   parameters:
@@ -349,12 +349,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual Audio limit (9/13)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CHFA
   syntax: AT+CHFA
   parameters:
@@ -381,12 +381,12 @@
   confidence: 0.5
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | limit_reason: AT Manual Audio limit (9/13)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:48Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CPCMREG
   syntax: ''
   parameters: []
@@ -420,11 +420,11 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (structured header).
+  notes: 'Extracted from AT Manual V1.01 (structured header). | limit_reason: AT Manual Audio limit (9/13)'
   applicable_models:
   - SIM800L
   tags:
   - audio
   - extracted
   created_at: '2026-10-11T17:19:47Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'

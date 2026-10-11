@@ -1,0 +1,37 @@
+{
+  "dat_03": {
+    "total": 255,
+    "with_limit_reason": 255,
+    "ok": true
+  },
+  "dat_04": {
+    "total": 25,
+    "with_limit_reason": 25,
+    "ok": true
+  },
+  "dat_10": {
+    "total": 24,
+    "with_limit_reason": 24,
+    "ok": true
+  },
+  "dat_11": {
+    "total": 38,
+    "with_limit_reason": 38,
+    "ok": true
+  },
+  "dat_12": {
+    "total": 13,
+    "with_limit_reason": 13,
+    "ok": true
+  },
+  "dat_14": {
+    "total": 52,
+    "with_limit_reason": 52,
+    "ok": true
+  },
+  "dat_15": {
+    "total": 14,
+    "with_limit_reason": 14,
+    "ok": true
+  }
+}

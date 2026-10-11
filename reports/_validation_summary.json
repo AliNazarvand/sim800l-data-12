@@ -1,74 +1,17 @@
 {
-  "generated": "2026-10-11T17:47:46Z",
-  "errors": [
-    {
-      "dataset": "dat_10",
-      "level": 3,
-      "record": "dat_10_0004",
-      "error": "command AT+CGCONTRDP not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_10",
-      "level": 3,
-      "record": "dat_10_0017",
-      "error": "command AT+CIPDDREM not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_10",
-      "level": 3,
-      "record": "dat_10_0023",
-      "error": "command AT+CEREG not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0010",
-      "error": "command AT+HTTPSSL not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_12",
-      "level": 3,
-      "record": "dat_12_0006",
-      "error": "command AT+CATONE not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_12",
-      "level": 3,
-      "record": "dat_12_0007",
-      "error": "command AT+CADTONE not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_12",
-      "level": 3,
-      "record": "dat_12_0008",
-      "error": "command AT+CLDTONE not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_12",
-      "level": 3,
-      "record": "dat_12_0012",
-      "error": "command AT+CPCMREG not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    }
-  ],
+  "generated": "2026-10-11T17:51:55Z",
+  "errors": [],
   "notes": [],
   "counts": {
     "1": 0,
     "2": 0,
-    "3": 8,
+    "3": 0,
     "4": 0
   },
-  "total": 8,
+  "total": 0,
   "dat01_status": "complete",
   "skip_crossref": false,
-  "specialist_commands_count": 38,
+  "specialist_commands_count": 46,
   "data_paths": {
     "dat_01": "dat_01_at_command.yaml",
     "dat_02": "dat_02_urc.yaml",

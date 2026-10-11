@@ -1,22 +1,22 @@
 # TODO
 
-## Blocked datasets
+## Source-Missing (blocked/deferred)
 - [ ] dat_08 Firmware: Release Notes not available
 - [ ] dat_17 Certificate/Key Store: SSL Manual not available
 - [ ] dat_18 Certification: certification documents not available
-
-## Deferred datasets
 - [ ] dat_16 Board/EVB: EVB document not available
 
-## Partial datasets (sourced but params_pct < 50%)
-- [ ] dat_03 Error Code (params via recovery_steps)
-- [ ] dat_04 Timing (values)
-- [ ] dat_11 HTTP/FTP/SSL (specialist)
-- [ ] dat_14 Operator/APN (external)
-- [ ] dat_15 Power Management
+## Source-Limited (partial with limit_reason)
+- [ ] dat_03 Error Code: PDF appendix limit (96/255)
+- [ ] dat_04 Timing: PDF timing table limit (12/25)
+- [ ] dat_10 GPRS: AT Manual GPRS limit (17/24)
+- [ ] dat_11 HTTP/FTP/SSL: specialist source required (25/38)
+- [ ] dat_12 Audio: AT Manual Audio limit (9/13)
+- [ ] dat_14 Operator/APN: external source only (52/52)
+- [ ] dat_15 Power: power table limit (13/14)
 
-## Missing sources (priority)
-1. [ ] SIM800 Series HTTP AT Command Manual (highest — dat_11)
+## Missing Sources (Priority)
+1. [ ] SIM800 Series HTTP AT Command Manual (dat_11)
 2. [ ] SIM800 Series FTP AT Command Manual (dat_11)
 3. [ ] SIM800 Series SSL AT Command Manual (dat_11, dat_17)
 4. [ ] SIM800 Series Audio AT Command Manual (dat_12)
@@ -28,7 +28,3 @@
 10. [ ] GSMA / ITU / mcc-mnc.com for APN (dat_14)
 11. [ ] SIM800L Datasheet (dat_07)
 12. [ ] EVB Schematic (dat_16)
-
-## Notes
-- D11 criteria: complete = with_page==count AND params_pct >= 50%
-- L3 whitelist extended in D11.

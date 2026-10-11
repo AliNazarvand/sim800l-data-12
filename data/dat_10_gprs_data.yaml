@@ -11,12 +11,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CGDCONT
   syntax: AT+CGDCONT
   parameters:
@@ -70,12 +70,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CGATT
   syntax: AT+CGATT
   parameters:
@@ -102,12 +102,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CGACT
   syntax: AT+CGACT
   parameters:
@@ -143,12 +143,12 @@
   confidence: 0.5
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CGCONTRDP
   syntax: ''
   parameters: []
@@ -169,12 +169,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CGPADDR
   syntax: AT+CGPADDR
   parameters:
@@ -210,12 +210,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CSTT
   syntax: AT+CSTT
   parameters:
@@ -242,12 +242,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIICR
   syntax: AT+CIICR
   parameters: []
@@ -268,12 +268,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIFSR
   syntax: AT+CIFSR
   parameters: []
@@ -294,12 +294,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIPSTART
   syntax: AT+CIPSTART
   parameters:
@@ -335,12 +335,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIPSEND
   syntax: AT+CIPSEND
   parameters:
@@ -373,12 +373,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIPCLOSE
   syntax: AT+CIPCLOSE
   parameters:
@@ -405,12 +405,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIPSHUT
   syntax: AT+CIPSHUT
   parameters: []
@@ -431,12 +431,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIPSTATUS
   syntax: AT+CIPSTATUS
   parameters:
@@ -469,12 +469,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIPRXGET
   syntax: AT+CIPRXGET
   parameters:
@@ -516,12 +516,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIPMUX
   syntax: AT+CIPMUX
   parameters:
@@ -545,12 +545,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIPQSEND
   syntax: AT+CIPQSEND
   parameters:
@@ -577,12 +577,12 @@
   confidence: 0.5
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIPDDREM
   syntax: ''
   parameters: []
@@ -603,12 +603,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIPMODE
   syntax: AT+CIPMODE
   parameters:
@@ -653,12 +653,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CIPCCFG
   syntax: AT+CIPCCFG
   parameters: []
@@ -679,12 +679,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CSQ
   syntax: AT+CSQ
   parameters:
@@ -714,12 +714,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CREG
   syntax: AT+CREG
   parameters:
@@ -755,12 +755,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CGREG
   syntax: AT+CGREG
   parameters:
@@ -796,12 +796,12 @@
   confidence: 0.5
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:35:47Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CEREG
   syntax: ''
   parameters: []
@@ -822,12 +822,12 @@
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: AT Manual GPRS limit (17/24)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   command: AT+CDNSGIP
   syntax: AT+CDNSGIP
   parameters:

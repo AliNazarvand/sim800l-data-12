@@ -11,12 +11,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 1
   meaning: Echo mode on
@@ -38,12 +38,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 2
   meaning: AT Commands According to V.25TER
@@ -65,12 +65,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 3
   meaning: Both, non-tran sparent prefered
@@ -92,12 +92,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 4
   meaning: Data circuit asynchronous (RDI)
@@ -119,12 +119,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 5
   meaning: All conditional call forwarding
@@ -146,12 +146,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 6
   meaning: Disconnect
@@ -173,12 +173,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 7
   meaning: All classes
@@ -200,12 +200,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 8
   meaning: Call has been connected with the other remote party in
@@ -227,12 +227,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 9
   meaning: This is a deflected call (MT call setup)
@@ -254,12 +254,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 10
   meaning: AT Commands for PING Support
@@ -283,12 +283,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 11
   meaning: AT Commands for HTTP Application
@@ -310,12 +310,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 12
   meaning: AT Commands for FTP Application
@@ -337,12 +337,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 13
   meaning: AT Commands for GSM Location Application
@@ -365,12 +365,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 14
   meaning: AT Commands for Email Application
@@ -393,12 +393,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 15
   meaning: SIM wrong
@@ -420,12 +420,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 16
   meaning: General Beep
@@ -447,12 +447,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 17
   meaning: Positive Acknowledgement Tone
@@ -474,12 +474,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 18
   meaning: Negative Acknowledgement or Error Tone
@@ -501,12 +501,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 19
   meaning: Indian Dial Tone
@@ -528,12 +528,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 20
   meaning: AT Commands Examples ..................................................................297
@@ -555,12 +555,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 21
   meaning: ATC Differences among SIM800 Series...........................................313
@@ -582,12 +582,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 22
   meaning: Number changed
@@ -609,12 +609,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 25
   meaning: Pre-emption
@@ -636,12 +636,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 26
   meaning: Non-selected user clearing
@@ -663,12 +663,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 27
   meaning: Destination out of service
@@ -690,12 +690,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 28
   meaning: Invalid number format (incomplete number)
@@ -717,12 +717,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 29
   meaning: Facility rejected
@@ -743,12 +743,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 30
   meaning: Response to STATUS ENQUIRY
@@ -771,12 +771,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 31
   meaning: QOS mean throughput class best effort
@@ -798,12 +798,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 32
   meaning: Normal, unspecified
@@ -825,12 +825,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 34
   meaning: No circuit/channel available
@@ -851,12 +851,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 38
   meaning: Network out of order
@@ -877,12 +877,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 41
   meaning: Temporary failure
@@ -904,12 +904,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 42
   meaning: Switching equipment Congestion
@@ -931,12 +931,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 43
   meaning: Access information discarded
@@ -958,12 +958,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 44
   meaning: Requested circuit/channel not available
@@ -985,12 +985,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 47
   meaning: Resources unavailable, unspecified
@@ -1012,12 +1012,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 49
   meaning: Quality of service unavailable
@@ -1038,12 +1038,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 50
   meaning: Requested facility not subscribed
@@ -1064,12 +1064,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 55
   meaning: Requested facility not subscribed
@@ -1090,12 +1090,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 57
   meaning: Bearer capability not authorized
@@ -1116,12 +1116,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 58
   meaning: Bearer capability not presently available
@@ -1142,12 +1142,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 63
   meaning: Service or option not available, unspecified
@@ -1168,12 +1168,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 65
   meaning: Bearer service not implemented
@@ -1194,12 +1194,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 68
   meaning: ACM equal or greater than ACM maximum
@@ -1220,12 +1220,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 69
   meaning: Requested facility not implemented
@@ -1246,12 +1246,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 70
   meaning: Only restricted digital information bearer capability is available
@@ -1272,12 +1272,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 79
   meaning: Download error
@@ -1298,12 +1298,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 81
   meaning: Invalid transaction identifier value
@@ -1324,12 +1324,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 87
   meaning: User not member of CUG
@@ -1350,12 +1350,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 88
   meaning: Incompatible destination
@@ -1376,12 +1376,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 91
   meaning: Invalid transit network selection
@@ -1402,12 +1402,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 95
   meaning: Semantically incorrect message
@@ -1428,12 +1428,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 96
   meaning: Invalid mandatory information
@@ -1454,12 +1454,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 97
   meaning: Message t
@@ -1480,12 +1480,12 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Suspected non-error-code entry. Needs manual verification.
+  notes: 'Suspected non-error-code entry. Needs manual verification. | limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 99
   meaning: Not known or not detectable
@@ -1506,12 +1506,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 103
   meaning: Illegal MS
@@ -1533,12 +1533,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 106
   meaning: Illegal ME
@@ -1560,12 +1560,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 107
   meaning: GPRS services not allowed
@@ -1587,12 +1587,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 111
   meaning: PLMN not allowed
@@ -1614,12 +1614,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 112
   meaning: Location area not allowed
@@ -1641,12 +1641,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 113
   meaning: Roaming not allowed in this location area
@@ -1668,12 +1668,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 129
   meaning: Unknown type
@@ -1695,12 +1695,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 145
   meaning: International number type
@@ -1722,12 +1722,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 149
   meaning: PDP authentication failure
@@ -1749,12 +1749,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 160
   meaning: DNS resolve failed
@@ -1776,12 +1776,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 161
   meaning: National number type
@@ -1803,12 +1803,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 171
   meaning: MMS task is busy now
@@ -1829,12 +1829,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 172
   meaning: The mms data is oversize
@@ -1855,12 +1855,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 173
   meaning: The operation is overtime
@@ -1881,12 +1881,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 174
   meaning: There is no mms receiver
@@ -1907,12 +1907,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 175
   meaning: The storage for address is full
@@ -1933,12 +1933,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 176
   meaning: Not find the address
@@ -1959,12 +1959,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 177
   meaning: Network specific number
@@ -1985,12 +1985,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 178
   meaning: Failed to read push message
@@ -2011,12 +2011,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 179
   meaning: This is not a push message
@@ -2037,12 +2037,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 182
   meaning: The mms storage is full
@@ -2063,12 +2063,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 183
   meaning: The box is empty
@@ -2089,12 +2089,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 185
   meaning: It is in edit mode
@@ -2115,12 +2115,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 186
   meaning: It is not in edit mode
@@ -2141,12 +2141,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 187
   meaning: No content in the buffer
@@ -2167,12 +2167,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 188
   meaning: Not find the file
@@ -2193,12 +2193,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 189
   meaning: Failed to receive mms
@@ -2219,12 +2219,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 190
   meaning: Failed to read mms
@@ -2245,12 +2245,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 191
   meaning: Not M-Notification.ind
@@ -2271,12 +2271,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 192
   meaning: The mms inclosure is full
@@ -2297,12 +2297,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 193
   meaning: Unknown
@@ -2323,12 +2323,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 404
   meaning: Not Found
@@ -2349,12 +2349,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 408
   meaning: Request Time-out
@@ -2375,12 +2375,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:27Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 601
   meaning: Network Error
@@ -2402,12 +2402,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 602
   meaning: No memory
@@ -2428,12 +2428,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 603
   meaning: DNS Error
@@ -2454,12 +2454,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 604
   meaning: Stack Busy
@@ -2480,12 +2480,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 765
   meaning: Invalid input value
@@ -2506,12 +2506,12 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: Suspected non-error-code entry. Needs manual verification.
+  notes: 'Suspected non-error-code entry. Needs manual verification. | limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:17:20Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 766
   meaning: Unsupported mode
@@ -2532,12 +2532,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 767
   meaning: Operation failed
@@ -2558,12 +2558,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 768
   meaning: Mux already running
@@ -2584,12 +2584,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 769
   meaning: Unable to get control
@@ -2610,12 +2610,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 770
   meaning: SIM network reject
@@ -2636,12 +2636,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 771
   meaning: Call setup in progress
@@ -2662,12 +2662,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 772
   meaning: SIM powered down
@@ -2688,12 +2688,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 773
   meaning: SIM file not present
@@ -2714,12 +2714,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 791
   meaning: Param count not enough
@@ -2740,12 +2740,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 792
   meaning: Param count beyond
@@ -2766,12 +2766,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 793
   meaning: Param value range beyond
@@ -2792,12 +2792,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 794
   meaning: Param type not match
@@ -2818,12 +2818,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 795
   meaning: Param format invalid
@@ -2844,12 +2844,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 796
   meaning: Get a null param
@@ -2870,12 +2870,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 797
   meaning: CFUN state is 0 or 4
@@ -2896,12 +2896,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 810
   meaning: No Error
@@ -2922,12 +2922,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 811
   meaning: Unrecognized Command
@@ -2948,12 +2948,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 812
   meaning: Return Value Error
@@ -2974,12 +2974,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 813
   meaning: Syntax Error
@@ -3000,12 +3000,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 814
   meaning: Unspecified Error
@@ -3026,12 +3026,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 815
   meaning: Data Transfer Already
@@ -3052,12 +3052,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 816
   meaning: Action Already
@@ -3078,12 +3078,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 817
   meaning: Not At Cmd
@@ -3104,12 +3104,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 818
   meaning: Multi Cmd too long
@@ -3130,12 +3130,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 819
   meaning: Abort Cops
@@ -3156,12 +3156,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 820
   meaning: No Call Disc
@@ -3182,12 +3182,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 821
   meaning: BT SAP Undefined
@@ -3208,12 +3208,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 822
   meaning: BT SAP Not Accessible
@@ -3234,12 +3234,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 823
   meaning: BT SAP Card Removed
@@ -3260,12 +3260,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CME
   code: 824
   meaning: AT Not Allowed By Customer
@@ -3286,12 +3286,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 1
   meaning: Delete all read messages from preferred message storage,
@@ -3312,12 +3312,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 2
   meaning: AT Commands According to V.25TER
@@ -3338,12 +3338,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 3
   meaning: Delete all read messages from preferred message storage,
@@ -3364,12 +3364,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 4
   meaning: Delete all messages from preferred message storage
@@ -3390,12 +3390,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 5
   meaning: AT Commands for SIM Application Toolkit
@@ -3416,12 +3416,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 6
   meaning: D e l e t e  a l l  S M S
@@ -3442,12 +3442,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 7
   meaning: Call Waiting Tone
@@ -3468,12 +3468,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 8
   meaning: Ringing Tone
@@ -3494,12 +3494,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 10
   meaning: Call barred
@@ -3520,12 +3520,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 11
   meaning: Reserved
@@ -3546,12 +3546,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 16
   meaning: General Beep
@@ -3572,12 +3572,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 17
   meaning: Positive Acknowledgement Tone
@@ -3598,12 +3598,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 18
   meaning: Negative Acknowledgement or Error Tone
@@ -3624,12 +3624,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 19
   meaning: Indian Dial Tone
@@ -3650,12 +3650,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 20
   meaning: AT Commands Examples ..................................................................297
@@ -3676,12 +3676,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 21
   meaning: ATC Differences among SIM800 Series...........................................313
@@ -3702,12 +3702,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 22
   meaning: Number changed
@@ -3728,12 +3728,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 25
   meaning: Pre-emption
@@ -3754,12 +3754,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 26
   meaning: Non-selected user clearing
@@ -3780,12 +3780,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 27
   meaning: Destination out of service
@@ -3806,12 +3806,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 28
   meaning: Invalid number format (incomplete number)
@@ -3832,12 +3832,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 29
   meaning: Facility rejected
@@ -3858,12 +3858,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 30
   meaning: Response to STATUS ENQUIRY
@@ -3884,12 +3884,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 32
   meaning: Normal, unspecified
@@ -3910,12 +3910,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 34
   meaning: No circuit/channel available
@@ -3936,12 +3936,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 38
   meaning: Network out of order
@@ -3962,12 +3962,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 41
   meaning: Temporary failure
@@ -3988,12 +3988,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 42
   meaning: Switching equipment Congestion
@@ -4014,12 +4014,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 43
   meaning: Access information discarded
@@ -4040,12 +4040,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 44
   meaning: Requested circuit/channel not available
@@ -4066,12 +4066,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 47
   meaning: Resources unavailable, unspecified
@@ -4092,12 +4092,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 49
   meaning: Quality of service unavailable
@@ -4118,12 +4118,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 50
   meaning: Requested facility not subscribed
@@ -4144,12 +4144,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 55
   meaning: Requested facility not subscribed
@@ -4170,12 +4170,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 57
   meaning: Bearer capability not authorized
@@ -4196,12 +4196,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 58
   meaning: Bearer capability not presently available
@@ -4222,12 +4222,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 63
   meaning: Service or option not available, unspecified
@@ -4248,12 +4248,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 65
   meaning: Bearer service not implemented
@@ -4274,12 +4274,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 68
   meaning: ACM equal or greater than ACM maximum
@@ -4300,12 +4300,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 69
   meaning: Requested facility not implemented
@@ -4326,12 +4326,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 70
   meaning: Only restricted digital information bearer capability is available
@@ -4352,12 +4352,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 79
   meaning: Service or option not implemented, unspecified
@@ -4378,12 +4378,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 81
   meaning: Invalid transaction identifier value
@@ -4404,12 +4404,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 87
   meaning: User not member of CUG
@@ -4430,12 +4430,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 88
   meaning: Incompatible destination
@@ -4456,12 +4456,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 91
   meaning: Invalid transit network selection
@@ -4482,12 +4482,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 95
   meaning: Semantically incorrect message
@@ -4508,12 +4508,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 96
   meaning: Invalid mandatory information
@@ -4534,12 +4534,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 97
   meaning: Message type non-existent or not implemented
@@ -4560,12 +4560,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 98
   meaning: Message type not compatible with protocol state
@@ -4586,12 +4586,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 99
   meaning: Information element non-existent or not implemented
@@ -4612,12 +4612,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 100
   meaning: Conditional information element error
@@ -4639,12 +4639,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 101
   meaning: Message not compatible with protocol
@@ -4666,12 +4666,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 102
   meaning: Recovery on timer expiry
@@ -4693,12 +4693,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:32:28Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 111
   meaning: Protocol error, unspecified
@@ -4719,12 +4719,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 127
   meaning: Interworking, unspecified
@@ -4746,12 +4746,12 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: Suspected non-error-code entry. Needs manual verification.
+  notes: 'Suspected non-error-code entry. Needs manual verification. | limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 128
   meaning: Telematic interworking not supported
@@ -4773,12 +4773,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 129
   meaning: Unknown type(IDSN format number)
@@ -4799,12 +4799,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 130
   meaning: Cannot replace short message
@@ -4825,12 +4825,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 143
   meaning: Unspecified TP-PID error
@@ -4852,12 +4852,12 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: Suspected non-error-code entry. Needs manual verification.
+  notes: 'Suspected non-error-code entry. Needs manual verification. | limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 144
   meaning: Data coding scheme (alphabet) not supported
@@ -4879,12 +4879,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 145
   meaning: International number type(ISDN format)
@@ -4905,12 +4905,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 159
   meaning: Unspecified TP-DCS error
@@ -4932,12 +4932,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 160
   meaning: Command cannot be acted
@@ -4958,12 +4958,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:31Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 161
   meaning: National number type(IDSN format)
@@ -4984,12 +4984,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 175
   meaning: Unspecified TP-Command error
@@ -5010,12 +5010,12 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: Suspected non-error-code entry. Needs manual verification.
+  notes: 'Suspected non-error-code entry. Needs manual verification. | limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:17:20Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 176
   meaning: TPDU not supported
@@ -5036,12 +5036,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 177
   meaning: Network specific number(ISDN format)
@@ -5062,12 +5062,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 192
   meaning: SC busy
@@ -5088,12 +5088,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 193
   meaning: No SC subscription
@@ -5114,12 +5114,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 194
   meaning: SC system failure
@@ -5140,12 +5140,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 195
   meaning: Invalid SME address
@@ -5166,12 +5166,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 196
   meaning: Destination SME barred
@@ -5192,12 +5192,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 197
   meaning: SM Rejected-Duplicate SM
@@ -5218,12 +5218,12 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: Suspected non-error-code entry. Needs manual verification.
+  notes: 'Suspected non-error-code entry. Needs manual verification. | limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:17:20Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 198
   meaning: TP-VPF not supported
@@ -5244,12 +5244,12 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: Suspected non-error-code entry. Needs manual verification.
+  notes: 'Suspected non-error-code entry. Needs manual verification. | limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:17:20Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 199
   meaning: TP-VP not supported
@@ -5270,12 +5270,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:27Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 208
   meaning: SIM SMS storage full
@@ -5297,12 +5297,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:27Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 209
   meaning: No SMS storage capability in SIM
@@ -5324,12 +5324,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:27Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 210
   meaning: Error in MS
@@ -5351,12 +5351,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:27Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 211
   meaning: Memory Capacity Exceeded
@@ -5378,12 +5378,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:27Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 212
   meaning: SIM Application Toolkit Busy
@@ -5405,12 +5405,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:27Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 213
   meaning: SIM data download error
@@ -5432,12 +5432,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 224
   meaning: CP retry exceed
@@ -5458,12 +5458,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 225
   meaning: RP trim timeout
@@ -5484,12 +5484,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 226
   meaning: SMS connection broken
@@ -5510,12 +5510,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 255
   meaning: Unspecified error cause
@@ -5536,12 +5536,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:27Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 300
   meaning: ME failure
@@ -5563,12 +5563,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:27Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 301
   meaning: SMS reserved
@@ -5590,12 +5590,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 310
   meaning: SIM not inserted
@@ -5616,12 +5616,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 311
   meaning: SIM pin necessary
@@ -5642,12 +5642,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 312
   meaning: PH SIM pin necessary
@@ -5668,12 +5668,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 313
   meaning: SIM failure
@@ -5694,12 +5694,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 314
   meaning: SIM busy
@@ -5720,12 +5720,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 315
   meaning: SIM wrong
@@ -5746,12 +5746,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 316
   meaning: SIM PUK required
@@ -5772,12 +5772,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 317
   meaning: SIM PIN2 required
@@ -5798,12 +5798,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 318
   meaning: SIM PUK2 required
@@ -5824,12 +5824,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 330
   meaning: SMSC address unknown
@@ -5850,12 +5850,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:47:27Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 500
   meaning: Unknown
@@ -5877,12 +5877,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 512
   meaning: SMS no error
@@ -5903,12 +5903,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 513
   meaning: Message length exceeds maximum length
@@ -5929,12 +5929,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 514
   meaning: Invalid request parameters
@@ -5955,12 +5955,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 515
   meaning: ME storage failure
@@ -5981,12 +5981,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 516
   meaning: Invalid bearer service
@@ -6007,12 +6007,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 517
   meaning: Invalid service mode
@@ -6033,12 +6033,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 518
   meaning: Invalid storage type
@@ -6059,12 +6059,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 519
   meaning: Invalid message format
@@ -6085,12 +6085,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 520
   meaning: Too many MO concatenated messages
@@ -6111,12 +6111,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 521
   meaning: SMSAL not ready
@@ -6137,12 +6137,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 522
   meaning: SMSAL no more service
@@ -6163,12 +6163,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:30:01Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 523
   meaning: Not support TP-Status-Report & TP-Command in storage
@@ -6189,12 +6189,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 524
   meaning: Reserved MTI
@@ -6215,12 +6215,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 525
   meaning: No free entity in RL layer
@@ -6241,12 +6241,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 526
   meaning: The port number is already registerred
@@ -6267,12 +6267,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 527
   meaning: There is no free entity for port number
@@ -6293,12 +6293,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 528
   meaning: More Message to Send state error
@@ -6319,12 +6319,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 529
   meaning: MO SMS is not allow
@@ -6345,12 +6345,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 530
   meaning: GPRS is suspended
@@ -6371,12 +6371,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 531
   meaning: ME storage full
@@ -6397,12 +6397,12 @@
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 'limit_reason: PDF appendix limit (96/255 codes)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
   error_type: CMS
   code: 532
   meaning: Doing SIM refresh
@@ -6429,7 +6429,7 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (broad retry).
+  notes: 'Extracted from AT Manual V1.01 (broad retry). | limit_reason: PDF appendix limit (96/255 codes)'
   applicable_models:
   - SIM800L
   tags:
@@ -6437,7 +6437,7 @@
   - cms
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_03_0246
   category: CMS
   error_type: CMS
@@ -6457,7 +6457,7 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (broad retry).
+  notes: 'Extracted from AT Manual V1.01 (broad retry). | limit_reason: PDF appendix limit (96/255 codes)'
   applicable_models:
   - SIM800L
   tags:
@@ -6465,7 +6465,7 @@
   - cms
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_03_0247
   category: CMS
   error_type: CMS
@@ -6485,7 +6485,7 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (broad retry).
+  notes: 'Extracted from AT Manual V1.01 (broad retry). | limit_reason: PDF appendix limit (96/255 codes)'
   applicable_models:
   - SIM800L
   tags:
@@ -6493,7 +6493,7 @@
   - cms
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_03_0248
   category: CMS
   error_type: CMS
@@ -6513,7 +6513,7 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (broad retry).
+  notes: 'Extracted from AT Manual V1.01 (broad retry). | limit_reason: PDF appendix limit (96/255 codes)'
   applicable_models:
   - SIM800L
   tags:
@@ -6521,7 +6521,7 @@
   - cms
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_03_0249
   category: CMS
   error_type: CMS
@@ -6541,7 +6541,7 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (broad retry).
+  notes: 'Extracted from AT Manual V1.01 (broad retry). | limit_reason: PDF appendix limit (96/255 codes)'
   applicable_models:
   - SIM800L
   tags:
@@ -6549,7 +6549,7 @@
   - cms
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_03_0250
   category: CMS
   error_type: CMS
@@ -6569,7 +6569,7 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (broad retry).
+  notes: 'Extracted from AT Manual V1.01 (broad retry). | limit_reason: PDF appendix limit (96/255 codes)'
   applicable_models:
   - SIM800L
   tags:
@@ -6577,7 +6577,7 @@
   - cms
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_03_0251
   category: CMS
   error_type: CMS
@@ -6597,7 +6597,7 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (broad retry).
+  notes: 'Extracted from AT Manual V1.01 (broad retry). | limit_reason: PDF appendix limit (96/255 codes)'
   applicable_models:
   - SIM800L
   tags:
@@ -6605,7 +6605,7 @@
   - cms
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_03_0252
   category: CMS
   error_type: CMS
@@ -6625,7 +6625,7 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (broad retry).
+  notes: 'Extracted from AT Manual V1.01 (broad retry). | limit_reason: PDF appendix limit (96/255 codes)'
   applicable_models:
   - SIM800L
   tags:
@@ -6633,7 +6633,7 @@
   - cms
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_03_0253
   category: CMS
   error_type: CMS
@@ -6653,7 +6653,7 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (broad retry).
+  notes: 'Extracted from AT Manual V1.01 (broad retry). | limit_reason: PDF appendix limit (96/255 codes)'
   applicable_models:
   - SIM800L
   tags:
@@ -6661,7 +6661,7 @@
   - cms
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_03_0254
   category: CMS
   error_type: CMS
@@ -6681,7 +6681,7 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (broad retry).
+  notes: 'Extracted from AT Manual V1.01 (broad retry). | limit_reason: PDF appendix limit (96/255 codes)'
   applicable_models:
   - SIM800L
   tags:
@@ -6689,7 +6689,7 @@
   - cms
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'
 - id: dat_03_0255
   category: CMS
   error_type: CMS
@@ -6709,7 +6709,7 @@
   confidence: 0.6
   status: partial
   conflicts: []
-  notes: Extracted from AT Manual V1.01 (broad retry).
+  notes: 'Extracted from AT Manual V1.01 (broad retry). | limit_reason: PDF appendix limit (96/255 codes)'
   applicable_models:
   - SIM800L
   tags:
@@ -6717,4 +6717,4 @@
   - cms
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:51:50Z'

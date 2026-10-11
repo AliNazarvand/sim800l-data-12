@@ -9,13 +9,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '310'
   mnc: '260'
   country: United States
@@ -45,13 +45,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '310'
   mnc: '410'
   country: United States
@@ -81,13 +81,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '310'
   mnc: '150'
   country: United States
@@ -117,13 +117,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '310'
   mnc: '030'
   country: United States
@@ -153,13 +153,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '311'
   mnc: '480'
   country: United States
@@ -189,13 +189,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '234'
   mnc: '15'
   country: United Kingdom
@@ -225,13 +225,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '234'
   mnc: '10'
   country: United Kingdom
@@ -261,13 +261,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '234'
   mnc: '20'
   country: United Kingdom
@@ -297,13 +297,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '234'
   mnc: '30'
   country: United Kingdom
@@ -333,13 +333,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '234'
   mnc: '33'
   country: United Kingdom
@@ -369,13 +369,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '262'
   mnc: '01'
   country: Germany
@@ -405,13 +405,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '262'
   mnc: '02'
   country: Germany
@@ -441,13 +441,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '262'
   mnc: '03'
   country: Germany
@@ -477,13 +477,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '262'
   mnc: '07'
   country: Germany
@@ -513,13 +513,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '208'
   mnc: '01'
   country: France
@@ -549,13 +549,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '208'
   mnc: '10'
   country: France
@@ -585,13 +585,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '208'
   mnc: '20'
   country: France
@@ -621,13 +621,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '222'
   mnc: '01'
   country: Italy
@@ -657,13 +657,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '222'
   mnc: '10'
   country: Italy
@@ -693,13 +693,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '222'
   mnc: '88'
   country: Italy
@@ -729,13 +729,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '214'
   mnc: '01'
   country: Spain
@@ -765,13 +765,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '214'
   mnc: '03'
   country: Spain
@@ -801,13 +801,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '214'
   mnc: '07'
   country: Spain
@@ -837,13 +837,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '204'
   mnc: '04'
   country: Netherlands
@@ -873,13 +873,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '204'
   mnc: 08
   country: Netherlands
@@ -909,13 +909,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '204'
   mnc: '16'
   country: Netherlands
@@ -945,13 +945,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '286'
   mnc: '01'
   country: Turkey
@@ -981,13 +981,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '286'
   mnc: '02'
   country: Turkey
@@ -1017,13 +1017,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '286'
   mnc: '03'
   country: Turkey
@@ -1053,13 +1053,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '432'
   mnc: '11'
   country: Iran
@@ -1089,13 +1089,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '432'
   mnc: '35'
   country: Iran
@@ -1125,13 +1125,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '432'
   mnc: '14'
   country: Iran
@@ -1161,13 +1161,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '440'
   mnc: '10'
   country: Japan
@@ -1197,13 +1197,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '440'
   mnc: '20'
   country: Japan
@@ -1233,13 +1233,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '440'
   mnc: '50'
   country: Japan
@@ -1269,13 +1269,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '450'
   mnc: '05'
   country: South Korea
@@ -1305,13 +1305,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '450'
   mnc: 08
   country: South Korea
@@ -1341,13 +1341,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '450'
   mnc: '06'
   country: South Korea
@@ -1377,13 +1377,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '460'
   mnc: '00'
   country: China
@@ -1413,13 +1413,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '460'
   mnc: '01'
   country: China
@@ -1449,13 +1449,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '460'
   mnc: '03'
   country: China
@@ -1485,13 +1485,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '404'
   mnc: '10'
   country: India
@@ -1521,13 +1521,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '404'
   mnc: '45'
   country: India
@@ -1557,13 +1557,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '404'
   mnc: '20'
   country: India
@@ -1593,13 +1593,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '404'
   mnc: '11'
   country: India
@@ -1629,13 +1629,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '405'
   mnc: '840'
   country: India
@@ -1665,13 +1665,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '505'
   mnc: '01'
   country: Australia
@@ -1701,13 +1701,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '505'
   mnc: '02'
   country: Australia
@@ -1737,13 +1737,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '505'
   mnc: '03'
   country: Australia
@@ -1773,13 +1773,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '724'
   mnc: '05'
   country: Brazil
@@ -1809,13 +1809,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '724'
   mnc: '06'
   country: Brazil
@@ -1845,13 +1845,13 @@
   confidence: 0.0
   status: unknown
   conflicts: []
-  notes: external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com
+  notes: 'external reference; برای کامل شدن نیاز به تطبیق دقیق با mcc-mnc.com | limit_reason: External source only (52/52)'
   tags:
   - mcc/mnc
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T15:24:03Z'
-  updated_at: '2026-10-11T17:47:29Z'
+  updated_at: '2026-10-11T17:51:51Z'
   mcc: '724'
   mnc: '10'
   country: Brazil
