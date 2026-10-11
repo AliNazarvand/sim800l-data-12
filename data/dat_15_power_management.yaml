@@ -8,12 +8,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Needs sleep mode app note.
+  notes: Needs sleep mode app note. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:30:03Z'
   coverage_estimate: low
 - id: dat_15_9001
   category: Power Consumption

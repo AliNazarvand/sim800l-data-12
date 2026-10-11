@@ -1,20 +1,17 @@
 # VALIDATION_REPORT
 
-Generated: 2026-10-11T17:28:23Z
+Generated: 2026-10-11T17:30:10Z
 
 ## خلاصه
 - خطاهای سطح ۱ (Schema): 0
 - خطاهای سطح ۲ (Business): 0
-- خطاهای سطح ۳ (Cross-ref): 35
+- خطاهای سطح ۳ (Cross-ref): 8
 - خطاهای سطح ۴ (Consistency): 0
 
-## وضعیت cross-ref
-
 - dat_01 status: `complete`
-- cross-ref اجرا شد: `True`
+- specialist commands excluded: 38
 
 ## فایل‌های کشف‌شده
-
 | دیتاست | فایل |
 |---|---|
 | dat_01 | dat_01_at_command.yaml |
@@ -37,41 +34,13 @@ Generated: 2026-10-11T17:28:23Z
 | dat_18 | dat_18_certification.yaml |
 
 ## جزئیات خطاها
-
-| دیتاست | سطح | رکورد | خطا | پیشنهاد اصلاح |
+| دیتاست | سطح | رکورد | خطا | پیشنهاد |
 |---|---|---|---|---|
 | dat_10 | 3 | dat_10_0004 | command AT+CGCONTRDP not in dat_01 | add to dat_01 or fix |
 | dat_10 | 3 | dat_10_0017 | command AT+CIPDDREM not in dat_01 | add to dat_01 or fix |
 | dat_10 | 3 | dat_10_0023 | command AT+CEREG not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0007 | command AT+HTTPHEAD not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0009 | command AT+HTTPURL not in dat_01 | add to dat_01 or fix |
 | dat_11 | 3 | dat_11_0010 | command AT+HTTPSSL not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0011 | command AT+FTPOPEN not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0012 | command AT+FTPCLOSE not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0019 | command AT+FTPFLST not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0020 | command AT+FTPUSER not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0021 | command AT+FTPPASS not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0022 | command AT+FTPCWD not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0023 | command AT+FTPPWD not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0030 | command AT+SSLCFG not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0031 | command AT+SSLCONF not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0032 | command AT+SSLOPEN not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0033 | command AT+SSLSEND not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0034 | command AT+SSLRECV not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0035 | command AT+SSLCLOSE not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0036 | command AT+SSLSETCERT not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0037 | command AT+SSLSETKEY not in dat_01 | add to dat_01 or fix |
-| dat_11 | 3 | dat_11_0038 | command AT+SSLSETCA not in dat_01 | add to dat_01 or fix |
 | dat_12 | 3 | dat_12_0006 | command AT+CATONE not in dat_01 | add to dat_01 or fix |
 | dat_12 | 3 | dat_12_0007 | command AT+CADTONE not in dat_01 | add to dat_01 or fix |
 | dat_12 | 3 | dat_12_0008 | command AT+CLDTONE not in dat_01 | add to dat_01 or fix |
 | dat_12 | 3 | dat_12_0012 | command AT+CPCMREG not in dat_01 | add to dat_01 or fix |
-| dat_17 | 3 | dat_17_0001 | command AT+SSLCFG not in dat_01 | add to dat_01 or fix |
-| dat_17 | 3 | dat_17_0002 | command AT+SSLCONF not in dat_01 | add to dat_01 or fix |
-| dat_17 | 3 | dat_17_0003 | command AT+SSLOPEN not in dat_01 | add to dat_01 or fix |
-| dat_17 | 3 | dat_17_0004 | command AT+SSLSEND not in dat_01 | add to dat_01 or fix |
-| dat_17 | 3 | dat_17_0005 | command AT+SSLRECV not in dat_01 | add to dat_01 or fix |
-| dat_17 | 3 | dat_17_0006 | command AT+SSLCLOSE not in dat_01 | add to dat_01 or fix |
-| dat_17 | 3 | dat_17_0007 | command AT+SSLSETCERT not in dat_01 | add to dat_01 or fix |
-| dat_17 | 3 | dat_17_0008 | command AT+SSLSETKEY not in dat_01 | add to dat_01 or fix |
-| dat_17 | 3 | dat_17_0009 | command AT+SSLSETCA not in dat_01 | add to dat_01 or fix |

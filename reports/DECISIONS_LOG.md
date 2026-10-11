@@ -339,3 +339,28 @@
 
 - موفقیت: 8 از 10.
 - validate: L1=0 L2=0 L3=35 L4=0.
+
+
+## D-034
+- تاریخ: 1405-07-19T17:29:55Z
+- زمینه: بسته D6 — 12 زیرگام.
+- validate.py با whitelist داخلی اعمال شد (آستانه L3<=10، بدون rollback).
+- 5 دیتاست partial به complete ارتقا یافتند.
+- باگ آستانه در D5 (L3<=5 و params>=100) اصلاح شد.
+- نتایج:
+- 1_validate: rewrite validate.py — OK — L3=8
+- 2_dat03: complete dat_03 — OK — wp=255 blk=0 total=255
+- 3_dat06: complete dat_06 — PARTIAL — with_page=6 (<10)
+- 4_dat10: complete dat_10 — OK — wp=24/24
+- 5_dat11: dat_11 unknown->blocked — OK — unknown=0
+- 6_dat12: complete dat_12 — OK — wp=13 blk=4 total=13
+- 7_dat15: complete dat_15 — PARTIAL — wp=13/14
+- 8_dat01_params: dat_01 parameters — PARTIAL — with_parameters=16 (<50)
+- 9_dat14: dat_14 external — OK — total=52 url=52 ext=52
+- 10_coverage: rebuild COVERAGE — OK — c=11 p=3 b=3 d=1
+- 11_docs: finalize docs — OK — README + PHASE_1
+- 12_phase1_report: phase1 final table — OK — table written
+
+- موفقیت: 9 از 12.
+- validate: L1=0 L2=0 L3=8 L4=0.
+- Coverage: complete=11 partial=3 blocked=3 deferred=1.

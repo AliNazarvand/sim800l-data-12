@@ -9663,7 +9663,10 @@
   command: +CME
   mode: exec
   syntax: AT+CME
-  parameters: []
+  parameters:
+  - name: err
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9692,13 +9695,16 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0278
   category: General
   command: +CEXTHS
   mode: exec
   syntax: AT+CEXTHS
-  parameters: []
+  parameters:
+  - name: mode
+    type: integer
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9727,13 +9733,16 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0279
   category: General
   command: +CEXTBUT
   mode: exec
   syntax: AT+CEXTBUT
-  parameters: []
+  parameters:
+  - name: mode
+    type: integer
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9762,13 +9771,16 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0281
   category: General
   command: +CRING
   mode: exec
   syntax: AT+CRING
-  parameters: []
+  parameters:
+  - name: type
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9797,13 +9809,31 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0282
   category: General
   command: +CBPF
   mode: exec
   syntax: AT+CBPF
-  parameters: []
+  parameters:
+  - name: CR
+    type: string
+    description: ''
+  - name: LF
+    type: string
+    description: ''
+  - name: index2
+    type: string
+    description: ''
+  - name: number
+    type: string
+    description: ''
+  - name: type
+    type: string
+    description: ''
+  - name: text
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9832,7 +9862,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0283
   category: General
   command: +CCWV
@@ -9873,7 +9903,13 @@
   command: +CSSI
   mode: exec
   syntax: AT+CSSI
-  parameters: []
+  parameters:
+  - name: code1
+    type: string
+    description: ''
+  - name: index
+    type: integer
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9902,13 +9938,16 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0285
   category: General
   command: +CSSU
   mode: exec
   syntax: AT+CSSU
-  parameters: []
+  parameters:
+  - name: code2
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9937,13 +9976,16 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0286
   category: General
   command: +CMS
   mode: exec
   syntax: AT+CMS
-  parameters: []
+  parameters:
+  - name: err
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9972,13 +10014,19 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0287
   category: General
   command: +CMTI
   mode: exec
   syntax: AT+CMTI
-  parameters: []
+  parameters:
+  - name: mem
+    type: string
+    description: ''
+  - name: index
+    type: integer
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10007,7 +10055,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0288
   category: General
   command: +CMT
@@ -10048,7 +10096,19 @@
   command: +CBM
   mode: exec
   syntax: AT+CBM
-  parameters: []
+  parameters:
+  - name: length
+    type: string
+    description: ''
+  - name: CR
+    type: string
+    description: ''
+  - name: LF
+    type: string
+    description: ''
+  - name: pdu
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10077,7 +10137,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0290
   category: General
   command: +CDS
@@ -10190,7 +10250,10 @@
   command: +CALV
   mode: exec
   syntax: AT+CALV
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10219,7 +10282,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0294
   category: General
   command: +CTZV
@@ -10260,7 +10323,13 @@
   command: +GID
   mode: exec
   syntax: AT+GID
-  parameters: []
+  parameters:
+  - name: gid1
+    type: string
+    description: ''
+  - name: gid2
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10289,13 +10358,19 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0296
   category: Network
   command: +CSQN
   mode: exec
   syntax: AT+CSQN
-  parameters: []
+  parameters:
+  - name: rssi
+    type: string
+    description: ''
+  - name: ber
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10324,7 +10399,7 @@
   - auto-extracted
   - network
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0297
   category: General
   command: +CGMSCLA
@@ -10650,7 +10725,10 @@
   command: +RECEIVE
   mode: exec
   syntax: AT+RECEIVE
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10679,7 +10757,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0307
   category: GPRS
   command: +CIPSERVE
@@ -10720,7 +10798,10 @@
   command: +RECV
   mode: exec
   syntax: AT+RECV
-  parameters: []
+  parameters:
+  - name: PORT
+    type: integer
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10749,7 +10830,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0309
   category: GPRS
   command: +CIPUDPMOD
@@ -11215,7 +11296,10 @@
   command: +FTPTIMEOUT
   mode: exec
   syntax: AT+FTPTIMEOUT
-  parameters: []
+  parameters:
+  - name: value
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -11244,7 +11328,7 @@
   - auto-extracted
   - ftp
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-11T17:23:44Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0323
   category: General
   command: +FTSIZE

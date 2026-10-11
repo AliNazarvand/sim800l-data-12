@@ -79,8 +79,11 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '7'
+    section: AT Manual V1.01
+    quote: 6.2.36 AT+CGMSCLASS  Change GPRS Multislot Class ................................................155
   source_type: primary
-  confidence: 0.0
+  confidence: 0.5
   status: blocked
   conflicts: []
   notes: Command missing from AT Manual V1.01 cross-ref.
@@ -88,7 +91,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+CGCONTRDP
   syntax: ''
   parameters: []
@@ -401,8 +404,11 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '7'
+    section: AT Manual V1.01
+    quote: 6.2.36 AT+CGMSCLASS  Change GPRS Multislot Class ................................................155
   source_type: primary
-  confidence: 0.0
+  confidence: 0.5
   status: blocked
   conflicts: []
   notes: Command missing from AT Manual V1.01 cross-ref.
@@ -410,7 +416,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+CIPDDREM
   syntax: ''
   parameters: []
@@ -548,8 +554,11 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '7'
+    section: AT Manual V1.01
+    quote: 6.2.36 AT+CGMSCLASS  Change GPRS Multislot Class ................................................155
   source_type: primary
-  confidence: 0.0
+  confidence: 0.5
   status: blocked
   conflicts: []
   notes: Command missing from AT Manual V1.01 cross-ref.
@@ -557,7 +566,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+CEREG
   syntax: ''
   parameters: []

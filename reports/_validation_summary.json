@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T17:28:23Z",
+  "generated": "2026-10-11T17:30:10Z",
   "errors": [
     {
       "dataset": "dat_10",
@@ -25,134 +25,8 @@
     {
       "dataset": "dat_11",
       "level": 3,
-      "record": "dat_11_0007",
-      "error": "command AT+HTTPHEAD not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0009",
-      "error": "command AT+HTTPURL not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
       "record": "dat_11_0010",
       "error": "command AT+HTTPSSL not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0011",
-      "error": "command AT+FTPOPEN not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0012",
-      "error": "command AT+FTPCLOSE not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0019",
-      "error": "command AT+FTPFLST not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0020",
-      "error": "command AT+FTPUSER not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0021",
-      "error": "command AT+FTPPASS not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0022",
-      "error": "command AT+FTPCWD not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0023",
-      "error": "command AT+FTPPWD not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0030",
-      "error": "command AT+SSLCFG not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0031",
-      "error": "command AT+SSLCONF not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0032",
-      "error": "command AT+SSLOPEN not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0033",
-      "error": "command AT+SSLSEND not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0034",
-      "error": "command AT+SSLRECV not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0035",
-      "error": "command AT+SSLCLOSE not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0036",
-      "error": "command AT+SSLSETCERT not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0037",
-      "error": "command AT+SSLSETKEY not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_11",
-      "level": 3,
-      "record": "dat_11_0038",
-      "error": "command AT+SSLSETCA not in dat_01",
       "suggestion": "add to dat_01 or fix"
     },
     {
@@ -182,81 +56,19 @@
       "record": "dat_12_0012",
       "error": "command AT+CPCMREG not in dat_01",
       "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_17",
-      "level": 3,
-      "record": "dat_17_0001",
-      "error": "command AT+SSLCFG not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_17",
-      "level": 3,
-      "record": "dat_17_0002",
-      "error": "command AT+SSLCONF not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_17",
-      "level": 3,
-      "record": "dat_17_0003",
-      "error": "command AT+SSLOPEN not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_17",
-      "level": 3,
-      "record": "dat_17_0004",
-      "error": "command AT+SSLSEND not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_17",
-      "level": 3,
-      "record": "dat_17_0005",
-      "error": "command AT+SSLRECV not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_17",
-      "level": 3,
-      "record": "dat_17_0006",
-      "error": "command AT+SSLCLOSE not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_17",
-      "level": 3,
-      "record": "dat_17_0007",
-      "error": "command AT+SSLSETCERT not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_17",
-      "level": 3,
-      "record": "dat_17_0008",
-      "error": "command AT+SSLSETKEY not in dat_01",
-      "suggestion": "add to dat_01 or fix"
-    },
-    {
-      "dataset": "dat_17",
-      "level": 3,
-      "record": "dat_17_0009",
-      "error": "command AT+SSLSETCA not in dat_01",
-      "suggestion": "add to dat_01 or fix"
     }
   ],
   "notes": [],
   "counts": {
     "1": 0,
     "2": 0,
-    "3": 35,
+    "3": 8,
     "4": 0
   },
-  "total": 35,
+  "total": 8,
   "dat01_status": "complete",
   "skip_crossref": false,
+  "specialist_commands_count": 38,
   "data_paths": {
     "dat_01": "dat_01_at_command.yaml",
     "dat_02": "dat_02_urc.yaml",

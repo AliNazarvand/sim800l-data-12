@@ -169,6 +169,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '6'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'TABLE 7: ELECTRONIC CHARACTERISTIC OF THE RESET PIN..........................................................................26'
   source_type: primary
   confidence: 0.45
   status: inferred
@@ -178,7 +181,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:30:02Z'
   step_order: 7
   command: AT+CSTT="apn"
   expected_response: OK

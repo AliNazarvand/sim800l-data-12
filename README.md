@@ -5,11 +5,11 @@ Structured, sourced, reproducible dataset for SIM800L.
 ## Validation
 - L1 (Schema): 0
 - L2 (Business): 0
-- L3 (Cross-ref): 35
+- L3 (Cross-ref): 8
 - L4 (Consistency): 0
 
 ## Datasets
-See reports/COVERAGE_MATRIX.md for status per dataset.
+See reports/COVERAGE_MATRIX.md.
 
 ## Reports
 - reports/COVERAGE_MATRIX.md

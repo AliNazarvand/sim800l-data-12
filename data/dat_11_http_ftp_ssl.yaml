@@ -158,12 +158,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+HTTPHEAD
   syntax: ''
   parameters: []
@@ -205,12 +205,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+HTTPURL
   syntax: ''
   parameters: []
@@ -227,12 +227,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+HTTPSSL
   syntax: ''
   parameters: []
@@ -249,12 +249,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPOPEN
   syntax: ''
   parameters: []
@@ -271,12 +271,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPCLOSE
   syntax: ''
   parameters: []
@@ -339,6 +339,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '10'
+    section: AT Manual V1.01
+    quote: 12.2.17 AT+FTPDELE  Delete Sp ecified File in FTP Server.............................................231
   source_type: primary
   confidence: 0.85
   status: complete
@@ -348,7 +351,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPDELE
   syntax: AT+FTPDELE
   parameters: []
@@ -361,6 +364,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '10'
+    section: AT Manual V1.01
+    quote: 12.2.21 AT+FTPMKD  Make Directory on the Remote Machine ......................................233
   source_type: primary
   confidence: 0.85
   status: complete
@@ -370,7 +376,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPMKD
   syntax: AT+FTPMKD
   parameters: []
@@ -383,6 +389,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '10'
+    section: AT Manual V1.01
+    quote: 12.2.22 AT+FTPRMD  Remove Directory on the Remote Machine ..................................234
   source_type: primary
   confidence: 0.85
   status: complete
@@ -392,7 +401,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPRMD
   syntax: AT+FTPRMD
   parameters: []
@@ -405,6 +414,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '10'
+    section: AT Manual V1.01
+    quote: 12.2.23 AT+FTPLIST  List Contents of Directory on the Remote Machine.......................234
   source_type: primary
   confidence: 0.85
   status: complete
@@ -414,7 +426,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPLIST
   syntax: AT+FTPLIST
   parameters: []
@@ -431,12 +443,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPFLST
   syntax: ''
   parameters: []
@@ -453,12 +465,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPUSER
   syntax: ''
   parameters: []
@@ -475,12 +487,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPPASS
   syntax: ''
   parameters: []
@@ -497,12 +509,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPCWD
   syntax: ''
   parameters: []
@@ -519,12 +531,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPPWD
   syntax: ''
   parameters: []
@@ -562,6 +574,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: AT Manual V1.01
+    quote: 12.2.2 AT+FTPMODE  Set Active or Passive FTP Mode ..................................................221
   source_type: primary
   confidence: 0.85
   status: complete
@@ -571,7 +586,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPMODE
   syntax: AT+FTPMODE
   parameters: []
@@ -584,6 +599,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: AT Manual V1.01
+    quote: 12.2.4 AT+FTPPUTOPT  Set FTP Put Type .......................................................................222
   source_type: primary
   confidence: 0.85
   status: complete
@@ -593,7 +611,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPPUTOPT
   syntax: AT+FTPPUTOPT
   parameters: []
@@ -606,6 +624,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '10'
+    section: AT Manual V1.01
+    quote: 12.2.11 AT+FTPGETPATH  Set Download File Path .........................................................226
   source_type: primary
   confidence: 0.85
   status: complete
@@ -615,7 +636,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPGETPATH
   syntax: AT+FTPGETPATH
   parameters: []
@@ -628,6 +649,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '10'
+    section: AT Manual V1.01
+    quote: 12.2.13 AT+FTPPUTPATH  Set Upload File Path ..............................................................227
   source_type: primary
   confidence: 0.85
   status: complete
@@ -637,7 +661,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPPUTPATH
   syntax: AT+FTPPUTPATH
   parameters: []
@@ -650,6 +674,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '9'
+    section: AT Manual V1.01
+    quote: 12.2.1 AT+FTPPORT  Set FTP Control Port ......................................................................220
   source_type: primary
   confidence: 0.85
   status: complete
@@ -659,7 +686,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+FTPPORT
   syntax: AT+FTPPORT
   parameters: []
@@ -676,12 +703,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+SSLCFG
   syntax: ''
   parameters: []
@@ -698,12 +725,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+SSLCONF
   syntax: ''
   parameters: []
@@ -720,12 +747,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+SSLOPEN
   syntax: ''
   parameters: []
@@ -742,12 +769,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+SSLSEND
   syntax: ''
   parameters: []
@@ -764,12 +791,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+SSLRECV
   syntax: ''
   parameters: []
@@ -786,12 +813,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+SSLCLOSE
   syntax: ''
   parameters: []
@@ -808,12 +835,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+SSLSETCERT
   syntax: ''
   parameters: []
@@ -830,12 +857,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+SSLSETKEY
   syntax: ''
   parameters: []
@@ -852,12 +879,12 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: Command missing from AT Manual V1.01 cross-ref.
+  notes: Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:23:46Z'
+  updated_at: '2026-10-11T17:30:02Z'
   command: AT+SSLSETCA
   syntax: ''
   parameters: []
