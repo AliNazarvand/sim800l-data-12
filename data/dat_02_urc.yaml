@@ -7948,7 +7948,8 @@
   related_state: null
   format: through serial port after SIM800 Series is powered on and Unsolicited Result Code "RDY"
   parameters: []
-  examples: []
+  examples:
+  - through serial port after SIM800 Series is powered on and Unsolicited Result Code "RDY"
   timing: null
   suppression_method: null
   source:
@@ -7969,7 +7970,7 @@
   - urc
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T17:17:20Z'
+  updated_at: '2026-10-11T17:32:27Z'
 - id: dat_02_0205
   category: URC
   urc_string: RING
@@ -7977,8 +7978,12 @@
   related_command: null
   related_state: null
   format: AT+CBUZZERRING <mode> Y
-  parameters: []
-  examples: []
+  parameters:
+  - name: mode
+    type: string
+    description: ''
+  examples:
+  - AT+CBUZZERRING <mode> Y
   timing: null
   suppression_method: null
   source:
@@ -7999,7 +8004,7 @@
   - urc
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:27Z'
 - id: dat_02_0206
   category: URC
   urc_string: '+PDP: DEACT'
@@ -8008,7 +8013,8 @@
   related_state: null
   format: 'If "+PDP: DEACT" urc is reported which means the gprs is released by the'
   parameters: []
-  examples: []
+  examples:
+  - 'If "+PDP: DEACT" urc is reported which means the gprs is released by the'
   timing: null
   suppression_method: null
   source:
@@ -8029,4 +8035,4 @@
   - urc
   - extracted
   created_at: '2026-10-11T16:40:35Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:27Z'

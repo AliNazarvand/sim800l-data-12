@@ -3167,10 +3167,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: 5.2.8 +STKPCI  STK Proactive Command Indication .......................................................127
+    page: '6'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -3180,7 +3182,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0092
   category: General
   command: +STKMENU
@@ -9661,7 +9663,10 @@
   command: +CME
   mode: exec
   syntax: AT+CME
-  parameters: []
+  parameters:
+  - name: err
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9675,10 +9680,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: '+CME ERROR: <err>'
+    page: '23'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -9688,13 +9695,16 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0278
   category: General
   command: +CEXTHS
   mode: exec
   syntax: AT+CEXTHS
-  parameters: []
+  parameters:
+  - name: mode
+    type: integer
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9708,10 +9718,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: AT+CGREG <n> Y SIM800 Series_AT Command Manual_V1.01 39 2013-07-23 Smart Machine Smart Decision AT+CMEE <n> Y AT+CSCLK <n> Y AT+CIURC <mode> Y AT+CFGRI <mode> Y AT+CMTE <mode> Y AT+STKPCIS <switch> Y AT+CMGF <mode> Y AT+CNMI <mode>,<mt>,<bm>,<ds>,<bfr> Y AT+CSCS <chest> Y AT+VTD <n> Y AT+CALS <n> Y AT+CEXTHS <mode> Y AT+CEXTBUT <mode> Y AT+CHF <ind> Y AT+CAAS <mode> Y AT+CBUZZERRING <mode> Y AT+DD
+    quote: AT+CEXTHS <mode> Y
+    page: '40'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -9721,13 +9733,16 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0279
   category: General
   command: +CEXTBUT
   mode: exec
   syntax: AT+CEXTBUT
-  parameters: []
+  parameters:
+  - name: mode
+    type: integer
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9741,10 +9756,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CEXTBUT <mode> Y
+    page: '40'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -9754,13 +9771,16 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0281
   category: General
   command: +CRING
   mode: exec
   syntax: AT+CRING
-  parameters: []
+  parameters:
+  - name: type
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9774,10 +9794,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: '(or +CRING: <type>) at a mobile terminating call.'
+    page: '66'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -9787,13 +9809,31 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0282
   category: General
   command: +CBPF
   mode: exec
   syntax: AT+CBPF
-  parameters: []
+  parameters:
+  - name: CR
+    type: string
+    description: ''
+  - name: LF
+    type: string
+    description: ''
+  - name: index2
+    type: string
+    description: ''
+  - name: number
+    type: string
+    description: ''
+  - name: type
+    type: string
+    description: ''
+  - name: text
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9807,10 +9847,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: '[[…]<CR><LF>+CBPF:<index2>,<number>,<type>,<text>]'
+    page: '72'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -9820,7 +9862,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0283
   category: General
   command: +CCWV
@@ -9840,10 +9882,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: +CCWV  Shortly before the ACM (Accumulated Call Meter)
+    page: '97'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -9853,13 +9897,19 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0284
   category: General
   command: +CSSI
   mode: exec
   syntax: AT+CSSI
-  parameters: []
+  parameters:
+  - name: code1
+    type: string
+    description: ''
+  - name: index
+    type: integer
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9873,10 +9923,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: +CSSI:<code1>[,<index>] result code presentation status after a mobile
+    page: '99'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -9886,13 +9938,16 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0285
   category: General
   command: +CSSU
   mode: exec
   syntax: AT+CSSU
-  parameters: []
+  parameters:
+  - name: code2
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9906,10 +9961,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: +CSSU:<code2> result code presentation status during a mobile
+    page: '99'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -9919,13 +9976,16 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0286
   category: General
   command: +CMS
   mode: exec
   syntax: AT+CMS
-  parameters: []
+  parameters:
+  - name: err
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9939,10 +9999,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: +CMS ERROR:<err>
+    page: '102'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -9952,13 +10014,19 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0287
   category: General
   command: +CMTI
   mode: exec
   syntax: AT+CMTI
-  parameters: []
+  parameters:
+  - name: mem
+    type: string
+    description: ''
+  - name: index
+    type: integer
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -9972,10 +10040,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: '+CMTI: <mem>,<index>'
+    page: '113'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -9985,7 +10055,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0288
   category: General
   command: +CMT
@@ -10005,10 +10075,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: 'the TE using unsolicited result code: +CMT:'
+    page: '113'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10018,13 +10090,25 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0289
   category: General
   command: +CBM
   mode: exec
   syntax: AT+CBM
-  parameters: []
+  parameters:
+  - name: length
+    type: string
+    description: ''
+  - name: CR
+    type: string
+    description: ''
+  - name: LF
+    type: string
+    description: ''
+  - name: pdu
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10038,10 +10122,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: 'unsolicited result code: +CBM: <length><CR><LF><pdu> (PDU mode'
+    page: '114'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10051,7 +10137,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0290
   category: General
   command: +CDS
@@ -10071,10 +10157,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: 'unsolicited result code: +CDS:'
+    page: '114'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10084,7 +10172,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0291
   category: General
   command: +STKTR
@@ -10104,10 +10192,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: For more detail used, can refer AT+STKTR command
+    page: '124'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -10118,7 +10208,7 @@
   - general
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0292
   category: General
   command: +STKENV
@@ -10138,10 +10228,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: -Item identifier of main menu If command is ‘D6’ --specified in GSM11.14[11] -event list - '04' = User activity - '05' = Idle screen available - '07' = Language selection SIM800 Series_AT Command Manual_V1.01 124 2013-07-23 Smart Machine Smart Decision Reference Note For more detail used, can refer AT+STKENV command 5.2.3 AT+STKCALL STK call setup AT+STKCALL STK call setup Test Command Response AT
+    quote: For more detail used, can refer AT+STKENV command
+    page: '125'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -10152,13 +10244,16 @@
   - general
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0293
   category: General
   command: +CALV
   mode: exec
   syntax: AT+CALV
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10172,10 +10267,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: '+CALV: <n>'
+    page: '134'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10185,7 +10282,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0294
   category: General
   command: +CTZV
@@ -10205,10 +10302,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: '+CTZV: "<time zone>"'
+    page: '138'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10218,13 +10317,19 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0295
   category: General
   command: +GID
   mode: exec
   syntax: AT+GID
-  parameters: []
+  parameters:
+  - name: gid1
+    type: string
+    description: ''
+  - name: gid2
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10238,10 +10343,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: '+GID: <gid1>,<gid2>'
+    page: '151'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10251,13 +10358,19 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0296
   category: Network
   command: +CSQN
   mode: exec
   syntax: AT+CSQN
-  parameters: []
+  parameters:
+  - name: rssi
+    type: string
+    description: ''
+  - name: ber
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10271,10 +10384,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: '+CSQN: <rssi>,<ber>'
+    page: '294'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10284,7 +10399,7 @@
   - auto-extracted
   - network
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0297
   category: General
   command: +CGMSCLA
@@ -10304,10 +10419,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CGMSCLA
+    page: '155'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10317,7 +10434,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0298
   category: General
   command: +CBUZZER
@@ -10337,10 +10454,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CBUZZER
+    page: '164'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -10351,7 +10470,7 @@
   - general
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0299
   category: General
   command: +CEXTERN
@@ -10371,10 +10490,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CEXTERN
+    page: '165'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -10385,7 +10506,7 @@
   - general
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0300
   category: General
   command: +CEXTERNT
@@ -10405,10 +10526,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CEXTERNT
+    page: '165'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -10419,7 +10542,7 @@
   - general
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0301
   category: General
   command: +CNETLIGH
@@ -10439,10 +10562,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ameter See Write Command Write Command Response AT+CEXTERNT OK ONE=<mode> ERROR Parameter <mode> 0 re-open the microphone 1 close the microphone Reference Note 6.2.51 AT+CNETLIGHT Close the Net Light or Open It to Shining AT+CNETLIGHT Close the Net Light or Open It to Shining Write Command Response AT+CNETLIGH OK T=<mode> ERROR Parameter <mode> 0 close the net light 1 open the net light to shining
+    quote: AT+CNETLIGH
+    page: '165'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -10453,7 +10578,7 @@
   - general
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0302
   category: General
   command: +CWHITELI
@@ -10473,10 +10598,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CWHITELI
+    page: '166'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10486,7 +10613,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0303
   category: General
   command: +PDP
@@ -10506,10 +10633,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: 'If "+PDP: DEACT" urc is reported which means the gprs is released by the'
+    page: '188'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10519,7 +10648,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0304
   category: GPRS
   command: +CIPSTATU
@@ -10539,10 +10668,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CIPSTATU
+    page: '191'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -10553,7 +10684,7 @@
   - gprs
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0305
   category: General
   command: +IPD
@@ -10573,10 +10704,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: '+IPD,<data length>:'
+    page: '194'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10586,13 +10719,16 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0306
   category: General
   command: +RECEIVE
   mode: exec
   syntax: AT+RECEIVE
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10606,10 +10742,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: '+RECEIVE,<n>,<data length>:'
+    page: '194'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10619,7 +10757,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0307
   category: GPRS
   command: +CIPSERVE
@@ -10639,10 +10777,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CIPSERVE
+    page: '195'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10652,13 +10792,16 @@
   - auto-extracted
   - gprs
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0308
   category: General
   command: +RECV
   mode: exec
   syntax: AT+RECV
-  parameters: []
+  parameters:
+  - name: PORT
+    type: integer
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -10672,10 +10815,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: +RECV FROM:<IP ADDRESS>:<PORT>
+    page: '198'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10685,7 +10830,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0309
   category: GPRS
   command: +CIPUDPMOD
@@ -10705,10 +10850,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CIPUDPMOD
+    page: '201'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10718,7 +10865,7 @@
   - auto-extracted
   - gprs
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0310
   category: GPRS
   command: +CIPRDTIM
@@ -10738,10 +10885,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CIPRDTIM
+    page: '205'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10751,7 +10900,7 @@
   - auto-extracted
   - gprs
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0311
   category: HTTP
   command: +HTTPTER
@@ -10771,10 +10920,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+HTTPTER
+    page: '212'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -10785,7 +10936,7 @@
   - http
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0312
   category: HTTP
   command: +HTTPACTI
@@ -10805,10 +10956,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+HTTPACTI
+    page: '215'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -10819,7 +10972,7 @@
   - http
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0313
   category: HTTP
   command: +HTTPREA
@@ -10839,10 +10992,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+HTTPREA
+    page: '217'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10852,7 +11007,7 @@
   - auto-extracted
   - http
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0314
   category: HTTP
   command: +HTTPSCON
@@ -10872,10 +11027,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+HTTPSCON
+    page: '218'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -10886,7 +11043,7 @@
   - http
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0315
   category: HTTP
   command: +HTTPSTAT
@@ -10906,10 +11063,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+HTTPSTAT
+    page: '219'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -10920,7 +11079,7 @@
   - http
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0316
   category: FTP
   command: +FTPMOD
@@ -10940,10 +11099,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+FTPMOD=?
+    page: '221'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -10954,7 +11115,7 @@
   - ftp
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0317
   category: FTP
   command: +FTPPUTOP
@@ -10974,10 +11135,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+FTPPUTOP
+    page: '222'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -10987,7 +11150,7 @@
   - auto-extracted
   - ftp
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0318
   category: FTP
   command: +FTPGETNA
@@ -11007,10 +11170,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+FTPGETNA
+    page: '226'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -11020,7 +11185,7 @@
   - auto-extracted
   - ftp
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0319
   category: FTP
   command: +FTPGETPA
@@ -11040,10 +11205,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+FTPGETPA
+    page: '226'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -11053,7 +11220,7 @@
   - auto-extracted
   - ftp
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0320
   category: FTP
   command: +FTPPUTNA
@@ -11073,10 +11240,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+FTPPUTNA
+    page: '227'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -11086,7 +11255,7 @@
   - auto-extracted
   - ftp
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0321
   category: FTP
   command: +FTPPUTPA
@@ -11106,10 +11275,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+FTPPUTPA
+    page: '227'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -11119,13 +11290,16 @@
   - auto-extracted
   - ftp
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0322
   category: FTP
   command: +FTPTIMEOUT
   mode: exec
   syntax: AT+FTPTIMEOUT
-  parameters: []
+  parameters:
+  - name: value
+    type: string
+    description: ''
   response_success: OK
   response_error: ERROR
   examples:
@@ -11139,10 +11313,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: '+FTPTIMEOUT: <value>'
+    page: '230'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -11152,7 +11328,7 @@
   - auto-extracted
   - ftp
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:30:04Z'
 - id: dat_01_0323
   category: General
   command: +FTSIZE
@@ -11172,10 +11348,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+FTSIZE=?
+    page: '231'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -11186,7 +11364,7 @@
   - general
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0324
   category: General
   command: +POP3REST
@@ -11206,10 +11384,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: '+POP3REST: 0'
+    page: '256'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -11219,7 +11399,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0325
   category: General
   command: +CMMSSENDC
@@ -11239,10 +11419,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CMMSSENDC
+    page: '261'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -11252,7 +11434,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0326
   category: General
   command: +CMMSDELFI
@@ -11272,10 +11454,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CMMSDELFI
+    page: '264'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -11286,7 +11470,7 @@
   - general
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0327
   category: General
   command: +CMMSDELRE
@@ -11306,10 +11490,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CMMSDELRE
+    page: '267'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -11319,7 +11505,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0328
   category: General
   command: +CMMSDELBC
@@ -11339,10 +11525,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CMMSDELBC
+    page: '268'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -11352,7 +11540,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0329
   category: General
   command: +CMMSRDPUS
@@ -11372,10 +11560,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CMMSRDPUS
+    page: '271'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -11386,7 +11576,7 @@
   - general
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0330
   category: General
   command: +CMMSPROFI
@@ -11406,10 +11596,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CMMSPROFI
+    page: '274'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -11419,7 +11611,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0331
   category: General
   command: +CMMSTIMEO
@@ -11439,10 +11631,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CMMSTIMEO
+    page: '274'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -11452,7 +11646,7 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0332
   category: General
   command: +CMMSSTATU
@@ -11472,10 +11666,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+CMMSSTATU
+    page: '275'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -11486,7 +11682,7 @@
   - general
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0333
   category: HTTP
   command: +HTTPACTIO
@@ -11506,10 +11702,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: AT+HTTPACTIO
+    page: '295'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -11520,7 +11718,7 @@
   - http
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0334
   category: General
   command: +CMMSSENDCF
@@ -11540,10 +11738,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ivate bearer profile AT+SAPBR=0,1 OK 20.14 EMAIL Commands Please refer to SIM800 Series_Email_Application Note.doc. 20.15 MMS Commands Demonstration Syntax Expect Result Initialization AT+CMMSINIT OK Configuration AT+CMMSCURL=“m OK msc.monternet.com” AT+CMMSCID=1 OK AT+CMMSPROTO=“ 10.0.0.172”,80 OK AT+CMMSSENDCF OK G=6,3,0,0,2,4 Active bearer profile AT+SAPBR=3,1,"Con OK type","GPRS" AT+SAPBR=3,1,
+    quote: AT+CMMSSENDCF
+    page: '307'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
@@ -11554,7 +11754,7 @@
   - general
   - weak-signal
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:34:47Z'
+  updated_at: '2026-10-11T17:23:44Z'
 - id: dat_01_0335
   category: General
   command: +DTMF
@@ -11574,10 +11774,12 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: unknown
-    quote: ''
+    quote: +DTMF:1
+    page: '309'
+    section: AT Manual V1.01
   source_type: primary
-  confidence: 0.0
-  status: unknown
+  confidence: 0.5
+  status: partial
   conflicts: []
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
@@ -11587,4 +11789,4 @@
   - auto-extracted
   - general
   created_at: '2026-10-10T20:26:13Z'
-  updated_at: '2026-10-10T20:26:13Z'
+  updated_at: '2026-10-11T17:23:44Z'

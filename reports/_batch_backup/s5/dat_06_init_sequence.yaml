@@ -4,6 +4,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '22'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: Customer can power on SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and
   source_type: primary
   confidence: 0.45
   status: inferred
@@ -13,7 +16,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:53Z'
   step_order: 1
   command: AT
   expected_response: OK
@@ -29,6 +32,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '3'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 4.2. Power on/off Scenarios.......................................................................................................22
   source_type: primary
   confidence: 0.45
   status: inferred
@@ -38,7 +44,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:53Z'
   step_order: 2
   command: ATE0
   expected_response: OK
@@ -54,6 +60,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '25'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 3) Power on the module.
   source_type: primary
   confidence: 0.45
   status: inferred
@@ -63,7 +72,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:53Z'
   step_order: 3
   command: AT+CPIN?
   expected_response: '+CPIN: READY'
@@ -79,6 +88,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '3'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 4.2. Power on/off Scenarios.......................................................................................................22
   source_type: primary
   confidence: 0.45
   status: inferred
@@ -88,7 +100,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:53Z'
   step_order: 4
   command: AT+CSQ
   expected_response: '+CSQ:'
@@ -129,6 +141,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '51'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'Note: Isink0 provide 6-current-level steps of up to 24mA.'
   source_type: primary
   confidence: 0.45
   status: inferred
@@ -138,7 +153,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:53Z'
   step_order: 6
   command: AT+CGATT=1
   expected_response: OK
@@ -154,6 +169,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '6'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'TABLE 7: ELECTRONIC CHARACTERISTIC OF THE RESET PIN..........................................................................26'
   source_type: primary
   confidence: 0.45
   status: inferred
@@ -163,7 +181,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:30:02Z'
   step_order: 7
   command: AT+CSTT="apn"
   expected_response: OK

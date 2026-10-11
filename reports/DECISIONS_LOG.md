@@ -364,3 +364,24 @@
 - موفقیت: 9 از 12.
 - validate: L1=0 L2=0 L3=8 L4=0.
 - Coverage: complete=11 partial=3 blocked=3 deferred=1.
+
+
+## D-035
+- تاریخ: 1405-07-19T17:32:22Z
+- زمینه: بسته D7 — عمق‌بخشی (parameters/recovery_steps/related_commands).
+- 10 زیرگام:
+- 1_dat01_params: dat_01 parameters — PARTIAL — with_parameters=16 (<100)
+- 2_dat02_params: dat_02 URC params — OK — with_parameters=204
+- 3_dat03_recovery: dat_03 recovery — OK — with_recovery=38
+- 4_dat05_related: dat_05 related_commands — OK — with_cmds=11
+- 5_dat06: dat_06 finalize — OK — unknown=0
+- 6_dat11: dat_11 finalize — OK — unknown=0
+- 7_dat15: dat_15 finalize — OK — unknown=0
+- 8_coverage: rebuild COVERAGE depth — OK — c=11 p=3 b=3 d=1
+- 9_docs: finalize docs — OK — README + PHASE_1 updated
+- 10_phase1_table: phase1 table v2 — OK — written
+
+- موفقیت: 9 از 10.
+- validate: L1=0 L2=0 L3=8 L4=0.
+- Coverage: complete=11 partial=3 blocked=3 deferred=1.
+- Depth column added to COVERAGE_MATRIX.

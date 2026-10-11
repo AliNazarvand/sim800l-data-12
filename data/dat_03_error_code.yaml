@@ -250,13 +250,16 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 10
   meaning: AT Commands for PING Support
   description: AT Commands for PING Support
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id001
+  - Check SIM card is inserted correctly
+  - Check SIM card is not damaged
+  - Restart module with AT+CFUN=1,1
   coverage_estimate: high
 - id: dat_03_0011
   category: CME
@@ -276,13 +279,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 11
   meaning: AT Commands for HTTP Application
   description: AT Commands for HTTP Application
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id002
+  - Enter SIM PIN with AT+CPIN="<pin>"
   coverage_estimate: high
 - id: dat_03_0012
   category: CME
@@ -302,13 +306,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 12
   meaning: AT Commands for FTP Application
   description: AT Commands for FTP Application
   related_commands: []
-  recovery_steps: []
+  recovery_steps:
+  - Enter SIM PUK with AT+CPIN="<puk>"
   coverage_estimate: high
 - id: dat_03_0013
   category: CME
@@ -328,13 +333,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 13
   meaning: AT Commands for GSM Location Application
   description: AT Commands for GSM Location Application
   related_commands: []
-  recovery_steps: []
+  recovery_steps:
+  - Check SIM contacts
+  - Replace SIM card if faulty
   coverage_estimate: high
 - id: dat_03_0014
   category: CME
@@ -354,13 +361,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 14
   meaning: AT Commands for Email Application
   description: AT Commands for Email Application
   related_commands: []
-  recovery_steps: []
+  recovery_steps:
+  - Wait for SIM to finish initialization
+  - Retry the command
   coverage_estimate: high
 - id: dat_03_0015
   category: CME
@@ -380,13 +389,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 15
   meaning: SIM wrong
   description: SIM wrong
   related_commands: []
-  recovery_steps: []
+  recovery_steps:
+  - Replace SIM card (wrong SIM)
   coverage_estimate: high
 - id: dat_03_0016
   category: CME
@@ -406,13 +416,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 16
   meaning: General Beep
   description: General Beep
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id003
+  - Check SIM is not blocked
   coverage_estimate: high
 - id: dat_03_0017
   category: CME
@@ -432,13 +443,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 17
   meaning: Positive Acknowledgement Tone
   description: Positive Acknowledgement Tone
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id004
+  - Enter PIN2 with AT+CPIN="<pin2>"
   coverage_estimate: high
 - id: dat_03_0018
   category: CME
@@ -458,13 +470,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 18
   meaning: Negative Acknowledgement or Error Tone
   description: Negative Acknowledgement or Error Tone
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id005
+  - Enter PUK2 with AT+CPIN="<puk2>"
   coverage_estimate: high
 - id: dat_03_0019
   category: CME
@@ -510,13 +523,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 20
   meaning: AT Commands Examples ..................................................................297
   description: AT Commands Examples ..................................................................297
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id006
+  - Verify subscription plan is valid
   coverage_estimate: high
 - id: dat_03_0021
   category: CME
@@ -536,13 +550,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 21
   meaning: ATC Differences among SIM800 Series...........................................313
   description: ATC Differences among SIM800 Series...........................................313
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id007
+  - Check MT is not locked to another network
   coverage_estimate: high
 - id: dat_03_0022
   category: CME
@@ -562,13 +577,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 22
   meaning: Number changed
   description: Number changed
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id008
+  - Check SIM is not blocked (CCK)
   coverage_estimate: high
 - id: dat_03_0023
   category: CME
@@ -718,13 +734,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 30
   meaning: Response to STATUS ENQUIRY
   description: Response to STATUS ENQUIRY
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id009
+  - Check network availability
+  - Wait and retry
   coverage_estimate: high
 - id: dat_03_0029
   category: CME
@@ -744,13 +762,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 31
   meaning: QOS mean throughput class best effort
   description: QOS mean throughput class best effort
   related_commands: []
-  recovery_steps: []
+  recovery_steps:
+  - Check no MT call is in progress
   coverage_estimate: high
 - id: dat_03_0030
   category: CME
@@ -770,13 +789,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 32
   meaning: Normal, unspecified
   description: Normal, unspecified
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id010
+  - Verify network registration with AT+CREG?
   coverage_estimate: high
 - id: dat_03_0031
   category: CME
@@ -848,13 +868,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 41
   meaning: Temporary failure
   description: Temporary failure
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id011
+  - Check subscription has GPRS enabled
   coverage_estimate: high
 - id: dat_03_0034
   category: CME
@@ -874,13 +895,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:16Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 42
   meaning: Switching equipment Congestion
   description: Switching equipment Congestion
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id012
+  - Check parameters are supported by network
   coverage_estimate: high
 - id: dat_03_0035
   category: CME
@@ -1472,13 +1494,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 103
   meaning: Illegal MS
   description: Illegal MS
   related_commands: []
-  recovery_steps: []
+  recovery_steps:
+  - Check SIM is registered with network
   coverage_estimate: high
 - id: dat_03_0058
   category: CME
@@ -1498,13 +1521,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 106
   meaning: Illegal ME
   description: Illegal ME
   related_commands: []
-  recovery_steps: []
+  recovery_steps:
+  - Check ME has valid IMEI
   coverage_estimate: high
 - id: dat_03_0059
   category: CME
@@ -1524,13 +1548,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 107
   meaning: GPRS services not allowed
   description: GPRS services not allowed
   related_commands: []
-  recovery_steps: []
+  recovery_steps:
+  - Check subscription allows GPRS
   coverage_estimate: high
 - id: dat_03_0060
   category: CME
@@ -1550,13 +1575,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 111
   meaning: PLMN not allowed
   description: PLMN not allowed
   related_commands: []
-  recovery_steps: []
+  recovery_steps: &id013
+  - Check PLMN is allowed
   coverage_estimate: high
 - id: dat_03_0061
   category: CME
@@ -1576,13 +1602,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 112
   meaning: Location area not allowed
   description: Location area not allowed
   related_commands: []
-  recovery_steps: []
+  recovery_steps:
+  - Check location area is allowed
   coverage_estimate: high
 - id: dat_03_0062
   category: CME
@@ -1602,13 +1629,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 113
   meaning: Roaming not allowed in this location area
   description: Roaming not allowed in this location area
   related_commands: []
-  recovery_steps: []
+  recovery_steps:
+  - Check roaming is allowed
   coverage_estimate: high
 - id: dat_03_0063
   category: CME
@@ -1680,13 +1708,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CME
   code: 149
   meaning: PDP authentication failure
   description: PDP authentication failure
   related_commands: []
-  recovery_steps: []
+  recovery_steps:
+  - Check MT supports the requested feature
   coverage_estimate: high
 - id: dat_03_0066
   category: CME
@@ -3448,13 +3477,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 10
   meaning: Call barred
   description: Call barred
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id001
   coverage_estimate: high
 - id: dat_03_0134
   category: CMS
@@ -3474,13 +3503,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 11
   meaning: Reserved
   description: Reserved
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id002
   coverage_estimate: high
 - id: dat_03_0135
   category: CMS
@@ -3500,13 +3529,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 16
   meaning: General Beep
   description: General Beep
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id003
   coverage_estimate: high
 - id: dat_03_0136
   category: CMS
@@ -3526,13 +3555,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 17
   meaning: Positive Acknowledgement Tone
   description: Positive Acknowledgement Tone
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id004
   coverage_estimate: high
 - id: dat_03_0137
   category: CMS
@@ -3552,13 +3581,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 18
   meaning: Negative Acknowledgement or Error Tone
   description: Negative Acknowledgement or Error Tone
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id005
   coverage_estimate: high
 - id: dat_03_0138
   category: CMS
@@ -3604,13 +3633,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 20
   meaning: AT Commands Examples ..................................................................297
   description: AT Commands Examples ..................................................................297
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id006
   coverage_estimate: high
 - id: dat_03_0140
   category: CMS
@@ -3630,13 +3659,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 21
   meaning: ATC Differences among SIM800 Series...........................................313
   description: ATC Differences among SIM800 Series...........................................313
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id007
   coverage_estimate: high
 - id: dat_03_0141
   category: CMS
@@ -3656,13 +3685,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 22
   meaning: Number changed
   description: Number changed
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id008
   coverage_estimate: high
 - id: dat_03_0142
   category: CMS
@@ -3812,13 +3841,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 30
   meaning: Response to STATUS ENQUIRY
   description: Response to STATUS ENQUIRY
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id009
   coverage_estimate: high
 - id: dat_03_0148
   category: CMS
@@ -3838,13 +3867,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 32
   meaning: Normal, unspecified
   description: Normal, unspecified
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id010
   coverage_estimate: high
 - id: dat_03_0149
   category: CMS
@@ -3916,13 +3945,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 41
   meaning: Temporary failure
   description: Temporary failure
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id011
   coverage_estimate: high
 - id: dat_03_0152
   category: CMS
@@ -3942,13 +3971,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 42
   meaning: Switching equipment Congestion
   description: Switching equipment Congestion
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id012
   coverage_estimate: high
 - id: dat_03_0153
   category: CMS
@@ -4566,13 +4595,14 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 100
   meaning: Conditional information element error
   description: Conditional information element error
   related_commands: []
-  recovery_steps: []
+  recovery_steps:
+  - Verify command parameters are correct
   coverage_estimate: high
 - id: dat_03_0177
   category: CMS
@@ -4644,13 +4674,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T17:32:28Z'
   error_type: CMS
   code: 111
   meaning: Protocol error, unspecified
   description: Protocol error, unspecified
   related_commands: []
-  recovery_steps: []
+  recovery_steps: *id013
   coverage_estimate: high
 - id: dat_03_0180
   category: CMS

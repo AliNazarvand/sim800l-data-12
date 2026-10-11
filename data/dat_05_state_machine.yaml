@@ -340,14 +340,15 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:28:14Z'
+  updated_at: '2026-10-11T17:32:29Z'
   state_name: ERROR
   description: Error state
   entry_conditions: []
   exit_conditions: []
   events: []
   actions: []
-  related_commands: []
+  related_commands:
+  - AT+CFUN=1,1
   related_urcs: []
   related_timings: []
   coverage_estimate: medium
