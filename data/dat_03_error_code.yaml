@@ -96,6 +96,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '285'
+    section: CME Error Codes
+    quote: 5 PH-SIM PIN required
   source_type: primary
   confidence: 0.9
   status: complete
@@ -105,7 +108,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 5
   meaning: All conditional call forwarding
@@ -119,6 +122,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '285'
+    section: CME Error Codes
+    quote: 6 PH-FSIM PIN required
   source_type: primary
   confidence: 0.9
   status: complete
@@ -128,7 +134,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 6
   meaning: Disconnect
@@ -142,6 +148,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '285'
+    section: CME Error Codes
+    quote: 7 PH-FSIM PUK required
   source_type: primary
   confidence: 0.9
   status: complete
@@ -151,7 +160,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 7
   meaning: All classes
@@ -211,6 +220,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '285'
+    section: CME Error Codes
+    quote: 10 SIM not inserted
   source_type: primary
   confidence: 0.9
   status: complete
@@ -220,7 +232,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 10
   meaning: AT Commands for PING Support
@@ -234,6 +246,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '285'
+    section: CME Error Codes
+    quote: 11 SIM PIN required
   source_type: primary
   confidence: 0.9
   status: complete
@@ -243,7 +258,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 11
   meaning: AT Commands for HTTP Application
@@ -257,6 +272,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '285'
+    section: CME Error Codes
+    quote: 12 SIM PUK required
   source_type: primary
   confidence: 0.9
   status: complete
@@ -266,7 +284,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 12
   meaning: AT Commands for FTP Application
@@ -280,6 +298,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '285'
+    section: CME Error Codes
+    quote: 13 SIM failure
   source_type: primary
   confidence: 0.9
   status: complete
@@ -289,7 +310,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 13
   meaning: AT Commands for GSM Location Application
@@ -303,6 +324,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '285'
+    section: CME Error Codes
+    quote: 14 SIM busy
   source_type: primary
   confidence: 0.9
   status: complete
@@ -312,7 +336,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 14
   meaning: AT Commands for Email Application
@@ -326,6 +350,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '285'
+    section: CME Error Codes
+    quote: 15 SIM wrong
   source_type: primary
   confidence: 0.9
   status: complete
@@ -335,7 +362,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 15
   meaning: SIM wrong
@@ -372,6 +399,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '285'
+    section: CME Error Codes
+    quote: 17 SIM PIN2 required
   source_type: primary
   confidence: 0.9
   status: complete
@@ -381,7 +411,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 17
   meaning: Positive Acknowledgement Tone
@@ -395,6 +425,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '285'
+    section: CME Error Codes
+    quote: 18 SIM PUK2 required
   source_type: primary
   confidence: 0.9
   status: complete
@@ -404,7 +437,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 18
   meaning: Negative Acknowledgement or Error Tone
@@ -418,6 +451,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '285'
+    section: CME Error Codes
+    quote: 19 Supported Unsolicited Result Codes
   source_type: primary
   confidence: 0.9
   status: complete
@@ -427,7 +463,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 19
   meaning: Indian Dial Tone
@@ -1292,6 +1328,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 103 Illegal MS
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1301,7 +1340,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 103
   meaning: Illegal MS
@@ -1315,6 +1354,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 106 Illegal ME
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1324,7 +1366,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 106
   meaning: Illegal ME
@@ -1338,6 +1380,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 107 GPRS services not allowed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1347,7 +1392,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 107
   meaning: GPRS services not allowed
@@ -1361,6 +1406,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 111 PLMN not allowed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1370,7 +1418,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 111
   meaning: PLMN not allowed
@@ -1384,6 +1432,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 112 Location area not allowed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1393,7 +1444,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 112
   meaning: Location area not allowed
@@ -1407,6 +1458,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 113 Roaming not allowed in this location area
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1416,7 +1470,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 113
   meaning: Roaming not allowed in this location area
@@ -1476,6 +1530,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 149 PDP authentication failure
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1485,7 +1542,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 149
   meaning: PDP authentication failure
@@ -1499,6 +1556,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 160 DNS resolve failed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1508,7 +1568,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 160
   meaning: DNS resolve failed
@@ -1522,6 +1582,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 161 Socket open failed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1531,7 +1594,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 161
   meaning: National number type
@@ -1545,6 +1608,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 171 MMS task is busy now
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1554,7 +1620,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 171
   meaning: MMS task is busy now
@@ -1568,6 +1634,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 172 The mms data is oversize
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1577,7 +1646,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 172
   meaning: The mms data is oversize
@@ -1591,6 +1660,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 173 The operation is overtime
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1600,7 +1672,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 173
   meaning: The operation is overtime
@@ -1614,6 +1686,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 174 There is no mms receiver
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1623,7 +1698,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 174
   meaning: There is no mms receiver
@@ -1637,6 +1712,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 175 The storage for address is full
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1646,7 +1724,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 175
   meaning: The storage for address is full
@@ -1660,6 +1738,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 176 Not find the address
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1669,7 +1750,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 176
   meaning: Not find the address
@@ -1683,6 +1764,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 177 The connection to network is failed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1692,7 +1776,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 177
   meaning: Network specific number
@@ -1706,6 +1790,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 178 Failed to read push message
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1715,7 +1802,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 178
   meaning: Failed to read push message
@@ -1729,6 +1816,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 179 This is not a push message
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1738,7 +1828,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 179
   meaning: This is not a push message
@@ -1752,6 +1842,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 182 The mms storage is full
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1761,7 +1854,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 182
   meaning: The mms storage is full
@@ -1775,6 +1868,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '286'
+    section: CME Error Codes
+    quote: 183 The box is empty
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1784,7 +1880,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 183
   meaning: The box is empty
@@ -1798,6 +1894,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 185 It is in edit mode
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1807,7 +1906,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 185
   meaning: It is in edit mode
@@ -1821,6 +1920,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 186 It is not in edit mode
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1830,7 +1932,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 186
   meaning: It is not in edit mode
@@ -1844,6 +1946,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 187 No content in the buffer
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1853,7 +1958,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 187
   meaning: No content in the buffer
@@ -1867,6 +1972,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 188 Not find the file
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1876,7 +1984,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 188
   meaning: Not find the file
@@ -1890,6 +1998,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 189 Failed to receive mms
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1899,7 +2010,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 189
   meaning: Failed to receive mms
@@ -1913,6 +2024,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 190 Failed to read mms
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1922,7 +2036,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 190
   meaning: Failed to read mms
@@ -1936,6 +2050,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 191 Not M-Notification.ind
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1945,7 +2062,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 191
   meaning: Not M-Notification.ind
@@ -1959,6 +2076,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 192 The mms inclosure is full
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1968,7 +2088,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 192
   meaning: The mms inclosure is full
@@ -1982,6 +2102,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 193 Unknown
   source_type: primary
   confidence: 0.9
   status: complete
@@ -1991,7 +2114,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 193
   meaning: Unknown
@@ -2143,6 +2266,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 765 Invalid input value
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2152,7 +2278,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 765
   meaning: Invalid input value
@@ -2166,6 +2292,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 766 Unsupported mode
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2175,7 +2304,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 766
   meaning: Unsupported mode
@@ -2189,6 +2318,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 767 Operation failed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2198,7 +2330,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 767
   meaning: Operation failed
@@ -2212,6 +2344,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 768 Mux already running
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2221,7 +2356,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 768
   meaning: Mux already running
@@ -2235,6 +2370,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 769 Unable to get control
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2244,7 +2382,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 769
   meaning: Unable to get control
@@ -2258,6 +2396,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 770 SIM network reject
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2267,7 +2408,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 770
   meaning: SIM network reject
@@ -2281,6 +2422,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 771 Call setup in progress
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2290,7 +2434,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 771
   meaning: Call setup in progress
@@ -2304,6 +2448,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 772 SIM powered down
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2313,7 +2460,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 772
   meaning: SIM powered down
@@ -2327,6 +2474,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 773 SIM file not present
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2336,7 +2486,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 773
   meaning: SIM file not present
@@ -2350,6 +2500,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 791 Param count not enough
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2359,7 +2512,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 791
   meaning: Param count not enough
@@ -2373,6 +2526,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 792 Param count beyond
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2382,7 +2538,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 792
   meaning: Param count beyond
@@ -2396,6 +2552,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 793 Param value range beyond
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2405,7 +2564,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 793
   meaning: Param value range beyond
@@ -2419,6 +2578,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 794 Param type not match
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2428,7 +2590,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 794
   meaning: Param type not match
@@ -2442,6 +2604,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 795 Param format invalid
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2451,7 +2616,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 795
   meaning: Param format invalid
@@ -2465,6 +2630,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 796 Get a null param
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2474,7 +2642,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 796
   meaning: Get a null param
@@ -2488,6 +2656,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 797 CFUN state is 0 or 4
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2497,7 +2668,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 797
   meaning: CFUN state is 0 or 4
@@ -2511,6 +2682,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 810 No Error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2520,7 +2694,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 810
   meaning: No Error
@@ -2534,6 +2708,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 811 Unrecognized Command
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2543,7 +2720,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 811
   meaning: Unrecognized Command
@@ -2557,6 +2734,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 812 Return Value Error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2566,7 +2746,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 812
   meaning: Return Value Error
@@ -2580,6 +2760,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '287'
+    section: CME Error Codes
+    quote: 813 Syntax Error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2589,7 +2772,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CME
   code: 813
   meaning: Syntax Error
@@ -2856,6 +3039,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 1 Unassigned(unallocated) number
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2865,7 +3051,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 1
   meaning: Delete all read messages from preferred message storage,
@@ -2902,6 +3088,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 3 No route to destination
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2911,7 +3100,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 3
   meaning: Delete all read messages from preferred message storage,
@@ -2971,6 +3160,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 6 Channel unacceptable
   source_type: primary
   confidence: 0.9
   status: complete
@@ -2980,7 +3172,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 6
   meaning: D e l e t e  a l l  S M S
@@ -3017,6 +3209,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 8 Operator determined barring
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3026,7 +3221,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 8
   meaning: Ringing Tone
@@ -3040,6 +3235,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 10 Call barred
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3049,7 +3247,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 10
   meaning: Call barred
@@ -3063,6 +3261,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 11 Reserved
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3072,7 +3273,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 11
   meaning: Reserved
@@ -3086,6 +3287,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 16 Normal call clearing
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3095,7 +3299,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 16
   meaning: General Beep
@@ -3109,6 +3313,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 17 User busy
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3118,7 +3325,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 17
   meaning: Positive Acknowledgement Tone
@@ -3132,6 +3339,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 18 No user responding
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3141,7 +3351,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 18
   meaning: Negative Acknowledgement or Error Tone
@@ -3155,6 +3365,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 19 User alerting, no answer
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3164,7 +3377,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 19
   meaning: Indian Dial Tone
@@ -3178,6 +3391,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '297'
+    section: CMS Error Codes
+    quote: 20 AT Commands Examples
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3187,7 +3403,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 20
   meaning: AT Commands Examples ..................................................................297
@@ -3201,6 +3417,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 21 Short message transfer rejected
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3210,7 +3429,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 21
   meaning: ATC Differences among SIM800 Series...........................................313
@@ -3224,6 +3443,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 22 Number changed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3233,7 +3455,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 22
   meaning: Number changed
@@ -3247,6 +3469,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 25 Pre-emption
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3256,7 +3481,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 25
   meaning: Pre-emption
@@ -3270,6 +3495,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 26 Non-selected user clearing
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3279,7 +3507,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 26
   meaning: Non-selected user clearing
@@ -3293,6 +3521,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 27 Destination out of service
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3302,7 +3533,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 27
   meaning: Destination out of service
@@ -3316,6 +3547,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 28 Invalid number format (incomplete number)
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3325,7 +3559,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 28
   meaning: Invalid number format (incomplete number)
@@ -3339,6 +3573,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 29 Facility rejected
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3348,7 +3585,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 29
   meaning: Facility rejected
@@ -3362,6 +3599,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 30 Response to STATUS ENQUIRY
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3371,7 +3611,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 30
   meaning: Response to STATUS ENQUIRY
@@ -3385,6 +3625,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 32 Normal, unspecified
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3394,7 +3637,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 32
   meaning: Normal, unspecified
@@ -3408,6 +3651,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 34 No circuit/channel available
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3417,7 +3663,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 34
   meaning: No circuit/channel available
@@ -3431,6 +3677,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 38 Network out of order
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3440,7 +3689,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 38
   meaning: Network out of order
@@ -3454,6 +3703,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 41 Temporary failure
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3463,7 +3715,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 41
   meaning: Temporary failure
@@ -3477,6 +3729,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 42 Switching equipment Congestion
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3486,7 +3741,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 42
   meaning: Switching equipment Congestion
@@ -3500,6 +3755,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 43 Access information discarded
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3509,7 +3767,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 43
   meaning: Access information discarded
@@ -3523,6 +3781,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 44 Requested circuit/channel not available
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3532,7 +3793,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 44
   meaning: Requested circuit/channel not available
@@ -3546,6 +3807,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 47 Resources unavailable, unspecified
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3555,7 +3819,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 47
   meaning: Resources unavailable, unspecified
@@ -3569,6 +3833,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 49 Quality of service unavailable
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3578,7 +3845,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 49
   meaning: Quality of service unavailable
@@ -3592,6 +3859,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 50 Requested facility not subscribed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3601,7 +3871,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 50
   meaning: Requested facility not subscribed
@@ -3615,6 +3885,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 55 Requested facility not subscribed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3624,7 +3897,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 55
   meaning: Requested facility not subscribed
@@ -3638,6 +3911,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 57 Bearer capability not authorized
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3647,7 +3923,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 57
   meaning: Bearer capability not authorized
@@ -3661,6 +3937,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 58 Bearer capability not presently available
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3670,7 +3949,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 58
   meaning: Bearer capability not presently available
@@ -3684,6 +3963,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 63 Service or option not available, unspecified
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3693,7 +3975,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 63
   meaning: Service or option not available, unspecified
@@ -3707,6 +3989,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 65 Bearer service not implemented
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3716,7 +4001,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 65
   meaning: Bearer service not implemented
@@ -3730,6 +4015,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 68 ACM equal or greater than ACM maximum
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3739,7 +4027,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 68
   meaning: ACM equal or greater than ACM maximum
@@ -3753,6 +4041,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 69 Requested facility not implemented
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3762,7 +4053,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 69
   meaning: Requested facility not implemented
@@ -3776,6 +4067,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 70 Only restricted digital information bearer capability is available
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3785,7 +4079,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 70
   meaning: Only restricted digital information bearer capability is available
@@ -3799,6 +4093,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 79 Service or option not implemented, unspecified
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3808,7 +4105,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 79
   meaning: Service or option not implemented, unspecified
@@ -3822,6 +4119,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 81 Invalid transaction identifier value
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3831,7 +4131,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 81
   meaning: Invalid transaction identifier value
@@ -3845,6 +4145,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 87 User not member of CUG
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3854,7 +4157,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 87
   meaning: User not member of CUG
@@ -3868,6 +4171,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 88 Incompatible destination
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3877,7 +4183,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 88
   meaning: Incompatible destination
@@ -3891,6 +4197,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 91 Invalid transit network selection
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3900,7 +4209,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 91
   meaning: Invalid transit network selection
@@ -3914,6 +4223,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 95 Semantically incorrect message
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3923,7 +4235,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 95
   meaning: Semantically incorrect message
@@ -3937,6 +4249,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 96 Invalid mandatory information
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3946,7 +4261,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 96
   meaning: Invalid mandatory information
@@ -3960,6 +4275,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 97 Message type non-existent or not implemented
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3969,7 +4287,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 97
   meaning: Message type non-existent or not implemented
@@ -3983,6 +4301,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 98 Message type not compatible with protocol state
   source_type: primary
   confidence: 0.9
   status: complete
@@ -3992,7 +4313,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 98
   meaning: Message type not compatible with protocol state
@@ -4006,6 +4327,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 99 Information element non-existent or not implemented
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4015,7 +4339,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 99
   meaning: Information element non-existent or not implemented
@@ -4029,6 +4353,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 100 Conditional information element error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4038,7 +4365,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 100
   meaning: Conditional information element error
@@ -4052,6 +4379,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 101 Message not compatible with protocol
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4061,7 +4391,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 101
   meaning: Message not compatible with protocol
@@ -4075,6 +4405,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 102 Recovery on timer expiry
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4084,7 +4417,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 102
   meaning: Recovery on timer expiry
@@ -4098,6 +4431,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 111 Protocol error, unspecified
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4107,7 +4443,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 111
   meaning: Protocol error, unspecified
@@ -4121,6 +4457,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 127 Interworking, unspecified
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4130,7 +4469,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 127
   meaning: Interworking, unspecified
@@ -4144,6 +4483,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '289'
+    section: CMS Error Codes
+    quote: 128 Telematic interworking not supported
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4153,7 +4495,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 128
   meaning: Telematic interworking not supported
@@ -4167,6 +4509,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 129 Short message Type 0 not supported
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4176,7 +4521,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 129
   meaning: Unknown type(IDSN format number)
@@ -4190,6 +4535,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 130 Cannot replace short message
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4199,7 +4547,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 130
   meaning: Cannot replace short message
@@ -4213,6 +4561,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 143 Unspecified TP-PID error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4222,7 +4573,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 143
   meaning: Unspecified TP-PID error
@@ -4236,6 +4587,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 144 Data coding scheme (alphabet) not supported
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4245,7 +4599,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 144
   meaning: Data coding scheme (alphabet) not supported
@@ -4259,6 +4613,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 145 Message class not supported
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4268,7 +4625,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 145
   meaning: International number type(ISDN format)
@@ -4282,6 +4639,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 159 Unspecified TP-DCS error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4291,7 +4651,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 159
   meaning: Unspecified TP-DCS error
@@ -4305,6 +4665,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 160 Command cannot be acted
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4314,7 +4677,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 160
   meaning: Command cannot be acted
@@ -4328,6 +4691,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 161 Command unsupported
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4337,7 +4703,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 161
   meaning: National number type(IDSN format)
@@ -4351,6 +4717,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 175 Unspecified TP-Command error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4360,7 +4729,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 175
   meaning: Unspecified TP-Command error
@@ -4374,6 +4743,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 176 TPDU not supported
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4383,7 +4755,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 176
   meaning: TPDU not supported
@@ -4420,6 +4792,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 192 SC busy
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4429,7 +4804,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 192
   meaning: SC busy
@@ -4443,6 +4818,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 193 No SC subscription
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4452,7 +4830,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 193
   meaning: No SC subscription
@@ -4466,6 +4844,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 194 SC system failure
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4475,7 +4856,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 194
   meaning: SC system failure
@@ -4489,6 +4870,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 195 Invalid SME address
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4498,7 +4882,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 195
   meaning: Invalid SME address
@@ -4512,6 +4896,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 196 Destination SME barred
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4521,7 +4908,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 196
   meaning: Destination SME barred
@@ -4535,6 +4922,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 197 SM Rejected-Duplicate SM
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4544,7 +4934,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 197
   meaning: SM Rejected-Duplicate SM
@@ -4558,6 +4948,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 198 TP-VPF not supported
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4567,7 +4960,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 198
   meaning: TP-VPF not supported
@@ -4581,6 +4974,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 199 TP-VP not supported
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4590,7 +4986,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 199
   meaning: TP-VP not supported
@@ -4604,6 +5000,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 208 SIM SMS storage full
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4613,7 +5012,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 208
   meaning: SIM SMS storage full
@@ -4627,6 +5026,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 209 No SMS storage capability in SIM
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4636,7 +5038,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 209
   meaning: No SMS storage capability in SIM
@@ -4650,6 +5052,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 210 Error in MS
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4659,7 +5064,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 210
   meaning: Error in MS
@@ -4673,6 +5078,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 211 Memory Capacity Exceeded
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4682,7 +5090,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 211
   meaning: Memory Capacity Exceeded
@@ -4696,6 +5104,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 212 SIM Application Toolkit Busy
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4705,7 +5116,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 212
   meaning: SIM Application Toolkit Busy
@@ -4719,6 +5130,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 213 SIM data download error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4728,7 +5142,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 213
   meaning: SIM data download error
@@ -4742,6 +5156,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 224 CP retry exceed
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4751,7 +5168,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 224
   meaning: CP retry exceed
@@ -4765,6 +5182,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 225 RP trim timeout
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4774,7 +5194,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 225
   meaning: RP trim timeout
@@ -4788,6 +5208,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 226 SMS connection broken
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4797,7 +5220,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 226
   meaning: SMS connection broken
@@ -4811,6 +5234,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 255 Unspecified error cause
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4820,7 +5246,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 255
   meaning: Unspecified error cause
@@ -4834,6 +5260,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 300 ME failure
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4843,7 +5272,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 300
   meaning: ME failure
@@ -4857,6 +5286,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 301 SMS reserved
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4866,7 +5298,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 301
   meaning: SMS reserved
@@ -4880,6 +5312,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 310 SIM not inserted
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4889,7 +5324,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 310
   meaning: SIM not inserted
@@ -4903,6 +5338,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '290'
+    section: CMS Error Codes
+    quote: 311 SIM pin necessary
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4912,7 +5350,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 311
   meaning: SIM pin necessary
@@ -4926,6 +5364,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 312 PH SIM pin necessary
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4935,7 +5376,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 312
   meaning: PH SIM pin necessary
@@ -4949,6 +5390,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 313 SIM failure
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4958,7 +5402,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 313
   meaning: SIM failure
@@ -4972,6 +5416,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 314 SIM busy
   source_type: primary
   confidence: 0.9
   status: complete
@@ -4981,7 +5428,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 314
   meaning: SIM busy
@@ -4995,6 +5442,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 315 SIM wrong
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5004,7 +5454,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 315
   meaning: SIM wrong
@@ -5018,6 +5468,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 316 SIM PUK required
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5027,7 +5480,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 316
   meaning: SIM PUK required
@@ -5041,6 +5494,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 317 SIM PIN2 required
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5050,7 +5506,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 317
   meaning: SIM PIN2 required
@@ -5064,6 +5520,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 318 SIM PUK2 required
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5073,7 +5532,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 318
   meaning: SIM PUK2 required
@@ -5087,6 +5546,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 330 SMSC address unknown
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5096,7 +5558,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 330
   meaning: SMSC address unknown
@@ -5110,6 +5572,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 500 Unknown
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5119,7 +5584,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 500
   meaning: Unknown
@@ -5133,6 +5598,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 512 SMS no error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5142,7 +5610,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 512
   meaning: SMS no error
@@ -5156,6 +5624,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 513 Message length exceeds maximum length
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5165,7 +5636,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 513
   meaning: Message length exceeds maximum length
@@ -5179,6 +5650,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 514 Invalid request parameters
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5188,7 +5662,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 514
   meaning: Invalid request parameters
@@ -5202,6 +5676,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 515 ME storage failure
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5211,7 +5688,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 515
   meaning: ME storage failure
@@ -5225,6 +5702,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 516 Invalid bearer service
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5234,7 +5714,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 516
   meaning: Invalid bearer service
@@ -5248,6 +5728,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 517 Invalid service mode
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5257,7 +5740,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 517
   meaning: Invalid service mode
@@ -5271,6 +5754,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 518 Invalid storage type
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5280,7 +5766,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 518
   meaning: Invalid storage type
@@ -5294,6 +5780,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 519 Invalid message format
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5303,7 +5792,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 519
   meaning: Invalid message format
@@ -5317,6 +5806,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 520 Too many MO concatenated messages
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5326,7 +5818,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 520
   meaning: Too many MO concatenated messages
@@ -5340,6 +5832,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 521 SMSAL not ready
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5349,7 +5844,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 521
   meaning: SMSAL not ready
@@ -5363,6 +5858,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 522 SMSAL no more service
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5372,7 +5870,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 522
   meaning: SMSAL no more service
@@ -5409,6 +5907,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 524 Reserved MTI
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5418,7 +5919,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 524
   meaning: Reserved MTI
@@ -5432,6 +5933,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 525 No free entity in RL layer
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5441,7 +5945,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 525
   meaning: No free entity in RL layer
@@ -5455,6 +5959,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 526 The port number is already registerred
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5464,7 +5971,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 526
   meaning: The port number is already registerred
@@ -5478,6 +5985,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 527 There is no free entity for port number
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5487,7 +5997,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 527
   meaning: There is no free entity for port number
@@ -5501,6 +6011,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 528 More Message to Send state error
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5510,7 +6023,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 528
   meaning: More Message to Send state error
@@ -5524,6 +6037,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 529 MO SMS is not allow
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5533,7 +6049,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 529
   meaning: MO SMS is not allow
@@ -5547,6 +6063,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 530 GPRS is suspended
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5556,7 +6075,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 530
   meaning: GPRS is suspended
@@ -5570,6 +6089,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '291'
+    section: CMS Error Codes
+    quote: 531 ME storage full
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5579,7 +6101,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 531
   meaning: ME storage full
@@ -5593,6 +6115,9 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '292'
+    section: CMS Error Codes
+    quote: 532  Doing SIM refresh
   source_type: primary
   confidence: 0.9
   status: complete
@@ -5602,7 +6127,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T16:40:35Z'
   error_type: CMS
   code: 532
   meaning: Doing SIM refresh
@@ -5610,3 +6135,311 @@
   related_commands: []
   recovery_steps: []
   coverage_estimate: high
+- id: dat_03_0245
+  category: CMS
+  error_type: CMS
+  code: 814
+  meaning: Unspecified Error
+  description: ''
+  related_commands: []
+  recovery_steps: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 814 Unspecified Error
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (broad retry).
+  applicable_models:
+  - SIM800L
+  tags:
+  - error
+  - cms
+  - extracted
+  created_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T16:40:35Z'
+- id: dat_03_0246
+  category: CMS
+  error_type: CMS
+  code: 815
+  meaning: Data Transfer Already
+  description: ''
+  related_commands: []
+  recovery_steps: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 815 Data Transfer Already
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (broad retry).
+  applicable_models:
+  - SIM800L
+  tags:
+  - error
+  - cms
+  - extracted
+  created_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T16:40:35Z'
+- id: dat_03_0247
+  category: CMS
+  error_type: CMS
+  code: 816
+  meaning: Action Already
+  description: ''
+  related_commands: []
+  recovery_steps: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 816 Action Already
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (broad retry).
+  applicable_models:
+  - SIM800L
+  tags:
+  - error
+  - cms
+  - extracted
+  created_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T16:40:35Z'
+- id: dat_03_0248
+  category: CMS
+  error_type: CMS
+  code: 817
+  meaning: Not At Cmd
+  description: ''
+  related_commands: []
+  recovery_steps: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 817 Not At Cmd
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (broad retry).
+  applicable_models:
+  - SIM800L
+  tags:
+  - error
+  - cms
+  - extracted
+  created_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T16:40:35Z'
+- id: dat_03_0249
+  category: CMS
+  error_type: CMS
+  code: 818
+  meaning: Multi Cmd too long
+  description: ''
+  related_commands: []
+  recovery_steps: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 818 Multi Cmd too long
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (broad retry).
+  applicable_models:
+  - SIM800L
+  tags:
+  - error
+  - cms
+  - extracted
+  created_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T16:40:35Z'
+- id: dat_03_0250
+  category: CMS
+  error_type: CMS
+  code: 819
+  meaning: Abort Cops
+  description: ''
+  related_commands: []
+  recovery_steps: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 819 Abort Cops
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (broad retry).
+  applicable_models:
+  - SIM800L
+  tags:
+  - error
+  - cms
+  - extracted
+  created_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T16:40:35Z'
+- id: dat_03_0251
+  category: CMS
+  error_type: CMS
+  code: 820
+  meaning: No Call Disc
+  description: ''
+  related_commands: []
+  recovery_steps: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 820 No Call Disc
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (broad retry).
+  applicable_models:
+  - SIM800L
+  tags:
+  - error
+  - cms
+  - extracted
+  created_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T16:40:35Z'
+- id: dat_03_0252
+  category: CMS
+  error_type: CMS
+  code: 821
+  meaning: BT SAP Undefined
+  description: ''
+  related_commands: []
+  recovery_steps: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 821 BT SAP Undefined
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (broad retry).
+  applicable_models:
+  - SIM800L
+  tags:
+  - error
+  - cms
+  - extracted
+  created_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T16:40:35Z'
+- id: dat_03_0253
+  category: CMS
+  error_type: CMS
+  code: 822
+  meaning: BT SAP Not Accessible
+  description: ''
+  related_commands: []
+  recovery_steps: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 822 BT SAP Not Accessible
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (broad retry).
+  applicable_models:
+  - SIM800L
+  tags:
+  - error
+  - cms
+  - extracted
+  created_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T16:40:35Z'
+- id: dat_03_0254
+  category: CMS
+  error_type: CMS
+  code: 823
+  meaning: BT SAP Card Removed
+  description: ''
+  related_commands: []
+  recovery_steps: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 823 BT SAP Card Removed
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (broad retry).
+  applicable_models:
+  - SIM800L
+  tags:
+  - error
+  - cms
+  - extracted
+  created_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T16:40:35Z'
+- id: dat_03_0255
+  category: CMS
+  error_type: CMS
+  code: 824
+  meaning: AT Not Allowed By Customer
+  description: ''
+  related_commands: []
+  recovery_steps: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '288'
+    section: CMS Error Codes
+    quote: 824 AT Not Allowed By Customer
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (broad retry).
+  applicable_models:
+  - SIM800L
+  tags:
+  - error
+  - cms
+  - extracted
+  created_at: '2026-10-11T16:40:35Z'
+  updated_at: '2026-10-11T16:40:35Z'

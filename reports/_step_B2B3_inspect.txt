@@ -1,0 +1,407 @@
+======================================================================
+INSPECT DUMP — AT Manual V1.01
+URC candidate pages: [5, 7, 8, 9, 10, 13, 14, 15, 17, 21, 23, 24, 25, 27, 28, 36, 39, 40, 46, 47, 48, 55, 65, 66, 75, 76, 79, 80, 98, 113]
+Error candidate pages: [12, 23, 25, 26, 28, 49, 50, 53, 54, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 72, 76, 79, 81, 82, 86, 87, 88, 89, 90]
+======================================================================
+
+--- PAGE 5 (first 40 lines) ---
+
+                                                           S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+SIM800 Series_AT Command Manual_V1.01 5 2013-07-23                    
+3.2.15 AT+CIMI  Request Internat ional Mobile Subscriber Identity....................................61 
+3.2.16 AT+CLCC  List Current Calls of ME .........................................................................62 
+3.2.17 AT+CLCK  Facility Lock ...........................................................................................63 
+3.2.18 AT+CLIP  Calling Line Identification Presentation ...................................................65 
+3.2.19 AT+CLIR  Calling Line Identification Restriction .....................................................66 
+3.2.20 AT+CMEE  Report Mobile Equipment Error .............................................................67 
+3.2.21 AT+COLP  Connected Line Identification Presentation ............................................68 
+3.2.22 AT+COPS  Operator Selection ...................................................................................69 
+3.2.23 AT+CPAS  Phone Activity Status ...............................................................................71 
+3.2.24 AT+CPBF  Find Phonebook Entries ...........................................................................71 
+3.2.25 AT+CPBR  Read Current Phonebook Entries ............................................................73 
+3.2.26 AT+CPBS  Select Phonebook Memory Storage .........................................................73 
+3.2.27 AT+CPBW  Write Phonebook Entry ..........................................................................74 
+3.2.28 AT+CPIN  Enter PIN ..................................................................................................75 
+3.2.29 AT+CPWD  Change Password ...................................................................................76 
+3.2.30 AT+CR  Service Reporting Control ...........................................................................77 
+3.2.31 AT+CRC  Set Cellular Result Codes for Incoming Call Indication ...........................78 
+3.2.32 AT+CREG  Network Registration ..............................................................................79 
+3.2.33 AT+CRLP  Select Radio Link Protocol Parameters ...................................................80 
+3.2.34 AT+CRSM  Restricted SIM Access ...........................................................................81 
+3.2.35 AT+CSQ  Signal Quality Report ................................................................................82 
+3.2.36 AT+FCLASS  FAX: Select , Read or Test Service Class............................................83 
+3.2.37 AT+FMI  FAX: Report Manufactured ID ...................................................................83 
+3.2.38 AT+FMM  FAX: Report Model ID ............................................................................84 
+3.2.39 AT+FMR  FAX: Report Revision ID .........................................................................84 
+3.2.40 AT+VTD  Tone Duration ............................................................................................85 
+3.2.41 AT+VTS  DTMF and Tone Generation ......................................................................85 
+3.2.42 AT+CMUX  Multiplexer Control ...............................................................................86 
+3.2.43 AT+CNUM  Subscriber Number ................................................................................87 
+3.2.44 AT+CPOL  Preferred Operator List ............................................................................88 
+3.2.45 AT+COPN  Read Operator Names .............................................................................89 
+3.2.46 AT+CFUN  Set Phone Functionality ..........................................................................90 
+3.2.47 AT+CCLK  Clock .......................................................................................................91 
+3.2.48 AT+CSIM  Generic SIM Access ................................................................................91 
+3.2.49 AT+CALM  Alert Sound Mode ..................................................................................92 
+3.2.50 AT+CALS  Alert Sound Select ...................................................................................93 
+3.2.51 AT+CRSL  Ringer Sound Level .................................................................................93 
+
+--- PAGE 7 (first 40 lines) ---
+
+                                                           S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+SIM800 Series_AT Command Manual_V1.01 7 2013-07-23                    
+6.2.7 AT+CADC  Read ADC .............................................................................................135 
+6.2.8 AT+CSNS  Single Numbering Scheme .....................................................................136 
+6.2.9 AT+CDSCB  Reset Cell Broadcast ............................................................................136 
+6.2.10 AT+CMOD  Configure Alternating Mode Calls .....................................................137 
+6.2.11 AT+CFGRI  Indicate RI When Using URC ............................................................137 
+6.2.12 AT+CLTS  Get Local Timestamp ............................................................................138 
+6.2.13 AT+CLDTMF  Local DTMF Tone Generation .......................................................139 
+6.2.14 AT+CDRIND  CS Voice/Da ta Call Termination Indication ...................................140 
+6.2.15 AT+CSPN  Get Service Provider Name from SIM ..................................................141 
+6.2.16 AT+CCVM  Get and Set the V oice Mail Number on the SIM.................................141 
+6.2.17 AT+CBAND  Get and Set Mobile Operation Band .................................................142 
+6.2.18 AT+CHF  Configure Hands Free Operation .............................................................143 
+6.2.19 AT+CHFA  Swap the Audio Channels .....................................................................143 
+6.2.20 AT+CSCLK  Configure Slow Clock ........................................................................144 
+6.2.21 AT+CENG  Switch On or Off Engineering Mode ...................................................145 
+6.2.22 AT+SCLASS0  Store Class 0 SMS to SIM When Received Class 0 SMS ..............146 
+6.2.23 AT+CCID  Show ICCID ..........................................................................................147 
+6.2.24 AT+CMTE  Set Critical Temperature Operating Mode or Query Temperature ......147 
+6.2.25 AT+CMGDA  Delete All SMS ................................................................................148 
+6.2.26 AT+STTONE  Play SIM Toolkit Tone ....................................................................149 
+6.2.27 AT+SIMTONE  Gene rate Specifically Tone...........................................................150 
+6.2.28 AT+CCPD  Enable or Disable Alpha String ............................................................150 
+6.2.29 AT+CGID  Get SIM Card Group Identifier .............................................................151 
+6.2.30 AT+MORING  Show State of Mobile Originated Call ............................................151 
+6.2.31 AT+CMGHEX  Enable or Disa ble Sending Non-ASCII Character SMS ...............152 
+6.2.32 AT+CCODE  Configure SMS Code Mode..............................................................153 
+6.2.33 AT+CIURC  Enable or Disable Initial URC Presentation .......................................153 
+6.2.34 AT+CPSPWD  Chan ge PS Super Password ............................................................154 
+6.2.35 AT+EXUNSOL  Enable or Disable Proprietary Unsolicited Indications .................154 
+6.2.36 AT+CGMSCLASS  Change GPRS Multislot Class ................................................155 
+6.2.37 AT+CDEVICE  View Current Flash Device Type ..................................................156 
+6.2.38 AT+CCALR  Call Ready Query ..............................................................................156 
+6.2.39 AT+GSV  Display Produ ct Identification Information.............................................156 
+6.2.40 AT+SGPIO  Control the GPIO .................................................................................157 
+6.2.41 AT+SPWM  Generate the Pulse-Width-Modulation ................................................157 
+6.2.42 AT+ECHO  Echo Cancellation Control ...................................................................158 
+6.2.43 AT+CAAS  Control Auto Audio Switch ..................................................................159 
+
+--- PAGE 8 (first 40 lines) ---
+
+                                                           S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+SIM800 Series_AT Command Manual_V1.01 8 2013-07-23                    
+6.2.51 AT+CNETLIGHT  Close the Ne t Light or Open It to Shining ................................165 
+6.2.52 AT+CWHITELIST  Set the White List ....................................................................166 
+6.2.53 AT+CSDT  Switch On or Off Detecting SIM Card .................................................166 
+6.2.54 AT+CSMINS  SIM In serted Status Reporting.........................................................167 
+6.2.55 AT+CSGS  Netlight Indication of GPRS Status ......................................................168 
+6.2.56 AT+CMICBIAS Close or Open the MICBIAS..........................................................168 
+7 AT Commands for GPRS Support ......................................................170 
+7.1 Overview of AT Commands for GPRS Support...............................................170 
+7.2 Detailed Descriptions of AT Commands for GPRS Support............................170 
+7.2.1 AT+CGATT  Attach or Detach from GPRS Service ..................................................170 
+7.2.2 AT+CGDCONT  Define PDP Context .......................................................................171 
+7.2.3 AT+CGQMIN  Quality of Serv ice Profile (Minimum Acceptable) ...........................172 
+7.2.4 AT+CGQREQ  Quality of Service Profile (Requested) .............................................173 
+7.2.5 AT+CGACT  PDP Context Activate or Deactivate ....................................................175 
+7.2.6 AT+CGDATA  Enter Data State .................................................................................176 
+7.2.7 AT+CGPADDR  Show PDP Address .........................................................................176 
+7.2.8 AT+CGCLASS  GPRS Mobile Station Class .............................................................177 
+7.2.9 AT+CGEREP  Control Unsolicited GPRS Event Reporting ......................................177 
+7.2.10 AT+CGREG  Network Registration Status ..............................................................178 
+7.2.11 AT+CGSMS  Select Service for MO SMS Messages ..............................................179 
+8 AT Commands for TCPIP Application Toolkit ..................................181 
+8.1 Overview ..........................................................................................................181 
+8.2 Detailed Descriptions of Commands................................................................182 
+8.2.1 AT+CIPMUX  Start Up Multi-IP Connection ............................................................182 
+8.2.2 AT+CIPSTART  Start Up TCP or UDP Connection...................................................182 
+8.2.3 AT+CIPSEND  Send Data Through TCP or UDP Connection ...................................184 
+8.2.4 AT+CIPQSEND  Select Data Transmitting Mode .....................................................186 
+8.2.5 AT+CIPACK  Query Previous Connection Data Transmitting State ..........................187 
+8.2.6 AT+CIPCLOSE  Close TCP or UDP Connection .....................................................187 
+8.2.7 AT+CIPSHUT  Deactivate GPRS PDP Context ........................................................188 
+8.2.8 AT+CLPORT  Set Local Port .....................................................................................188 
+8.2.9 AT+CSTT  Start Task and Set APN, USER NAME, PASSWORD ...........................189 
+8.2.10 AT+CIICR  Bring Up Wireless Connection with GPRS or CSD .............................190 
+8.2.11 AT+CIFSR  Get Local IP Address ............................................................................190 
+8.2.12 AT+CIPSTATUS  Query Current Connection Status ...............................................191 
+8.2.13 AT+CDNSCFG  Configure Domain Name Server...................................................192 
+8.2.14 AT+CDNSGIP  Query the IP Address of Given Domain Name ...............................193 
+
+--- PAGE 9 (first 40 lines) ---
+
+                                                           S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+SIM800 Series_AT Command Manual_V1.01 9 2013-07-23                    
+8.2.20 AT+CIPSRIP  Show Remote IP Address and Port When Received Data ................197 
+8.2.21 AT+CIPDPDP  Set Whether to Check State of GPRS Network Timing ..................198 
+8.2.22 AT+CIPMODE  Select TCPIP Application Mode ....................................................198 
+8.2.23AT+CIPCCFG  Configure Transparent Transfer Mode ............................................199 
+8.2.24 AT+CIPSHOWTP  Display Transfer Protocol in IP Head When Received Data .....200 
+8.2.25 AT+CIPUDPMODE  UDP Extended Mode .............................................................201 
+8.2.26 AT+CIPRXGET  Get Data from Network Manually ...............................................202 
+8.2.27 AT+CIPSCONT  Save TCPIP Application Context .................................................204 
+8.2.28 AT+CIPRDTIMER  Set Remote Delay Timer ........................................................204 
+8.2.29 AT+CIPSGTXT  Select GPRS PDP context ...........................................................205 
+9 AT Commands for IP Application.......................................................206 
+9.1 Overview ..........................................................................................................206 
+9.2 Detailed Descriptions of Commands................................................................206 
+9.2.1 AT+SAPBR  Bearer Settings for Applications Based on IP.......................................206 
+10 AT Commands for PING Support .....................................................208 
+10.1 Overview ........................................................................................................208 
+10.2 Detailed Descriptions of Commands..............................................................208  
+10.2.1 AT+CIPPING  PING Request ..................................................................................208 
+10.2.2 AT+CIPCTL  Set the Mode When Receiving an IP Packet .....................................209 
+10.2.3 AT+CIPFLT  Set the Rules of IP Filter ....................................................................210 
+11 AT Commands for HTTP Application ..............................................212 
+11.1 Overview ........................................................................................................212 
+11.2 Detailed Descriptions of Commands..............................................................212  
+11.2.1 AT+HTTPINIT  Initialize HTTP Service .................................................................212 
+11.2.2 AT+HTTPTERM  Terminate HTTP Service ............................................................212 
+11.2.3 AT+HTTPPARA  Set HTTP Parameters Value ........................................................213 
+11.2.4 AT+HTTPDATA  Input HTTP Data .........................................................................214 
+11.2.5 AT+HTTPACTION  HTTP Method Action .............................................................215 
+11.2.6 AT+HTTPREAD  Read the HTTP Server Response ................................................217 
+11.2.7 AT+HTTPSCONT  Save HTTP Application Context ..............................................218 
+11.2.8 AT+HTTPSTATUS  Read HTTP Status ...................................................................219 
+12 AT Commands for FTP Application .................................................220 
+12.1 Overview ........................................................................................................220 
+12.2 Detailed Descriptions of Commands..............................................................220  
+12.2.1 AT+FTPPORT  Set FTP Control Port ......................................................................220 
+12.2.2 AT+FTPMODE  Set Active or Passive FTP Mode ..................................................221 
+12.2.3 AT+FTPTYPE  Set the Type of Data to Be Transferred ...........................................222 
+
+--- PAGE 10 (first 40 lines) ---
+
+                                                           S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+SIM800 Series_AT Command Manual_V1.01 10 2013-07-23                    
+12.2.7 AT+FTPSERV  Set FTP Server Address ..................................................................224 
+12.2.8 AT+FTPUN  Set FTP User Name ............................................................................224 
+12.2.9 AT+FTPPW  Set FTP Password...............................................................................225 
+12.2.10 AT+FTPGETNAME  Set Download File Name ....................................................225 
+12.2.11 AT+FTPGETPATH  Set Download File Path .........................................................226 
+12.2.12 AT+FTPPUTNAME  Set Upload File Name .........................................................227 
+12.2.13 AT+FTPPUTPATH  Set Upload File Path ..............................................................227 
+12.2.14 AT+FTPGET  Download File ................................................................................228 
+12.2.15 AT+FTPPUT  Set Upload File ...............................................................................229 
+12.2.16 AT+FTPSCONT  Save FTP Application Context ..................................................230 
+12.2.17 AT+FTPDELE  Delete Sp ecified File in FTP Server.............................................231 
+12.2.18 AT+FTPSIZE  Get the Size of  Specified File in FTP Server .................................231 
+12.2.19 AT+FTPSTATE  Get the FTP State ........................................................................232 
+12.2.20 AT+FTPEXTPUT Extend Upload File.....................................................................232 
+12.2.21 AT+FTPMKD  Make Directory on the Remote Machine ......................................233 
+12.2.22 AT+FTPRMD  Remove Directory on the Remote Machine ..................................234 
+12.2.23 AT+FTPLIST  List Contents of Directory on the Remote Machine.......................234 
+13 AT Commands for GSM Location Application ................................236 
+13.1 Overview ........................................................................................................236 
+13.2 Detailed Descriptions of Commands..............................................................236  
+13.2.1 AT+CIPGSMLOC GSM Location and Time ............................................................236 
+14 AT Commands for Email Application...............................................238 
+14.1 Overview ........................................................................................................238 
+14.2 Detailed Descriptions of Commands..............................................................239  
+14.2.1 AT+EMAILCID  Set Email Bearer Profile Identifier ..............................................239 
+14.2.2 AT+EMAILTO  Set Timeout Value of SMTP/POP3 Server Response ..................239 
+14.2.3 AT+SMTPSRV  Set SMTP Server Address and Port ..............................................240 
+14.2.4 AT+SMTPAUTH  Set User Name and Password for SMTP Authentication ..........241 
+14.2.5 AT+SMTPFROM  Set Sender Address and Name ..................................................241 
+14.2.6 AT+SMTPRCPT  Set the Email Recipient(TO/CC/BCC) Address and Name........242 
+14.2.7 AT+SMTPSUB  Set the Email Subject ....................................................................243 
+14.2.8 AT+SMTPBODY  Set the Email Body ...................................................................244 
+14.2.9 AT+SMTPFILE  Set the Email Attachment ............................................................244 
+14.2.10 AT+SMTPSEND  Send the Email .........................................................................245 
+14.2.11 AT+SMTPFT  Transfer the Email Attachment ......................................................246 
+14.2.12 AT+SMTPCS  Set the Email Charset ....................................................................247 
+14.2.13 AT+POP3SRV  Set POP3 Server and Account .....................................................248 
+
+--- PAGE 13 (first 40 lines) ---
+
+                                                           S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+SIM800 Series_AT Command Manual_V1.01 13 2013-07-23                    
+ 
+Version History 
+Version Date Chapter What is new 
+V1.00   New version 
+All Modify GSM 07.05 to 3GPP TS 
+27.005,modify GSM 07.07 to 3GPP TS 
+27.007 
+1.1 Scope of the document Add SIM800 
+2.2.8 ATH Delete ATH parameter [n] 
+2.2.12 +++ Change "0.5 second" to "1 second" 
+2.2.13 ATO Change "NO CARRIER" to "ERROR" 
+2.2.26 ATX Change default value from 0 to 4 
+2.2.32 AT&W Add AT+CFGRI,AT+CSGS 
+2.2.41.1 Auto-bauding Disable DTR auto-bauding 
+3.2.14 AT+CHLD Delete parameter of CHLD 
+3.2.18 AT+CLIP Change URC parameter 
+3.2.51 AT+CRSL Delete reference Note 
+3.2.7 AT+CEER Change description of 34 (emergency call 
+not possible) 
+4.2.10 AT+CRES Delete description of CSCB 
+4.2.11 AT+CSAS Delete description of CSCB 
+6.2.4 AT+CMIC Add reference Note 
+6.2.11 AT+CFGRI Add default value 
+6.2.16 AT+CCVM Modify Test Command response 
+information and parameter description 
+6.2.18 AT+CHF Add URC 
+6.2.26 AT+STTONE Change <duration> supported 
+range;delete reference note 
+6.2.27 AT+SIMTONE Modify last parameter of Test Command 
+to 10-500000 
+6.2.48 AT+SLEDS Modify default value 
+6.2.55 AT+CSGS Add ATC 
+6.2.56 AT+CMICBIAS Add ATC 
+8.2.2 AT+CIPSTART Modify parameter 
+8.2.15 AT+CIPHEAD Modify parameter 
+8.2.20 AT+CIPSRIP Modify parameter 
+8.2.23 AT+CIPCCFG Modify write cmd parameters 
+
+--- PAGE 12 (first 60 lines) ---
+
+                                                           S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+SIM800 Series_AT Command Manual_V1.01 12 2013-07-23                    
+18.1 Overview ........................................................................................................283 
+18.2 Detailed Descriptions of Commands..............................................................283  
+18.2.1 AT+CTTS  TTS Operation .......................................................................................283 
+18.2.2 AT+CTTSPARAM  Set parameters of the TTS playing ..........................................284 
+19 Supported Unsolicited Result Codes .................................................285 
+19.1 Summary of CME ERROR Codes .................................................................285 
+19.2 Summary of CMS ERROR Codes .................................................................288 
+19.3 Summary of Unsolicited Result Codes ..........................................................292 
+20 AT Commands Examples ..................................................................297 
+20.1 Profile Commands..........................................................................................297 
+20.2 SIM Commands..............................................................................................298 
+20.3 General Commands ........................................................................................299 
+20.4 Call Control Commands.................................................................................299 
+20.5 SIM Toolkit Commands.................................................................................301 
+20.6 Audio Commands...........................................................................................301 
+20.7 SMS Commands.............................................................................................302  
+20.8 GPRS Commands...........................................................................................303 
+20.9 TCPIP Commands..........................................................................................305 
+20.10 IP Commands ...............................................................................................305 
+20.11 PING Commands..........................................................................................305 
+20.12 HTTP and FTP Commands ..........................................................................306 
+20.13 GSM Location Commands...........................................................................306 
+20.14 EMAIL Commands ......................................................................................307 
+20.15 MMS Commands .........................................................................................307 
+20.16 DDET Commands ........................................................................................308 
+20.17 RECORD Commands...................................................................................310 
+20.18 TTS Commands............................................................................................311 
+21 ATC Differences among SIM800 Series...........................................313 
+21.1 AT+CSDT.......................................................................................................313 
+21.2 AT+CSMINS..................................................................................................313 
+21.3 AT+SGPIO......................................................................................................313 
+21.4 AT+CBAND...................................................................................................314 
+ 
+ 
+ 
+
+
+--- PAGE 23 (first 60 lines) ---
+
+                                                           S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+SIM800 Series_AT Command Manual_V1.01 23 2013-07-23                    
+<value>>0 
+When TA returns to Command mode after call release 
+OK 
+ 
+Response in case of voice call, if successfully connected 
+OK 
+ 
+Response if no connection 
+NO CARRIER 
+ 
+Max Response 
+Time 
+20s(voice call) 
+Timeout set with ATS7 (data call) 
+Reference 
+V .25ter 
+Note 
+See also ATX 
+ 
+2.2.3 ATD  Mobile Originated Call to Dial A Number 
+ATD  Mobile Originated Call to Dial A Number 
+Execution 
+Command 
+ATD<n>[<mgsm
+][;] 
+Response 
+This Command can be used to set up outgoing voice, data or fax  calls. It 
+also serves to control supplementary services.  
+Note: This Command may be abor ted generally by receiving an ATH 
+Command or a character during execution. The aborting is not possible 
+during some states of connection establishment such as handshaking. 
+ 
+If error is related to ME functionality 
++CME ERROR: <err> 
+ 
+If no dial tone and (parameter setting ATX2 or ATX4) 
+NO DIALTONE 
+ 
+If busy and (parameter setting ATX3 or ATX4) 
+BUSY 
+ 
+If a connection cannot be established 
+NO CARRIER 
+ 
+If the remote station does not answer 
+NO ANSWER 
+ 
+If connection successful and non-voice call. 
+CONNECT<text> TA switches to data mode. 
+Note: <text> output only if ATX<value> parameter setting with the 
+<value> >0 
+
+
+--- PAGE 25 (first 60 lines) ---
+
+                                                           S m a r t  M a c h i n e  S m a r t  D e c i s i o n  
+SIM800 Series_AT Command Manual_V1.01 25 2013-07-23                    
+voice call, the first call will be automatically put on hold. 
+The current states of all calls can be easily checked at any time by using the 
+AT+CLCC Command. 
+ 
+ 
+2.2.4 ATD><n>  Originate Call to Phone Number in Current Memory 
+ATD><n>  Originate Call to Ph one Number in Current Memory 
+Response 
+This Command can be used to dial a phone number from current phonebook 
+memory.  
+Note: This Command may be abor ted generally by receiving an ATH 
+Command or a character during execution. The aborting is not possible 
+during some states of connection establishment such as handshaking. 
+ 
+If error is related to ME functionality 
++CME ERROR: <err> 
+ 
+If no dial tone and (parameter setting ATX2 or ATX4) 
+NO DIALTONE  
+ 
+If busy and (parameter setting ATX3 or ATX4) 
+BUSY 
+ 
+If a connection cannot be established 
+NO CARRIER 
+ 
+If the remote station does not answer 
+NO ANSWER 
+ 
+If connection successful and non-voice call. 
+CONNECT<text> TA switches to data mode. 
+Note: <text> output only if ATX<value> parameter setting with the 
+<value> >0 
+ 
+When TA returns to Command mode after call release 
+OK 
+ 
+If successfully connected and voice call 
+OK 
+Execution 
+Command 
+ATD><n>[<clir>
+][ <cug>][;] 
+Parameters 
+<n> Integer type memory location should be in the range of locations 
+available in the memory used 
+<mgsm> String of GSM modifiers: 
