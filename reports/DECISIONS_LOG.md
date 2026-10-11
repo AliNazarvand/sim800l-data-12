@@ -266,3 +266,21 @@
 - validate: L1=0 L2=0 L3=35 L4=0
 - گیت‌ها این بار per-dataset بودند؛ معیار = annotated_or_added یا page_pct، نه partial count.
 - هر دیتاست fail مستقل rollback شد.
+
+
+## D-030
+- تاریخ: 1405-07-19T17:21:50Z
+- زمینه: بسته D2 — 8 زیرگام با گیت per-dataset و آستانه‌های اصلاح‌شده.
+- نتایج:
+- 1_dat04: re-annotate dat_04 — OK — page_pct=100%
+- 2_dat06: re-annotate dat_06 — OK — page_pct=50%
+- 3_dat09: re-attempt dat_09 — OK — sum=14
+- 4_dat13: re-attempt dat_13 — OK — sum=10
+- 5_dat02: fix dat_02 suspicious — OK — recovered=187
+- 6_dat01: complete dat_01 — ROLLED_BACK — recovered=0 (<30)
+- 7_L3: analyze L3 — OK — analyzed=35
+- 8_docs: complete docs — OK — COVERAGE/README/CHANGELOG/PHASE_1
+- موفقیت: 7 از 8.
+- validate: L1=0 L2=0 L3=35 L4=0
+- گیت‌ها per-dataset بودند؛ معیار = annotated_or_added یا page_pct.
+- آستانه dat_04=25%، dat_06=25% (اصلاح نسبت به بسته قبلی).

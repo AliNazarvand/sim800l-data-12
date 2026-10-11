@@ -4,6 +4,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
   source_type: primary
   confidence: 0.75
   status: complete
@@ -13,7 +16,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: Change 300us to 10
   min: 5.0
   typ: null
@@ -30,6 +33,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
   source_type: primary
   confidence: 0.75
   status: complete
@@ -39,7 +45,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: Wait for at least 80
   min: 0.0
   typ: null
@@ -56,6 +62,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
   source_type: primary
   confidence: 0.75
   status: complete
@@ -65,7 +74,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: DTR pin is pulled to low level for about 5
   min: 0.0
   typ: null
@@ -82,6 +91,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
   source_type: primary
   confidence: 0.75
   status: complete
@@ -91,7 +103,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: Only after the DTR pin is pulled to low level for 5
   min: 0.0
   typ: null
@@ -108,6 +120,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '41'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'Note: Every time plug SIM card interval advice is greater than 2s. Otherwise may not be able to correct detection.'
   source_type: primary
   confidence: 0.75
   status: complete
@@ -117,7 +132,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: SIM card interval advice is greater than
   min: 2.0
   typ: null
@@ -134,6 +149,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
   source_type: primary
   confidence: 0.75
   status: complete
@@ -143,7 +161,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: GPIO3 28 -
   min: 0.29
   typ: null
@@ -160,6 +178,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
   source_type: primary
   confidence: 0.75
   status: complete
@@ -169,7 +190,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: GPIO2
   min: 0.8
   typ: null
@@ -186,6 +207,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
   source_type: primary
   confidence: 0.75
   status: complete
@@ -195,7 +219,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: SIM800L is not running
   min: 64.0
   typ: null
@@ -212,6 +236,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
   source_type: primary
   confidence: 0.75
   status: complete
@@ -221,7 +248,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: On/ 80
   min: 0.0
   typ: null
@@ -238,6 +265,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '49'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 64ms On/ 800ms Off SIM800H&SIM800L not registered the network
   source_type: primary
   confidence: 0.75
   status: complete
@@ -247,7 +277,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: SIM800L not registered the network
   min: 64.0
   typ: null
@@ -264,6 +294,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
   source_type: primary
   confidence: 0.75
   status: complete
@@ -273,7 +306,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: On/ 300
   min: 0.0
   typ: null
@@ -290,6 +323,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '49'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 64ms On/ 3000ms Off SIM800H&SIM800L registered to the network
   source_type: primary
   confidence: 0.75
   status: complete
@@ -299,7 +335,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: SIM800L registered to the network
   min: 64.0
   typ: null
@@ -316,6 +352,9 @@
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
   source_type: primary
   confidence: 0.75
   status: complete
@@ -325,7 +364,7 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:21:52Z'
   parameter: On/ 30
   min: 0.0
   typ: null

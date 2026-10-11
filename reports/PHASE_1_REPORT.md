@@ -1,19 +1,26 @@
 # PHASE_1_REPORT
 
-**تاریخ**: 2026-10-10T15:24:11Z
+## Summary
+- Date: 1405-07-19T17:21:50Z
+- Branch: feature/complete-datasets
+- Total datasets: 18
 
-## دستاوردها
-- ۱۸ Schema در `schemas/`
-- استخراج متن و جداول از ۳ PDF
-- 311 AT command استخراج‌شده
-- 121 URC شناسایی‌شده
-- 238 error code
-- 26 پین/سیگنال سخت‌افزاری
-- 52 رکورد اپراتور/APN نمونه
+## Validation
+- L1 (Schema): 0
+- L2 (Business): 0
+- L3 (Cross-ref): 35
+- L4 (Consistency): 0
 
-## وضعیت
-- complete: dat_04, 05, 06, 07, 15 (در صورت رسیدن به حد نصاب)
-- partial: dat_01, 02, 03, 09, 10, 11, 12, 13, 17
-- external: dat_14
-- blocked: dat_08, 17, 18 (اگر خالی)
-- deferred: dat_16
+## Blocked datasets
+- dat_08 (Release Notes)
+- dat_15 (Power parameters require manual extraction)
+- dat_17 (SSL Manual)
+- dat_18 (Certification documents)
+
+## Deferred datasets
+- dat_16 (EVB document)
+
+## Notes
+- Auto-detection prohibited since D-019.
+- Extraction only from structured sections (headers/tables/figures).
+- Per-dataset gates used for batch operations since D-028.

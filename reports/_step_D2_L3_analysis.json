@@ -1,0 +1,288 @@
+{
+  "total_l3": 35,
+  "analyzed": 35,
+  "in_at_manual": 0,
+  "not_in_manual": 35,
+  "details": [
+    {
+      "dataset": "dat_10",
+      "record": "dat_10_0004",
+      "command": "AT+CGCONTRDP",
+      "full_name": "AT+CGCONTRDP",
+      "in_at_manual": false,
+      "error": "command AT+CGCONTRDP not in dat_01"
+    },
+    {
+      "dataset": "dat_10",
+      "record": "dat_10_0017",
+      "command": "AT+CIPDDREM",
+      "full_name": "AT+CIPDDREM",
+      "in_at_manual": false,
+      "error": "command AT+CIPDDREM not in dat_01"
+    },
+    {
+      "dataset": "dat_10",
+      "record": "dat_10_0023",
+      "command": "AT+CEREG",
+      "full_name": "AT+CEREG",
+      "in_at_manual": false,
+      "error": "command AT+CEREG not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0007",
+      "command": "AT+HTTPHEAD",
+      "full_name": "AT+HTTPHEAD",
+      "in_at_manual": false,
+      "error": "command AT+HTTPHEAD not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0009",
+      "command": "AT+HTTPURL",
+      "full_name": "AT+HTTPURL",
+      "in_at_manual": false,
+      "error": "command AT+HTTPURL not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0010",
+      "command": "AT+HTTPSSL",
+      "full_name": "AT+HTTPSSL",
+      "in_at_manual": false,
+      "error": "command AT+HTTPSSL not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0011",
+      "command": "AT+FTPOPEN",
+      "full_name": "AT+FTPOPEN",
+      "in_at_manual": false,
+      "error": "command AT+FTPOPEN not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0012",
+      "command": "AT+FTPCLOSE",
+      "full_name": "AT+FTPCLOSE",
+      "in_at_manual": false,
+      "error": "command AT+FTPCLOSE not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0019",
+      "command": "AT+FTPFLST",
+      "full_name": "AT+FTPFLST",
+      "in_at_manual": false,
+      "error": "command AT+FTPFLST not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0020",
+      "command": "AT+FTPUSER",
+      "full_name": "AT+FTPUSER",
+      "in_at_manual": false,
+      "error": "command AT+FTPUSER not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0021",
+      "command": "AT+FTPPASS",
+      "full_name": "AT+FTPPASS",
+      "in_at_manual": false,
+      "error": "command AT+FTPPASS not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0022",
+      "command": "AT+FTPCWD",
+      "full_name": "AT+FTPCWD",
+      "in_at_manual": false,
+      "error": "command AT+FTPCWD not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0023",
+      "command": "AT+FTPPWD",
+      "full_name": "AT+FTPPWD",
+      "in_at_manual": false,
+      "error": "command AT+FTPPWD not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0030",
+      "command": "AT+SSLCFG",
+      "full_name": "AT+SSLCFG",
+      "in_at_manual": false,
+      "error": "command AT+SSLCFG not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0031",
+      "command": "AT+SSLCONF",
+      "full_name": "AT+SSLCONF",
+      "in_at_manual": false,
+      "error": "command AT+SSLCONF not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0032",
+      "command": "AT+SSLOPEN",
+      "full_name": "AT+SSLOPEN",
+      "in_at_manual": false,
+      "error": "command AT+SSLOPEN not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0033",
+      "command": "AT+SSLSEND",
+      "full_name": "AT+SSLSEND",
+      "in_at_manual": false,
+      "error": "command AT+SSLSEND not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0034",
+      "command": "AT+SSLRECV",
+      "full_name": "AT+SSLRECV",
+      "in_at_manual": false,
+      "error": "command AT+SSLRECV not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0035",
+      "command": "AT+SSLCLOSE",
+      "full_name": "AT+SSLCLOSE",
+      "in_at_manual": false,
+      "error": "command AT+SSLCLOSE not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0036",
+      "command": "AT+SSLSETCERT",
+      "full_name": "AT+SSLSETCERT",
+      "in_at_manual": false,
+      "error": "command AT+SSLSETCERT not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0037",
+      "command": "AT+SSLSETKEY",
+      "full_name": "AT+SSLSETKEY",
+      "in_at_manual": false,
+      "error": "command AT+SSLSETKEY not in dat_01"
+    },
+    {
+      "dataset": "dat_11",
+      "record": "dat_11_0038",
+      "command": "AT+SSLSETCA",
+      "full_name": "AT+SSLSETCA",
+      "in_at_manual": false,
+      "error": "command AT+SSLSETCA not in dat_01"
+    },
+    {
+      "dataset": "dat_12",
+      "record": "dat_12_0006",
+      "command": "AT+CATONE",
+      "full_name": "AT+CATONE",
+      "in_at_manual": false,
+      "error": "command AT+CATONE not in dat_01"
+    },
+    {
+      "dataset": "dat_12",
+      "record": "dat_12_0007",
+      "command": "AT+CADTONE",
+      "full_name": "AT+CADTONE",
+      "in_at_manual": false,
+      "error": "command AT+CADTONE not in dat_01"
+    },
+    {
+      "dataset": "dat_12",
+      "record": "dat_12_0008",
+      "command": "AT+CLDTONE",
+      "full_name": "AT+CLDTONE",
+      "in_at_manual": false,
+      "error": "command AT+CLDTONE not in dat_01"
+    },
+    {
+      "dataset": "dat_12",
+      "record": "dat_12_0012",
+      "command": "AT+CPCMREG",
+      "full_name": "AT+CPCMREG",
+      "in_at_manual": false,
+      "error": "command AT+CPCMREG not in dat_01"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0001",
+      "command": "AT+SSLCFG",
+      "full_name": "AT+SSLCFG",
+      "in_at_manual": false,
+      "error": "command AT+SSLCFG not in dat_01"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0002",
+      "command": "AT+SSLCONF",
+      "full_name": "AT+SSLCONF",
+      "in_at_manual": false,
+      "error": "command AT+SSLCONF not in dat_01"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0003",
+      "command": "AT+SSLOPEN",
+      "full_name": "AT+SSLOPEN",
+      "in_at_manual": false,
+      "error": "command AT+SSLOPEN not in dat_01"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0004",
+      "command": "AT+SSLSEND",
+      "full_name": "AT+SSLSEND",
+      "in_at_manual": false,
+      "error": "command AT+SSLSEND not in dat_01"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0005",
+      "command": "AT+SSLRECV",
+      "full_name": "AT+SSLRECV",
+      "in_at_manual": false,
+      "error": "command AT+SSLRECV not in dat_01"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0006",
+      "command": "AT+SSLCLOSE",
+      "full_name": "AT+SSLCLOSE",
+      "in_at_manual": false,
+      "error": "command AT+SSLCLOSE not in dat_01"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0007",
+      "command": "AT+SSLSETCERT",
+      "full_name": "AT+SSLSETCERT",
+      "in_at_manual": false,
+      "error": "command AT+SSLSETCERT not in dat_01"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0008",
+      "command": "AT+SSLSETKEY",
+      "full_name": "AT+SSLSETKEY",
+      "in_at_manual": false,
+      "error": "command AT+SSLSETKEY not in dat_01"
+    },
+    {
+      "dataset": "dat_17",
+      "record": "dat_17_0009",
+      "command": "AT+SSLSETCA",
+      "full_name": "AT+SSLSETCA",
+      "in_at_manual": false,
+      "error": "command AT+SSLSETCA not in dat_01"
+    }
+  ]
+}

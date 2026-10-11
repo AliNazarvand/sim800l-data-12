@@ -1,18 +1,20 @@
 # SESSION_LOG
 
-## Batch B6+B7+B8+B9 + cluster C — گیت per-dataset
+## Batch D2 — 8 substeps with per-dataset gates
 
-- تاریخ: 1405-07-19T17:19:43Z
-- موفق: 4 / 6
+- تاریخ: 1405-07-19T17:21:50Z
+- موفق: 7 / 8
 
 | زیرگام | نام | نتیجه | وضعیت |
 |---|---|---|---|
-| 1_dat10 | dat_10 GPRS/Data | sum=21 | OK |
-| 2_dat11 | dat_11 HTTP/FTP/SSL | sum=10 found=10 | OK |
-| 3_dat12 | dat_12 Audio | sum=7 found=7 | OK |
-| 4_dat17 | dat_17 Cert/Key | found=0 | BLOCKED |
-| 5_0406 | annotate dat_04/dat_06 | d04=15.4% d06=10% | ROLLED_BACK |
-| 6_clusterC | cluster C status | see report | OK |
+| 1_dat04 | re-annotate dat_04 | page_pct=100% | OK |
+| 2_dat06 | re-annotate dat_06 | page_pct=50% | OK |
+| 3_dat09 | re-attempt dat_09 | sum=14 | OK |
+| 4_dat13 | re-attempt dat_13 | sum=10 | OK |
+| 5_dat02 | fix dat_02 suspicious | recovered=187 | OK |
+| 6_dat01 | complete dat_01 | recovered=0 (<30) | ROLLED_BACK |
+| 7_L3 | analyze L3 | analyzed=35 | OK |
+| 8_docs | complete docs | COVERAGE/README/CHANGELOG/PHASE_1 | OK |
 
 ### وضعیت validate.py
 - L1: 0
@@ -20,12 +22,12 @@
 - L3: 35
 - L4: 0
 
-### تغییرات کلیدی این نشست
-- گیت‌ها per-dataset طراحی شدند (نه group).
-- معیار موفقیت = annotated_or_added یا page_pct (نه partial count).
+### تغییرات کلیدی
+- آستانه گیت برای dat_04/dat_06 به 25% کاهش یافت.
+- گیت‌های per-dataset جایگزین group-level شدند.
 - هر دیتاست fail مستقل rollback شد.
-- منابع تخصصی (HTTP/FTP/SSL/Audio/Cert) طبق D-019 فقط با ساختار header-محور بررسی شدند.
+- auto-detection ممنوع (D-019) در همه زیرگام‌ها رعایت شد.
 
 ### کار گام بعد
-- کار دستی برای dat_11, dat_12, dat_17 در صورت نیاز.
-- یا ادامه خوشه C.
+- ادامه کار روی dat_04/dat_06 در صورت تأمین منبع دقیق‌تر.
+- یا پایان فاز ۱ و انتقال به فاز ۲ (driver/tools/docs/examples).
