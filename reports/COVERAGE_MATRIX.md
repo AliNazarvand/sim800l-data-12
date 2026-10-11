@@ -5,9 +5,9 @@
 | dat_01 | AT Command | partial | low | 30% | AT Manual V1.01 | Source exists; extraction incomplete |
 | dat_02 | URC | partial | low | 20% | AT Manual V1.01 | Auto-extracted; needs review |
 | dat_03 | Error Code | partial | low | 20% | AT Manual V1.01 | Auto-extracted; needs review |
-| dat_04 | Timing & Timeout | partial | - | - | V2.02/V1.00 | Structured timing section found; annotate existing records only |
-| dat_05 | State Machine | blocked | - | - | V2.02/V1.00 | No structured state diagram/section found; blocked pending manual extraction or supplementary source |
-| dat_06 | Init Sequence | blocked | - | - | V2.02/V1.00 | No structured initialization section found; blocked pending manual extraction or supplementary source |
+| dat_04 | Timing & Timeout | partial | low | 30% | V2.02/V1.00 | Structured timing section exists; annotate existing records only |
+| dat_05 | State Machine | partial | low | 20% | V2.02/V1.00 | 11 inferred records present; source available; structured table (Overview of Operating Modes) exists; annotate only |
+| dat_06 | Init Sequence | partial | low | 20% | V2.02/V1.00 | 10 inferred records present; source available; annotate only |
 | dat_07 | Hardware Reference | partial | medium | 96% | V2.02, V1.00 | 75/78 annotated; total pin count of PDF not verified |
 | dat_08 | Firmware Compatibility | blocked | - | - | - | Release Notes not available |
 | dat_09 | SMS | partial | low | 10% | AT Manual V1.01 | Auto-extracted; needs review |
@@ -24,3 +24,9 @@
 ## قواعد وضعیت دیتاست (طبق R22)
 - مقادیر مجاز: complete | partial | blocked | deferred
 - unknown فقط برای رکورد مجاز است، نه برای وضعیت دیتاست.
+
+## قاعده D-022 (پیشنهادی)
+- یک دیتاست blocked نباید هیچ رکوردی در فایل داده داشته باشد.
+- اگر رکورد هست -> حداقل partial.
+- اگر منبع در دسترس است -> حداکثر partial (نه blocked).
+- blocked فقط وقتی است که منبع اصلی کل دیتاست در دسترس نباشد.

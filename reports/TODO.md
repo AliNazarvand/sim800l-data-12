@@ -15,9 +15,6 @@
 - [ ] GSMA / ITU / mcc-mnc.com — dat_14 (فقط ۵۲ رکورد نمونه)
 
 ## دیتاست‌های بلاک‌شده
-- [ ] dat_04 — ساختار PDF یافت نشد (structure_found=True)
-- [ ] dat_05 — ساختار PDF یافت نشد (structure_found=False)
-- [ ] dat_06 — ساختار PDF یافت نشد (structure_found=False)
 - [ ] dat_08 — Release Notes
 - [ ] dat_15 — پارامترهای ساختاریافته Power قابل استخراج خودکار نیست
 - [ ] dat_17 — SSL Manual
@@ -28,16 +25,25 @@
 
 ## دیتاست‌های partial
 - [ ] dat_01, dat_02, dat_03
+- [ ] dat_04 — annotate pending; structured timing section موجود
+- [ ] dat_05 — 11 رکورد inferred؛ نیازمند annotate از جدول Overview of Operating Modes (V2.02 p6)
+- [ ] dat_06 — 10 رکورد inferred؛ نیازمند annotate دستی
 - [ ] dat_07 — 75/78 annotated
 - [ ] dat_09, dat_10, dat_11, dat_12, dat_13
 - [ ] dat_14 — 52 external records
 
-## گام A3 — نتیجه اسکن ساختاریافته
-- dat_04 timing structure found: True
-- dat_05 state structure found: False
-- dat_06 init structure found: False
-- اسکن کامل در reports/_step_A3_structured_scan.json
-- **هیچ رکورد جدیدی اضافه نشد** — طبق D-019 auto-detection ممنوع است.
+## بازبینی دستی موردنیاز — جداول V2.02
+- [ ] بازبینی دستی جداول V2.02 صفحات 6، 15-25 برای استخراج ساختاریافته timing/state/init — نشست بعدی.
+- [ ] جدول Overview of Operating Modes (V2.02 p6) — مربوط به dat_05
+- [ ] جدول The Current Consumption of Minimum Functionality Mode — مربوط به dat_15
+- [ ] جداول Timing/Reset — مربوط به dat_04
+
+## گام A3 — نتیجه نهایی (اصلاح‌شده)
+- dat_04 timing structure found: True → partial
+- dat_05 state structure found: False در اسکن A3، اما جدول مربوطه در p6 موجود است → partial
+- dat_06 init structure found: False → partial (بر اساس رکوردهای inferred موجود)
+- هیچ رکورد جدیدی اضافه نشد (پایبندی به D-019).
+- اسکن کامل در: reports/_step_A3_structured_scan.json
 
 ## خطاهای L3 پذیرفته‌شده
 - ۳۰۳ خطای cross-ref — رفع در خوشه B پس از کامل شدن dat_01.
