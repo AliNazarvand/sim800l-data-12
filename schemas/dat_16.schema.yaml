@@ -9,13 +9,41 @@ required:
 - confidence
 - status
 - applicable_models
+- created_at
+- updated_at
 properties:
   id:
     type: string
+    pattern: ^dat_16_[0-9]{4}$
   category:
     type: string
   source:
     type: object
+    required:
+    - name
+    - version
+    properties:
+      name:
+        type: string
+      version:
+        type: string
+      date:
+        type:
+        - string
+        - 'null'
+        format: date
+      page:
+        type:
+        - string
+        - 'null'
+      section:
+        type:
+        - string
+        - 'null'
+      quote:
+        type:
+        - string
+        - 'null'
   source_type:
     type: string
     enum:
@@ -35,22 +63,52 @@ properties:
     - inferred
     - blocked
     - deferred
+    - example-only
   conflicts:
-    type: array
+    type:
+    - array
+    - 'null'
+    items:
+      type: object
   notes:
-    type: string
+    type:
+    - string
+    - 'null'
   tags:
-    type: array
+    type:
+    - array
+    - 'null'
+    items:
+      type: string
   applicable_models:
     type: array
+    items:
+      type: string
+    contains:
+      const: SIM800L
   created_at:
     type: string
+    format: date-time
   updated_at:
     type: string
-  coverage_estimate:
-    type: string
-    enum:
-    - high
-    - medium
-    - low
-additionalProperties: true
+    format: date-time
+  name:
+    type:
+    - string
+    - 'null'
+  connector:
+    type:
+    - string
+    - 'null'
+  pin:
+    type:
+    - string
+    - 'null'
+  function:
+    type:
+    - string
+    - 'null'
+  voltage:
+    type:
+    - string
+    - 'null'

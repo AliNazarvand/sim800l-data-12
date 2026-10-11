@@ -831,7 +831,7 @@
   encoding: GSM7
 - id: dat_09_0014
   category: SMS
-  mode: write
+  mode: text
   command: AT+CSCS
   syntax: 3.2.12 AT+CSCS  Select TE Character Set ...........................................................................59
   parameters:

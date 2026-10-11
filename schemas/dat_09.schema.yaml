@@ -9,13 +9,41 @@ required:
 - confidence
 - status
 - applicable_models
+- created_at
+- updated_at
 properties:
   id:
     type: string
+    pattern: ^dat_09_[0-9]{4}$
   category:
     type: string
   source:
     type: object
+    required:
+    - name
+    - version
+    properties:
+      name:
+        type: string
+      version:
+        type: string
+      date:
+        type:
+        - string
+        - 'null'
+        format: date
+      page:
+        type:
+        - string
+        - 'null'
+      section:
+        type:
+        - string
+        - 'null'
+      quote:
+        type:
+        - string
+        - 'null'
   source_type:
     type: string
     enum:
@@ -35,22 +63,93 @@ properties:
     - inferred
     - blocked
     - deferred
+    - example-only
   conflicts:
-    type: array
+    type:
+    - array
+    - 'null'
+    items:
+      type: object
   notes:
-    type: string
+    type:
+    - string
+    - 'null'
   tags:
-    type: array
+    type:
+    - array
+    - 'null'
+    items:
+      type: string
   applicable_models:
     type: array
+    items:
+      type: string
+    contains:
+      const: SIM800L
   created_at:
     type: string
+    format: date-time
   updated_at:
     type: string
-  coverage_estimate:
-    type: string
+    format: date-time
+  mode:
+    type:
+    - string
+    - 'null'
     enum:
-    - high
-    - medium
-    - low
-additionalProperties: true
+    - text
+    - pdu
+  command:
+    type:
+    - string
+    - 'null'
+  syntax:
+    type:
+    - string
+    - 'null'
+  parameters:
+    type:
+    - array
+    - 'null'
+    items:
+      type: object
+  response:
+    type:
+    - string
+    - 'null'
+  examples:
+    type:
+    - array
+    - 'null'
+    items:
+      type: string
+  related_urcs:
+    type:
+    - array
+    - 'null'
+    items:
+      type: string
+  encoding:
+    type:
+    - string
+    - 'null'
+    enum:
+    - GSM7
+    - UCS2
+    - 8bit
+  storage:
+    type:
+    - string
+    - 'null'
+    enum:
+    - SM
+    - ME
+    - MT
+  concat_sms:
+    type:
+    - boolean
+    - 'null'
+  delivery_report:
+    type:
+    - boolean
+    - 'null'
