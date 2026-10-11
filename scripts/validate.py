@@ -194,11 +194,16 @@ def commands_in_dat01():
     s = set()
     for rec in all_data.get("dat_01", []):
         if isinstance(rec, dict) and rec.get("command"):
-            s.add(str(rec["command"]).lstrip("+").upper())
+            s.add(cmd_norm(rec["command"]))
     return s
 
 def cmd_norm(c):
-    return str(c).lstrip("+").upper()
+    s = str(c).strip().upper()
+    if s.startswith("AT+"):
+        s = s[3:]
+    elif s.startswith("+"):
+        s = s[1:]
+    return s
 
 dat01_cmds = commands_in_dat01()
 
