@@ -1,0 +1,106 @@
+{
+  "dat_09": {
+    "total": 14,
+    "with_syntax": 14,
+    "with_angle": 0,
+    "with_eq_angle": 0,
+    "samples": [
+      {
+        "id": "dat_09_0001",
+        "command": "AT+CMGF",
+        "syntax": "AT+CMGF",
+        "quote": "4.2.2 AT+CMGF  Select SMS Message Format ......................................."
+      },
+      {
+        "id": "dat_09_0002",
+        "command": "AT+CMGS",
+        "syntax": "AT+CMGS",
+        "quote": "4.2.5 AT+CMGS  Send SMS Message ................................................"
+      },
+      {
+        "id": "dat_09_0003",
+        "command": "AT+CMGR",
+        "syntax": "AT+CMGR",
+        "quote": "4.2.4 AT+CMGR  Read SMS Message ................................................"
+      }
+    ]
+  },
+  "dat_10": {
+    "total": 24,
+    "with_syntax": 21,
+    "with_angle": 0,
+    "with_eq_angle": 0,
+    "samples": [
+      {
+        "id": "dat_10_0001",
+        "command": "AT+CGDCONT",
+        "syntax": "AT+CGDCONT",
+        "quote": "7.2.2 AT+CGDCONT  Define PDP Context ..........................................."
+      },
+      {
+        "id": "dat_10_0002",
+        "command": "AT+CGATT",
+        "syntax": "AT+CGATT",
+        "quote": "7.2.1 AT+CGATT  Attach or Detach from GPRS Service ............................."
+      },
+      {
+        "id": "dat_10_0003",
+        "command": "AT+CGACT",
+        "syntax": "AT+CGACT",
+        "quote": "7.2.5 AT+CGACT  PDP Context Activate or Deactivate ............................."
+      }
+    ]
+  },
+  "dat_12": {
+    "total": 13,
+    "with_syntax": 9,
+    "with_angle": 0,
+    "with_eq_angle": 0,
+    "samples": [
+      {
+        "id": "dat_12_0001",
+        "command": "AT+CLVL",
+        "syntax": "AT+CLVL",
+        "quote": "3.2.52 AT+CLVL  Loud Speaker V olume Level......................................"
+      },
+      {
+        "id": "dat_12_0002",
+        "command": "AT+CRSL",
+        "syntax": "AT+CRSL",
+        "quote": "3.2.51 AT+CRSL  Ringer Sound Level ............................................."
+      },
+      {
+        "id": "dat_12_0003",
+        "command": "AT+CMUT",
+        "syntax": "AT+CMUT",
+        "quote": "3.2.53 AT+CMUT  Mute Control ..................................................."
+      }
+    ]
+  },
+  "dat_13": {
+    "total": 10,
+    "with_syntax": 10,
+    "with_angle": 0,
+    "with_eq_angle": 0,
+    "samples": [
+      {
+        "id": "dat_13_0001",
+        "command": "AT+CPIN",
+        "syntax": "AT+CPIN",
+        "quote": "3.2.28 AT+CPIN  Enter PIN ......................................................"
+      },
+      {
+        "id": "dat_13_0002",
+        "command": "AT+CLCK",
+        "syntax": "AT+CLCK",
+        "quote": "3.2.17 AT+CLCK  Facility Lock .................................................."
+      },
+      {
+        "id": "dat_13_0003",
+        "command": "AT+CPWD",
+        "syntax": "AT+CPWD",
+        "quote": "3.2.29 AT+CPWD  Change Password ................................................"
+      }
+    ]
+  }
+}

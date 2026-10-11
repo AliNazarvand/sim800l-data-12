@@ -16,12 +16,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CGDCONT
   syntax: AT+CGDCONT
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CGDCONT
   coverage_estimate: high
 - id: dat_10_0002
   category: GPRS
@@ -41,12 +42,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CGATT
   syntax: AT+CGATT
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CGATT
   coverage_estimate: high
 - id: dat_10_0003
   category: GPRS
@@ -66,12 +68,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CGACT
   syntax: AT+CGACT
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CGACT
   coverage_estimate: high
 - id: dat_10_0004
   category: GPRS
@@ -79,21 +82,25 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '7'
+    section: AT Manual V1.01
+    quote: 6.2.36 AT+CGMSCLASS  Change GPRS Multislot Class ................................................155
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.5
+  status: blocked
   conflicts: []
-  notes: ''
+  notes: Command missing from AT Manual V1.01 cross-ref.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CGCONTRDP
   syntax: ''
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CGCONTRDP
   coverage_estimate: high
 - id: dat_10_0005
   category: GPRS
@@ -113,12 +120,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CGPADDR
   syntax: AT+CGPADDR
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CGPADDR
   coverage_estimate: high
 - id: dat_10_0006
   category: GPRS
@@ -138,12 +146,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CSTT
   syntax: AT+CSTT
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSTT
   coverage_estimate: high
 - id: dat_10_0007
   category: GPRS
@@ -163,12 +172,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIICR
   syntax: AT+CIICR
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIICR
   coverage_estimate: high
 - id: dat_10_0008
   category: GPRS
@@ -188,12 +198,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIFSR
   syntax: AT+CIFSR
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIFSR
   coverage_estimate: high
 - id: dat_10_0009
   category: GPRS
@@ -213,12 +224,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIPSTART
   syntax: AT+CIPSTART
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPSTART
   coverage_estimate: high
 - id: dat_10_0010
   category: GPRS
@@ -238,12 +250,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIPSEND
   syntax: AT+CIPSEND
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPSEND
   coverage_estimate: high
 - id: dat_10_0011
   category: GPRS
@@ -263,12 +276,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIPCLOSE
   syntax: AT+CIPCLOSE
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPCLOSE
   coverage_estimate: high
 - id: dat_10_0012
   category: GPRS
@@ -288,12 +302,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIPSHUT
   syntax: AT+CIPSHUT
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPSHUT
   coverage_estimate: high
 - id: dat_10_0013
   category: GPRS
@@ -313,12 +328,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIPSTATUS
   syntax: AT+CIPSTATUS
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPSTATUS
   coverage_estimate: high
 - id: dat_10_0014
   category: GPRS
@@ -338,12 +354,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIPRXGET
   syntax: AT+CIPRXGET
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPRXGET
   coverage_estimate: high
 - id: dat_10_0015
   category: GPRS
@@ -363,12 +380,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIPMUX
   syntax: AT+CIPMUX
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPMUX
   coverage_estimate: high
 - id: dat_10_0016
   category: GPRS
@@ -388,12 +406,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIPQSEND
   syntax: AT+CIPQSEND
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPQSEND
   coverage_estimate: high
 - id: dat_10_0017
   category: GPRS
@@ -401,21 +420,25 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '7'
+    section: AT Manual V1.01
+    quote: 6.2.36 AT+CGMSCLASS  Change GPRS Multislot Class ................................................155
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.5
+  status: blocked
   conflicts: []
-  notes: ''
+  notes: Command missing from AT Manual V1.01 cross-ref.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIPDDREM
   syntax: ''
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPDDREM
   coverage_estimate: high
 - id: dat_10_0018
   category: GPRS
@@ -435,12 +458,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIPMODE
   syntax: AT+CIPMODE
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPMODE
   coverage_estimate: high
 - id: dat_10_0019
   category: GPRS
@@ -460,12 +484,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CIPCCFG
   syntax: AT+CIPCCFG
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CIPCCFG
   coverage_estimate: high
 - id: dat_10_0020
   category: GPRS
@@ -485,12 +510,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CSQ
   syntax: AT+CSQ
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CSQ
   coverage_estimate: high
 - id: dat_10_0021
   category: GPRS
@@ -510,12 +536,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CREG
   syntax: AT+CREG
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CREG
   coverage_estimate: high
 - id: dat_10_0022
   category: GPRS
@@ -535,12 +562,13 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CGREG
   syntax: AT+CGREG
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CGREG
   coverage_estimate: high
 - id: dat_10_0023
   category: GPRS
@@ -548,21 +576,25 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: '7'
+    section: AT Manual V1.01
+    quote: 6.2.36 AT+CGMSCLASS  Change GPRS Multislot Class ................................................155
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.5
+  status: blocked
   conflicts: []
-  notes: ''
+  notes: Command missing from AT Manual V1.01 cross-ref.
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CEREG
   syntax: ''
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CEREG
   coverage_estimate: high
 - id: dat_10_0024
   category: GPRS
@@ -582,10 +614,11 @@
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:19:46Z'
+  updated_at: '2026-10-11T17:35:47Z'
   command: AT+CDNSGIP
   syntax: AT+CDNSGIP
   parameters: []
   response: OK
-  examples: []
+  examples:
+  - AT+CDNSGIP
   coverage_estimate: high

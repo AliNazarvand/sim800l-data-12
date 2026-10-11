@@ -406,3 +406,20 @@
 - validate: L1=0 L2=0 L3=8 L4=0.
 - Coverage: complete=12 partial=2 blocked=3 deferred=1.
 - Strict depth metric added.
+
+
+## D-037
+- تاریخ: 1405-07-19T17:37:24Z
+- زمینه: بسته D9 — اصلاح باگ else در D8، بازتعریف complete.
+- باگ D8: lse در خط جدا در PowerShell باعث شد شاخه FAILED اجرا نشود و 5 شکست واقعی پنهان بماند.
+- اصلاح: complete = (with_page == count) AND (strict_depth >= 50%).
+- نتایج:
+- s1_diagnose: diagnose params=0 — OK — see _step_D9_diagnosis.json
+- s2_parse_fix: parse fix dat_09/10/12/13 — OK — total_with_params=0
+- s3_dat01_params: dat_01 params heading — OK — with_params=271
+- s4_coverage: redefine complete — OK — c=6 p=8 b=3 d=1
+- s5_docs: validation + docs — OK — L1=0 L2=0 L3=8
+
+- موفقیت: 5 از 5.
+- validate: L1=0 L2=0 L3=8 L4=0.
+- Coverage: complete=6 partial=8 blocked=3 deferred=1.
