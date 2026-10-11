@@ -301,3 +301,21 @@
 - موفقیت: 6 از 7.
 - validate: L1=0 L2=0 L3=35 L4=0.
 - قواعد: بدون auto-detection (D-019)، گیت per-dataset، rollback مستقل.
+
+
+## D-032
+- تاریخ: 1405-07-19T17:25:39Z
+- زمینه: بسته D4 — بازبینی وضعیت پس از D3.
+- اقدامات:
+  1. COVERAGE_MATRIX با منطق with_page بازسازی شد (complete = همه page دارند؛ partial = بعضی؛ blocked = هیچ).
+  2. L3 whitelist برای commandهای تخصصی (HTTP/FTP/SSL/Audio/Cert) به validate.py اضافه شد.
+  3. صحت ادعای dat_01=complete بررسی شد.
+- نتایج:
+- 1_coverage: rebuild COVERAGE — OK — c=5 p=8 b=4 d=1
+- 2_whitelist: L3 whitelist — PARTIAL — block not found L3=35
+- 3_dat01: verify dat_01 — OK — complete confirmed
+
+- موفقیت: 2 از 3.
+- validate: L1=0 L2=0 L3=35 L4=0.
+- whitelist commands count: 0.
+- dat_01: total=334 with_page=334 with_params=0 with_response=334.
