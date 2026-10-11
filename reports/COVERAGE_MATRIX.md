@@ -5,9 +5,9 @@
 | dat_01 | AT Command | partial | low | 30% | AT Manual V1.01 | Source exists; extraction incomplete |
 | dat_02 | URC | partial | low | 20% | AT Manual V1.01 | Auto-extracted; needs review |
 | dat_03 | Error Code | partial | low | 20% | AT Manual V1.01 | Auto-extracted; needs review |
-| dat_04 | Timing & Timeout | partial | low | 30% | Hardware Design V1.00/V2.02 | Needs full review |
-| dat_05 | State Machine | partial | low | 20% | Hardware Design V1.00/V2.02 | Needs full review |
-| dat_06 | Init Sequence | partial | low | 20% | Hardware Design V1.00/V2.02 | Needs full review |
+| dat_04 | Timing & Timeout | partial | - | - | V2.02/V1.00 | Structured timing section found; annotate existing records only |
+| dat_05 | State Machine | blocked | - | - | V2.02/V1.00 | No structured state diagram/section found; blocked pending manual extraction or supplementary source |
+| dat_06 | Init Sequence | blocked | - | - | V2.02/V1.00 | No structured initialization section found; blocked pending manual extraction or supplementary source |
 | dat_07 | Hardware Reference | partial | medium | 96% | V2.02, V1.00 | 75/78 annotated; total pin count of PDF not verified |
 | dat_08 | Firmware Compatibility | blocked | - | - | - | Release Notes not available |
 | dat_09 | SMS | partial | low | 10% | AT Manual V1.01 | Auto-extracted; needs review |

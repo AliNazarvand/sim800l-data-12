@@ -1,0 +1,3029 @@
+{
+  "V2.02": {
+    "tables": [
+      {
+        "page": 6,
+        "id": "1",
+        "title": "MODULE INFORMATION.............................................................."
+      },
+      {
+        "page": 6,
+        "id": "2",
+        "title": "SIM800H&SIM800L KEY FEATURES...................................................."
+      },
+      {
+        "page": 6,
+        "id": "3",
+        "title": "CODING SCHEMES AND MAXIMUM NET DATA RATES OVER AIR INTERFACE...................."
+      },
+      {
+        "page": 6,
+        "id": "4",
+        "title": "OVERVIEW OF OPERATING MODES....................................................."
+      },
+      {
+        "page": 6,
+        "id": "5",
+        "title": "PIN DESCRIPTION................................................................."
+      },
+      {
+        "page": 6,
+        "id": "6",
+        "title": "RECOMMENDED ZENER DIODE........................................................."
+      },
+      {
+        "page": 6,
+        "id": "7",
+        "title": "ELECTRONIC CHARACTERISTIC OF THE RESET PIN......................................"
+      },
+      {
+        "page": 6,
+        "id": "8",
+        "title": "THE CURRENT CONSUMPTION OF MINIMUM FUNCTIONALITY MODE (BS-PA-MFRMS=9)......26"
+      },
+      {
+        "page": 6,
+        "id": "9",
+        "title": "SERIAL PORT AND USB PIN DEFINITION.............................................."
+      },
+      {
+        "page": 6,
+        "id": "10",
+        "title": "SERIAL PORT CHARACTERISTICS....................................................."
+      },
+      {
+        "page": 6,
+        "id": "11",
+        "title": "VBUS OPERATION VOLTAGE.........................................................."
+      },
+      {
+        "page": 6,
+        "id": "12",
+        "title": "RI BEHAVIORS...................................................................."
+      },
+      {
+        "page": 6,
+        "id": "13",
+        "title": "AUDIO INTERFACE DEFINITION......................................................"
+      },
+      {
+        "page": 6,
+        "id": "14",
+        "title": "PERFORMANCE OF AUDIO AMPLIFIER.................................................."
+      },
+      {
+        "page": 6,
+        "id": "15",
+        "title": "MICROPHONE INPUT CHARACTERISTICS................................................"
+      },
+      {
+        "page": 6,
+        "id": "16",
+        "title": "AUDIO OUTPUT CHARACTERISTICS...................................................."
+      },
+      {
+        "page": 6,
+        "id": "17",
+        "title": "SIM PIN DEFINITION.............................................................."
+      },
+      {
+        "page": 6,
+        "id": "18",
+        "title": "PIN DESCRIPTION (MOLEX SIM CARD HOLDER)........................................."
+      },
+      {
+        "page": 6,
+        "id": "19",
+        "title": "PIN DESCRIPTION (AMPHENOL SIM CARD HOLDER)......................................"
+      },
+      {
+        "page": 6,
+        "id": "20",
+        "title": "PCM PIN DEFINITION.............................................................."
+      },
+      {
+        "page": 6,
+        "id": "21",
+        "title": "PCM SPECIFICATION..............................................................."
+      },
+      {
+        "page": 6,
+        "id": "22",
+        "title": "PCM MULTIPLEXING FUNCTION......................................................."
+      },
+      {
+        "page": 6,
+        "id": "23",
+        "title": "PIN DEFINITION OF THE KEYPAD INTERFACE.........................................."
+      },
+      {
+        "page": 6,
+        "id": "24",
+        "title": "KEYPAD MULTIPLEXING FUNCTION...................................................."
+      },
+      {
+        "page": 6,
+        "id": "25",
+        "title": "PIN DEFINITION OF THE I2C......................................................."
+      },
+      {
+        "page": 6,
+        "id": "26",
+        "title": "I2C MULTIPLEXING FUNCTION......................................................."
+      },
+      {
+        "page": 6,
+        "id": "27",
+        "title": "PIN DEFINITION OF THE GPIO......................................................"
+      },
+      {
+        "page": 6,
+        "id": "28",
+        "title": "PIN DEFINITION OF THE ADC......................................................."
+      },
+      {
+        "page": 6,
+        "id": "29",
+        "title": "ADC SPECIFICATION..............................................................."
+      },
+      {
+        "page": 6,
+        "id": "30",
+        "title": "PIN DEFINITION OF THE PWM......................................................."
+      },
+      {
+        "page": 6,
+        "id": "31",
+        "title": "BUZZER CHARACTERISTICS.........................................................."
+      },
+      {
+        "page": 6,
+        "id": "32",
+        "title": "PWM MULTIPLEXING FUNCTION......................................................."
+      },
+      {
+        "page": 6,
+        "id": "33",
+        "title": "PIN DEFINITION OF THE NETLIGHT.................................................."
+      },
+      {
+        "page": 6,
+        "id": "34",
+        "title": "STATUS OF THE NETLIGHT PIN......................................................"
+      },
+      {
+        "page": 6,
+        "id": "35",
+        "title": "NETLIGHT MULTIPLEXING FUNCTION.................................................."
+      },
+      {
+        "page": 6,
+        "id": "36",
+        "title": "PIN DEFINITION OF THE STATUS...................................................."
+      },
+      {
+        "page": 6,
+        "id": "37",
+        "title": "STATUS MULTIPLEXING FUNCTION...................................................."
+      },
+      {
+        "page": 6,
+        "id": "38",
+        "title": "PIN DEFINITION OF THE LED......................................................."
+      },
+      {
+        "page": 6,
+        "id": "39",
+        "title": "ISINK SPECIFICATION............................................................."
+      },
+      {
+        "page": 6,
+        "id": "40",
+        "title": "DEFINITION OF THE RF_SYNC PIN..................................................."
+      },
+      {
+        "page": 6,
+        "id": "41",
+        "title": "RF_SYNC MULTIPLEXING FUNCTION..................................................."
+      },
+      {
+        "page": 6,
+        "id": "42",
+        "title": "ABSOLUTE MAXIMUM RATINGS........................................................"
+      },
+      {
+        "page": 6,
+        "id": "43",
+        "title": "RECOMMENDED OPERATING CONDITIONS................................................"
+      },
+      {
+        "page": 6,
+        "id": "44",
+        "title": "DIGITAL INTERFACE CHARACTERISTICS..............................................."
+      },
+      {
+        "page": 6,
+        "id": "45",
+        "title": "SIM CARD INTERFACE CHARACTERISTICS.............................................."
+      },
+      {
+        "page": 7,
+        "id": "46",
+        "title": "SIM_VDD CHARACTERISTICS........................................................."
+      },
+      {
+        "page": 7,
+        "id": "47",
+        "title": "VDD_EXT CHARACTERISTICS........................................................."
+      },
+      {
+        "page": 7,
+        "id": "48",
+        "title": "VRTC CHARACTERISTICS............................................................"
+      },
+      {
+        "page": 7,
+        "id": "49",
+        "title": "CURRENT CONSUMPTION............................................................."
+      },
+      {
+        "page": 7,
+        "id": "50",
+        "title": "BLUETOOTH CHARACTERISTICS......................................................."
+      },
+      {
+        "page": 7,
+        "id": "51",
+        "title": "CURRENT CONSUMPTION OF BLUETOOTH................................................"
+      },
+      {
+        "page": 7,
+        "id": "52",
+        "title": "THE ESD CHARACTERISTICS (TEMPERATURE: 25℃, HUMIDITY: 45 %)......................"
+      },
+      {
+        "page": 7,
+        "id": "53",
+        "title": "GSM850 AND EGSM900 CONDUCTED RF OUTPUT POWER...................................."
+      },
+      {
+        "page": 7,
+        "id": "54",
+        "title": "DCS1800 AND PCS1900 CONDUCTED RF OUTPUT POWER..................................."
+      },
+      {
+        "page": 7,
+        "id": "55",
+        "title": "CONDUCTED RF RECEIVE SENSITIVITY................................................"
+      },
+      {
+        "page": 7,
+        "id": "56",
+        "title": "OPERATING FREQUENCIES..........................................................."
+      },
+      {
+        "page": 7,
+        "id": "57",
+        "title": "MOISTURE SENSITIVITY LEVEL AND FLOOR LIFE......................................."
+      },
+      {
+        "page": 7,
+        "id": "58",
+        "title": "BAKING REQUIREMENTS............................................................."
+      },
+      {
+        "page": 7,
+        "id": "59",
+        "title": "RELATED DOCUMENTS..............................................................."
+      },
+      {
+        "page": 7,
+        "id": "60",
+        "title": "MULTIPLEXING FUNCTION..........................................................."
+      },
+      {
+        "page": 7,
+        "id": "61",
+        "title": "TERMS AND ABBREVIATIONS........................................................."
+      },
+      {
+        "page": 7,
+        "id": "62",
+        "title": "SAFETY CAUTION.................................................................."
+      },
+      {
+        "page": 10,
+        "id": "1",
+        "title": ",table 7"
+      },
+      {
+        "page": 10,
+        "id": "50",
+        "title": "and table 51"
+      },
+      {
+        "page": 10,
+        "id": "50",
+        "title": "“Bluetooth specification Version3.0”"
+      },
+      {
+        "page": 10,
+        "id": "44",
+        "title": "“Parameter”"
+      },
+      {
+        "page": 11,
+        "id": "1",
+        "title": "Module information"
+      },
+      {
+        "page": 11,
+        "id": "2",
+        "title": "SIM800H&SIM800L key features"
+      },
+      {
+        "page": 13,
+        "id": "3",
+        "title": "Coding schemes and maximum net data rates over air interface"
+      },
+      {
+        "page": 13,
+        "id": "4",
+        "title": "Overview of operating modes"
+      },
+      {
+        "page": 16,
+        "id": "5",
+        "title": "Pin description"
+      },
+      {
+        "page": 20,
+        "id": "6",
+        "title": "Recommended zener diode"
+      },
+      {
+        "page": 26,
+        "id": "7",
+        "title": "Electronic characteristic of the RESET pin"
+      },
+      {
+        "page": 26,
+        "id": "8",
+        "title": "The current consumption of Minimum Functionality Mode (BS-PA-MFRMS=9)"
+      },
+      {
+        "page": 29,
+        "id": "9",
+        "title": "Serial port and USB pin definition"
+      },
+      {
+        "page": 29,
+        "id": "10",
+        "title": "Serial port characteristics"
+      },
+      {
+        "page": 29,
+        "id": "5",
+        "title": "Pin"
+      },
+      {
+        "page": 32,
+        "id": "11",
+        "title": "VBUS operation voltage"
+      },
+      {
+        "page": 34,
+        "id": "12",
+        "title": "RI behaviors"
+      },
+      {
+        "page": 35,
+        "id": "13",
+        "title": "Audio interface definition"
+      },
+      {
+        "page": 36,
+        "id": "14",
+        "title": "Performance of audio amplifier"
+      },
+      {
+        "page": 37,
+        "id": "15",
+        "title": "Microphone input characteristics"
+      },
+      {
+        "page": 37,
+        "id": "16",
+        "title": "Audio output characteristics"
+      },
+      {
+        "page": 38,
+        "id": "17",
+        "title": "SIM pin definition"
+      },
+      {
+        "page": 40,
+        "id": "18",
+        "title": "Pin description (Molex SIM card holder)"
+      },
+      {
+        "page": 41,
+        "id": "19",
+        "title": "Pin description (Amphenol SIM card holder)"
+      },
+      {
+        "page": 42,
+        "id": "20",
+        "title": "PCM pin definition"
+      },
+      {
+        "page": 42,
+        "id": "21",
+        "title": "PCM specification"
+      },
+      {
+        "page": 42,
+        "id": "22",
+        "title": "PCM multiplexing function"
+      },
+      {
+        "page": 46,
+        "id": "23",
+        "title": "Pin definition of the keypad interface"
+      },
+      {
+        "page": 46,
+        "id": "24",
+        "title": "Keypad multiplexing function"
+      },
+      {
+        "page": 46,
+        "id": "25",
+        "title": "Pin definition of the I2C"
+      },
+      {
+        "page": 47,
+        "id": "26",
+        "title": "I2C multiplexing function"
+      },
+      {
+        "page": 47,
+        "id": "27",
+        "title": "Pin definition of the GPIO"
+      },
+      {
+        "page": 47,
+        "id": "28",
+        "title": "Pin definition of the ADC"
+      },
+      {
+        "page": 48,
+        "id": "29",
+        "title": "ADC specification"
+      },
+      {
+        "page": 48,
+        "id": "30",
+        "title": "Pin definition of the PWM"
+      },
+      {
+        "page": 48,
+        "id": "31",
+        "title": "Buzzer characteristics"
+      },
+      {
+        "page": 49,
+        "id": "32",
+        "title": "PWM multiplexing function"
+      },
+      {
+        "page": 49,
+        "id": "33",
+        "title": "Pin definition of the NETLIGHT"
+      },
+      {
+        "page": 49,
+        "id": "34",
+        "title": "Status of the NETLIGHT pin"
+      },
+      {
+        "page": 50,
+        "id": "35",
+        "title": "NETLIGHT multiplexing function"
+      },
+      {
+        "page": 50,
+        "id": "36",
+        "title": "Pin definition of the STATUS"
+      },
+      {
+        "page": 50,
+        "id": "37",
+        "title": "STATUS multiplexing function"
+      },
+      {
+        "page": 50,
+        "id": "38",
+        "title": "Pin definition of the LED"
+      },
+      {
+        "page": 51,
+        "id": "39",
+        "title": "ISINK specification"
+      },
+      {
+        "page": 51,
+        "id": "40",
+        "title": "Definition of the RF_SYNC pin"
+      },
+      {
+        "page": 52,
+        "id": "41",
+        "title": "RF_SYNC Multiplexing function"
+      },
+      {
+        "page": 58,
+        "id": "42",
+        "title": "Absolute maximum ratings"
+      },
+      {
+        "page": 58,
+        "id": "43",
+        "title": "Recommended operating conditions"
+      },
+      {
+        "page": 58,
+        "id": "44",
+        "title": "Digital interface characteristics"
+      },
+      {
+        "page": 59,
+        "id": "45",
+        "title": "SIM card interface characteristics"
+      },
+      {
+        "page": 59,
+        "id": "46",
+        "title": "SIM_VDD characteristics"
+      },
+      {
+        "page": 59,
+        "id": "47",
+        "title": "VDD_EXT characteristics"
+      },
+      {
+        "page": 59,
+        "id": "48",
+        "title": "VRTC characteristics"
+      },
+      {
+        "page": 60,
+        "id": "49",
+        "title": "Current consumption"
+      },
+      {
+        "page": 61,
+        "id": "50",
+        "title": "Bluetooth characteristics"
+      },
+      {
+        "page": 62,
+        "id": "51",
+        "title": "Current consumption of Bluetooth"
+      },
+      {
+        "page": 63,
+        "id": "52",
+        "title": "The ESD characteristics (Temperature: 25℃, Humidity: 45 %)"
+      },
+      {
+        "page": 63,
+        "id": "53",
+        "title": "GSM850 and EGSM900 conducted RF output power"
+      },
+      {
+        "page": 64,
+        "id": "54",
+        "title": "DCS1800 and PCS1900 conducted RF output power"
+      },
+      {
+        "page": 64,
+        "id": "55",
+        "title": "Conducted RF receive sensitivity"
+      },
+      {
+        "page": 64,
+        "id": "56",
+        "title": "Operating frequencies"
+      },
+      {
+        "page": 66,
+        "id": "57",
+        "title": "Moisture sensitivity level and floor life"
+      },
+      {
+        "page": 67,
+        "id": "58",
+        "title": "Baking requirements"
+      },
+      {
+        "page": 68,
+        "id": "59",
+        "title": "Related documents"
+      },
+      {
+        "page": 69,
+        "id": "60",
+        "title": "Multiplexing function"
+      },
+      {
+        "page": 70,
+        "id": "61",
+        "title": "Terms and abbreviations"
+      },
+      {
+        "page": 72,
+        "id": "62",
+        "title": "Safety caution"
+      }
+    ],
+    "figures": [
+      {
+        "page": 8,
+        "id": "1",
+        "title": "SIM800H&SIM800L FUNCTIONAL DIAGRAM.............................................."
+      },
+      {
+        "page": 8,
+        "id": "2",
+        "title": "PIN ASSIGNMENT (TOP VIEW)......................................................."
+      },
+      {
+        "page": 8,
+        "id": "3",
+        "title": "DIMENSIONS OF SIM800H&SIM800L (UNIT: MM)........................................"
+      },
+      {
+        "page": 8,
+        "id": "4",
+        "title": "RECOMMENDED PCB FOOTPRINT OUTLINE (UNIT: MM)...................................."
+      },
+      {
+        "page": 8,
+        "id": "5",
+        "title": "REFERENCE CIRCUIT OF THE VBAT INPUT............................................."
+      },
+      {
+        "page": 8,
+        "id": "6",
+        "title": "REFERENCE CIRCUIT OF THE LDO POWER SUPPLY......................................."
+      },
+      {
+        "page": 8,
+        "id": "7",
+        "title": "REFERENCE CIRCUIT OF THE DC-DC POWER SUPPLY....................................."
+      },
+      {
+        "page": 8,
+        "id": "8",
+        "title": "VBAT VOLTAGE DROP DURING TRANSMIT BURST........................................."
+      },
+      {
+        "page": 8,
+        "id": "9",
+        "title": "THE MINIMAL VBAT VOLTAGE REQUIREMENT AT VBAT DROP..............................."
+      },
+      {
+        "page": 8,
+        "id": "10",
+        "title": "POWERED ON/OFF MODULE USING TRANSISTOR.........................................."
+      },
+      {
+        "page": 8,
+        "id": "11",
+        "title": "POWERED ON/OFF MODULE USING BUTTON.............................................."
+      },
+      {
+        "page": 8,
+        "id": "12",
+        "title": "TIMING OF POWER ON MODULE......................................................."
+      },
+      {
+        "page": 8,
+        "id": "13",
+        "title": "TIMING OF POWER DOWN SIM800H&SIM800L BY PWRKEY.................................."
+      },
+      {
+        "page": 8,
+        "id": "14",
+        "title": "TIMING OF RESTART SIM800H&SIM800L..............................................."
+      },
+      {
+        "page": 8,
+        "id": "15",
+        "title": "RESET CIRCUIT..................................................................."
+      },
+      {
+        "page": 8,
+        "id": "16",
+        "title": "RESET TIMING SEQUENCE..........................................................."
+      },
+      {
+        "page": 8,
+        "id": "17",
+        "title": "RTC SUPPLY FROM CAPACITOR......................................................."
+      },
+      {
+        "page": 8,
+        "id": "18",
+        "title": "RTC SUPPLY FROM NON-CHARGEABLE BATTERY.........................................."
+      },
+      {
+        "page": 8,
+        "id": "19",
+        "title": "RTC SUPPLY FROM RECHARGEABLE BATTERY............................................"
+      },
+      {
+        "page": 8,
+        "id": "20",
+        "title": "CONNECTION OF THE SERIAL INTERFACES............................................."
+      },
+      {
+        "page": 8,
+        "id": "21",
+        "title": "RESISTOR MATCHING CIRCUIT......................................................."
+      },
+      {
+        "page": 8,
+        "id": "22",
+        "title": "DIODE ISOLATION CIRCUIT........................................................."
+      },
+      {
+        "page": 8,
+        "id": "23",
+        "title": "TX LEVEL MATCHING CIRCUIT......................................................."
+      },
+      {
+        "page": 8,
+        "id": "24",
+        "title": "RX LEVEL MATCHING CIRCUIT......................................................."
+      },
+      {
+        "page": 8,
+        "id": "25",
+        "title": "USB REFERENCE CIRCUIT..........................................................."
+      },
+      {
+        "page": 8,
+        "id": "26",
+        "title": "CONNECTION FOR SOFTWARE UPGRADING AND DEBUGGING................................."
+      },
+      {
+        "page": 8,
+        "id": "27",
+        "title": "RI BEHAVIOUR OF VOICE CALLING AS A RECEIVER....................................."
+      },
+      {
+        "page": 8,
+        "id": "28",
+        "title": "RI BEHAVIOUR OF DATA CALLING AS A RECEIVER......................................"
+      },
+      {
+        "page": 8,
+        "id": "29",
+        "title": "RI BEHAVIOUR OF URC OR RECEIVE SMS.............................................."
+      },
+      {
+        "page": 8,
+        "id": "30",
+        "title": "RI BEHAVIOUR AS A CALLER........................................................"
+      },
+      {
+        "page": 8,
+        "id": "31",
+        "title": "SPEAKER REFERENCE CIRCUIT......................................................."
+      },
+      {
+        "page": 8,
+        "id": "32",
+        "title": "SPEAKER WITH AMPLIFIER REFERENCE CIRCUIT........................................"
+      },
+      {
+        "page": 8,
+        "id": "33",
+        "title": "REFERENCE CIRCUIT OF THE 8-PIN SIM CARD HOLDER.................................."
+      },
+      {
+        "page": 8,
+        "id": "34",
+        "title": "REFERENCE CIRCUIT OF THE 6-PIN SIM CARD HOLDER.................................."
+      },
+      {
+        "page": 8,
+        "id": "35",
+        "title": "MOLEX 91228 SIM CARD HOLDER....................................................."
+      },
+      {
+        "page": 8,
+        "id": "36",
+        "title": "AMPHENOL C707 10M006 512 SIM CARD HOLDER........................................"
+      },
+      {
+        "page": 8,
+        "id": "37",
+        "title": "PCM REFERENCE CIRCUIT..........................................................."
+      },
+      {
+        "page": 8,
+        "id": "38",
+        "title": "LCD REFERENCE CIRCUIT..........................................................."
+      },
+      {
+        "page": 8,
+        "id": "39",
+        "title": "SD REFERENCE CIRCUIT............................................................"
+      },
+      {
+        "page": 8,
+        "id": "40",
+        "title": "25 KEYS REFERENCE CIRCUIT......................................................."
+      },
+      {
+        "page": 8,
+        "id": "41",
+        "title": "50 KEYS REFERENCE CIRCUIT......................................................."
+      },
+      {
+        "page": 8,
+        "id": "42",
+        "title": "KEYPAD REFERENCE CIRCUIT........................................................"
+      },
+      {
+        "page": 8,
+        "id": "43",
+        "title": "KEYPAD DETECTED................................................................."
+      },
+      {
+        "page": 8,
+        "id": "44",
+        "title": "GPIO TIMING SEQUENCES..........................................................."
+      },
+      {
+        "page": 8,
+        "id": "45",
+        "title": "REFERENCE CIRCUIT OF PWM DRIVER BUZZER.........................................."
+      },
+      {
+        "page": 8,
+        "id": "46",
+        "title": "REFERENCE CIRCUIT OF NETLIGHT..................................................."
+      },
+      {
+        "page": 9,
+        "id": "47",
+        "title": "LED DRIVER REFERENCE CIRCUIT...................................................."
+      },
+      {
+        "page": 9,
+        "id": "48",
+        "title": "RF_SYNC SIGNAL DURING TRANSMIT BURST............................................"
+      },
+      {
+        "page": 9,
+        "id": "49",
+        "title": "GSM ANTENNA MATCHING CIRCUIT...................................................."
+      },
+      {
+        "page": 9,
+        "id": "50",
+        "title": "GSM SIMPLE ANTENNA MATCHING CIRCUIT............................................."
+      },
+      {
+        "page": 9,
+        "id": "51",
+        "title": "BLUETOOTH ANTENNA MATCHING CIRCUIT.............................................."
+      },
+      {
+        "page": 9,
+        "id": "52",
+        "title": "FM ANTENNA MATCHING CIRCUIT....................................................."
+      },
+      {
+        "page": 9,
+        "id": "53",
+        "title": "GND PIN OF THE EARPHONE USE TO BE THE FM ANTENNA INTERFACE......................"
+      },
+      {
+        "page": 9,
+        "id": "54",
+        "title": "PIN ASSIGNMENT.................................................................."
+      },
+      {
+        "page": 9,
+        "id": "55",
+        "title": "RECOMMENDED PCB LAYOUT.........................................................."
+      },
+      {
+        "page": 9,
+        "id": "56",
+        "title": "TOP AND BOTTOM VIEW OF SIM800H.................................................."
+      },
+      {
+        "page": 9,
+        "id": "57",
+        "title": "TOP AND BOTTOM VIEW OF SIM800L.................................................."
+      },
+      {
+        "page": 9,
+        "id": "58",
+        "title": "TYPICAL SOLDER REFLOW PROFILE OF LEAD-FREE PROCESSES............................"
+      },
+      {
+        "page": 10,
+        "id": "15",
+        "title": ", figure 23, figure 32, figure 54"
+      },
+      {
+        "page": 10,
+        "id": "12",
+        "title": ",Figure 13,Figure 20"
+      },
+      {
+        "page": 14,
+        "id": "1",
+        "title": "SIM800H&SIM800L functional diagram"
+      },
+      {
+        "page": 15,
+        "id": "2",
+        "title": "Pin assignment (Top view)"
+      },
+      {
+        "page": 18,
+        "id": "3",
+        "title": "Dimensions of SIM800H&SIM800L (Unit: mm)"
+      },
+      {
+        "page": 19,
+        "id": "4",
+        "title": "Recommended PCB footprint outline (Unit: mm)"
+      },
+      {
+        "page": 20,
+        "id": "5",
+        "title": "Reference circuit of the VBAT input"
+      },
+      {
+        "page": 20,
+        "id": "6",
+        "title": "Reference circuit of the LDO power supply"
+      },
+      {
+        "page": 21,
+        "id": "7",
+        "title": "Reference circuit of the DC-DC power supply"
+      },
+      {
+        "page": 21,
+        "id": "8",
+        "title": "VBAT voltage drop during transmit burst"
+      },
+      {
+        "page": 22,
+        "id": "9",
+        "title": "The minimal VBAT voltage requirement at VBAT drop"
+      },
+      {
+        "page": 22,
+        "id": "10",
+        "title": "Powered on/off module using transistor"
+      },
+      {
+        "page": 22,
+        "id": "11",
+        "title": "Powered on/off module using button"
+      },
+      {
+        "page": 23,
+        "id": "12",
+        "title": "Timing of power on module"
+      },
+      {
+        "page": 23,
+        "id": "13",
+        "title": "Timing of power down SIM800H&SIM800L by PWRKEY"
+      },
+      {
+        "page": 25,
+        "id": "14",
+        "title": "Timing of restart SIM800H&SIM800L"
+      },
+      {
+        "page": 25,
+        "id": "15",
+        "title": "Reset circuit"
+      },
+      {
+        "page": 26,
+        "id": "16",
+        "title": "Reset timing sequence"
+      },
+      {
+        "page": 28,
+        "id": "17",
+        "title": "RTC supply from capacitor"
+      },
+      {
+        "page": 28,
+        "id": "18",
+        "title": "RTC supply from non-chargeable battery"
+      },
+      {
+        "page": 28,
+        "id": "19",
+        "title": "RTC supply from rechargeable battery"
+      },
+      {
+        "page": 29,
+        "id": "2",
+        "title": "Pin assignment (Top view) and Table 5: Pin"
+      },
+      {
+        "page": 30,
+        "id": "20",
+        "title": "Connection of the serial interfaces"
+      },
+      {
+        "page": 31,
+        "id": "21",
+        "title": "Resistor matching circuit"
+      },
+      {
+        "page": 31,
+        "id": "22",
+        "title": "Diode isolation circuit"
+      },
+      {
+        "page": 31,
+        "id": "23",
+        "title": "TX level matching circuit"
+      },
+      {
+        "page": 32,
+        "id": "24",
+        "title": "RX level matching circuit"
+      },
+      {
+        "page": 32,
+        "id": "23",
+        "title": "and Figure 24 are used for electrical level isolation, if customers use serial p"
+      },
+      {
+        "page": 32,
+        "id": "25",
+        "title": "USB reference circuit"
+      },
+      {
+        "page": 33,
+        "id": "26",
+        "title": "Connection for software upgrading and debugging"
+      },
+      {
+        "page": 34,
+        "id": "27",
+        "title": "RI behaviour of voice calling as a receiver"
+      },
+      {
+        "page": 34,
+        "id": "28",
+        "title": "RI behaviour of data calling as a receiver"
+      },
+      {
+        "page": 35,
+        "id": "29",
+        "title": "RI behaviour of URC or receive SMS"
+      },
+      {
+        "page": 35,
+        "id": "30",
+        "title": "RI behaviour as a caller"
+      },
+      {
+        "page": 36,
+        "id": "31",
+        "title": "Speaker reference circuit"
+      },
+      {
+        "page": 37,
+        "id": "32",
+        "title": "Speaker with amplifier reference circuit"
+      },
+      {
+        "page": 38,
+        "id": "33",
+        "title": "Reference circuit of the 8-pin SIM card holder"
+      },
+      {
+        "page": 39,
+        "id": "34",
+        "title": "Reference circuit of the 6-pin SIM card holder"
+      },
+      {
+        "page": 40,
+        "id": "35",
+        "title": "Molex 91228 SIM card holder"
+      },
+      {
+        "page": 41,
+        "id": "36",
+        "title": "Amphenol C707 10M006 512 SIM card holder"
+      },
+      {
+        "page": 43,
+        "id": "37",
+        "title": "PCM reference circuit"
+      },
+      {
+        "page": 43,
+        "id": "38",
+        "title": "LCD reference circuit"
+      },
+      {
+        "page": 43,
+        "id": "39",
+        "title": "SD reference circuit"
+      },
+      {
+        "page": 44,
+        "id": "40",
+        "title": "25 keys reference circuit"
+      },
+      {
+        "page": 45,
+        "id": "41",
+        "title": "50 keys reference circuit"
+      },
+      {
+        "page": 45,
+        "id": "42",
+        "title": "Keypad reference circuit"
+      },
+      {
+        "page": 45,
+        "id": "43",
+        "title": "Keypad detected"
+      },
+      {
+        "page": 47,
+        "id": "44",
+        "title": "GPIO timing sequences"
+      },
+      {
+        "page": 48,
+        "id": "45",
+        "title": "Reference circuit of PWM driver buzzer"
+      },
+      {
+        "page": 49,
+        "id": "46",
+        "title": "Reference circuit of NETLIGHT"
+      },
+      {
+        "page": 51,
+        "id": "47",
+        "title": "LED driver reference circuit"
+      },
+      {
+        "page": 51,
+        "id": "48",
+        "title": "RF_SYNC signal during transmit burst"
+      },
+      {
+        "page": 52,
+        "id": "49",
+        "title": "GSM antenna matching circuit"
+      },
+      {
+        "page": 53,
+        "id": "50",
+        "title": "GSM simple antenna matching circuit"
+      },
+      {
+        "page": 53,
+        "id": "51",
+        "title": "Bluetooth antenna matching circuit"
+      },
+      {
+        "page": 54,
+        "id": "52",
+        "title": "FM antenna matching circuit"
+      },
+      {
+        "page": 54,
+        "id": "53",
+        "title": "GND pin of the earphone use to be the FM antenna interface"
+      },
+      {
+        "page": 55,
+        "id": "54",
+        "title": "Pin assignment"
+      },
+      {
+        "page": 57,
+        "id": "55",
+        "title": "Recommended PCB layout"
+      },
+      {
+        "page": 65,
+        "id": "56",
+        "title": "Top and bottom view of SIM800H"
+      },
+      {
+        "page": 65,
+        "id": "57",
+        "title": "Top and bottom view of SIM800L"
+      },
+      {
+        "page": 66,
+        "id": "58",
+        "title": "Typical solder reflow profile of lead-free processes"
+      }
+    ],
+    "sections": [
+      {
+        "page": 29,
+        "id": "4.5.1",
+        "title": "Function of Serial Port"
+      },
+      {
+        "page": 30,
+        "id": "4.5.2",
+        "title": "Serial Interfaces"
+      },
+      {
+        "page": 32,
+        "id": "4.5.3",
+        "title": "Debug Interface"
+      },
+      {
+        "page": 33,
+        "id": "4.5.4",
+        "title": "Software Upgrade"
+      },
+      {
+        "page": 55,
+        "id": "5.1",
+        "title": "Pin Assignment"
+      },
+      {
+        "page": 56,
+        "id": "5.2",
+        "title": "Principle of PCB Layout"
+      },
+      {
+        "page": 56,
+        "id": "5.2.1",
+        "title": "Antenna Interface"
+      },
+      {
+        "page": 56,
+        "id": "5.2.3",
+        "title": "SIM Card Interface"
+      },
+      {
+        "page": 56,
+        "id": "5.2.4",
+        "title": "Audio Interface"
+      },
+      {
+        "page": 56,
+        "id": "5.2.5",
+        "title": "Others"
+      },
+      {
+        "page": 57,
+        "id": "5.3",
+        "title": "Recommended PCB Layout"
+      },
+      {
+        "page": 58,
+        "id": "6.1",
+        "title": "Absolute Maximum Ratings"
+      },
+      {
+        "page": 58,
+        "id": "6.2",
+        "title": "Recommended Operating Conditions"
+      },
+      {
+        "page": 58,
+        "id": "6.3",
+        "title": "Digital Interface Characteristics"
+      },
+      {
+        "page": 59,
+        "id": "6.4",
+        "title": "SIM Card Interface Characteristics"
+      },
+      {
+        "page": 59,
+        "id": "6.7",
+        "title": "VRTC Characteristics"
+      },
+      {
+        "page": 62,
+        "id": "16.1",
+        "title": "Pi/4-DQPSK -94 -70 dBm"
+      },
+      {
+        "page": 62,
+        "id": "6.9",
+        "title": "Electro-Static Discharge"
+      },
+      {
+        "page": 63,
+        "id": "6.10",
+        "title": "Radio Characteristics"
+      }
+    ],
+    "keywords": {
+      "timing": [
+        {
+          "page": 8,
+          "line": "FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23"
+        },
+        {
+          "page": 8,
+          "line": "FIGURE 13: TIMING OF POWER DOWN SIM800H&SIM800L BY PWRKEY.........................................................23"
+        },
+        {
+          "page": 8,
+          "line": "FIGURE 14:TIMING OF RESTART SIM800H&SIM800L............................................................................................25"
+        },
+        {
+          "page": 8,
+          "line": "FIGURE 16: RESET TIMING SEQUENCE....................................................................................................................26"
+        },
+        {
+          "page": 8,
+          "line": "FIGURE 44: GPIO TIMING SEQUENCES....................................................................................................................47"
+        },
+        {
+          "page": 13,
+          "line": "Timing functions Use AT command set"
+        },
+        {
+          "page": 22,
+          "line": "The power on timing is illustrated as in the following figure."
+        },
+        {
+          "page": 23,
+          "line": "Figure 12: Timing of power on module"
+        },
+        {
+          "page": 23,
+          "line": "release. Please refer to the power on circuit. The power down timing is illustrated in the following figure."
+        },
+        {
+          "page": 23,
+          "line": "Figure 13: Timing of power down SIM800H&SIM800L by PWRKEY"
+        },
+        {
+          "page": 25,
+          "line": "Figure 14:Timing of restart SIM800H&SIM800L"
+        },
+        {
+          "page": 26,
+          "line": "Figure 16: Reset timing sequence"
+        },
+        {
+          "page": 47,
+          "line": "Figure 44: GPIO timing sequences"
+        },
+        {
+          "page": 50,
+          "line": "Note: For timing about STATUS, please reference to the chapter “4.2 power on/down scenarios”"
+        },
+        {
+          "page": 51,
+          "line": "The timing of the synchronization signal is shown below. High level of the RF_SYNC pin indicates increased"
+        }
+      ],
+      "state": [
+        {
+          "page": 23,
+          "line": "This procedure makes the module log off from the network and allows the software to enter into a secure state to"
+        },
+        {
+          "page": 24,
+          "line": "module log off from the network and allows the software to enter into a secure state to save data before"
+        },
+        {
+          "page": 27,
+          "line": "the VBAT power supply is in present and the backup battery is in low voltage state. The RTC power supply of"
+        },
+        {
+          "page": 34,
+          "line": "State RI response"
+        },
+        {
+          "page": 46,
+          "line": "Pin name Pin number Function Default state"
+        },
+        {
+          "page": 47,
+          "line": "Pin name Pin number Reset state"
+        },
+        {
+          "page": 58,
+          "line": "The absolute maximum ratings stated in following table are stress ratings under non-operating conditions."
+        },
+        {
+          "page": 66,
+          "line": "Moisture Sensitivity Level Floor Life (out of bag) at factory ambient≤30°C/60% RH or as stated"
+        },
+        {
+          "page": 67,
+          "line": "ambient≦30℃/60%RH or as stated."
+        }
+      ],
+      "init": [
+        {
+          "page": 6,
+          "line": "TABLE 9: SERIAL PORT AND USB PIN DEFINITION...............................................................................................29"
+        },
+        {
+          "page": 6,
+          "line": "TABLE 13: AUDIO INTERFACE DEFINITION............................................................................................................35"
+        },
+        {
+          "page": 6,
+          "line": "TABLE 17: SIM PIN DEFINITION.................................................................................................................................38"
+        },
+        {
+          "page": 6,
+          "line": "TABLE 20: PCM PIN DEFINITION...............................................................................................................................42"
+        },
+        {
+          "page": 6,
+          "line": "TABLE 23: PIN DEFINITION OF THE KEYPAD INTERFACE...................................................................................46"
+        },
+        {
+          "page": 6,
+          "line": "TABLE 25: PIN DEFINITION OF THE I2C...................................................................................................................46"
+        },
+        {
+          "page": 6,
+          "line": "TABLE 27: PIN DEFINITION OF THE GPIO................................................................................................................47"
+        },
+        {
+          "page": 6,
+          "line": "TABLE 28: PIN DEFINITION OF THE ADC.................................................................................................................47"
+        },
+        {
+          "page": 6,
+          "line": "TABLE 30: PIN DEFINITION OF THE PWM...............................................................................................................48"
+        },
+        {
+          "page": 6,
+          "line": "TABLE 33: PIN DEFINITION OF THE NETLIGHT.....................................................................................................49"
+        },
+        {
+          "page": 6,
+          "line": "TABLE 36: PIN DEFINITION OF THE STATUS...........................................................................................................50"
+        },
+        {
+          "page": 6,
+          "line": "TABLE 38: PIN DEFINITION OF THE LED.................................................................................................................50"
+        },
+        {
+          "page": 6,
+          "line": "TABLE 40: DEFINITION OF THE RF_SYNC PIN........................................................................................................51"
+        },
+        {
+          "page": 29,
+          "line": "Table 9: Serial port and USB pin definition"
+        },
+        {
+          "page": 29,
+          "line": "definition is different with standard definition of the Figure 2: Pin assignment (Top view) and Table 5: Pin"
+        },
+        {
+          "page": 35,
+          "line": "Table 13: Audio interface definition"
+        },
+        {
+          "page": 38,
+          "line": "Table 17: SIM pin definition"
+        },
+        {
+          "page": 42,
+          "line": "Table 20: PCM pin definition"
+        },
+        {
+          "page": 46,
+          "line": "Table 23: Pin definition of the keypad interface"
+        },
+        {
+          "page": 46,
+          "line": "Table 25: Pin definition of the I2C"
+        },
+        {
+          "page": 47,
+          "line": "Table 27: Pin definition of the GPIO"
+        },
+        {
+          "page": 47,
+          "line": "Table 28: Pin definition of the ADC"
+        },
+        {
+          "page": 48,
+          "line": "Table 30: Pin definition of the PWM"
+        },
+        {
+          "page": 49,
+          "line": "Table 33: Pin definition of the NETLIGHT"
+        },
+        {
+          "page": 50,
+          "line": "Table 36: Pin definition of the STATUS"
+        },
+        {
+          "page": 50,
+          "line": "Table 38: Pin definition of the LED"
+        },
+        {
+          "page": 51,
+          "line": "Table 40: Definition of the RF_SYNC pin"
+        }
+      ],
+      "startup": [],
+      "boot": [],
+      "power-on": [],
+      "power_on": [],
+      "power sequence": []
+    }
+  },
+  "V1.00": {
+    "tables": [
+      {
+        "page": 6,
+        "id": "1",
+        "title": "SIM800L key features............................................................"
+      },
+      {
+        "page": 6,
+        "id": "2",
+        "title": "Coding schemes and maximum net data rates over air interface...................."
+      },
+      {
+        "page": 6,
+        "id": "3",
+        "title": "Overview of operating modes....................................................."
+      },
+      {
+        "page": 6,
+        "id": "4",
+        "title": "Pin description................................................................."
+      },
+      {
+        "page": 6,
+        "id": "5",
+        "title": "Recommended Zener diode........................................................."
+      },
+      {
+        "page": 6,
+        "id": "6",
+        "title": "Electronic characteristic of the RESET pin......................................"
+      },
+      {
+        "page": 6,
+        "id": "7",
+        "title": "The current consumption of Minimum Functionality Mode (BS-PA-MFRMS=9)..........2"
+      },
+      {
+        "page": 6,
+        "id": "8",
+        "title": "Serial port and USB pin definition.............................................."
+      },
+      {
+        "page": 6,
+        "id": "9",
+        "title": "Serial port characteristics....................................................."
+      },
+      {
+        "page": 6,
+        "id": "10",
+        "title": "VBUS operation voltage.........................................................."
+      },
+      {
+        "page": 6,
+        "id": "11",
+        "title": "Multiplexing function of serial port............................................"
+      },
+      {
+        "page": 6,
+        "id": "12",
+        "title": "RI behaviors...................................................................."
+      },
+      {
+        "page": 6,
+        "id": "13",
+        "title": "Audio interface definition......................................................"
+      },
+      {
+        "page": 6,
+        "id": "14",
+        "title": "Performance of audio amplifier.................................................."
+      },
+      {
+        "page": 6,
+        "id": "15",
+        "title": "Microphone input characteristics................................................"
+      },
+      {
+        "page": 6,
+        "id": "16",
+        "title": "Audio output characteristics...................................................."
+      },
+      {
+        "page": 6,
+        "id": "17",
+        "title": "SIM pin definition.............................................................."
+      },
+      {
+        "page": 6,
+        "id": "18",
+        "title": "Pin description (Molex SIM card holder)........................................."
+      },
+      {
+        "page": 6,
+        "id": "19",
+        "title": "Pin description (Amphenol SIM card holder)......................................"
+      },
+      {
+        "page": 6,
+        "id": "20",
+        "title": "PCM Pin definition.............................................................."
+      },
+      {
+        "page": 6,
+        "id": "21",
+        "title": "PCM specification..............................................................."
+      },
+      {
+        "page": 6,
+        "id": "22",
+        "title": "PCM multiplexing function......................................................."
+      },
+      {
+        "page": 6,
+        "id": "23",
+        "title": "Pin definition of the keypad interface.........................................."
+      },
+      {
+        "page": 6,
+        "id": "24",
+        "title": "Keypad multiplexing function...................................................."
+      },
+      {
+        "page": 6,
+        "id": "25",
+        "title": "Pin definition of the I2C......................................................."
+      },
+      {
+        "page": 6,
+        "id": "26",
+        "title": "I2C multiplexing function......................................................."
+      },
+      {
+        "page": 6,
+        "id": "27",
+        "title": "Pin definition of the GPIO......................................................"
+      },
+      {
+        "page": 6,
+        "id": "28",
+        "title": "Pin definition of the ADC......................................................."
+      },
+      {
+        "page": 6,
+        "id": "29",
+        "title": "ADC specification..............................................................."
+      },
+      {
+        "page": 6,
+        "id": "30",
+        "title": "Pin definition of the PWM......................................................."
+      },
+      {
+        "page": 6,
+        "id": "31",
+        "title": "Buzzer output characteristics..................................................."
+      },
+      {
+        "page": 6,
+        "id": "32",
+        "title": "PWM multiplexing function......................................................."
+      },
+      {
+        "page": 6,
+        "id": "33",
+        "title": "Pin definition of the NETLIGHT.................................................."
+      },
+      {
+        "page": 6,
+        "id": "34",
+        "title": "Status of the NETLIGHT pin......................................................"
+      },
+      {
+        "page": 6,
+        "id": "35",
+        "title": "NETLIGHT multiplexing function.................................................."
+      },
+      {
+        "page": 6,
+        "id": "36",
+        "title": "Pin definition of the STATUS...................................................."
+      },
+      {
+        "page": 6,
+        "id": "37",
+        "title": "STATUS multiplexing function...................................................."
+      },
+      {
+        "page": 6,
+        "id": "38",
+        "title": "Pin definition of the LED......................................................."
+      },
+      {
+        "page": 6,
+        "id": "39",
+        "title": "LED specification..............................................................."
+      },
+      {
+        "page": 6,
+        "id": "40",
+        "title": "Definition of the BPI_BUS1 pin.................................................."
+      },
+      {
+        "page": 6,
+        "id": "41",
+        "title": "Absolute maximum ratings........................................................"
+      },
+      {
+        "page": 6,
+        "id": "42",
+        "title": "Recommended operating conditions................................................"
+      },
+      {
+        "page": 6,
+        "id": "43",
+        "title": "Digital interface characteristics..............................................."
+      },
+      {
+        "page": 6,
+        "id": "44",
+        "title": "SIM card interface characteristics.............................................."
+      },
+      {
+        "page": 6,
+        "id": "45",
+        "title": "SIM_VDD characteristics........................................................."
+      },
+      {
+        "page": 7,
+        "id": "46",
+        "title": "VDD_EXT characteristics........................................................."
+      },
+      {
+        "page": 7,
+        "id": "47",
+        "title": "VRTC characteristics............................................................"
+      },
+      {
+        "page": 7,
+        "id": "48",
+        "title": "Current consumption............................................................."
+      },
+      {
+        "page": 7,
+        "id": "49",
+        "title": "The ESD characteristics (Temperature: 25℃, Humidity: 45 %)......................"
+      },
+      {
+        "page": 7,
+        "id": "50",
+        "title": "GSM850 and EGSM900 conducted RF output power...................................."
+      },
+      {
+        "page": 7,
+        "id": "51",
+        "title": "DCS1800 and PCS1900 conducted RF output power..................................."
+      },
+      {
+        "page": 7,
+        "id": "52",
+        "title": "Conducted RF receive sensitivity................................................"
+      },
+      {
+        "page": 7,
+        "id": "53",
+        "title": "Operating frequencies..........................................................."
+      },
+      {
+        "page": 7,
+        "id": "54",
+        "title": "Moisture sensitivity level and floor life......................................."
+      },
+      {
+        "page": 7,
+        "id": "55",
+        "title": "Baking requirements............................................................."
+      },
+      {
+        "page": 7,
+        "id": "56",
+        "title": "Related documents..............................................................."
+      },
+      {
+        "page": 7,
+        "id": "57",
+        "title": "Multiplexing function..........................................................."
+      },
+      {
+        "page": 7,
+        "id": "58",
+        "title": "Terms and abbreviations........................................................."
+      },
+      {
+        "page": 7,
+        "id": "59",
+        "title": "Safety caution.................................................................."
+      },
+      {
+        "page": 11,
+        "id": "1",
+        "title": "SIM800L key features"
+      },
+      {
+        "page": 13,
+        "id": "2",
+        "title": "Coding schemes and maximum net data rates over air interface"
+      },
+      {
+        "page": 13,
+        "id": "3",
+        "title": "Overview of operating modes"
+      },
+      {
+        "page": 16,
+        "id": "4",
+        "title": "Pin description"
+      },
+      {
+        "page": 21,
+        "id": "5",
+        "title": "Recommended Zener diode"
+      },
+      {
+        "page": 27,
+        "id": "6",
+        "title": "Electronic characteristic of the RESET pin"
+      },
+      {
+        "page": 27,
+        "id": "7",
+        "title": "The current consumption of Minimum Functionality Mode (BS-PA-MFRMS=9)"
+      },
+      {
+        "page": 29,
+        "id": "8",
+        "title": "Serial port and USB pin definition"
+      },
+      {
+        "page": 30,
+        "id": "9",
+        "title": "Serial port characteristics"
+      },
+      {
+        "page": 33,
+        "id": "10",
+        "title": "VBUS operation voltage"
+      },
+      {
+        "page": 34,
+        "id": "11",
+        "title": "Multiplexing function of serial port"
+      },
+      {
+        "page": 35,
+        "id": "12",
+        "title": "RI behaviors"
+      },
+      {
+        "page": 36,
+        "id": "13",
+        "title": "Audio interface definition"
+      },
+      {
+        "page": 36,
+        "id": "14",
+        "title": "Performance of audio amplifier"
+      },
+      {
+        "page": 38,
+        "id": "15",
+        "title": "Microphone input characteristics"
+      },
+      {
+        "page": 38,
+        "id": "16",
+        "title": "Audio output characteristics"
+      },
+      {
+        "page": 39,
+        "id": "17",
+        "title": "SIM pin definition"
+      },
+      {
+        "page": 41,
+        "id": "18",
+        "title": "Pin description (Molex SIM card holder)"
+      },
+      {
+        "page": 42,
+        "id": "19",
+        "title": "Pin description (Amphenol SIM card holder)"
+      },
+      {
+        "page": 42,
+        "id": "20",
+        "title": "PCM Pin definition"
+      },
+      {
+        "page": 43,
+        "id": "21",
+        "title": "PCM specification"
+      },
+      {
+        "page": 43,
+        "id": "22",
+        "title": "PCM multiplexing function"
+      },
+      {
+        "page": 47,
+        "id": "23",
+        "title": "Pin definition of the keypad interface"
+      },
+      {
+        "page": 47,
+        "id": "24",
+        "title": "Keypad multiplexing function"
+      },
+      {
+        "page": 47,
+        "id": "25",
+        "title": "Pin definition of the I2C"
+      },
+      {
+        "page": 48,
+        "id": "26",
+        "title": "I2C multiplexing function"
+      },
+      {
+        "page": 48,
+        "id": "27",
+        "title": "Pin definition of the GPIO"
+      },
+      {
+        "page": 48,
+        "id": "28",
+        "title": "Pin definition of the ADC"
+      },
+      {
+        "page": 48,
+        "id": "29",
+        "title": "ADC specification"
+      },
+      {
+        "page": 48,
+        "id": "30",
+        "title": "Pin definition of the PWM"
+      },
+      {
+        "page": 49,
+        "id": "31",
+        "title": "Buzzer output characteristics"
+      },
+      {
+        "page": 49,
+        "id": "32",
+        "title": "PWM multiplexing function"
+      },
+      {
+        "page": 49,
+        "id": "33",
+        "title": "Pin definition of the NETLIGHT"
+      },
+      {
+        "page": 50,
+        "id": "34",
+        "title": "Status of the NETLIGHT pin"
+      },
+      {
+        "page": 50,
+        "id": "35",
+        "title": "NETLIGHT multiplexing function"
+      },
+      {
+        "page": 50,
+        "id": "36",
+        "title": "Pin definition of the STATUS"
+      },
+      {
+        "page": 51,
+        "id": "37",
+        "title": "STATUS multiplexing function"
+      },
+      {
+        "page": 51,
+        "id": "38",
+        "title": "Pin definition of the LED"
+      },
+      {
+        "page": 51,
+        "id": "39",
+        "title": "LED specification"
+      },
+      {
+        "page": 52,
+        "id": "40",
+        "title": "Definition of the BPI_BUS1 pin"
+      },
+      {
+        "page": 58,
+        "id": "41",
+        "title": "Absolute maximum ratings"
+      },
+      {
+        "page": 58,
+        "id": "42",
+        "title": "Recommended operating conditions"
+      },
+      {
+        "page": 58,
+        "id": "43",
+        "title": "Digital interface characteristics"
+      },
+      {
+        "page": 59,
+        "id": "44",
+        "title": "SIM card interface characteristics"
+      },
+      {
+        "page": 59,
+        "id": "45",
+        "title": "SIM_VDD characteristics"
+      },
+      {
+        "page": 59,
+        "id": "46",
+        "title": "VDD_EXT characteristics"
+      },
+      {
+        "page": 59,
+        "id": "47",
+        "title": "VRTC characteristics"
+      },
+      {
+        "page": 60,
+        "id": "48",
+        "title": "Current consumption"
+      },
+      {
+        "page": 61,
+        "id": "49",
+        "title": "The ESD characteristics (Temperature: 25℃, Humidity: 45 %)"
+      },
+      {
+        "page": 61,
+        "id": "50",
+        "title": "GSM850 and EGSM900 conducted RF output power"
+      },
+      {
+        "page": 62,
+        "id": "51",
+        "title": "DCS1800 and PCS1900 conducted RF output power"
+      },
+      {
+        "page": 62,
+        "id": "52",
+        "title": "Conducted RF receive sensitivity"
+      },
+      {
+        "page": 62,
+        "id": "53",
+        "title": "Operating frequencies"
+      },
+      {
+        "page": 64,
+        "id": "54",
+        "title": "Moisture sensitivity level and floor life"
+      },
+      {
+        "page": 64,
+        "id": "55",
+        "title": "Baking requirements"
+      },
+      {
+        "page": 65,
+        "id": "56",
+        "title": "Related documents"
+      },
+      {
+        "page": 66,
+        "id": "57",
+        "title": "Multiplexing function"
+      },
+      {
+        "page": 67,
+        "id": "58",
+        "title": "Terms and abbreviations"
+      },
+      {
+        "page": 69,
+        "id": "59",
+        "title": "Safety caution"
+      }
+    ],
+    "figures": [
+      {
+        "page": 8,
+        "id": "1",
+        "title": "SIM800L functional diagram......................................................"
+      },
+      {
+        "page": 8,
+        "id": "2",
+        "title": "SIM800L pin out diagram (Top view).............................................."
+      },
+      {
+        "page": 8,
+        "id": "3",
+        "title": "Dimensions of SIM800L (Unit: mm)................................................"
+      },
+      {
+        "page": 8,
+        "id": "4",
+        "title": "Recommended PCB footprint outline (Unit: mm)...................................."
+      },
+      {
+        "page": 8,
+        "id": "5",
+        "title": "Reference circuit of the VBAT input............................................."
+      },
+      {
+        "page": 8,
+        "id": "6",
+        "title": "Reference circuit of the LDO power supply......................................."
+      },
+      {
+        "page": 8,
+        "id": "7",
+        "title": "Reference circuit of the DC-DC power supply....................................."
+      },
+      {
+        "page": 8,
+        "id": "8",
+        "title": "VBAT voltage drop during transmit burst........................................."
+      },
+      {
+        "page": 8,
+        "id": "9",
+        "title": "The minimal VBAT voltage requirement at VBAT drop..............................."
+      },
+      {
+        "page": 8,
+        "id": "10",
+        "title": "Powered on/down module using transistor........................................."
+      },
+      {
+        "page": 8,
+        "id": "11",
+        "title": "Powered on/down module using button............................................."
+      },
+      {
+        "page": 8,
+        "id": "12",
+        "title": "Timing of power on module......................................................."
+      },
+      {
+        "page": 8,
+        "id": "13",
+        "title": "Timing of power down SIM800L by PWRKEY.........................................."
+      },
+      {
+        "page": 8,
+        "id": "14",
+        "title": "Reset circuit..................................................................."
+      },
+      {
+        "page": 8,
+        "id": "15",
+        "title": "Reset timing sequence..........................................................."
+      },
+      {
+        "page": 8,
+        "id": "16",
+        "title": "RTC supply from capacitor......................................................."
+      },
+      {
+        "page": 8,
+        "id": "17",
+        "title": "RTC supply from non-chargeable battery.........................................."
+      },
+      {
+        "page": 8,
+        "id": "18",
+        "title": "RTC supply from rechargeable battery............................................"
+      },
+      {
+        "page": 8,
+        "id": "19",
+        "title": "Connection of the serial interfaces............................................."
+      },
+      {
+        "page": 8,
+        "id": "20",
+        "title": "Resistor matching circuit......................................................."
+      },
+      {
+        "page": 8,
+        "id": "21",
+        "title": "Diode isolation circuit........................................................."
+      },
+      {
+        "page": 8,
+        "id": "22",
+        "title": "TX level matching circuit......................................................."
+      },
+      {
+        "page": 8,
+        "id": "23",
+        "title": "RX level matching circuit......................................................."
+      },
+      {
+        "page": 8,
+        "id": "24",
+        "title": "USB reference circuit..........................................................."
+      },
+      {
+        "page": 8,
+        "id": "25",
+        "title": "Connection for software upgrading and debugging................................."
+      },
+      {
+        "page": 8,
+        "id": "26",
+        "title": "RI behaviour of voice calling as a receiver....................................."
+      },
+      {
+        "page": 8,
+        "id": "27",
+        "title": "RI behaviour of data calling as a receiver......................................"
+      },
+      {
+        "page": 8,
+        "id": "28",
+        "title": "RI behaviour of URC or receive SMS.............................................."
+      },
+      {
+        "page": 8,
+        "id": "29",
+        "title": "RI behaviour as a caller........................................................"
+      },
+      {
+        "page": 8,
+        "id": "30",
+        "title": "Speaker reference circuit......................................................."
+      },
+      {
+        "page": 8,
+        "id": "31",
+        "title": "Speaker with amplifier reference circuit........................................"
+      },
+      {
+        "page": 8,
+        "id": "32",
+        "title": "Reference circuit of the 8-pin SIM card holder.................................."
+      },
+      {
+        "page": 8,
+        "id": "33",
+        "title": "Reference circuit of the 6-pin SIM card holder.................................."
+      },
+      {
+        "page": 8,
+        "id": "34",
+        "title": "Molex 91228 SIM card holder....................................................."
+      },
+      {
+        "page": 8,
+        "id": "35",
+        "title": "Amphenol C707 10M006 5122 SIM card holder......................................."
+      },
+      {
+        "page": 8,
+        "id": "36",
+        "title": "PCM reference circuit..........................................................."
+      },
+      {
+        "page": 8,
+        "id": "37",
+        "title": "LCD reference circuit..........................................................."
+      },
+      {
+        "page": 8,
+        "id": "38",
+        "title": "SD reference circuit............................................................"
+      },
+      {
+        "page": 8,
+        "id": "39",
+        "title": "25 keys reference circuit......................................................."
+      },
+      {
+        "page": 8,
+        "id": "40",
+        "title": "50 keys reference circuit......................................................."
+      },
+      {
+        "page": 8,
+        "id": "41",
+        "title": "Keypad reference circuit........................................................"
+      },
+      {
+        "page": 8,
+        "id": "42",
+        "title": "Keypad detected................................................................."
+      },
+      {
+        "page": 8,
+        "id": "43",
+        "title": "Reference circuit of PWM driver buzzer.........................................."
+      },
+      {
+        "page": 8,
+        "id": "44",
+        "title": "Reference circuit of NETLIGHT..................................................."
+      },
+      {
+        "page": 8,
+        "id": "45",
+        "title": "LED driver reference circuit...................................................."
+      },
+      {
+        "page": 8,
+        "id": "46",
+        "title": "BPI_BUS1 signal during transmit burst..........................................."
+      },
+      {
+        "page": 9,
+        "id": "47",
+        "title": "GSM antenna matching circuit...................................................."
+      },
+      {
+        "page": 9,
+        "id": "48",
+        "title": "GSM simple antenna matching circuit............................................."
+      },
+      {
+        "page": 9,
+        "id": "49",
+        "title": "FM antenna matching circuit....................................................."
+      },
+      {
+        "page": 9,
+        "id": "50",
+        "title": "GND pin of the earphone use to be the FM antenna interface......................"
+      },
+      {
+        "page": 9,
+        "id": "51",
+        "title": "Pin assignment.................................................................."
+      },
+      {
+        "page": 9,
+        "id": "52",
+        "title": "Recommended PCB layout.........................................................."
+      },
+      {
+        "page": 9,
+        "id": "53",
+        "title": "Top and bottom view of SIM800L.................................................."
+      },
+      {
+        "page": 9,
+        "id": "54",
+        "title": "Typical solder reflow profile..................................................."
+      },
+      {
+        "page": 14,
+        "id": "1",
+        "title": "SIM800L functional diagram"
+      },
+      {
+        "page": 15,
+        "id": "2",
+        "title": "SIM800L pin out diagram (Top view)"
+      },
+      {
+        "page": 19,
+        "id": "3",
+        "title": "Dimensions of SIM800L (Unit: mm)"
+      },
+      {
+        "page": 20,
+        "id": "4",
+        "title": "Recommended PCB footprint outline (Unit: mm)"
+      },
+      {
+        "page": 21,
+        "id": "5",
+        "title": "Reference circuit of the VBAT input"
+      },
+      {
+        "page": 21,
+        "id": "6",
+        "title": "Reference circuit of the LDO power supply"
+      },
+      {
+        "page": 22,
+        "id": "7",
+        "title": "Reference circuit of the DC-DC power supply"
+      },
+      {
+        "page": 22,
+        "id": "8",
+        "title": "VBAT voltage drop during transmit burst"
+      },
+      {
+        "page": 23,
+        "id": "9",
+        "title": "The minimal VBAT voltage requirement at VBAT drop"
+      },
+      {
+        "page": 23,
+        "id": "10",
+        "title": "Powered on/down module using transistor"
+      },
+      {
+        "page": 23,
+        "id": "11",
+        "title": "Powered on/down module using button"
+      },
+      {
+        "page": 24,
+        "id": "12",
+        "title": "Timing of power on module"
+      },
+      {
+        "page": 25,
+        "id": "13",
+        "title": "Timing of power down SIM800L by PWRKEY"
+      },
+      {
+        "page": 26,
+        "id": "14",
+        "title": "Reset circuit"
+      },
+      {
+        "page": 27,
+        "id": "15",
+        "title": "Reset timing sequence"
+      },
+      {
+        "page": 28,
+        "id": "16",
+        "title": "RTC supply from capacitor"
+      },
+      {
+        "page": 29,
+        "id": "17",
+        "title": "RTC supply from non-chargeable battery"
+      },
+      {
+        "page": 29,
+        "id": "18",
+        "title": "RTC supply from rechargeable battery"
+      },
+      {
+        "page": 31,
+        "id": "19",
+        "title": "Connection of the serial interfaces"
+      },
+      {
+        "page": 31,
+        "id": "20",
+        "title": "Resistor matching circuit"
+      },
+      {
+        "page": 32,
+        "id": "21",
+        "title": "Diode isolation circuit"
+      },
+      {
+        "page": 32,
+        "id": "22",
+        "title": "TX level matching circuit"
+      },
+      {
+        "page": 32,
+        "id": "23",
+        "title": "RX level matching circuit"
+      },
+      {
+        "page": 33,
+        "id": "24",
+        "title": "USB reference circuit"
+      },
+      {
+        "page": 34,
+        "id": "25",
+        "title": "Connection for software upgrading and debugging"
+      },
+      {
+        "page": 35,
+        "id": "26",
+        "title": "RI behaviour of voice calling as a receiver"
+      },
+      {
+        "page": 35,
+        "id": "27",
+        "title": "RI behaviour of data calling as a receiver"
+      },
+      {
+        "page": 36,
+        "id": "28",
+        "title": "RI behaviour of URC or receive SMS"
+      },
+      {
+        "page": 36,
+        "id": "29",
+        "title": "RI behaviour as a caller"
+      },
+      {
+        "page": 37,
+        "id": "30",
+        "title": "Speaker reference circuit"
+      },
+      {
+        "page": 37,
+        "id": "31",
+        "title": "Speaker with amplifier reference circuit"
+      },
+      {
+        "page": 39,
+        "id": "32",
+        "title": "Reference circuit of the 8-pin SIM card holder"
+      },
+      {
+        "page": 40,
+        "id": "33",
+        "title": "Reference circuit of the 6-pin SIM card holder"
+      },
+      {
+        "page": 41,
+        "id": "34",
+        "title": "Molex 91228 SIM card holder"
+      },
+      {
+        "page": 42,
+        "id": "35",
+        "title": "Amphenol C707 10M006 5122 SIM card holder"
+      },
+      {
+        "page": 44,
+        "id": "36",
+        "title": "PCM reference circuit"
+      },
+      {
+        "page": 44,
+        "id": "37",
+        "title": "LCD reference circuit"
+      },
+      {
+        "page": 44,
+        "id": "38",
+        "title": "SD reference circuit"
+      },
+      {
+        "page": 45,
+        "id": "39",
+        "title": "25 keys reference circuit"
+      },
+      {
+        "page": 46,
+        "id": "40",
+        "title": "50 keys reference circuit"
+      },
+      {
+        "page": 46,
+        "id": "41",
+        "title": "Keypad reference circuit"
+      },
+      {
+        "page": 46,
+        "id": "42",
+        "title": "Keypad detected"
+      },
+      {
+        "page": 49,
+        "id": "43",
+        "title": "Reference circuit of PWM driver buzzer"
+      },
+      {
+        "page": 50,
+        "id": "44",
+        "title": "Reference circuit of NETLIGHT"
+      },
+      {
+        "page": 51,
+        "id": "45",
+        "title": "LED driver reference circuit"
+      },
+      {
+        "page": 52,
+        "id": "46",
+        "title": "BPI_BUS1 signal during transmit burst"
+      },
+      {
+        "page": 53,
+        "id": "47",
+        "title": "GSM antenna matching circuit"
+      },
+      {
+        "page": 53,
+        "id": "48",
+        "title": "GSM simple antenna matching circuit"
+      },
+      {
+        "page": 54,
+        "id": "49",
+        "title": "FM antenna matching circuit"
+      },
+      {
+        "page": 54,
+        "id": "50",
+        "title": "GND pin of the earphone use to be the FM antenna interface"
+      },
+      {
+        "page": 55,
+        "id": "51",
+        "title": "Pin assignment"
+      },
+      {
+        "page": 57,
+        "id": "52",
+        "title": "Recommended PCB layout"
+      },
+      {
+        "page": 63,
+        "id": "53",
+        "title": "Top and bottom view of SIM800L"
+      },
+      {
+        "page": 63,
+        "id": "54",
+        "title": "Typical solder reflow profile"
+      }
+    ],
+    "sections": [
+      {
+        "page": 30,
+        "id": "4.5.1",
+        "title": "Function of Serial Port"
+      },
+      {
+        "page": 30,
+        "id": "4.5.2",
+        "title": "Serial Interfaces"
+      },
+      {
+        "page": 33,
+        "id": "4.5.3",
+        "title": "Debug Interface"
+      },
+      {
+        "page": 33,
+        "id": "4.5.4",
+        "title": "Software Upgrade and Debug"
+      },
+      {
+        "page": 34,
+        "id": "4.5.5",
+        "title": "Multiplexing function of serial port"
+      },
+      {
+        "page": 55,
+        "id": "5.1",
+        "title": "Pin Assignment"
+      },
+      {
+        "page": 56,
+        "id": "5.2",
+        "title": "Principle of PCB layout"
+      },
+      {
+        "page": 56,
+        "id": "5.2.1",
+        "title": "Antenna Interface"
+      },
+      {
+        "page": 56,
+        "id": "5.2.3",
+        "title": "SIM Card Interface"
+      },
+      {
+        "page": 56,
+        "id": "5.2.4",
+        "title": "Audio Interface"
+      },
+      {
+        "page": 56,
+        "id": "5.2.5",
+        "title": "Others"
+      },
+      {
+        "page": 57,
+        "id": "5.3",
+        "title": "Recommended PCB Layout"
+      },
+      {
+        "page": 58,
+        "id": "6.1",
+        "title": "Absolute Maximum Ratings"
+      },
+      {
+        "page": 58,
+        "id": "6.2",
+        "title": "Recommended Operating Conditions"
+      },
+      {
+        "page": 58,
+        "id": "6.3",
+        "title": "Digital Interface Characteristics"
+      },
+      {
+        "page": 59,
+        "id": "6.4",
+        "title": "SIM Card Interface Characteristics"
+      },
+      {
+        "page": 59,
+        "id": "6.7",
+        "title": "VRTC Characteristics"
+      },
+      {
+        "page": 61,
+        "id": "6.9",
+        "title": "Electro-Static Discharge"
+      },
+      {
+        "page": 61,
+        "id": "6.10",
+        "title": "Radio Characteristics"
+      },
+      {
+        "page": 62,
+        "id": "6.11",
+        "title": "Module RF Receive Sensitivity"
+      },
+      {
+        "page": 62,
+        "id": "6.12",
+        "title": "Module Operating Frequencies"
+      }
+    ],
+    "keywords": {
+      "timing": [
+        {
+          "page": 8,
+          "line": "Figure 12: Timing of power on module..........................................................................................24"
+        },
+        {
+          "page": 8,
+          "line": "Figure 13: Timing of power down SIM800L by PWRKEY...........................................................25"
+        },
+        {
+          "page": 8,
+          "line": "Figure 15: Reset timing sequence...................................................................................................27"
+        },
+        {
+          "page": 12,
+          "line": "Timing functions Use AT command set"
+        },
+        {
+          "page": 23,
+          "line": "The power on timing is illustrated as in the following figure."
+        },
+        {
+          "page": 24,
+          "line": "Figure 12: Timing of power on module"
+        },
+        {
+          "page": 24,
+          "line": "to the power on circuit. The power down timing is illustrated in the following figure."
+        },
+        {
+          "page": 25,
+          "line": "Figure 13: Timing of power down SIM800L by PWRKEY"
+        },
+        {
+          "page": 27,
+          "line": "Figure 15: Reset timing sequence"
+        },
+        {
+          "page": 50,
+          "line": "Note: For timing about STATUS, please reference to the chapter “4.2 power on/off scenarios”"
+        },
+        {
+          "page": 52,
+          "line": "The timing of the synchronization signal is shown below. High level of the BPI_BUS1 pin indicates increased"
+        }
+      ],
+      "state": [
+        {
+          "page": 25,
+          "line": "This procedure makes the module log off from the network and allows the software to enter into a secure state to"
+        },
+        {
+          "page": 25,
+          "line": "from the network and allows the software to enter into a secure state to save data before completely shut down."
+        },
+        {
+          "page": 28,
+          "line": "the VBAT power supply is in present and the backup battery is in low voltage state. The RTC power supply of"
+        },
+        {
+          "page": 35,
+          "line": "State RI response"
+        },
+        {
+          "page": 47,
+          "line": "Pin name Pin number Function Default state"
+        },
+        {
+          "page": 48,
+          "line": "Pin name Pin number Reret state"
+        },
+        {
+          "page": 58,
+          "line": "The absolute maximum ratings stated in following table are stress ratings under non-operating conditions."
+        },
+        {
+          "page": 64,
+          "line": "Moisture Sensitivity Level Floor Life (out of bag) at factory ambient≤30°C/60% RH or as stated"
+        },
+        {
+          "page": 64,
+          "line": "/60%RH or as stated."
+        }
+      ],
+      "init": [
+        {
+          "page": 6,
+          "line": "Table 8: Serial port and USB pin definition....................................................................................29"
+        },
+        {
+          "page": 6,
+          "line": "Table 13: Audio interface definition...............................................................................................36"
+        },
+        {
+          "page": 6,
+          "line": "Table 17: SIM pin definition...........................................................................................................39"
+        },
+        {
+          "page": 6,
+          "line": "Table 20: PCM Pin definition.........................................................................................................42"
+        },
+        {
+          "page": 6,
+          "line": "Table 23: Pin definition of the keypad interface.............................................................................47"
+        },
+        {
+          "page": 6,
+          "line": "Table 25: Pin definition of the I2C..................................................................................................47"
+        },
+        {
+          "page": 6,
+          "line": "Table 27: Pin definition of the GPIO..............................................................................................48"
+        },
+        {
+          "page": 6,
+          "line": "Table 28: Pin definition of the ADC...............................................................................................48"
+        },
+        {
+          "page": 6,
+          "line": "Table 30: Pin definition of the PWM..............................................................................................48"
+        },
+        {
+          "page": 6,
+          "line": "Table 33: Pin definition of the NETLIGHT....................................................................................49"
+        },
+        {
+          "page": 6,
+          "line": "Table 36: Pin definition of the STATUS.........................................................................................50"
+        },
+        {
+          "page": 6,
+          "line": "Table 38: Pin definition of the LED................................................................................................51"
+        },
+        {
+          "page": 6,
+          "line": "Table 40: Definition of the BPI_BUS1 pin.....................................................................................52"
+        },
+        {
+          "page": 29,
+          "line": "Table 8: Serial port and USB pin definition"
+        },
+        {
+          "page": 36,
+          "line": "Table 13: Audio interface definition"
+        },
+        {
+          "page": 39,
+          "line": "Table 17: SIM pin definition"
+        },
+        {
+          "page": 42,
+          "line": "Table 20: PCM Pin definition"
+        },
+        {
+          "page": 47,
+          "line": "Table 23: Pin definition of the keypad interface"
+        },
+        {
+          "page": 47,
+          "line": "Table 25: Pin definition of the I2C"
+        },
+        {
+          "page": 48,
+          "line": "Table 27: Pin definition of the GPIO"
+        },
+        {
+          "page": 48,
+          "line": "Table 28: Pin definition of the ADC"
+        },
+        {
+          "page": 48,
+          "line": "Table 30: Pin definition of the PWM"
+        },
+        {
+          "page": 49,
+          "line": "Table 33: Pin definition of the NETLIGHT"
+        },
+        {
+          "page": 50,
+          "line": "Table 36: Pin definition of the STATUS"
+        },
+        {
+          "page": 51,
+          "line": "Table 38: Pin definition of the LED"
+        },
+        {
+          "page": 52,
+          "line": "Table 40: Definition of the BPI_BUS1 pin"
+        }
+      ],
+      "startup": [],
+      "boot": [],
+      "power-on": [],
+      "power_on": [
+        {
+          "page": 26,
+          "line": "only when AT command “AT+CPOWD=1” and the POWER_ON pin has no effect. User can pull the RESET pin"
+        }
+      ],
+      "power sequence": []
+    }
+  },
+  "summary": {
+    "V2.02": {
+      "tables": 129,
+      "figures": 120,
+      "sections": 19
+    },
+    "V1.00": {
+      "tables": 118,
+      "figures": 108,
+      "sections": 21
+    }
+  },
+  "structure_found": {
+    "dat_04_timing": true,
+    "dat_05_state": false,
+    "dat_06_init": false
+  }
+}
