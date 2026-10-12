@@ -39,17 +39,17 @@
 - `dat_14`, `dat_16`.
 
 
-<!-- refresh-20261012060003 -->
-## [2026-10-12T06:00:03Z] - v7 reconciliation
-
-### Fixed
-- D-057 backtick escape (locked -> blocked)
-- Removed here-strings from automation script (paste-safe)
+## [3.0.0] - 
+2026-10-12T06:04:32Z
 
 ### Added
-- D-061..D-064 in DECISIONS_LOG.md
+- D-065..D-068 in DECISIONS_LOG.md
+- 21 new records: 8 timing (dat_04) + 7 states (dat_05) + 6 init steps (dat_06)
+
+### Fixed
+- DECISIONS_LOG control characters (U+0008) removed
+- _validation_summary.json dat01_status (b -> partial)
 
 ### Changed
-- COVERAGE_MATRIX, ROLE_MAP, README, 18 dat_XX_REPORT.md rebuilt
-- VALIDATION_REPORT and CROSS_REF_REPORT regenerated English-only (D-062)
-- SOURCE_INVENTORY and TODO rebuilt without duplicates
+- README status updated (Phase 3 complete)
+- All reports regenerated in English (D-062)

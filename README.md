@@ -5,7 +5,7 @@ and reproducible validation tooling.
 
 ## Status
 
-Phase 2 complete.
+Phase 3 complete.
 
 | status   | count | datasets |
 |----------|-------|----------|

@@ -1,19 +1,30 @@
 # PHASE_3_REPORT.md
 
-Generated: 2026-10-12T06:00:03Z
+Generated: 2026-10-12T06:04:32Z
 
 ## Purpose
 
-Reconciliation session closing the issues left open by Phases 1 and 2.
+Reconciliation and data-population session closing Phases 1 and 2.
 
-## Terminal status summary
+## Key decisions
+
+- D-054 Cluster C closure (dat_08, dat_14, dat_18)
+- D-057 status rule (90% threshold + overrides)
+- D-058 Cluster A closure
+- D-059 Cluster B closure
+- D-065 real data extraction for dat_04/05/06
+- D-066 _validation_summary.json reconciliation
+- D-067 extract_pdf.py --input bug
+- D-068 version bump to 3.0.0
+
+## Terminal status
 
 - dat_01: partial (334 records)
 - dat_02: partial (206 records)
 - dat_03: complete (255 records)
-- dat_04: partial (29 records)
-- dat_05: partial (23 records)
-- dat_06: partial (25 records)
+- dat_04: partial (37 records)
+- dat_05: partial (30 records)
+- dat_06: partial (31 records)
 - dat_07: complete (56 records)
 - dat_08: blocked (1 records)
 - dat_09: complete (14 records)

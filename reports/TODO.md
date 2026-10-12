@@ -1,6 +1,6 @@
 # TODO.md
 
-Generated: 2026-10-12T06:00:03Z
+Generated: 2026-10-12T06:04:32Z
 
 ## Missing sources
 
@@ -27,5 +27,5 @@ Generated: 2026-10-12T06:00:03Z
 - [ ] dat_18 - blocked
 
 ## Follow-ups
-- [ ] See reports/EXTRACTION_TEST.md for extract_pdf.py / ocr_pdf.py status
-- [ ] Align scripts/validate.py dat01_status with D-057 (see D-064)
+- [ ] Fix scripts/extract_pdf.py --input argument (D-067)
+- [ ] Align scripts/validate.py dat01_status with D-057 (D-064)
