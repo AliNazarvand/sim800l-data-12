@@ -54,21 +54,6 @@
 - README status updated (Phase 3 complete)
 - All reports regenerated in English (D-062)
 
-## [3.0.0] - 
-2026-10-12T06:09:50Z
-
-### Added
-- D-061..D-068 in DECISIONS_LOG.md
-- 14 new records: 5 timing + 4 states + 5 init steps
-
-### Fixed
-- DECISIONS_LOG control chars removed
-- _validation_summary.json dat01_status (b -> partial)
-
-### Changed
-- README status updated (Phase 3 complete)
-- All reports regenerated in English (D-062)
-
 ## [3.1.0] - 2026-10-12T06:14:52Z
 
 ### Fixed
@@ -84,3 +69,17 @@
 ### Changed
 - README reflects current status
 - All reports regenerated (English, D-062)
+
+## [3.2.0] - 2026-10-12T11:29:52Z
+
+### Fixed
+- dat_04_0032 related_state RESET -> POWER_ON (D-073)
+- Duplicate [3.0.0] block removed from CHANGELOG
+- Duplicate Session v8 block removed from SESSION_LOG
+
+### Added
+- scripts/_v10_parse_at_manual.py - best-effort parser
+- D-073 in DECISIONS_LOG.md
+
+### Changed
+- All reports regenerated (v10)
