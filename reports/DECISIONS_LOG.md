@@ -566,3 +566,31 @@
   - Option C: OCR the figures now. Rejected for this session: OCR requires
     a separate pass and human verification; deferred to a later session.
 - Related rules: R2, R3, R6, R8, R10, R12, R20.
+
+## D-044
+- تاریخ: 1405-07-20T04:00:00Z
+- Context: dat_05_state_machine.yaml (11 records) was found to have the same
+  class of structural defects as dat_04 had before D-043:
+  - All 11 records had a field `coverage_estimate` not defined in
+    dat_05.schema.yaml.
+  - source.name said "SIM800 Series AT Command Manual" while source.section
+    said "SIM800H&SIM800L_Hardware_Design V2.02" (mixed source).
+  - Records 0002..0009 shared the SAME quote (from section 4.2.2.1 Power
+    down), unrelated to their declared state.
+  - Records 0001 and 0010 had quotes from the Table of Contents.
+  - All records had status=inferred, confidence=0.45, but no inference
+    rationale in notes.
+- Decision:
+  - dat_05 is rewritten with 12 active records (dat_05_0001..dat_05_0012)
+    covering the 12 states defined in the brief.
+  - The 11 legacy records are preserved and renumbered dat_05_9001..dat_05_9011
+    with status=unknown, confidence=0.0, conflicts populated.
+  - The current file is archived to reports/_archive/dat_05_legacy_<ts>.yaml.
+  - `coverage_estimate` is removed (not in schema).
+  - source.name corrected to "SIM800H&SIM800L_Hardware_Design" for new active
+    records because dat_05 belongs to Cluster A (hardware sources).
+- Reason: R2, R3, R8, R10, R12, R20.
+- Rejected alternatives:
+  - Keep the existing 11 records as-is: rejected (schema violation, unrelated quotes).
+  - Renumber active records as 9000-series: rejected (active data should be in low range).
+- Related rules: R2, R3, R6, R8, R10, R12, R20.
