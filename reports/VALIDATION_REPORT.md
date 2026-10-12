@@ -1,6 +1,6 @@
 # VALIDATION_REPORT
 
-Generated: 2026-10-12T04:52:44Z
+Generated: 2026-10-12T05:46:49Z
 
 ## خلاصه
 - خطاهای سطح ۱ (Schema): 0
@@ -8,7 +8,7 @@ Generated: 2026-10-12T04:52:44Z
 - خطاهای سطح ۳ (Cross-ref): 0
 - خطاهای سطح ۴ (Consistency): 0
 
-- dat_01 status: `complete`
+- dat_01 status: `b`
 - specialist commands excluded: 46
 
 ## فایل‌های کشف‌شده
@@ -37,3 +37,11 @@ Generated: 2026-10-12T04:52:44Z
 | دیتاست | سطح | رکورد | خطا | پیشنهاد |
 |---|---|---|---|---|
 | - | - | - | (none) | - |
+
+<!-- refresh-20261012054641 -->
+## Re-run - 2026-10-12T05:46:40Z
+
+```text
+Validation: 0 errors (L1=0 L2=0 L3=0 L4=0)
+dat_01 status=b  cross-ref ran=True  specialist_whitelist=46
+```

@@ -1,8 +1,3 @@
-> **Note on L3 counts (2026-10-12, session 10):**
-> `cross_ref.py` reports 226 L3 issues. `validate.py` reports 0 because it
-> applies a specialist whitelist for HTTP/FTP/SSL/Audio/Cert commands that
-> are out of dat_01 scope. The 226 issues are informational and consistent
-> with the absence of the specialist manuals. See D-050 and D-051.
 # CROSS_REF_REPORT
 
 ## مشکلات (226)
@@ -240,22 +235,10 @@
 - Error codes: 255
 - SMS: 14
 - SIM: 10
-## Cluster B verification (session 11)
 
-Cross-reference of commands referenced by Cluster B datasets against
-dat_01 (AT Command DB). A reference is counted as "missing" only if it
-does not normalize to a command present in dat_01.
+<!-- refresh-20261012054641 -->
+## Re-run - 2026-10-12T05:46:40Z
 
-| dataset | checked | missing | samples |
-|---|---|---|---|| dat_02 | 202 | 0 | - |
-| dat_03 | 0 | 0 | - |
-| dat_09 | 14 | 0 | - |
-| dat_10 | 24 | 3 | AT+CGCONTRDP, AT+CIPDDREM, AT+CEREG |
-| dat_12 | 13 | 4 | AT+CATONE, AT+CADTONE, AT+CLDTONE, AT+CPCMREG |
-| dat_13 | 10 | 0 | - |
-
-Interpretation: "missing" entries are consistent with the fact that
-dat_01 is scoped to the basic AT commands and does not include specialist
-HTTP/FTP/SSL/Audio/Cert commands (see D-050). The 226 informational L3
-issues in this report are not project errors.
-
+```text
+Cross-ref: 226 issues, 334 commands in dat_01
+```
