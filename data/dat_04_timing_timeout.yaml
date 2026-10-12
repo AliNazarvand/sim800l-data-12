@@ -539,7 +539,7 @@
   unit: ms
   condition: "PWRKEY pulled low for at least 1 second, then released, to power down the module"
   related_command: null
-  related_state: OFF
+  related_state: "OFF"
   related_urc: "NORMAL POWER DOWN"
   source:
     name: SIM800H&SIM800L_Hardware_Design
@@ -570,7 +570,7 @@
   unit: ms
   condition: "After STATUS pin changes to low level, before power-on again"
   related_command: null
-  related_state: OFF
+  related_state: "OFF"
   related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
