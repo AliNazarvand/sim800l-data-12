@@ -1,31 +1,34 @@
-# dat_07_REPORT — Hardware Reference
+# dat_07_REPORT.md
 
-تاریخ: 2026-10-10T20:37:12Z
+Generated: 2026-10-12T05:46:40Z
 
-## خلاصه
-- رکوردهای استخراج‌شده: **78**
-- منبع V2.02: 57
-- منبع V1.00: 21
+## Summary
 
-## توزیع category
-- Unclassified: 36
-- SIM: 12
-- UART: 10
-- Audio: 8
-- GPIO: 3
-- USB: 3
-- Power: 2
-- NETLIGHT: 1
-- PWM: 1
-- PWRKEY: 1
-- STATUS: 1
+- Cluster: A
+- Effective status (per D-057): complete
+- Records: 56
+- Complete / Total: 56 / 56 = 100%
+- File: data/dat_07_hardware_reference.yaml
+- Schema: schemas/dat_07.schema.yaml (exists: True)
+- File size: 49479 bytes
+- Last modified: 2026-10-12T00:44:46Z
 
-## یادداشت
-- وضعیت دیتاست: `partial` (فیلدهای voltage/current/esd خودکار استخراج نشده‌اند).
-- تمام رکوردها از جدول‌های pin استخراج شده‌اند و `source` دارند.
-- برای رسیدن به `complete` نیاز به بازبینی دستی و تکمیل voltage/current از متن manual است.
+## Status breakdown
 
-## کار باقی‌مانده
-1. بازبینی رکوردهای Unclassified و انتقال به دسته مناسب.
-2. تکمیل voltage_min/typ/max، current_typ/max از متن manual.
-3. تنظیم direction (input/output/power/ground) برای هر pin.
+- complete: 56
+
+## Integrity checks
+
+- Has example-only records: False
+- Has synthetic records: False
+- Has in-progress records: False
+- Has non-SIM800L applicable_models: False
+
+## Sources referenced
+
+- SIM800H&SIM800L Hardware Design
+
+## Notes
+
+- Status rule per D-057: complete iff complete/total >= 0.90; blocked/deferred overrides apply.
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

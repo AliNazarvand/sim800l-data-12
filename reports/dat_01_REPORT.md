@@ -1,22 +1,34 @@
-# dat_01_REPORT — AT Command
+# dat_01_REPORT.md
 
-## وضعیت
-- **status**: partial
-- **source**: SIM800 Series AT Command Manual V1.01 (موجود در sources/originals/)
-- **منبع استخراج‌شده**: sources/extracted/SIM800 Series_AT Command Manual_V1.01.txt
-- **روش استخراج**: خودکار با scripts/extract_at_commands.py (regex روی متن)
-- **اعتبارسنجی**: scripts/validate.py
+Generated: 2026-10-12T05:46:40Z
 
-## نتایج
-- تعداد commandهای استخراج‌شده در data/dat_01_at_command.yaml ثبت شده است.
-- پوشش دقیق ۹۵٪ نیازمند بازبینی دستی و مطابقت با فهرست رسمی manual است.
-- confidence پیش‌فرض: 0.6 (auto-extracted)
+## Summary
 
-## کار باقی‌مانده
-1. بازبینی دستی هر command: syntax، parameters، responses.
-2. تطبیق با فهرست مطالب manual برای اطمینان از پوشش ≥ ۹۵٪.
-3. تکمیل فیلدهای related_urcs، related_states، related_commands.
-4. ارتقاء status به complete پس از بازبینی.
+- Cluster: B
+- Effective status (per D-057): partial
+- Records: 334
+- Complete / Total: 0 / 334 = 0%
+- File: data/dat_01_at_command.yaml
+- Schema: schemas/dat_01.schema.yaml (exists: True)
+- File size: 383429 bytes
+- Last modified: 2026-10-12T00:44:46Z
 
-## یادداشت
-- این دیتاست نقطه ورود خوشه B است. پس از رسیدن به وضعیت کامل، دیتاست‌های dat_02, dat_03, dat_09, dat_10, dat_11, dat_12, dat_13, dat_17 از pending_blocked خارج می‌شوند.
+## Status breakdown
+
+- partial: 334
+
+## Integrity checks
+
+- Has example-only records: False
+- Has synthetic records: False
+- Has in-progress records: False
+- Has non-SIM800L applicable_models: False
+
+## Sources referenced
+
+- SIM800 Series AT Command Manual
+
+## Notes
+
+- Status rule per D-057: complete iff complete/total >= 0.90; blocked/deferred overrides apply.
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
