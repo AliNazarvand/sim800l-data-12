@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T14:31:10Z",
+  "generated": "2026-10-12T14:40:20Z",
   "errors": [],
   "notes": [],
   "counts": {
@@ -9,7 +9,7 @@
     "4": 0
   },
   "total": 0,
-  "dat01_status": "b",
+  "dat01_status": "partial",
   "skip_crossref": false,
   "specialist_commands_count": 46,
   "data_paths": {

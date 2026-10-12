@@ -1097,3 +1097,18 @@
 **Alternatives rejected:** blind repo re-sync (data-loss risk); full rewrite (unnecessary work).
 
 **Outcome:** infrastructure audited; reports refreshed; validators executed.
+
+## D-075 - Completion pass (enrichment + validation + reporting)
+
+- Date: 2026-10-12T14:39:53Z
+- Context: After D-074 restored authoritative statuses, the datasets still lacked real data enrichment.
+- Decision:
+  - Enriched dat_01 with parameters/responses/errors/examples parsed from AT Command Manual V1.01 (defensive: only empty fields filled).
+  - Ran scripts/extract_pdf.py, scripts/validate.py, scripts/cross_ref.py.
+  - Regenerated COVERAGE_MATRIX, ROLE_MAP, TODO, VALIDATION_REPORT, CROSS_REF_REPORT, SOURCE_INVENTORY, GAP_REPORT, README, PHASE_1_REPORT and all 18 dat_XX_REPORT.md.
+  - Committed per cluster (A / B / C) and merged to main with tag v4.0.0.
+- Reason: R2, R8, R10, R11, R12, R17, R18, R19, R20.
+- Rejected alternatives:
+  - Heuristic status detection: superseded by D-074.
+  - Blind copy from remote repo: rejected (data-loss risk).
+- Related: D-074, D-057.
