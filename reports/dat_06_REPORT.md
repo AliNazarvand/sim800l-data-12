@@ -1,11 +1,7 @@
 # dat_06 — Init Sequence
 
-Generated: 2026-10-12T14:39:53Z
+Generated: 2026-10-12T15:42:52Z
 
 - Status: `partial`
 - Decision: D-057
-- Role: Init sequence
-- Depends on: dat_04,dat_05
-- Depended by: -
-- Records: 32
-- Data file: `data/dat_06_init_sequence.yaml`
+- Records: 35

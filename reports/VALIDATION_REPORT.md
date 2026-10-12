@@ -1,26 +1,17 @@
 # VALIDATION REPORT
+Generated: 2026-10-12T15:42:52Z
 
-Generated: 2026-10-12T14:39:53Z
+## Level 1 — Schema presence: 18 / 18
 
-## Level 1 — Schema presence
-
-- Schemas present: 18 / 18
-
-## Level 2 — Business logic (scripts/validate.py)
-
+## Level 2 — scripts/validate.py
 ```
-Validation: 0 errors (L1=0 L2=0 L3=0 L4=0)
+Validation: 9 errors (L1=9 L2=0 L3=0 L4=0)
 dat_01 status=partial  cross-ref ran=True  specialist_whitelist=46
 ```
-- exit code: 0
+- exit code: 1
 
-## Level 3 — Cross-reference (scripts/cross_ref.py)
-
+## Level 3 — scripts/cross_ref.py
 ```
-Cross-ref: 226 issues, 334 commands in dat_01
+Cross-ref: 226 issues, 338 commands in dat_01
 ```
 - exit code: 0
-
-## Level 4 — Consistency (yamllint)
-
-(yamllint not installed)

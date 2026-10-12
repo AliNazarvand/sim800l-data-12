@@ -221,3 +221,13 @@
 ### Required sources
 
 - See reports/TODO.md.
+## Session - 2026-10-12T15:42:52Z (correction-pass v4)
+
+- Restore from git: confirmed by user.
+- Backup: D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\sim800l-data-backup-20261012-154225
+- Branch: feature/complete-datasets
+- AT parser: 16 / 281 sections with params
+- dat_01 records: before=334  after=338
+- validate.py exit=1
+- cross_ref.py exit=0
+- content smoke test: PASSED

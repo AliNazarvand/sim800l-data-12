@@ -1112,3 +1112,20 @@
   - Heuristic status detection: superseded by D-074.
   - Blind copy from remote repo: rejected (data-loss risk).
 - Related: D-074, D-057.
+
+## D-078 - Correction pass v4: multi-source AT parser + content smoke test
+
+- Date: 2026-10-12T15:42:52Z
+- Context: v3 aborted because the parameter extractor returned 0. v4 tries TSV and per-page CSVs before falling back to paged text, and accepts partial yields.
+- Result:
+  - AT parser strategy used: (see reports/_v13_at_parser.json)
+  - Sections with parameters: 16 / 281
+  - dat_01 records before: 334
+  - dat_01 records after : 338
+  - Fragments marked unknown (kept in place, R10 compliant)
+  - dat_04 / dat_05 / dat_06 received concrete rows from V2.02
+- Reason: R2, R8, R10, R13, R17, R18, R19, R20.
+- Rejected alternatives:
+  - Removing fragments (R10 violation).
+  - Writing to disk before validation (v2's failure mode).
+  - Using Persian calendar timestamps (R19 violation).

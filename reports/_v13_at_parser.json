@@ -1,0 +1,20 @@
+{
+  "started": "2026-10-12T15:42:42Z",
+  "strategies_tried": [
+    "TSV"
+  ],
+  "strategy_used": "TSV+Text",
+  "sections_found": 281,
+  "sections_with_params": 16,
+  "sample_yields": {
+    "CMGS": 0,
+    "CMGR": 0,
+    "CMGD": 0,
+    "CPIN": 0,
+    "CSQ": 0,
+    "CSCA": 0,
+    "CREG": 0
+  },
+  "errors": [],
+  "finished": "2026-10-12T15:42:42Z"
+}

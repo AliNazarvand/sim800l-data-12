@@ -1,14 +1,78 @@
 {
-  "generated": "2026-10-12T14:40:20Z",
-  "errors": [],
+  "generated": "2026-10-12T15:42:50Z",
+  "errors": [
+    {
+      "dataset": "dat_04",
+      "level": 1,
+      "record": "dat_04_0015:related_state",
+      "error": "False is not of type 'string', 'null'",
+      "suggestion": ""
+    },
+    {
+      "dataset": "dat_04",
+      "level": 1,
+      "record": "dat_04_0016:related_state",
+      "error": "False is not of type 'string', 'null'",
+      "suggestion": ""
+    },
+    {
+      "dataset": "dat_04",
+      "level": 1,
+      "record": "dat_04_0031:related_state",
+      "error": "False is not of type 'string', 'null'",
+      "suggestion": ""
+    },
+    {
+      "dataset": "dat_04",
+      "level": 1,
+      "record": "dat_04_0037:related_state",
+      "error": "False is not of type 'string', 'null'",
+      "suggestion": ""
+    },
+    {
+      "dataset": "dat_04",
+      "level": 1,
+      "record": "dat_04_0039:related_state",
+      "error": "False is not of type 'string', 'null'",
+      "suggestion": ""
+    },
+    {
+      "dataset": "dat_05",
+      "level": 1,
+      "record": "dat_05_0001:state_name",
+      "error": "False is not of type 'string', 'null'",
+      "suggestion": ""
+    },
+    {
+      "dataset": "dat_05",
+      "level": 1,
+      "record": "dat_05_9001:state_name",
+      "error": "False is not of type 'string', 'null'",
+      "suggestion": ""
+    },
+    {
+      "dataset": "dat_06",
+      "level": 1,
+      "record": "dat_06_9012:dependency_step",
+      "error": "'PWRKEY_LOW' does not match '^dat_06_[0-9]{4}$'",
+      "suggestion": ""
+    },
+    {
+      "dataset": "dat_06",
+      "level": 1,
+      "record": "dat_06_9013:dependency_step",
+      "error": "'AT' does not match '^dat_06_[0-9]{4}$'",
+      "suggestion": ""
+    }
+  ],
   "notes": [],
   "counts": {
-    "1": 0,
+    "1": 9,
     "2": 0,
     "3": 0,
     "4": 0
   },
-  "total": 0,
+  "total": 9,
   "dat01_status": "partial",
   "skip_crossref": false,
   "specialist_commands_count": 46,
