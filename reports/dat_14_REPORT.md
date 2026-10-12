@@ -1,20 +1,11 @@
-# dat_14_REPORT.md
+# dat_14 — Operator/APN
 
-Generated: 2026-10-12T11:29:52Z
+Generated: 2026-10-12T14:39:53Z
 
-## Summary
-
-- Cluster: C
-- Effective status (per D-057): deferred
+- Status: `deferred`
+- Decision: D-049
+- Role: Operator/APN
+- Depends on: -
+- Depended by: dat_10
 - Records: 52
-- Complete / Total: 0 / 52 = 0.0%
-- File: data/dat_14_operator_apn.yaml
-
-## Status breakdown
-
-- unknown: 52
-
-## Notes
-
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data file: `data/dat_14_operator_apn.yaml`
