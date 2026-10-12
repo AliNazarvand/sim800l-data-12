@@ -1,41 +1,23 @@
-# GAP REPORT
+# GAP_REPORT.md
 
-## dat_04 — Timing & Timeout DB
-- status: partial, coverage: high, records: 13
+## Resolved gaps (Phase 2)
 
-## dat_05 — State Machine DB
-- status: partial, coverage: medium, records: 11
+- [x] Cluster A hardware datasets (dat_04, dat_05, dat_06, dat_07, dat_15, dat_16) — audited, complete or terminal status assigned.
+- [x] Cluster B AT Command datasets (dat_01, dat_02, dat_03, dat_09, dat_10, dat_12, dat_13) — completed from AT Manual V1.01.
+- [x] Cross-reference within Cluster A and Cluster B — verified.
+- [x] Final validation (L1–L4) — 0 errors.
 
-## dat_06 — Init Sequence DB
-- status: partial, coverage: medium, records: 10
+## Remaining gaps
 
-## dat_07 — Hardware Reference DB
-- status: blocked, coverage: low, records: 0
+- [ ] `dat_08` Firmware Compatibility — blocked: official Release Notes missing.
+- [ ] `dat_11` HTTP/FTP/SSL — blocked: HTTP, FTP, SSL manuals missing.
+- [ ] `dat_14` Operator/APN MCC/MNC — deferred: external source not requested.
+- [ ] `dat_15` Power Management — blocked: Sleep Mode App Note missing.
+- [ ] `dat_16` Board/EVB — deferred: official EVB document missing.
+- [ ] `dat_17` Certificate/Key Store — blocked: SSL manual missing.
+- [ ] `dat_18` Certification — blocked: official certification documents missing.
 
-## dat_08 — Firmware Compatibility
-- status: blocked, coverage: low, records: 1
+## Audit note
 
-## dat_09 — SMS DB
-- status: partial, coverage: high, records: 13
-
-## dat_12 — Audio DB
-- status: partial, coverage: high, records: 12
-
-## dat_13 — SIM Management DB
-- status: partial, coverage: high, records: 10
-
-## dat_14 — Operator/APN DB
-- status: partial, coverage: high, records: 52
-
-## dat_15 — Power Management DB
-- status: partial, coverage: high, records: 5
-
-## dat_16 — Board/EVB DB
-- status: blocked, coverage: low, records: 1
-
-## dat_17 — Certificate/Key Store
-- status: partial, coverage: high, records: 9
-
-## dat_18 — Certification Data
-- status: blocked, coverage: low, records: 1
-
+- `extract_pdf.py` and `ocr_pdf.py` have not been fully tested with real scanned PDFs.
+- `cross_ref.py` reports 226 informational L3 issues (whitelist not yet applied).
