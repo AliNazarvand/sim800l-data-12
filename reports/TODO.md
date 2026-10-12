@@ -31,11 +31,3 @@
 ## Pending follow-ups
 - [ ] Test `extract_pdf.py` and `ocr_pdf.py` against a real scanned PDF
 - [ ] Apply cross-ref whitelist (46 specialist commands) to silence informational L3 warnings
-
-
-<!-- refresh-20261012054641 -->
-## Session v5 - 2026-10-12T05:46:40Z
-
-- [ ] Test `extract_pdf.py` / `ocr_pdf.py` see reports/EXTRACTION_TEST.md
-- [ ] Obtain missing specialist manuals for dat_08, dat_11, dat_15, dat_17, dat_18
-- [ ] Owner decision on dat_14 completion from GSMA/ITU sources

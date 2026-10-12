@@ -19,11 +19,3 @@ Auto-generated audit. Hash values are real SHA256 of files in `sources/originals
 | SIM800 Series Firmware Release Notes | - | - | - | missing | primary | - | needed for dat_08 |
 | SIM800 Series Certification Documents (CE/FCC/GCF/PTCRB/RoHS/IC/TA/RCM/Anatel/NCC) | - | - | - | missing | primary | - | needed for dat_18 |
 | GSMA / ITU / mcc-mnc.com | - | - | - | missing | primary | - | needed for dat_14 |
-
-
-<!-- refresh-20261012054641 -->
-## SHA256 hashes - 2026-10-12T05:46:40Z
-
-- SIM800L_Hardware_Design_V1.00.pdf  sha256:7fe4bf41ffb8af7124ad34af30f4789777d4516ec181c79eded4bec891c8542a
-- SIM800H&SIM800L_Hardware_Design_V2.02.PDF  sha256:55a9a3f07c9afa3d862cd95a5ad5f10029805cb27b4a8f4283883783ecfbab18
-- SIM800 Series_AT Command Manual_V1.01.pdf  sha256:f84e3716ba388ece2cce679aa9e07f5c1898d1e6c1f5a781d59f6144f09a398a

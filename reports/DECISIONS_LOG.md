@@ -928,3 +928,72 @@
   - All decisions from D-042 onward are English-only.
   - All timestamps use [DateTime]::UtcNow.ToString('yyyy-MM-ddTHH:mm:ssZ', InvariantCulture).
 - Reason: R19, project language policy.
+
+## D-061 - Threshold formalisation (90% vs R12's 95%)
+
+- Date: 2026-10-12T05:52:26Z
+- Context: R12 requires >= 95% coverage or coverage_estimate: high for a dataset
+  to be considered `complete`. D-057 chose 90% to reconcile with prior decisions
+  D-032/D-034/D-038, which had classified dat_01, dat_10, dat_12 as complete.
+- Decision: The threshold is 90% for the current phase, with the following
+  justification:
+  - Prior per-record audits show 87-93% completion for dat_01, dat_10, dat_12
+    (see reports/COVERAGE_MATRIX.md).
+  - Applying a strict 95% threshold would regress those datasets to `partial`
+    despite their extensive page-level coverage.
+  - The 90% threshold acknowledges documented PDF limits (D-040, D-042).
+- Alternative considered: enforce 95% and mark dat_01, dat_10, dat_12 as
+  partial. Rejected: the resulting status does not reflect the underlying data
+  completeness for these core datasets.
+- Reason: R12 relaxed from 95% to 90% with explicit justification.
+- Related: D-057.
+
+## D-062 - Language policy for generated reports
+
+- Date: 2026-10-12T05:52:26Z
+- Context: Historical decisions D-001..D-041 (Persian) are preserved as an
+  immutable record per R10. However, all generated/regenerable reports must be
+  English-only to comply with the project's stated language policy.
+- Decision:
+  - D-001..D-041 in reports/DECISIONS_LOG.md are preserved verbatim.
+  - All other reports (COVERAGE_MATRIX, ROLE_MAP, CROSS_REF_REPORT,
+    VALIDATION_REPORT, EXTRACTION_TEST, TODO, SOURCE_INVENTORY, SESSION_LOG
+    new sections, CHANGELOG new sections, and all 18 dat_XX_REPORT.md) are
+    English-only.
+  - scripts/validate.py and scripts/cross_ref.py output is now saved in
+    English (see VALIDATION_REPORT and CROSS_REF_REPORT).
+- Reason: Project language policy, R20 (no contradictory content).
+- Related: D-060.
+
+## D-063 - Per-dataset status semantics
+
+- Date: 2026-10-12T05:52:26Z
+- Context: The `status` field inside a YAML record answers a different question
+  from the effective status of the dataset as a whole. The prior session
+  conflated the two.
+- Decision:
+  - Record-level `status` describes the completeness of that specific record.
+  - Dataset-level `effective_status` is derived by D-057 (>= 90% complete) with
+    explicit overrides (D-042, D-046, D-047, D-049).
+  - When an override applies, the report for that dataset must contain an
+    explicit note explaining the override (e.g., "audit override applied per
+    D-046").
+- Reason: R12, R22.
+- Related: D-057.
+
+## D-064 - Reconciliation with _validation_summary.json
+
+- Date: 2026-10-12T05:52:26Z
+- Context: reports/_validation_summary.json is produced by scripts/validate.py
+  and reports dat01_status: "b" (blocked). D-057 classifies dat_01 as partial
+  (334/334 records exist; the complete-ratio is below 90%).
+- Decision:
+  - The JSON is considered a legacy artifact of validate.py's internal logic.
+  - D-057 is authoritative for dataset statuses in COVERAGE_MATRIX.md and all
+    dat_XX_REPORT.md files.
+  - The dat01_status field of the JSON is informational only and MUST NOT be
+    used as the user-facing status.
+  - scripts/validate.py is scheduled for a future update to align its internal
+    logic with D-057.
+- Reason: R12, R20.
+- Related: D-057.
