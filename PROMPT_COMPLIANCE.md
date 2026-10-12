@@ -1,3 +1,25 @@
+## Data Verification Status (HONEST)
+
+> **This is the most important section of this document.**
+> Infrastructure is complete, but DATA INTEGRITY has NOT been verified.
+
+| Aspect | Status | Details |
+|--------|--------|---------|
+| Infrastructure | PASS | 18 schemas, 18 data files, 5 scripts, all reports |
+| Schema validation | PASS | `validate.py` returns PASSED |
+| Cross-reference | PASS | strict=0, soft=0 |
+| ISO 8601 dates | PASS | InvariantCulture everywhere |
+| **Data verification** | **NOT VERIFIED** | Records counted, never manually checked vs PDFs |
+| **dat_01 format** | **TO BE DETERMINED** | See `reports/DATA_INTEGRITY_REPORT.md` |
+| **dat_02 content** | **KNOWN ISSUES** | Self-admitted: "Suspected command syntax, not URC" |
+| **dat_03 duplicates** | **TO BE DETERMINED** | See audit output in DATA_INTEGRITY_REPORT.md |
+| **dat_07 coverage** | **PARTIAL** | 56 of ~88 pins extracted |
+
+**Verdict:** The project is safe to **continue developing**, but NOT safe
+to propagate downstream without manual verification. See
+`MANUAL_VERIFICATION_CHECKLIST.md` for the required steps.
+
+---
 # Prompt Compliance Checklist -- sim800l-data
 
 _Last updated: 2026-10-12 (closure)_

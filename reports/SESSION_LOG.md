@@ -162,3 +162,25 @@
 - **Overall:** pass
 - **DECLARATION:** This is the FINAL corrective script.
   All future work is MANUAL: verify records against source PDFs.
+
+## Session 13: v13 FINAL DATA AUDIT (2026-10-12)
+
+- **Date:** 2026-10-12 (UTC)
+- **Type:** FINAL — data integrity audit (no data modification)
+- **Trigger:** `diagnose_sources.py` revealed real data issues that
+  infrastructure-focused scripts (v1..v12) could not detect.
+- **Actions:**
+  - Wrote `scripts/audit_data_integrity.py` (READ-ONLY)
+  - Ran audit — see output below
+  - Generated `reports/DATA_INTEGRITY_REPORT.md`
+  - Generated `MANUAL_VERIFICATION_CHECKLIST.md`
+  - Updated `PROMPT_COMPLIANCE.md` with honest Data Verification Status
+  - No data files modified
+- **Key findings:**
+  - `_at_commands_index.json` is derived, not a source
+  - `dat_02` contains AT commands mislabeled as URCs (self-admitted)
+  - `dat_07` has 56 of ~88 pins
+  - `dat_01` format must be manually verified (missing '+' prefix?)
+- **DECLARATION:** This is the **TRULY FINAL** corrective script.
+  All future work is MANUAL verification against source PDFs.
+  See `MANUAL_VERIFICATION_CHECKLIST.md`.
