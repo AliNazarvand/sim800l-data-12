@@ -675,3 +675,64 @@
   - Delete the 19 blocked records in dat_11: rejected, violates R10.
   - Delete the 9 blocked records in dat_17: rejected, violates R10.
 - Related rules: R2, R10, R11, R22.
+
+## D-048
+- تاریخ: 1405-07-20T08:00:00Z
+- Context: The COVERAGE_MATRIX in commit 513595b showed dat_03 (255/255, 97.6%)
+  and dat_05 (23/23, 52.2%) as `partial`, in contradiction with the rule
+  stated in the same file (`complete: with_page==count AND params_pct >= 50%`).
+- Decision:
+  - dat_03 and dat_05 are updated to `complete` to comply with the rule.
+  - The rule is clarified as follows:
+    - `with_params` counts records with status in {complete, partial, inferred}.
+    - A dataset is `complete` if with_page == count AND params_pct >= 50%.
+    - A dataset is `partial` if with_page == count but params_pct < 50%.
+    - A dataset is `blocked` if no primary source is available.
+    - A dataset is `deferred` if it needs an external decision or source.
+- Reason: R12 (coverage criterion). The rule was in force but had not been
+  consistently applied to dat_03 and dat_05.
+- Related rules: R12.
+
+## D-049
+- تاریخ: 1405-07-20T08:01:00Z
+- Context: dat_14 (Operator/APN) has 52 records with source_type=external
+  from mcc-mnc.com. None of them have a PDF page number (the external
+  source is a web API/dataset, not a paginated document). Therefore
+  with_page = 0. Per R12, a dataset with 0% coverage cannot be marked
+  `partial`. The brief explicitly marks dat_14 as optional.
+- Decision:
+  - dat_14 is set to `deferred`.
+  - The 52 existing records are preserved (R10) but do not contribute to
+    the coverage matrix at this time.
+  - The dataset may be re-opened if the project owner explicitly requests
+    APN completion from GSMA/ITU data.
+- Reason: R3 (unknown for missing data), R10 (no deletion), R12 (coverage).
+- Rejected alternatives:
+  - Keep as `partial`: rejected, violates R12 (0% < 50%).
+  - Delete the 52 records: rejected, violates R10.
+- Related rules: R3, R10, R12, R22.
+
+## D-050
+- تاریخ: 1405-07-20T08:02:00Z
+- Context: Two scripts disagreed on cross-reference error counts:
+  - cross_ref.py reported 303 L3 issues (see reports/CROSS_REF_REPORT.md).
+  - validate.py reported 0 L3 issues (specialist whitelist applied).
+  The discrepancy was caused by different normalization rules: validate.py
+  applies a whitelist for HTTP/FTP/SSL/Audio/Cert command names that are
+  expected to be absent from dat_01, while cross_ref.py does not.
+- Decision:
+  - cross_ref.py is considered authoritative for L3 counts (it applies no
+    whitelist and reports all missing references).
+  - The 303 L3 issues are NOT treated as project errors at this stage:
+    they are informational and consistent with the fact that dat_01 is
+    scoped to basic AT commands and does not include specialist HTTP/FTP/
+    SSL/Audio commands. Those commands live in external manuals that are
+    not present in the project.
+  - To avoid future confusion, CROSS_REF_REPORT.md will record both numbers
+    with an explanatory note in its header.
+  - No data changes are made in response to the 303 issues in this session.
+- Reason: R12 (coverage clarity), R20 (no contradictory reporting).
+- Rejected alternatives:
+  - Delete the 303 issues from the report: rejected, would hide real gaps.
+  - Add specialist commands to dat_01 without a source: rejected, violates R2.
+- Related rules: R2, R12, R20.
