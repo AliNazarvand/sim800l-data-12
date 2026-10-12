@@ -510,3 +510,59 @@
 - Coverage: complete=9 partial=5 blocked=3 deferred=1.
 - Tag: v1.0.0-phase1.
 - Status: PHASE 1 COMPLETE.
+## D-042
+- تاریخ: 1405-07-20T02:00:00Z
+- Context: Session of 1405-07-20. The previous attempt to close dat_15 as blocked failed in two places:
+  - COVERAGE_MATRIX.md: a regex parsing bug left dat_15 status as "partial".
+  - DECISIONS_LOG.md: a false match on the existing D-006 (unrelated topic) prevented adding the correct entry.
+- Decision:
+  - dat_15 (Power Management) is formally moved to status = blocked.
+  - The records dat_15_9001..9013 (previously "partial") are flagged as unreliable.
+  - The dataset will only be re-opened if the SIM800 Series Sleep Mode Application Note is obtained,
+    or if a human manually extracts the real power tables from V2.02 pages 25-30 and 58-62.
+- Reason:
+  - Primary source (Sleep Mode Application Note) is not available.
+  - The partial records were produced by automated regex extraction and mix real numeric values
+    with table-of-contents lines, section numbers, part numbers, and changelog fragments.
+  - Per project rule R11: when the primary source is unavailable, the dataset must be marked blocked.
+- Rejected alternatives:
+  - Retry regex extraction: rejected, it will produce the same garbage.
+  - Keep the partial records as-is: rejected, they are not traceable or trustworthy.
+- Related rules: R2, R6, R11, R12, R19.
+
+## D-043
+- تاریخ: 1405-07-20T03:00:00Z
+- Context: Session of 1405-07-20. dat_04_timing_timeout.yaml was found to
+  contain two structural defects:
+  - A YAML anchor (&id001) was defined at line 403 and referenced by
+    11 records (lines 433-713). This anchor makes the file unreadable by
+    strict YAML parsers and violates R8.
+  - The 25 records were predominantly out of scope for a Timing dataset:
+    12 records in the 9XXX series held voltages, currents, power values,
+    and one bibliography entry; the 00XX series contained changelog notes,
+    GPIO references, wake-up conditions, and fragmented text.
+- Decision:
+  - The file is rewritten with 6 active records and 23 legacy records.
+  - Active records: 4 newly extracted (0014-0017) + 2 salvaged (0010, 0012).
+  - Legacy records: 23 records preserved verbatim (R10) with:
+    - status = "unknown" (R3),
+    - conflicts populated with {field, reason},
+    - tags including "legacy", "deprecated", and either "malformed" or
+      "out-of-scope".
+  - The previous file is archived to
+    reports/_archive/dat_04_legacy_<timestamp>.yaml (R10-compliant).
+  - The YAML anchor is eliminated by writing records explicitly (no
+    yaml.safe_dump with shared references).
+- Reason:
+  - R2 (exact source), R6 (no synthetic data), R8 (valid YAML),
+    R10 (no record deletion), R12 (real coverage), R20 (no contradictory
+    data).
+  - Dataset remains "partial" not "complete" because precise min/typ/max
+    values are inside figures (images), not extractable from text.
+- Rejected alternatives:
+  - Option A: keep the file as-is and only append. Rejected: the YAML
+    anchor remains and blocks valid parsing.
+  - Option B: delete the malformed records entirely. Rejected: violates R10.
+  - Option C: OCR the figures now. Rejected for this session: OCR requires
+    a separate pass and human verification; deferred to a later session.
+- Related rules: R2, R3, R6, R8, R10, R12, R20.

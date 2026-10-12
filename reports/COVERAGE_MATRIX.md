@@ -16,7 +16,7 @@
 | dat_12 | Audio | complete | 13 | 13 | 9 | 69.2% |
 | dat_13 | SIM Management | complete | 10 | 10 | 9 | 90.0% |
 | dat_14 | Operator/APN | partial | 52 | 52 | 0 | 0.0% |
-| dat_15 | Power Management | partial | 14 | 13 | 13 | 92.9% |
+| dat_15 | Power Management | blocked | - | - | - | - |
 | dat_16 | Board/EVB | deferred | 1 | 0 | 0 | 0.0% |
 | dat_17 | Certificate/Key Store | blocked | 9 | 0 | 0 | 0.0% |
 | dat_18 | Certification | blocked | 1 | 0 | 0 | 0.0% |

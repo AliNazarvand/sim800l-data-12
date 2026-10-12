@@ -28,3 +28,6 @@
 10. [ ] GSMA / ITU / mcc-mnc.com for APN (dat_14)
 11. [ ] SIM800L Datasheet (dat_07)
 12. [ ] EVB Schematic (dat_16)
+
+## دیتاست‌های بلاک‌شده (به‌روزرسانی)
+- [ ] dat_15 — نیازمند Sleep Mode Application Note؛ ۱۳ رکورد partial قبلی رد شد.
