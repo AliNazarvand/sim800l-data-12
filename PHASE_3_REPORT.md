@@ -1,22 +1,10 @@
 # PHASE_3_REPORT.md
 
-Generated: 2026-10-12T06:14:52Z
+Generated: 2026-10-12T11:29:52Z
 
 ## Purpose
 
-Reconciliation session closing Phases 1 and 2, plus v9 repairs.
-
-## Key decisions
-
-- D-054 Cluster C closure
-- D-057 status rule (90% + overrides)
-- D-058 Cluster A closure
-- D-059 Cluster B closure
-- D-065 data extraction for dat_04/05/06
-- D-069 REPAIR unquoted source.date
-- D-070 Ratio-Str fix
-- D-071 idempotent log append
-- D-072 JSON patch post-validate
+Reconciliation + parser session (v10).
 
 ## Terminal status
 
@@ -41,6 +29,6 @@ Reconciliation session closing Phases 1 and 2, plus v9 repairs.
 
 ## Source of truth
 
-- reports/COVERAGE_MATRIX.md - per-dataset status
-- reports/DECISIONS_LOG.md - historical decisions
-- reports/SOURCE_INVENTORY.md - source hashes
+- reports/COVERAGE_MATRIX.md
+- reports/DECISIONS_LOG.md
+- reports/SOURCE_INVENTORY.md

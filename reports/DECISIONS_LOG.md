@@ -1078,3 +1078,15 @@
   final validate.py run (BLOCK 7), not before.
 - Reason: R20 (no contradictory reporting).
 - Related: D-064, D-066.
+## D-073 - v10: fix dat_04 L3 error and cleanup duplicate logs
+
+- Date: 2026-10-12T11:29:52Z
+- Context: validate.py reported 1 L3 error: dat_04_0032 related_state
+  "RESET" not in dat_05. Also CHANGELOG.md and SESSION_LOG.md had
+  duplicate blocks left over from v8.
+- Decision:
+  - dat_04_0032 related_state changed from RESET to POWER_ON.
+  - Duplicate [3.0.0] block removed from CHANGELOG.md.
+  - Duplicate Session v8 block removed from SESSION_LOG.md.
+- Reason: R8, R17, R20.
+- Related: D-057, D-069.

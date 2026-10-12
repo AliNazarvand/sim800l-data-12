@@ -1,6 +1,6 @@
 # TODO.md
 
-Generated: 2026-10-12T06:14:52Z
+Generated: 2026-10-12T11:29:52Z
 
 ## Missing sources
 
@@ -28,5 +28,5 @@ Generated: 2026-10-12T06:14:52Z
 
 ## Follow-ups
 - [ ] Fix scripts/extract_pdf.py --input argument (D-067)
-- [ ] Align scripts/validate.py dat01_status with D-057 (D-064)
 - [ ] Translate D-001..D-041 in DECISIONS_LOG.md to English
+- [ ] Manually review parser output if dat_01 still partial
