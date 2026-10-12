@@ -1,17 +1,18 @@
 # dat_05_REPORT.md
 
-Generated: 2026-10-12T06:00:03Z
+Generated: 2026-10-12T06:04:32Z
 
 ## Summary
 
 - Cluster: A
 - Effective status (per D-057): partial
-- Records: 23
-- Complete / Total: 0 / 23 = 0.0%
+- Records: 30
+- Complete / Total: 7 / 30 = 23.3%
 - File: data/dat_05_state_machine.yaml
 
 ## Status breakdown
 
+- complete: 7
 - inferred: 4
 - partial: 8
 - unknown: 11
