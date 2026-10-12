@@ -222,3 +222,22 @@
   - `python scripts/review_dat_02.py apply` -- apply decisions
 - **DECLARATION:** v15 is the last script. All further work is human-driven
   verification using this tool and the source PDFs.
+
+## Session 16: v16 -- Real data corrections (2026-10-12)
+
+- **Date:** 2026-10-12 (UTC)
+- **Type:** Data modification (with backup + marker)
+- **Actions:**
+  - Backed up full project to `sim800l-data-backups\20261012-165520`
+  - Created `scripts/_v16_apply.py`
+  - Ran v16 helper:
+    - Moved AT-command-shaped records from dat_02 to dat_01
+    - Added missing pins to dat_07 from V2.02 Table 5
+    - Fixed `audit_data_integrity.py` (expected count 88 -> 58)
+  - Updated reports (DATA_INTEGRITY_REPORT, PROMPT_COMPLIANCE)
+  - Created marker file `reports\.v16_applied`
+- **dat_01 records:** 510
+- **dat_02 records:** 30 (was 206)
+- **dat_07 records:** 58 (was 56)
+- **validate.py:** PASSED
+- **NOTE:** v16 is the FINAL corrective script.

@@ -153,7 +153,7 @@ def audit_dat_07():
     print("\n=== dat_07 Hardware Pin Audit ===")
     records = load_records("dat_07_hardware_reference.yaml")
     total = len(records)
-    expected_approx = 88
+    expected_approx = 58  # unique pin names for SIM800L (excludes BT_ANT)
     coverage = round(100.0 * total / expected_approx, 1) if total else 0.0
     print(f"  Total records: {total}")
     print(f"  Expected (approx): {expected_approx}")
