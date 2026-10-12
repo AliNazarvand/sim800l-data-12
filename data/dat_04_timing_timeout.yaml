@@ -1140,7 +1140,7 @@
   unit: ms
   condition: RESET pin pulled to ground
   related_command: null
-  related_state: RESET
+  related_state: POWER_ON
   related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design

@@ -107,24 +107,24 @@
 - dat_18: blocked (1 records)
 
 
-## Session v8 - 
-2026-10-12T06:09:50Z
+## Session v9 - 2026-10-12T06:14:52Z
 
-- Sanitized DECISIONS_LOG control chars (D-057 bug)
-- Appended D-061..D-068
-- Patched _validation_summary.json (b -> partial)
-- Added 14 records to dat_04/05/06 from PDFs
+- v9 REPAIR: unquoted source.date values quoted (D-069)
+- v9 fix: Ratio-Str rewritten with string.Format (D-070)
+- v9 fix: idempotent append for logs (D-071)
+- v9 fix: JSON patch post-validate (D-072)
+- Re-audited all 18 datasets
 - Rebuilt COVERAGE_MATRIX, ROLE_MAP, README, 18 dat reports
-- Regenerated VALIDATION_REPORT and CROSS_REF_REPORT in English
+- Regenerated VALIDATION_REPORT and CROSS_REF_REPORT (English)
 
 ### Terminal status
 
 - dat_01: partial (334 records)
 - dat_02: partial (206 records)
 - dat_03: complete (255 records)
-- dat_04: partial (37 records)
-- dat_05: partial (30 records)
-- dat_06: partial (31 records)
+- dat_04: partial (40 records)
+- dat_05: partial (31 records)
+- dat_06: partial (32 records)
 - dat_07: complete (56 records)
 - dat_08: blocked (1 records)
 - dat_09: complete (14 records)
@@ -139,15 +139,12 @@
 - dat_18: blocked (1 records)
 
 
-## Session v9 - 2026-10-12T06:14:52Z
+## Session v10 - 2026-10-12T11:29:52Z
 
-- v9 REPAIR: unquoted source.date values quoted (D-069)
-- v9 fix: Ratio-Str rewritten with string.Format (D-070)
-- v9 fix: idempotent append for logs (D-071)
-- v9 fix: JSON patch post-validate (D-072)
-- Re-audited all 18 datasets
-- Rebuilt COVERAGE_MATRIX, ROLE_MAP, README, 18 dat reports
-- Regenerated VALIDATION_REPORT and CROSS_REF_REPORT (English)
+- P0: dat_04_0032 related_state RESET -> POWER_ON (D-073)
+- P1: CHANGELOG/SESSION_LOG duplicates removed (D-073)
+- P2: AT Manual parser written and executed
+- Rebuilt all reports and coverage matrix
 
 ### Terminal status
 

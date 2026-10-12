@@ -1,6 +1,6 @@
 # COVERAGE_MATRIX.md
 
-Generated: 2026-10-12T06:14:52Z
+Generated: 2026-10-12T11:29:52Z
 
 Rule (D-057): complete iff completed/total >= 0.90; overrides per D-042/D-046/D-047/D-049.
 

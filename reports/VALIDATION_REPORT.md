@@ -1,6 +1,6 @@
 # VALIDATION_REPORT.md
 
-Generated: 2026-10-12T06:14:52Z
+Generated: 2026-10-12T11:29:52Z
 
 ## Levels
 
@@ -12,15 +12,14 @@ Generated: 2026-10-12T06:14:52Z
 ## Result of scripts/validate.py
 
 ``````text
-Validation: 1 errors (L1=0 L2=0 L3=1 L4=0)
+Validation: 0 errors (L1=0 L2=0 L3=0 L4=0)
 dat_01 status=b  cross-ref ran=True  specialist_whitelist=46
 ``````
 
-## Error count: 1
+## Error count: 0
 
-- dat_04 L3 dat_04_0032 -- related_state RESET not in dat_05
 
 ## Notes
 
-- _validation_summary.json is patched in v9 BLOCK 7 (post-validate).
-- This report is English-only per D-062.
+- dat01_status in _validation_summary.json is patched each session.
+- English-only per D-062.
