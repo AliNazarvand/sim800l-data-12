@@ -53,3 +53,18 @@
 ### Changed
 - README status updated (Phase 3 complete)
 - All reports regenerated in English (D-062)
+
+## [3.0.0] - 
+2026-10-12T06:09:50Z
+
+### Added
+- D-061..D-068 in DECISIONS_LOG.md
+- 14 new records: 5 timing + 4 states + 5 init steps
+
+### Fixed
+- DECISIONS_LOG control chars removed
+- _validation_summary.json dat01_status (b -> partial)
+
+### Changed
+- README status updated (Phase 3 complete)
+- All reports regenerated in English (D-062)

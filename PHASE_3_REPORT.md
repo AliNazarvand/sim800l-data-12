@@ -1,6 +1,6 @@
 # PHASE_3_REPORT.md
 
-Generated: 2026-10-12T06:04:32Z
+Generated: 2026-10-12T06:09:50Z
 
 ## Purpose
 
@@ -8,8 +8,8 @@ Reconciliation and data-population session closing Phases 1 and 2.
 
 ## Key decisions
 
-- D-054 Cluster C closure (dat_08, dat_14, dat_18)
-- D-057 status rule (90% threshold + overrides)
+- D-054 Cluster C closure
+- D-057 status rule (90% + overrides)
 - D-058 Cluster A closure
 - D-059 Cluster B closure
 - D-065 real data extraction for dat_04/05/06
