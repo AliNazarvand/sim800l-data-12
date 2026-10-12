@@ -1074,7 +1074,7 @@
   timeout_ms: 5000
   retry_count: 3
   failure_action: Check power rail
-  dependency_step: PWRKEY_LOW
+  dependency_step:
   related_state: POWER_ON
   source:
     name: SIM800H&SIM800L_Hardware_Design
@@ -1103,7 +1103,7 @@
   timeout_ms: 1000
   retry_count: 3
   failure_action: Continue at autobaud
-  dependency_step: AT
+  dependency_step:
   related_state: POWER_ON
   source:
     name: SIM800H&SIM800L_Hardware_Design

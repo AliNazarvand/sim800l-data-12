@@ -1,6 +1,6 @@
 - id: dat_05_0001
   category: Operating Mode
-  state_name: OFF
+  state_name: "OFF"
   description: Module powered off. Only RTC power supply remains active.
   entry_conditions:
   - PWRKEY pulled low for at least 1 second (power down)
@@ -506,7 +506,7 @@
   updated_at: '2026-10-12T04:00:00Z'
 - id: dat_05_9001
   category: State
-  state_name: OFF
+  state_name: "OFF"
   description: Module off
   entry_conditions:
   - AT+CPOWD
