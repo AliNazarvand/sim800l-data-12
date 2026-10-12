@@ -651,3 +651,27 @@
     sources that halt a critical dependency, whereas dat_16 is orthogonal.
   - Delete the single legacy record: rejected, violates R10.
 - Related rules: R2, R3, R10, R11, R22.
+
+## D-047
+- تاریخ: 1405-07-20T07:00:00Z
+- Context: After closing Cluster A (D-046), two Cluster B datasets remain
+  in a mixed or fully-blocked state:
+  - dat_11 (HTTP/FTP/SSL): 38 records, 19 partial + 19 blocked. The
+    HTTP, FTP, and SSL AT Command Manuals are not present in the project.
+  - dat_17 (Certificate/Key Store): 9 records, all blocked. The SSL AT
+    Command Manual is not present in the project.
+- Decision:
+  - dat_11 and dat_17 are formally closed as `blocked`.
+  - No changes to their data files; existing records are preserved per R10.
+  - COVERAGE_MATRIX.md rows for dat_11 and dat_17 show status=blocked with
+    `-` in count / with_page / with_params / params_pct columns.
+  - A short closure section is appended to reports/CROSS_REF_REPORT.md.
+- Reason: R11 (missing primary source -> blocked). The 19 partial records
+  in dat_11 cannot be verified or extended without the parent manual, so
+  the dataset as a whole cannot be considered `partial`.
+- Rejected alternatives:
+  - Keep dat_11 as `partial`: rejected; the partial records cannot be
+    verified or extended without the parent manual.
+  - Delete the 19 blocked records in dat_11: rejected, violates R10.
+  - Delete the 9 blocked records in dat_17: rejected, violates R10.
+- Related rules: R2, R10, R11, R22.

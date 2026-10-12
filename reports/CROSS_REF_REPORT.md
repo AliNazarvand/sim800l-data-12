@@ -350,3 +350,13 @@ Status:
 - dat_15 remains locked (missing Sleep Mode App Note).
 - dat_16 remains deferred (missing EVB document).
 - The cluster is considered closed for this phase.
+
+## Cluster B — formal closure of dat_11 and dat_17 (session 1405-07-20)
+
+Per D-047, dat_11 (HTTP/FTP/SSL) and dat_17 (Certificate/Key Store) are
+closed as `blocked`. Their data files are preserved (R10). No further
+cross-reference work is required for these two datasets until the missing
+HTTP / FTP / SSL manuals are obtained.
+
+Verification of the remaining Cluster B datasets (dat_02, dat_03, dat_09,
+dat_10, dat_12, dat_13) against dat_01 is deferred to the next session.
