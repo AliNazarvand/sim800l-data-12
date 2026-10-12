@@ -37,3 +37,19 @@
 
 ### Deferred
 - `dat_14`, `dat_16`.
+
+
+<!-- refresh-20261012060003 -->
+## [2026-10-12T06:00:03Z] - v7 reconciliation
+
+### Fixed
+- D-057 backtick escape (locked -> blocked)
+- Removed here-strings from automation script (paste-safe)
+
+### Added
+- D-061..D-064 in DECISIONS_LOG.md
+
+### Changed
+- COVERAGE_MATRIX, ROLE_MAP, README, 18 dat_XX_REPORT.md rebuilt
+- VALIDATION_REPORT and CROSS_REF_REPORT regenerated English-only (D-062)
+- SOURCE_INVENTORY and TODO rebuilt without duplicates
