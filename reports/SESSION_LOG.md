@@ -2,7 +2,7 @@
 
 ## Session 2: Final Corrective Apply
 
-- **Date:** 1405-07-20
+- **Date:** 2026-10-12 (Jalali->Gregorian)
 - **Actions:**
   - Fixed schema YAML structure (props inside properties, additionalProperties: false)
   - Restored PHASE_1/2/3_REPORT.md and _v8/9/10_FINAL_REPORT.md
@@ -42,3 +42,17 @@
 - **dat_01 records:** 334
 - **dat_07 records:** 56
 - **Next session:** Run `diagnose_sources.py`, then reuse `_rebuild_B1_dat01.py` / `_rebuild_dat07.py`.
+
+## Session 5: Corrective v6 (surgical fixes, 2026-10-12)
+
+- **Date:** 2026-10-12 (UTC)
+- **Actions:**
+  - Real vs placeholder record counting (D-008)
+  - GAP_REPORT, TODO, COVERAGE_MATRIX now derived from single source (D-009)
+  - SESSION_LOG Jalali dates converted to Gregorian (D-010)
+  - DECISIONS_LOG updated with D-007/008/009/010
+  - PHASE_1_REPORT rewritten with real counts
+  - validate.py run and logged to reports/VALIDATION_REPORT.md
+  - No data files touched.
+- **dat_01 real records:** 334
+- **dat_07 real records:** 56

@@ -3,25 +3,37 @@
 _Last updated: 2026-10-12_
 
 ## Immediate
-- [ ] Run `python scripts/diagnose_sources.py` to inspect source file formats
-      (_at_commands_index.json, hw_v2_02_full.txt).
-- [ ] Inspect existing extraction scripts and reuse if compatible:
-      - scripts/_rebuild_B1_dat01.py
-      - scripts/_rebuild_dat07.py
-      - scripts/extract_at_commands.py
-      - scripts/extract_dat_07.py
-- [ ] dat_01 currently has 334 records (target: full AT command set).
-- [ ] dat_07 currently has 56 records (target: all hardware pins).
-
-## Blocked (source missing)
-- [ ] dat_08 -- needs SIM800 Series Firmware Release Notes
-- [ ] dat_18 -- needs SIM800 Series Certification Documents
-
-## Deferred (optional / external)
-- [ ] dat_14 -- needs GSMA / ITU / mcc-mnc.com (optional)
-- [ ] dat_16 -- needs SIM800L EVB schematic
-
-## Verification
-- [ ] Run `python scripts/validate.py`.
+- [ ] Run `python scripts/diagnose_sources.py` to inspect source file formats.
+- [ ] Run `python scripts/validate.py` (4-level).
 - [ ] Run `python scripts/cross_ref.py`.
 - [ ] Spot-check records against source PDFs.
+
+## Record counts (real vs placeholder)
+
+| Dataset | Status | Real | Raw | Placeholders |
+|---------|--------|------|-----|--------------|
+| dat_01 | partial | 334 | 334 | 0 |
+| dat_02 | partial | 206 | 206 | 0 |
+| dat_03 | partial | 255 | 255 | 0 |
+| dat_04 | partial | 40 | 40 | 0 |
+| dat_05 | partial | 31 | 31 | 0 |
+| dat_06 | partial | 32 | 32 | 0 |
+| dat_07 | partial | 56 | 56 | 0 |
+| dat_08 | blocked | 1 | 1 | 0 |
+| dat_09 | partial | 14 | 14 | 0 |
+| dat_10 | partial | 24 | 24 | 0 |
+| dat_11 | partial | 38 | 38 | 0 |
+| dat_12 | partial | 13 | 13 | 0 |
+| dat_13 | partial | 10 | 10 | 0 |
+| dat_14 | partial | 52 | 52 | 0 |
+| dat_15 | partial | 14 | 14 | 0 |
+| dat_16 | deferred | 1 | 1 | 0 |
+| dat_17 | partial | 9 | 9 | 0 |
+| dat_18 | blocked | 1 | 1 | 0 |
+
+## Blocked (source missing)
+- [ ] dat_08 -- source document required
+- [ ] dat_18 -- source document required
+
+## Deferred (optional / external)
+- [ ] dat_16 -- optional / external source

@@ -17,12 +17,11 @@ _Last updated: 2026-10-12_
 - GSMA / ITU / mcc-mnc.com -- needed for dat_14
 
 ## Blocked (source missing -> R11)
-- dat_08 (FW release notes missing)
-- dat_18 (cert documents missing)
+- dat_08 (Firmware Compatibility) -- real records: 1
+- dat_18 (Certification) -- real records: 1
 
 ## Deferred (optional / external)
-- dat_14 (external source, optional per R6)
-- dat_16 (EVB schematic missing)
+- dat_16 (Board/EVB) -- real records: 1
 
 ## Partial (data present, verification pending)
 - dat_01 (334 records)

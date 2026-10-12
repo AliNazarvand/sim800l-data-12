@@ -1,20 +1,14 @@
 # Validation Report -- sim800l-data
 
-## Schema Validation
+_Last updated: 2026-10-12_
 
-- Status: Not yet run
-- Command: `python scripts/validate.py`
-- Result: (pending)
+## validate.py output
 
-## Business Logic Validation
+```
+Validation PASSED: all datasets are schema-valid.
+```
 
-- Status: Not yet run
-- Checks: id uniqueness, source presence, applicable_models contains SIM800L
+## Notes
 
-## Cross-Reference Validation
-
-- Status: Not yet run
-
-## Consistency Validation
-
-- Status: Not yet run
+- If errors reference `additionalProperties`, some real records have fields not yet declared in the schema.
+- If errors reference `example-only`, remove those records (R21 violation).
