@@ -1,15 +1,23 @@
-# dat_05 Report -- State Machine
+# dat_05_REPORT.md
 
-_Last updated: 2026-10-12_
+Generated: 2026-10-12T11:29:52Z
 
-## Status
+## Summary
 
-- **Status:** partial
-- **Source:** V2.02 + V1.00
-- **Real records:** 31
-- **Documented placeholders:** 0
-- **Raw records:** 31
+- Cluster: A
+- Effective status (per D-057): partial
+- Records: 31
+- Complete / Total: 8 / 31 = 25.8%
+- File: data/dat_05_state_machine.yaml
+
+## Status breakdown
+
+- complete: 8
+- inferred: 4
+- partial: 8
+- unknown: 11
 
 ## Notes
 
-- Data present. Verification against source PDFs is pending.
+- Status rule per D-057 (90% threshold with overrides).
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

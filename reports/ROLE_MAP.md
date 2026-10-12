@@ -1,24 +1,24 @@
-# Role Map -- sim800l-data
+# ROLE MAP
 
-_Last updated: 2026-10-12_
+Generated: 2026-10-12T18:01:13.1792658+03:30
 
-| Dataset | Role | Depends On | Dependents | Status |
-|---------|------|------------|------------|--------|
-| dat_01 | AT Command reference | - | dat_02,03,09,10,11,12,13,17 | partial |
-| dat_02 | URC reference | dat_01 | - | partial |
-| dat_03 | Error Code reference | dat_01 | - | partial |
-| dat_04 | Timing reference | V1.00, V2.02 | dat_05, dat_06 | partial |
-| dat_05 | State Machine reference | dat_04 | dat_06 | partial |
-| dat_06 | Init Sequence reference | dat_04, dat_05 | - | partial |
-| dat_07 | Hardware reference | V2.02, V1.00 | dat_16 | partial |
-| dat_08 | Firmware compatibility | Release Notes | - | blocked |
-| dat_09 | SMS reference | dat_01 | - | partial |
-| dat_10 | GPRS/Data reference | dat_01 | - | partial |
-| dat_11 | HTTP/FTP/SSL reference | dat_01 | dat_17 | partial |
-| dat_12 | Audio reference | dat_01 | - | partial |
-| dat_13 | SIM Management reference | dat_01, dat_07 | - | partial |
-| dat_14 | Operator/APN reference | external | dat_10 | partial |
-| dat_15 | Power Management reference | V2.02, V1.00 | dat_05 | partial |
-| dat_16 | Board/EVB reference | dat_07 | - | deferred |
-| dat_17 | Certificate/Key Store reference | dat_01, dat_11 | - | partial |
-| dat_18 | Certification reference | Official docs | - | blocked |
+| Dataset | Role | Depends On | Depended By | Status |
+|---|---|---|---|---|
+| dat_01 | AT Command reference | - | dat_02,dat_03,dat_09,dat_10,dat_11,dat_12,dat_13,dat_17 | partial |
+| dat_02 | URC reference | dat_01 | - | complete |
+| dat_03 | Error code reference | dat_01 | - | complete |
+| dat_04 | Timing reference | - | dat_05,dat_06 | complete |
+| dat_05 | State machine | dat_04 | dat_06 | complete |
+| dat_06 | Init sequence | dat_04,dat_05 | - | complete |
+| dat_07 | Hardware reference | - | dat_13,dat_16 | complete |
+| dat_08 | Firmware compat | dat_01 | - | blocked |
+| dat_09 | SMS | dat_01 | - | complete |
+| dat_10 | GPRS/Data | dat_01 | dat_14 | complete |
+| dat_11 | HTTP/FTP/SSL | dat_01,dat_17 | - | complete |
+| dat_12 | Audio | dat_01 | - | complete |
+| dat_13 | SIM management | dat_01,dat_07 | - | complete |
+| dat_14 | Operator/APN | - | dat_10 | partial |
+| dat_15 | Power management | - | - | blocked |
+| dat_16 | Board/EVB | dat_07 | - | blocked |
+| dat_17 | Certificate/Key Store | dat_01,dat_11 | - | blocked |
+| dat_18 | Certification | - | - | blocked |

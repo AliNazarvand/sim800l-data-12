@@ -1,15 +1,22 @@
-# dat_04 Report -- Timing & Timeout
+# dat_04_REPORT.md
 
-_Last updated: 2026-10-12_
+Generated: 2026-10-12T11:29:52Z
 
-## Status
+## Summary
 
-- **Status:** partial
-- **Source:** V2.02 + V1.00
-- **Real records:** 40
-- **Documented placeholders:** 0
-- **Raw records:** 40
+- Cluster: A
+- Effective status (per D-057): partial
+- Records: 40
+- Complete / Total: 11 / 40 = 27.5%
+- File: data/dat_04_timing_timeout.yaml
+
+## Status breakdown
+
+- complete: 11
+- partial: 6
+- unknown: 23
 
 ## Notes
 
-- Data present. Verification against source PDFs is pending.
+- Status rule per D-057 (90% threshold with overrides).
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

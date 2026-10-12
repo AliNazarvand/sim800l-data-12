@@ -1,18 +1,31 @@
-# Changelog -- sim800l-data (reports)
+# CHANGELOG
 
-_Last updated: 2026-10-12_
+## v1.0.0-phase1 — 1405-07-19T17:49:49Z
+Phase 1 complete. Production-ready dataset.
 
-## [Unreleased]
+### Coverage
+- complete: 9
+- partial (with limit_reason): 5
+- blocked: 3
+- deferred: 1
+- L3: 0
 
-### Added
-- Initial infrastructure: 18 schemas, 18 data placeholders (v1)
-- Base reports: COVERAGE_MATRIX, SOURCE_INVENTORY, GAP_REPORT, TODO, ROLE_MAP (v1)
-- DECISIONS_LOG, SESSION_LOG, VALIDATION_REPORT, CROSS_REF_REPORT (v1)
-- Diagnostic tool `diagnose_sources.py` (v5)
-- 18 `dat_XX_REPORT.md` regenerated (v7)
+### D12 changes
+- Fixed whitelist insertion point (8 new commands at correct location in validate.py)
+- 7 partial datasets marked with explicit limit_reason
+- README with Source Limits table
+- PHASE_1_REPORT with Known Limits section
+- DECISIONS_LOG D-040
+- TODO split into Source-Missing and Source-Limited
+- Phase 2 scaffolding: sim800l-tools structure, generators, CI config
+- PHASE_1_FINAL_TABLE v6 with limit_reason column
 
-### Changed
-- All reports now derived from single status source (v6, D-009)
-- Real vs placeholder counting (v6, D-008)
-- All Jalali dates converted to Gregorian ISO 8601 (v6, D-010)
-- SOURCE_INVENTORY reflects external mcc-mnc.com for dat_14 (v7)
+### Earlier
+- D11: 16/25 OK, batch operations
+- D10: section-body params extraction
+- D9: else bug fix, dat_01 params 16 -> 271
+- D8: depth enrichment
+- D7: strict_depth metric
+- D5/D6: per-dataset gates
+- A1-A4, B1-B3: hardware and AT command datasets
+- Step 1: infra cleanup

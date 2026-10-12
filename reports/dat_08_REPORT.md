@@ -1,17 +1,20 @@
-# dat_08 Report -- Firmware Compatibility
+# dat_08_REPORT.md
 
-_Last updated: 2026-10-12_
+Generated: 2026-10-12T11:29:52Z
 
-## Status
+## Summary
 
-- **Status:** blocked
-- **Source:** (missing)
-- **Real records:** 0
-- **Documented placeholders:** 1
-- **Raw records:** 1
+- Cluster: C
+- Effective status (per D-057): blocked
+- Records: 1
+- Complete / Total: 0 / 1 = 0.0%
+- File: data/dat_08_firmware_compatibility.yaml
+
+## Status breakdown
+
+- blocked: 1
 
 ## Notes
 
-- Source missing (R11). Records are documented placeholders.
-- Documented placeholders: 1
-  - dat_08_0001 (documented: dataset source missing, source.name='SIM800 Firmware Release Notes')
+- Status rule per D-057 (90% threshold with overrides).
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

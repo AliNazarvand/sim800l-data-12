@@ -1,15 +1,20 @@
-# dat_14 Report -- Operator/APN
+# dat_14_REPORT.md
 
-_Last updated: 2026-10-12_
+Generated: 2026-10-12T11:29:52Z
 
-## Status
+## Summary
 
-- **Status:** partial
-- **Source:** external (mcc-mnc.com)
-- **Real records:** 52
-- **Documented placeholders:** 0
-- **Raw records:** 52
+- Cluster: C
+- Effective status (per D-057): deferred
+- Records: 52
+- Complete / Total: 0 / 52 = 0.0%
+- File: data/dat_14_operator_apn.yaml
+
+## Status breakdown
+
+- unknown: 52
 
 ## Notes
 
-- Data present. Verification against source PDFs is pending.
+- Status rule per D-057 (90% threshold with overrides).
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

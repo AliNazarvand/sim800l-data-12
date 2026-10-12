@@ -1,15 +1,21 @@
-# dat_10 Report -- GPRS/Data
+# dat_10_REPORT.md
 
-_Last updated: 2026-10-12_
+Generated: 2026-10-12T11:29:52Z
 
-## Status
+## Summary
 
-- **Status:** partial
-- **Source:** AT Manual V1.01
-- **Real records:** 24
-- **Documented placeholders:** 0
-- **Raw records:** 24
+- Cluster: B
+- Effective status (per D-057): partial
+- Records: 24
+- Complete / Total: 21 / 24 = 87.5%
+- File: data/dat_10_gprs_data.yaml
+
+## Status breakdown
+
+- blocked: 3
+- complete: 21
 
 ## Notes
 
-- Data present. Verification against source PDFs is pending.
+- Status rule per D-057 (90% threshold with overrides).
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

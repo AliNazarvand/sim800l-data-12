@@ -1,21 +1,28 @@
-# Validation Report -- sim800l-data
+# VALIDATION REPORT
 
-_Last updated: 2026-10-12_
+Generated: 2026-10-12T18:01:13.1792658+03:30
 
-## Status
+## Level 1 — Schema presence
 
-- **Result:** PASSED
-- **Command:** `python scripts/validate.py`
+- Schemas present: 18 / 18
 
-## Output
+## Level 2 — Business logic (validate.py)
 
 ```
-Validation PASSED: all datasets are schema-valid.
+Validation: 0 errors (L1=0 L2=0 L3=0 L4=0)
+dat_01 status=b  cross-ref ran=True  specialist_whitelist=46
 ```
+- exit code: 0
 
-## Notes
+## Level 3 — Cross-reference (cross_ref.py)
 
-- Level 1: schema validation (jsonschema)
-- Level 2: business logic (id uniqueness, source presence, applicable_models)
-- Level 3: cross-reference (see reports/CROSS_REF_REPORT.md)
-- Level 4: consistency (ISO 8601 timestamps; no example-only/synthetic in data/)
+```
+Cross-ref: 226 issues, 334 commands in dat_01
+```
+- exit code: 0
+
+## Level 4 — Consistency (yamllint)
+
+```
+(yamllint not installed)
+```

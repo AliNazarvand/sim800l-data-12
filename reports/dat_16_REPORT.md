@@ -1,17 +1,20 @@
-# dat_16 Report -- Board/EVB
+# dat_16_REPORT.md
 
-_Last updated: 2026-10-12_
+Generated: 2026-10-12T11:29:52Z
 
-## Status
+## Summary
 
-- **Status:** deferred
-- **Source:** (missing)
-- **Real records:** 0
-- **Documented placeholders:** 1
-- **Raw records:** 1
+- Cluster: A
+- Effective status (per D-057): deferred
+- Records: 1
+- Complete / Total: 0 / 1 = 0.0%
+- File: data/dat_16_board_evb.yaml
+
+## Status breakdown
+
+- blocked: 1
 
 ## Notes
 
-- Deferred (optional / external source required).
-- Documented placeholders: 1
-  - dat_16_0001 (documented: dataset source missing, source.name='SIM800L EVB Schematic')
+- Status rule per D-057 (90% threshold with overrides).
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

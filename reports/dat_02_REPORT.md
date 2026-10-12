@@ -1,15 +1,22 @@
-# dat_02 Report -- URC
+# dat_02_REPORT.md
 
-_Last updated: 2026-10-12_
+Generated: 2026-10-12T11:29:52Z
 
-## Status
+## Summary
 
-- **Status:** partial
-- **Source:** AT Manual V1.01
-- **Real records:** 206
-- **Documented placeholders:** 0
-- **Raw records:** 206
+- Cluster: B
+- Effective status (per D-057): partial
+- Records: 206
+- Complete / Total: 16 / 206 = 7.8%
+- File: data/dat_02_urc.yaml
+
+## Status breakdown
+
+- complete: 16
+- partial: 189
+- unknown: 1
 
 ## Notes
 
-- Data present. Verification against source PDFs is pending.
+- Status rule per D-057 (90% threshold with overrides).
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

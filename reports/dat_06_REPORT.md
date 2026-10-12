@@ -1,15 +1,22 @@
-# dat_06 Report -- Init Sequence
+# dat_06_REPORT.md
 
-_Last updated: 2026-10-12_
+Generated: 2026-10-12T11:29:52Z
 
-## Status
+## Summary
 
-- **Status:** partial
-- **Source:** V2.02 + V1.00
-- **Real records:** 32
-- **Documented placeholders:** 0
-- **Raw records:** 32
+- Cluster: A
+- Effective status (per D-057): partial
+- Records: 32
+- Complete / Total: 7 / 32 = 21.9%
+- File: data/dat_06_init_sequence.yaml
+
+## Status breakdown
+
+- complete: 7
+- partial: 15
+- unknown: 10
 
 ## Notes
 
-- Data present. Verification against source PDFs is pending.
+- Status rule per D-057 (90% threshold with overrides).
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

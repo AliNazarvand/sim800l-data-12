@@ -1,15 +1,22 @@
-# dat_03 Report -- Error Code
+# dat_03_REPORT.md
 
-_Last updated: 2026-10-12_
+Generated: 2026-10-12T11:29:52Z
 
-## Status
+## Summary
 
-- **Status:** partial
-- **Source:** AT Manual V1.01
-- **Real records:** 255
-- **Documented placeholders:** 0
-- **Raw records:** 255
+- Cluster: B
+- Effective status (per D-057): complete
+- Records: 255
+- Complete / Total: 237 / 255 = 92.9%
+- File: data/dat_03_error_code.yaml
+
+## Status breakdown
+
+- complete: 237
+- partial: 12
+- unknown: 6
 
 ## Notes
 
-- Data present. Verification against source PDFs is pending.
+- Status rule per D-057 (90% threshold with overrides).
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
