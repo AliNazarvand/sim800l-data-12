@@ -1,20 +1,11 @@
-# dat_13_REPORT.md
+# dat_13 — SIM Management
 
-Generated: 2026-10-12T11:29:52Z
+Generated: 2026-10-12T14:39:53Z
 
-## Summary
-
-- Cluster: B
-- Effective status (per D-057): complete
+- Status: `complete`
+- Decision: D-057
+- Role: SIM management
+- Depends on: dat_01,dat_07
+- Depended by: -
 - Records: 10
-- Complete / Total: 10 / 10 = 100.0%
-- File: data/dat_13_sim_management.yaml
-
-## Status breakdown
-
-- complete: 10
-
-## Notes
-
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data file: `data/dat_13_sim_management.yaml`

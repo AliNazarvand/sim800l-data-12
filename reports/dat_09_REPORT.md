@@ -1,21 +1,11 @@
-# dat_09_REPORT.md
+# dat_09 — SMS
 
-Generated: 2026-10-12T11:29:52Z
+Generated: 2026-10-12T14:39:53Z
 
-## Summary
-
-- Cluster: B
-- Effective status (per D-057): complete
+- Status: `complete`
+- Decision: D-057
+- Role: SMS
+- Depends on: dat_01
+- Depended by: -
 - Records: 14
-- Complete / Total: 13 / 14 = 92.9%
-- File: data/dat_09_sms.yaml
-
-## Status breakdown
-
-- complete: 13
-- partial: 1
-
-## Notes
-
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data file: `data/dat_09_sms.yaml`

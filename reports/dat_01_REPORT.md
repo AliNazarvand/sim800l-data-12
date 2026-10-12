@@ -1,20 +1,11 @@
-# dat_01_REPORT.md
+# dat_01 — AT Command
 
-Generated: 2026-10-12T11:29:52Z
+Generated: 2026-10-12T14:39:53Z
 
-## Summary
-
-- Cluster: B
-- Effective status (per D-057): partial
+- Status: `partial`
+- Decision: D-057
+- Role: AT Command reference
+- Depends on: -
+- Depended by: dat_02,dat_03,dat_09,dat_10,dat_12,dat_13
 - Records: 334
-- Complete / Total: 0 / 334 = 0.0%
-- File: data/dat_01_at_command.yaml
-
-## Status breakdown
-
-- partial: 334
-
-## Notes
-
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data file: `data/dat_01_at_command.yaml`
