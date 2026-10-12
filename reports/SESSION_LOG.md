@@ -200,3 +200,25 @@
 - **Real Issues:** dat_02 (188/206 flagged), dat_07 (56/88 pins)
 - **DECLARATION:** v14 is the last script. Reports now match audit reality.
   Remaining work is manual: clean dat_02, expand dat_07.
+
+## Session 15: v15 -- Interactive dat_02 Review Tool (2026-10-12)
+
+- **Date:** 2026-10-12 (UTC)
+- **Type:** Tool creation (non-destructive, non-reporting)
+- **Reason:** No script can read PDF and decide whether a record is a URC
+  or an AT command. This session provides an interactive helper that lets
+  the human make those decisions efficiently.
+- **Actions:**
+  - Created `scripts/review_dat_02.py` (interactive review tool)
+    - Modes: review / apply / status
+    - Saves decisions to `reports/_dat_02_review.yaml`
+    - Does NOT modify data files during review
+    - Apply mode moves AT commands to dat_01 and updates dat_02
+  - Updated `MANUAL_VERIFICATION_CHECKLIST.md` with tool usage
+  - No data files modified
+- **How to use:**
+  - `python scripts/review_dat_02.py` -- start review
+  - `python scripts/review_dat_02.py status` -- show progress
+  - `python scripts/review_dat_02.py apply` -- apply decisions
+- **DECLARATION:** v15 is the last script. All further work is human-driven
+  verification using this tool and the source PDFs.

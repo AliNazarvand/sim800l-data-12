@@ -7,35 +7,46 @@ _Generated: 2026-10-12_
 
 ## Already Verified (no action needed)
 
-- [x] **dat_01 format** -- 334/334 commands have `+` prefix (verified by v13 audit)
+- [x] **dat_01 format** -- 334/334 commands have `+` prefix (v13 audit)
 - [x] **dat_03 uniqueness** -- 255/255 unique `(error_type, code)` pairs
 
-## Step 1: Clean dat_02 URC (2-3 hours) -- REQUIRED
+## Step 1: Review dat_02 URCs (2-3 hours) -- REQUIRED
 
-### 1.1 List suspect records
+A helper script has been created to make this efficient:
+`scripts/review_dat_02.py`
+
+### 1.1 Start the interactive review
 
 ```powershell
-Select-String -Path data\dat_02_urc.yaml -Pattern 'Suspected' -Context 5,0
+python scripts\review_dat_02.py
 ```
 
 ### 1.2 For each of the 188 suspect records
 
-- [ ] Open `SIM800 Series_AT Command Manual_V1.01.pdf`.
-- [ ] Look up the `urc_string` value.
-- [ ] If it appears in the **URC section**: keep it, fix `trigger_event`.
-- [ ] If it appears in the **AT Command section**:
-      - Move it to `data\dat_01_at_command.yaml`, OR
-      - Delete it from `dat_02_urc.yaml`.
-- [ ] Fix the 39 possibly-truncated `trigger_event` fields.
+The tool shows the record and asks you to classify:
 
-### 1.3 Verify with cross-ref
+- **[K]eep** -- it IS a URC (e.g., `+CMTI`, `RING`, `+CREG`)
+- **[M]ove** -- it's an AT command, not a URC (e.g., `+CAAS`, `+CADC`)
+- **[D]elete** -- invalid or duplicate (requires typing `DELETE` to confirm)
+- **[S]kip** -- leave as-is for now
+- **[Q]uit** -- stop and save progress
+
+Open `SIM800 Series_AT Command Manual_V1.01.pdf` in another window to check each command.
+
+### 1.3 Check progress any time
 
 ```powershell
-python scripts\cross_ref.py
-python scripts\audit_data_integrity.py
+python scripts\review_dat_02.py status
 ```
 
-Expected: `dat_02 self-marked as suspected: 0`
+### 1.4 When review is complete, apply decisions
+
+```powershell
+python scripts\review_dat_02.py apply
+python scripts\validate.py
+```
+
+Decisions are saved in `reports/_dat_02_review.yaml` -- safe to interrupt and resume.
 
 ## Step 2: Expand dat_07 pins (1-2 hours) -- REQUIRED
 
@@ -43,7 +54,7 @@ Expected: `dat_02 self-marked as suspected: 0`
 
 - Open `SIM800H&SIM800L_Hardware_Design_V2.02.PDF`
 - Navigate to page 16 (Pin Description table)
-- Currently 56 of ~88 pins are present in `dat_07_hardware_reference.yaml`
+- Currently 56 of ~88 pins are present
 
 ### 2.2 For each missing pin
 
