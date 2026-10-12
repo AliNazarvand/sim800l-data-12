@@ -1,12 +1,10 @@
 # PHASE 1 REPORT -- sim800l-data
 
-_Last updated: 
+_Last updated: 2026-10-12_
 
 ## Objective
 
-Complete the data-driven `sim800l-data` project for **SIM800L only**, with
-documented, traceable, schema-valid, cross-referenced, and reproducible
-datasets.
+Complete the data-driven `sim800l-data` project for **SIM800L only**, with documented, traceable, schema-valid, cross-referenced, and reproducible datasets.
 
 ## Available Sources (confirmed)
 
@@ -16,20 +14,20 @@ datasets.
 
 ## Status Snapshot (2026-10-12)
 
-- **dat_01** (AT Command): partial -- 0 records
+- **dat_01** (AT Command): partial -- 334 records
 - **dat_02** (URC): partial -- 206 records
 - **dat_03** (Error Code): partial -- 255 records
 - **dat_04** (Timing & Timeout): partial -- 40 records
 - **dat_05** (State Machine): partial -- 31 records
 - **dat_06** (Init Sequence): partial -- 32 records
-- **dat_07** (Hardware Reference): partial -- 0 records
+- **dat_07** (Hardware Reference): partial -- 56 records
 - **dat_08** (Firmware Compatibility): blocked -- 1 records
 - **dat_09** (SMS): partial -- 14 records
 - **dat_10** (GPRS/Data): partial -- 24 records
 - **dat_11** (HTTP/FTP/SSL): partial -- 38 records
 - **dat_12** (Audio): partial -- 13 records
 - **dat_13** (SIM Management): partial -- 10 records
-- **dat_14** (Operator/APN): deferred -- 52 records
+- **dat_14** (Operator/APN): partial -- 52 records
 - **dat_15** (Power Management): partial -- 14 records
 - **dat_16** (Board/EVB): deferred -- 1 records
 - **dat_17** (Certificate/Key Store): partial -- 9 records
@@ -37,9 +35,8 @@ datasets.
 
 ## Notes
 
-- Bootstrap extraction (prior session) extracted 0 records from both AT JSON
-  and HW text. It also overwrote dat_01/dat_07 with empty files.
-- This session restored dat_01/dat_07 from the oldest available backup.
-- Future extraction should reuse existing scripts (see scripts/_rebuild_*.py).
+- Bootstrap extraction (previous session) extracted 0 records and overwrote dat_01/dat_07.
+- dat_01/dat_07 were restored from the oldest backup with records.
+- Future extraction should reuse existing scripts (scripts/_rebuild_*.py).
 
 See `reports/COVERAGE_MATRIX.md` for details.

@@ -45,7 +45,6 @@ properties:
     type: string
   updated_at:
     type: string
-  category: {type: string}
   name: {type: string}
   pin_number: {type: string}
   direction: {type: string}

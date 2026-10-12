@@ -45,7 +45,6 @@ properties:
     type: string
   updated_at:
     type: string
-  category: {type: string}
   command: {type: string}
   syntax: {type: string}
   parameters: {type: array, items: {type: object}}

@@ -1,18 +1,17 @@
 # TODO -- sim800l-data
 
-_Last updated: 
+_Last updated: 2026-10-12_
 
 ## Immediate
-- [ ] Run python scripts/diagnose_sources.py to inspect formats of
-      _at_commands_index.json and hw_v2_02_full.txt.
+- [ ] Run `python scripts/diagnose_sources.py` to inspect source file formats
+      (_at_commands_index.json, hw_v2_02_full.txt).
 - [ ] Inspect existing extraction scripts and reuse if compatible:
       - scripts/_rebuild_B1_dat01.py
       - scripts/_rebuild_dat07.py
       - scripts/extract_at_commands.py
       - scripts/extract_dat_07.py
-- [ ] dat_01 currently has 0 records.
-- [ ] dat_07 currently has 0 records.
-- [ ] Populate dat_01 (AT Command) and dat_07 (Hardware Reference).
+- [ ] dat_01 currently has 334 records (target: full AT command set).
+- [ ] dat_07 currently has 56 records (target: all hardware pins).
 
 ## Blocked (source missing)
 - [ ] dat_08 -- needs SIM800 Series Firmware Release Notes
@@ -23,6 +22,6 @@ _Last updated:
 - [ ] dat_16 -- needs SIM800L EVB schematic
 
 ## Verification
-- [ ] Run python scripts/validate.py (4-level).
-- [ ] Run python scripts/cross_ref.py.
-- [ ] Manually spot-check records in each populated dataset against source PDFs.
+- [ ] Run `python scripts/validate.py`.
+- [ ] Run `python scripts/cross_ref.py`.
+- [ ] Spot-check records against source PDFs.

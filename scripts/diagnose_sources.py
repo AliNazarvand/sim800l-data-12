@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Diagnostic: inspect source file formats before writing extraction logic.
+"""Diagnostic: inspect source file formats before designing extraction logic.
 
-This script does NOT extract or modify anything. It only prints samples
-so the operator can design correct extraction logic.
+Does NOT extract or modify anything. Only prints samples.
 
 Usage:
     python scripts/diagnose_sources.py
@@ -15,87 +14,75 @@ ROOT = Path(__file__).resolve().parent.parent
 EXTRACTED = ROOT / "sources" / "extracted"
 
 
-def show_json_head(path: Path, n_lines: int = 50):
+def show_json(path: Path):
     print(f"\n=== {path.name} ===")
     if not path.exists():
-        print("  [MISSING]")
-        return
+        print("  [MISSING]"); return
     try:
         raw = path.read_text(encoding="utf-8", errors="replace")
     except Exception as exc:
-        print(f"  [ERROR] {exc}")
-        return
+        print(f"  [ERROR] {exc}"); return
     print(f"  size: {len(raw)} bytes")
-    # Try to parse and show structure
     try:
         obj = json.loads(raw)
         if isinstance(obj, dict):
             keys = list(obj.keys())[:10]
-            print(f"  top-level: dict with {len(obj)} keys")
-            print(f"  sample keys: {keys}")
+            print(f"  dict with {len(obj)} keys; sample: {keys}")
             for k in keys[:3]:
                 v = obj[k]
                 print(f"    '{k}' -> {type(v).__name__}: {repr(v)[:120]}")
         elif isinstance(obj, list):
-            print(f"  top-level: list with {len(obj)} items")
+            print(f"  list with {len(obj)} items")
             for item in obj[:3]:
                 print(f"    -> {type(item).__name__}: {repr(item)[:120]}")
     except Exception as exc:
-        print(f"  [not valid JSON] {exc}")
-        print(f"  first 500 chars: {raw[:500]!r}")
+        print(f"  [not JSON] {exc}")
+        print(f"  first 500: {raw[:500]!r}")
 
 
-def show_text_head(path: Path, n_lines: int = 60):
+def show_text(path: Path, n: int = 80):
     print(f"\n=== {path.name} ===")
     if not path.exists():
-        print("  [MISSING]")
-        return
+        print("  [MISSING]"); return
     try:
         lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
     except Exception as exc:
-        print(f"  [ERROR] {exc}")
-        return
+        print(f"  [ERROR] {exc}"); return
     print(f"  total lines: {len(lines)}")
-    for i, ln in enumerate(lines[:n_lines], 1):
+    for i, ln in enumerate(lines[:n], 1):
         print(f"  {i:4d} | {ln[:140]}")
 
 
-def show_yaml_head(path: Path, n_lines: int = 25):
+def show_yaml(path: Path, n: int = 30):
     print(f"\n=== {path.name} ===")
     if not path.exists():
-        print("  [MISSING]")
-        return
+        print("  [MISSING]"); return
     try:
         lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
     except Exception as exc:
-        print(f"  [ERROR] {exc}")
-        return
+        print(f"  [ERROR] {exc}"); return
     print(f"  total lines: {len(lines)}")
-    for i, ln in enumerate(lines[:n_lines], 1):
+    for i, ln in enumerate(lines[:n], 1):
         print(f"  {i:4d} | {ln[:140]}")
 
 
 def main():
     print("=== SOURCE DIAGNOSTIC ===")
     print(f"ROOT: {ROOT}")
-    print(f"EXTRACTED: {EXTRACTED}")
 
-    # AT index
-    show_json_head(EXTRACTED / "_at_commands_index.json", 50)
-
-    # HW text
-    show_text_head(EXTRACTED / "hw_v2_02_full.txt", 80)
-
-    # Reference: an existing dataset with records
-    show_yaml_head(ROOT / "data" / "dat_02_urc.yaml", 25)
+    show_json(EXTRACTED / "_at_commands_index.json")
+    show_text(EXTRACTED / "hw_v2_02_full.txt", 80)
+    show_text(EXTRACTED / "hw_v1_00_full.txt", 40)
+    show_yaml(ROOT / "data" / "dat_02_urc.yaml", 30)
 
     print("\n=== Suggested next steps ===")
-    print("1. Examine the format shown above.")
+    print("1. Review the formats shown above.")
     print("2. Reuse existing scripts if compatible:")
     print("   - scripts/_rebuild_B1_dat01.py")
     print("   - scripts/_rebuild_dat07.py")
-    print("3. Only write new extraction code if existing scripts are broken.")
-
+    print("   - scripts/extract_at_commands.py")
+    print("   - scripts/extract_dat_07.py")
+    print("3. Write new extraction only if existing scripts are broken.")
     return 0
 
 

@@ -1,6 +1,6 @@
 # Gap Report -- sim800l-data
 
-_Last updated: 
+_Last updated: 2026-10-12_
 
 ## Missing Sources
 - SIM800 Series TCP/IP AT Command Manual -- needed for dat_10
@@ -25,15 +25,18 @@ _Last updated:
 - dat_16 (EVB schematic missing)
 
 ## Partial (data present, verification pending)
+- dat_01 (334 records)
 - dat_02 (206 records)
 - dat_03 (255 records)
 - dat_04 (40 records)
 - dat_05 (31 records)
 - dat_06 (32 records)
+- dat_07 (56 records)
 - dat_09 (14 records)
 - dat_10 (24 records)
 - dat_11 (38 records)
 - dat_12 (13 records)
 - dat_13 (10 records)
+- dat_14 (52 records)
 - dat_15 (14 records)
 - dat_17 (9 records)

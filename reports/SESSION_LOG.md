@@ -27,3 +27,18 @@
 - **dat_07 records:** 0
 - **Next session:** Run `diagnose_sources.py`, then use existing extraction scripts
   (`_rebuild_B1_dat01.py`, `_rebuild_dat07.py`) to populate dat_01 and dat_07.
+
+## Session 4: Final Corrective (v5)
+
+- **Date:** 2026-10-12 (UTC)
+- **Cluster:** A (prep) + B gate check
+- **Actions:**
+  - Backup created outside project: `D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\sim800l-data-backups\20261012-160657`
+  - dat_01/dat_07 restored from oldest backup with records
+  - Duplicate `category` removed from 8 schemas
+  - Statuses: records-first logic (>=3 real records -> partial)
+  - Diagnostic script: `scripts/diagnose_sources.py`
+  - Dates forced to InvariantCulture (no Jalali)
+- **dat_01 records:** 334
+- **dat_07 records:** 56
+- **Next session:** Run `diagnose_sources.py`, then reuse `_rebuild_B1_dat01.py` / `_rebuild_dat07.py`.
