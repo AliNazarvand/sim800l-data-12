@@ -1040,3 +1040,41 @@
   into main with tag v3.0.0.
 - Reason: Semantic versioning.
 - Related: D-058, D-059, D-054.
+## D-069 - v9 REPAIR: unquoted source.date
+
+- Date: 2026-10-12T06:14:52Z
+- Context: v8 added records with unquoted `date: 2015-07-27`. YAML 1.1
+  parses these as datetime.date, which fails schema type=string.
+- Decision: all unquoted source.date values quoted as 'YYYY-MM-DD'.
+- Reason: R8 (valid YAML), R17 (schema-valid).
+- Related: D-065.
+
+## D-070 - v9 fix: Ratio-Str overload error
+
+- Date: 2026-10-12T06:14:52Z
+- Context: v8 emitted empty Ratio column due to .ToString(2 args)
+  overload resolution failure on decimal vs double.
+- Decision: Ratio-Str rewritten using [string]::Format with
+  InvariantCulture and format "{0:F1}".
+- Reason: correctness, R19 (ISO 8601 friendly).
+- Related: D-069.
+
+## D-071 - v9 fix: idempotent append for logs
+
+- Date: 2026-10-12T06:14:52Z
+- Context: v8 produced duplicate [3.0.0] entries in CHANGELOG and two
+  "Session v8" entries in SESSION_LOG.
+- Decision: Append-IfNotContains checks a unique marker before
+  appending. Duplicate entries remain in history (R10).
+- Reason: R8, R20 (no contradictory content).
+- Related: D-056.
+
+## D-072 - v9 fix: JSON patch after validate.py
+
+- Date: 2026-10-12T06:14:52Z
+- Context: v8 patched _validation_summary.json in BLOCK 3 but validate.py
+  in BLOCK 6 overwrote it. Patch was lost.
+- Decision: In v9, _validation_summary.json is patched AFTER the
+  final validate.py run (BLOCK 7), not before.
+- Reason: R20 (no contradictory reporting).
+- Related: D-064, D-066.
