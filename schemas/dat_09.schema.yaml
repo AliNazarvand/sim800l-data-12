@@ -45,21 +45,15 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   mode: {type: string, enum: [text, pdu]}
   command: {type: string}
   syntax: {type: string}
-  parameters:
-    type: array
-    items: {type: object}
+  parameters: {type: array, items: {type: object}}
   response: {type: string}
-  examples:
-    type: array
-    items: {type: string}
-  related_urcs:
-    type: array
-    items: {type: string}
+  examples: {type: array, items: {type: string}}
+  related_urcs: {type: array, items: {type: string}}
   encoding: {type: string, enum: [GSM7, UCS2, 8bit]}
   storage: {type: string, enum: [SM, ME, MT]}
   concat_sms: {type: boolean}
   delivery_report: {type: boolean}
+additionalProperties: false

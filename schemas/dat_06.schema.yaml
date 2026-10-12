@@ -45,7 +45,6 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   step_order: {type: integer}
   command: {type: string}
   expected_response: {type: string}
@@ -54,3 +53,4 @@ additionalProperties: true
   failure_action: {type: string}
   dependency_step: {type: string}
   related_state: {type: string}
+additionalProperties: false

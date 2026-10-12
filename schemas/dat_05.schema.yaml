@@ -45,27 +45,13 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   state_name: {type: string}
   description: {type: string}
-  entry_conditions:
-    type: array
-    items: {type: string}
-  exit_conditions:
-    type: array
-    items: {type: string}
-  events:
-    type: array
-    items: {type: string}
-  actions:
-    type: array
-    items: {type: string}
-  related_commands:
-    type: array
-    items: {type: string}
-  related_urcs:
-    type: array
-    items: {type: string}
-  related_timings:
-    type: array
-    items: {type: string}
+  entry_conditions: {type: array, items: {type: string}}
+  exit_conditions: {type: array, items: {type: string}}
+  events: {type: array, items: {type: string}}
+  actions: {type: array, items: {type: string}}
+  related_commands: {type: array, items: {type: string}}
+  related_urcs: {type: array, items: {type: string}}
+  related_timings: {type: array, items: {type: string}}
+additionalProperties: false

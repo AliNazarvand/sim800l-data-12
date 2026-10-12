@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """Validate YAML datasets (4-level) for the sim800l-data project.
 
-Level 1: schema validation (jsonschema)
+Level 1: schema validation
 Level 2: business logic (id uniqueness, source presence, applicable_models)
-Level 3: cross-reference (URCs -> commands, errors -> commands, etc.)
-Level 4: consistency (timestamps, no `example-only` in data/, no synthetic)
+Level 3: cross-reference (URC/error/command links)
+Level 4: consistency (timestamps, no example-only in data/)
 """
-import json
 import re
 import sys
 from pathlib import Path
@@ -17,7 +16,6 @@ try:
     import jsonschema
 except ImportError as exc:
     print(f"[FATAL] Missing dependency: {exc}", file=sys.stderr)
-    print("Install with: pip install pyyaml jsonschema", file=sys.stderr)
     sys.exit(1)
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -33,13 +31,17 @@ def load_yaml(path: Path) -> Any:
         return yaml.safe_load(fh)
 
 
-def level1_schema(data: Any, schema: Any, name: str) -> list:
+def as_list(x):
+    if x is None:
+        return []
+    if isinstance(x, list):
+        return x
+    return [x]
+
+
+def level1(data, schema, name):
     errors = []
-    if data is None:
-        return errors
-    if not isinstance(data, list):
-        data = [data]
-    for idx, record in enumerate(data):
+    for idx, record in enumerate(as_list(data)):
         try:
             jsonschema.validate(instance=record, schema=schema)
         except jsonschema.ValidationError as exc:
@@ -47,12 +49,10 @@ def level1_schema(data: Any, schema: Any, name: str) -> list:
     return errors
 
 
-def level2_business(data: Any, name: str) -> list:
+def level2(data, name):
     errors = []
-    if not isinstance(data, list):
-        return errors
-    seen_ids = set()
-    for idx, record in enumerate(data):
+    seen = set()
+    for idx, record in enumerate(as_list(data)):
         if not isinstance(record, dict):
             continue
         rid = record.get("id")
@@ -61,81 +61,93 @@ def level2_business(data: Any, name: str) -> list:
             continue
         if not ID_RE.match(str(rid)):
             errors.append(f"L2 {name}[{idx}]: invalid id format: {rid}")
-        if rid in seen_ids:
+        if rid in seen:
             errors.append(f"L2 {name}[{idx}]: duplicate id: {rid}")
-        seen_ids.add(rid)
+        seen.add(rid)
         if not record.get("source"):
             errors.append(f"L2 {name}[{idx}]: missing source")
-        models = record.get("applicable_models", [])
-        if "SIM800L" not in models:
-            errors.append(f"L2 {name}[{idx}]: applicable_models does not contain SIM800L")
+        if "SIM800L" not in (record.get("applicable_models") or []):
+            errors.append(f"L2 {name}[{idx}]: applicable_models missing SIM800L")
     return errors
 
 
-def level4_consistency(data: Any, name: str) -> list:
+def level3(all_data):
+    """Cross-ref: commands referenced in dependent datasets must exist in dat_01."""
     errors = []
-    if not isinstance(data, list):
-        return errors
-    for idx, record in enumerate(data):
+    dat01 = all_data.get("dat_01_at_command") or all_data.get("dat_01") or []
+    cmd_set = set()
+    for r in as_list(dat01):
+        if isinstance(r, dict) and r.get("command"):
+            cmd_set.add(r["command"])
+            cmd_set.add(r["command"].lstrip("+"))
+    if not cmd_set:
+        return errors  # dat_01 empty: L3 informational only
+    for name, data in all_data.items():
+        if name == "dat_01_at_command" or name == "dat_01":
+            continue
+        for idx, record in enumerate(as_list(data)):
+            if not isinstance(record, dict):
+                continue
+            candidates = []
+            if record.get("command"):
+                candidates.append(record["command"])
+            for c in as_list(record.get("related_commands")):
+                candidates.append(c)
+            for c in candidates:
+                if c and c.startswith("+") and c not in cmd_set and c.lstrip("+") not in cmd_set:
+                    errors.append(f"L3 {name}[{idx}]: command {c} not in dat_01")
+    return errors
+
+
+def level4(data, name):
+    errors = []
+    for idx, record in enumerate(as_list(data)):
         if not isinstance(record, dict):
             continue
         if record.get("status") == "example-only":
-            errors.append(f"L4 {name}[{idx}]: example-only record found in data/ (R21 violation)")
+            errors.append(f"L4 {name}[{idx}]: example-only in data/ (R21 violation)")
         if record.get("status") == "synthetic":
-            errors.append(f"L4 {name}[{idx}]: synthetic record forbidden (R6 violation)")
-        for field in ("created_at", "updated_at"):
-            v = record.get(field)
+            errors.append(f"L4 {name}[{idx}]: synthetic forbidden (R6 violation)")
+        for f in ("created_at", "updated_at"):
+            v = record.get(f)
             if v and not ISO_RE.match(str(v)):
-                errors.append(f"L4 {name}[{idx}]: {field} not ISO 8601: {v}")
+                errors.append(f"L4 {name}[{idx}]: {f} not ISO 8601: {v}")
     return errors
 
 
-def main() -> int:
+def main():
     total = 0
     all_data = {}
     for schema_path in sorted(SCHEMAS_DIR.glob("dat_*.schema.yaml")):
         stem = schema_path.stem.replace(".schema", "")
         data_path = DATA_DIR / f"{stem}.yaml"
-        if not schema_path.exists():
+        try:
+            schema = load_yaml(schema_path)
+        except Exception as exc:
+            print(f"[ERROR] L1 {stem}: schema parse failed: {exc}", file=sys.stderr)
+            total += 1
             continue
-        schema = load_yaml(schema_path)
         if not data_path.exists():
-            print(f"[INFO] No data file for {stem}", file=sys.stderr)
             continue
-        data = load_yaml(data_path)
+        try:
+            data = load_yaml(data_path)
+        except Exception as exc:
+            print(f"[ERROR] L1 {stem}: data parse failed: {exc}", file=sys.stderr)
+            total += 1
+            continue
         all_data[stem] = data
         errs = []
-        errs += level1_schema(data, schema, stem)
-        errs += level2_business(data, stem)
-        errs += level4_consistency(data, stem)
+        errs += level1(data, schema, stem)
+        errs += level2(data, stem)
+        errs += level4(data, stem)
         for e in errs:
             print(f"[ERROR] {e}", file=sys.stderr)
         total += len(errs)
 
-    # Level 3: cross-ref
-    # Build command index from dat_01
-    dat01 = all_data.get("dat_01_at_command") or all_data.get("dat_01") or []
-    if isinstance(dat01, list):
-        cmd_index = {r.get("command") for r in dat01 if isinstance(r, dict) and r.get("command")}
-    else:
-        cmd_index = set()
-
-    if cmd_index:
-        for name, data in all_data.items():
-            if not isinstance(data, list):
-                continue
-            for idx, record in enumerate(data):
-                if not isinstance(record, dict):
-                    continue
-                cmds = []
-                if record.get("command"):
-                    cmds.append(record["command"])
-                for c in record.get("related_commands", []) or []:
-                    cmds.append(c)
-                for c in cmds:
-                    if c and c not in cmd_index and c.startswith("+"):
-                        # Only warn, not error, since dat_01 may be incomplete
-                        print(f"[WARN] L3 {name}[{idx}]: command {c} not in dat_01", file=sys.stderr)
+    l3_errs = level3(all_data)
+    for e in l3_errs:
+        print(f"[ERROR] {e}", file=sys.stderr)
+    total += len(l3_errs)
 
     if total:
         print(f"\nValidation FAILED: {total} error(s).", file=sys.stderr)

@@ -45,7 +45,6 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   category: {type: string}
   name: {type: string}
   pin_number: {type: string}
@@ -61,3 +60,4 @@ additionalProperties: true
   esd_rating: {type: string}
   impedance: {type: string}
   decoupling: {type: string}
+additionalProperties: false

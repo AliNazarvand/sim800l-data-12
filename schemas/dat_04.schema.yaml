@@ -45,7 +45,6 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   parameter: {type: string}
   min: {type: number}
   typ: {type: number}
@@ -55,3 +54,4 @@ additionalProperties: true
   related_command: {type: string}
   related_state: {type: string}
   related_urc: {type: string}
+additionalProperties: false

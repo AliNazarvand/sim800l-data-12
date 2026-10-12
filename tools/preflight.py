@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
-"""Preflight checks for the sim800l-data project."""
+"""Preflight checks for sim800l-data."""
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-
-REQUIRED_DIRS = ["schemas", "data", "reports", "scripts", "sources", "docs", "tools"]
-REQUIRED_SCHEMAS = [f"dat_{i:02d}.schema.yaml" for i in range(1, 19)]
-REQUIRED_DATA = [
+DIRS = ["schemas", "data", "reports", "scripts", "sources", "docs", "tools"]
+SCHEMAS = [f"dat_{i:02d}.schema.yaml" for i in range(1, 19)]
+DATAS = [
     "dat_01_at_command.yaml", "dat_02_urc.yaml", "dat_03_error_code.yaml",
     "dat_04_timing_timeout.yaml", "dat_05_state_machine.yaml",
     "dat_06_init_sequence.yaml", "dat_07_hardware_reference.yaml",
@@ -20,19 +19,19 @@ REQUIRED_DATA = [
 ]
 
 
-def check() -> int:
+def check():
     missing = []
-    for d in REQUIRED_DIRS:
+    for d in DIRS:
         if not (ROOT / d).is_dir():
             missing.append(f"dir: {d}")
-    for s in REQUIRED_SCHEMAS:
+    for s in SCHEMAS:
         if not (ROOT / "schemas" / s).exists():
             missing.append(f"schema: {s}")
-    for d in REQUIRED_DATA:
+    for d in DATAS:
         if not (ROOT / "data" / d).exists():
             missing.append(f"data: {d}")
     if missing:
-        print("[FAIL] Missing artifacts:", file=sys.stderr)
+        print("[FAIL] Missing:", file=sys.stderr)
         for m in missing:
             print(f"  - {m}", file=sys.stderr)
         return 1

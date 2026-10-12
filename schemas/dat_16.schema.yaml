@@ -45,7 +45,6 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   category: {type: string}
   name: {type: string}
   connector: {type: string}
@@ -53,3 +52,4 @@ additionalProperties: true
   function: {type: string}
   voltage: {type: string}
   notes: {type: string}
+additionalProperties: false

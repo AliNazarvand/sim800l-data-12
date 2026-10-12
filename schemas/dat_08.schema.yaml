@@ -45,25 +45,13 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   firmware_version: {type: string}
   release_date: {type: string}
   base_version: {type: string}
-  supported_commands:
-    type: array
-    items: {type: string}
-  unsupported_commands:
-    type: array
-    items: {type: string}
-  features:
-    type: array
-    items: {type: string}
-  known_issues:
-    type: array
-    items: {type: string}
-  fixed_issues:
-    type: array
-    items: {type: string}
-  related_commands:
-    type: array
-    items: {type: string}
+  supported_commands: {type: array, items: {type: string}}
+  unsupported_commands: {type: array, items: {type: string}}
+  features: {type: array, items: {type: string}}
+  known_issues: {type: array, items: {type: string}}
+  fixed_issues: {type: array, items: {type: string}}
+  related_commands: {type: array, items: {type: string}}
+additionalProperties: false

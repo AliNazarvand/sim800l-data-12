@@ -45,23 +45,13 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   category: {type: string}
   command: {type: string}
   syntax: {type: string}
-  parameters:
-    type: array
-    items: {type: object}
+  parameters: {type: array, items: {type: object}}
   response: {type: string}
-  examples:
-    type: array
-    items: {type: string}
-  related_urcs:
-    type: array
-    items: {type: string}
-  related_states:
-    type: array
-    items: {type: string}
-  related_commands:
-    type: array
-    items: {type: string}
+  examples: {type: array, items: {type: string}}
+  related_urcs: {type: array, items: {type: string}}
+  related_states: {type: array, items: {type: string}}
+  related_commands: {type: array, items: {type: string}}
+additionalProperties: false

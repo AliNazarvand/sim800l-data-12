@@ -45,14 +45,10 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   error_type: {type: string, enum: [CME, CMS]}
   code: {type: integer}
   meaning: {type: string}
   description: {type: string}
-  related_commands:
-    type: array
-    items: {type: string}
-  recovery_steps:
-    type: array
-    items: {type: string}
+  related_commands: {type: array, items: {type: string}}
+  recovery_steps: {type: array, items: {type: string}}
+additionalProperties: false

@@ -45,17 +45,13 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   urc_string: {type: string}
   trigger_event: {type: string}
   related_command: {type: string}
   related_state: {type: string}
   format: {type: string}
-  parameters:
-    type: array
-    items: {type: object}
-  examples:
-    type: array
-    items: {type: string}
+  parameters: {type: array, items: {type: object}}
+  examples: {type: array, items: {type: string}}
   timing: {type: string}
   suppression_method: {type: string}
+additionalProperties: false

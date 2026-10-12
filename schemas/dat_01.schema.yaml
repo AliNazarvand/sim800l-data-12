@@ -45,26 +45,16 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   command: {type: string}
   mode: {type: string, enum: [test, read, write, exec]}
   syntax: {type: string}
-  parameters:
-    type: array
-    items: {type: object}
+  parameters: {type: array, items: {type: object}}
   response_success: {type: string}
   response_error: {type: string}
-  examples:
-    type: array
-    items: {type: string}
-  related_urcs:
-    type: array
-    items: {type: string}
-  related_states:
-    type: array
-    items: {type: string}
-  related_commands:
-    type: array
-    items: {type: string}
+  examples: {type: array, items: {type: string}}
+  related_urcs: {type: array, items: {type: string}}
+  related_states: {type: array, items: {type: string}}
+  related_commands: {type: array, items: {type: string}}
   firmware_min: {type: string}
   firmware_max: {type: string}
+additionalProperties: false

@@ -45,23 +45,17 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   category: {type: string}
   command: {type: string}
   syntax: {type: string}
-  parameters:
-    type: array
-    items: {type: object}
+  parameters: {type: array, items: {type: object}}
   response: {type: string}
-  examples:
-    type: array
-    items: {type: string}
+  examples: {type: array, items: {type: string}}
   tls_version: {type: string}
   cipher_suite: {type: string}
   cert_format: {type: string}
   key_format: {type: string}
   storage: {type: string}
   limits: {type: string}
-  related_commands:
-    type: array
-    items: {type: string}
+  related_commands: {type: array, items: {type: string}}
+additionalProperties: false

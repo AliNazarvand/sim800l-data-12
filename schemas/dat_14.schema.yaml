@@ -45,7 +45,6 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   mcc: {type: string}
   mnc: {type: string}
   country: {type: string}
@@ -53,7 +52,6 @@ additionalProperties: true
   operator: {type: string}
   brand: {type: string}
   network_type: {type: string}
-  apn_list:
-    type: array
-    items: {type: string}
+  apn_list: {type: array, items: {type: string}}
   source_url: {type: string}
+additionalProperties: false

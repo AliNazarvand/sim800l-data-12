@@ -45,7 +45,6 @@ properties:
     type: string
   updated_at:
     type: string
-additionalProperties: true
   certification_body: {type: string}
   certificate_number: {type: string}
   standard: {type: string}
@@ -53,3 +52,4 @@ additionalProperties: true
   date_issued: {type: string}
   date_expiry: {type: string}
   document_link: {type: string}
+additionalProperties: false
