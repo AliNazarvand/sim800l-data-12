@@ -626,3 +626,28 @@
     the low range for readability).
   - Fabricate CIPSTART page/quote: rejected; per R3, null is preferred.
 - Related rules: R2, R3, R6, R8, R10, R12, R20.
+
+## D-046
+- تاریخ: 1405-07-20T06:00:00Z
+- Context: dat_16 (Board/EVB) is part of Cluster A (hardware). The project
+  brief requires an official SIMCom EVB document for this dataset. No such
+  document is present in the project's sources/originals/ or elsewhere on
+  disk.
+- Decision:
+  - dat_16 is formally closed as `deferred`.
+  - The single existing record (dat_16_0001) remains untouched with
+    status=deferred.
+  - reports/dat_16_REPORT.md is rewritten to document the deferral reason.
+  - COVERAGE_MATRIX.md row for dat_16 is updated to show `-` in the count,
+    with_page, with_params, and params_pct columns.
+  - TODO.md records the missing EVB document as an external dependency.
+- Reason: R11 (dataset closed for missing source), R3 (unknown / no guessing),
+  R22 (each dataset closed with one of the four allowed statuses).
+  Contrast with `blocked`: `deferred` is used because the missing source is
+  not critical for any other dataset in Cluster A — it is independent.
+- Rejected alternatives:
+  - Fabricate EVB records from dat_07 pin tables: rejected, violates R2 and R20.
+  - Mark dat_16 as `blocked`: rejected; `blocked` is reserved for missing
+    sources that halt a critical dependency, whereas dat_16 is orthogonal.
+  - Delete the single legacy record: rejected, violates R10.
+- Related rules: R2, R3, R10, R11, R22.

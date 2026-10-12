@@ -31,3 +31,4 @@
 
 ## دیتاست‌های بلاک‌شده (به‌روزرسانی)
 - [ ] dat_15 — نیازمند Sleep Mode Application Note؛ ۱۳ رکورد partial قبلی رد شد.
+- [ ] dat_16 Board/EVB - deferred: no official SIMCom EVB schematic/user guide available (external dependency)
