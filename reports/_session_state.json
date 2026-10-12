@@ -17,9 +17,9 @@
     "Clu": "B",
     "Total": 206,
     "Counts": {
-      "complete": 16,
       "partial": 189,
-      "unknown": 1
+      "unknown": 1,
+      "complete": 16
     },
     "Status": "partial"
   },
@@ -30,9 +30,9 @@
     "Clu": "B",
     "Total": 255,
     "Counts": {
-      "complete": 237,
       "partial": 12,
-      "unknown": 6
+      "unknown": 6,
+      "complete": 237
     },
     "Status": "complete"
   },
@@ -55,9 +55,9 @@
     "Clu": "A",
     "Total": 23,
     "Counts": {
-      "inferred": 4,
       "partial": 8,
-      "unknown": 11
+      "unknown": 11,
+      "inferred": 4
     },
     "Status": "partial"
   },
@@ -102,8 +102,8 @@
     "Clu": "B",
     "Total": 14,
     "Counts": {
-      "complete": 13,
-      "partial": 1
+      "partial": 1,
+      "complete": 13
     },
     "Status": "complete"
   },
@@ -114,8 +114,8 @@
     "Clu": "B",
     "Total": 24,
     "Counts": {
-      "complete": 21,
-      "blocked": 3
+      "blocked": 3,
+      "complete": 21
     },
     "Status": "partial"
   },
@@ -126,8 +126,8 @@
     "Clu": "B",
     "Total": 38,
     "Counts": {
-      "complete": 19,
-      "blocked": 19
+      "blocked": 19,
+      "complete": 19
     },
     "Status": "blocked"
   },
@@ -138,9 +138,9 @@
     "Clu": "B",
     "Total": 13,
     "Counts": {
-      "complete": 8,
+      "blocked": 4,
       "partial": 1,
-      "blocked": 4
+      "complete": 8
     },
     "Status": "partial"
   },
@@ -173,8 +173,8 @@
     "Clu": "A",
     "Total": 14,
     "Counts": {
-      "partial": 13,
-      "blocked": 1
+      "blocked": 1,
+      "partial": 13
     },
     "Status": "blocked"
   },
