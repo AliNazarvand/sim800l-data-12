@@ -1,22 +1,11 @@
-# dat_04_REPORT.md
+# dat_04 — Timing & Timeout
 
-Generated: 2026-10-12T11:29:52Z
+Generated: 2026-10-12T14:39:53Z
 
-## Summary
-
-- Cluster: A
-- Effective status (per D-057): partial
+- Status: `partial`
+- Decision: D-057
+- Role: Timing reference
+- Depends on: -
+- Depended by: dat_05,dat_06
 - Records: 40
-- Complete / Total: 11 / 40 = 27.5%
-- File: data/dat_04_timing_timeout.yaml
-
-## Status breakdown
-
-- complete: 11
-- partial: 6
-- unknown: 23
-
-## Notes
-
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data file: `data/dat_04_timing_timeout.yaml`

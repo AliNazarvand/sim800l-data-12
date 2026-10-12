@@ -1,20 +1,11 @@
-# dat_07_REPORT.md
+# dat_07 — Hardware Reference
 
-Generated: 2026-10-12T11:29:52Z
+Generated: 2026-10-12T14:39:53Z
 
-## Summary
-
-- Cluster: A
-- Effective status (per D-057): complete
+- Status: `complete`
+- Decision: D-057
+- Role: Hardware reference
+- Depends on: -
+- Depended by: dat_13
 - Records: 56
-- Complete / Total: 56 / 56 = 100.0%
-- File: data/dat_07_hardware_reference.yaml
-
-## Status breakdown
-
-- complete: 56
-
-## Notes
-
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data file: `data/dat_07_hardware_reference.yaml`

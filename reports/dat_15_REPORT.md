@@ -1,21 +1,11 @@
-# dat_15_REPORT.md
+# dat_15 — Power Management
 
-Generated: 2026-10-12T11:29:52Z
+Generated: 2026-10-12T14:39:53Z
 
-## Summary
-
-- Cluster: A
-- Effective status (per D-057): blocked
+- Status: `blocked`
+- Decision: D-042
+- Role: Power management
+- Depends on: -
+- Depended by: -
 - Records: 14
-- Complete / Total: 0 / 14 = 0.0%
-- File: data/dat_15_power_management.yaml
-
-## Status breakdown
-
-- blocked: 1
-- partial: 13
-
-## Notes
-
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data file: `data/dat_15_power_management.yaml`

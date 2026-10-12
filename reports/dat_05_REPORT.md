@@ -1,23 +1,11 @@
-# dat_05_REPORT.md
+# dat_05 — State Machine
 
-Generated: 2026-10-12T11:29:52Z
+Generated: 2026-10-12T14:39:53Z
 
-## Summary
-
-- Cluster: A
-- Effective status (per D-057): partial
+- Status: `partial`
+- Decision: D-057
+- Role: State machine
+- Depends on: dat_04
+- Depended by: dat_06
 - Records: 31
-- Complete / Total: 8 / 31 = 25.8%
-- File: data/dat_05_state_machine.yaml
-
-## Status breakdown
-
-- complete: 8
-- inferred: 4
-- partial: 8
-- unknown: 11
-
-## Notes
-
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data file: `data/dat_05_state_machine.yaml`
