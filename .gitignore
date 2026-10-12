@@ -23,3 +23,11 @@ data/*.prefix-*
 data/*.bak-*
 *.prefix-*
 *.bak-*
+
+
+# Temporary artifacts (auto-added)
+reports/_backup_editor/
+reports/_staging/
+reports/_backup/
+reports/_validation_summary.json
+reports/_archive/

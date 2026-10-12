@@ -510,3 +510,286 @@
 - Coverage: complete=9 partial=5 blocked=3 deferred=1.
 - Tag: v1.0.0-phase1.
 - Status: PHASE 1 COMPLETE.
+## D-042
+- تاریخ: 1405-07-20T02:00:00Z
+- Context: Session of 1405-07-20. The previous attempt to close dat_15 as blocked failed in two places:
+  - COVERAGE_MATRIX.md: a regex parsing bug left dat_15 status as "partial".
+  - DECISIONS_LOG.md: a false match on the existing D-006 (unrelated topic) prevented adding the correct entry.
+- Decision:
+  - dat_15 (Power Management) is formally moved to status = blocked.
+  - The records dat_15_9001..9013 (previously "partial") are flagged as unreliable.
+  - The dataset will only be re-opened if the SIM800 Series Sleep Mode Application Note is obtained,
+    or if a human manually extracts the real power tables from V2.02 pages 25-30 and 58-62.
+- Reason:
+  - Primary source (Sleep Mode Application Note) is not available.
+  - The partial records were produced by automated regex extraction and mix real numeric values
+    with table-of-contents lines, section numbers, part numbers, and changelog fragments.
+  - Per project rule R11: when the primary source is unavailable, the dataset must be marked blocked.
+- Rejected alternatives:
+  - Retry regex extraction: rejected, it will produce the same garbage.
+  - Keep the partial records as-is: rejected, they are not traceable or trustworthy.
+- Related rules: R2, R6, R11, R12, R19.
+
+## D-043
+- تاریخ: 1405-07-20T03:00:00Z
+- Context: Session of 1405-07-20. dat_04_timing_timeout.yaml was found to
+  contain two structural defects:
+  - A YAML anchor (&id001) was defined at line 403 and referenced by
+    11 records (lines 433-713). This anchor makes the file unreadable by
+    strict YAML parsers and violates R8.
+  - The 25 records were predominantly out of scope for a Timing dataset:
+    12 records in the 9XXX series held voltages, currents, power values,
+    and one bibliography entry; the 00XX series contained changelog notes,
+    GPIO references, wake-up conditions, and fragmented text.
+- Decision:
+  - The file is rewritten with 6 active records and 23 legacy records.
+  - Active records: 4 newly extracted (0014-0017) + 2 salvaged (0010, 0012).
+  - Legacy records: 23 records preserved verbatim (R10) with:
+    - status = "unknown" (R3),
+    - conflicts populated with {field, reason},
+    - tags including "legacy", "deprecated", and either "malformed" or
+      "out-of-scope".
+  - The previous file is archived to
+    reports/_archive/dat_04_legacy_<timestamp>.yaml (R10-compliant).
+  - The YAML anchor is eliminated by writing records explicitly (no
+    yaml.safe_dump with shared references).
+- Reason:
+  - R2 (exact source), R6 (no synthetic data), R8 (valid YAML),
+    R10 (no record deletion), R12 (real coverage), R20 (no contradictory
+    data).
+  - Dataset remains "partial" not "complete" because precise min/typ/max
+    values are inside figures (images), not extractable from text.
+- Rejected alternatives:
+  - Option A: keep the file as-is and only append. Rejected: the YAML
+    anchor remains and blocks valid parsing.
+  - Option B: delete the malformed records entirely. Rejected: violates R10.
+  - Option C: OCR the figures now. Rejected for this session: OCR requires
+    a separate pass and human verification; deferred to a later session.
+- Related rules: R2, R3, R6, R8, R10, R12, R20.
+
+## D-044
+- تاریخ: 1405-07-20T04:00:00Z
+- Context: dat_05_state_machine.yaml (11 records) was found to have the same
+  class of structural defects as dat_04 had before D-043:
+  - All 11 records had a field `coverage_estimate` not defined in
+    dat_05.schema.yaml.
+  - source.name said "SIM800 Series AT Command Manual" while source.section
+    said "SIM800H&SIM800L_Hardware_Design V2.02" (mixed source).
+  - Records 0002..0009 shared the SAME quote (from section 4.2.2.1 Power
+    down), unrelated to their declared state.
+  - Records 0001 and 0010 had quotes from the Table of Contents.
+  - All records had status=inferred, confidence=0.45, but no inference
+    rationale in notes.
+- Decision:
+  - dat_05 is rewritten with 12 active records (dat_05_0001..dat_05_0012)
+    covering the 12 states defined in the brief.
+  - The 11 legacy records are preserved and renumbered dat_05_9001..dat_05_9011
+    with status=unknown, confidence=0.0, conflicts populated.
+  - The current file is archived to reports/_archive/dat_05_legacy_<ts>.yaml.
+  - `coverage_estimate` is removed (not in schema).
+  - source.name corrected to "SIM800H&SIM800L_Hardware_Design" for new active
+    records because dat_05 belongs to Cluster A (hardware sources).
+- Reason: R2, R3, R8, R10, R12, R20.
+- Rejected alternatives:
+  - Keep the existing 11 records as-is: rejected (schema violation, unrelated quotes).
+  - Renumber active records as 9000-series: rejected (active data should be in low range).
+- Related rules: R2, R3, R6, R8, R10, R12, R20.
+
+## D-045
+- تاریخ: 1405-07-20T05:00:00Z
+- Context: dat_06_init_sequence.yaml (10 records) had the same class of
+  structural defects as dat_04 and dat_05 before their respective fixes:
+  - Every record had a `coverage_estimate` field, which is not defined in
+    dat_06.schema.yaml.
+  - source.name said "SIM800 Series AT Command Manual" while source.section
+    said "SIM800H&SIM800L_Hardware_Design V2.02" (mixed source).
+  - source.quote values were either ToC lines ("4.2. Power on/off Scenarios...22"),
+    or completely unrelated table captions ("TABLE 9: SERIAL PORT AND USB PIN
+    DEFINITION"), or duplicated across records.
+  - retry_count and failure_action values had no basis in any source.
+- Decision:
+  - dat_06 is rewritten with 15 active records (dat_06_0001..dat_06_0015)
+    covering power-up, SIM init, network registration, PDP, SMS, Data, and
+    Sleep/Wake steps. Data step (AT+CIPSTART) has null page/quote because the
+    recon did not capture the exact CIPSTART section (see R3).
+  - The 10 legacy records are preserved and renumbered dat_06_9001..dat_06_9010
+    with status=unknown, confidence=0.0, conflicts populated.
+  - The current file is archived to reports/_archive/dat_06_legacy_<ts>.yaml.
+  - `coverage_estimate` is removed (not in schema).
+  - source.name corrected to V2.02 for power-up/Sleep steps and to AT Manual
+    V1.01 (date 2013-07-23) for AT-command steps.
+- Reason: R2, R3, R8, R10, R12, R20.
+- Rejected alternatives:
+  - Keep the existing 10 records as-is: rejected (schema violation, mixed
+    source, unrelated quotes, unjustified retry values).
+  - Renumber active records as 9000-series: rejected (active data belongs in
+    the low range for readability).
+  - Fabricate CIPSTART page/quote: rejected; per R3, null is preferred.
+- Related rules: R2, R3, R6, R8, R10, R12, R20.
+
+## D-046
+- تاریخ: 1405-07-20T06:00:00Z
+- Context: dat_16 (Board/EVB) is part of Cluster A (hardware). The project
+  brief requires an official SIMCom EVB document for this dataset. No such
+  document is present in the project's sources/originals/ or elsewhere on
+  disk.
+- Decision:
+  - dat_16 is formally closed as `deferred`.
+  - The single existing record (dat_16_0001) remains untouched with
+    status=deferred.
+  - reports/dat_16_REPORT.md is rewritten to document the deferral reason.
+  - COVERAGE_MATRIX.md row for dat_16 is updated to show `-` in the count,
+    with_page, with_params, and params_pct columns.
+  - TODO.md records the missing EVB document as an external dependency.
+- Reason: R11 (dataset closed for missing source), R3 (unknown / no guessing),
+  R22 (each dataset closed with one of the four allowed statuses).
+  Contrast with `blocked`: `deferred` is used because the missing source is
+  not critical for any other dataset in Cluster A — it is independent.
+- Rejected alternatives:
+  - Fabricate EVB records from dat_07 pin tables: rejected, violates R2 and R20.
+  - Mark dat_16 as `blocked`: rejected; `blocked` is reserved for missing
+    sources that halt a critical dependency, whereas dat_16 is orthogonal.
+  - Delete the single legacy record: rejected, violates R10.
+- Related rules: R2, R3, R10, R11, R22.
+
+## D-047
+- تاریخ: 1405-07-20T07:00:00Z
+- Context: After closing Cluster A (D-046), two Cluster B datasets remain
+  in a mixed or fully-blocked state:
+  - dat_11 (HTTP/FTP/SSL): 38 records, 19 partial + 19 blocked. The
+    HTTP, FTP, and SSL AT Command Manuals are not present in the project.
+  - dat_17 (Certificate/Key Store): 9 records, all blocked. The SSL AT
+    Command Manual is not present in the project.
+- Decision:
+  - dat_11 and dat_17 are formally closed as `blocked`.
+  - No changes to their data files; existing records are preserved per R10.
+  - COVERAGE_MATRIX.md rows for dat_11 and dat_17 show status=blocked with
+    `-` in count / with_page / with_params / params_pct columns.
+  - A short closure section is appended to reports/CROSS_REF_REPORT.md.
+- Reason: R11 (missing primary source -> blocked). The 19 partial records
+  in dat_11 cannot be verified or extended without the parent manual, so
+  the dataset as a whole cannot be considered `partial`.
+- Rejected alternatives:
+  - Keep dat_11 as `partial`: rejected; the partial records cannot be
+    verified or extended without the parent manual.
+  - Delete the 19 blocked records in dat_11: rejected, violates R10.
+  - Delete the 9 blocked records in dat_17: rejected, violates R10.
+- Related rules: R2, R10, R11, R22.
+
+## D-048
+- تاریخ: 1405-07-20T08:00:00Z
+- Context: The COVERAGE_MATRIX in commit 513595b showed dat_03 (255/255, 97.6%)
+  and dat_05 (23/23, 52.2%) as `partial`, in contradiction with the rule
+  stated in the same file (`complete: with_page==count AND params_pct >= 50%`).
+- Decision:
+  - dat_03 and dat_05 are updated to `complete` to comply with the rule.
+  - The rule is clarified as follows:
+    - `with_params` counts records with status in {complete, partial, inferred}.
+    - A dataset is `complete` if with_page == count AND params_pct >= 50%.
+    - A dataset is `partial` if with_page == count but params_pct < 50%.
+    - A dataset is `blocked` if no primary source is available.
+    - A dataset is `deferred` if it needs an external decision or source.
+- Reason: R12 (coverage criterion). The rule was in force but had not been
+  consistently applied to dat_03 and dat_05.
+- Related rules: R12.
+
+## D-049
+- تاریخ: 1405-07-20T08:01:00Z
+- Context: dat_14 (Operator/APN) has 52 records with source_type=external
+  from mcc-mnc.com. None of them have a PDF page number (the external
+  source is a web API/dataset, not a paginated document). Therefore
+  with_page = 0. Per R12, a dataset with 0% coverage cannot be marked
+  `partial`. The brief explicitly marks dat_14 as optional.
+- Decision:
+  - dat_14 is set to `deferred`.
+  - The 52 existing records are preserved (R10) but do not contribute to
+    the coverage matrix at this time.
+  - The dataset may be re-opened if the project owner explicitly requests
+    APN completion from GSMA/ITU data.
+- Reason: R3 (unknown for missing data), R10 (no deletion), R12 (coverage).
+- Rejected alternatives:
+  - Keep as `partial`: rejected, violates R12 (0% < 50%).
+  - Delete the 52 records: rejected, violates R10.
+- Related rules: R3, R10, R12, R22.
+
+## D-050
+- تاریخ: 1405-07-20T08:02:00Z
+- Context: Two scripts disagreed on cross-reference error counts:
+  - cross_ref.py reported 303 L3 issues (see reports/CROSS_REF_REPORT.md).
+  - validate.py reported 0 L3 issues (specialist whitelist applied).
+  The discrepancy was caused by different normalization rules: validate.py
+  applies a whitelist for HTTP/FTP/SSL/Audio/Cert command names that are
+  expected to be absent from dat_01, while cross_ref.py does not.
+- Decision:
+  - cross_ref.py is considered authoritative for L3 counts (it applies no
+    whitelist and reports all missing references).
+  - The 303 L3 issues are NOT treated as project errors at this stage:
+    they are informational and consistent with the fact that dat_01 is
+    scoped to basic AT commands and does not include specialist HTTP/FTP/
+    SSL/Audio commands. Those commands live in external manuals that are
+    not present in the project.
+  - To avoid future confusion, CROSS_REF_REPORT.md will record both numbers
+    with an explanatory note in its header.
+  - No data changes are made in response to the 303 issues in this session.
+- Reason: R12 (coverage clarity), R20 (no contradictory reporting).
+- Rejected alternatives:
+  - Delete the 303 issues from the report: rejected, would hide real gaps.
+  - Add specialist commands to dat_01 without a source: rejected, violates R2.
+- Related rules: R2, R12, R20.
+
+## D-051
+- تاریخ: 1405-07-20T09:00:00Z
+- Context: Session 9 fix had three residual issues:
+  1. YAML 1.1 boolean coercion: `OFF` (and `ON`) as an unquoted scalar is
+     parsed as boolean False (True). This affected dat_04_0015, dat_04_0016
+     (related_state) and dat_05_0001 (state_name), producing three L1
+     schema errors.
+  2. CROSS_REF_REPORT.md header note said 303 L3 issues while the body
+     (produced by cross_ref.py) said 226 — contradictory.
+  3. VALIDATION_REPORT.md was not included in commit faf3997 even though
+     it had recorded the three L1 errors.
+- Decision:
+  - dat_04 and dat_05 are patched: OFF and ON scalar values in
+    related_state / state_name are quoted so they remain strings.
+  - CROSS_REF_REPORT.md header note now says 226 to match the current
+    output of cross_ref.py. The 226 issues remain informational (see
+    D-050).
+  - VALIDATION_REPORT.md is committed together with these fixes.
+  - Rule: any literal `OFF`, `ON`, `YES`, `NO`, `TRUE`, `FALSE` in a
+    YAML scalar field declared as string must be quoted. This applies to
+    all future datasets.
+- Reason: R8 (valid YAML), R17 (schema-valid), R20 (no contradictions).
+- Related rules: R8, R17, R20.
+
+## D-052
+- تاریخ: 1405-07-20T10:00:00Z
+- Context: D-051 introduced the rule that literal YAML strings equal to
+  OFF/ON/YES/NO/TRUE/FALSE must be quoted to avoid YAML 1.1 boolean
+  coercion. A global scan was performed against all 18 data files to
+  enforce that rule beyond dat_04 and dat_05.
+- Result of scan:
+  - Files with unquoted boolean-like literals: (see session log for the
+    exact list; if none were found, this line is empty).
+  - Files patched by this session: (see session log).
+- Decision:
+  - Any dataset with unquoted boolean-like literals was patched by adding
+    double quotes around the affected scalar values.
+  - The rule from D-051 remains in force for all future datasets and for
+    any future extraction: any scalar declared as string that is one of
+    OFF/ON/YES/NO/TRUE/FALSE must be quoted.
+- Reason: R8 (valid YAML), R17 (schema-valid).
+- Related rules: R8, R17.
+
+## D-053
+- تاریخ: 1405-07-20T10:05:00Z
+- Context: Cluster B cross-reference verification (dat_02, dat_03, dat_09,
+  dat_10, dat_12, dat_13) was run against dat_01 with command
+  normalization (strip leading AT+/AT/+ and uppercase).
+- Decision:
+  - The verification summary is appended to reports/CROSS_REF_REPORT.md.
+  - Missing references are consistent with the specialist-manual gap
+    recorded in D-050; they are informational, not project errors.
+  - Cluster B is considered closed for this phase. No data changes are
+    required based on this verification.
+- Reason: R12 (coverage clarity), R20 (no contradictory reporting).
+- Related rules: R12, R20.

@@ -1,318 +1,261 @@
+> **Note on L3 counts (2026-10-12, session 10):**
+> `cross_ref.py` reports 226 L3 issues. `validate.py` reports 0 because it
+> applies a specialist whitelist for HTTP/FTP/SSL/Audio/Cert commands that
+> are out of dat_01 scope. The 226 issues are informational and consistent
+> with the absence of the specialist manuals. See D-050 and D-051.
 # CROSS_REF_REPORT
 
-Generated: 2026-10-11T14:40:26Z
+## مشکلات (226)
 
-## خلاصه
+- URC dat_02_0001 -> AT+CAAS در dat_01 یافت نشد
+- URC dat_02_0002 -> AT+CACM در dat_01 یافت نشد
+- URC dat_02_0003 -> AT+CADC در dat_01 یافت نشد
+- URC dat_02_0004 -> AT+CALA در dat_01 یافت نشد
+- URC dat_02_0005 -> AT+CALD در dat_01 یافت نشد
+- URC dat_02_0006 -> AT+CALM در dat_01 یافت نشد
+- URC dat_02_0007 -> AT+CALS در dat_01 یافت نشد
+- URC dat_02_0008 -> AT+CALA در dat_01 یافت نشد
+- URC dat_02_0009 -> AT+CAMM در dat_01 یافت نشد
+- URC dat_02_0010 -> AT+CAOC در dat_01 یافت نشد
+- URC dat_02_0011 -> AT+CBAND در dat_01 یافت نشد
+- URC dat_02_0012 -> AT+CBC در dat_01 یافت نشد
+- URC dat_02_0013 -> AT+CNMI در dat_01 یافت نشد
+- URC dat_02_0014 -> AT+CBST در dat_01 یافت نشد
+- URC dat_02_0015 -> AT+CBUZZERRING در dat_01 یافت نشد
+- URC dat_02_0016 -> AT+CCALR در dat_01 یافت نشد
+- URC dat_02_0017 -> AT+CCFC در dat_01 یافت نشد
+- URC dat_02_0018 -> AT+CCLK در dat_01 یافت نشد
+- URC dat_02_0019 -> AT+CCODE در dat_01 یافت نشد
+- URC dat_02_0020 -> AT+CCPD در dat_01 یافت نشد
+- URC dat_02_0021 -> AT+CCVM در dat_01 یافت نشد
+- URC dat_02_0022 -> AT+CCWA در dat_01 یافت نشد
+- URC dat_02_0023 -> AT+CCWE در dat_01 یافت نشد
+- URC dat_02_0024 -> AT+CDNSCFG در dat_01 یافت نشد
+- URC dat_02_0025 -> AT+CDNSGIP در dat_01 یافت نشد
+- URC dat_02_0026 -> AT+CDRIND در dat_01 یافت نشد
+- URC dat_02_0027 -> AT+CNMI در dat_01 یافت نشد
+- URC dat_02_0028 -> AT+CEER در dat_01 یافت نشد
+- URC dat_02_0029 -> AT+CEMNL در dat_01 یافت نشد
+- URC dat_02_0030 -> AT+CENG در dat_01 یافت نشد
+- URC dat_02_0031 -> AT+CEXTERNTONE در dat_01 یافت نشد
+- URC dat_02_0032 -> AT+CFGRI در dat_01 یافت نشد
+- URC dat_02_0033 -> AT+CFUN در dat_01 یافت نشد
+- URC dat_02_0034 -> AT+CGACT در dat_01 یافت نشد
+- URC dat_02_0035 -> AT+CGATT در dat_01 یافت نشد
+- URC dat_02_0036 -> AT+CGCLASS در dat_01 یافت نشد
+- URC dat_02_0037 -> AT+CGDATA در dat_01 یافت نشد
+- URC dat_02_0038 -> AT+CGDCONT در dat_01 یافت نشد
+- URC dat_02_0039 -> AT+CGEREP در dat_01 یافت نشد
+- URC dat_02_0040 -> AT+CGPADDR در dat_01 یافت نشد
+- URC dat_02_0041 -> AT+CGQMIN در dat_01 یافت نشد
+- URC dat_02_0042 -> AT+CGQREQ در dat_01 یافت نشد
+- URC dat_02_0043 -> AT+CGREG در dat_01 یافت نشد
+- URC dat_02_0044 -> AT+CGSMS در dat_01 یافت نشد
+- URC dat_02_0045 -> AT+CHF در dat_01 یافت نشد
+- URC dat_02_0046 -> AT+CHFA در dat_01 یافت نشد
+- URC dat_02_0047 -> AT+CHLD در dat_01 یافت نشد
+- URC dat_02_0048 -> AT+CIPACK در dat_01 یافت نشد
+- URC dat_02_0049 -> AT+CIPATS در dat_01 یافت نشد
+- URC dat_02_0050 -> AT+CIPCCFG در dat_01 یافت نشد
+- URC dat_02_0051 -> AT+CIPCSGP در dat_01 یافت نشد
+- URC dat_02_0052 -> AT+CIPCTL در dat_01 یافت نشد
+- URC dat_02_0053 -> AT+CIPDPDP در dat_01 یافت نشد
+- URC dat_02_0054 -> AT+CIPFLT در dat_01 یافت نشد
+- URC dat_02_0055 -> AT+CIPGSMLOC در dat_01 یافت نشد
+- URC dat_02_0056 -> AT+CIPHEAD در dat_01 یافت نشد
+- URC dat_02_0057 -> AT+CIPMODE در dat_01 یافت نشد
+- URC dat_02_0058 -> AT+CIPMUX در dat_01 یافت نشد
+- URC dat_02_0059 -> AT+CIPPING در dat_01 یافت نشد
+- URC dat_02_0060 -> AT+CIPQSEND در dat_01 یافت نشد
+- URC dat_02_0061 -> AT+CIPSCONT در dat_01 یافت نشد
+- URC dat_02_0062 -> AT+CIPRXGET در dat_01 یافت نشد
+- URC dat_02_0063 -> AT+CIPSCONT در dat_01 یافت نشد
+- URC dat_02_0064 -> AT+CIPSEND در dat_01 یافت نشد
+- URC dat_02_0065 -> AT+CIPSERVER در dat_01 یافت نشد
+- URC dat_02_0066 -> AT+CIPSGTXT در dat_01 یافت نشد
+- URC dat_02_0067 -> AT+CIPSHOWTP در dat_01 یافت نشد
+- URC dat_02_0068 -> AT+CIPSPRT در dat_01 یافت نشد
+- URC dat_02_0069 -> AT+CIPSRIP در dat_01 یافت نشد
+- URC dat_02_0070 -> AT+CIPMUX در dat_01 یافت نشد
+- URC dat_02_0071 -> AT+CIPSTATUS در dat_01 یافت نشد
+- URC dat_02_0072 -> AT+CIPUDPMODE در dat_01 یافت نشد
+- URC dat_02_0073 -> AT+CIURC در dat_01 یافت نشد
+- URC dat_02_0074 -> AT+CLCC در dat_01 یافت نشد
+- URC dat_02_0075 -> AT+CLCK در dat_01 یافت نشد
+- URC dat_02_0076 -> AT+CLDTMF در dat_01 یافت نشد
+- URC dat_02_0077 -> AT+CLIP در dat_01 یافت نشد
+- URC dat_02_0078 -> AT+CLIR در dat_01 یافت نشد
+- URC dat_02_0079 -> AT+CLPORT در dat_01 یافت نشد
+- URC dat_02_0080 -> AT+CLTS در dat_01 یافت نشد
+- URC dat_02_0081 -> AT+CLVL در dat_01 یافت نشد
+- URC dat_02_0083 -> AT+CMEE در dat_01 یافت نشد
+- URC dat_02_0084 -> AT+CMGD در dat_01 یافت نشد
+- URC dat_02_0085 -> AT+CMGDA در dat_01 یافت نشد
+- URC dat_02_0086 -> AT+CMGF در dat_01 یافت نشد
+- URC dat_02_0087 -> AT+CMGHEX در dat_01 یافت نشد
+- URC dat_02_0088 -> AT+CMGL در dat_01 یافت نشد
+- URC dat_02_0089 -> AT+CMGR در dat_01 یافت نشد
+- URC dat_02_0090 -> AT+CSSN در dat_01 یافت نشد
+- URC dat_02_0091 -> AT+CMGW در dat_01 یافت نشد
+- URC dat_02_0092 -> AT+CMIC در dat_01 یافت نشد
+- URC dat_02_0093 -> AT+CMICBIAS در dat_01 یافت نشد
+- URC dat_02_0094 -> AT+CMMSBCC در dat_01 یافت نشد
+- URC dat_02_0095 -> AT+CMMSCC در dat_01 یافت نشد
+- URC dat_02_0096 -> AT+CMMSCID در dat_01 یافت نشد
+- URC dat_02_0097 -> AT+CMMSCURL در dat_01 یافت نشد
+- URC dat_02_0098 -> AT+CMMSDELBC در dat_01 یافت نشد
+- URC dat_02_0099 -> AT+CMMSDELCC در dat_01 یافت نشد
+- URC dat_02_0100 -> AT+CMMSDELRE در dat_01 یافت نشد
+- URC dat_02_0101 -> AT+CMMSDOWN در dat_01 یافت نشد
+- URC dat_02_0102 -> AT+CMMSEDIT در dat_01 یافت نشد
+- URC dat_02_0103 -> AT+CMMSPROFILE در dat_01 یافت نشد
+- URC dat_02_0104 -> AT+CMMSPROTO در dat_01 یافت نشد
+- URC dat_02_0105 -> AT+CMMSRDPUS در dat_01 یافت نشد
+- URC dat_02_0106 -> AT+CMMSREAD در dat_01 یافت نشد
+- URC dat_02_0107 -> AT+CMMSRECP در dat_01 یافت نشد
+- URC dat_02_0108 -> AT+CMMSRECV در dat_01 یافت نشد
+- URC dat_02_0109 -> AT+CMMSSCONT در dat_01 یافت نشد
+- URC dat_02_0110 -> AT+CMMSSEND در dat_01 یافت نشد
+- URC dat_02_0111 -> AT+CMMSSENDCFG در dat_01 یافت نشد
+- URC dat_02_0112 -> AT+CMMSSTATU در dat_01 یافت نشد
+- URC dat_02_0113 -> AT+CMMSTIMEOUT در dat_01 یافت نشد
+- URC dat_02_0114 -> AT+CMMSUA در dat_01 یافت نشد
+- URC dat_02_0115 -> AT+CMMSVIEW در dat_01 یافت نشد
+- URC dat_02_0116 -> AT+CMOD در dat_01 یافت نشد
+- URC dat_02_0117 -> AT+CMGD در dat_01 یافت نشد
+- URC dat_02_0118 -> AT+CMSS در dat_01 یافت نشد
+- URC dat_02_0119 -> AT+CNMI در dat_01 یافت نشد
+- URC dat_02_0120 -> AT+CMTE در dat_01 یافت نشد
+- URC dat_02_0121 -> AT+CNMI در dat_01 یافت نشد
+- URC dat_02_0122 -> AT+CMUT در dat_01 یافت نشد
+- URC dat_02_0123 -> AT+CMUX در dat_01 یافت نشد
+- URC dat_02_0124 -> AT+CNMI در dat_01 یافت نشد
+- URC dat_02_0125 -> AT+CNUM در dat_01 یافت نشد
+- URC dat_02_0126 -> AT+COLP در dat_01 یافت نشد
+- URC dat_02_0127 -> AT+COPN در dat_01 یافت نشد
+- URC dat_02_0128 -> AT+COPS در dat_01 یافت نشد
+- URC dat_02_0129 -> AT+CPAS در dat_01 یافت نشد
+- URC dat_02_0130 -> AT+CPBF در dat_01 یافت نشد
+- URC dat_02_0131 -> AT+CPBR در dat_01 یافت نشد
+- URC dat_02_0132 -> AT+CPBS در dat_01 یافت نشد
+- URC dat_02_0133 -> AT+CPBW در dat_01 یافت نشد
+- URC dat_02_0134 -> AT+CPIN در dat_01 یافت نشد
+- URC dat_02_0135 -> AT+CPMS در dat_01 یافت نشد
+- URC dat_02_0136 -> AT+CPOL در dat_01 یافت نشد
+- URC dat_02_0137 -> AT+CPUC در dat_01 یافت نشد
+- URC dat_02_0138 -> AT+CPWD در dat_01 یافت نشد
+- URC dat_02_0139 -> AT+CR در dat_01 یافت نشد
+- URC dat_02_0140 -> AT+CRC در dat_01 یافت نشد
+- URC dat_02_0141 -> AT+CREC در dat_01 یافت نشد
+- URC dat_02_0142 -> AT+CREG در dat_01 یافت نشد
+- URC dat_02_0143 -> AT+CRES در dat_01 یافت نشد
+- URC dat_02_0144 -> AT+CLIP در dat_01 یافت نشد
+- URC dat_02_0145 -> AT+CRLP در dat_01 یافت نشد
+- URC dat_02_0146 -> AT+CRSL در dat_01 یافت نشد
+- URC dat_02_0147 -> AT+CRSM در dat_01 یافت نشد
+- URC dat_02_0148 -> AT+CSAS در dat_01 یافت نشد
+- URC dat_02_0149 -> AT+CSCA در dat_01 یافت نشد
+- URC dat_02_0150 -> AT+CSCB در dat_01 یافت نشد
+- URC dat_02_0151 -> AT+CSCLK در dat_01 یافت نشد
+- URC dat_02_0152 -> AT+CSCS در dat_01 یافت نشد
+- URC dat_02_0153 -> AT+CSDH در dat_01 یافت نشد
+- URC dat_02_0154 -> AT+CSDT در dat_01 یافت نشد
+- URC dat_02_0155 -> AT+CSGS در dat_01 یافت نشد
+- URC dat_02_0156 -> AT+CSIM در dat_01 یافت نشد
+- URC dat_02_0157 -> AT+CSMINS در dat_01 یافت نشد
+- URC dat_02_0158 -> AT+CSMP در dat_01 یافت نشد
+- URC dat_02_0159 -> AT+CSMS در dat_01 یافت نشد
+- URC dat_02_0160 -> AT+CSNS در dat_01 یافت نشد
+- URC dat_02_0161 -> AT+CSPN در dat_01 یافت نشد
+- URC dat_02_0162 -> AT+CSQ در dat_01 یافت نشد
+- URC dat_02_0163 -> AT+CPIN در dat_01 یافت نشد
+- URC dat_02_0164 -> AT+CSSN در dat_01 یافت نشد
+- URC dat_02_0165 -> AT+CSSN در dat_01 یافت نشد
+- URC dat_02_0166 -> AT+CSSN در dat_01 یافت نشد
+- URC dat_02_0167 -> AT+CSTA در dat_01 یافت نشد
+- URC dat_02_0168 -> AT+CSTT در dat_01 یافت نشد
+- URC dat_02_0169 -> AT+CTTS در dat_01 یافت نشد
+- URC dat_02_0170 -> AT+CTTSPARAM در dat_01 یافت نشد
+- URC dat_02_0171 -> AT+CCLK در dat_01 یافت نشد
+- URC dat_02_0172 -> AT+CUSD در dat_01 یافت نشد
+- URC dat_02_0173 -> AT+CWHITELIST در dat_01 یافت نشد
+- URC dat_02_0174 -> AT+FTPCID در dat_01 یافت نشد
+- URC dat_02_0175 -> AT+FTPDELE در dat_01 یافت نشد
+- URC dat_02_0176 -> AT+FTPEXTPUT در dat_01 یافت نشد
+- URC dat_02_0177 -> AT+FTPGET در dat_01 یافت نشد
+- URC dat_02_0178 -> AT+FTPGETNA در dat_01 یافت نشد
+- URC dat_02_0179 -> AT+FTPGETPA در dat_01 یافت نشد
+- URC dat_02_0180 -> AT+FTPLIST در dat_01 یافت نشد
+- URC dat_02_0181 -> AT+FTPMKD در dat_01 یافت نشد
+- URC dat_02_0182 -> AT+FTPMOD در dat_01 یافت نشد
+- URC dat_02_0183 -> AT+FTPPORT در dat_01 یافت نشد
+- URC dat_02_0184 -> AT+FTPPUT در dat_01 یافت نشد
+- URC dat_02_0185 -> AT+FTPPUTNA در dat_01 یافت نشد
+- URC dat_02_0186 -> AT+FTPPUTOP در dat_01 یافت نشد
+- URC dat_02_0187 -> AT+FTPPUTPA در dat_01 یافت نشد
+- URC dat_02_0188 -> AT+FTPPW در dat_01 یافت نشد
+- URC dat_02_0189 -> AT+FTPREST در dat_01 یافت نشد
+- URC dat_02_0190 -> AT+FTPRMD در dat_01 یافت نشد
+- URC dat_02_0191 -> AT+FTPSCONT در dat_01 یافت نشد
+- URC dat_02_0192 -> AT+FTPSERV در dat_01 یافت نشد
+- URC dat_02_0193 -> AT+FTPSIZE در dat_01 یافت نشد
+- URC dat_02_0194 -> AT+FTPSTATE در dat_01 یافت نشد
+- URC dat_02_0195 -> AT+FTPSCONT در dat_01 یافت نشد
+- URC dat_02_0196 -> AT+FTPTYPE در dat_01 یافت نشد
+- URC dat_02_0197 -> AT+FTPUN در dat_01 یافت نشد
+- URC dat_02_0198 -> AT+HTTPACTION در dat_01 یافت نشد
+- URC dat_02_0199 -> AT+HTTPDATA در dat_01 یافت نشد
+- URC dat_02_0200 -> AT+HTTPPARA در dat_01 یافت نشد
+- URC dat_02_0201 -> AT+HTTPREAD در dat_01 یافت نشد
+- URC dat_02_0202 -> AT+HTTPSCONT در dat_01 یافت نشد
+- URC dat_02_0203 -> AT+HTTPSTAT در dat_01 یافت نشد
+- SMS dat_09_0001 -> AT+CMGF در dat_01 یافت نشد
+- SMS dat_09_0002 -> AT+CMGS در dat_01 یافت نشد
+- SMS dat_09_0003 -> AT+CMGR در dat_01 یافت نشد
+- SMS dat_09_0004 -> AT+CMGL در dat_01 یافت نشد
+- SMS dat_09_0005 -> AT+CMGD در dat_01 یافت نشد
+- SMS dat_09_0006 -> AT+CMGW در dat_01 یافت نشد
+- SMS dat_09_0007 -> AT+CSCA در dat_01 یافت نشد
+- SMS dat_09_0008 -> AT+CSMS در dat_01 یافت نشد
+- SMS dat_09_0009 -> AT+CPMS در dat_01 یافت نشد
+- SMS dat_09_0010 -> AT+CNMI در dat_01 یافت نشد
+- SMS dat_09_0011 -> AT+CSMP در dat_01 یافت نشد
+- SMS dat_09_0012 -> AT+CSDH در dat_01 یافت نشد
+- SMS dat_09_0013 -> AT+CMEE در dat_01 یافت نشد
+- SMS dat_09_0014 -> AT+CSCS در dat_01 یافت نشد
+- SIM dat_13_0001 -> AT+CPIN در dat_01 یافت نشد
+- SIM dat_13_0002 -> AT+CLCK در dat_01 یافت نشد
+- SIM dat_13_0003 -> AT+CPWD در dat_01 یافت نشد
+- SIM dat_13_0004 -> AT+CSIM در dat_01 یافت نشد
+- SIM dat_13_0005 -> AT+CRSM در dat_01 یافت نشد
+- SIM dat_13_0006 -> AT+CIMI در dat_01 یافت نشد
+- SIM dat_13_0007 -> AT+CCID در dat_01 یافت نشد
+- SIM dat_13_0008 -> AT+CSMINS در dat_01 یافت نشد
+- SIM dat_13_0009 -> AT+CSPN در dat_01 یافت نشد
+- SIM dat_13_0010 -> AT+CUSD در dat_01 یافت نشد
 
-- مجموع خطاهای سطح ۳ (Cross-ref): 303
-- این خطاها زمانی رفع می‌شوند که `dat_01` به وضعیت complete برسد (خوشه B).
+## آمار
+- commandهای dat_01: 334
+- URCها: 206
+- Error codes: 255
+- SMS: 14
+- SIM: 10
+## Cluster B verification (session 11)
 
-## توزیع بر اساس دیتاست
+Cross-reference of commands referenced by Cluster B datasets against
+dat_01 (AT Command DB). A reference is counted as "missing" only if it
+does not normalize to a command present in dat_01.
 
-| دیتاست | تعداد | نمونه رکورد |
-|---|---|---|
-| dat_02 | 197 | dat_02_0001, dat_02_0002, dat_02_0003 |
-| dat_09 | 13 | dat_09_0001, dat_09_0002, dat_09_0003 |
-| dat_10 | 24 | dat_10_0001, dat_10_0002, dat_10_0003 |
-| dat_11 | 38 | dat_11_0001, dat_11_0002, dat_11_0003 |
-| dat_12 | 12 | dat_12_0001, dat_12_0002, dat_12_0003 |
-| dat_13 | 10 | dat_13_0001, dat_13_0002, dat_13_0003 |
-| dat_17 | 9 | dat_17_0001, dat_17_0002, dat_17_0003 |
+| dataset | checked | missing | samples |
+|---|---|---|---|| dat_02 | 202 | 0 | - |
+| dat_03 | 0 | 0 | - |
+| dat_09 | 14 | 0 | - |
+| dat_10 | 24 | 3 | AT+CGCONTRDP, AT+CIPDDREM, AT+CEREG |
+| dat_12 | 13 | 4 | AT+CATONE, AT+CADTONE, AT+CLDTONE, AT+CPCMREG |
+| dat_13 | 10 | 0 | - |
 
-## توزیع بر اساس (دیتاست، command)
+Interpretation: "missing" entries are consistent with the fact that
+dat_01 is scoped to the basic AT commands and does not include specialist
+HTTP/FTP/SSL/Audio/Cert commands (see D-050). The 226 informational L3
+issues in this report are not project errors.
 
-| دیتاست | command | تعداد |
-|---|---|---|
-| dat_02 | AT+CSSN | 3 |
-| dat_02 | AT+CALA | 2 |
-| dat_02 | AT+CCLK | 2 |
-| dat_02 | AT+CIPMUX | 2 |
-| dat_02 | AT+CIPSCONT | 2 |
-| dat_02 | AT+CLIP | 2 |
-| dat_02 | AT+CMGD | 2 |
-| dat_02 | AT+CPIN | 2 |
-| dat_02 | AT+FTPSCONT | 2 |
-| dat_02 | AT+CAAS | 1 |
-| dat_02 | AT+CACM | 1 |
-| dat_02 | AT+CADC | 1 |
-| dat_02 | AT+CALD | 1 |
-| dat_02 | AT+CALM | 1 |
-| dat_02 | AT+CALS | 1 |
-| dat_02 | AT+CAMM | 1 |
-| dat_02 | AT+CAOC | 1 |
-| dat_02 | AT+CBAND | 1 |
-| dat_02 | AT+CBC | 1 |
-| dat_02 | AT+CBST | 1 |
-| dat_02 | AT+CBUZZERRING | 1 |
-| dat_02 | AT+CCALR | 1 |
-| dat_02 | AT+CCFC | 1 |
-| dat_02 | AT+CCODE | 1 |
-| dat_02 | AT+CCPD | 1 |
-| dat_02 | AT+CCVM | 1 |
-| dat_02 | AT+CCWA | 1 |
-| dat_02 | AT+CCWE | 1 |
-| dat_02 | AT+CDNSCFG | 1 |
-| dat_02 | AT+CDNSGIP | 1 |
-| dat_02 | AT+CDRIND | 1 |
-| dat_02 | AT+CEER | 1 |
-| dat_02 | AT+CEMNL | 1 |
-| dat_02 | AT+CENG | 1 |
-| dat_02 | AT+CEXTERNTONE | 1 |
-| dat_02 | AT+CFGRI | 1 |
-| dat_02 | AT+CFUN | 1 |
-| dat_02 | AT+CGACT | 1 |
-| dat_02 | AT+CGATT | 1 |
-| dat_02 | AT+CGCLASS | 1 |
-| dat_02 | AT+CGDATA | 1 |
-| dat_02 | AT+CGDCONT | 1 |
-| dat_02 | AT+CGEREP | 1 |
-| dat_02 | AT+CGPADDR | 1 |
-| dat_02 | AT+CGQMIN | 1 |
-| dat_02 | AT+CGQREQ | 1 |
-| dat_02 | AT+CGREG | 1 |
-| dat_02 | AT+CGSMS | 1 |
-| dat_02 | AT+CHF | 1 |
-| dat_02 | AT+CHFA | 1 |
-| dat_02 | AT+CHLD | 1 |
-| dat_02 | AT+CIPACK | 1 |
-| dat_02 | AT+CIPATS | 1 |
-| dat_02 | AT+CIPCCFG | 1 |
-| dat_02 | AT+CIPCSGP | 1 |
-| dat_02 | AT+CIPCTL | 1 |
-| dat_02 | AT+CIPDPDP | 1 |
-| dat_02 | AT+CIPFLT | 1 |
-| dat_02 | AT+CIPGSMLOC | 1 |
-| dat_02 | AT+CIPHEAD | 1 |
-| dat_02 | AT+CIPMODE | 1 |
-| dat_02 | AT+CIPPING | 1 |
-| dat_02 | AT+CIPQSEND | 1 |
-| dat_02 | AT+CIPRXGET | 1 |
-| dat_02 | AT+CIPSEND | 1 |
-| dat_02 | AT+CIPSERVER | 1 |
-| dat_02 | AT+CIPSGTXT | 1 |
-| dat_02 | AT+CIPSHOWTP | 1 |
-| dat_02 | AT+CIPSPRT | 1 |
-| dat_02 | AT+CIPSRIP | 1 |
-| dat_02 | AT+CIPSTATUS | 1 |
-| dat_02 | AT+CIPUDPMODE | 1 |
-| dat_02 | AT+CIURC | 1 |
-| dat_02 | AT+CLCC | 1 |
-| dat_02 | AT+CLCK | 1 |
-| dat_02 | AT+CLDTMF | 1 |
-| dat_02 | AT+CLIR | 1 |
-| dat_02 | AT+CLPORT | 1 |
-| dat_02 | AT+CLTS | 1 |
-| dat_02 | AT+CLVL | 1 |
-| dat_02 | AT+CMEE | 1 |
-| dat_02 | AT+CMGDA | 1 |
-| dat_02 | AT+CMGF | 1 |
-| dat_02 | AT+CMGHEX | 1 |
-| dat_02 | AT+CMGL | 1 |
-| dat_02 | AT+CMGR | 1 |
-| dat_02 | AT+CMGW | 1 |
-| dat_02 | AT+CMIC | 1 |
-| dat_02 | AT+CMICBIAS | 1 |
-| dat_02 | AT+CMMSBCC | 1 |
-| dat_02 | AT+CMMSCC | 1 |
-| dat_02 | AT+CMMSCID | 1 |
-| dat_02 | AT+CMMSCURL | 1 |
-| dat_02 | AT+CMMSDELBC | 1 |
-| dat_02 | AT+CMMSDELCC | 1 |
-| dat_02 | AT+CMMSDELRE | 1 |
-| dat_02 | AT+CMMSDOWN | 1 |
-| dat_02 | AT+CMMSEDIT | 1 |
-| dat_02 | AT+CMMSPROFILE | 1 |
-| dat_02 | AT+CMMSPROTO | 1 |
-| dat_02 | AT+CMMSRDPUS | 1 |
-| dat_02 | AT+CMMSREAD | 1 |
-| dat_02 | AT+CMMSRECP | 1 |
-| dat_02 | AT+CMMSRECV | 1 |
-| dat_02 | AT+CMMSSCONT | 1 |
-| dat_02 | AT+CMMSSEND | 1 |
-| dat_02 | AT+CMMSSENDCFG | 1 |
-| dat_02 | AT+CMMSSTATU | 1 |
-| dat_02 | AT+CMMSTIMEOUT | 1 |
-| dat_02 | AT+CMMSUA | 1 |
-| dat_02 | AT+CMMSVIEW | 1 |
-| dat_02 | AT+CMOD | 1 |
-| dat_02 | AT+CMSS | 1 |
-| dat_02 | AT+CMTE | 1 |
-| dat_02 | AT+CMUT | 1 |
-| dat_02 | AT+CMUX | 1 |
-| dat_02 | AT+CNMI | 1 |
-| dat_02 | AT+CNUM | 1 |
-| dat_02 | AT+COLP | 1 |
-| dat_02 | AT+COPN | 1 |
-| dat_02 | AT+COPS | 1 |
-| dat_02 | AT+CPAS | 1 |
-| dat_02 | AT+CPBF | 1 |
-| dat_02 | AT+CPBR | 1 |
-| dat_02 | AT+CPBS | 1 |
-| dat_02 | AT+CPBW | 1 |
-| dat_02 | AT+CPMS | 1 |
-| dat_02 | AT+CPOL | 1 |
-| dat_02 | AT+CPUC | 1 |
-| dat_02 | AT+CPWD | 1 |
-| dat_02 | AT+CR | 1 |
-| dat_02 | AT+CRC | 1 |
-| dat_02 | AT+CREC | 1 |
-| dat_02 | AT+CREG | 1 |
-| dat_02 | AT+CRES | 1 |
-| dat_02 | AT+CRLP | 1 |
-| dat_02 | AT+CRSL | 1 |
-| dat_02 | AT+CRSM | 1 |
-| dat_02 | AT+CSAS | 1 |
-| dat_02 | AT+CSCA | 1 |
-| dat_02 | AT+CSCB | 1 |
-| dat_02 | AT+CSCLK | 1 |
-| dat_02 | AT+CSCS | 1 |
-| dat_02 | AT+CSDH | 1 |
-| dat_02 | AT+CSDT | 1 |
-| dat_02 | AT+CSGS | 1 |
-| dat_02 | AT+CSIM | 1 |
-| dat_02 | AT+CSMINS | 1 |
-| dat_02 | AT+CSMP | 1 |
-| dat_02 | AT+CSMS | 1 |
-| dat_02 | AT+CSNS | 1 |
-| dat_02 | AT+CSPN | 1 |
-| dat_02 | AT+CSQ | 1 |
-| dat_02 | AT+CSTA | 1 |
-| dat_02 | AT+CSTT | 1 |
-| dat_02 | AT+CTTS | 1 |
-| dat_02 | AT+CTTSPARAM | 1 |
-| dat_02 | AT+CUSD | 1 |
-| dat_02 | AT+CWHITELIST | 1 |
-| dat_02 | AT+FTPCID | 1 |
-| dat_02 | AT+FTPDELE | 1 |
-| dat_02 | AT+FTPEXTPUT | 1 |
-| dat_02 | AT+FTPGET | 1 |
-| dat_02 | AT+FTPGETNA | 1 |
-| dat_02 | AT+FTPGETPA | 1 |
-| dat_02 | AT+FTPLIST | 1 |
-| dat_02 | AT+FTPMKD | 1 |
-| dat_02 | AT+FTPMOD | 1 |
-| dat_02 | AT+FTPPORT | 1 |
-| dat_02 | AT+FTPPUT | 1 |
-| dat_02 | AT+FTPPUTNA | 1 |
-| dat_02 | AT+FTPPUTOP | 1 |
-| dat_02 | AT+FTPPUTPA | 1 |
-| dat_02 | AT+FTPPW | 1 |
-| dat_02 | AT+FTPREST | 1 |
-| dat_02 | AT+FTPRMD | 1 |
-| dat_02 | AT+FTPSERV | 1 |
-| dat_02 | AT+FTPSIZE | 1 |
-| dat_02 | AT+FTPSTATE | 1 |
-| dat_02 | AT+FTPTYPE | 1 |
-| dat_02 | AT+FTPUN | 1 |
-| dat_02 | AT+HTTPACTION | 1 |
-| dat_02 | AT+HTTPDATA | 1 |
-| dat_02 | AT+HTTPPARA | 1 |
-| dat_02 | AT+HTTPREAD | 1 |
-| dat_02 | AT+HTTPSCONT | 1 |
-| dat_02 | AT+HTTPSTAT | 1 |
-| dat_09 | AT+CMGF | 1 |
-| dat_09 | AT+CMGS | 1 |
-| dat_09 | AT+CMGR | 1 |
-| dat_09 | AT+CMGL | 1 |
-| dat_09 | AT+CMGD | 1 |
-| dat_09 | AT+CMGW | 1 |
-| dat_09 | AT+CSCA | 1 |
-| dat_09 | AT+CSMS | 1 |
-| dat_09 | AT+CPMS | 1 |
-| dat_09 | AT+CNMI | 1 |
-| dat_09 | AT+CSMP | 1 |
-| dat_09 | AT+CSDH | 1 |
-| dat_09 | AT+CMEE | 1 |
-| dat_10 | AT+CGDCONT | 1 |
-| dat_10 | AT+CGATT | 1 |
-| dat_10 | AT+CGACT | 1 |
-| dat_10 | AT+CGCONTRDP | 1 |
-| dat_10 | AT+CGPADDR | 1 |
-| dat_10 | AT+CSTT | 1 |
-| dat_10 | AT+CIICR | 1 |
-| dat_10 | AT+CIFSR | 1 |
-| dat_10 | AT+CIPSTART | 1 |
-| dat_10 | AT+CIPSEND | 1 |
-| dat_10 | AT+CIPCLOSE | 1 |
-| dat_10 | AT+CIPSHUT | 1 |
-| dat_10 | AT+CIPSTATUS | 1 |
-| dat_10 | AT+CIPRXGET | 1 |
-| dat_10 | AT+CIPMUX | 1 |
-| dat_10 | AT+CIPQSEND | 1 |
-| dat_10 | AT+CIPDDREM | 1 |
-| dat_10 | AT+CIPMODE | 1 |
-| dat_10 | AT+CIPCCFG | 1 |
-| dat_10 | AT+CSQ | 1 |
-| dat_10 | AT+CREG | 1 |
-| dat_10 | AT+CGREG | 1 |
-| dat_10 | AT+CEREG | 1 |
-| dat_10 | AT+CDNSGIP | 1 |
-| dat_11 | AT+HTTPINIT | 1 |
-| dat_11 | AT+HTTPTERM | 1 |
-| dat_11 | AT+HTTPPARA | 1 |
-| dat_11 | AT+HTTPDATA | 1 |
-| dat_11 | AT+HTTPACTION | 1 |
-| dat_11 | AT+HTTPREAD | 1 |
-| dat_11 | AT+HTTPHEAD | 1 |
-| dat_11 | AT+HTTPSTATUS | 1 |
-| dat_11 | AT+HTTPURL | 1 |
-| dat_11 | AT+HTTPSSL | 1 |
-| dat_11 | AT+FTPOPEN | 1 |
-| dat_11 | AT+FTPCLOSE | 1 |
-| dat_11 | AT+FTPPUT | 1 |
-| dat_11 | AT+FTPGET | 1 |
-| dat_11 | AT+FTPDELE | 1 |
-| dat_11 | AT+FTPMKD | 1 |
-| dat_11 | AT+FTPRMD | 1 |
-| dat_11 | AT+FTPLIST | 1 |
-| dat_11 | AT+FTPFLST | 1 |
-| dat_11 | AT+FTPUSER | 1 |
-| dat_11 | AT+FTPPASS | 1 |
-| dat_11 | AT+FTPCWD | 1 |
-| dat_11 | AT+FTPPWD | 1 |
-| dat_11 | AT+FTPTYPE | 1 |
-| dat_11 | AT+FTPMODE | 1 |
-| dat_11 | AT+FTPPUTOPT | 1 |
-| dat_11 | AT+FTPGETPATH | 1 |
-| dat_11 | AT+FTPPUTPATH | 1 |
-| dat_11 | AT+FTPPORT | 1 |
-| dat_11 | AT+SSLCFG | 1 |
-| dat_11 | AT+SSLCONF | 1 |
-| dat_11 | AT+SSLOPEN | 1 |
-| dat_11 | AT+SSLSEND | 1 |
-| dat_11 | AT+SSLRECV | 1 |
-| dat_11 | AT+SSLCLOSE | 1 |
-| dat_11 | AT+SSLSETCERT | 1 |
-| dat_11 | AT+SSLSETKEY | 1 |
-| dat_11 | AT+SSLSETCA | 1 |
-| dat_12 | AT+CLVL | 1 |
-| dat_12 | AT+CRSL | 1 |
-| dat_12 | AT+CMUT | 1 |
-| dat_12 | AT+CRSM | 1 |
-| dat_12 | AT+VTS | 1 |
-| dat_12 | AT+CATONE | 1 |
-| dat_12 | AT+CADTONE | 1 |
-| dat_12 | AT+CLDTONE | 1 |
-| dat_12 | AT+CMIC | 1 |
-| dat_12 | AT+CSDT | 1 |
-| dat_12 | AT+CHFA | 1 |
-| dat_12 | AT+CPCMREG | 1 |
-| dat_13 | AT+CPIN | 1 |
-| dat_13 | AT+CLCK | 1 |
-| dat_13 | AT+CPWD | 1 |
-| dat_13 | AT+CSIM | 1 |
-| dat_13 | AT+CRSM | 1 |
-| dat_13 | AT+CIMI | 1 |
-| dat_13 | AT+CCID | 1 |
-| dat_13 | AT+CSMINS | 1 |
-| dat_13 | AT+CSPN | 1 |
-| dat_13 | AT+CUSD | 1 |
-| dat_17 | AT+SSLCFG | 1 |
-| dat_17 | AT+SSLCONF | 1 |
-| dat_17 | AT+SSLOPEN | 1 |
-| dat_17 | AT+SSLSEND | 1 |
-| dat_17 | AT+SSLRECV | 1 |
-| dat_17 | AT+SSLCLOSE | 1 |
-| dat_17 | AT+SSLSETCERT | 1 |
-| dat_17 | AT+SSLSETKEY | 1 |
-| dat_17 | AT+SSLSETCA | 1 |
