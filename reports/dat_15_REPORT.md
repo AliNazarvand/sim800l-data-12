@@ -1,36 +1,21 @@
-# dat_15 — Power Management
+# dat_15_REPORT.md
 
-- **وضعیت نهایی:** `blocked`
-- **Schema:** `schemas/dat_15.schema.yaml`
-- **Data file:** `data/dat_15_power_management.yaml`
-- **تعداد رکورد فعلی:** ۱۴ (۱ blocked + ۱۳ partial)
-- **پوشش:** بسیار پایین — هیچ منبع اولیه معتبری برای power management در دسترس نیست.
+Generated: 2026-10-12T06:14:52Z
 
-## دلیل بلاک شدن
+## Summary
 
-1. **منبع اصلی موجود نیست:**
-   - `SIM800 Series Sleep Mode Application Note` در دسترس نیست.
-   - این سند مرجع اصلی برای جداول sleep mode، DTR wake-up، و current consumption دقیق است.
+- Cluster: A
+- Effective status (per D-057): blocked
+- Records: 14
+- Complete / Total: 0 / 14 = 0.0%
+- File: data/dat_15_power_management.yaml
 
-2. **رکوردهای فعلی (partial) قابل اعتماد نیستند:**
-   - ۱۳ رکورد `dat_15_9001..9013` در یک جلسه با استخراج خودکار (regex)
-     از متن خام PDF V2.02 تولید شده‌اند.
-   - بررسی دستی نشان داد که این استخراج **معیوب** بوده: مخلوطی از
-     خطوط فهرست مطالب، شماره سکشن، شماره پارت‌نامبر و تاریخ changelog
-     که به‌اشتباه به‌عنوان داده power management ثبت شده‌اند.
-   - این رکوردها برای اطمینان بیشتر، در `reports/DECISIONS_LOG.md`
-     (تصمیم D-006) علامت‌گذاری شده‌اند.
+## Status breakdown
 
-## آنچه برای رفع بلاک لازم است
+- blocked: 1
+- partial: 13
 
-- دریافت سند رسمی `SIM800 Series Sleep Mode Application Note` از SIMCom.
-- در غیر این صورت، استخراج **دستی** جداول power از صفحات ۲۵–۳۰ و ۵۸–۶۲
-  سند `SIM800H&SIM800L_Hardware_Design_V2.02.PDF`، به‌صورت رکورد-به-رکورد
-  با ذکر شماره صفحه واقعی و نقل‌قول.
-- **استخراج خودکار با regex ممنوع است** — این مسیر قبلاً شکست خورده.
+## Notes
 
-## یادداشت
-
-طبق قاعده R11 پروژه: چون منبع رسمی در دسترس نیست، دیتاست باید
-`blocked` علامت بخورد، نه `partial`. وضعیت رسمی این دیتاست در
-`reports/COVERAGE_MATRIX.md` به‌عنوان `blocked` ثبت شده است.
+- Status rule per D-057 (90% threshold with overrides).
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

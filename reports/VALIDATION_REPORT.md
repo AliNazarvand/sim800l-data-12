@@ -1,39 +1,26 @@
-# VALIDATION_REPORT
+# VALIDATION_REPORT.md
 
-Generated: 2026-10-12T04:52:44Z
+Generated: 2026-10-12T06:14:52Z
 
-## خلاصه
-- خطاهای سطح ۱ (Schema): 0
-- خطاهای سطح ۲ (Business): 0
-- خطاهای سطح ۳ (Cross-ref): 0
-- خطاهای سطح ۴ (Consistency): 0
+## Levels
 
-- dat_01 status: `complete`
-- specialist commands excluded: 46
+- L1: JSON-Schema conformance
+- L2: Business logic
+- L3: Cross-reference
+- L4: Consistency
 
-## فایل‌های کشف‌شده
-| دیتاست | فایل |
-|---|---|
-| dat_01 | dat_01_at_command.yaml |
-| dat_02 | dat_02_urc.yaml |
-| dat_03 | dat_03_error_code.yaml |
-| dat_04 | dat_04_timing_timeout.yaml |
-| dat_05 | dat_05_state_machine.yaml |
-| dat_06 | dat_06_init_sequence.yaml |
-| dat_07 | dat_07_hardware_reference.yaml |
-| dat_08 | dat_08_firmware_compatibility.yaml |
-| dat_09 | dat_09_sms.yaml |
-| dat_10 | dat_10_gprs_data.yaml |
-| dat_11 | dat_11_http_ftp_ssl.yaml |
-| dat_12 | dat_12_audio.yaml |
-| dat_13 | dat_13_sim_management.yaml |
-| dat_14 | dat_14_operator_apn.yaml |
-| dat_15 | dat_15_power_management.yaml |
-| dat_16 | dat_16_board_evb.yaml |
-| dat_17 | dat_17_certificate_key_store.yaml |
-| dat_18 | dat_18_certification.yaml |
+## Result of scripts/validate.py
 
-## جزئیات خطاها
-| دیتاست | سطح | رکورد | خطا | پیشنهاد |
-|---|---|---|---|---|
-| - | - | - | (none) | - |
+``````text
+Validation: 1 errors (L1=0 L2=0 L3=1 L4=0)
+dat_01 status=b  cross-ref ran=True  specialist_whitelist=46
+``````
+
+## Error count: 1
+
+- dat_04 L3 dat_04_0032 -- related_state RESET not in dat_05
+
+## Notes
+
+- _validation_summary.json is patched in v9 BLOCK 7 (post-validate).
+- This report is English-only per D-062.

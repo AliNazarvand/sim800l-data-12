@@ -1,7 +1,21 @@
-# dat_11 REPORT — HTTP/FTP/SSL DB
+# dat_11_REPORT.md
 
-- status: complete
-- coverage: high
-- records: 38
-- generated: 2026-10-10T17:30:26Z
+Generated: 2026-10-12T06:14:52Z
 
+## Summary
+
+- Cluster: B
+- Effective status (per D-057): blocked
+- Records: 38
+- Complete / Total: 19 / 38 = 50.0%
+- File: data/dat_11_http_ftp_ssl.yaml
+
+## Status breakdown
+
+- blocked: 19
+- complete: 19
+
+## Notes
+
+- Status rule per D-057 (90% threshold with overrides).
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

@@ -5,12 +5,12 @@ and reproducible validation tooling.
 
 ## Status
 
-Phase 2 complete.
+Phase 3 complete.
 
 | status   | count | datasets |
 |----------|-------|----------|
-| complete | 8 | dat_01, dat_02, dat_03, dat_05, dat_07, dat_09, dat_10, dat_12, dat_13 |
-| partial  | 2 | dat_04, dat_06 |
+| complete | 4 | dat_03, dat_07, dat_09, dat_13 |
+| partial  | 7 | dat_01, dat_02, dat_04, dat_05, dat_06, dat_10, dat_12 |
 | blocked  | 5 | dat_08, dat_11, dat_15, dat_17, dat_18 |
 | deferred | 2 | dat_14, dat_16 |
 

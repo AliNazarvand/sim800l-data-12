@@ -1,7 +1,20 @@
-# dat_13 REPORT — SIM Management DB
+# dat_13_REPORT.md
 
-- status: partial
-- coverage: high
-- records: 10
-- generated: 2026-10-10T17:30:26Z
+Generated: 2026-10-12T06:14:52Z
 
+## Summary
+
+- Cluster: B
+- Effective status (per D-057): complete
+- Records: 10
+- Complete / Total: 10 / 10 = 100.0%
+- File: data/dat_13_sim_management.yaml
+
+## Status breakdown
+
+- complete: 10
+
+## Notes
+
+- Status rule per D-057 (90% threshold with overrides).
+- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

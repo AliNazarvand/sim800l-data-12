@@ -37,3 +37,50 @@
 
 ### Deferred
 - `dat_14`, `dat_16`.
+
+
+## [3.0.0] - 
+2026-10-12T06:04:32Z
+
+### Added
+- D-065..D-068 in DECISIONS_LOG.md
+- 21 new records: 8 timing (dat_04) + 7 states (dat_05) + 6 init steps (dat_06)
+
+### Fixed
+- DECISIONS_LOG control characters (U+0008) removed
+- _validation_summary.json dat01_status (b -> partial)
+
+### Changed
+- README status updated (Phase 3 complete)
+- All reports regenerated in English (D-062)
+
+## [3.0.0] - 
+2026-10-12T06:09:50Z
+
+### Added
+- D-061..D-068 in DECISIONS_LOG.md
+- 14 new records: 5 timing + 4 states + 5 init steps
+
+### Fixed
+- DECISIONS_LOG control chars removed
+- _validation_summary.json dat01_status (b -> partial)
+
+### Changed
+- README status updated (Phase 3 complete)
+- All reports regenerated in English (D-062)
+
+## [3.1.0] - 2026-10-12T06:14:52Z
+
+### Fixed
+- REPAIR: unquoted source.date in 21 records (D-069)
+- Ratio-Str overload error -> string.Format (D-070)
+- Duplicate CHANGELOG/SESSION_LOG entries -> idempotent append (D-071)
+- JSON patch timing: post-validate (D-072)
+
+### Added
+- D-069..D-072 in DECISIONS_LOG.md
+- 5 new records: 3 timing + 1 state + 1 init step
+
+### Changed
+- README reflects current status
+- All reports regenerated (English, D-062)

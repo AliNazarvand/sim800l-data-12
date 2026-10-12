@@ -1,53 +1,32 @@
-# TODO
+# TODO.md
 
-## Source-Missing (blocked/deferred)
-- [ ] dat_08 Firmware: Release Notes not available
-- [ ] dat_17 Certificate/Key Store: SSL Manual not available
-- [ ] dat_18 Certification: certification documents not available
-- [ ] dat_16 Board/EVB: EVB document not available
+Generated: 2026-10-12T06:14:52Z
 
-## Source-Limited (partial with limit_reason)
-- [ ] dat_03 Error Code: PDF appendix limit (96/255)
-- [ ] dat_04 Timing: PDF timing table limit (12/25)
-- [ ] dat_10 GPRS: AT Manual GPRS limit (17/24)
-- [ ] dat_11 HTTP/FTP/SSL: specialist source required (25/38)
-- [ ] dat_12 Audio: AT Manual Audio limit (9/13)
-- [ ] dat_14 Operator/APN: external source only (52/52)
-- [ ] dat_15 Power: power table limit (13/14)
+## Missing sources
 
-## Missing Sources (Priority)
-1. [ ] SIM800 Series HTTP AT Command Manual (dat_11)
-2. [ ] SIM800 Series FTP AT Command Manual (dat_11)
-3. [ ] SIM800 Series SSL AT Command Manual (dat_11, dat_17)
-4. [ ] SIM800 Series Audio AT Command Manual (dat_12)
-5. [ ] SIM800 Series SIM AT Command Manual (dat_13)
-6. [ ] SIM800 Series TCP/IP AT Command Manual (dat_10)
-7. [ ] SIM800 Series Sleep Mode Application Note (dat_15)
-8. [ ] SIM800 Series Firmware Release Notes (dat_08)
-9. [ ] SIM800 Series Certification Documents (dat_18)
-10. [ ] GSMA / ITU / mcc-mnc.com for APN (dat_14)
-11. [ ] SIM800L Datasheet (dat_07)
-12. [ ] EVB Schematic (dat_16)
+- [ ] SIM800 Series TCP/IP AT Command Manual  (needed by: dat_10)
+- [ ] SIM800 Series HTTP AT Command Manual  (needed by: dat_11)
+- [ ] SIM800 Series FTP AT Command Manual  (needed by: dat_11)
+- [ ] SIM800 Series SSL AT Command Manual  (needed by: dat_11, dat_17)
+- [ ] SIM800 Series Audio AT Command Manual  (needed by: dat_12)
+- [ ] SIM800 Series SIM AT Command Manual  (needed by: dat_13)
+- [ ] SIM800L Datasheet  (needed by: dat_07)
+- [ ] SIM800 Series Sleep Mode Application Note  (needed by: dat_15)
+- [ ] SIM800 Series URC Application Note  (needed by: dat_02)
+- [ ] SIM800 Series Firmware Release Notes  (needed by: dat_08)
+- [ ] SIM800 Series Certification Documents  (needed by: dat_18)
+- [ ] GSMA / ITU / mcc-mnc.com  (needed by: dat_14)
 
-## دیتاست‌های بلاک‌شده (به‌روزرسانی)
-- [ ] dat_15 — نیازمند Sleep Mode Application Note؛ ۱۳ رکورد partial قبلی رد شد.
-- [ ] dat_16 Board/EVB - deferred: no official SIMCom EVB schematic/user guide available (external dependency)
+## Blocked / deferred datasets
+- [ ] dat_08 - blocked
+- [ ] dat_11 - blocked
+- [ ] dat_14 - deferred
+- [ ] dat_15 - blocked
+- [ ] dat_16 - deferred
+- [ ] dat_17 - blocked
+- [ ] dat_18 - blocked
 
-## Session 11 closure
-
-- [x] Global scan for unquoted boolean-like literals (D-052).
-- [x] Cluster B cross-ref verification (D-053).
-- [x] Final documentation (README, PHASE_2_REPORT, CHANGELOG, SESSION_LOG, ROLE_MAP).
-- [ ] Merge feature/fix-dat04 -> main and tag v2.0.0.
-
-## Outstanding external sources (blocked)
-
-- [ ] SIM800 Series HTTP / FTP / SSL AT Command Manuals (dat_11, dat_17)
-- [ ] SIM800 Series Sleep Mode Application Note (dat_15)
-- [ ] SIM800 Series Firmware Release Notes (dat_08)
-- [ ] SIM800 Series Certification Documents (dat_18)
-
-## Deferred (no active work until project-owner requests)
-
-- [ ] dat_14 (Operator/APN) — external dataset with no page reference.
-- [ ] dat_16 (Board/EVB) — no official EVB document on disk.
+## Follow-ups
+- [ ] Fix scripts/extract_pdf.py --input argument (D-067)
+- [ ] Align scripts/validate.py dat01_status with D-057 (D-064)
+- [ ] Translate D-001..D-041 in DECISIONS_LOG.md to English

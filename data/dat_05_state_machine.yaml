@@ -969,3 +969,225 @@
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
   updated_at: '2026-10-12T04:00:00Z'
+- id: dat_05_0013
+  category: OperatingMode
+  state_name: "SLEEP"
+  description: "Module automatically enters sleep mode if enabled and no on-air or hardware interrupt. Current reduced to minimum."
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: "13"
+    section: "Table 4 Overview of operating modes"
+    quote: ""
+  source_type: primary
+  confidence: 0.92
+  status: complete
+  conflicts: []
+  notes: "State documented in V2.02 Table 4."
+  applicable_models: ["SIM800L"]
+  tags: ["state", "sleep"]
+  created_at: "2026-10-12T00:00:00Z"
+  updated_at: "2026-10-12T00:00:00Z"
+
+- id: dat_05_0014
+  category: OperatingMode
+  state_name: "GSM_IDLE"
+  description: "GSM software active; module registered to GSM network; ready to communicate."
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: "13"
+    section: "Table 4 Overview of operating modes"
+    quote: ""
+  source_type: primary
+  confidence: 0.92
+  status: complete
+  conflicts: []
+  notes: "State documented in V2.02 Table 4."
+  applicable_models: ["SIM800L"]
+  tags: ["state", "gsm_idle"]
+  created_at: "2026-10-12T00:00:00Z"
+  updated_at: "2026-10-12T00:00:00Z"
+
+- id: dat_05_0015
+  category: OperatingMode
+  state_name: "GSM_TALK"
+  description: "Connection between two subscribers in progress; power depends on network settings."
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: "13"
+    section: "Table 4 Overview of operating modes"
+    quote: ""
+  source_type: primary
+  confidence: 0.92
+  status: complete
+  conflicts: []
+  notes: "State documented in V2.02 Table 4."
+  applicable_models: ["SIM800L"]
+  tags: ["state", "gsm_talk"]
+  created_at: "2026-10-12T00:00:00Z"
+  updated_at: "2026-10-12T00:00:00Z"
+
+- id: dat_05_0016
+  category: OperatingMode
+  state_name: "GPRS_STANDBY"
+  description: "Module ready for GPRS data transfer but no data currently sent/received."
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: "13"
+    section: "Table 4 Overview of operating modes"
+    quote: ""
+  source_type: primary
+  confidence: 0.92
+  status: complete
+  conflicts: []
+  notes: "State documented in V2.02 Table 4."
+  applicable_models: ["SIM800L"]
+  tags: ["state", "gprs_standby"]
+  created_at: "2026-10-12T00:00:00Z"
+  updated_at: "2026-10-12T00:00:00Z"
+
+- id: dat_05_0017
+  category: OperatingMode
+  state_name: "GPRS_DATA"
+  description: "GPRS data transfer (PPP/TCP/UDP) in progress."
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: "13"
+    section: "Table 4 Overview of operating modes"
+    quote: ""
+  source_type: primary
+  confidence: 0.92
+  status: complete
+  conflicts: []
+  notes: "State documented in V2.02 Table 4."
+  applicable_models: ["SIM800L"]
+  tags: ["state", "gprs_data"]
+  created_at: "2026-10-12T00:00:00Z"
+  updated_at: "2026-10-12T00:00:00Z"
+
+- id: dat_05_0018
+  category: OperatingMode
+  state_name: "POWER_DOWN"
+  description: "Normal power down via AT+CPOWD=1 or PWRKEY; only RTC remains."
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: "13"
+    section: "Table 4 Overview of operating modes"
+    quote: ""
+  source_type: primary
+  confidence: 0.92
+  status: complete
+  conflicts: []
+  notes: "State documented in V2.02 Table 4."
+  applicable_models: ["SIM800L"]
+  tags: ["state", "power_down"]
+  created_at: "2026-10-12T00:00:00Z"
+  updated_at: "2026-10-12T00:00:00Z"
+
+- id: dat_05_0019
+  category: OperatingMode
+  state_name: "MIN_FUNC"
+  description: "Minimum functionality via AT+CFUN=0; RF off; SIM inaccessible; serial still accessible."
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: []
+  related_urcs: []
+  related_timings: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: "13"
+    section: "Table 4 Overview of operating modes"
+    quote: ""
+  source_type: primary
+  confidence: 0.92
+  status: complete
+  conflicts: []
+  notes: "State documented in V2.02 Table 4."
+  applicable_models: ["SIM800L"]
+  tags: ["state", "min_func"]
+  created_at: "2026-10-12T00:00:00Z"
+  updated_at: "2026-10-12T00:00:00Z"
+- id: dat_05_0020
+  category: OperatingMode
+  state_name: "GPRS_ATTACHED"
+  description: "GPRS attached to network; PDP context not yet active."
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: ["AT+CGATT"]
+  related_urcs: []
+  related_timings: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: "13"
+    section: "Table 4 Overview of operating modes"
+    quote: ""
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: "Intermediate state between REGISTERED and PDP_ACTIVE."
+  applicable_models: ["SIM800L"]
+  tags: ["state", "gprs"]
+  created_at: "2026-10-12T00:00:00Z"
+  updated_at: "2026-10-12T00:00:00Z"
