@@ -1,121 +1,174 @@
 - id: dat_04_0001
   category: Timing
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    page: '8'
-    section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
-  source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: Change 300us to 10
+  parameter: "Change 300us to 10"
   min: 5.0
   typ: null
   max: null
   unit: ms
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
+  condition: ""
+  related_command: ""
+  related_state: ""
+  related_urc: ""
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE...23'
+  source_type: primary
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Changelog note, not a timing parameter"
+    - field: source.page
+      reason: "page 8 likely incorrect; Figure 12 is on page 23"
+    - field: source.quote
+      reason: "quote is from Table of Contents, not body text"
+    - field: min
+      reason: "value 5.0 has no clear source (original text says '300us to 10ms')"
+  notes: "Legacy record. Preserved per R10. Malformed parameter and incorrect source metadata. Field coverage_estimate removed (not in schema)."
+  applicable_models:
+  - SIM800L
+  tags:
+  - legacy
+  - deprecated
+  - malformed
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0002
   category: Timing
+  parameter: "Wait for at least 80"
+  min: 0.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ""
+  related_command: ""
+  related_state: ""
+  related_urc: ""
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '8'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE...23'
   source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Truncated text; original likely 'Wait for at least 800ms after STATUS pin changes to low level'"
+    - field: min
+      reason: "min is 0.0 but should be 800; value is inconsistent with parameter text"
+    - field: source.page
+      reason: "page 8 likely incorrect; the topic is on page 24"
+    - field: source.quote
+      reason: "quote is from Table of Contents, not body text"
+  notes: "Legacy record. Preserved per R10. Truncated text and incorrect source metadata. The value 800ms is captured correctly in dat_04_0016. Field coverage_estimate removed (not in schema)."
   applicable_models:
   - SIM800L
+  tags:
+  - legacy
+  - deprecated
+  - malformed
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: Wait for at least 80
-  min: 0.0
-  typ: null
-  max: null
-  unit: ms
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0003
   category: Timing
+  parameter: "DTR pin is pulled to low level for about 5"
+  min: 0.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ""
+  related_command: ""
+  related_state: ""
+  related_urc: ""
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '8'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE...23'
   source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Truncated text; original likely 'DTR pin is pulled to low level for about 50ms'"
+    - field: category
+      reason: "Out of scope: DTR wake-up condition belongs to dat_05 (State Machine)"
+    - field: min
+      reason: "min is 0.0 but should be 50"
+    - field: source.page
+      reason: "page 8 likely incorrect; DTR section is on page 27"
+    - field: source.quote
+      reason: "quote is from Table of Contents, not body text"
+  notes: "Legacy record. Preserved per R10. Out-of-scope and truncated. Field coverage_estimate removed (not in schema)."
   applicable_models:
   - SIM800L
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: DTR pin is pulled to low level for about 5
-  min: 0.0
-  typ: null
-  max: null
-  unit: ms
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0004
   category: Timing
+  parameter: "Only after the DTR pin is pulled to low level for 5"
+  min: 0.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ""
+  related_command: ""
+  related_state: ""
+  related_urc: ""
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '8'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE...23'
   source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Truncated text; original likely 'Only after the DTR pin is pulled to low level for 50ms'"
+    - field: category
+      reason: "Out of scope: DTR wake-up condition belongs to dat_05 (State Machine)"
+    - field: min
+      reason: "min is 0.0 but should be 50"
+    - field: source.page
+      reason: "page 8 likely incorrect; DTR section is on page 27"
+    - field: source.quote
+      reason: "quote is from Table of Contents, not body text"
+  notes: "Legacy record. Preserved per R10. Out-of-scope and truncated. Field coverage_estimate removed (not in schema)."
   applicable_models:
   - SIM800L
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: Only after the DTR pin is pulled to low level for 5
-  min: 0.0
-  typ: null
-  max: null
-  unit: ms
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0005
   category: Timing
+  parameter: "SIM card interval advice is greater than"
+  min: 2.0
+  typ: null
+  max: null
+  unit: s
+  condition: ""
+  related_command: ""
+  related_state: ""
+  related_urc: ""
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
@@ -124,592 +177,901 @@
     section: SIM800H&SIM800L_Hardware_Design V2.02
     quote: 'Note: Every time plug SIM card interval advice is greater than 2s. Otherwise may not be able to correct detection.'
   source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Truncated; original says 'SIM card plug-in interval'"
+    - field: category
+      reason: "Out of scope: SIM card insertion timing belongs to dat_13 (SIM Management)"
+    - field: source.section
+      reason: "section value is the document name, not a real section"
+  notes: "Legacy record. Preserved per R10. Out-of-scope. Field coverage_estimate removed (not in schema)."
   applicable_models:
   - SIM800L
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: SIM card interval advice is greater than
-  min: 2.0
-  typ: null
-  max: null
-  unit: s
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0006
   category: Timing
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    page: '8'
-    section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
-  source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: GPIO3 28 -
+  parameter: "GPIO3 28 -"
   min: 0.29
   typ: null
   max: null
   unit: s
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
-- id: dat_04_0007
-  category: Timing
+  condition: ""
+  related_command: ""
+  related_state: ""
+  related_urc: ""
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '8'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE...23'
   source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Fragmented text; not a valid timing parameter"
+    - field: category
+      reason: "Out of scope: GPIO pin characteristics belong to dat_07 (Hardware)"
+    - field: min
+      reason: "value 0.29 has no clear meaning in this context"
+    - field: source.page
+      reason: "page 8 likely incorrect"
+    - field: source.quote
+      reason: "quote is from Table of Contents, not body text"
+  notes: "Legacy record. Preserved per R10. Out-of-scope and malformed. Field coverage_estimate removed (not in schema)."
   applicable_models:
   - SIM800L
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: GPIO2
+  updated_at: '2026-10-12T03:00:00Z'
+- id: dat_04_0007
+  category: Timing
+  parameter: "GPIO2"
   min: 0.8
   typ: null
   max: null
   unit: s
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
+  condition: ""
+  related_command: ""
+  related_state: ""
+  related_urc: ""
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '8'
+    section: SIM800H&SIM800L_Hardware_Design V2.02
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE...23'
+  source_type: primary
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Just a pin name; no timing semantics"
+    - field: category
+      reason: "Out of scope: GPIO pin characteristics belong to dat_07 (Hardware)"
+    - field: source.page
+      reason: "page 8 likely incorrect"
+    - field: source.quote
+      reason: "quote is from Table of Contents, not body text"
+  notes: "Legacy record. Preserved per R10. Out-of-scope. Field coverage_estimate removed (not in schema)."
+  applicable_models:
+  - SIM800L
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
+  created_at: '2026-10-10T17:30:26Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0008
   category: Timing
+  parameter: "SIM800L is not running"
+  min: 64.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ""
+  related_command: ""
+  related_state: ""
+  related_urc: ""
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '8'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE...23'
   source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Not a timing parameter; describes module state"
+    - field: source.page
+      reason: "page 8 likely incorrect; the topic is on page 49"
+    - field: source.quote
+      reason: "quote is from Table of Contents, not body text"
+  notes: "Legacy record. Preserved per R10. Malformed; likely duplicate of DRX data captured in dat_04_0010. Field coverage_estimate removed (not in schema)."
   applicable_models:
   - SIM800L
+  tags:
+  - legacy
+  - deprecated
+  - malformed
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: SIM800L is not running
-  min: 64.0
-  typ: null
-  max: null
-  unit: ms
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0009
   category: Timing
+  parameter: "On/ 80"
+  min: 0.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ""
+  related_command: ""
+  related_state: ""
+  related_urc: ""
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '8'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE...23'
   source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Fragmented text; incomplete DRX cycle ('64ms On/ 800ms Off')"
+    - field: min
+      reason: "min is 0.0 but the original text fragment suggests 64ms"
+    - field: source.page
+      reason: "page 8 likely incorrect; the topic is on page 49"
+    - field: source.quote
+      reason: "quote is from Table of Contents, not body text"
+  notes: "Legacy record. Preserved per R10. Malformed; DRX value captured in dat_04_0010. Field coverage_estimate removed (not in schema)."
   applicable_models:
   - SIM800L
+  tags:
+  - legacy
+  - deprecated
+  - malformed
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: On/ 80
-  min: 0.0
-  typ: null
-  max: null
-  unit: ms
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0010
   category: Timing
+  parameter: "DRX cycle on-time in idle mode (module not registered)"
+  min: 64
+  typ: null
+  max: null
+  unit: ms
+  condition: "Module not registered to network"
+  related_command: null
+  related_state: NETWORK_SEARCH
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '49'
-    section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: 64ms On/ 800ms Off SIM800H&SIM800L not registered the network
+    section: "Power consumption characteristics"
+    quote: "64ms On/ 800ms Off SIM800H&SIM800L not registered the network"
   source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
+  confidence: 0.7
+  status: partial
+  conflicts:
+    - field: parameter
+      reason: "Original parameter name was fragmented; renamed to describe the actual timing value"
+    - field: source.page
+      reason: "Original page (8) was wrong; corrected to 49 based on body text"
+  notes: "Salvaged from legacy record 0010. DRX on-time in idle mode is 64 ms; off-time is 800 ms (see quote). Exact min/typ/max bounds may be in Figure 12 (image)."
   applicable_models:
   - SIM800L
+  tags:
+  - timing
+  - drx
+  - power-saving
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: SIM800L not registered the network
-  min: 64.0
-  typ: null
-  max: null
-  unit: ms
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0011
   category: Timing
+  parameter: "On/ 300"
+  min: 0.0
+  typ: null
+  max: null
+  unit: ms
+  condition: ""
+  related_command: ""
+  related_state: ""
+  related_urc: ""
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '8'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE...23'
   source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Fragmented text; incomplete DRX cycle ('64ms On/ 3000ms Off')"
+    - field: min
+      reason: "min is 0.0 but original text fragment suggests 64ms"
+    - field: source.page
+      reason: "page 8 likely incorrect; topic is on page 49"
+    - field: source.quote
+      reason: "quote is from Table of Contents, not body text"
+  notes: "Legacy record. Preserved per R10. Malformed; DRX value captured in dat_04_0012. Field coverage_estimate removed (not in schema)."
   applicable_models:
   - SIM800L
+  tags:
+  - legacy
+  - deprecated
+  - malformed
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: On/ 300
-  min: 0.0
+  updated_at: '2026-10-12T03:00:00Z'
+- id: dat_04_0012
+  category: Timing
+  parameter: "DRX cycle on-time in idle mode (module registered)"
+  min: 64
   typ: null
   max: null
   unit: ms
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
-- id: dat_04_0012
-  category: Timing
+  condition: "Module registered to network"
+  related_command: null
+  related_state: REGISTERED
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '49'
-    section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: 64ms On/ 3000ms Off SIM800H&SIM800L registered to the network
+    section: "Power consumption characteristics"
+    quote: "64ms On/ 3000ms Off SIM800H&SIM800L registered to the network"
   source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
+  confidence: 0.7
+  status: partial
+  conflicts:
+    - field: parameter
+      reason: "Original parameter name was fragmented; renamed to describe the actual timing value"
+    - field: source.page
+      reason: "Original page (8) was wrong; corrected to 49 based on body text"
+  notes: "Salvaged from legacy record 0012. DRX on-time in idle mode is 64 ms; off-time is 3000 ms (see quote). Exact min/typ/max bounds may be in Figure 12 (image)."
   applicable_models:
   - SIM800L
+  tags:
+  - timing
+  - drx
+  - power-saving
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: SIM800L registered to the network
-  min: 64.0
+  updated_at: '2026-10-12T03:00:00Z'
+- id: dat_04_0013
+  category: Timing
+  parameter: "On/ 30"
+  min: 0.0
   typ: null
   max: null
   unit: ms
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
-- id: dat_04_0013
-  category: Timing
+  condition: ""
+  related_command: ""
+  related_state: ""
+  related_urc: ""
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '8'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: 'FIGURE 12: TIMING OF POWER ON MODULE.........................................................................................................23'
+    quote: 'FIGURE 12: TIMING OF POWER ON MODULE...23'
   source_type: primary
-  confidence: 0.75
-  status: complete
-  conflicts: []
-  notes: 'limit_reason: PDF timing table limit (12/25)'
-  tags: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Fragmented text; not a valid DRX or timing value"
+    - field: min
+      reason: "min is 0.0; no source for value"
+    - field: source.page
+      reason: "page 8 likely incorrect"
+    - field: source.quote
+      reason: "quote is from Table of Contents, not body text"
+  notes: "Legacy record. Preserved per R10. Malformed. Field coverage_estimate removed (not in schema)."
   applicable_models:
   - SIM800L
+  tags:
+  - legacy
+  - deprecated
+  - malformed
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
-  parameter: On/ 30
-  min: 0.0
+  updated_at: '2026-10-12T03:00:00Z'
+- id: dat_04_0014
+  category: Timing
+  parameter: "Power-on PWRKEY pull-down time"
+  min: 1000
   typ: null
   max: null
   unit: ms
-  condition: ''
-  related_command: ''
-  related_state: ''
-  related_urc: ''
-  coverage_estimate: high
+  condition: "PWRKEY pulled low for at least 1 second, then released, to power on the module"
+  related_command: null
+  related_state: POWER_ON
+  related_urc: "RDY"
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '22'
+    section: "4.2.1. Power on SIM800H&SIM800L"
+    quote: "Customer can power on SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release."
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: "Descriptive text only. Exact min/typ/max bounds may be in Figure 12 (image, not extracted)."
+  applicable_models:
+  - SIM800L
+  tags:
+  - timing
+  - power-on
+  - pwrkey
+  created_at: '2026-10-12T03:00:00Z'
+  updated_at: '2026-10-12T03:00:00Z'
+- id: dat_04_0015
+  category: Timing
+  parameter: "Power-down PWRKEY pull-down time"
+  min: 1000
+  typ: null
+  max: null
+  unit: ms
+  condition: "PWRKEY pulled low for at least 1 second, then released, to power down the module"
+  related_command: null
+  related_state: OFF
+  related_urc: "NORMAL POWER DOWN"
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '23'
+    section: "4.2.2.1. Power down SIM800H&SIM800L by the PWRKEY Pin"
+    quote: "Customer can power down SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release."
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: "Descriptive text only. Exact min/typ/max bounds may be in Figure 13 (image, not extracted)."
+  applicable_models:
+  - SIM800L
+  tags:
+  - timing
+  - power-down
+  - pwrkey
+  created_at: '2026-10-12T03:00:00Z'
+  updated_at: '2026-10-12T03:00:00Z'
+- id: dat_04_0016
+  category: Timing
+  parameter: "Restart wait after STATUS pin low"
+  min: 800
+  typ: null
+  max: null
+  unit: ms
+  condition: "After STATUS pin changes to low level, before power-on again"
+  related_command: null
+  related_state: OFF
+  related_urc: null
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '24'
+    section: "4.2.2.5. Restart SIM800H&SIM800L by PWRKEY Pin"
+    quote: "Wait for at least 800ms after STATUS pin changed to low level."
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: "Descriptive text only. Exact min/typ/max bounds may be in Figure 14 (image, not extracted)."
+  applicable_models:
+  - SIM800L
+  tags:
+  - timing
+  - restart
+  - status
+  created_at: '2026-10-12T03:00:00Z'
+  updated_at: '2026-10-12T03:00:00Z'
+- id: dat_04_0017
+  category: Timing
+  parameter: "RESET pin low power time"
+  min: null
+  typ: 105
+  max: null
+  unit: ms
+  condition: "RESET pin pulled low to reset the module"
+  related_command: null
+  related_state: POWER_ON
+  related_urc: null
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '26'
+    section: "Table 7: Electronic characteristic of the RESET pin"
+    quote: "Low power time 105 ms"
+  source_type: primary
+  confidence: 0.75
+  status: partial
+  conflicts: []
+  notes: "Numeric value taken directly from Table 7 (page 26). No min/max bounds given in the table. related_state set to POWER_ON because reset triggers a fresh boot."
+  applicable_models:
+  - SIM800L
+  tags:
+  - timing
+  - reset
+  - hardware
+  created_at: '2026-10-12T03:00:00Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9001
   category: Timing
-  parameter: VBUS 4.3 5.0 7.0 V
-  value_min: 4.3
-  value_typ: 5.0
-  value_max: 7.0
+  parameter: "VBUS 4.3 5.0 7.0 V"
+  min: 4.3
+  typ: 5.0
+  max: 7.0
   unit: V
   condition: null
-  wake_source: null
-  related_commands: []
-  related_states: []
+  related_command: null
+  related_state: null
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '32'
-    section: Table (V2.02)
-    quote: VBUS 4.3 5.0 7.0 V
+    section: "Table (V2.02)"
+    quote: "VBUS 4.3 5.0 7.0 V"
   source_type: primary
-  confidence: 0.4
-  status: partial
-  conflicts: []
-  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Not a timing parameter; VBUS voltage belongs to dat_16 (Board/EVB) or dat_07 (Hardware)"
+    - field: source.section
+      reason: "'Table (V2.02)' is not a specific section reference"
+  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance (value_min->min, value_typ->typ, value_max->max, related_commands->related_command, related_states->related_state); wake_source and coverage_estimate removed; see D-043."
   applicable_models:
   - SIM800L
-  tags: &id001
-  - timing
-  - extracted-table
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9002
   category: Timing
-  parameter: FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an
-  value_min: 64.0
-  value_typ: 1.0
-  value_max: 3.0
+  parameter: "FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an"
+  min: 64.0
+  typ: 1.0
+  max: 3.0
   unit: kbps
   condition: null
-  wake_source: null
-  related_commands: []
-  related_states: []
+  related_command: null
+  related_state: null
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '38'
-    section: Table (V2.02)
-    quote: FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an
+    section: "Table (V2.02)"
+    quote: "FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an"
   source_type: primary
-  confidence: 0.4
-  status: partial
-  conflicts: []
-  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Not a timing parameter; SIM card speed belongs to dat_13 (SIM Management)"
+    - field: unit
+      reason: "unit kbps is not a timing unit"
+    - field: source.section
+      reason: "'Table (V2.02)' is not a specific section reference"
+  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
   applicable_models:
   - SIM800L
-  tags: *id001
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9003
   category: Timing
-  parameter: VBAT Power supply voltage 3.4 4.0 4.4 V
-  value_min: 3.4
-  value_typ: 4.0
-  value_max: 4.4
+  parameter: "VBAT Power supply voltage 3.4 4.0 4.4 V"
+  min: 3.4
+  typ: 4.0
+  max: 4.4
   unit: V
   condition: null
-  wake_source: null
-  related_commands: []
-  related_states: []
+  related_command: null
+  related_state: null
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '58'
-    section: Table (V2.02)
-    quote: VBAT Power supply voltage 3.4 4.0 4.4 V
+    section: "Table (V2.02)"
+    quote: "VBAT Power supply voltage 3.4 4.0 4.4 V"
   source_type: primary
-  confidence: 0.4
-  status: partial
-  conflicts: []
-  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Not a timing parameter; VBAT voltage belongs to dat_15 (Power) or dat_07 (Hardware)"
+    - field: source.section
+      reason: "'Table (V2.02)' is not a specific section reference"
+  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
   applicable_models:
   - SIM800L
-  tags: *id001
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9004
   category: Timing
-  parameter: I High-level input current -1.0 - 1.0 uA
-  value_min: 1.0
-  value_typ: 1.0
-  value_max: 1.0
+  parameter: "I High-level input current -1.0 - 1.0 uA"
+  min: 1.0
+  typ: 1.0
+  max: 1.0
   unit: uA
   condition: null
-  wake_source: null
-  related_commands: []
-  related_states: []
+  related_command: null
+  related_state: null
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '59'
-    section: Table (V2.02)
-    quote: I High-level input current -1.0 - 1.0 uA
+    section: "Table (V2.02)"
+    quote: "I High-level input current -1.0 - 1.0 uA"
   source_type: primary
-  confidence: 0.4
-  status: partial
-  conflicts: []
-  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Not a timing parameter; input current belongs to dat_07 (Hardware)"
+    - field: min
+      reason: "value 1.0 has no clear relationship to the stated range (-1.0 to 1.0 uA)"
+    - field: source.section
+      reason: "'Table (V2.02)' is not a specific section reference"
+  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
   applicable_models:
   - SIM800L
-  tags: *id001
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9005
   category: Timing
-  parameter: I Low-level input current -1.0 - 1.0 uA
-  value_min: 1.0
-  value_typ: 1.0
-  value_max: 1.0
+  parameter: "I Low-level input current -1.0 - 1.0 uA"
+  min: 1.0
+  typ: 1.0
+  max: 1.0
   unit: uA
   condition: null
-  wake_source: null
-  related_commands: []
-  related_states: []
+  related_command: null
+  related_state: null
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '59'
-    section: Table (V2.02)
-    quote: I Low-level input current -1.0 - 1.0 uA
+    section: "Table (V2.02)"
+    quote: "I Low-level input current -1.0 - 1.0 uA"
   source_type: primary
-  confidence: 0.4
-  status: partial
-  conflicts: []
-  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Not a timing parameter; input current belongs to dat_07 (Hardware)"
+    - field: min
+      reason: "value 1.0 has no clear relationship to the stated range (-1.0 to 1.0 uA)"
+    - field: source.section
+      reason: "'Table (V2.02)' is not a specific section reference"
+  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
   applicable_models:
   - SIM800L
-  tags: *id001
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9006
   category: Timing
-  parameter: I VRTC input current - 3.0 5.0 uA
-  value_min: 3.0
-  value_typ: 4.0
-  value_max: 5.0
+  parameter: "I VRTC input current - 3.0 5.0 uA"
+  min: 3.0
+  typ: 4.0
+  max: 5.0
   unit: uA
   condition: null
-  wake_source: null
-  related_commands: []
-  related_states: []
+  related_command: null
+  related_state: null
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '59'
-    section: Table (V2.02)
-    quote: I VRTC input current - 3.0 5.0 uA
+    section: "Table (V2.02)"
+    quote: "I VRTC input current - 3.0 5.0 uA"
   source_type: primary
-  confidence: 0.4
-  status: partial
-  conflicts: []
-  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Not a timing parameter; VRTC current belongs to dat_15 (Power)"
+    - field: typ
+      reason: "value 4.0 has no clear source in the original text"
+    - field: source.section
+      reason: "'Table (V2.02)' is not a specific section reference"
+  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
   applicable_models:
   - SIM800L
-  tags: *id001
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9007
   category: Timing
-  parameter: Power drop PCL=5 350 mV
-  value_min: 5.0
-  value_typ: 177.5
-  value_max: 350.0
+  parameter: "Power drop PCL=5 350 mV"
+  min: 5.0
+  typ: 177.5
+  max: 350.0
   unit: mV
   condition: null
-  wake_source: null
-  related_commands: []
-  related_states: []
+  related_command: null
+  related_state: null
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '60'
-    section: Table (V2.02)
-    quote: Power drop PCL=5 350 mV
+    section: "Table (V2.02)"
+    quote: "Power drop PCL=5 350 mV"
   source_type: primary
-  confidence: 0.4
-  status: partial
-  conflicts: []
-  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Not a timing parameter; power drop belongs to dat_15 (Power)"
+    - field: min
+      reason: "value 5.0 is PCL level, not a voltage"
+    - field: typ
+      reason: "value 177.5 is a computed midpoint, not a source value"
+    - field: source.section
+      reason: "'Table (V2.02)' is not a specific section reference"
+  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
   applicable_models:
   - SIM800L
-  tags: *id001
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9008
   category: Timing
-  parameter: Power down mode 150 200 uA
-  value_min: 150.0
-  value_typ: 175.0
-  value_max: 200.0
+  parameter: "Power down mode 150 200 uA"
+  min: 150.0
+  typ: 175.0
+  max: 200.0
   unit: uA
   condition: null
-  wake_source: null
-  related_commands: []
-  related_states: []
+  related_command: null
+  related_state: null
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '60'
-    section: Table (V2.02)
-    quote: Power down mode 150 200 uA
+    section: "Table (V2.02)"
+    quote: "Power down mode 150 200 uA"
   source_type: primary
-  confidence: 0.4
-  status: partial
-  conflicts: []
-  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Not a timing parameter; power-down current belongs to dat_15 (Power)"
+    - field: typ
+      reason: "value 175.0 is a computed midpoint, not a source value"
+    - field: source.section
+      reason: "'Table (V2.02)' is not a specific section reference"
+  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
   applicable_models:
   - SIM800L
-  tags: *id001
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9009
   category: Timing
-  parameter: ( BS-PA-MFRMS=9 ) 1.04 mA
-  value_min: 9.0
-  value_typ: 5.02
-  value_max: 1.04
+  parameter: "( BS-PA-MFRMS=9 ) 1.04 mA"
+  min: 9.0
+  typ: 5.02
+  max: 1.04
   unit: mA
   condition: null
-  wake_source: null
-  related_commands: []
-  related_states: []
+  related_command: null
+  related_state: null
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '60'
-    section: Table (V2.02)
-    quote: ( BS-PA-MFRMS=9 ) 1.04 mA
+    section: "Table (V2.02)"
+    quote: "( BS-PA-MFRMS=9 ) 1.04 mA"
   source_type: primary
-  confidence: 0.4
-  status: partial
-  conflicts: []
-  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Not a timing parameter; current consumption belongs to dat_15 (Power)"
+    - field: min
+      reason: "value 9.0 is BS-PA-MFRMS parameter, not a current"
+    - field: typ
+      reason: "value 5.02 is a computed midpoint, not a source value"
+    - field: max
+      reason: "value 1.04 is the source current, mis-assigned to max"
+    - field: source.section
+      reason: "'Table (V2.02)' is not a specific section reference"
+  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
   applicable_models:
   - SIM800L
-  tags: *id001
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9010
   category: Timing
-  parameter: ( BS-PA-MFRMS=5) 1.14 mA
-  value_min: 5.0
-  value_typ: 3.07
-  value_max: 1.14
+  parameter: "( BS-PA-MFRMS=5) 1.14 mA"
+  min: 5.0
+  typ: 3.07
+  max: 1.14
   unit: mA
   condition: null
-  wake_source: null
-  related_commands: []
-  related_states: []
+  related_command: null
+  related_state: null
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '60'
-    section: Table (V2.02)
-    quote: ( BS-PA-MFRMS=5) 1.14 mA
+    section: "Table (V2.02)"
+    quote: "( BS-PA-MFRMS=5) 1.14 mA"
   source_type: primary
-  confidence: 0.4
-  status: partial
-  conflicts: []
-  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Not a timing parameter; current consumption belongs to dat_15 (Power)"
+    - field: min
+      reason: "value 5.0 is BS-PA-MFRMS parameter, not a current"
+    - field: typ
+      reason: "value 3.07 is a computed midpoint, not a source value"
+    - field: max
+      reason: "value 1.14 is the source current, mis-assigned to max"
+    - field: source.section
+      reason: "'Table (V2.02)' is not a specific section reference"
+  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
   applicable_models:
   - SIM800L
-  tags: *id001
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9011
   category: Timing
-  parameter: ( BS-PA-MFRMS=2) 1.57 mA
-  value_min: 2.0
-  value_typ: 1.7850000000000001
-  value_max: 1.57
+  parameter: "( BS-PA-MFRMS=2) 1.57 mA"
+  min: 2.0
+  typ: 1.785
+  max: 1.57
   unit: mA
   condition: null
-  wake_source: null
-  related_commands: []
-  related_states: []
+  related_command: null
+  related_state: null
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '60'
-    section: Table (V2.02)
-    quote: ( BS-PA-MFRMS=2) 1.57 mA
+    section: "Table (V2.02)"
+    quote: "( BS-PA-MFRMS=2) 1.57 mA"
   source_type: primary
-  confidence: 0.4
-  status: partial
-  conflicts: []
-  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Not a timing parameter; current consumption belongs to dat_15 (Power)"
+    - field: min
+      reason: "value 2.0 is BS-PA-MFRMS parameter, not a current"
+    - field: typ
+      reason: "value 1.785 is a computed midpoint, not a source value"
+    - field: max
+      reason: "value 1.57 is the source current, mis-assigned to max"
+    - field: source.section
+      reason: "'Table (V2.02)' is not a specific section reference"
+  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
   applicable_models:
   - SIM800L
-  tags: *id001
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9012
   category: Timing
-  parameter: '[10] GSM 11.10 Station (MS) conformance specification； Part 1： Conformance'
-  value_min: 10.0
-  value_typ: 11.1
-  value_max: 1.0
-  unit: MS
+  parameter: "[10] GSM 11.10 Station (MS) conformance specification; Part 1: Conformance"
+  min: null
+  typ: null
+  max: null
+  unit: null
   condition: null
-  wake_source: null
-  related_commands: []
-  related_states: []
+  related_command: null
+  related_state: null
+  related_urc: null
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '68'
-    section: Table (V2.02)
-    quote: '[10] GSM 11.10 Station (MS) conformance specification； Part 1： Conformance'
+    section: "Table (V2.02)"
+    quote: "[10] GSM 11.10 Station (MS) conformance specification; Part 1: Conformance"
   source_type: primary
-  confidence: 0.4
-  status: partial
-  conflicts: []
-  notes: 'Extracted from V2.02 table row (2+ numeric + unit). Values need manual verification. | limit_reason: PDF timing table limit (12/25)'
+  confidence: 0.0
+  status: unknown
+  conflicts:
+    - field: parameter
+      reason: "Bibliography reference, not a timing parameter"
+    - field: source.section
+      reason: "'Table (V2.02)' is not a specific section reference"
+  notes: "Legacy record. Preserved per R10. Bibliography entry, not a data record. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
   applicable_models:
   - SIM800L
-  tags: *id001
+  tags:
+  - legacy
+  - deprecated
+  - out-of-scope
   created_at: '2026-10-11T17:23:49Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-12T03:00:00Z'
