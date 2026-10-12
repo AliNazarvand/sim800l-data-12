@@ -139,3 +139,26 @@
 - **Cross-ref:** strict=0 soft=0
 - **NOTE:** This is the final corrective script. Further work requires
   manual verification against source PDFs (see PROMPT_COMPLIANCE.md).
+
+## Session 12: v12 FINAL CLOSURE (2026-10-12)
+
+- **Date:** 2026-10-12 (UTC)
+- **Type:** FINAL corrective iteration
+- **Actions:**
+  - `_validation_summary.json` rewritten with correct `overall_status` logic
+    (fixed PowerShell `if/elseif/else` one-liner bug inherited from v10/v11)
+  - `PROMPT_COMPLIANCE.md` corrected:
+    - R16 now says "Session 2..12" (was "2..10")
+    - R22 explicit complete/in-progress count
+    - R19 note clarifies Jalali->Gregorian conversion
+    - Closure notice added at top
+  - No data files modified
+  - No analysis reports modified
+  - No schemas or scripts modified
+- **Real records:** 1128
+- **Documented placeholders:** 3
+- **Partial / Blocked / Deferred / Complete:** 15 / 2 / 1 / 0
+- **Cross-ref:** strict=0 soft=0
+- **Overall:** pass
+- **DECLARATION:** This is the FINAL corrective script.
+  All future work is MANUAL: verify records against source PDFs.

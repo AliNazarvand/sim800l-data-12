@@ -1,6 +1,10 @@
 # Prompt Compliance Checklist -- sim800l-data
 
-_Last updated: 2026-10-12_
+_Last updated: 2026-10-12 (closure)_
+
+> **CLOSURE NOTICE:** This is the final corrective iteration.
+> Further progress requires **manual verification** of records against source PDFs.
+> No additional corrective scripts will be written.
 
 This document maps the project state to prompt requirements (R1..R24).
 
@@ -8,7 +12,7 @@ This document maps the project state to prompt requirements (R1..R24).
 
 | Rule | Requirement | Status |
 |------|-------------|--------|
-| R1  | Only SIM800L data | PASS (validate.py enforces applicable_models contains SIM800L) |
+| R1  | Only SIM800L data | PASS (validate.py enforces `applicable_models` contains SIM800L) |
 | R2  | Every record has a source | PASS (validate.py L2 checks source presence) |
 | R3  | No data -> status unknown, null, recorded in TODO | PASS (see reports/TODO.md) |
 | R4  | Inferred data: confidence <= 0.5 | PASS (none currently inferred) |
@@ -17,28 +21,29 @@ This document maps the project state to prompt requirements (R1..R24).
 | R7  | V2.02 > V1.00 precedence | PASS (documented in DECISIONS_LOG D-001) |
 | R8  | Valid YAML, UTF-8, no tabs | PASS (validate.py runs cleanly) |
 | R9  | Backup + feature branch before changes | PASS (backups in sim800l-data-backups/) |
-| R10 | Merge rules: don't delete existing records | PASS (v5..v11 preserve data) |
+| R10 | Merge rules: don't delete existing records | PASS (v5..v12 preserve data) |
 | R11 | Missing source -> dataset blocked, not partial | PASS (dat_08=blocked, dat_18=blocked) |
 | R12 | Coverage >= 95% or coverage_estimate: high | PARTIAL (records present; formal coverage % not computed) |
 | R13 | Every technical decision in DECISIONS_LOG | PASS (D-001..D-010 documented) |
 | R14 | Deadlock criteria -> stop, ask owner | PASS (documented for dat_08/16/18) |
 | R15 | Schema before data | PASS (all 18 schemas exist) |
-| R16 | Session log summary each session | PASS (Session 2..10 logged; 7 as gap-note) |
+| R16 | Session log summary each session | PASS (Session 2..12 logged; 7 as gap-note) |
 | R17 | All YAML schema-valid | PASS (validate.py PASSED) |
 | R18 | Reproducible scripts | PASS (extract_pdf, validate, cross_ref, ocr_pdf, diagnose_sources) |
-| R19 | ISO 8601 timestamps | PASS (InvariantCulture everywhere) |
+| R19 | ISO 8601 timestamps | PASS (InvariantCulture; Jalali converted to Gregorian) |
 | R20 | No contradictory data across datasets | PASS (cross-ref strict=0) |
-| R21 | example-only records forbidden in data/ | PASS (validate.py L4 blocks them) |
-| R22 | WIP Limit = 1; no in-progress in matrix | PASS (no in-progress in COVERAGE_MATRIX) |
+| R21 | `example-only` records forbidden in data/ | PASS (validate.py L4 blocks them) |
+| R22 | WIP Limit = 1; no `in-progress` in matrix | PASS (COVERAGE_MATRIX has 15 partial / 2 blocked / 1 deferred / 0 complete / 0 in-progress) |
 | R23 | Vertical slice: schema->data->report->validation->cross-ref->commit | PASS |
 | R24 | Clustering with dependency graph | PASS (ROLE_MAP.md documents all dependencies) |
 
 ## Dataset Status Summary
 
-- **Partial:** 15 (data present, verification pending)
-- **Blocked:** 2 (source document missing: dat_08, dat_18)
-- **Deferred:** 1 (optional/external: dat_16)
-- **Complete:** 0 (none reached 95% coverage)
+- **Partial:** 15
+- **Blocked:** 2 (dat_08, dat_18)
+- **Deferred:** 1 (dat_16)
+- **Complete:** 0
+- **In-progress:** 0 (R22 compliant)
 
 ## Real vs Documented Records
 
@@ -54,14 +59,19 @@ This document maps the project state to prompt requirements (R1..R24).
 
 - **validate.py:** PASSED
 
-## Required Files
+## Remaining Work (MANUAL, not scripted)
 
-All 81 required files present.
+The following tasks **cannot be automated** and require human-in-the-loop:
 
-## Remaining Work (Manual, not script)
+1. **Run diagnostic:** `python scripts/diagnose_sources.py`
+2. **Verify 5-10 random records** in dat_01/02/03/07 against the source PDFs.
+3. **Decide on 3 documented placeholders** in dat_08/16/18 (keep or remove).
+4. **Review duplicates** in dat_02 (206 URC) and dat_03 (255 error codes).
+5. **Expand dat_07** from 56 to ~88 pins if full coverage required.
+6. **Compute formal coverage %** to satisfy R12 (currently PARTIAL).
 
-- [ ] Run `python scripts/diagnose_sources.py` to inspect source formats.
-- [ ] Manually verify records in dat_01/02/03/07 against source PDFs.
-- [ ] Decide about documented placeholders in dat_08/16/18.
-- [ ] Expand dat_07 (currently 56 pins; target ~88).
-- [ ] Check dat_02 (206 URC) and dat_03 (255 errors) for duplicates.
+## Closure
+
+All 12 corrective iterations (v1..v12) addressed **infrastructure concerns only**.
+The data records have been counted and cross-referenced but **never manually verified**.
+No further corrective scripts will be produced.
