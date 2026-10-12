@@ -37,3 +37,18 @@
 
 ### Deferred
 - `dat_14`, `dat_16`.
+
+
+<!-- refresh-20261012054641 -->
+## [2026-10-12T05:46:40Z] - Final reconciliation
+
+### Added
+- D-057 status rule (>=90% threshold + explicit overrides).
+- D-058 Cluster A closure.
+- D-059 Cluster B closure.
+- D-060 language policy.
+- reports/EXTRACTION_TEST.md.
+
+### Changed
+- COVERAGE_MATRIX.md, ROLE_MAP.md, README.md, 18 dat_XX_REPORT.md rebuilt.
+- Source names normalized (Series_AT -> Series AT).
