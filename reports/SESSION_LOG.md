@@ -184,3 +184,19 @@
 - **DECLARATION:** This is the **TRULY FINAL** corrective script.
   All future work is MANUAL verification against source PDFs.
   See `MANUAL_VERIFICATION_CHECKLIST.md`.
+
+## Session 14: v14 -- Align Reports with v13 Audit (2026-10-12)
+
+- **Date:** 2026-10-12 (UTC)
+- **Type:** Report correction (no data modification)
+- **Reason:** v13's audit cleared dat_01 and dat_03, but v13's reports still
+  flagged them as issues. This session aligns the reports with reality.
+- **Actions:**
+  - `reports/DATA_INTEGRITY_REPORT.md` rewritten -- dat_01/dat_03 marked PASS
+  - `PROMPT_COMPLIANCE.md` rewritten as single source of truth (no contradictions)
+  - `MANUAL_VERIFICATION_CHECKLIST.md` rewritten -- only real work remains
+  - No data files modified
+- **Verified Clean:** dat_01 (334/334 with '+'), dat_03 (255/255 unique)
+- **Real Issues:** dat_02 (188/206 flagged), dat_07 (56/88 pins)
+- **DECLARATION:** v14 is the last script. Reports now match audit reality.
+  Remaining work is manual: clean dat_02, expand dat_07.
