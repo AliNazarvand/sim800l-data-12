@@ -1,21 +1,15 @@
-# dat_09_REPORT.md
+# dat_09 Report -- SMS
 
-Generated: 2026-10-12T11:29:52Z
+_Last updated: 2026-10-12_
 
-## Summary
+## Status
 
-- Cluster: B
-- Effective status (per D-057): complete
-- Records: 14
-- Complete / Total: 13 / 14 = 92.9%
-- File: data/dat_09_sms.yaml
-
-## Status breakdown
-
-- complete: 13
-- partial: 1
+- **Status:** partial
+- **Source:** AT Manual V1.01
+- **Real records:** 14
+- **Raw records:** 14
+- **Placeholders:** 0
 
 ## Notes
 
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data present. Verification against source PDFs is pending.

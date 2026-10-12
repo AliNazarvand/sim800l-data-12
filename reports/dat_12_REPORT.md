@@ -1,22 +1,15 @@
-# dat_12_REPORT.md
+# dat_12 Report -- Audio
 
-Generated: 2026-10-12T11:29:52Z
+_Last updated: 2026-10-12_
 
-## Summary
+## Status
 
-- Cluster: B
-- Effective status (per D-057): partial
-- Records: 13
-- Complete / Total: 8 / 13 = 61.5%
-- File: data/dat_12_audio.yaml
-
-## Status breakdown
-
-- blocked: 4
-- complete: 8
-- partial: 1
+- **Status:** partial
+- **Source:** AT Manual V1.01
+- **Real records:** 13
+- **Raw records:** 13
+- **Placeholders:** 0
 
 ## Notes
 
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data present. Verification against source PDFs is pending.

@@ -1,5 +1,7 @@
 # Role Map -- sim800l-data
 
+_Last updated: 2026-10-12_
+
 | Dataset | Role | Depends On | Dependents | Status |
 |---------|------|------------|------------|--------|
 | dat_01 | AT Command reference | - | dat_02,03,09,10,11,12,13,17 | partial |
@@ -15,7 +17,7 @@
 | dat_11 | HTTP/FTP/SSL reference | dat_01 | dat_17 | partial |
 | dat_12 | Audio reference | dat_01 | - | partial |
 | dat_13 | SIM Management reference | dat_01, dat_07 | - | partial |
-| dat_14 | Operator/APN reference | External | dat_10 | deferred |
+| dat_14 | Operator/APN reference | external | dat_10 | partial |
 | dat_15 | Power Management reference | V2.02, V1.00 | dat_05 | partial |
 | dat_16 | Board/EVB reference | dat_07 | - | deferred |
 | dat_17 | Certificate/Key Store reference | dat_01, dat_11 | - | partial |

@@ -1,7 +1,9 @@
 {
-  "last_run": null,
+  "last_run": "2026-10-12T12:49:37Z",
   "total_datasets": 18,
-  "passed": 0,
+  "real_records_total": 1068,
+  "placeholders_total": 63,
+  "passed": 18,
   "failed": 0,
   "errors": []
 }

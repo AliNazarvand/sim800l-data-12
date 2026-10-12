@@ -1,21 +1,17 @@
-# dat_15_REPORT.md
+# dat_15 Report -- Power Management
 
-Generated: 2026-10-12T11:29:52Z
+_Last updated: 2026-10-12_
 
-## Summary
+## Status
 
-- Cluster: A
-- Effective status (per D-057): blocked
-- Records: 14
-- Complete / Total: 0 / 14 = 0.0%
-- File: data/dat_15_power_management.yaml
-
-## Status breakdown
-
-- blocked: 1
-- partial: 13
+- **Status:** partial
+- **Source:** V2.02 + V1.00
+- **Real records:** 13
+- **Raw records:** 14
+- **Placeholders:** 1
 
 ## Notes
 
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data present. Verification against source PDFs is pending.
+- 1 placeholder record(s) detected.
+  - dat_15_0001 (source.name='SIM800 Sleep Mode Application Note')

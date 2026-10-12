@@ -56,3 +56,19 @@
   - No data files touched.
 - **dat_01 real records:** 334
 - **dat_07 real records:** 56
+
+## Session 6: Corrective v7 (final closure, 2026-10-12)
+
+- **Date:** 2026-10-12 (UTC)
+- **Actions:**
+  - Improved placeholder detection (unknown version/date excluded)
+  - SOURCE_INVENTORY lists mcc-mnc.com as external source for dat_14
+  - cross_ref.py executed and logged to CROSS_REF_REPORT.md
+  - All 18 reports/dat_XX_REPORT.md regenerated
+  - ROLE_MAP.md regenerated
+  - CHANGELOG.md (root) and reports/CHANGELOG.md updated
+  - README.md updated with current dataset statuses
+  - _validation_summary.json updated
+  - No data files modified
+- **dat_01 real records:** 275
+- **dat_07 real records:** 56

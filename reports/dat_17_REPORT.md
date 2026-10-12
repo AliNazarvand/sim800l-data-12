@@ -1,20 +1,15 @@
-# dat_17_REPORT.md
+# dat_17 Report -- Certificate/Key Store
 
-Generated: 2026-10-12T11:29:52Z
+_Last updated: 2026-10-12_
 
-## Summary
+## Status
 
-- Cluster: B
-- Effective status (per D-057): blocked
-- Records: 9
-- Complete / Total: 0 / 9 = 0.0%
-- File: data/dat_17_certificate_key_store.yaml
-
-## Status breakdown
-
-- blocked: 9
+- **Status:** partial
+- **Source:** AT Manual V1.01
+- **Real records:** 9
+- **Raw records:** 9
+- **Placeholders:** 0
 
 ## Notes
 
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data present. Verification against source PDFs is pending.

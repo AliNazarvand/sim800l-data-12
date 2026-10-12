@@ -1,20 +1,15 @@
-# dat_07_REPORT.md
+# dat_07 Report -- Hardware Reference
 
-Generated: 2026-10-12T11:29:52Z
+_Last updated: 2026-10-12_
 
-## Summary
+## Status
 
-- Cluster: A
-- Effective status (per D-057): complete
-- Records: 56
-- Complete / Total: 56 / 56 = 100.0%
-- File: data/dat_07_hardware_reference.yaml
-
-## Status breakdown
-
-- complete: 56
+- **Status:** partial
+- **Source:** V2.02 + V1.00
+- **Real records:** 56
+- **Raw records:** 56
+- **Placeholders:** 0
 
 ## Notes
 
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data present. Verification against source PDFs is pending.

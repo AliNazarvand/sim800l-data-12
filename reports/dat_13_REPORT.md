@@ -1,20 +1,15 @@
-# dat_13_REPORT.md
+# dat_13 Report -- SIM Management
 
-Generated: 2026-10-12T11:29:52Z
+_Last updated: 2026-10-12_
 
-## Summary
+## Status
 
-- Cluster: B
-- Effective status (per D-057): complete
-- Records: 10
-- Complete / Total: 10 / 10 = 100.0%
-- File: data/dat_13_sim_management.yaml
-
-## Status breakdown
-
-- complete: 10
+- **Status:** partial
+- **Source:** AT Manual V1.01
+- **Real records:** 10
+- **Raw records:** 10
+- **Placeholders:** 0
 
 ## Notes
 
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.
+- Data present. Verification against source PDFs is pending.
