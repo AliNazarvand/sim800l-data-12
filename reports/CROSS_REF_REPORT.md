@@ -1,8 +1,8 @@
-> **Note on L3 counts (2026-10-12, session 9):**
-> `cross_ref.py` reports 303 L3 issues. `validate.py` reports 0 because it
+> **Note on L3 counts (2026-10-12, session 10):**
+> `cross_ref.py` reports 226 L3 issues. `validate.py` reports 0 because it
 > applies a specialist whitelist for HTTP/FTP/SSL/Audio/Cert commands that
-> are out of dat_01 scope. The 303 issues are informational and consistent
-> with the absence of the specialist manuals. See D-050.
+> are out of dat_01 scope. The 226 issues are informational and consistent
+> with the absence of the specialist manuals. See D-050 and D-051.
 # CROSS_REF_REPORT
 
 ## مشکلات (226)

@@ -736,3 +736,27 @@
   - Delete the 303 issues from the report: rejected, would hide real gaps.
   - Add specialist commands to dat_01 without a source: rejected, violates R2.
 - Related rules: R2, R12, R20.
+
+## D-051
+- تاریخ: 1405-07-20T09:00:00Z
+- Context: Session 9 fix had three residual issues:
+  1. YAML 1.1 boolean coercion: `OFF` (and `ON`) as an unquoted scalar is
+     parsed as boolean False (True). This affected dat_04_0015, dat_04_0016
+     (related_state) and dat_05_0001 (state_name), producing three L1
+     schema errors.
+  2. CROSS_REF_REPORT.md header note said 303 L3 issues while the body
+     (produced by cross_ref.py) said 226 — contradictory.
+  3. VALIDATION_REPORT.md was not included in commit faf3997 even though
+     it had recorded the three L1 errors.
+- Decision:
+  - dat_04 and dat_05 are patched: OFF and ON scalar values in
+    related_state / state_name are quoted so they remain strings.
+  - CROSS_REF_REPORT.md header note now says 226 to match the current
+    output of cross_ref.py. The 226 issues remain informational (see
+    D-050).
+  - VALIDATION_REPORT.md is committed together with these fixes.
+  - Rule: any literal `OFF`, `ON`, `YES`, `NO`, `TRUE`, `FALSE` in a
+    YAML scalar field declared as string must be quoted. This applies to
+    all future datasets.
+- Reason: R8 (valid YAML), R17 (schema-valid), R20 (no contradictions).
+- Related rules: R8, R17, R20.
