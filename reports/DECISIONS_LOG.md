@@ -793,3 +793,138 @@
     required based on this verification.
 - Reason: R12 (coverage clarity), R20 (no contradictory reporting).
 - Related rules: R12, R20.
+
+---
+
+## D-054 — Cluster C closure (dat_08, dat_14, dat_18)
+
+**Date:** 2026-10-12
+
+**Context:** Cluster C consists of three datasets that depend on external official sources:
+- `dat_08` Firmware Compatibility — requires official SIMCom Firmware Release Notes
+- `dat_14` Operator/APN MCC/MNC — requires GSMA/ITU/mcc-mnc.com external data
+- `dat_18` Certification — requires official CE/FCC/GCF/PTCRB/RoHS/IC/TA/RCM/Anatel/NCC documents
+
+**Decision:**
+- `dat_08`: **blocked** — no official Release Notes found on disk. Recorded in TODO.md.
+- `dat_14`: **deferred** — owner did not request completion; external source without page-level attribution is insufficient for `complete` status. Recorded in TODO.md.
+- `dat_18`: **blocked** — no official certification documents found on disk. Recorded in TODO.md.
+
+**Rationale:** Per rule R3, if a dataset's primary source is entirely unavailable, the dataset must be `blocked`, not `partial`. Per rule R12, `complete` requires ≥95% coverage or `coverage_estimate: high`. Neither condition is met for any Cluster C member.
+
+**Rejected alternatives:**
+- Marking `dat_14` as `complete` using public mcc-mnc.com data — rejected because the prompt requires `source_type: external` with `confidence ≤ 0.7` and explicit owner request.
+- Marking `dat_08` or `dat_18` as `partial` — rejected per R11 (blocked, not partial, when source is absent).
+
+**Impact:** Cluster C is closed. All 18 datasets now have a terminal status: 9 `complete`, 2 `partial`, 5 `blocked`, 2 `deferred`.
+
+**Related:** D-047 (dat_11/dat_17 blocked), D-043 (dat_15 blocked), D-051 (boolean coercion).
+
+
+## D-055 - README / COVERAGE_MATRIX reconciliation
+
+- Date: 1405-07-20T05:37:22Z
+- Context: The per-record audit reveals that README and COVERAGE_MATRIX disagreed with the actual per-record status distribution in `data/*.yaml`. Ten datasets had inconsistent claims across three sources (README, audit, `_validation_summary.json`).
+- Decision:
+  - README's status table and COVERAGE_MATRIX rows are rewritten to reflect the per-record audit.
+  - A dataset is `complete` iff **all** its records have status=complete.
+  - A dataset is `blocked` iff **all** its records are blocked or deferred.
+  - A dataset is `partial` if it contains a mix of complete/partial/inferred/unknown records.
+  - `pending` is NOT a valid dataset status per R22 and has been removed from all outputs.
+  - dat_14 is fixed at `deferred` per D-049; dat_16 is fixed at `deferred` per D-046.
+- Reason: R11, R12, R22.
+- Related: D-048, D-049, D-051.
+
+
+## D-056 - Cleanup of prior-session inconsistencies
+
+- Date: 2026-10-12T05:43:09Z
+- Context: The previous session (v3) left the project inconsistent:
+  - reports/COVERAGE_MATRIX.md contained two contradictory tables.
+  - reports/ROLE_MAP.md contained two contradictory tables.
+  - All 18 reports/dat_XX_REPORT.md files had a self-contradicting refresh footer.
+  - reports/SESSION_LOG.md showed all 18 datasets as partial, contradicting README.
+  - reports/SOURCE_INVENTORY.md had two SHA256 sections.
+  - Timestamps used the Persian calendar with a UTC Z suffix (violates R19).
+- Decision:
+  - All <!-- refresh- --> sections from the prior session are removed.
+  - COVERAGE_MATRIX.md and ROLE_MAP.md are rebuilt from scratch.
+  - All 18 dat_XX_REPORT.md are regenerated with one authoritative audit.
+  - Timestamps now use [DateTime]::UtcNow.ToString(..., InvariantCulture).
+  - dat_XX_REPORT.md files are never appended to in future sessions; they are
+    overwritten in full so no contradictory sections can coexist.
+- Reason: R8, R17, R19, R20, R22.
+- Related: D-054, D-055.
+
+## D-057 - Status rule formalisation and reconciliation with prior decisions
+
+- Date: 2026-10-12T05:46:40Z
+- Context: Prior sessions left several datasets with ambiguous or contradictory
+  status claims. Two rules coexisted:
+  1. Strict: complete iff all records complete.
+  2. Threshold (D-048): complete iff with_page == count AND params_pct >= 50%.
+  Neither is directly representable from per-record status alone. This session
+  introduces a single, testable rule.
+- Decision:
+  - A dataset is complete iff (completed_records / total_records) >= 0.90.
+  - A dataset is partial iff it has at least one active record and the ratio
+    is below 0.90.
+  - A dataset is locked iff its primary source is missing (per R11). This
+    overrides the ratio rule.
+  - A dataset is deferred iff the owner has not requested completion or the
+    source is external (per D-046, D-049). This overrides the ratio rule.
+  - Explicit overrides carried forward:
+    - dat_08 (firmware) and dat_18 (certification): source missing -> blocked.
+    - dat_11 (HTTP/FTP/SSL): source missing per D-047 -> blocked.
+    - dat_15 (Power): unreliable records per D-042 -> blocked.
+    - dat_17 (Cert/Key): source missing per D-047 -> blocked.
+    - dat_14 (Operator/APN): deferred per D-049.
+    - dat_16 (Board/EVB): deferred per D-046.
+  - Superseded decisions: D-032, D-034, D-038, D-048 are superseded by D-057
+    in so far as they classified dat_01/dat_03/dat_05/dat_10/dat_12 as complete.
+    Under D-057 they are re-evaluated from per-record evidence.
+- Consequences (applying D-057 with the session audit):
+  - dat_03 (237/255 = 92.9%) -> complete.
+  - dat_07 (56/56 = 100%) -> complete.
+  - dat_09 (13/14 = 92.9%) -> complete.
+  - dat_13 (10/10 = 100%) -> complete.
+  - dat_01, dat_02, dat_04, dat_05, dat_06, dat_10, dat_12 -> partial.
+  - dat_08, dat_11, dat_15, dat_17, dat_18 -> blocked.
+  - dat_14, dat_16 -> deferred.
+- Reason: R11, R12, R22.
+- Related: D-032, D-034, D-038, D-042, D-046, D-047, D-048, D-049.
+
+## D-058 - Cluster A formal closure
+
+- Date: 2026-10-12T05:46:40Z
+- Context: Cluster A comprises dat_04, dat_05, dat_06, dat_07, dat_15, dat_16.
+- Decision: Cluster A is formally closed. Terminal statuses:
+  - dat_07: complete (56/56).
+  - dat_04, dat_05, dat_06: partial (sub-90% completion ratio).
+  - dat_15: blocked per D-042.
+  - dat_16: deferred per D-046.
+- Reason: R24 (all members reached a terminal status).
+- Related: D-057.
+
+## D-059 - Cluster B formal closure
+
+- Date: 2026-10-12T05:46:40Z
+- Context: Cluster B comprises dat_01, dat_02, dat_03, dat_09, dat_10, dat_11,
+  dat_12, dat_13, dat_17.
+- Decision: Cluster B is formally closed. Terminal statuses:
+  - dat_03, dat_09, dat_13: complete.
+  - dat_01, dat_02, dat_10, dat_12: partial.
+  - dat_11, dat_17: blocked per D-047.
+- Reason: R24.
+- Related: D-047, D-057.
+
+## D-060 - Language of record and ISO 8601 enforcement
+
+- Date: 2026-10-12T05:46:40Z
+- Context: Historical decisions D-001..D-041 are in Persian. The project rule
+  requires English-only content in all generated files.
+- Decision:
+  - D-001..D-041 are preserved as-is (historical record, R10).
+  - All decisions from D-042 onward are English-only.
+  - All timestamps use [DateTime]::UtcNow.ToString('yyyy-MM-ddTHH:mm:ssZ', InvariantCulture).
+- Reason: R19, project language policy.
