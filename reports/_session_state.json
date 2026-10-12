@@ -1,5 +1,5 @@
 {
-  "current_session": 2,
+  "current_session": 3,
   "current_cluster": "A",
   "wip_limit": 1,
   "datasets": {
@@ -10,17 +10,17 @@
     "dat_05": "partial",
     "dat_06": "partial",
     "dat_07": "partial",
-    "dat_08": "partial",
+    "dat_08": "blocked",
     "dat_09": "partial",
     "dat_10": "partial",
     "dat_11": "partial",
     "dat_12": "partial",
     "dat_13": "partial",
-    "dat_14": "partial",
+    "dat_14": "deferred",
     "dat_15": "partial",
-    "dat_16": "partial",
+    "dat_16": "deferred",
     "dat_17": "partial",
-    "dat_18": "partial"
+    "dat_18": "blocked"
   },
-  "last_updated": "1405-07-20T15:27:29Z"
+  "last_updated": "2026-10-12T12:34:21Z"
 }

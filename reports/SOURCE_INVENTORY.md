@@ -1,10 +1,12 @@
 # Source Inventory -- sim800l-data
 
+_Last updated: 
+
 | Document Name | Version | Date | Path | Status | Type | Notes |
 |---------------|---------|------|------|--------|------|-------|
 | SIM800L_Hardware_Design | V1.00 | 2013-08-20 | sources/originals/SIM800L_Hardware_Design_V1.00.pdf | available | primary | - |
 | SIM800H&SIM800L_Hardware_Design | V2.02 | 2015-07-27 | sources/originals/SIM800H&SIM800L_Hardware_Design_V2.02.PDF | available | primary | Priority source |
-| SIM800 Series AT Command Manual | V1.01 | 2017-09-15 | sources/originals/SIM800 Series_AT Command Manual_V1.01.pdf | available | primary | Needed for dat_01,02,03,09,10,11,12,13,17 |
+| SIM800 Series AT Command Manual | V1.01 | unknown | sources/originals/SIM800 Series_AT Command Manual_V1.01.pdf | available | primary | Date not verified against document (R2: no fabrication) |
 | AT extracted JSON index | - | - | sources/extracted/_at_commands_index.json | available | primary | - |
 | AT extracted full text | - | - | sources/extracted/at_v1_01_full.txt | available | primary | - |
 | HW V2.02 extracted | - | - | sources/extracted/hw_v2_02_full.txt | available | primary | - |

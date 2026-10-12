@@ -1,5 +1,7 @@
 # Gap Report -- sim800l-data
 
+_Last updated: 
+
 ## Missing Sources
 - SIM800 Series TCP/IP AT Command Manual -- needed for dat_10
 - SIM800 Series HTTP AT Command Manual -- needed for dat_11
@@ -14,13 +16,24 @@
 - SIM800 Series Certification Documents -- needed for dat_18
 - GSMA / ITU / mcc-mnc.com -- needed for dat_14
 
-## Blocked
+## Blocked (source missing -> R11)
 - dat_08 (FW release notes missing)
 - dat_18 (cert documents missing)
 
-## Deferred
-- dat_14 (external source)
+## Deferred (optional / external)
+- dat_14 (external source, optional per R6)
 - dat_16 (EVB schematic missing)
 
-## Partial (schema ready)
-- dat_01..dat_07, dat_09..dat_13, dat_15, dat_17
+## Partial (data present, verification pending)
+- dat_02 (206 records)
+- dat_03 (255 records)
+- dat_04 (40 records)
+- dat_05 (31 records)
+- dat_06 (32 records)
+- dat_09 (14 records)
+- dat_10 (24 records)
+- dat_11 (38 records)
+- dat_12 (13 records)
+- dat_13 (10 records)
+- dat_15 (14 records)
+- dat_17 (9 records)
