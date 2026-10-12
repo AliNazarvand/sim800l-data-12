@@ -17,7 +17,7 @@ _Last updated: 2026-10-12_
 | dat_11 | HTTP/FTP/SSL | partial | 38 | 38 | 0 | AT Manual V1.01 | Data present; verification pending |
 | dat_12 | Audio | partial | 13 | 13 | 0 | AT Manual V1.01 | Data present; verification pending |
 | dat_13 | SIM Management | partial | 10 | 10 | 0 | AT Manual V1.01 | Data present; verification pending |
-| dat_14 | Operator/APN | partial | 52 | 52 | 0 | (external) | Data present; verification pending |
+| dat_14 | Operator/APN | partial | 52 | 52 | 0 | external (mcc-mnc.com) | Data present; verification pending |
 | dat_15 | Power Management | partial | 14 | 14 | 0 | V2.02 + V1.00 | Data present; verification pending |
 | dat_16 | Board/EVB | deferred | 1 | 1 | 0 | (missing) | Optional / external source |
 | dat_17 | Certificate/Key Store | partial | 9 | 9 | 0 | AT Manual V1.01 | Data present; verification pending |

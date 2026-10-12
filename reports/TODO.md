@@ -3,10 +3,10 @@
 _Last updated: 2026-10-12_
 
 ## Immediate
-- [ ] Run `python scripts/diagnose_sources.py` to inspect source file formats.
+- [ ] Run `python scripts/diagnose_sources.py` (inspect source formats).
 - [ ] Run `python scripts/validate.py` (4-level).
-- [ ] Run `python scripts/cross_ref.py`.
-- [ ] Spot-check records against source PDFs.
+- [ ] Review CROSS_REF issues (0 warnings).
+- [ ] Spot-check records in each dataset against source PDFs.
 
 ## Record counts (real vs placeholder)
 
@@ -31,9 +31,9 @@ _Last updated: 2026-10-12_
 | dat_17 | partial | 9 | 9 | 0 |
 | dat_18 | blocked | 1 | 1 | 0 |
 
-## Blocked (source missing)
+## Blocked
 - [ ] dat_08 -- source document required
 - [ ] dat_18 -- source document required
 
-## Deferred (optional / external)
+## Deferred
 - [ ] dat_16 -- optional / external source

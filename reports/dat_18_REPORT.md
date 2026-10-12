@@ -6,12 +6,10 @@ _Last updated: 2026-10-12_
 
 - **Status:** blocked
 - **Source:** (missing)
-- **Real records:** 0
+- **Real records:** 1
 - **Raw records:** 1
-- **Placeholders:** 1
+- **Placeholders:** 0
 
 ## Notes
 
 - Source missing (R11). Status remains `blocked`.
-- 1 placeholder record(s) detected.
-  - dat_18_0001 (source.name='SIM800L Certification Documents')

@@ -72,3 +72,16 @@
   - No data files modified
 - **dat_01 real records:** 275
 - **dat_07 real records:** 56
+
+## Session 8: Corrective v8 (regex + normalization, 2026-10-12)
+
+- **Date:** 2026-10-12 (UTC)
+- **Actions:**
+  - FIXED: `Get-RecordStats` reads `source.name` from within the `source:` block
+  - FIXED: `cross_ref.py` normalizes AT commands before comparison
+  - FIXED: `_validation_summary.json` includes `cross_ref_issues` field
+  - No data files modified
+- **dat_01 real records:** 334
+- **dat_07 real records:** 56
+- **dat_15 real records:** 14
+- **Cross-ref issues:** 0

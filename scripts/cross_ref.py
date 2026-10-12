@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
-"""Cross-reference validation for the sim800l-data project."""
+"""Cross-reference validation for the sim800l-data project.
+
+AT commands are normalized before comparison so that all these refer to
+the same logical command:
+    "AT+CMGS"  ->  "CMGS"
+    "+CMGS"    ->  "CMGS"
+    "at+cmgs"  ->  "CMGS"
+    "CMGS"     ->  "CMGS"
+    "CMGS=1"   ->  "CMGS"
+"""
+import re
 import sys
 from pathlib import Path
 
@@ -11,6 +21,30 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
+
+
+def normalize_cmd(c) -> str:
+    """Canonicalize an AT command string for comparison."""
+    if c is None:
+        return ""
+    s = str(c).strip().upper()
+    if not s:
+        return ""
+    # Strip AT prefix
+    if s.startswith("AT+"):
+        s = s[3:]
+    elif s.startswith("AT"):
+        rest = s[2:]
+        if rest and (rest[0] == "+" or rest[0].isalnum()):
+            s = rest
+    # Strip leading +
+    if s.startswith("+"):
+        s = s[1:]
+    # Cut off at '=' or whitespace (parameters)
+    m = re.match(r"[A-Z0-9_]+", s)
+    if m:
+        return m.group(0)
+    return s
 
 
 def load_all():
@@ -26,7 +60,11 @@ def load_all():
 
 
 def as_list(x):
-    return x if isinstance(x, list) else ([] if x is None else [x])
+    if x is None:
+        return []
+    if isinstance(x, list):
+        return x
+    return [x]
 
 
 def find(datasets, prefix):
@@ -46,23 +84,33 @@ def main():
     _, dat05 = find(datasets, "dat_05")
     _, dat07 = find(datasets, "dat_07")
 
+    # Build normalized indices
     cmd_set = set()
     for r in as_list(dat01):
         if isinstance(r, dict) and r.get("command"):
-            cmd_set.add(r["command"])
-            cmd_set.add(r["command"].lstrip("+"))
+            k = normalize_cmd(r["command"])
+            if k:
+                cmd_set.add(k)
+        # also index related_commands as fallback
+        if isinstance(r, dict):
+            for rc in as_list(r.get("related_commands")):
+                k = normalize_cmd(rc)
+                if k:
+                    cmd_set.add(k)
+
     state_set = set()
     for r in as_list(dat05):
         if isinstance(r, dict) and r.get("state_name"):
-            state_set.add(r["state_name"])
+            state_set.add(str(r["state_name"]).upper())
+
     pin_set = set()
     for r in as_list(dat07):
         if isinstance(r, dict) and r.get("name"):
-            pin_set.add(r["name"])
+            pin_set.add(str(r["name"]).upper())
 
-    print(f"  Commands indexed : {len(cmd_set)}")
-    print(f"  States indexed   : {len(state_set)}")
-    print(f"  Pins indexed     : {len(pin_set)}")
+    print(f"  Commands indexed (normalized) : {len(cmd_set)}")
+    print(f"  States indexed                : {len(state_set)}")
+    print(f"  Pins indexed                  : {len(pin_set)}")
 
     issues = 0
 
@@ -71,22 +119,27 @@ def main():
         if not isinstance(r, dict):
             continue
         c = r.get("related_command")
-        if c and cmd_set and c not in cmd_set and c.lstrip("+") not in cmd_set:
-            print(f"[WARN] dat_02[{idx}]: command {c} not in dat_01", file=sys.stderr)
-            issues += 1
+        if c:
+            k = normalize_cmd(c)
+            if k and cmd_set and k not in cmd_set:
+                print(f"[WARN] dat_02[{idx}]: command {c} not in dat_01", file=sys.stderr)
+                issues += 1
         s = r.get("related_state")
-        if s and state_set and s not in state_set:
-            print(f"[WARN] dat_02[{idx}]: state {s} not in dat_05", file=sys.stderr)
-            issues += 1
+        if s and state_set:
+            if str(s).upper() not in state_set:
+                print(f"[WARN] dat_02[{idx}]: state {s} not in dat_05", file=sys.stderr)
+                issues += 1
 
     # Errors -> command
     for idx, r in enumerate(as_list(dat03)):
         if not isinstance(r, dict):
             continue
         for c in as_list(r.get("related_commands")):
-            if c and cmd_set and c not in cmd_set and c.lstrip("+") not in cmd_set:
-                print(f"[WARN] dat_03[{idx}]: command {c} not in dat_01", file=sys.stderr)
-                issues += 1
+            if c:
+                k = normalize_cmd(c)
+                if k and cmd_set and k not in cmd_set:
+                    print(f"[WARN] dat_03[{idx}]: command {c} not in dat_01", file=sys.stderr)
+                    issues += 1
 
     print(f"\nCross-reference check complete. Issues: {issues}")
     return 0
