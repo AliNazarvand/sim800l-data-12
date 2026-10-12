@@ -17,25 +17,23 @@ _Last updated: 2026-10-12_
 - GSMA / ITU / mcc-mnc.com -- needed for dat_14
 
 ## Blocked (source missing -> R11)
-- dat_08 (Firmware Compatibility) -- real=1
-- dat_18 (Certification) -- real=1
+- dat_08 (Firmware Compatibility) -- real=0, documented=1
+- dat_18 (Certification) -- real=0, documented=1
 
 ## Deferred (optional / external)
-- dat_16 (Board/EVB) -- real=1
+- dat_16 (Board/EVB) -- real=0, documented=1
 
 ## Partial (data present, verification pending)
 - dat_01 (334 records)
-- dat_02 (206 records)
-- dat_03 (255 records)
-- dat_04 (40 records)
-- dat_05 (31 records)
-- dat_06 (32 records)
+- dat_02 (205 records)
+- dat_03 (249 records)
+- dat_04 (17 records)
+- dat_05 (20 records)
+- dat_06 (22 records)
 - dat_07 (56 records)
 - dat_09 (14 records)
-- dat_10 (24 records)
-- dat_11 (38 records)
-- dat_12 (13 records)
+- dat_10 (21 records)
+- dat_11 (19 records)
+- dat_12 (9 records)
 - dat_13 (10 records)
-- dat_14 (52 records)
-- dat_15 (14 records)
-- dat_17 (9 records)
+- dat_15 (13 records)

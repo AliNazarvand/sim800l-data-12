@@ -4,19 +4,24 @@ _Last updated: 2026-10-12_
 
 ## Summary
 
-- **Cross-reference issues:** 0
-- **Severity:** warning (does not fail schema validation)
+- **Strict issues:** 0 (command not defined in dat_01)
+- **Soft issues:** 0 (command only mentioned in related_commands)
 - **Normalization:** AT+X / +X / X / ATX=... treated as the same command.
 
 ## cross_ref.py output
 
 ```
 Loaded 18 dataset file(s).
-  Commands indexed (normalized) : 334
-  States indexed                : 19
-  Pins indexed                  : 56
+  Strict commands (defined)        : 334
+  Soft commands (related_commands) : 0
+  States indexed                   : 19
+  Pins indexed                     : 56
 
-Cross-reference check complete. Issues: 0
+Strict issues : 0
+Soft issues   : 0
+Total issues  : 0
+
+Cross-reference check complete. Strict=0  Soft=0
 ```
 
 ## Dataset dependency snapshot

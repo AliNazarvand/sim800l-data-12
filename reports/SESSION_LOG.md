@@ -85,3 +85,19 @@
 - **dat_07 real records:** 56
 - **dat_15 real records:** 14
 - **Cross-ref issues:** 0
+
+## Session 9: Corrective v9 (record-level status + strict cross-ref, 2026-10-12)
+
+- **Date:** 2026-10-12 (UTC)
+- **Actions:**
+  - `Get-RecordStats` reads record-level `status:`; documented placeholders
+    (status=blocked/deferred/unknown/example-only) are excluded from real count
+  - `cross_ref.py` now reports strict (undefined) vs soft (related_commands) separately
+  - Session log numbering: session 7 was implicitly merged into 8, now corrected
+  - No data files modified
+- **dat_01 real records:** 334
+- **dat_07 real records:** 56
+- **dat_08 real:** 0 / documented: 1
+- **dat_16 real:** 0 / documented: 1
+- **dat_18 real:** 0 / documented: 1
+- **Cross-ref:** strict=0 soft=0

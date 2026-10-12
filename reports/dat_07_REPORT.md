@@ -7,8 +7,8 @@ _Last updated: 2026-10-12_
 - **Status:** partial
 - **Source:** V2.02 + V1.00
 - **Real records:** 56
+- **Documented placeholders:** 0
 - **Raw records:** 56
-- **Placeholders:** 0
 
 ## Notes
 

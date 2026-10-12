@@ -7,8 +7,8 @@ _Last updated: 2026-10-12_
 - **Status:** partial
 - **Source:** AT Manual V1.01
 - **Real records:** 14
+- **Documented placeholders:** 0
 - **Raw records:** 14
-- **Placeholders:** 0
 
 ## Notes
 
