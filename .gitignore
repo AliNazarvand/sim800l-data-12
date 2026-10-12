@@ -1,33 +1,8 @@
 __pycache__/
-*.py[cod]
+*.pyc
 .venv/
 venv/
-.pytest_cache/
-.vscode/
-.idea/
-*.swp
-Thumbs.db
+*.egg-info/
 .DS_Store
+Thumbs.db
 *.log
-!reports/*.log
-*.bak
-*~# Auto-generated extraction artifacts
-sources/extracted/figures/**
-!sources/extracted/figures/.gitkeep
-data/_backup_*/
-sources/_backup_*/
-*.pyc
-
-# Backups from local scripts
-data/*.prefix-*
-data/*.bak-*
-*.prefix-*
-*.bak-*
-
-
-# Temporary artifacts (auto-added)
-reports/_backup_editor/
-reports/_staging/
-reports/_backup/
-reports/_validation_summary.json
-reports/_archive/

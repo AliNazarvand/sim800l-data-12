@@ -1,5 +1,7 @@
-SIM800L Knowledge Base
-=======================
-این پایگاه دانش صرفاً برای ماژول SIM800L تهیه شده است.
-تمام رکوردها باید منبع صریح داشته باشند.
-هیچ داده استنتاجی بدون status=inferred مجاز نیست.
+sim800l-data
+
+This project contains structured data extracted from SIMCom documentation
+for the SIM800L module. All source documents remain the property of
+SIMCom Wireless Solutions Limited.
+
+The datasets in this repository are provided for reference purposes only.

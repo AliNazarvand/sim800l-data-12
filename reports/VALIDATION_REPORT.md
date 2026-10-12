@@ -1,25 +1,20 @@
-# VALIDATION_REPORT.md
+# Validation Report -- sim800l-data
 
-Generated: 2026-10-12T11:29:52Z
+## Schema Validation
 
-## Levels
+- Status: Not yet run
+- Command: `python scripts/validate.py`
+- Result: (pending)
 
-- L1: JSON-Schema conformance
-- L2: Business logic
-- L3: Cross-reference
-- L4: Consistency
+## Business Logic Validation
 
-## Result of scripts/validate.py
+- Status: Not yet run
+- Checks: id uniqueness, source presence, applicable_models contains SIM800L
 
-``````text
-Validation: 0 errors (L1=0 L2=0 L3=0 L4=0)
-dat_01 status=b  cross-ref ran=True  specialist_whitelist=46
-``````
+## Cross-Reference Validation
 
-## Error count: 0
+- Status: Not yet run
 
+## Consistency Validation
 
-## Notes
-
-- dat01_status in _validation_summary.json is patched each session.
-- English-only per D-062.
+- Status: Not yet run

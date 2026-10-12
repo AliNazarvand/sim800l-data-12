@@ -1,14 +1,17 @@
-# Note about source PDFs
+# Preflight Note
 
-The two primary Hardware Design PDFs:
+Before starting a work session, run:
 
-- `SIM800L_Hardware_Design_V1.00.pdf`
-- `SIM800H&SIM800L_Hardware_Design_V2.02.PDF`
+```bash
+python tools/preflight.py
+```
 
-are **not committed** to this repository because they are
-proprietary SIMCom documents and may not be redistributed
-(see `NOTICE`). The extracted text versions are available
-under `extracted/`.
+This verifies that all required directories, schemas, and data files exist.
 
-To run `tools/preflight.py` locally, download the PDFs from
-SIMCom and place them in this folder with the exact names above.
+Then run:
+
+```bash
+python scripts/validate.py
+```
+
+for 4-level validation.

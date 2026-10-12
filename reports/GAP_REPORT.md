@@ -1,23 +1,31 @@
-# GAP_REPORT.md
+# Gap Report -- sim800l-data
 
-## Resolved gaps (Phase 2)
+## Missing Sources
 
-- [x] Cluster A hardware datasets (dat_04, dat_05, dat_06, dat_07, dat_15, dat_16) — audited, complete or terminal status assigned.
-- [x] Cluster B AT Command datasets (dat_01, dat_02, dat_03, dat_09, dat_10, dat_12, dat_13) — completed from AT Manual V1.01.
-- [x] Cross-reference within Cluster A and Cluster B — verified.
-- [x] Final validation (L1–L4) — 0 errors.
+- [ ] SIM800 Series TCP/IP AT Command Manual -- needed for dat_10
+- [ ] SIM800 Series HTTP AT Command Manual -- needed for dat_11
+- [ ] SIM800 Series FTP AT Command Manual -- needed for dat_11
+- [ ] SIM800 Series SSL AT Command Manual -- needed for dat_11, dat_17
+- [ ] SIM800 Series Audio AT Command Manual -- needed for dat_12
+- [ ] SIM800 Series SIM AT Command Manual -- needed for dat_13
+- [ ] SIM800L Datasheet -- needed for dat_07, dat_15
+- [ ] SIM800 Series Sleep Mode Application Note -- needed for dat_15
+- [ ] SIM800 Series URC Application Note -- needed for dat_02
+- [ ] SIM800 Series Firmware Release Notes -- needed for dat_08
+- [ ] SIM800 Series Certification Documents -- needed for dat_18
+- [ ] GSMA / ITU / mcc-mnc.com -- needed for dat_14
 
-## Remaining gaps
+## Blocked Datasets
 
-- [ ] `dat_08` Firmware Compatibility — blocked: official Release Notes missing.
-- [ ] `dat_11` HTTP/FTP/SSL — blocked: HTTP, FTP, SSL manuals missing.
-- [ ] `dat_14` Operator/APN MCC/MNC — deferred: external source not requested.
-- [ ] `dat_15` Power Management — blocked: Sleep Mode App Note missing.
-- [ ] `dat_16` Board/EVB — deferred: official EVB document missing.
-- [ ] `dat_17` Certificate/Key Store — blocked: SSL manual missing.
-- [ ] `dat_18` Certification — blocked: official certification documents missing.
+- [ ] dat_08 -- Firmware Release Notes required
+- [ ] dat_18 -- Certification documents required
 
-## Audit note
+## Deferred Datasets
 
-- `extract_pdf.py` and `ocr_pdf.py` have not been fully tested with real scanned PDFs.
-- `cross_ref.py` reports 226 informational L3 issues (whitelist not yet applied).
+- [ ] dat_14 -- External source required (optional)
+- [ ] dat_16 -- EVB schematic not available
+
+## Partial Datasets (schema ready, extraction pending)
+
+- [ ] dat_01, dat_02, dat_03, dat_04, dat_05, dat_06, dat_07
+- [ ] dat_09, dat_10, dat_11, dat_12, dat_13, dat_15, dat_17

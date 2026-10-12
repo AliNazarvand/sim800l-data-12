@@ -1,49 +1,63 @@
 # sim800l-data
 
-Structured data for the SIMCom SIM800L module — schemas, YAML datasets,
-and reproducible validation tooling.
+Structured, traceable, schema-valid datasets for the **SIM800L** module.
 
-## Status
+## Scope
 
-Phase 3 complete.
+- **Only** SIM800L. No SIM800H, SIM900, SIM7000, or other module data unless the source explicitly states it applies to SIM800L.
+- Every record must include `applicable_models` containing `SIM800L`.
+- No synthetic, guessed, or unsourced data.
 
-| status   | count | datasets |
-|----------|-------|----------|
-| complete | 4 | dat_03, dat_07, dat_09, dat_13 |
-| partial  | 7 | dat_01, dat_02, dat_04, dat_05, dat_06, dat_10, dat_12 |
-| blocked  | 5 | dat_08, dat_11, dat_15, dat_17, dat_18 |
-| deferred | 2 | dat_14, dat_16 |
-
-See `reports/COVERAGE_MATRIX.md` for the authoritative table.
-
-## Layout
-
-- `data/` — 18 YAML datasets (`dat_01_*.yaml` .. `dat_18_*.yaml`)
-- `schemas/` — 18 JSON-Schema (Draft-07) files
-- `sources/originals/` — source PDFs
-- `sources/extracted/` — extracted text and tables
-- `reports/` — coverage, decisions, session logs
-- `scripts/` — validation, cross-reference, PDF extraction, OCR
-
-## Scripts
+## Structure
 
 ```
-python scripts/validate.py --root .
-python scripts/cross_ref.py --root .
-python scripts/extract_pdf.py --input sources/originals/file.pdf
-python scripts/ocr_pdf.py --input sources/originals/scanned.pdf
+data/       -- YAML datasets (dat_01 .. dat_18)
+schemas/    -- JSON Schema for each dataset (dataset-specific)
+sources/    -- Original PDFs and extracted text
+reports/    -- Coverage, gaps, decisions, session logs
+scripts/    -- validate.py, extract_pdf.py, cross_ref.py, ocr_pdf.py
+docs/       -- Data dictionary
+tools/      -- Preflight checks
 ```
 
-## Rules
+## Datasets
 
-The project follows rules R1..R24 (see `PHASE_2_REPORT.md` for the
-consolidated rule reference). Every record must:
+| ID | Name | Status |
+|----|------|--------|
+| dat_01 | AT Command | partial |
+| dat_02 | URC | partial |
+| dat_03 | Error Code | partial |
+| dat_04 | Timing & Timeout | partial |
+| dat_05 | State Machine | partial |
+| dat_06 | Init Sequence | partial |
+| dat_07 | Hardware Reference | partial |
+| dat_08 | Firmware Compatibility | blocked |
+| dat_09 | SMS | partial |
+| dat_10 | GPRS/Data | partial |
+| dat_11 | HTTP/FTP/SSL | partial |
+| dat_12 | Audio | partial |
+| dat_13 | SIM Management | partial |
+| dat_14 | Operator/APN | deferred |
+| dat_15 | Power Management | partial |
+| dat_16 | Board/EVB | deferred |
+| dat_17 | Certificate/Key Store | partial |
+| dat_18 | Certification | blocked |
 
-- be attributable to a primary or secondary source with page/quote
-- be schema-valid
-- carry `applicable_models: [SIM800L]`
-- never be `synthetic` or `example-only` inside `data/`
+## Available Sources
+
+- `SIM800L_Hardware_Design_V1.00.pdf` (2013-08-20)
+- `SIM800H&SIM800L_Hardware_Design_V2.02.PDF` (2015-07-27) -- priority
+- `SIM800 Series_AT Command Manual_V1.01.pdf`
+
+## Validation
+
+```bash
+pip install pyyaml jsonschema
+python scripts/validate.py     # 4-level validation
+python scripts/cross_ref.py    # cross-reference checks
+python tools/preflight.py      # artifact presence
+```
 
 ## License
 
-TBD.
+MIT
