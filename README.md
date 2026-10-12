@@ -4,6 +4,13 @@ Structured, traceable, schema-valid datasets for the **SIM800L** module.
 
 _Last updated: 2026-10-12_
 
+## Scope
+
+- **Only** SIM800L. No SIM800H, SIM900, SIM7000, or other module data unless the source explicitly states it applies to SIM800L.
+- Every record includes `applicable_models` containing `SIM800L`.
+- No synthetic, guessed, or unsourced data.
+
+
 ## Datasets (current status)
 
 | ID | Name | Status | Real | Documented |

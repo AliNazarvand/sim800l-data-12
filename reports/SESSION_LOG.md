@@ -73,6 +73,10 @@
 - **dat_01 real records:** 275
 - **dat_07 real records:** 56
 
+## Session 7: (merged into Session 8)
+
+- **Note:** v7 work was committed as part of the v8 session entry.
+  No separate Session 7 log was written. This entry documents the gap.
 ## Session 8: Corrective v8 (regex + normalization, 2026-10-12)
 
 - **Date:** 2026-10-12 (UTC)
@@ -117,3 +121,21 @@
 - **Total real:** 1128
 - **Total documented:** 3
 - **Cross-ref strict=0 soft=0**
+
+## Session 11: v11 (FINAL closure, 2026-10-12)
+
+- **Date:** 2026-10-12 (UTC)
+- **Actions:**
+  - Verified all prompt-required files exist (missing: 0)
+  - Session 7 gap-note inserted
+  - README Scope section restored
+  - validate.py run: PASSED
+  - `_validation_summary.json` enriched with counts
+  - `PROMPT_COMPLIANCE.md` generated
+  - No data files modified
+- **Real records total:** 1128
+- **Documented placeholders:** 3
+- **Partial / Blocked / Deferred:** 15 / 2 / 1
+- **Cross-ref:** strict=0 soft=0
+- **NOTE:** This is the final corrective script. Further work requires
+  manual verification against source PDFs (see PROMPT_COMPLIANCE.md).

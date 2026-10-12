@@ -2,7 +2,12 @@
 
 _Last updated: 2026-10-12_
 
-## validate.py output
+## Status
+
+- **Result:** PASSED
+- **Command:** `python scripts/validate.py`
+
+## Output
 
 ```
 Validation PASSED: all datasets are schema-valid.
@@ -10,5 +15,7 @@ Validation PASSED: all datasets are schema-valid.
 
 ## Notes
 
-- If errors reference `additionalProperties`, some real records have fields not yet declared in the schema.
-- If errors reference `example-only`, remove those records (R21 violation).
+- Level 1: schema validation (jsonschema)
+- Level 2: business logic (id uniqueness, source presence, applicable_models)
+- Level 3: cross-reference (see reports/CROSS_REF_REPORT.md)
+- Level 4: consistency (ISO 8601 timestamps; no example-only/synthetic in data/)
