@@ -594,3 +594,35 @@
   - Keep the existing 11 records as-is: rejected (schema violation, unrelated quotes).
   - Renumber active records as 9000-series: rejected (active data should be in low range).
 - Related rules: R2, R3, R6, R8, R10, R12, R20.
+
+## D-045
+- تاریخ: 1405-07-20T05:00:00Z
+- Context: dat_06_init_sequence.yaml (10 records) had the same class of
+  structural defects as dat_04 and dat_05 before their respective fixes:
+  - Every record had a `coverage_estimate` field, which is not defined in
+    dat_06.schema.yaml.
+  - source.name said "SIM800 Series AT Command Manual" while source.section
+    said "SIM800H&SIM800L_Hardware_Design V2.02" (mixed source).
+  - source.quote values were either ToC lines ("4.2. Power on/off Scenarios...22"),
+    or completely unrelated table captions ("TABLE 9: SERIAL PORT AND USB PIN
+    DEFINITION"), or duplicated across records.
+  - retry_count and failure_action values had no basis in any source.
+- Decision:
+  - dat_06 is rewritten with 15 active records (dat_06_0001..dat_06_0015)
+    covering power-up, SIM init, network registration, PDP, SMS, Data, and
+    Sleep/Wake steps. Data step (AT+CIPSTART) has null page/quote because the
+    recon did not capture the exact CIPSTART section (see R3).
+  - The 10 legacy records are preserved and renumbered dat_06_9001..dat_06_9010
+    with status=unknown, confidence=0.0, conflicts populated.
+  - The current file is archived to reports/_archive/dat_06_legacy_<ts>.yaml.
+  - `coverage_estimate` is removed (not in schema).
+  - source.name corrected to V2.02 for power-up/Sleep steps and to AT Manual
+    V1.01 (date 2013-07-23) for AT-command steps.
+- Reason: R2, R3, R8, R10, R12, R20.
+- Rejected alternatives:
+  - Keep the existing 10 records as-is: rejected (schema violation, mixed
+    source, unrelated quotes, unjustified retry values).
+  - Renumber active records as 9000-series: rejected (active data belongs in
+    the low range for readability).
+  - Fabricate CIPSTART page/quote: rejected; per R3, null is preferred.
+- Related rules: R2, R3, R6, R8, R10, R12, R20.
