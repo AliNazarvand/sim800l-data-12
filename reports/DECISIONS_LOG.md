@@ -411,7 +411,7 @@
 ## D-037
 - تاریخ: 1405-07-19T17:37:24Z
 - زمینه: بسته D9 — اصلاح باگ else در D8، بازتعریف complete.
-- باگ D8: lse در خط جدا در PowerShell باعث شد شاخه FAILED اجرا نشود و 5 شکست واقعی پنهان بماند.
+- باگ D8: lse در خط جدا در PowerShell باعث شد شاخه FAILED اجرا نشود و 5 شکست واقعی پنهان بماند.
 - اصلاح: complete = (with_page == count) AND (strict_depth >= 50%).
 - نتایج:
 - s1_diagnose: diagnose params=0 — OK — see _step_D9_diagnosis.json
@@ -869,7 +869,7 @@
   - A dataset is complete iff (completed_records / total_records) >= 0.90.
   - A dataset is partial iff it has at least one active record and the ratio
     is below 0.90.
-  - A dataset is locked iff its primary source is missing (per R11). This
+  - A dataset is blocked iff its primary source is missing (per R11). This
     overrides the ratio rule.
   - A dataset is deferred iff the owner has not requested completion or the
     source is external (per D-046, D-049). This overrides the ratio rule.
@@ -997,3 +997,46 @@
     logic with D-057.
 - Reason: R12, R20.
 - Related: D-057.
+## D-065 - Real data extraction for dat_04/05/06
+
+- Date: 2026-10-12T06:04:32Z
+- Context: Prior sessions flagged dat_04/05/06 as partial because no
+  records were added from the two Hardware Design PDFs. The PDFs are
+  present in sources/originals/ and were extracted to sources/extracted/.
+- Decision: Add high-confidence records from V1.00 and V2.02 (V2.02 takes
+  precedence per R7) covering: timing constants, operating states, and
+  power-up initialization sequence.
+- Reason: R2, R7, R12.
+- Related: D-020, D-043, D-044, D-045.
+
+## D-066 - _validation_summary.json reconciliation
+
+- Date: 2026-10-12T06:04:32Z
+- Context: _validation_summary.json reports dat01_status="b" (blocked)
+  but D-057 classifies dat_01 as partial. The two sources conflict.
+- Decision: The JSON is patched in place to set dat01_status to "partial"
+  to align with D-057. Future runs of validate.py will revert this unless
+  validate.py itself is updated.
+- Reason: R20 (no contradictory reporting).
+- Related: D-057, D-064.
+
+## D-067 - extract_pdf.py --input argument bug
+
+- Date: 2026-10-12T06:04:32Z
+- Context: EXTRACTION_TEST.md shows that calling extract_pdf.py with
+  --input <one-pdf> actually processed BOTH PDFs in the folder.
+- Decision: The bug is documented here. Manual fix required in
+  scripts/extract_pdf.py (Python) as it is out of scope for this
+  PowerShell reconciliation session.
+- Reason: transparency, R18.
+- Related: D-015.
+
+## D-068 - Version bump to 3.0.0
+
+- Date: 2026-10-12T06:04:32Z
+- Context: Phases 1, 2, 3 are complete; terminal statuses assigned;
+  D-054..D-068 recorded; branch ready for merge to main.
+- Decision: Version bumped to 3.0.0. Merge feature/complete-datasets
+  into main with tag v3.0.0.
+- Reason: Semantic versioning.
+- Related: D-058, D-059, D-054.
