@@ -1089,7 +1089,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "22"
     section: "4.2.1 Power on SIM800H&SIM800L"
     quote: "power on SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release"
@@ -1117,7 +1117,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "23"
     section: "4.2.2.1"
     quote: "power down SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release"
@@ -1145,7 +1145,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "26"
     section: "Table 7 Electronic characteristic of the RESET pin"
     quote: "Low power time 105 ms"
@@ -1173,7 +1173,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "25"
     section: "4.2.2.5 Restart SIM800H&SIM800L by PWRKEY Pin"
     quote: "Wait for at least 800ms after STATUS pin changed to low level"
@@ -1201,7 +1201,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "27"
     section: "4.3.3 Wake Up"
     quote: "serial port will be active after DTR pin is pulled to low level for about 50ms"
@@ -1229,7 +1229,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "27"
     section: "4.3.4 Sleep Mode 2"
     quote: "no data transfer over 5 seconds on the RXD signal"
@@ -1257,7 +1257,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "24"
     section: "4.2.2.3 Over-Voltage or Under-Voltage Power Down"
     quote: "If the voltage <= 3.5V, the following URC will be reported"
@@ -1285,7 +1285,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "24"
     section: "4.2.2.3"
     quote: "If the voltage < 3.4V, the following URC will be reported, and the module will be automatically powered down"
@@ -1296,5 +1296,88 @@
   notes: "Threshold reported as typ."
   applicable_models: ["SIM800L"]
   tags: ["power-supply", "voltage"]
+  created_at: "2026-10-12T00:00:00Z"
+  updated_at: "2026-10-12T00:00:00Z"
+- id: dat_04_0038
+  category: Power-supply
+  parameter: Over-voltage warning threshold
+  min: null
+  typ: 4.3
+  max: null
+  unit: V
+  condition: VBAT rising
+  related_command: AT+CBC
+  related_state: POWER_ON
+  related_urc: "OVER-VOLTAGE WARNNING"
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: "24"
+    section: "4.2.2.3 Over-Voltage or Under-Voltage Power Down"
+    quote: "If the voltage >= 4.3V, the following URC will be reported"
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  conflicts: []
+  notes: "Threshold reported as typ."
+  applicable_models: ["SIM800L"]
+  tags: ["power-supply", "voltage"]
+  created_at: "2026-10-12T00:00:00Z"
+  updated_at: "2026-10-12T00:00:00Z"
+
+- id: dat_04_0039
+  category: Power-supply
+  parameter: Over-voltage power-down threshold
+  min: null
+  typ: 4.4
+  max: null
+  unit: V
+  condition: VBAT rising; module auto power-down
+  related_command: AT+CBC
+  related_state: "OFF"
+  related_urc: "OVER-VOLTAGE POWER DOWN"
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: "24"
+    section: "4.2.2.3"
+    quote: "If the voltage > 4.4V, the following URC will be reported, and the module will be automatically powered down"
+  source_type: primary
+  confidence: 0.95
+  status: complete
+  conflicts: []
+  notes: "Threshold reported as typ."
+  applicable_models: ["SIM800L"]
+  tags: ["power-supply", "voltage"]
+  created_at: "2026-10-12T00:00:00Z"
+  updated_at: "2026-10-12T00:00:00Z"
+
+- id: dat_04_0040
+  category: Power-supply
+  parameter: Over-temperature warning threshold
+  min: null
+  typ: 80
+  max: null
+  unit: C
+  condition: Module temperature rising
+  related_command: AT+CMTE
+  related_state: POWER_ON
+  related_urc: "+CMTE: 1"
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: "24"
+    section: "4.2.2.4 Over-Temperature or Under-Temperature Power Down"
+    quote: "If the temperature >= +80 C, the following URC will be reported"
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: "Temperature monitoring disabled by default; AT+CMTE enables."
+  applicable_models: ["SIM800L"]
+  tags: ["power-supply", "temperature"]
   created_at: "2026-10-12T00:00:00Z"
   updated_at: "2026-10-12T00:00:00Z"

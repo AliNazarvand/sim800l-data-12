@@ -983,7 +983,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "13"
     section: "Table 4 Overview of operating modes"
     quote: ""
@@ -1011,7 +1011,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "13"
     section: "Table 4 Overview of operating modes"
     quote: ""
@@ -1039,7 +1039,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "13"
     section: "Table 4 Overview of operating modes"
     quote: ""
@@ -1067,7 +1067,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "13"
     section: "Table 4 Overview of operating modes"
     quote: ""
@@ -1095,7 +1095,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "13"
     section: "Table 4 Overview of operating modes"
     quote: ""
@@ -1123,7 +1123,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "13"
     section: "Table 4 Overview of operating modes"
     quote: ""
@@ -1151,7 +1151,7 @@
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
-    date: 2015-07-27
+    date: '2015-07-27'
     page: "13"
     section: "Table 4 Overview of operating modes"
     quote: ""
@@ -1162,5 +1162,32 @@
   notes: "State documented in V2.02 Table 4."
   applicable_models: ["SIM800L"]
   tags: ["state", "min_func"]
+  created_at: "2026-10-12T00:00:00Z"
+  updated_at: "2026-10-12T00:00:00Z"
+- id: dat_05_0020
+  category: OperatingMode
+  state_name: "GPRS_ATTACHED"
+  description: "GPRS attached to network; PDP context not yet active."
+  entry_conditions: []
+  exit_conditions: []
+  events: []
+  actions: []
+  related_commands: ["AT+CGATT"]
+  related_urcs: []
+  related_timings: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: "13"
+    section: "Table 4 Overview of operating modes"
+    quote: ""
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: "Intermediate state between REGISTERED and PDP_ACTIVE."
+  applicable_models: ["SIM800L"]
+  tags: ["state", "gprs"]
   created_at: "2026-10-12T00:00:00Z"
   updated_at: "2026-10-12T00:00:00Z"
