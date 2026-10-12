@@ -316,3 +316,37 @@ Generated: 2026-10-11T14:40:26Z
 | dat_17 | AT+SSLSETCERT | 1 |
 | dat_17 | AT+SSLSETKEY | 1 |
 | dat_17 | AT+SSLSETCA | 1 |
+
+## Cluster A — hardware cross-reference (added session 1405-07-20)
+
+Cluster A members: dat_04, dat_05, dat_06, dat_07, dat_15, dat_16.
+
+Record counts (as of the close-out commit):
+- dat_04 (Timing):          29 records
+- dat_05 (State Machine):   23 records
+- dat_06 (Init Sequence):   25 records
+- dat_07 (Hardware):        56 records
+- dat_15 (Power):           14 records (blocked)
+- dat_16 (Board/EVB):       1 records (deferred)
+
+Active cross-references verified:
+
+- dat_04_0014 (Power-on PWRKEY) referenced by dat_05_0002 (POWER_ON)
+  via related_timings, and by dat_06_0001 (power-up step 1) via
+  related_state linkage.
+- dat_04_0015 (Power-down PWRKEY) referenced by dat_05_0001 (OFF) via
+  related_timings.
+- dat_04_0016 (Restart wait 800ms) referenced by dat_05_0001 (OFF).
+- dat_04_0017 (RESET pin low power 105ms) referenced by dat_05_0012
+  (ERROR) context and dat_06_0001-adjacent reset flow.
+- dat_04_0010, dat_04_0012 (DRX on-time) referenced by dat_05_0004
+  (NETWORK_SEARCH) and dat_05_0005 (REGISTERED) via related_timings.
+- dat_05_0010 (SLEEP) referenced by dat_06_0015 (AT+CSCLK=1 step) via
+  related_state.
+
+Status:
+
+- Cross-references within Cluster A: OK, no dangling references.
+- dat_15 remains locked (missing Sleep Mode App Note).
+- dat_16 remains deferred (missing EVB document).
+- The cluster is considered closed for this phase.
