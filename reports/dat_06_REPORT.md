@@ -1,18 +1,18 @@
 # dat_06_REPORT.md
 
-Generated: 2026-10-12T06:09:50Z
+Generated: 2026-10-12T06:14:52Z
 
 ## Summary
 
 - Cluster: A
 - Effective status (per D-057): partial
-- Records: 31
-- Complete / Total: 6 / 31 = 19.4%
+- Records: 32
+- Complete / Total: 7 / 32 = 21.9%
 - File: data/dat_06_init_sequence.yaml
 
 ## Status breakdown
 
-- complete: 6
+- complete: 7
 - partial: 15
 - unknown: 10
 

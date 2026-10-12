@@ -1,18 +1,18 @@
 # dat_04_REPORT.md
 
-Generated: 2026-10-12T06:09:50Z
+Generated: 2026-10-12T06:14:52Z
 
 ## Summary
 
 - Cluster: A
 - Effective status (per D-057): partial
-- Records: 37
-- Complete / Total: 8 / 37 = 21.6%
+- Records: 40
+- Complete / Total: 11 / 40 = 27.5%
 - File: data/dat_04_timing_timeout.yaml
 
 ## Status breakdown
 
-- complete: 8
+- complete: 11
 - partial: 6
 - unknown: 23
 
