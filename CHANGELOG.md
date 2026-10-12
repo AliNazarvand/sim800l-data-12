@@ -4,14 +4,16 @@ _Last updated: 2026-10-12_
 
 ## [Unreleased]
 
-### Fixed (v9)
-- `Get-RecordStats` now reads record-level `status:` — records with `blocked|deferred|unknown|example-only` are documented placeholders, not real
-- `cross_ref.py` separates STRICT (defined in dat_01) from SOFT (only mentioned in related_commands)
-- Session log numbering fixed
+### Fixed (v10)
+- Classification now uses **dataset source availability** (not record-level status):
+  - dat_14 (mcc-mnc.com) and dat_17 (AT Manual) records are **REAL** again
+  - dat_04, dat_11 etc. restored to full real counts
+- Fixed PowerShell `if/elseif/else` expression bug in `_validation_summary.json`
 
 ### Earlier
-- v8: regex fix for source.name; AT command normalization; 202→0 cross-ref warnings
-- v7: 18 dat_XX_REPORT.md regenerated; SOURCE_INVENTORY reflects mcc-mnc.com for dat_14
+- v9: record-level status detection (reverted in v10 for over-aggressiveness)
+- v8: source.name regex fix; AT command normalization
+- v7: 18 dat_XX_REPORT.md regenerated
 - v6: Jalali dates converted to Gregorian ISO 8601
-- v5: dat_01 (334 records) and dat_07 (56 records) restored from oldest backup
-- v4: schema restructure; PHASE_*_REPORT preserved; `example-only` in enum
+- v5: dat_01 (334) and dat_07 (56) restored from oldest backup
+- v4: schema restructure; PHASE_*_REPORT preserved

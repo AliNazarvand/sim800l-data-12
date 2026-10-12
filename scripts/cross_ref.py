@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""Cross-reference validation for the sim800l-data project (v9).
+"""Cross-reference validation for the sim800l-data project (v10).
 
-Strict mode: commands referenced elsewhere must be DEFINED as their own
+Strict mode: commands referenced elsewhere MUST be defined as their own
 record in dat_01 (via the `command:` field).
 
 Soft mode: if a command is only mentioned in dat_01's `related_commands`
-of some other record (but not defined standalone), it is reported as
-INFO, not as an error.
+of some other record, it is reported as INFO, not as an error.
 
-AT commands are normalized:
+AT command normalization:
     "AT+CMGS"  ->  "CMGS"
     "+CMGS"    ->  "CMGS"
     "at+cmgs"  ->  "CMGS"
@@ -83,9 +82,7 @@ def main():
     _, dat05 = find(datasets, "dat_05")
     _, dat07 = find(datasets, "dat_07")
 
-    # STRICT: commands defined standalone in dat_01
     strict_set = set()
-    # SOFT: commands mentioned in related_commands of dat_01
     soft_set = set()
 
     for r in as_list(dat01):
@@ -126,7 +123,7 @@ def main():
         if k in strict_set:
             return
         if k in soft_set:
-            print(f"[INFO] {label}: command {c} defined via related_commands (soft match)", file=sys.stderr)
+            print(f"[INFO] {label}: command {c} via related_commands (soft)", file=sys.stderr)
             soft_issues += 1
         else:
             print(f"[WARN] {label}: command {c} not in dat_01 (strict)", file=sys.stderr)

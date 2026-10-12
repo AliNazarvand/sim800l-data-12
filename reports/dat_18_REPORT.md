@@ -12,6 +12,6 @@ _Last updated: 2026-10-12_
 
 ## Notes
 
-- Source missing (R11). The dataset contains only documented placeholder record(s).
-- Documented placeholders (status=blocked/deferred/unknown): 1
-  - dat_18_0001 (documented: status=blocked, source.name='SIM800L Certification Documents')
+- Source missing (R11). Records are documented placeholders.
+- Documented placeholders: 1
+  - dat_18_0001 (documented: dataset source missing, source.name='SIM800L Certification Documents')

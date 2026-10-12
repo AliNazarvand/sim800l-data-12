@@ -101,3 +101,19 @@
 - **dat_16 real:** 0 / documented: 1
 - **dat_18 real:** 0 / documented: 1
 - **Cross-ref:** strict=0 soft=0
+
+## Session 10: Corrective v10 (fix documented regression, 2026-10-12)
+
+- **Date:** 2026-10-12 (UTC)
+- **Actions:**
+  - Fixed v9's over-aggressive documented classification
+  - Classification now: dataset source availability + valid source.name
+  - Fixed PowerShell `if/elseif/else` expression syntax error
+  - dat_14, dat_17 restored to full real counts
+  - No data files modified
+- **dat_01 real:** 334
+- **dat_14 real:** 52
+- **dat_17 real:** 9
+- **Total real:** 1128
+- **Total documented:** 3
+- **Cross-ref strict=0 soft=0**

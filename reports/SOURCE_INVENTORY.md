@@ -11,7 +11,7 @@ _Last updated: 2026-10-12_
 | AT extracted full text | - | - | sources/extracted/at_v1_01_full.txt | available | primary | - |
 | HW V2.02 extracted | - | - | sources/extracted/hw_v2_02_full.txt | available | primary | - |
 | HW V1.00 extracted | - | - | sources/extracted/hw_v1_00_full.txt | available | primary | - |
-| mcc-mnc.com | - | - | https://www.mcc-mnc.com/ | available | external | Used for dat_14 (0 records) |
+| mcc-mnc.com | - | - | https://www.mcc-mnc.com/ | available | external | Used for dat_14 (52 records) |
 | SIM800 Series TCP/IP AT Command Manual | - | - | - | missing | primary | Needed for dat_10 |
 | SIM800 Series HTTP AT Command Manual | - | - | - | missing | primary | Needed for dat_11 |
 | SIM800 Series FTP AT Command Manual | - | - | - | missing | primary | Needed for dat_11 |

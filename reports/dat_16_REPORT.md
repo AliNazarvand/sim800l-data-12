@@ -13,5 +13,5 @@ _Last updated: 2026-10-12_
 ## Notes
 
 - Deferred (optional / external source required).
-- Documented placeholders (status=blocked/deferred/unknown): 1
-  - dat_16_0001 (documented: status=blocked, source.name='SIM800L EVB Schematic')
+- Documented placeholders: 1
+  - dat_16_0001 (documented: dataset source missing, source.name='SIM800L EVB Schematic')

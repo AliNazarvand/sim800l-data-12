@@ -5,7 +5,7 @@ _Last updated: 2026-10-12_
 ## Summary
 
 - **Strict issues:** 0 (command not defined in dat_01)
-- **Soft issues:** 0 (command only mentioned in related_commands)
+- **Soft issues:** 0 (command only via related_commands)
 - **Normalization:** AT+X / +X / X / ATX=... treated as the same command.
 
 ## cross_ref.py output
