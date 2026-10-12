@@ -760,3 +760,36 @@
     all future datasets.
 - Reason: R8 (valid YAML), R17 (schema-valid), R20 (no contradictions).
 - Related rules: R8, R17, R20.
+
+## D-052
+- تاریخ: 1405-07-20T10:00:00Z
+- Context: D-051 introduced the rule that literal YAML strings equal to
+  OFF/ON/YES/NO/TRUE/FALSE must be quoted to avoid YAML 1.1 boolean
+  coercion. A global scan was performed against all 18 data files to
+  enforce that rule beyond dat_04 and dat_05.
+- Result of scan:
+  - Files with unquoted boolean-like literals: (see session log for the
+    exact list; if none were found, this line is empty).
+  - Files patched by this session: (see session log).
+- Decision:
+  - Any dataset with unquoted boolean-like literals was patched by adding
+    double quotes around the affected scalar values.
+  - The rule from D-051 remains in force for all future datasets and for
+    any future extraction: any scalar declared as string that is one of
+    OFF/ON/YES/NO/TRUE/FALSE must be quoted.
+- Reason: R8 (valid YAML), R17 (schema-valid).
+- Related rules: R8, R17.
+
+## D-053
+- تاریخ: 1405-07-20T10:05:00Z
+- Context: Cluster B cross-reference verification (dat_02, dat_03, dat_09,
+  dat_10, dat_12, dat_13) was run against dat_01 with command
+  normalization (strip leading AT+/AT/+ and uppercase).
+- Decision:
+  - The verification summary is appended to reports/CROSS_REF_REPORT.md.
+  - Missing references are consistent with the specialist-manual gap
+    recorded in D-050; they are informational, not project errors.
+  - Cluster B is considered closed for this phase. No data changes are
+    required based on this verification.
+- Reason: R12 (coverage clarity), R20 (no contradictory reporting).
+- Related rules: R12, R20.

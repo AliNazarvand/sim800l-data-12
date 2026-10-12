@@ -1,31 +1,49 @@
 # sim800l-data
 
-Structured, sourced, reproducible dataset for SIM800L.
+Structured data for the SIMCom SIM800L module — schemas, YAML datasets,
+and reproducible validation tooling.
 
-## Validation
-- L1 (Schema): 0
-- L2 (Business): 0
-- L3 (Cross-ref): 0
-- L4 (Consistency): 0
-- Specialist whitelist size: 46
+## Status
 
-## Coverage Summary
-See reports/COVERAGE_MATRIX.md.
+Phase 2 complete.
 
-## Source Limits (Known PDF Limitations)
-| Dataset | Limit | Reason |
-|---|---|---|
-| dat_03 | 96/255 | PDF appendix limit |
-| dat_04 | 12/25 | PDF timing table limit |
-| dat_10 | 17/24 | AT Manual GPRS limit |
-| dat_11 | 25/38 | Specialist manual required |
-| dat_12 | 9/13 | AT Manual Audio limit |
-| dat_14 | 52/52 | External source only |
-| dat_15 | 13/14 | Power table limit |
+| status   | count | datasets |
+|----------|-------|----------|
+| complete | 8 | dat_01, dat_02, dat_03, dat_05, dat_07, dat_09, dat_10, dat_12, dat_13 |
+| partial  | 2 | dat_04, dat_06 |
+| blocked  | 5 | dat_08, dat_11, dat_15, dat_17, dat_18 |
+| deferred | 2 | dat_14, dat_16 |
 
-## Reports
-- reports/COVERAGE_MATRIX.md
-- reports/PHASE_1_FINAL_TABLE.md
-- reports/DECISIONS_LOG.md
-- reports/SESSION_LOG.md
-- reports/TODO.md
+See `reports/COVERAGE_MATRIX.md` for the authoritative table.
+
+## Layout
+
+- `data/` — 18 YAML datasets (`dat_01_*.yaml` .. `dat_18_*.yaml`)
+- `schemas/` — 18 JSON-Schema (Draft-07) files
+- `sources/originals/` — source PDFs
+- `sources/extracted/` — extracted text and tables
+- `reports/` — coverage, decisions, session logs
+- `scripts/` — validation, cross-reference, PDF extraction, OCR
+
+## Scripts
+
+```
+python scripts/validate.py --root .
+python scripts/cross_ref.py --root .
+python scripts/extract_pdf.py --input sources/originals/file.pdf
+python scripts/ocr_pdf.py --input sources/originals/scanned.pdf
+```
+
+## Rules
+
+The project follows rules R1..R24 (see `PHASE_2_REPORT.md` for the
+consolidated rule reference). Every record must:
+
+- be attributable to a primary or secondary source with page/quote
+- be schema-valid
+- carry `applicable_models: [SIM800L]`
+- never be `synthetic` or `example-only` inside `data/`
+
+## License
+
+TBD.

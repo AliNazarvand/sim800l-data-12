@@ -51,3 +51,25 @@
 ### Notes
 - PowerShell bug fixed: $var: -> {0} format in Write-Host
 - Phase 1 is complete.
+## Sessions 9..11 (1405-07-20)
+
+### Session 9 — matrix rule consistency
+- Clarified COVERAGE_MATRIX rules.
+- Updated dat_03 and dat_05 to `complete`.
+- Deferred dat_14.
+- Reconciled L3 counts (D-048/049/050).
+- Commits: faf3997.
+
+### Session 10 — YAML boolean coercion
+- Fixed unquoted OFF/ON in dat_04 and dat_05.
+- Updated CROSS_REF_REPORT header (303 -> 226).
+- Committed VALIDATION_REPORT.md.
+- Rule captured in D-051.
+- Commits: 5d479dd, f1b9da3.
+
+### Session 11 — final steps
+- Global scan for unquoted boolean-like literals across all 18 datasets.
+- Cluster B cross-reference verification appended to CROSS_REF_REPORT.
+- Final documentation updated (README, PHASE_2_REPORT, CHANGELOG,
+  SESSION_LOG, ROLE_MAP, TODO).
+- Decisions D-052 and D-053 recorded.

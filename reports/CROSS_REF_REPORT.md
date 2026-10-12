@@ -240,3 +240,22 @@
 - Error codes: 255
 - SMS: 14
 - SIM: 10
+## Cluster B verification (session 11)
+
+Cross-reference of commands referenced by Cluster B datasets against
+dat_01 (AT Command DB). A reference is counted as "missing" only if it
+does not normalize to a command present in dat_01.
+
+| dataset | checked | missing | samples |
+|---|---|---|---|| dat_02 | 202 | 0 | - |
+| dat_03 | 0 | 0 | - |
+| dat_09 | 14 | 0 | - |
+| dat_10 | 24 | 3 | AT+CGCONTRDP, AT+CIPDDREM, AT+CEREG |
+| dat_12 | 13 | 4 | AT+CATONE, AT+CADTONE, AT+CLDTONE, AT+CPCMREG |
+| dat_13 | 10 | 0 | - |
+
+Interpretation: "missing" entries are consistent with the fact that
+dat_01 is scoped to the basic AT commands and does not include specialist
+HTTP/FTP/SSL/Audio/Cert commands (see D-050). The 226 informational L3
+issues in this report are not project errors.
+

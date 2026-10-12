@@ -32,3 +32,22 @@
 ## دیتاست‌های بلاک‌شده (به‌روزرسانی)
 - [ ] dat_15 — نیازمند Sleep Mode Application Note؛ ۱۳ رکورد partial قبلی رد شد.
 - [ ] dat_16 Board/EVB - deferred: no official SIMCom EVB schematic/user guide available (external dependency)
+
+## Session 11 closure
+
+- [x] Global scan for unquoted boolean-like literals (D-052).
+- [x] Cluster B cross-ref verification (D-053).
+- [x] Final documentation (README, PHASE_2_REPORT, CHANGELOG, SESSION_LOG, ROLE_MAP).
+- [ ] Merge feature/fix-dat04 -> main and tag v2.0.0.
+
+## Outstanding external sources (blocked)
+
+- [ ] SIM800 Series HTTP / FTP / SSL AT Command Manuals (dat_11, dat_17)
+- [ ] SIM800 Series Sleep Mode Application Note (dat_15)
+- [ ] SIM800 Series Firmware Release Notes (dat_08)
+- [ ] SIM800 Series Certification Documents (dat_18)
+
+## Deferred (no active work until project-owner requests)
+
+- [ ] dat_14 (Operator/APN) — external dataset with no page reference.
+- [ ] dat_16 (Board/EVB) — no official EVB document on disk.
