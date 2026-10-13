@@ -177,3 +177,30 @@ body still showed 40 issues while the v7 note at the bottom showed 0.
 - Backed up `CROSS_REF_REPORT.md` to `CROSS_REF_REPORT.md.v8-backup`.
 - Rewrote the file with the real cross_ref.py output.
 - Fixed the v7 SESSION_LOG branch field.
+---
+<!-- v9-fix RunId=d0968ad4 -->
+
+## D-V9-d0968ad4 (2026-10-13T04:32:50Z)
+
+**Decision**: Two bug fixes plus two first-time artifacts.
+
+**Bug fixes:**
+- **Jalali timestamps**: from v4 through v8, `Get-Date -Format "yyyy-MM-dd..."`
+  returned Jalali dates on this system, violating R19. From v9 onward all
+  timestamps use `[System.Globalization.CultureInfo]::InvariantCulture`.
+- **`eature` typo**: v8's SESSION_LOG entry contained `eature/complete-datasets`
+  instead of `feature/complete-datasets` because a PowerShell `\` inside a
+  here-string is a form-feed escape. Fixed by direct literal replacement.
+
+**New artifacts:**
+- `reports/dat_01_REPORT.md` -- required by the prompt but never written.
+- `reports/_dat_01_migration_candidates.json` -- 2 command tokens
+  found in the archive but absent from `dat_01_at_command.yaml`. These are
+  candidate records for manual review. **No automatic migration** was performed,
+  because R2 requires source-verified records, and the archive's parameter
+  descriptions are low-quality (auto-extracted fragments).
+
+**Follow-up:**
+- Inspect `_at_commands_index.json` and `at_v1_01_full.txt`, cross-check
+  each candidate against the manual, and append only the verified commands
+  to `dat_01_at_command.yaml`.

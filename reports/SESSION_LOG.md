@@ -306,6 +306,20 @@
 - CROSS_REF_REPORT rewritten (body was stale from pre-v7). Backup kept at
   CROSS_REF_REPORT.md.v8-backup.
 - cross_ref.py issues at v8: **0**
-- SESSION_LOG v7 "Git branch: (unknown)" fixed to eature/complete-datasets.
+- SESSION_LOG v7 "Git branch: (unknown)" fixed to feature/complete-datasets.
 - No data files modified.
 - Report-only correction. Data layer unchanged from v7.
+---
+<!-- v9-fix RunId=d0968ad4 -->
+
+## v9 Fix (2026-10-13T04:32:50Z)
+
+- RunId: d0968ad4
+- Backup           : D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\sim800l-data-backup-20261013-043250
+- Fixed Jalali timestamps in CROSS_REF_REPORT.md (was 1405-07-21, now ISO Gregorian).
+- Fixed `eature` typo in SESSION_LOG v8 entry (form-feed escape caused by PowerShell backtick).
+- Created reports/dat_01_REPORT.md (never existed before).
+- Created reports/_dat_01_migration_candidates.json: 2 candidate commands
+  present in the archive but missing from dat_01 (manual review required).
+- **No data files modified**; no records auto-added to dat_01.
+- All future timestamps use [System.Globalization.CultureInfo]::InvariantCulture.

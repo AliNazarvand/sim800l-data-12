@@ -66,3 +66,14 @@ The v5 note above is preserved for audit trail but is INCORRECT.
 - cross-ref issues before fix: 40
 - cross-ref issues after fix : 0
 - Backup of old cross_ref.py: scripts/cross_ref.py.v7-backup
+---
+<!-- v9-fix RunId=d0968ad4 -->
+
+## v9 (2026-10-13T04:32:50Z)
+
+- Jalali timestamps fixed. All timestamps from v9 onward are Gregorian UTC ISO-8601.
+- `eature` typo fixed in SESSION_LOG.md.
+- `reports/dat_01_REPORT.md` created.
+- `reports/_dat_01_migration_candidates.json` created with 2 candidates
+  (commands from archive not yet in dat_01). Manual review required.
+- No change to dataset statuses.
