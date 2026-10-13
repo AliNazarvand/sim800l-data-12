@@ -1090,3 +1090,27 @@
   - Duplicate Session v8 block removed from SESSION_LOG.md.
 - Reason: R8, R17, R20.
 - Related: D-057, D-069.
+---
+<!-- correction RunId=30b16c37 -->
+
+## D-CORRECTION-30b16c37 (1405-07-21T07:48:55Z)
+
+**Decision**: Restore the four polluted reports (COVERAGE_MATRIX, TODO,
+SESSION_LOG, VALIDATION_REPORT) from the last clean git revision, and remove
+any residual synthetic records from the six affected data files.
+
+**Rationale**:
+- R2, R6 forbid synthetic data.
+- R10 requires merge, not overwrite.
+- The previous correction attempt only inspected HEAD, leaving the working
+  tree polluted. This pass fixes that.
+
+**Rejected alternatives**:
+- Filling gaps with new synthetic data (violates R2/R6).
+- Leaving the pollution in place (violates data integrity).
+
+**Follow-ups**:
+- Complete dat_01, dat_04, dat_05, dat_06, dat_10, dat_12 with REAL data
+  from sources/originals/SIM800 Series_AT Command Manual_V1.01.pdf.
+- Resolve the 40 cross-ref issues reported by
+  cross_ref.py.
