@@ -1,0 +1,63 @@
+{
+  "started": "2026-10-12T15:46:37Z",
+  "dat_04_fixed": [
+    {
+      "id": "dat_04_0015",
+      "from": "False",
+      "to": "OFF"
+    },
+    {
+      "id": "dat_04_0016",
+      "from": "False",
+      "to": "OFF"
+    },
+    {
+      "id": "dat_04_0031",
+      "from": "False",
+      "to": "OFF"
+    },
+    {
+      "id": "dat_04_0037",
+      "from": "False",
+      "to": "OFF"
+    },
+    {
+      "id": "dat_04_0039",
+      "from": "False",
+      "to": "OFF"
+    }
+  ],
+  "dat_05_fixed": [
+    {
+      "id": "dat_05_0001",
+      "from": "False",
+      "to": "OFF"
+    },
+    {
+      "id": "dat_05_9001",
+      "from": "False",
+      "to": "OFF"
+    }
+  ],
+  "dat_06_fixed": [
+    {
+      "id": "dat_06_9012",
+      "from": "PWRKEY_LOW",
+      "to": null
+    },
+    {
+      "id": "dat_06_9013",
+      "from": "AT",
+      "to": null
+    }
+  ],
+  "dat_01_removed": [
+    "dat_01_0336",
+    "dat_01_0337",
+    "dat_01_0338",
+    "dat_01_0339"
+  ],
+  "archive_path": "reports\\_archive\\dat_01_garbage_20261012_154638.yaml",
+  "errors": [],
+  "finished": "2026-10-12T15:46:39Z"
+}

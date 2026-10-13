@@ -1,20 +1,7 @@
-# dat_18_REPORT.md
+# dat_18 — Certification
 
-Generated: 2026-10-12T11:29:52Z
+Generated: 2026-10-12T15:42:52Z
 
-## Summary
-
-- Cluster: C
-- Effective status (per D-057): blocked
+- Status: `blocked`
+- Decision: D-054
 - Records: 1
-- Complete / Total: 0 / 1 = 0.0%
-- File: data/dat_18_certification.yaml
-
-## Status breakdown
-
-- blocked: 1
-
-## Notes
-
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

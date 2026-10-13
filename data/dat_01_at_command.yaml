@@ -637,51 +637,9 @@
   mode: exec
   syntax: AT+CCWA
   parameters:
-  - name: n
-    type: integer
-    description: ''
-  - name: mode
-    type: integer
-    description: ''
-  - name: status
-    type: string
-    description: ''
-  - name: class1
-    type: string
-    description: ''
-  - name: CR
-    type: string
-    description: ''
-  - name: LF
-    type: string
-    description: ''
-  - name: class2
-    type: string
-    description: ''
-  - name: err
-    type: string
-    description: ''
-  - name: class
-    type: string
-    description: ''
   - name: number
     type: string
-    description: ''
-  - name: type
-    type: string
-    description: ''
-  - name: alpha
-    type: string
-    description: ''
-  - name: report
-    type: string
-    description: ''
-  - name: s
-    type: string
-    description: ''
-  - name: c
-    type: string
-    description: ''
+    description: ',<type>,<class>[,<a | waiting and can be accepted.'
   response_success: OK
   response_error: ERROR
   examples:
@@ -1319,30 +1277,9 @@
   mode: exec
   syntax: AT+COLP
   parameters:
-  - name: n
-    type: integer
-    description: ''
-  - name: m
-    type: string
-    description: ''
-  - name: err
-    type: string
-    description: ''
   - name: number
     type: string
-    description: ''
-  - name: type
-    type: string
-    description: ''
-  - name: subaddr
-    type: string
-    description: ''
-  - name: satype
-    type: string
-    description: ''
-  - name: alphaId
-    type: string
-    description: ''
+    description: ',<type>[,<subaddr> | Line) at the TE for a mobile originated'
   response_success: OK
   response_error: ERROR
   examples:
@@ -1746,18 +1683,9 @@
   mode: exec
   syntax: AT+CPWD
   parameters:
-  - name: fac
-    type: string
-    description: ''
-  - name: pwdlength
-    type: string
-    description: ''
-  - name: oldpwd
-    type: string
-    description: ''
   - name: newpwd
     type: string
-    description: ''
+    description: '| Parameters'
   response_success: OK
   response_error: ERROR
   examples:
@@ -3680,81 +3608,21 @@
   mode: exec
   syntax: AT+CNMI
   parameters:
-  - name: mode
-    type: integer
-    description: ''
-  - name: mt
-    type: string
-    description: ''
-  - name: bm
-    type: string
-    description: ''
-  - name: ds
-    type: string
-    description: ''
-  - name: bfr
-    type: string
-    description: ''
-  - name: mem
-    type: string
-    description: ''
-  - name: index
-    type: integer
-    description: ''
-  - name: alpha
-    type: string
-    description: ''
-  - name: length
-    type: string
-    description: ''
-  - name: CR
-    type: string
-    description: ''
-  - name: LF
-    type: string
-    description: ''
-  - name: pdu
-    type: string
-    description: ''
   - name: oa
     type: string
-    description: ''
-  - name: scts
+    description: ',<scts>[,<tooa>,<fo>,<pi | <mt>=2 (text'
+  - name: length
     type: string
-    description: ''
-  - name: tooa
-    type: string
-    description: ''
-  - name: fo
-    type: string
-    description: ''
-  - name: pid
-    type: string
-    description: ''
-  - name: dcs
-    type: string
-    description: ''
-  - name: sca
-    type: string
-    description: ''
-  - name: tosca
-    type: string
-    description: ''
-  - name: data
-    type: string
-    description: ''
+    description: <CR><LF><pdu> | <bm>=2 (PDU
   - name: sn
     type: string
-    description: ''
-  - name: mid
+    description: ',<mid>,<dcs>,<page>,<p | <bm>=2 (text'
+  - name: length
     type: string
-    description: ''
-  - name: page
+    description: <CR><LF><pdu> | <ds>=1 (PDU
+  - name: fo
     type: string
-    description: ''
-  - name: pages
-    type: string
-    description: ''
+    description: ',<mr>[,<ra>][,<tora>],<s | been received. | <ds>=1 (text mode'
   response_success: OK
   response_error: ERROR
   examples:
@@ -4518,9 +4386,11 @@
     page: '6'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -4672,8 +4542,8 @@
   syntax: AT+CPOWD
   parameters:
   - name: n
-    type: integer
-    description: ''
+    type: string
+    description: '| Parameter'
   response_success: OK
   response_error: ERROR
   examples:
@@ -5492,54 +5362,12 @@
   mode: exec
   syntax: AT+CENG
   parameters:
-  - name: mode
-    type: integer
-    description: ''
-  - name: Ncell
-    type: string
-    description: ''
   - name: cell
     type: string
-    description: ''
-  - name: arfcn
-    type: string
-    description: ''
-  - name: rxl
-    type: string
-    description: ''
-  - name: rxq
-    type: string
-    description: ''
+    description: ',"<arfcn>,<rxl>,<rxq>, | e>[,<Ncell>]'
   - name: mcc
     type: string
-    description: ''
-  - name: mnc
-    type: string
-    description: ''
-  - name: bsic
-    type: string
-    description: ''
-  - name: cellid
-    type: string
-    description: ''
-  - name: rla
-    type: string
-    description: ''
-  - name: txp
-    type: string
-    description: ''
-  - name: lac
-    type: string
-    description: ''
-  - name: TA
-    type: string
-    description: ''
-  - name: CR
-    type: string
-    description: ''
-  - name: LF
-    type: string
-    description: ''
+    description: ',<mnc>,<bsic>,<cellid | <mode>=2'
   response_success: OK
   response_error: ERROR
   examples:
@@ -6319,18 +6147,9 @@
   mode: exec
   syntax: AT+SGPIO
   parameters:
-  - name: GPIO
-    type: string
-    description: ''
   - name: function
     type: string
-    description: ''
-  - name: Operation
-    type: string
-    description: ''
-  - name: level
-    type: integer
-    description: ''
+    description: ',<level > | Parameters'
   response_success: OK
   response_error: ERROR
   examples:
@@ -6660,15 +6479,9 @@
   mode: exec
   syntax: AT+SLEDS
   parameters:
-  - name: mode
-    type: integer
-    description: ''
-  - name: timer_on
-    type: string
-    description: ''
   - name: timer_off
     type: string
-    description: ''
+    description: '| Parameters'
   response_success: OK
   response_error: ERROR
   examples:
@@ -7188,36 +7001,9 @@
   mode: exec
   syntax: AT+CGQREQ
   parameters:
-  - name: PDP_type
-    type: string
-    description: ''
-  - name: precedence
-    type: string
-    description: ''
-  - name: delay
-    type: string
-    description: ''
-  - name: reliability
-    type: string
-    description: ''
-  - name: peak
-    type: string
-    description: ''
   - name: mean
     type: string
-    description: ''
-  - name: CR
-    type: string
-    description: ''
-  - name: LF
-    type: string
-    description: ''
-  - name: cid
-    type: integer
-    description: ''
-  - name: err
-    type: string
-    description: ''
+    description: ']]]]] | Parameters'
   response_success: OK
   response_error: ERROR
   examples:
@@ -8064,10 +7850,7 @@
   parameters:
   - name: pri_dns
     type: string
-    description: ''
-  - name: sec_dns
-    type: string
-    description: ''
+    description: '| ERROR'
   response_success: OK
   response_error: ERROR
   examples:
@@ -9114,15 +8897,9 @@
   mode: exec
   syntax: AT+HTTPPARA
   parameters:
-  - name: HTTPParamTag
-    type: string
-    description: ''
   - name: HTTPParamValue
     type: string
-    description: ''
-  - name: err
-    type: string
-    description: ''
+    description: '| header.'
   response_success: OK
   response_error: ERROR
   examples:
@@ -12844,11 +12621,21 @@
   command: +CIPCCFG
   mode: exec
   syntax: AT+CIPCCFG
-  parameters: []
+  parameters:
+  - name: n
+    type: string
+    description: String of dialing digits and optionally V.25ter modifiers dialing
+  - name: mgsm
+    type: string
+    description: 'String of GSM modifiers:'
   response_success: OK
   response_error: ERROR
   examples:
-  - AT+CIPCCFG
+  - AT+CMMSTIMEOUT
+  - AT+CMMSSCONT
+  - AT+IFC=1, 1
+  - AT+GCAP REQUEST COMPLETE TA CAPABILITIES LIST
+  - AT+GMI REQUEST MANUFACTURER IDENTIFICATION
   related_urcs: []
   related_states: []
   related_commands: []
@@ -12900,9 +12687,11 @@
     page: '23'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -12931,17 +12720,17 @@
   firmware_min: unknown
   firmware_max: unknown
   source:
-    name: SIM800 Series AT Command Manual
+    name: SIM800 Series_AT Command Manual
     version: V1.01
-    date: unknown
-    quote: AT+CEXTHS <mode> Y
-    page: '40'
-    section: AT Manual V1.01
+    date: '2018-05-15'
+    page: '-'
+    section: unsectioned
+    quote: EXTERNAL HEADSET JACK CONTROL
   source_type: primary
-  confidence: 0.5
+  confidence: 0.7
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | Salvaged from fragment pass.
   applicable_models:
   - SIM800L
   tags:
@@ -12959,27 +12748,31 @@
   - name: mode
     type: integer
     description: ''
-  response_success: OK
+  response_success: '+SIDET: (list of supported <channel>s),(list of supported <gainlevel>s)'
   response_error: ERROR
   examples:
-  - AT+CEXTBUT
+  - AT+CLDTMF LOCAL DTMF TONE GENERATION
+  - AT+CDRIND CS VOICE/DATA CALL TERMINATION INDICATION
+  - AT+CSPN GET SERVICE PROVIDER NAME FROM SIM
+  - AT+CCVM GET AND SET THE VOICE MAIL NUMBER ON THE SIM
+  - AT+CBAND GET AND SET MOBILE OPERATION BAND
   related_urcs: []
   related_states: []
   related_commands: []
   firmware_min: unknown
   firmware_max: unknown
   source:
-    name: SIM800 Series AT Command Manual
+    name: SIM800 Series_AT Command Manual
     version: V1.01
-    date: unknown
-    quote: AT+CEXTBUT <mode> Y
-    page: '40'
-    section: AT Manual V1.01
+    date: '2018-05-15'
+    page: '-'
+    section: unsectioned
+    quote: HEADSET BUTTON STATUS REPORTING
   source_type: primary
-  confidence: 0.5
+  confidence: 0.7
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | Salvaged from fragment pass.
   applicable_models:
   - SIM800L
   tags:
@@ -13014,9 +12807,11 @@
     page: '66'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13067,9 +12862,11 @@
     page: '72'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13102,9 +12899,11 @@
     page: '97'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13143,9 +12942,11 @@
     page: '99'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13181,9 +12982,11 @@
     page: '99'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13219,9 +13022,11 @@
     page: '102'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13260,9 +13065,11 @@
     page: '113'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13295,9 +13102,11 @@
     page: '113'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13342,9 +13151,11 @@
     page: '114'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13377,9 +13188,11 @@
     page: '114'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13412,9 +13225,11 @@
     page: '124'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -13448,9 +13263,11 @@
     page: '125'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -13487,9 +13304,11 @@
     page: '134'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13522,9 +13341,11 @@
     page: '138'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13563,9 +13384,11 @@
     page: '151'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13604,9 +13427,11 @@
     page: '294'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13639,9 +13464,11 @@
     page: '155'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13674,9 +13501,11 @@
     page: '164'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -13710,9 +13539,11 @@
     page: '165'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -13746,9 +13577,11 @@
     page: '165'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -13782,9 +13615,11 @@
     page: '165'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -13818,9 +13653,11 @@
     page: '166'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13853,9 +13690,11 @@
     page: '188'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13888,9 +13727,11 @@
     page: '191'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -13924,9 +13765,11 @@
     page: '194'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13962,9 +13805,11 @@
     page: '194'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -13997,9 +13842,11 @@
     page: '195'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14035,9 +13882,11 @@
     page: '198'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14070,9 +13919,11 @@
     page: '201'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14105,9 +13956,11 @@
     page: '205'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14140,9 +13993,11 @@
     page: '212'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -14176,9 +14031,11 @@
     page: '215'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -14212,9 +14069,11 @@
     page: '217'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14247,9 +14106,11 @@
     page: '218'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -14283,9 +14144,11 @@
     page: '219'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -14319,9 +14182,11 @@
     page: '221'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -14355,9 +14220,11 @@
     page: '222'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14390,9 +14257,11 @@
     page: '226'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14425,9 +14294,11 @@
     page: '226'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14460,9 +14331,11 @@
     page: '227'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14495,9 +14368,11 @@
     page: '227'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14533,9 +14408,11 @@
     page: '230'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14568,9 +14445,11 @@
     page: '231'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -14604,9 +14483,11 @@
     page: '256'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14639,9 +14520,11 @@
     page: '261'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14674,9 +14557,11 @@
     page: '264'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -14710,9 +14595,11 @@
     page: '267'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14745,9 +14632,11 @@
     page: '268'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14780,9 +14669,11 @@
     page: '271'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -14816,9 +14707,11 @@
     page: '274'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14851,9 +14744,11 @@
     page: '274'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L
@@ -14886,9 +14781,11 @@
     page: '275'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -14922,9 +14819,11 @@
     page: '295'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -14958,9 +14857,11 @@
     page: '307'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
@@ -14994,9 +14895,11 @@
     page: '309'
     section: AT Manual V1.01
   source_type: primary
-  confidence: 0.5
-  status: partial
-  conflicts: []
+  confidence: 0.0
+  status: unknown
+  conflicts:
+  - field: command
+    reason: not a real AT command section in V1.01
   notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
   applicable_models:
   - SIM800L

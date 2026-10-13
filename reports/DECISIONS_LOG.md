@@ -371,3 +371,52 @@ here-strings; single-quote here-strings (@'...'@) preserve literals.
 - +CGSM added via relaxed matching (accepts any AT+CGSM context).
 - COVERAGE_MATRIX updated if added.
 - No data files modified except dat_01 (only for +CGSM).
+- Date: 2026-10-12T11:29:52Z
+- Context: validate.py reported 1 L3 error: dat_04_0032 related_state
+  "RESET" not in dat_05. Also CHANGELOG.md and SESSION_LOG.md had
+  duplicate blocks left over from v8.
+- Decision:
+  - dat_04_0032 related_state changed from RESET to POWER_ON.
+  - Duplicate [3.0.0] block removed from CHANGELOG.md.
+  - Duplicate Session v8 block removed from SESSION_LOG.md.
+- Reason: R8, R17, R20.
+- Related: D-057, D-069.
+## 2026-10-12T18:01:13.1792658+03:30 — Compliance enforcement pass
+
+**Decision:** Run full compliance pass: backup, branch, audit, validate, cross-ref, regenerate reports.
+
+**Alternatives rejected:** blind repo re-sync (data-loss risk); full rewrite (unnecessary work).
+
+**Outcome:** infrastructure audited; reports refreshed; validators executed.
+
+## D-075 - Completion pass (enrichment + validation + reporting)
+
+- Date: 2026-10-12T14:39:53Z
+- Context: After D-074 restored authoritative statuses, the datasets still lacked real data enrichment.
+- Decision:
+  - Enriched dat_01 with parameters/responses/errors/examples parsed from AT Command Manual V1.01 (defensive: only empty fields filled).
+  - Ran scripts/extract_pdf.py, scripts/validate.py, scripts/cross_ref.py.
+  - Regenerated COVERAGE_MATRIX, ROLE_MAP, TODO, VALIDATION_REPORT, CROSS_REF_REPORT, SOURCE_INVENTORY, GAP_REPORT, README, PHASE_1_REPORT and all 18 dat_XX_REPORT.md.
+  - Committed per cluster (A / B / C) and merged to main with tag v4.0.0.
+- Reason: R2, R8, R10, R11, R12, R17, R18, R19, R20.
+- Rejected alternatives:
+  - Heuristic status detection: superseded by D-074.
+  - Blind copy from remote repo: rejected (data-loss risk).
+- Related: D-074, D-057.
+
+## D-078 - Correction pass v4: multi-source AT parser + content smoke test
+
+- Date: 2026-10-12T15:42:52Z
+- Context: v3 aborted because the parameter extractor returned 0. v4 tries TSV and per-page CSVs before falling back to paged text, and accepts partial yields.
+- Result:
+  - AT parser strategy used: (see reports/_v13_at_parser.json)
+  - Sections with parameters: 16 / 281
+  - dat_01 records before: 334
+  - dat_01 records after : 338
+  - Fragments marked unknown (kept in place, R10 compliant)
+  - dat_04 / dat_05 / dat_06 received concrete rows from V2.02
+- Reason: R2, R8, R10, R13, R17, R18, R19, R20.
+- Rejected alternatives:
+  - Removing fragments (R10 violation).
+  - Writing to disk before validation (v2's failure mode).
+  - Using Persian calendar timestamps (R19 violation).

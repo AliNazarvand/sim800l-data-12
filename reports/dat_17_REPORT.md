@@ -1,20 +1,7 @@
-# dat_17_REPORT.md
+# dat_17 — Certificate/Key Store
 
-Generated: 2026-10-12T11:29:52Z
+Generated: 2026-10-12T15:42:52Z
 
-## Summary
-
-- Cluster: B
-- Effective status (per D-057): blocked
+- Status: `blocked`
+- Decision: D-047
 - Records: 9
-- Complete / Total: 0 / 9 = 0.0%
-- File: data/dat_17_certificate_key_store.yaml
-
-## Status breakdown
-
-- blocked: 9
-
-## Notes
-
-- Status rule per D-057 (90% threshold with overrides).
-- See reports/COVERAGE_MATRIX.md and reports/DECISIONS_LOG.md.

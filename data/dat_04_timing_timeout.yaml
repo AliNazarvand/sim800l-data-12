@@ -1,14 +1,14 @@
 - id: dat_04_0001
   category: Timing
-  parameter: "Change 300us to 10"
+  parameter: Change 300us to 10
   min: 5.0
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: ""
-  related_command: ""
-  related_state: ""
-  related_urc: ""
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
@@ -20,15 +20,15 @@
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Changelog note, not a timing parameter"
-    - field: source.page
-      reason: "page 8 likely incorrect; Figure 12 is on page 23"
-    - field: source.quote
-      reason: "quote is from Table of Contents, not body text"
-    - field: min
-      reason: "value 5.0 has no clear source (original text says '300us to 10ms')"
-  notes: "Legacy record. Preserved per R10. Malformed parameter and incorrect source metadata. Field coverage_estimate removed (not in schema)."
+  - field: parameter
+    reason: Changelog note, not a timing parameter
+  - field: source.page
+    reason: page 8 likely incorrect; Figure 12 is on page 23
+  - field: source.quote
+    reason: quote is from Table of Contents, not body text
+  - field: min
+    reason: value 5.0 has no clear source (original text says '300us to 10ms')
+  notes: Legacy record. Preserved per R10. Malformed parameter and incorrect source metadata. Field coverage_estimate removed (not in schema).
   applicable_models:
   - SIM800L
   tags:
@@ -39,15 +39,15 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0002
   category: Timing
-  parameter: "Wait for at least 80"
+  parameter: Wait for at least 80
   min: 0.0
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: ""
-  related_command: ""
-  related_state: ""
-  related_urc: ""
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
@@ -59,15 +59,15 @@
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Truncated text; original likely 'Wait for at least 800ms after STATUS pin changes to low level'"
-    - field: min
-      reason: "min is 0.0 but should be 800; value is inconsistent with parameter text"
-    - field: source.page
-      reason: "page 8 likely incorrect; the topic is on page 24"
-    - field: source.quote
-      reason: "quote is from Table of Contents, not body text"
-  notes: "Legacy record. Preserved per R10. Truncated text and incorrect source metadata. The value 800ms is captured correctly in dat_04_0016. Field coverage_estimate removed (not in schema)."
+  - field: parameter
+    reason: Truncated text; original likely 'Wait for at least 800ms after STATUS pin changes to low level'
+  - field: min
+    reason: min is 0.0 but should be 800; value is inconsistent with parameter text
+  - field: source.page
+    reason: page 8 likely incorrect; the topic is on page 24
+  - field: source.quote
+    reason: quote is from Table of Contents, not body text
+  notes: Legacy record. Preserved per R10. Truncated text and incorrect source metadata. The value 800ms is captured correctly in dat_04_0016. Field coverage_estimate removed (not in schema).
   applicable_models:
   - SIM800L
   tags:
@@ -78,15 +78,15 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0003
   category: Timing
-  parameter: "DTR pin is pulled to low level for about 5"
+  parameter: DTR pin is pulled to low level for about 5
   min: 0.0
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: ""
-  related_command: ""
-  related_state: ""
-  related_urc: ""
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
@@ -98,17 +98,17 @@
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Truncated text; original likely 'DTR pin is pulled to low level for about 50ms'"
-    - field: category
-      reason: "Out of scope: DTR wake-up condition belongs to dat_05 (State Machine)"
-    - field: min
-      reason: "min is 0.0 but should be 50"
-    - field: source.page
-      reason: "page 8 likely incorrect; DTR section is on page 27"
-    - field: source.quote
-      reason: "quote is from Table of Contents, not body text"
-  notes: "Legacy record. Preserved per R10. Out-of-scope and truncated. Field coverage_estimate removed (not in schema)."
+  - field: parameter
+    reason: Truncated text; original likely 'DTR pin is pulled to low level for about 50ms'
+  - field: category
+    reason: 'Out of scope: DTR wake-up condition belongs to dat_05 (State Machine)'
+  - field: min
+    reason: min is 0.0 but should be 50
+  - field: source.page
+    reason: page 8 likely incorrect; DTR section is on page 27
+  - field: source.quote
+    reason: quote is from Table of Contents, not body text
+  notes: Legacy record. Preserved per R10. Out-of-scope and truncated. Field coverage_estimate removed (not in schema).
   applicable_models:
   - SIM800L
   tags:
@@ -119,15 +119,15 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0004
   category: Timing
-  parameter: "Only after the DTR pin is pulled to low level for 5"
+  parameter: Only after the DTR pin is pulled to low level for 5
   min: 0.0
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: ""
-  related_command: ""
-  related_state: ""
-  related_urc: ""
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
@@ -139,17 +139,17 @@
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Truncated text; original likely 'Only after the DTR pin is pulled to low level for 50ms'"
-    - field: category
-      reason: "Out of scope: DTR wake-up condition belongs to dat_05 (State Machine)"
-    - field: min
-      reason: "min is 0.0 but should be 50"
-    - field: source.page
-      reason: "page 8 likely incorrect; DTR section is on page 27"
-    - field: source.quote
-      reason: "quote is from Table of Contents, not body text"
-  notes: "Legacy record. Preserved per R10. Out-of-scope and truncated. Field coverage_estimate removed (not in schema)."
+  - field: parameter
+    reason: Truncated text; original likely 'Only after the DTR pin is pulled to low level for 50ms'
+  - field: category
+    reason: 'Out of scope: DTR wake-up condition belongs to dat_05 (State Machine)'
+  - field: min
+    reason: min is 0.0 but should be 50
+  - field: source.page
+    reason: page 8 likely incorrect; DTR section is on page 27
+  - field: source.quote
+    reason: quote is from Table of Contents, not body text
+  notes: Legacy record. Preserved per R10. Out-of-scope and truncated. Field coverage_estimate removed (not in schema).
   applicable_models:
   - SIM800L
   tags:
@@ -160,15 +160,15 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0005
   category: Timing
-  parameter: "SIM card interval advice is greater than"
+  parameter: SIM card interval advice is greater than
   min: 2.0
-  typ: null
-  max: null
+  typ:
+  max:
   unit: s
-  condition: ""
-  related_command: ""
-  related_state: ""
-  related_urc: ""
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
@@ -180,13 +180,13 @@
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Truncated; original says 'SIM card plug-in interval'"
-    - field: category
-      reason: "Out of scope: SIM card insertion timing belongs to dat_13 (SIM Management)"
-    - field: source.section
-      reason: "section value is the document name, not a real section"
-  notes: "Legacy record. Preserved per R10. Out-of-scope. Field coverage_estimate removed (not in schema)."
+  - field: parameter
+    reason: Truncated; original says 'SIM card plug-in interval'
+  - field: category
+    reason: 'Out of scope: SIM card insertion timing belongs to dat_13 (SIM Management)'
+  - field: source.section
+    reason: section value is the document name, not a real section
+  notes: Legacy record. Preserved per R10. Out-of-scope. Field coverage_estimate removed (not in schema).
   applicable_models:
   - SIM800L
   tags:
@@ -197,15 +197,15 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0006
   category: Timing
-  parameter: "GPIO3 28 -"
+  parameter: GPIO3 28 -
   min: 0.29
-  typ: null
-  max: null
+  typ:
+  max:
   unit: s
-  condition: ""
-  related_command: ""
-  related_state: ""
-  related_urc: ""
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
@@ -217,17 +217,17 @@
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Fragmented text; not a valid timing parameter"
-    - field: category
-      reason: "Out of scope: GPIO pin characteristics belong to dat_07 (Hardware)"
-    - field: min
-      reason: "value 0.29 has no clear meaning in this context"
-    - field: source.page
-      reason: "page 8 likely incorrect"
-    - field: source.quote
-      reason: "quote is from Table of Contents, not body text"
-  notes: "Legacy record. Preserved per R10. Out-of-scope and malformed. Field coverage_estimate removed (not in schema)."
+  - field: parameter
+    reason: Fragmented text; not a valid timing parameter
+  - field: category
+    reason: 'Out of scope: GPIO pin characteristics belong to dat_07 (Hardware)'
+  - field: min
+    reason: value 0.29 has no clear meaning in this context
+  - field: source.page
+    reason: page 8 likely incorrect
+  - field: source.quote
+    reason: quote is from Table of Contents, not body text
+  notes: Legacy record. Preserved per R10. Out-of-scope and malformed. Field coverage_estimate removed (not in schema).
   applicable_models:
   - SIM800L
   tags:
@@ -238,15 +238,15 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0007
   category: Timing
-  parameter: "GPIO2"
+  parameter: GPIO2
   min: 0.8
-  typ: null
-  max: null
+  typ:
+  max:
   unit: s
-  condition: ""
-  related_command: ""
-  related_state: ""
-  related_urc: ""
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
@@ -258,15 +258,15 @@
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Just a pin name; no timing semantics"
-    - field: category
-      reason: "Out of scope: GPIO pin characteristics belong to dat_07 (Hardware)"
-    - field: source.page
-      reason: "page 8 likely incorrect"
-    - field: source.quote
-      reason: "quote is from Table of Contents, not body text"
-  notes: "Legacy record. Preserved per R10. Out-of-scope. Field coverage_estimate removed (not in schema)."
+  - field: parameter
+    reason: Just a pin name; no timing semantics
+  - field: category
+    reason: 'Out of scope: GPIO pin characteristics belong to dat_07 (Hardware)'
+  - field: source.page
+    reason: page 8 likely incorrect
+  - field: source.quote
+    reason: quote is from Table of Contents, not body text
+  notes: Legacy record. Preserved per R10. Out-of-scope. Field coverage_estimate removed (not in schema).
   applicable_models:
   - SIM800L
   tags:
@@ -277,15 +277,15 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0008
   category: Timing
-  parameter: "SIM800L is not running"
+  parameter: SIM800L is not running
   min: 64.0
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: ""
-  related_command: ""
-  related_state: ""
-  related_urc: ""
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
@@ -297,13 +297,13 @@
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Not a timing parameter; describes module state"
-    - field: source.page
-      reason: "page 8 likely incorrect; the topic is on page 49"
-    - field: source.quote
-      reason: "quote is from Table of Contents, not body text"
-  notes: "Legacy record. Preserved per R10. Malformed; likely duplicate of DRX data captured in dat_04_0010. Field coverage_estimate removed (not in schema)."
+  - field: parameter
+    reason: Not a timing parameter; describes module state
+  - field: source.page
+    reason: page 8 likely incorrect; the topic is on page 49
+  - field: source.quote
+    reason: quote is from Table of Contents, not body text
+  notes: Legacy record. Preserved per R10. Malformed; likely duplicate of DRX data captured in dat_04_0010. Field coverage_estimate removed (not in schema).
   applicable_models:
   - SIM800L
   tags:
@@ -314,15 +314,15 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0009
   category: Timing
-  parameter: "On/ 80"
+  parameter: On/ 80
   min: 0.0
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: ""
-  related_command: ""
-  related_state: ""
-  related_urc: ""
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
@@ -334,15 +334,15 @@
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Fragmented text; incomplete DRX cycle ('64ms On/ 800ms Off')"
-    - field: min
-      reason: "min is 0.0 but the original text fragment suggests 64ms"
-    - field: source.page
-      reason: "page 8 likely incorrect; the topic is on page 49"
-    - field: source.quote
-      reason: "quote is from Table of Contents, not body text"
-  notes: "Legacy record. Preserved per R10. Malformed; DRX value captured in dat_04_0010. Field coverage_estimate removed (not in schema)."
+  - field: parameter
+    reason: Fragmented text; incomplete DRX cycle ('64ms On/ 800ms Off')
+  - field: min
+    reason: min is 0.0 but the original text fragment suggests 64ms
+  - field: source.page
+    reason: page 8 likely incorrect; the topic is on page 49
+  - field: source.quote
+    reason: quote is from Table of Contents, not body text
+  notes: Legacy record. Preserved per R10. Malformed; DRX value captured in dat_04_0010. Field coverage_estimate removed (not in schema).
   applicable_models:
   - SIM800L
   tags:
@@ -353,31 +353,31 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0010
   category: Timing
-  parameter: "DRX cycle on-time in idle mode (module not registered)"
+  parameter: DRX cycle on-time in idle mode (module not registered)
   min: 64
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: "Module not registered to network"
-  related_command: null
+  condition: Module not registered to network
+  related_command:
   related_state: NETWORK_SEARCH
-  related_urc: null
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '49'
-    section: "Power consumption characteristics"
-    quote: "64ms On/ 800ms Off SIM800H&SIM800L not registered the network"
+    section: Power consumption characteristics
+    quote: 64ms On/ 800ms Off SIM800H&SIM800L not registered the network
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts:
-    - field: parameter
-      reason: "Original parameter name was fragmented; renamed to describe the actual timing value"
-    - field: source.page
-      reason: "Original page (8) was wrong; corrected to 49 based on body text"
-  notes: "Salvaged from legacy record 0010. DRX on-time in idle mode is 64 ms; off-time is 800 ms (see quote). Exact min/typ/max bounds may be in Figure 12 (image)."
+  - field: parameter
+    reason: Original parameter name was fragmented; renamed to describe the actual timing value
+  - field: source.page
+    reason: Original page (8) was wrong; corrected to 49 based on body text
+  notes: Salvaged from legacy record 0010. DRX on-time in idle mode is 64 ms; off-time is 800 ms (see quote). Exact min/typ/max bounds may be in Figure 12 (image).
   applicable_models:
   - SIM800L
   tags:
@@ -388,15 +388,15 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0011
   category: Timing
-  parameter: "On/ 300"
+  parameter: On/ 300
   min: 0.0
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: ""
-  related_command: ""
-  related_state: ""
-  related_urc: ""
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
@@ -408,15 +408,15 @@
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Fragmented text; incomplete DRX cycle ('64ms On/ 3000ms Off')"
-    - field: min
-      reason: "min is 0.0 but original text fragment suggests 64ms"
-    - field: source.page
-      reason: "page 8 likely incorrect; topic is on page 49"
-    - field: source.quote
-      reason: "quote is from Table of Contents, not body text"
-  notes: "Legacy record. Preserved per R10. Malformed; DRX value captured in dat_04_0012. Field coverage_estimate removed (not in schema)."
+  - field: parameter
+    reason: Fragmented text; incomplete DRX cycle ('64ms On/ 3000ms Off')
+  - field: min
+    reason: min is 0.0 but original text fragment suggests 64ms
+  - field: source.page
+    reason: page 8 likely incorrect; topic is on page 49
+  - field: source.quote
+    reason: quote is from Table of Contents, not body text
+  notes: Legacy record. Preserved per R10. Malformed; DRX value captured in dat_04_0012. Field coverage_estimate removed (not in schema).
   applicable_models:
   - SIM800L
   tags:
@@ -427,31 +427,31 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0012
   category: Timing
-  parameter: "DRX cycle on-time in idle mode (module registered)"
+  parameter: DRX cycle on-time in idle mode (module registered)
   min: 64
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: "Module registered to network"
-  related_command: null
+  condition: Module registered to network
+  related_command:
   related_state: REGISTERED
-  related_urc: null
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '49'
-    section: "Power consumption characteristics"
-    quote: "64ms On/ 3000ms Off SIM800H&SIM800L registered to the network"
+    section: Power consumption characteristics
+    quote: 64ms On/ 3000ms Off SIM800H&SIM800L registered to the network
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts:
-    - field: parameter
-      reason: "Original parameter name was fragmented; renamed to describe the actual timing value"
-    - field: source.page
-      reason: "Original page (8) was wrong; corrected to 49 based on body text"
-  notes: "Salvaged from legacy record 0012. DRX on-time in idle mode is 64 ms; off-time is 3000 ms (see quote). Exact min/typ/max bounds may be in Figure 12 (image)."
+  - field: parameter
+    reason: Original parameter name was fragmented; renamed to describe the actual timing value
+  - field: source.page
+    reason: Original page (8) was wrong; corrected to 49 based on body text
+  notes: Salvaged from legacy record 0012. DRX on-time in idle mode is 64 ms; off-time is 3000 ms (see quote). Exact min/typ/max bounds may be in Figure 12 (image).
   applicable_models:
   - SIM800L
   tags:
@@ -462,15 +462,15 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0013
   category: Timing
-  parameter: "On/ 30"
+  parameter: On/ 30
   min: 0.0
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: ""
-  related_command: ""
-  related_state: ""
-  related_urc: ""
+  condition: ''
+  related_command: ''
+  related_state: ''
+  related_urc: ''
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
@@ -482,15 +482,15 @@
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Fragmented text; not a valid DRX or timing value"
-    - field: min
-      reason: "min is 0.0; no source for value"
-    - field: source.page
-      reason: "page 8 likely incorrect"
-    - field: source.quote
-      reason: "quote is from Table of Contents, not body text"
-  notes: "Legacy record. Preserved per R10. Malformed. Field coverage_estimate removed (not in schema)."
+  - field: parameter
+    reason: Fragmented text; not a valid DRX or timing value
+  - field: min
+    reason: min is 0.0; no source for value
+  - field: source.page
+    reason: page 8 likely incorrect
+  - field: source.quote
+    reason: quote is from Table of Contents, not body text
+  notes: Legacy record. Preserved per R10. Malformed. Field coverage_estimate removed (not in schema).
   applicable_models:
   - SIM800L
   tags:
@@ -501,27 +501,27 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0014
   category: Timing
-  parameter: "Power-on PWRKEY pull-down time"
+  parameter: Power-on PWRKEY pull-down time
   min: 1000
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: "PWRKEY pulled low for at least 1 second, then released, to power on the module"
-  related_command: null
+  condition: PWRKEY pulled low for at least 1 second, then released, to power on the module
+  related_command:
   related_state: POWER_ON
-  related_urc: "RDY"
+  related_urc: RDY
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '22'
-    section: "4.2.1. Power on SIM800H&SIM800L"
-    quote: "Customer can power on SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release."
+    section: 4.2.1. Power on SIM800H&SIM800L
+    quote: Customer can power on SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release.
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "Descriptive text only. Exact min/typ/max bounds may be in Figure 12 (image, not extracted)."
+  notes: Descriptive text only. Exact min/typ/max bounds may be in Figure 12 (image, not extracted).
   applicable_models:
   - SIM800L
   tags:
@@ -532,27 +532,27 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0015
   category: Timing
-  parameter: "Power-down PWRKEY pull-down time"
+  parameter: Power-down PWRKEY pull-down time
   min: 1000
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: "PWRKEY pulled low for at least 1 second, then released, to power down the module"
-  related_command: null
+  condition: PWRKEY pulled low for at least 1 second, then released, to power down the module
+  related_command:
   related_state: "OFF"
-  related_urc: "NORMAL POWER DOWN"
+  related_urc: NORMAL POWER DOWN
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '23'
-    section: "4.2.2.1. Power down SIM800H&SIM800L by the PWRKEY Pin"
-    quote: "Customer can power down SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release."
+    section: 4.2.2.1. Power down SIM800H&SIM800L by the PWRKEY Pin
+    quote: Customer can power down SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release.
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "Descriptive text only. Exact min/typ/max bounds may be in Figure 13 (image, not extracted)."
+  notes: Descriptive text only. Exact min/typ/max bounds may be in Figure 13 (image, not extracted).
   applicable_models:
   - SIM800L
   tags:
@@ -563,27 +563,27 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0016
   category: Timing
-  parameter: "Restart wait after STATUS pin low"
+  parameter: Restart wait after STATUS pin low
   min: 800
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
-  condition: "After STATUS pin changes to low level, before power-on again"
-  related_command: null
+  condition: After STATUS pin changes to low level, before power-on again
+  related_command:
   related_state: "OFF"
-  related_urc: null
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '24'
-    section: "4.2.2.5. Restart SIM800H&SIM800L by PWRKEY Pin"
-    quote: "Wait for at least 800ms after STATUS pin changed to low level."
+    section: 4.2.2.5. Restart SIM800H&SIM800L by PWRKEY Pin
+    quote: Wait for at least 800ms after STATUS pin changed to low level.
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "Descriptive text only. Exact min/typ/max bounds may be in Figure 14 (image, not extracted)."
+  notes: Descriptive text only. Exact min/typ/max bounds may be in Figure 14 (image, not extracted).
   applicable_models:
   - SIM800L
   tags:
@@ -594,27 +594,27 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_0017
   category: Timing
-  parameter: "RESET pin low power time"
-  min: null
+  parameter: RESET pin low power time
+  min:
   typ: 105
-  max: null
+  max:
   unit: ms
-  condition: "RESET pin pulled low to reset the module"
-  related_command: null
+  condition: RESET pin pulled low to reset the module
+  related_command:
   related_state: POWER_ON
-  related_urc: null
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '26'
-    section: "Table 7: Electronic characteristic of the RESET pin"
-    quote: "Low power time 105 ms"
+    section: 'Table 7: Electronic characteristic of the RESET pin'
+    quote: Low power time 105 ms
   source_type: primary
   confidence: 0.75
   status: partial
   conflicts: []
-  notes: "Numeric value taken directly from Table 7 (page 26). No min/max bounds given in the table. related_state set to POWER_ON because reset triggers a fresh boot."
+  notes: Numeric value taken directly from Table 7 (page 26). No min/max bounds given in the table. related_state set to POWER_ON because reset triggers a fresh boot.
   applicable_models:
   - SIM800L
   tags:
@@ -625,31 +625,31 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9001
   category: Timing
-  parameter: "VBUS 4.3 5.0 7.0 V"
+  parameter: VBUS 4.3 5.0 7.0 V
   min: 4.3
   typ: 5.0
   max: 7.0
   unit: V
-  condition: null
-  related_command: null
-  related_state: null
-  related_urc: null
+  condition:
+  related_command:
+  related_state:
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '32'
-    section: "Table (V2.02)"
-    quote: "VBUS 4.3 5.0 7.0 V"
+    section: Table (V2.02)
+    quote: VBUS 4.3 5.0 7.0 V
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Not a timing parameter; VBUS voltage belongs to dat_16 (Board/EVB) or dat_07 (Hardware)"
-    - field: source.section
-      reason: "'Table (V2.02)' is not a specific section reference"
-  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance (value_min->min, value_typ->typ, value_max->max, related_commands->related_command, related_states->related_state); wake_source and coverage_estimate removed; see D-043."
+  - field: parameter
+    reason: Not a timing parameter; VBUS voltage belongs to dat_16 (Board/EVB) or dat_07 (Hardware)
+  - field: source.section
+    reason: "'Table (V2.02)' is not a specific section reference"
+  notes: Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance (value_min->min, value_typ->typ, value_max->max, related_commands->related_command, related_states->related_state); wake_source and coverage_estimate removed; see D-043.
   applicable_models:
   - SIM800L
   tags:
@@ -660,33 +660,33 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9002
   category: Timing
-  parameter: "FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an"
+  parameter: FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an
   min: 64.0
   typ: 1.0
   max: 3.0
   unit: kbps
-  condition: null
-  related_command: null
-  related_state: null
-  related_urc: null
+  condition:
+  related_command:
+  related_state:
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '38'
-    section: "Table (V2.02)"
-    quote: "FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an"
+    section: Table (V2.02)
+    quote: FAST 64 kbps SIM card. Both 1.8V and 3.0V SIM card are supported. The SIM interface is powered from an
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Not a timing parameter; SIM card speed belongs to dat_13 (SIM Management)"
-    - field: unit
-      reason: "unit kbps is not a timing unit"
-    - field: source.section
-      reason: "'Table (V2.02)' is not a specific section reference"
-  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
+  - field: parameter
+    reason: Not a timing parameter; SIM card speed belongs to dat_13 (SIM Management)
+  - field: unit
+    reason: unit kbps is not a timing unit
+  - field: source.section
+    reason: "'Table (V2.02)' is not a specific section reference"
+  notes: Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043.
   applicable_models:
   - SIM800L
   tags:
@@ -697,31 +697,31 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9003
   category: Timing
-  parameter: "VBAT Power supply voltage 3.4 4.0 4.4 V"
+  parameter: VBAT Power supply voltage 3.4 4.0 4.4 V
   min: 3.4
   typ: 4.0
   max: 4.4
   unit: V
-  condition: null
-  related_command: null
-  related_state: null
-  related_urc: null
+  condition:
+  related_command:
+  related_state:
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '58'
-    section: "Table (V2.02)"
-    quote: "VBAT Power supply voltage 3.4 4.0 4.4 V"
+    section: Table (V2.02)
+    quote: VBAT Power supply voltage 3.4 4.0 4.4 V
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Not a timing parameter; VBAT voltage belongs to dat_15 (Power) or dat_07 (Hardware)"
-    - field: source.section
-      reason: "'Table (V2.02)' is not a specific section reference"
-  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
+  - field: parameter
+    reason: Not a timing parameter; VBAT voltage belongs to dat_15 (Power) or dat_07 (Hardware)
+  - field: source.section
+    reason: "'Table (V2.02)' is not a specific section reference"
+  notes: Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043.
   applicable_models:
   - SIM800L
   tags:
@@ -732,33 +732,33 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9004
   category: Timing
-  parameter: "I High-level input current -1.0 - 1.0 uA"
+  parameter: I High-level input current -1.0 - 1.0 uA
   min: 1.0
   typ: 1.0
   max: 1.0
   unit: uA
-  condition: null
-  related_command: null
-  related_state: null
-  related_urc: null
+  condition:
+  related_command:
+  related_state:
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '59'
-    section: "Table (V2.02)"
-    quote: "I High-level input current -1.0 - 1.0 uA"
+    section: Table (V2.02)
+    quote: I High-level input current -1.0 - 1.0 uA
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Not a timing parameter; input current belongs to dat_07 (Hardware)"
-    - field: min
-      reason: "value 1.0 has no clear relationship to the stated range (-1.0 to 1.0 uA)"
-    - field: source.section
-      reason: "'Table (V2.02)' is not a specific section reference"
-  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
+  - field: parameter
+    reason: Not a timing parameter; input current belongs to dat_07 (Hardware)
+  - field: min
+    reason: value 1.0 has no clear relationship to the stated range (-1.0 to 1.0 uA)
+  - field: source.section
+    reason: "'Table (V2.02)' is not a specific section reference"
+  notes: Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043.
   applicable_models:
   - SIM800L
   tags:
@@ -769,33 +769,33 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9005
   category: Timing
-  parameter: "I Low-level input current -1.0 - 1.0 uA"
+  parameter: I Low-level input current -1.0 - 1.0 uA
   min: 1.0
   typ: 1.0
   max: 1.0
   unit: uA
-  condition: null
-  related_command: null
-  related_state: null
-  related_urc: null
+  condition:
+  related_command:
+  related_state:
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '59'
-    section: "Table (V2.02)"
-    quote: "I Low-level input current -1.0 - 1.0 uA"
+    section: Table (V2.02)
+    quote: I Low-level input current -1.0 - 1.0 uA
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Not a timing parameter; input current belongs to dat_07 (Hardware)"
-    - field: min
-      reason: "value 1.0 has no clear relationship to the stated range (-1.0 to 1.0 uA)"
-    - field: source.section
-      reason: "'Table (V2.02)' is not a specific section reference"
-  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
+  - field: parameter
+    reason: Not a timing parameter; input current belongs to dat_07 (Hardware)
+  - field: min
+    reason: value 1.0 has no clear relationship to the stated range (-1.0 to 1.0 uA)
+  - field: source.section
+    reason: "'Table (V2.02)' is not a specific section reference"
+  notes: Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043.
   applicable_models:
   - SIM800L
   tags:
@@ -806,33 +806,33 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9006
   category: Timing
-  parameter: "I VRTC input current - 3.0 5.0 uA"
+  parameter: I VRTC input current - 3.0 5.0 uA
   min: 3.0
   typ: 4.0
   max: 5.0
   unit: uA
-  condition: null
-  related_command: null
-  related_state: null
-  related_urc: null
+  condition:
+  related_command:
+  related_state:
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '59'
-    section: "Table (V2.02)"
-    quote: "I VRTC input current - 3.0 5.0 uA"
+    section: Table (V2.02)
+    quote: I VRTC input current - 3.0 5.0 uA
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Not a timing parameter; VRTC current belongs to dat_15 (Power)"
-    - field: typ
-      reason: "value 4.0 has no clear source in the original text"
-    - field: source.section
-      reason: "'Table (V2.02)' is not a specific section reference"
-  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
+  - field: parameter
+    reason: Not a timing parameter; VRTC current belongs to dat_15 (Power)
+  - field: typ
+    reason: value 4.0 has no clear source in the original text
+  - field: source.section
+    reason: "'Table (V2.02)' is not a specific section reference"
+  notes: Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043.
   applicable_models:
   - SIM800L
   tags:
@@ -843,35 +843,35 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9007
   category: Timing
-  parameter: "Power drop PCL=5 350 mV"
+  parameter: Power drop PCL=5 350 mV
   min: 5.0
   typ: 177.5
   max: 350.0
   unit: mV
-  condition: null
-  related_command: null
-  related_state: null
-  related_urc: null
+  condition:
+  related_command:
+  related_state:
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '60'
-    section: "Table (V2.02)"
-    quote: "Power drop PCL=5 350 mV"
+    section: Table (V2.02)
+    quote: Power drop PCL=5 350 mV
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Not a timing parameter; power drop belongs to dat_15 (Power)"
-    - field: min
-      reason: "value 5.0 is PCL level, not a voltage"
-    - field: typ
-      reason: "value 177.5 is a computed midpoint, not a source value"
-    - field: source.section
-      reason: "'Table (V2.02)' is not a specific section reference"
-  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
+  - field: parameter
+    reason: Not a timing parameter; power drop belongs to dat_15 (Power)
+  - field: min
+    reason: value 5.0 is PCL level, not a voltage
+  - field: typ
+    reason: value 177.5 is a computed midpoint, not a source value
+  - field: source.section
+    reason: "'Table (V2.02)' is not a specific section reference"
+  notes: Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043.
   applicable_models:
   - SIM800L
   tags:
@@ -882,33 +882,33 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9008
   category: Timing
-  parameter: "Power down mode 150 200 uA"
+  parameter: Power down mode 150 200 uA
   min: 150.0
   typ: 175.0
   max: 200.0
   unit: uA
-  condition: null
-  related_command: null
-  related_state: null
-  related_urc: null
+  condition:
+  related_command:
+  related_state:
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '60'
-    section: "Table (V2.02)"
-    quote: "Power down mode 150 200 uA"
+    section: Table (V2.02)
+    quote: Power down mode 150 200 uA
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Not a timing parameter; power-down current belongs to dat_15 (Power)"
-    - field: typ
-      reason: "value 175.0 is a computed midpoint, not a source value"
-    - field: source.section
-      reason: "'Table (V2.02)' is not a specific section reference"
-  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
+  - field: parameter
+    reason: Not a timing parameter; power-down current belongs to dat_15 (Power)
+  - field: typ
+    reason: value 175.0 is a computed midpoint, not a source value
+  - field: source.section
+    reason: "'Table (V2.02)' is not a specific section reference"
+  notes: Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043.
   applicable_models:
   - SIM800L
   tags:
@@ -919,37 +919,37 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9009
   category: Timing
-  parameter: "( BS-PA-MFRMS=9 ) 1.04 mA"
+  parameter: ( BS-PA-MFRMS=9 ) 1.04 mA
   min: 9.0
   typ: 5.02
   max: 1.04
   unit: mA
-  condition: null
-  related_command: null
-  related_state: null
-  related_urc: null
+  condition:
+  related_command:
+  related_state:
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '60'
-    section: "Table (V2.02)"
-    quote: "( BS-PA-MFRMS=9 ) 1.04 mA"
+    section: Table (V2.02)
+    quote: ( BS-PA-MFRMS=9 ) 1.04 mA
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Not a timing parameter; current consumption belongs to dat_15 (Power)"
-    - field: min
-      reason: "value 9.0 is BS-PA-MFRMS parameter, not a current"
-    - field: typ
-      reason: "value 5.02 is a computed midpoint, not a source value"
-    - field: max
-      reason: "value 1.04 is the source current, mis-assigned to max"
-    - field: source.section
-      reason: "'Table (V2.02)' is not a specific section reference"
-  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
+  - field: parameter
+    reason: Not a timing parameter; current consumption belongs to dat_15 (Power)
+  - field: min
+    reason: value 9.0 is BS-PA-MFRMS parameter, not a current
+  - field: typ
+    reason: value 5.02 is a computed midpoint, not a source value
+  - field: max
+    reason: value 1.04 is the source current, mis-assigned to max
+  - field: source.section
+    reason: "'Table (V2.02)' is not a specific section reference"
+  notes: Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043.
   applicable_models:
   - SIM800L
   tags:
@@ -960,37 +960,37 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9010
   category: Timing
-  parameter: "( BS-PA-MFRMS=5) 1.14 mA"
+  parameter: ( BS-PA-MFRMS=5) 1.14 mA
   min: 5.0
   typ: 3.07
   max: 1.14
   unit: mA
-  condition: null
-  related_command: null
-  related_state: null
-  related_urc: null
+  condition:
+  related_command:
+  related_state:
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '60'
-    section: "Table (V2.02)"
-    quote: "( BS-PA-MFRMS=5) 1.14 mA"
+    section: Table (V2.02)
+    quote: ( BS-PA-MFRMS=5) 1.14 mA
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Not a timing parameter; current consumption belongs to dat_15 (Power)"
-    - field: min
-      reason: "value 5.0 is BS-PA-MFRMS parameter, not a current"
-    - field: typ
-      reason: "value 3.07 is a computed midpoint, not a source value"
-    - field: max
-      reason: "value 1.14 is the source current, mis-assigned to max"
-    - field: source.section
-      reason: "'Table (V2.02)' is not a specific section reference"
-  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
+  - field: parameter
+    reason: Not a timing parameter; current consumption belongs to dat_15 (Power)
+  - field: min
+    reason: value 5.0 is BS-PA-MFRMS parameter, not a current
+  - field: typ
+    reason: value 3.07 is a computed midpoint, not a source value
+  - field: max
+    reason: value 1.14 is the source current, mis-assigned to max
+  - field: source.section
+    reason: "'Table (V2.02)' is not a specific section reference"
+  notes: Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043.
   applicable_models:
   - SIM800L
   tags:
@@ -1001,37 +1001,37 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9011
   category: Timing
-  parameter: "( BS-PA-MFRMS=2) 1.57 mA"
+  parameter: ( BS-PA-MFRMS=2) 1.57 mA
   min: 2.0
   typ: 1.785
   max: 1.57
   unit: mA
-  condition: null
-  related_command: null
-  related_state: null
-  related_urc: null
+  condition:
+  related_command:
+  related_state:
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '60'
-    section: "Table (V2.02)"
-    quote: "( BS-PA-MFRMS=2) 1.57 mA"
+    section: Table (V2.02)
+    quote: ( BS-PA-MFRMS=2) 1.57 mA
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Not a timing parameter; current consumption belongs to dat_15 (Power)"
-    - field: min
-      reason: "value 2.0 is BS-PA-MFRMS parameter, not a current"
-    - field: typ
-      reason: "value 1.785 is a computed midpoint, not a source value"
-    - field: max
-      reason: "value 1.57 is the source current, mis-assigned to max"
-    - field: source.section
-      reason: "'Table (V2.02)' is not a specific section reference"
-  notes: "Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
+  - field: parameter
+    reason: Not a timing parameter; current consumption belongs to dat_15 (Power)
+  - field: min
+    reason: value 2.0 is BS-PA-MFRMS parameter, not a current
+  - field: typ
+    reason: value 1.785 is a computed midpoint, not a source value
+  - field: max
+    reason: value 1.57 is the source current, mis-assigned to max
+  - field: source.section
+    reason: "'Table (V2.02)' is not a specific section reference"
+  notes: Legacy record. Preserved per R10. Out-of-scope for dat_04. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043.
   applicable_models:
   - SIM800L
   tags:
@@ -1042,31 +1042,31 @@
   updated_at: '2026-10-12T03:00:00Z'
 - id: dat_04_9012
   category: Timing
-  parameter: "[10] GSM 11.10 Station (MS) conformance specification; Part 1: Conformance"
-  min: null
-  typ: null
-  max: null
-  unit: null
-  condition: null
-  related_command: null
-  related_state: null
-  related_urc: null
+  parameter: '[10] GSM 11.10 Station (MS) conformance specification; Part 1: Conformance'
+  min:
+  typ:
+  max:
+  unit:
+  condition:
+  related_command:
+  related_state:
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '68'
-    section: "Table (V2.02)"
-    quote: "[10] GSM 11.10 Station (MS) conformance specification; Part 1: Conformance"
+    section: Table (V2.02)
+    quote: '[10] GSM 11.10 Station (MS) conformance specification; Part 1: Conformance'
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
-    - field: parameter
-      reason: "Bibliography reference, not a timing parameter"
-    - field: source.section
-      reason: "'Table (V2.02)' is not a specific section reference"
-  notes: "Legacy record. Preserved per R10. Bibliography entry, not a data record. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043."
+  - field: parameter
+    reason: Bibliography reference, not a timing parameter
+  - field: source.section
+    reason: "'Table (V2.02)' is not a specific section reference"
+  notes: Legacy record. Preserved per R10. Bibliography entry, not a data record. Field renames applied for schema compliance; wake_source and coverage_estimate removed; see D-043.
   applicable_models:
   - SIM800L
   tags:
@@ -1079,305 +1079,505 @@
   category: Power-up
   parameter: PWRKEY low-pulse duration (power on)
   min: 1
-  typ: null
-  max: null
+  typ:
+  max:
   unit: s
   condition: PWRKEY pulled low then released
-  related_command: null
+  related_command:
   related_state: POWER_ON
   related_urc: RDY
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "22"
-    section: "4.2.1 Power on SIM800H&SIM800L"
-    quote: "power on SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release"
+    page: '22'
+    section: 4.2.1 Power on SIM800H&SIM800L
+    quote: power on SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release
   source_type: primary
   confidence: 0.95
   status: complete
   conflicts: []
-  notes: "Derived from V2.02 section 4.2.1."
-  applicable_models: ["SIM800L"]
-  tags: ["power-on", "pwrkey"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Derived from V2.02 section 4.2.1.
+  applicable_models:
+  - SIM800L
+  tags:
+  - power-on
+  - pwrkey
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_04_0031
   category: Power-down
   parameter: PWRKEY low-pulse duration (power off)
   min: 1
-  typ: null
-  max: null
+  typ:
+  max:
   unit: s
   condition: PWRKEY pulled low then released
   related_command: AT+CPOWD=1
   related_state: "OFF"
-  related_urc: "NORMAL POWER DOWN"
+  related_urc: NORMAL POWER DOWN
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "23"
-    section: "4.2.2.1"
-    quote: "power down SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release"
+    page: '23'
+    section: 4.2.2.1
+    quote: power down SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release
   source_type: primary
   confidence: 0.95
   status: complete
   conflicts: []
-  notes: "Derived from V2.02 section 4.2.2.1."
-  applicable_models: ["SIM800L"]
-  tags: ["power-down", "pwrkey"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Derived from V2.02 section 4.2.2.1.
+  applicable_models:
+  - SIM800L
+  tags:
+  - power-down
+  - pwrkey
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_04_0032
   category: Reset
   parameter: RESET low-pulse duration
   min: 105
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
   condition: RESET pin pulled to ground
-  related_command: null
+  related_command:
   related_state: POWER_ON
-  related_urc: null
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "26"
-    section: "Table 7 Electronic characteristic of the RESET pin"
-    quote: "Low power time 105 ms"
+    page: '26'
+    section: Table 7 Electronic characteristic of the RESET pin
+    quote: Low power time 105 ms
   source_type: primary
   confidence: 0.95
   status: complete
   conflicts: []
-  notes: "Derived from V2.02 Table 7."
-  applicable_models: ["SIM800L"]
-  tags: ["reset"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Derived from V2.02 Table 7.
+  applicable_models:
+  - SIM800L
+  tags:
+  - reset
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_04_0033
   category: Restart
   parameter: Wait after STATUS low before power-on (restart)
   min: 800
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
   condition: Restart procedure after power-down
-  related_command: null
+  related_command:
   related_state: POWER_ON
-  related_urc: null
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "25"
-    section: "4.2.2.5 Restart SIM800H&SIM800L by PWRKEY Pin"
-    quote: "Wait for at least 800ms after STATUS pin changed to low level"
+    page: '25'
+    section: 4.2.2.5 Restart SIM800H&SIM800L by PWRKEY Pin
+    quote: Wait for at least 800ms after STATUS pin changed to low level
   source_type: primary
   confidence: 0.95
   status: complete
   conflicts: []
-  notes: "Derived from V2.02 section 4.2.2.5."
-  applicable_models: ["SIM800L"]
-  tags: ["restart"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Derived from V2.02 section 4.2.2.5.
+  applicable_models:
+  - SIM800L
+  tags:
+  - restart
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_04_0034
   category: Sleep-wake
   parameter: DTR low-pulse to wake from sleep mode 1
   min: 50
-  typ: null
-  max: null
+  typ:
+  max:
   unit: ms
   condition: Sleep mode 1 (AT+CSCLK=1) active; DTR pulled low
   related_command: AT+CSCLK=1
   related_state: SLEEP
-  related_urc: null
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "27"
-    section: "4.3.3 Wake Up"
-    quote: "serial port will be active after DTR pin is pulled to low level for about 50ms"
+    page: '27'
+    section: 4.3.3 Wake Up
+    quote: serial port will be active after DTR pin is pulled to low level for about 50ms
   source_type: primary
   confidence: 0.95
   status: complete
   conflicts: []
-  notes: "Derived from V2.02 section 4.3.3."
-  applicable_models: ["SIM800L"]
-  tags: ["sleep-wake"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Derived from V2.02 section 4.3.3.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sleep-wake
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_04_0035
   category: Sleep
   parameter: Sleep mode 2 (AT+CSCLK=2) inactivity timeout
   min: 5
-  typ: null
-  max: null
+  typ:
+  max:
   unit: s
   condition: No data transfer on RXD for this duration
   related_command: AT+CSCLK=2
   related_state: SLEEP
-  related_urc: null
+  related_urc:
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "27"
-    section: "4.3.4 Sleep Mode 2"
-    quote: "no data transfer over 5 seconds on the RXD signal"
+    page: '27'
+    section: 4.3.4 Sleep Mode 2
+    quote: no data transfer over 5 seconds on the RXD signal
   source_type: primary
   confidence: 0.95
   status: complete
   conflicts: []
-  notes: "Derived from V2.02 section 4.3.4."
-  applicable_models: ["SIM800L"]
-  tags: ["sleep"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Derived from V2.02 section 4.3.4.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sleep
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_04_0036
   category: Power-supply
   parameter: Under-voltage warning threshold
-  min: null
+  min:
   typ: 3.5
-  max: null
+  max:
   unit: V
   condition: VBAT falling
   related_command: AT+CBC
   related_state: POWER_ON
-  related_urc: "UNDER-VOLTAGE WARNNING"
+  related_urc: UNDER-VOLTAGE WARNNING
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "24"
-    section: "4.2.2.3 Over-Voltage or Under-Voltage Power Down"
-    quote: "If the voltage <= 3.5V, the following URC will be reported"
+    page: '24'
+    section: 4.2.2.3 Over-Voltage or Under-Voltage Power Down
+    quote: If the voltage <= 3.5V, the following URC will be reported
   source_type: primary
   confidence: 0.95
   status: complete
   conflicts: []
-  notes: "Threshold reported as typ."
-  applicable_models: ["SIM800L"]
-  tags: ["power-supply", "voltage"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Threshold reported as typ.
+  applicable_models:
+  - SIM800L
+  tags:
+  - power-supply
+  - voltage
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_04_0037
   category: Power-supply
   parameter: Under-voltage power-down threshold
-  min: null
+  min:
   typ: 3.4
-  max: null
+  max:
   unit: V
   condition: VBAT falling; module auto power-down
   related_command: AT+CBC
   related_state: "OFF"
-  related_urc: "UNDER-VOLTAGE POWER DOWN"
+  related_urc: UNDER-VOLTAGE POWER DOWN
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "24"
-    section: "4.2.2.3"
-    quote: "If the voltage < 3.4V, the following URC will be reported, and the module will be automatically powered down"
+    page: '24'
+    section: 4.2.2.3
+    quote: If the voltage < 3.4V, the following URC will be reported, and the module will be automatically powered down
   source_type: primary
   confidence: 0.95
   status: complete
   conflicts: []
-  notes: "Threshold reported as typ."
-  applicable_models: ["SIM800L"]
-  tags: ["power-supply", "voltage"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
+  notes: Threshold reported as typ.
+  applicable_models:
+  - SIM800L
+  tags:
+  - power-supply
+  - voltage
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_04_0038
   category: Power-supply
   parameter: Over-voltage warning threshold
-  min: null
+  min:
   typ: 4.3
-  max: null
+  max:
   unit: V
   condition: VBAT rising
   related_command: AT+CBC
   related_state: POWER_ON
-  related_urc: "OVER-VOLTAGE WARNNING"
+  related_urc: OVER-VOLTAGE WARNNING
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "24"
-    section: "4.2.2.3 Over-Voltage or Under-Voltage Power Down"
-    quote: "If the voltage >= 4.3V, the following URC will be reported"
+    page: '24'
+    section: 4.2.2.3 Over-Voltage or Under-Voltage Power Down
+    quote: If the voltage >= 4.3V, the following URC will be reported
   source_type: primary
   confidence: 0.95
   status: complete
   conflicts: []
-  notes: "Threshold reported as typ."
-  applicable_models: ["SIM800L"]
-  tags: ["power-supply", "voltage"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Threshold reported as typ.
+  applicable_models:
+  - SIM800L
+  tags:
+  - power-supply
+  - voltage
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_04_0039
   category: Power-supply
   parameter: Over-voltage power-down threshold
-  min: null
+  min:
   typ: 4.4
-  max: null
+  max:
   unit: V
   condition: VBAT rising; module auto power-down
   related_command: AT+CBC
   related_state: "OFF"
-  related_urc: "OVER-VOLTAGE POWER DOWN"
+  related_urc: OVER-VOLTAGE POWER DOWN
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "24"
-    section: "4.2.2.3"
-    quote: "If the voltage > 4.4V, the following URC will be reported, and the module will be automatically powered down"
+    page: '24'
+    section: 4.2.2.3
+    quote: If the voltage > 4.4V, the following URC will be reported, and the module will be automatically powered down
   source_type: primary
   confidence: 0.95
   status: complete
   conflicts: []
-  notes: "Threshold reported as typ."
-  applicable_models: ["SIM800L"]
-  tags: ["power-supply", "voltage"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Threshold reported as typ.
+  applicable_models:
+  - SIM800L
+  tags:
+  - power-supply
+  - voltage
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_04_0040
   category: Power-supply
   parameter: Over-temperature warning threshold
-  min: null
+  min:
   typ: 80
-  max: null
+  max:
   unit: C
   condition: Module temperature rising
   related_command: AT+CMTE
   related_state: POWER_ON
-  related_urc: "+CMTE: 1"
+  related_urc: '+CMTE: 1'
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "24"
-    section: "4.2.2.4 Over-Temperature or Under-Temperature Power Down"
-    quote: "If the temperature >= +80 C, the following URC will be reported"
+    page: '24'
+    section: 4.2.2.4 Over-Temperature or Under-Temperature Power Down
+    quote: If the temperature >= +80 C, the following URC will be reported
   source_type: primary
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: "Temperature monitoring disabled by default; AT+CMTE enables."
-  applicable_models: ["SIM800L"]
-  tags: ["power-supply", "temperature"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
+  notes: Temperature monitoring disabled by default; AT+CMTE enables.
+  applicable_models:
+  - SIM800L
+  tags:
+  - power-supply
+  - temperature
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
+- id: dat_04_9013
+  category: Reset
+  parameter: RESET pin V_IH
+  min: 2.4
+  typ:
+  max:
+  unit: V
+  condition: High-level input voltage
+  related_command:
+  related_state:
+  related_urc:
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '26'
+    section: 4.2.3 Reset Function
+    quote: 'Table 7: Electronic characteristic of the RESET pin -- V_IH'
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: Added by correction-pass v4.
+  applicable_models:
+  - SIM800L
+  tags:
+  - timing
+  - correction-pass-v4
+  created_at: '2026-10-12T15:42:46Z'
+  updated_at: '2026-10-12T15:42:46Z'
+- id: dat_04_9014
+  category: Reset
+  parameter: RESET low power time
+  min: 105.0
+  typ:
+  max:
+  unit: ms
+  condition: RESET held low duration
+  related_command:
+  related_state:
+  related_urc:
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '26'
+    section: 4.2.3 Reset Function
+    quote: 'Table 7: Electronic characteristic of the RESET pin -- low power time'
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: Added by correction-pass v4.
+  applicable_models:
+  - SIM800L
+  tags:
+  - timing
+  - correction-pass-v4
+  created_at: '2026-10-12T15:42:46Z'
+  updated_at: '2026-10-12T15:42:46Z'
+- id: dat_04_9015
+  category: Reset
+  parameter: PWRKEY pull-low duration to power on
+  min: 1.0
+  typ:
+  max:
+  unit: s
+  condition: PWRKEY pulled low then released
+  related_command:
+  related_state: POWER_ON
+  related_urc:
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '22'
+    section: 4.2.1 Power on
+    quote: pull down the PWRKEY pin for at least 1 second and release
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: Added by correction-pass v4.
+  applicable_models:
+  - SIM800L
+  tags:
+  - timing
+  - correction-pass-v4
+  created_at: '2026-10-12T15:42:46Z'
+  updated_at: '2026-10-12T15:42:46Z'
+- id: dat_04_9016
+  category: Reset
+  parameter: Wait after power-down before restart
+  min: 0.8
+  typ:
+  max:
+  unit: s
+  condition: After STATUS pin goes low
+  related_command:
+  related_state: POWER_ON
+  related_urc:
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '25'
+    section: 4.2.2.5 Restart by PWRKEY
+    quote: Wait for at least 800ms after STATUS pin changed to low level
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: Added by correction-pass v4.
+  applicable_models:
+  - SIM800L
+  tags:
+  - timing
+  - correction-pass-v4
+  created_at: '2026-10-12T15:42:46Z'
+  updated_at: '2026-10-12T15:42:46Z'
+- id: dat_04_9017
+  category: Reset
+  parameter: DTR low wake-up delay
+  min: 0.05
+  typ:
+  max:
+  unit: s
+  condition: DTR pulled low
+  related_command:
+  related_state: SLEEP
+  related_urc:
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '27'
+    section: 4.3.3 Wake Up from Sleep Mode 1
+    quote: DTR pin is pulled to low level for about 50ms
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: Added by correction-pass v4.
+  applicable_models:
+  - SIM800L
+  tags:
+  - timing
+  - correction-pass-v4
+  created_at: '2026-10-12T15:42:46Z'
+  updated_at: '2026-10-12T15:42:46Z'
+- id: dat_04_9018
+  category: Reset
+  parameter: Serial-idle threshold to enter Sleep Mode 2
+  min: 5.0
+  typ:
+  max:
+  unit: s
+  condition: No data on RXD
+  related_command:
+  related_state: SLEEP
+  related_urc:
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '27'
+    section: 4.3.4 Sleep Mode 2
+    quote: no data transfer over 5 seconds on the RXD signal
+  source_type: primary
+  confidence: 0.85
+  status: complete
+  conflicts: []
+  notes: Added by correction-pass v4.
+  applicable_models:
+  - SIM800L
+  tags:
+  - timing
+  - correction-pass-v4
+  created_at: '2026-10-12T15:42:46Z'
+  updated_at: '2026-10-12T15:42:46Z'

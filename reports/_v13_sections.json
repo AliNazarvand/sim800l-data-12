@@ -1,0 +1,2415 @@
+{
+  "GCAP": {
+    "section": "2.2.33",
+    "title": "Request Complete TA Capabilities List",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "GMI": {
+    "section": "2.2.34",
+    "title": "Request Manufacturer Identification",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "GMM": {
+    "section": "2.2.35",
+    "title": "Request TA Model Identification",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "GMR": {
+    "section": "2.2.36",
+    "title": "Request TA Revision Identification of Software Release",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "GOI": {
+    "section": "2.2.37",
+    "title": "Request Global Object Identification",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "GSN": {
+    "section": "2.2.38",
+    "title": "Request TA Seri al Number Identification (IMEI)",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "ICF": {
+    "section": "2.2.39",
+    "title": "Set TE-TA Control Character Framing",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "IFC": {
+    "section": "2.2.40",
+    "title": "Set TE-TA Local Data Flow Control",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "IPR": {
+    "section": "2.2.41",
+    "title": "Set TE-TA Fixed Local Rate",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "HVOIC": {
+    "section": "2.2.42",
+    "title": "Disconnect V oice Call Only",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CACM": {
+    "section": "3.2.1",
+    "title": "Accumulated Call Meter (ACM) Reset or Query",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CAMM": {
+    "section": "3.2.2",
+    "title": "Accumulated Call Meter Maximum (ACM max) Set or Query",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CAOC": {
+    "section": "3.2.3",
+    "title": "Advice of Charge",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CBST": {
+    "section": "3.2.4",
+    "title": "Select Bearer Service Type",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CCFC": {
+    "section": "3.2.5",
+    "title": "Call Forwarding Number and Conditions Control",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CCWA": {
+    "section": "3.2.6",
+    "title": "Call Waiting Control",
+    "parameters": [
+      {
+        "name": "number",
+        "type": "string",
+        "description": ",<type>,<class>[,<a | waiting and can be accepted."
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGMI": {
+    "section": "3.2.8",
+    "title": "Request Manufacturer Identification",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGMM": {
+    "section": "3.2.9",
+    "title": "Request Model Identification",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGMR": {
+    "section": "3.2.10",
+    "title": "Request TA Revision Identification of Software Release",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGSN": {
+    "section": "3.2.11",
+    "title": "Request Product Serial Number Identification (Identical with +GSN)",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSCS": {
+    "section": "3.2.12",
+    "title": "Select TE Character Set",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSTA": {
+    "section": "3.2.13",
+    "title": "Select Type of Address",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CHLD": {
+    "section": "3.2.14",
+    "title": "Call Hold and Multiparty",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIMI": {
+    "section": "3.2.15",
+    "title": "Request Internat ional Mobile Subscriber Identity",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CLCC": {
+    "section": "3.2.16",
+    "title": "List Current Calls of ME",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CLCK": {
+    "section": "3.2.17",
+    "title": "Facility Lock",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CLIP": {
+    "section": "3.2.18",
+    "title": "Calling Line Identification Presentation",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CLIR": {
+    "section": "3.2.19",
+    "title": "Calling Line Identification Restriction",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMEE": {
+    "section": "3.2.20",
+    "title": "Report Mobile Equipment Error",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "COLP": {
+    "section": "3.2.21",
+    "title": "Connected Line Identification Presentation",
+    "parameters": [
+      {
+        "name": "number",
+        "type": "string",
+        "description": ",<type>[,<subaddr> | Line) at the TE for a mobile originated"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "COPS": {
+    "section": "3.2.22",
+    "title": "Operator Selection",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CPAS": {
+    "section": "3.2.23",
+    "title": "Phone Activity Status",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CPBF": {
+    "section": "3.2.24",
+    "title": "Find Phonebook Entries",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CPBR": {
+    "section": "3.2.25",
+    "title": "Read Current Phonebook Entries",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CPBS": {
+    "section": "3.2.26",
+    "title": "Select Phonebook Memory Storage",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CPBW": {
+    "section": "3.2.27",
+    "title": "Write Phonebook Entry",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CPIN": {
+    "section": "3.2.28",
+    "title": "Enter PIN",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CPWD": {
+    "section": "3.2.29",
+    "title": "Change Password",
+    "parameters": [
+      {
+        "name": "newpwd",
+        "type": "string",
+        "description": "| Parameters"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CR": {
+    "section": "3.2.30",
+    "title": "Service Reporting Control",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CRC": {
+    "section": "3.2.31",
+    "title": "Set Cellular Result Codes for Incoming Call Indication",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CREG": {
+    "section": "3.2.32",
+    "title": "Network Registration",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CRLP": {
+    "section": "3.2.33",
+    "title": "Select Radio Link Protocol Parameters",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CRSM": {
+    "section": "3.2.34",
+    "title": "Restricted SIM Access",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSQ": {
+    "section": "3.2.35",
+    "title": "Signal Quality Report",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FCLASS": {
+    "section": "3.2.36",
+    "title": "FAX: Select , Read or Test Service Class",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FMI": {
+    "section": "3.2.37",
+    "title": "FAX: Report Manufactured ID",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FMM": {
+    "section": "3.2.38",
+    "title": "FAX: Report Model ID",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FMR": {
+    "section": "3.2.39",
+    "title": "FAX: Report Revision ID",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "VTD": {
+    "section": "3.2.40",
+    "title": "Tone Duration",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "VTS": {
+    "section": "3.2.41",
+    "title": "DTMF and Tone Generation",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMUX": {
+    "section": "3.2.42",
+    "title": "Multiplexer Control",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CNUM": {
+    "section": "3.2.43",
+    "title": "Subscriber Number",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CPOL": {
+    "section": "3.2.44",
+    "title": "Preferred Operator List",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "COPN": {
+    "section": "3.2.45",
+    "title": "Read Operator Names",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CFUN": {
+    "section": "3.2.46",
+    "title": "Set Phone Functionality",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CCLK": {
+    "section": "3.2.47",
+    "title": "Clock",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSIM": {
+    "section": "3.2.48",
+    "title": "Generic SIM Access",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CALM": {
+    "section": "3.2.49",
+    "title": "Alert Sound Mode",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CALS": {
+    "section": "3.2.50",
+    "title": "Alert Sound Select",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CRSL": {
+    "section": "3.2.51",
+    "title": "Ringer Sound Level",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CLVL": {
+    "section": "3.2.52",
+    "title": "Loud Speaker V olume Level",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMUT": {
+    "section": "3.2.53",
+    "title": "Mute Control",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CPUC": {
+    "section": "3.2.54",
+    "title": "Price Per Unit and Currency Table",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CCWE": {
+    "section": "3.2.55",
+    "title": "Call Meter Maximum Event",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CBC": {
+    "section": "3.2.56",
+    "title": "Battery Charge",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CUSD": {
+    "section": "3.2.57",
+    "title": "Unstructured Supplementary Service Data",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSSN": {
+    "section": "3.2.58",
+    "title": "Supplementary Services Notification",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMGD": {
+    "section": "4.2.1",
+    "title": "De lete SMS Message",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMGF": {
+    "section": "4.2.2",
+    "title": "Select SMS Message Format",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMGL": {
+    "section": "4.2.3",
+    "title": "List SMS Messages from Preferred Store",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMGR": {
+    "section": "4.2.4",
+    "title": "Read SMS Message",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMGS": {
+    "section": "4.2.5",
+    "title": "Send SMS Message",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMGW": {
+    "section": "4.2.6",
+    "title": "Write SMS Message to Memory",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMSS": {
+    "section": "4.2.7",
+    "title": "Send SMS Message from Storage",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CNMI": {
+    "section": "4.2.8",
+    "title": "New SMS Message Indications",
+    "parameters": [
+      {
+        "name": "oa",
+        "type": "string",
+        "description": ",<scts>[,<tooa>,<fo>,<pi | <mt>=2 (text"
+      },
+      {
+        "name": "length",
+        "type": "string",
+        "description": "<CR><LF><pdu> | <bm>=2 (PDU"
+      },
+      {
+        "name": "sn",
+        "type": "string",
+        "description": ",<mid>,<dcs>,<page>,<p | <bm>=2 (text"
+      },
+      {
+        "name": "length",
+        "type": "string",
+        "description": "<CR><LF><pdu> | <ds>=1 (PDU"
+      },
+      {
+        "name": "fo",
+        "type": "string",
+        "description": ",<mr>[,<ra>][,<tora>],<s | been received. | <ds>=1 (text mode"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CPMS": {
+    "section": "4.2.9",
+    "title": "Preferred SMS Message Storage",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CRES": {
+    "section": "4.2.10",
+    "title": "Restore SMS Settings",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSAS": {
+    "section": "4.2.11",
+    "title": "Save SMS Settings",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSCA": {
+    "section": "4.2.12",
+    "title": "SMS Service Center Address",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSCB": {
+    "section": "4.2.13",
+    "title": "Select Cell Broadcast SMS Messages",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSDH": {
+    "section": "4.2.14",
+    "title": "Show SMS Text Mode Parameters",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSMP": {
+    "section": "4.2.15",
+    "title": "Set SMS Text Mode Parameters",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSMS": {
+    "section": "4.2.16",
+    "title": "Sele ct Message Service",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "STKTRS": {
+    "section": "5.2.1",
+    "title": "STK Terminal Response",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "STKENVS": {
+    "section": "5.2.2",
+    "title": "STK Envelope Command",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "STKCALL": {
+    "section": "5.2.3",
+    "title": "STK call setup",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "STKSMS": {
+    "section": "5.2.4",
+    "title": "STK SMS delivery",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "STKSS": {
+    "section": "5.2.5",
+    "title": "STK SS setup",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "STKUSSD": {
+    "section": "5.2.6",
+    "title": "STK USSD setup",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "STKDTMF": {
+    "section": "5.2.7",
+    "title": "STK sending DTMF",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "STKMENU": {
+    "section": "5.2.9",
+    "title": "STK Main menu command",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "STKPCIS": {
+    "section": "5.2.10",
+    "title": "STK URC switch command",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SIDET": {
+    "section": "6.2.1",
+    "title": "Change the Side Tone Gain Level",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CPOWD": {
+    "section": "6.2.2",
+    "title": "Power off",
+    "parameters": [
+      {
+        "name": "n",
+        "type": "string",
+        "description": "| Parameter"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SPIC": {
+    "section": "6.2.3",
+    "title": "Times Remain ed to Input SIM PIN/PUK",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMIC": {
+    "section": "6.2.4",
+    "title": "Change the Microphone Gain Level",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CALA": {
+    "section": "6.2.5",
+    "title": "Set Alarm Time",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CALD": {
+    "section": "6.2.6",
+    "title": "Delete Alarm",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CADC": {
+    "section": "6.2.7",
+    "title": "Read ADC",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSNS": {
+    "section": "6.2.8",
+    "title": "Single Numbering Scheme",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CDSCB": {
+    "section": "6.2.9",
+    "title": "Reset Cell Broadcast",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMOD": {
+    "section": "6.2.10",
+    "title": "Configure Alternating Mode Calls",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CFGRI": {
+    "section": "6.2.11",
+    "title": "Indicate RI When Using URC",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CLTS": {
+    "section": "6.2.12",
+    "title": "Get Local Timestamp",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CLDTMF": {
+    "section": "6.2.13",
+    "title": "Local DTMF Tone Generation",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CDRIND": {
+    "section": "6.2.14",
+    "title": "CS Voice/Da ta Call Termination Indication",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSPN": {
+    "section": "6.2.15",
+    "title": "Get Service Provider Name from SIM",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CCVM": {
+    "section": "6.2.16",
+    "title": "Get and Set the V oice Mail Number on the SIM",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CBAND": {
+    "section": "6.2.17",
+    "title": "Get and Set Mobile Operation Band",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CHF": {
+    "section": "6.2.18",
+    "title": "Configure Hands Free Operation",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CHFA": {
+    "section": "6.2.19",
+    "title": "Swap the Audio Channels",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSCLK": {
+    "section": "6.2.20",
+    "title": "Configure Slow Clock",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CENG": {
+    "section": "6.2.21",
+    "title": "Switch On or Off Engineering Mode",
+    "parameters": [
+      {
+        "name": "cell",
+        "type": "string",
+        "description": ",\"<arfcn>,<rxl>,<rxq>, | e>[,<Ncell>]"
+      },
+      {
+        "name": "mcc",
+        "type": "string",
+        "description": ",<mnc>,<bsic>,<cellid | <mode>=2"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SCLASS0": {
+    "section": "6.2.22",
+    "title": "Store Class 0 SMS to SIM When Received Class 0 SMS",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CCID": {
+    "section": "6.2.23",
+    "title": "Show ICCID",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMTE": {
+    "section": "6.2.24",
+    "title": "Set Critical Temperature Operating Mode or Query Temperature",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMGDA": {
+    "section": "6.2.25",
+    "title": "Delete All SMS",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "STTONE": {
+    "section": "6.2.26",
+    "title": "Play SIM Toolkit Tone",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SIMTONE": {
+    "section": "6.2.27",
+    "title": "Gene rate Specifically Tone",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CCPD": {
+    "section": "6.2.28",
+    "title": "Enable or Disable Alpha String",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGID": {
+    "section": "6.2.29",
+    "title": "Get SIM Card Group Identifier",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "MORING": {
+    "section": "6.2.30",
+    "title": "Show State of Mobile Originated Call",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMGHEX": {
+    "section": "6.2.31",
+    "title": "Enable or Disa ble Sending Non-ASCII Character SMS",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CCODE": {
+    "section": "6.2.32",
+    "title": "Configure SMS Code Mode",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIURC": {
+    "section": "6.2.33",
+    "title": "Enable or Disable Initial URC Presentation",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CPSPWD": {
+    "section": "6.2.34",
+    "title": "Chan ge PS Super Password",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "EXUNSOL": {
+    "section": "6.2.35",
+    "title": "Enable or Disable Proprietary Unsolicited Indications",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGMSCLASS": {
+    "section": "6.2.36",
+    "title": "Change GPRS Multislot Class",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CDEVICE": {
+    "section": "6.2.37",
+    "title": "View Current Flash Device Type",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CCALR": {
+    "section": "6.2.38",
+    "title": "Call Ready Query",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "GSV": {
+    "section": "6.2.39",
+    "title": "Display Produ ct Identification Information",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SGPIO": {
+    "section": "6.2.40",
+    "title": "Control the GPIO",
+    "parameters": [
+      {
+        "name": "function",
+        "type": "string",
+        "description": ",<level > | Parameters"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SPWM": {
+    "section": "6.2.41",
+    "title": "Generate the Pulse-Width-Modulation",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "ECHO": {
+    "section": "6.2.42",
+    "title": "Echo Cancellation Control",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CAAS": {
+    "section": "6.2.43",
+    "title": "Control Auto Audio Switch",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SVR": {
+    "section": "6.2.44",
+    "title": "Configure V oice Coding Type for V oice Calls",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "GSMBUSY": {
+    "section": "6.2.45",
+    "title": "Reject Incoming Call",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CEMNL": {
+    "section": "6.2.46",
+    "title": "Set the List of Emergency Number",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SLEDS": {
+    "section": "6.2.48",
+    "title": "Set the Timer Period of Net Light",
+    "parameters": [
+      {
+        "name": "timer_off",
+        "type": "string",
+        "description": "| Parameters"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CBUZZERRING": {
+    "section": "6.2.49",
+    "title": "Use the Buzzer Sound as the Incoming Call Ring",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CEXTERNTONE": {
+    "section": "6.2.50",
+    "title": "Close or Open the Microphone",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CNETLIGHT": {
+    "section": "6.2.51",
+    "title": "Close the Ne t Light or Open It to Shining",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CWHITELIST": {
+    "section": "6.2.52",
+    "title": "Set the White List",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSDT": {
+    "section": "6.2.53",
+    "title": "Switch On or Off Detecting SIM Card",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSMINS": {
+    "section": "6.2.54",
+    "title": "SIM In serted Status Reporting",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSGS": {
+    "section": "6.2.55",
+    "title": "Netlight Indication of GPRS Status",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMICBIAS": {
+    "section": "6.2.56",
+    "title": "Close or Open the MICBIAS",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGATT": {
+    "section": "7.2.1",
+    "title": "Attach or Detach from GPRS Service",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGDCONT": {
+    "section": "7.2.2",
+    "title": "Define PDP Context",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGQMIN": {
+    "section": "7.2.3",
+    "title": "Quality of Serv ice Profile (Minimum Acceptable)",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGQREQ": {
+    "section": "7.2.4",
+    "title": "Quality of Service Profile (Requested)",
+    "parameters": [
+      {
+        "name": "mean",
+        "type": "string",
+        "description": "]]]]] | Parameters"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGACT": {
+    "section": "7.2.5",
+    "title": "PDP Context Activate or Deactivate",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGDATA": {
+    "section": "7.2.6",
+    "title": "Enter Data State",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGPADDR": {
+    "section": "7.2.7",
+    "title": "Show PDP Address",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGCLASS": {
+    "section": "7.2.8",
+    "title": "GPRS Mobile Station Class",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGEREP": {
+    "section": "7.2.9",
+    "title": "Control Unsolicited GPRS Event Reporting",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGREG": {
+    "section": "7.2.10",
+    "title": "Network Registration Status",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CGSMS": {
+    "section": "7.2.11",
+    "title": "Select Service for MO SMS Messages",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPMUX": {
+    "section": "8.2.1",
+    "title": "Start Up Multi-IP Connection",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPSTART": {
+    "section": "8.2.2",
+    "title": "Start Up TCP or UDP Connection",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPSEND": {
+    "section": "8.2.3",
+    "title": "Send Data Through TCP or UDP Connection",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPQSEND": {
+    "section": "8.2.4",
+    "title": "Select Data Transmitting Mode",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPACK": {
+    "section": "8.2.5",
+    "title": "Query Previous Connection Data Transmitting State",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPCLOSE": {
+    "section": "8.2.6",
+    "title": "Close TCP or UDP Connection",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPSHUT": {
+    "section": "8.2.7",
+    "title": "Deactivate GPRS PDP Context",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CLPORT": {
+    "section": "8.2.8",
+    "title": "Set Local Port",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CSTT": {
+    "section": "8.2.9",
+    "title": "Start Task and Set APN, USER NAME, PASSWORD",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIICR": {
+    "section": "8.2.10",
+    "title": "Bring Up Wireless Connection with GPRS or CSD",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIFSR": {
+    "section": "8.2.11",
+    "title": "Get Local IP Address",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPSTATUS": {
+    "section": "8.2.12",
+    "title": "Query Current Connection Status",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CDNSCFG": {
+    "section": "8.2.13",
+    "title": "Configure Domain Name Server",
+    "parameters": [
+      {
+        "name": "pri_dns",
+        "type": "string",
+        "description": "| ERROR"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CDNSGIP": {
+    "section": "8.2.14",
+    "title": "Query the IP Address of Given Domain Name",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPHEAD": {
+    "section": "8.2.15",
+    "title": "Add an IP Head at the Beginning of a Package Received",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPATS": {
+    "section": "8.2.16",
+    "title": "Set Auto Sending Timer",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPSPRT": {
+    "section": "8.2.17",
+    "title": "Set Prompt of ‘>’ When Module Sends Data",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPSERVER": {
+    "section": "8.2.18",
+    "title": "Configure Module as Server",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPCSGP": {
+    "section": "8.2.19",
+    "title": "Set CSD or GPRS for Connection Mode",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPSRIP": {
+    "section": "8.2.20",
+    "title": "Show Remote IP Address and Port When Received Data",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPDPDP": {
+    "section": "8.2.21",
+    "title": "Set Whether to Check State of GPRS Network Timing",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPMODE": {
+    "section": "8.2.22",
+    "title": "Select TCPIP Application Mode",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPSHOWTP": {
+    "section": "8.2.24",
+    "title": "Display Transfer Protocol in IP Head When Received Data",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPUDPMODE": {
+    "section": "8.2.25",
+    "title": "UDP Extended Mode",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPRXGET": {
+    "section": "8.2.26",
+    "title": "Get Data from Network Manually",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPSCONT": {
+    "section": "8.2.27",
+    "title": "Save TCPIP Application Context",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPRDTIMER": {
+    "section": "8.2.28",
+    "title": "Set Remote Delay Timer",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPSGTXT": {
+    "section": "8.2.29",
+    "title": "Select GPRS PDP context",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SAPBR": {
+    "section": "9.2.1",
+    "title": "Bearer Settings for Applications Based on IP",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPPING": {
+    "section": "10.2.1",
+    "title": "PING Request",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPCTL": {
+    "section": "10.2.2",
+    "title": "Set the Mode When Receiving an IP Packet",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPFLT": {
+    "section": "10.2.3",
+    "title": "Set the Rules of IP Filter",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "HTTPINIT": {
+    "section": "11.2.1",
+    "title": "Initialize HTTP Service",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "HTTPTERM": {
+    "section": "11.2.2",
+    "title": "Terminate HTTP Service",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "HTTPPARA": {
+    "section": "11.2.3",
+    "title": "Set HTTP Parameters Value",
+    "parameters": [
+      {
+        "name": "HTTPParamValue",
+        "type": "string",
+        "description": "| header."
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "HTTPDATA": {
+    "section": "11.2.4",
+    "title": "Input HTTP Data",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "HTTPACTION": {
+    "section": "11.2.5",
+    "title": "HTTP Method Action",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "HTTPREAD": {
+    "section": "11.2.6",
+    "title": "Read the HTTP Server Response",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "HTTPSCONT": {
+    "section": "11.2.7",
+    "title": "Save HTTP Application Context",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "HTTPSTATUS": {
+    "section": "11.2.8",
+    "title": "Read HTTP Status",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPPORT": {
+    "section": "12.2.1",
+    "title": "Set FTP Control Port",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPMODE": {
+    "section": "12.2.2",
+    "title": "Set Active or Passive FTP Mode",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPTYPE": {
+    "section": "12.2.3",
+    "title": "Set the Type of Data to Be Transferred",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPPUTOPT": {
+    "section": "12.2.4",
+    "title": "Set FTP Put Type",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPCID": {
+    "section": "12.2.5",
+    "title": "Set FTP Bearer Profile Identifier",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPREST": {
+    "section": "12.2.6",
+    "title": "Set Resume Broken Download",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPSERV": {
+    "section": "12.2.7",
+    "title": "Set FTP Server Address",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPUN": {
+    "section": "12.2.8",
+    "title": "Set FTP User Name",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPPW": {
+    "section": "12.2.9",
+    "title": "Set FTP Password",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPGETNAME": {
+    "section": "12.2.10",
+    "title": "Set Download File Name",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPGETPATH": {
+    "section": "12.2.11",
+    "title": "Set Download File Path",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPPUTNAME": {
+    "section": "12.2.12",
+    "title": "Set Upload File Name",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPPUTPATH": {
+    "section": "12.2.13",
+    "title": "Set Upload File Path",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPGET": {
+    "section": "12.2.14",
+    "title": "Download File",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPPUT": {
+    "section": "12.2.15",
+    "title": "Set Upload File",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPSCONT": {
+    "section": "12.2.16",
+    "title": "Save FTP Application Context",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPDELE": {
+    "section": "12.2.17",
+    "title": "Delete Sp ecified File in FTP Server",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPSIZE": {
+    "section": "12.2.18",
+    "title": "Get the Size of Specified File in FTP Server",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPSTATE": {
+    "section": "12.2.19",
+    "title": "Get the FTP State",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPEXTPUT": {
+    "section": "12.2.20",
+    "title": "Extend Upload File",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPMKD": {
+    "section": "12.2.21",
+    "title": "Make Directory on the Remote Machine",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPRMD": {
+    "section": "12.2.22",
+    "title": "Remove Directory on the Remote Machine",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "FTPLIST": {
+    "section": "12.2.23",
+    "title": "List Contents of Directory on the Remote Machine",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPGSMLOC": {
+    "section": "13.2.1",
+    "title": "GSM Location and Time",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "EMAILCID": {
+    "section": "14.2.1",
+    "title": "Set Email Bearer Profile Identifier",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "EMAILTO": {
+    "section": "14.2.2",
+    "title": "Set Timeout Value of SMTP/POP3 Server Response",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SMTPSRV": {
+    "section": "14.2.3",
+    "title": "Set SMTP Server Address and Port",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SMTPAUTH": {
+    "section": "14.2.4",
+    "title": "Set User Name and Password for SMTP Authentication",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SMTPFROM": {
+    "section": "14.2.5",
+    "title": "Set Sender Address and Name",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SMTPRCPT": {
+    "section": "14.2.6",
+    "title": "Set the Email Recipient(TO/CC/BCC) Address and Name",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SMTPSUB": {
+    "section": "14.2.7",
+    "title": "Set the Email Subject",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SMTPBODY": {
+    "section": "14.2.8",
+    "title": "Set the Email Body",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SMTPFILE": {
+    "section": "14.2.9",
+    "title": "Set the Email Attachment",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SMTPSEND": {
+    "section": "14.2.10",
+    "title": "Send the Email",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SMTPFT": {
+    "section": "14.2.11",
+    "title": "Transfer the Email Attachment",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "SMTPCS": {
+    "section": "14.2.12",
+    "title": "Set the Email Charset",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "POP3SRV": {
+    "section": "14.2.13",
+    "title": "Set POP3 Server and Account",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "POP3IN": {
+    "section": "14.2.14",
+    "title": "Log in POP3 Server",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "POP3NUM": {
+    "section": "14.2.15",
+    "title": "Get Email Number and Total Size",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "POP3LIST": {
+    "section": "14.2.16",
+    "title": "Get the Specific Email Size",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "POP3UIDL": {
+    "section": "14.2.17",
+    "title": "Get the Specific Email Unique-id",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "POP3CMD": {
+    "section": "14.2.18",
+    "title": "Get Multi-line Response",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "POP3READ": {
+    "section": "14.2.19",
+    "title": "Read Multi-line Response",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "POP3DEL": {
+    "section": "14.2.20",
+    "title": "Mark the Specific Email to Delete",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "POP3RSET": {
+    "section": "14.2.21",
+    "title": "Unmark the Emails that Be Marked as Deleted",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "POP3OUT": {
+    "section": "14.2.22",
+    "title": "Log Out POP3 Server",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSCURL": {
+    "section": "15.2.1",
+    "title": "Set the URL of the mms center",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSPROTO": {
+    "section": "15.2.2",
+    "title": "Set the protocol parameter and MMS proxy",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSCID": {
+    "section": "15.2.3",
+    "title": "Set the network parameters for MMS",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSSENDCFG": {
+    "section": "15.2.4",
+    "title": "Set the parameters for sending MMS",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSEDIT": {
+    "section": "15.2.5",
+    "title": "Enter or exit edit mode",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSDOWN": {
+    "section": "15.2.6",
+    "title": "Download the file data or title from UART",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSDELFILE": {
+    "section": "15.2.7",
+    "title": "Delete the file of the edited MMS by file index",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSSEND": {
+    "section": "15.2.8",
+    "title": "Start mms sending",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSRECP": {
+    "section": "15.2.9",
+    "title": "Add recipients",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSCC": {
+    "section": "15.2.10",
+    "title": "Add copy recipients",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSBCC": {
+    "section": "15.2.11",
+    "title": "Add Secret Recipients",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSDELRECP": {
+    "section": "15.2.12",
+    "title": "Delete recipients",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSDELCC": {
+    "section": "15.2.13",
+    "title": "Delete copy recipients",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSDELBCC": {
+    "section": "15.2.14",
+    "title": "Delete secret recipients",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSRECV": {
+    "section": "15.2.15",
+    "title": "Receive MMS",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSVIEW": {
+    "section": "15.2.16",
+    "title": "Get the MMS into buffer and show the information",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSREAD": {
+    "section": "15.2.17",
+    "title": "Read the given file of the MMS in the buffer",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSRDPUSH": {
+    "section": "15.2.18",
+    "title": "Read the information of the MMS PUSH message",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSUA": {
+    "section": "15.2.19",
+    "title": "Set User Agent",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSPROFILE": {
+    "section": "15.2.20",
+    "title": "Set User Agent Profile",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSTIMEOUT": {
+    "section": "15.2.21",
+    "title": "Set MMS Timeout",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSSTATUS": {
+    "section": "15.2.22",
+    "title": "Get MMS Status",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSINIT": {
+    "section": "15.2.23",
+    "title": "Initialize MMS Function",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSTERM": {
+    "section": "15.2.24",
+    "title": "Exit MMS Function",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CMMSSCONT": {
+    "section": "15.2.25",
+    "title": "Save MMS Context",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "DDET": {
+    "section": "16.2.1",
+    "title": "DTMF Detection Control",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CREC": {
+    "section": "17.2.1",
+    "title": "record operation",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CTTS": {
+    "section": "18.2.1",
+    "title": "TTS Operation",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CTTSPARAM": {
+    "section": "18.2.2",
+    "title": "Set parameters of the TTS playing",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CEER": {
+    "section": "3.2.7",
+    "title": "Change description of 34 (emergency call",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CIPCCFG": {
+    "section": "8.2.23",
+    "title": "Modify write cmd parameters",
+    "parameters": [
+      {
+        "name": "n",
+        "type": "string",
+        "description": "String of dialing digits and optionally V.25ter modifiers dialing"
+      },
+      {
+        "name": "mgsm",
+        "type": "string",
+        "description": "String of GSM modifiers:"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": [
+      "AT+CMMSTIMEOUT",
+      "AT+CMMSSCONT",
+      "AT+IFC=1, 1",
+      "AT+GCAP REQUEST COMPLETE TA CAPABILITIES LIST",
+      "AT+GMI REQUEST MANUFACTURER IDENTIFICATION"
+    ]
+  },
+  "21.1": {
+    "section": "",
+    "title": "CSDT",
+    "parameters": [
+      {
+        "name": "Difference",
+        "type": "string",
+        "description": "SIM800V does not support this AT command"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": [
+      "AT+CSDT=?",
+      "AT+CSDT?"
+    ]
+  },
+  "21.2": {
+    "section": "",
+    "title": "CSMINS",
+    "parameters": [
+      {
+        "name": "Difference",
+        "type": "string",
+        "description": "SIM800V does not support this AT command"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": [
+      "AT+CSMINS=?",
+      "AT+CSMINS?"
+    ]
+  },
+  "21.3": {
+    "section": "",
+    "title": "SGPIO",
+    "parameters": [
+      {
+        "name": "Difference",
+        "type": "string",
+        "description": "Parameter different"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": [
+      "AT+SGPIO=?",
+      "AT+SGPIO=?"
+    ]
+  },
+  "21.4": {
+    "section": "",
+    "title": "CBAND",
+    "parameters": [
+      {
+        "name": "Difference",
+        "type": "string",
+        "description": "SIM800V/SIM800W support Dual-band;"
+      },
+      {
+        "name": "Address",
+        "type": "string",
+        "description": "Building A, SIM Technology Building, No. 633 Jinzhong Road, Shanghai,"
+      },
+      {
+        "name": "Tel",
+        "type": "string",
+        "description": "+86 21 3252 3300"
+      },
+      {
+        "name": "Fax",
+        "type": "string",
+        "description": "+86 21 3252 2030"
+      }
+    ],
+    "response_success": null,
+    "response_error": null,
+    "examples": [
+      "AT+CBAND=?",
+      "AT+CBAND=?"
+    ]
+  },
+  "CEXTHS": {
+    "section": "",
+    "title": "EXTERNAL HEADSET JACK CONTROL",
+    "parameters": [],
+    "response_success": null,
+    "response_error": null,
+    "examples": []
+  },
+  "CEXTBUT": {
+    "section": "",
+    "title": "HEADSET BUTTON STATUS REPORTING",
+    "parameters": [],
+    "response_success": "+SIDET: (list of supported <channel>s),(list of supported <gainlevel>s)",
+    "response_error": null,
+    "examples": [
+      "AT+CLDTMF LOCAL DTMF TONE GENERATION",
+      "AT+CDRIND CS VOICE/DATA CALL TERMINATION INDICATION",
+      "AT+CSPN GET SERVICE PROVIDER NAME FROM SIM",
+      "AT+CCVM GET AND SET THE VOICE MAIL NUMBER ON THE SIM",
+      "AT+CBAND GET AND SET MOBILE OPERATION BAND"
+    ]
+  }
+}

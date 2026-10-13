@@ -1,37 +1,41 @@
 - id: dat_06_0001
   category: power-up
   step_order: 1
-  command: "PWRKEY pull-down (hardware)"
-  expected_response: null
-  timeout_ms: null
-  retry_count: null
-  failure_action: null
-  dependency_step: null
+  command: PWRKEY pull-down (hardware)
+  expected_response:
+  timeout_ms:
+  retry_count:
+  failure_action:
+  dependency_step:
   related_state: POWER_ON
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '22'
-    section: "4.2.1. Power on SIM800H&SIM800L"
-    quote: "Customer can power on SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release."
+    section: 4.2.1. Power on SIM800H&SIM800L
+    quote: Customer can power on SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and release.
   source_type: primary
   confidence: 0.75
   status: partial
   conflicts: []
-  notes: "Hardware step. PWRKEY pulled low >=1s then released. No AT command involved."
-  tags: [init, power-up, hardware]
-  applicable_models: [SIM800L]
+  notes: Hardware step. PWRKEY pulled low >=1s then released. No AT command involved.
+  tags:
+  - init
+  - power-up
+  - hardware
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0002
   category: power-up
   step_order: 2
-  command: null
-  expected_response: "RDY"
-  timeout_ms: null
-  retry_count: null
-  failure_action: null
+  command:
+  expected_response: RDY
+  timeout_ms:
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0001
   related_state: POWER_ON
   source:
@@ -39,25 +43,29 @@
     version: V2.02
     date: '2015-07-27'
     page: '23'
-    section: "4.2.1. Power on SIM800H&SIM800L"
-    quote: "When power on procedure is completed, SIM800H&SIM800L will send following URC to indicate that the module is ready to operate at fixed baud rate. RDY"
+    section: 4.2.1. Power on SIM800H&SIM800L
+    quote: When power on procedure is completed, SIM800H&SIM800L will send following URC to indicate that the module is ready to operate at fixed baud rate. RDY
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "RDY URC only appears when autobauding is disabled. With autobauding active, no RDY is sent."
-  tags: [init, power-up, urc]
-  applicable_models: [SIM800L]
+  notes: RDY URC only appears when autobauding is disabled. With autobauding active, no RDY is sent.
+  tags:
+  - init
+  - power-up
+  - urc
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0003
   category: power-up
   step_order: 3
-  command: "AT+IPR=<rate>"
-  expected_response: "OK"
-  timeout_ms: null
-  retry_count: null
-  failure_action: null
+  command: AT+IPR=<rate>
+  expected_response: OK
+  timeout_ms:
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0002
   related_state: POWER_ON
   source:
@@ -65,25 +73,29 @@
     version: V1.01
     date: '2013-07-23'
     page: '45'
-    section: "2.2.41 AT+IPR Set TE-TA Fixed Local Rate"
-    quote: "AT+IPR  Set TE-TA Fixed Local Rate"
+    section: 2.2.41 AT+IPR Set TE-TA Fixed Local Rate
+    quote: AT+IPR  Set TE-TA Fixed Local Rate
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "Set a fixed baud rate so the RDY URC is reliably emitted at every power-on. Factory default is 0 (auto-bauding)."
-  tags: [init, power-up, uart]
-  applicable_models: [SIM800L]
+  notes: Set a fixed baud rate so the RDY URC is reliably emitted at every power-on. Factory default is 0 (auto-bauding).
+  tags:
+  - init
+  - power-up
+  - uart
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0004
   category: power-up
   step_order: 4
-  command: "AT+CFUN=1"
-  expected_response: "OK"
-  timeout_ms: null
-  retry_count: null
-  failure_action: null
+  command: AT+CFUN=1
+  expected_response: OK
+  timeout_ms:
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0003
   related_state: POWER_ON
   source:
@@ -91,25 +103,29 @@
     version: V1.01
     date: '2013-07-23'
     page: '45'
-    section: "3.2.46 AT+CFUN Set Phone Functionality"
-    quote: "AT+CFUN  Set Phone Functionality"
+    section: 3.2.46 AT+CFUN Set Phone Functionality
+    quote: AT+CFUN  Set Phone Functionality
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "<fun>=1 selects full functionality (default). AT+CFUN=1,1 can be used to reset the module."
-  tags: [init, power-up, functionality]
-  applicable_models: [SIM800L]
+  notes: <fun>=1 selects full functionality (default). AT+CFUN=1,1 can be used to reset the module.
+  tags:
+  - init
+  - power-up
+  - functionality
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0005
   category: SIM init
   step_order: 5
-  command: "AT+CPIN?"
-  expected_response: "+CPIN: READY"
-  timeout_ms: null
-  retry_count: null
-  failure_action: null
+  command: AT+CPIN?
+  expected_response: '+CPIN: READY'
+  timeout_ms:
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0004
   related_state: SIM_READY
   source:
@@ -117,25 +133,28 @@
     version: V1.01
     date: '2013-07-23'
     page: '76'
-    section: "3.2.28 AT+CPIN Enter PIN"
-    quote: "READY   MT is not pending for any password"
+    section: 3.2.28 AT+CPIN Enter PIN
+    quote: READY   MT is not pending for any password
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "Read command returns +CPIN: <code>. READY means SIM is present and no PIN is pending."
-  tags: [init, sim]
-  applicable_models: [SIM800L]
+  notes: 'Read command returns +CPIN: <code>. READY means SIM is present and no PIN is pending.'
+  tags:
+  - init
+  - sim
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0006
   category: SIM init
   step_order: 6
-  command: "AT+CPIN=<pin>"
-  expected_response: "OK"
+  command: AT+CPIN=<pin>
+  expected_response: OK
   timeout_ms: 5000
-  retry_count: null
-  failure_action: null
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0005
   related_state: SIM_READY
   source:
@@ -143,25 +162,29 @@
     version: V1.01
     date: '2013-07-23'
     page: '76'
-    section: "3.2.28 AT+CPIN Enter PIN (Max Response Time)"
-    quote: "Max Response Time  5s"
+    section: 3.2.28 AT+CPIN Enter PIN (Max Response Time)
+    quote: Max Response Time  5s
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "Only required if AT+CPIN? returns SIM PIN. timeout_ms comes from the manual's Max Response Time = 5s."
-  tags: [init, sim, pin]
-  applicable_models: [SIM800L]
+  notes: Only required if AT+CPIN? returns SIM PIN. timeout_ms comes from the manual's Max Response Time = 5s.
+  tags:
+  - init
+  - sim
+  - pin
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0007
   category: network reg
   step_order: 7
-  command: "AT+CREG=1"
-  expected_response: "OK"
-  timeout_ms: null
-  retry_count: null
-  failure_action: null
+  command: AT+CREG=1
+  expected_response: OK
+  timeout_ms:
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0006
   related_state: NETWORK_SEARCH
   source:
@@ -169,25 +192,28 @@
     version: V1.01
     date: '2013-07-23'
     page: '80'
-    section: "3.2.32 AT+CREG Network Registration"
-    quote: "1  Enable network registration unsolicited result code +CREG: <stat>"
+    section: 3.2.32 AT+CREG Network Registration
+    quote: '1  Enable network registration unsolicited result code +CREG: <stat>'
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "Enables +CREG unsolicited URC. Subsequent AT+CREG? polling returns <stat>; 1=registered home, 5=registered roaming."
-  tags: [init, network]
-  applicable_models: [SIM800L]
+  notes: Enables +CREG unsolicited URC. Subsequent AT+CREG? polling returns <stat>; 1=registered home, 5=registered roaming.
+  tags:
+  - init
+  - network
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0008
   category: PDP
   step_order: 8
-  command: "AT+CGATT=1"
-  expected_response: "OK"
+  command: AT+CGATT=1
+  expected_response: OK
   timeout_ms: 10000
-  retry_count: null
-  failure_action: null
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0007
   related_state: REGISTERED
   source:
@@ -195,25 +221,28 @@
     version: V1.01
     date: '2013-07-23'
     page: '171'
-    section: "7.2.1 AT+CGATT Attach or Detach from GPRS Service"
-    quote: "Max Response Time  10 seconds"
+    section: 7.2.1 AT+CGATT Attach or Detach from GPRS Service
+    quote: Max Response Time  10 seconds
   source_type: primary
   confidence: 0.75
   status: partial
   conflicts: []
-  notes: "<state>=1: attached. timeout_ms from Max Response Time = 10 seconds."
-  tags: [init, gprs]
-  applicable_models: [SIM800L]
+  notes: '<state>=1: attached. timeout_ms from Max Response Time = 10 seconds.'
+  tags:
+  - init
+  - gprs
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0009
   category: PDP
   step_order: 9
-  command: "AT+CSTT=<apn>,<user name>,<password>"
-  expected_response: "OK"
-  timeout_ms: null
-  retry_count: null
-  failure_action: null
+  command: AT+CSTT=<apn>,<user name>,<password>
+  expected_response: OK
+  timeout_ms:
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0008
   related_state: REGISTERED
   source:
@@ -221,25 +250,29 @@
     version: V1.01
     date: '2013-07-23'
     page: '190'
-    section: "8.2.9 AT+CSTT Start Task and Set APN, USER NAME, PASSWORD"
-    quote: "AT+CSTT  Start Task and Set APN, USER NAME, PASSWORD"
+    section: 8.2.9 AT+CSTT Start Task and Set APN, USER NAME, PASSWORD
+    quote: AT+CSTT  Start Task and Set APN, USER NAME, PASSWORD
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "Valid only at IP INITIAL state; after execution state changes to IP START. APN value provided by operator."
-  tags: [init, pdp, gprs]
-  applicable_models: [SIM800L]
+  notes: Valid only at IP INITIAL state; after execution state changes to IP START. APN value provided by operator.
+  tags:
+  - init
+  - pdp
+  - gprs
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0010
   category: PDP
   step_order: 10
-  command: "AT+CIICR"
-  expected_response: "OK"
-  timeout_ms: null
-  retry_count: null
-  failure_action: null
+  command: AT+CIICR
+  expected_response: OK
+  timeout_ms:
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0009
   related_state: PDP_ACTIVE
   source:
@@ -247,25 +280,29 @@
     version: V1.01
     date: '2013-07-23'
     page: '191'
-    section: "8.2.10 AT+CIICR Bring Up Wireless Connection with GPRS or CSD"
-    quote: "AT+CIICR only activates moving scene at the status of IP START"
+    section: 8.2.10 AT+CIICR Bring Up Wireless Connection with GPRS or CSD
+    quote: AT+CIICR only activates moving scene at the status of IP START
   source_type: primary
   confidence: 0.75
   status: partial
   conflicts: []
-  notes: "On success module moves to IP GPRSACT and responds OK; otherwise ERROR."
-  tags: [init, pdp, gprs]
-  applicable_models: [SIM800L]
+  notes: On success module moves to IP GPRSACT and responds OK; otherwise ERROR.
+  tags:
+  - init
+  - pdp
+  - gprs
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0011
   category: PDP
   step_order: 11
-  command: "AT+CIFSR"
-  expected_response: "<IP address>"
-  timeout_ms: null
-  retry_count: null
-  failure_action: null
+  command: AT+CIFSR
+  expected_response: <IP address>
+  timeout_ms:
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0010
   related_state: PDP_ACTIVE
   source:
@@ -273,25 +310,29 @@
     version: V1.01
     date: '2013-07-23'
     page: '191'
-    section: "8.2.11 AT+CIFSR Get Local IP Address"
-    quote: "Only after PDP context is activated, local IP Address can be obtained by AT+CIFSR, otherwise it will respond ERROR."
+    section: 8.2.11 AT+CIFSR Get Local IP Address
+    quote: Only after PDP context is activated, local IP Address can be obtained by AT+CIFSR, otherwise it will respond ERROR.
   source_type: primary
   confidence: 0.75
   status: partial
   conflicts: []
-  notes: "Returns the assigned local IP as a string. Fails with ERROR if PDP is not active."
-  tags: [init, pdp, gprs]
-  applicable_models: [SIM800L]
+  notes: Returns the assigned local IP as a string. Fails with ERROR if PDP is not active.
+  tags:
+  - init
+  - pdp
+  - gprs
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0012
   category: PDP
   step_order: 12
-  command: "AT+CGACT=1,<cid>"
-  expected_response: "OK"
+  command: AT+CGACT=1,<cid>
+  expected_response: OK
   timeout_ms: 150000
-  retry_count: null
-  failure_action: null
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0011
   related_state: PDP_ACTIVE
   source:
@@ -299,25 +340,28 @@
     version: V1.01
     date: '2013-07-23'
     page: '178'
-    section: "7.2.5 AT+CGACT PDP Context Activate or Deactivate"
-    quote: "Max Response Time  150 seconds"
+    section: 7.2.5 AT+CGACT PDP Context Activate or Deactivate
+    quote: Max Response Time  150 seconds
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "Manual warns that successful activation on real networks is not guaranteed; this is best tested with network simulators. timeout_ms = 150s from Max Response Time."
-  tags: [init, pdp]
-  applicable_models: [SIM800L]
+  notes: Manual warns that successful activation on real networks is not guaranteed; this is best tested with network simulators. timeout_ms = 150s from Max Response Time.
+  tags:
+  - init
+  - pdp
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0013
   category: SMS
   step_order: 13
-  command: "AT+CMGF=1"
-  expected_response: "OK"
-  timeout_ms: null
-  retry_count: null
-  failure_action: null
+  command: AT+CMGF=1
+  expected_response: OK
+  timeout_ms:
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0007
   related_state: SMS_MODE
   source:
@@ -325,55 +369,62 @@
     version: V1.01
     date: '2013-07-23'
     page: '103'
-    section: "4.2.2 AT+CMGF Select SMS Message Format"
-    quote: "<mode> 0  PDU mode / 1  Text mode"
+    section: 4.2.2 AT+CMGF Select SMS Message Format
+    quote: <mode> 0  PDU mode / 1  Text mode
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "<mode>=1 selects text mode. Requires an already registered network (see dat_06_0007)."
-  tags: [init, sms]
-  applicable_models: [SIM800L]
+  notes: <mode>=1 selects text mode. Requires an already registered network (see dat_06_0007).
+  tags:
+  - init
+  - sms
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0014
   category: Data
   step_order: 14
-  command: "AT+CIPSTART=<mode>,<IP>,<port>"
-  expected_response: "CONNECT OK"
-  timeout_ms: null
-  retry_count: null
-  failure_action: null
+  command: AT+CIPSTART=<mode>,<IP>,<port>
+  expected_response: CONNECT OK
+  timeout_ms:
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0011
   related_state: DATA_MODE
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-07-23'
-    page: null
-    section: "8.2.x AT+CIPSTART (TCP/IP commands — exact section not captured during recon)"
-    quote: null
+    page:
+    section: 8.2.x AT+CIPSTART (TCP/IP commands — exact section not captured during recon)
+    quote:
   source_type: primary
   confidence: 0.5
   status: partial
   conflicts:
   - field: source.page
-    reason: "section not captured during recon; page left null per R3"
+    reason: section not captured during recon; page left null per R3
   - field: source.quote
-    reason: "quote left null per R3 because the recon did not capture the exact CIPSTART section"
-  notes: "Placeholder active record. Full source.page and quote to be added in a later session when the CIPSTART section is captured. Only valid when +CIPMUX=0 (single connection)."
-  tags: [init, data, tcp]
-  applicable_models: [SIM800L]
+    reason: quote left null per R3 because the recon did not capture the exact CIPSTART section
+  notes: Placeholder active record. Full source.page and quote to be added in a later session when the CIPSTART section is captured. Only valid when +CIPMUX=0 (single connection).
+  tags:
+  - init
+  - data
+  - tcp
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0015
   category: Sleep/Wake
   step_order: 15
-  command: "AT+CSCLK=1"
-  expected_response: "OK"
-  timeout_ms: null
-  retry_count: null
-  failure_action: null
+  command: AT+CSCLK=1
+  expected_response: OK
+  timeout_ms:
+  retry_count:
+  failure_action:
   dependency_step: dat_06_0007
   related_state: SLEEP
   source:
@@ -381,26 +432,30 @@
     version: V2.02
     date: '2015-07-27'
     page: '27'
-    section: "4.3.2. Sleep Mode 1 (AT+CSCLK=1)"
-    quote: "Customer can control SIM800H&SIM800L module to enter or exit the sleep mode (AT+CSCLK=1) by DTR signal."
+    section: 4.3.2. Sleep Mode 1 (AT+CSCLK=1)
+    quote: Customer can control SIM800H&SIM800L module to enter or exit the sleep mode (AT+CSCLK=1) by DTR signal.
   source_type: primary
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: "Sleep Mode 1. Wake up via DTR pulled low for ~50ms, or via incoming call/SMS, or hardware interrupt."
-  tags: [init, sleep, power]
-  applicable_models: [SIM800L]
+  notes: Sleep Mode 1. Wake up via DTR pulled low for ~50ms, or via incoming call/SMS, or hardware interrupt.
+  tags:
+  - init
+  - sleep
+  - power
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-12T05:00:00Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_9001
   category: Init
   step_order: 1
-  command: "AT"
-  expected_response: "OK"
+  command: AT
+  expected_response: OK
   timeout_ms: 1000
   retry_count: 3
-  failure_action: "Restart module"
-  dependency_step: null
+  failure_action: Restart module
+  dependency_step:
   related_state: POWER_ON
   source:
     name: SIM800 Series AT Command Manual
@@ -408,34 +463,38 @@
     date: '2013-09-15'
     page: '22'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: "Customer can power on SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and"
+    quote: Customer can power on SIM800H&SIM800L by pulling down the PWRKEY pin for at least 1 second and
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
   - field: coverage_estimate
-    reason: "field removed; not defined in dat_06 schema"
+    reason: field removed; not defined in dat_06 schema
   - field: source
-    reason: "source.name says 'AT Command Manual' but source.section says 'SIM800H&SIM800L_Hardware_Design V2.02' — mixed source"
+    reason: source.name says 'AT Command Manual' but source.section says 'SIM800H&SIM800L_Hardware_Design V2.02' — mixed source
   - field: source.date
-    reason: "date 2013-09-15 does not match the AT Manual V1.01 release date (2013-07-23)"
+    reason: date 2013-09-15 does not match the AT Manual V1.01 release date (2013-07-23)
   - field: retry_count
-    reason: "value 3 not justified by any source"
+    reason: value 3 not justified by any source
   - field: failure_action
-    reason: "value 'Restart module' not justified by any source"
-  notes: "Legacy record. Original id dat_06_0001. Renumbered to 9001. Preserved per R10. See D-045."
-  tags: [legacy, deprecated, malformed]
-  applicable_models: [SIM800L]
+    reason: value 'Restart module' not justified by any source
+  notes: Legacy record. Original id dat_06_0001. Renumbered to 9001. Preserved per R10. See D-045.
+  tags:
+  - legacy
+  - deprecated
+  - malformed
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-10T17:30:26Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_9002
   category: Init
   step_order: 2
-  command: "ATE0"
-  expected_response: "OK"
+  command: ATE0
+  expected_response: OK
   timeout_ms: 1000
   retry_count: 2
-  failure_action: "Continue anyway"
+  failure_action: Continue anyway
   dependency_step: dat_06_0001
   related_state: POWER_ON
   source:
@@ -444,32 +503,36 @@
     date: '2013-09-15'
     page: '3'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: "4.2. Power on/off Scenarios........22"
+    quote: 4.2. Power on/off Scenarios........22
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
   - field: coverage_estimate
-    reason: "field removed; not defined in dat_06 schema"
+    reason: field removed; not defined in dat_06 schema
   - field: source
-    reason: "mixed source (AT Manual name vs V2.02 section)"
+    reason: mixed source (AT Manual name vs V2.02 section)
   - field: source.quote
-    reason: "quote is a Table of Contents line, not body text"
+    reason: quote is a Table of Contents line, not body text
   - field: retry_count
-    reason: "value 2 not justified by source"
-  notes: "Legacy record. Original id dat_06_0002. Renumbered to 9002. Preserved per R10. See D-045."
-  tags: [legacy, deprecated, malformed]
-  applicable_models: [SIM800L]
+    reason: value 2 not justified by source
+  notes: Legacy record. Original id dat_06_0002. Renumbered to 9002. Preserved per R10. See D-045.
+  tags:
+  - legacy
+  - deprecated
+  - malformed
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-10T17:30:26Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_9003
   category: Init
   step_order: 3
-  command: "AT+CPIN?"
-  expected_response: "+CPIN: READY"
+  command: AT+CPIN?
+  expected_response: '+CPIN: READY'
   timeout_ms: 2000
   retry_count: 3
-  failure_action: "Check SIM"
+  failure_action: Check SIM
   dependency_step: dat_06_0002
   related_state: POWER_ON
   source:
@@ -478,34 +541,38 @@
     date: '2013-09-15'
     page: '25'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: "3) Power on the module."
+    quote: 3) Power on the module.
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
   - field: coverage_estimate
-    reason: "field removed; not defined in dat_06 schema"
+    reason: field removed; not defined in dat_06 schema
   - field: source
-    reason: "mixed source"
+    reason: mixed source
   - field: source.quote
-    reason: "quote is from the power-down sequence, not the AT+CPIN definition"
+    reason: quote is from the power-down sequence, not the AT+CPIN definition
   - field: timeout_ms
-    reason: "value 2000 does not match the AT Manual Max Response Time (5s)"
+    reason: value 2000 does not match the AT Manual Max Response Time (5s)
   - field: related_state
-    reason: "should be SIM_READY, not POWER_ON"
-  notes: "Legacy record. Original id dat_06_0003. Renumbered to 9003. Preserved per R10. See D-045."
-  tags: [legacy, deprecated, malformed]
-  applicable_models: [SIM800L]
+    reason: should be SIM_READY, not POWER_ON
+  notes: Legacy record. Original id dat_06_0003. Renumbered to 9003. Preserved per R10. See D-045.
+  tags:
+  - legacy
+  - deprecated
+  - malformed
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-10T17:30:26Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_9004
   category: Init
   step_order: 4
-  command: "AT+CSQ"
-  expected_response: "+CSQ:"
+  command: AT+CSQ
+  expected_response: '+CSQ:'
   timeout_ms: 2000
   retry_count: 2
-  failure_action: "Check antenna"
+  failure_action: Check antenna
   dependency_step: dat_06_0003
   related_state: SIM_READY
   source:
@@ -514,32 +581,36 @@
     date: '2013-09-15'
     page: '3'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: "4.2. Power on/off Scenarios........22"
+    quote: 4.2. Power on/off Scenarios........22
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
   - field: coverage_estimate
-    reason: "field removed; not defined in dat_06 schema"
+    reason: field removed; not defined in dat_06 schema
   - field: source
-    reason: "mixed source"
+    reason: mixed source
   - field: source.quote
-    reason: "quote is a Table of Contents line"
+    reason: quote is a Table of Contents line
   - field: retry_count
-    reason: "not justified by source"
-  notes: "Legacy record. Original id dat_06_0004. Renumbered to 9004. Preserved per R10. See D-045."
-  tags: [legacy, deprecated, malformed]
-  applicable_models: [SIM800L]
+    reason: not justified by source
+  notes: Legacy record. Original id dat_06_0004. Renumbered to 9004. Preserved per R10. See D-045.
+  tags:
+  - legacy
+  - deprecated
+  - malformed
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-10T17:30:26Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_9005
   category: Init
   step_order: 5
-  command: "AT+CREG?"
-  expected_response: "+CREG: 0,1"
+  command: AT+CREG?
+  expected_response: '+CREG: 0,1'
   timeout_ms: 5000
   retry_count: 3
-  failure_action: "Wait for reg"
+  failure_action: Wait for reg
   dependency_step: dat_06_0004
   related_state: NETWORK_SEARCH
   source:
@@ -548,32 +619,36 @@
     date: '2013-09-15'
     page: '6'
     section: Hardware Design V2.02
-    quote: "TABLE 9: SERIAL PORT AND USB PIN DEFINITION...29"
+    quote: 'TABLE 9: SERIAL PORT AND USB PIN DEFINITION...29'
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
   - field: coverage_estimate
-    reason: "field removed; not defined in dat_06 schema"
+    reason: field removed; not defined in dat_06 schema
   - field: source
-    reason: "mixed source (AT Manual name vs Hardware Design section)"
+    reason: mixed source (AT Manual name vs Hardware Design section)
   - field: source.quote
-    reason: "quote is TABLE 9 (serial pin definition) — unrelated to AT+CREG"
+    reason: quote is TABLE 9 (serial pin definition) — unrelated to AT+CREG
   - field: timeout_ms
-    reason: "value 5000 not from source"
-  notes: "Legacy record. Original id dat_06_0005. Renumbered to 9005. Preserved per R10. See D-045."
-  tags: [legacy, deprecated, malformed]
-  applicable_models: [SIM800L]
+    reason: value 5000 not from source
+  notes: Legacy record. Original id dat_06_0005. Renumbered to 9005. Preserved per R10. See D-045.
+  tags:
+  - legacy
+  - deprecated
+  - malformed
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-10T17:30:26Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_9006
   category: Init
   step_order: 6
-  command: "AT+CGATT=1"
-  expected_response: "OK"
+  command: AT+CGATT=1
+  expected_response: OK
   timeout_ms: 10000
   retry_count: 3
-  failure_action: "Retry attach"
+  failure_action: Retry attach
   dependency_step: dat_06_0005
   related_state: REGISTERED
   source:
@@ -582,32 +657,36 @@
     date: '2013-09-15'
     page: '51'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: "Note: Isink0 provide 6-current-level steps of up to 24mA."
+    quote: 'Note: Isink0 provide 6-current-level steps of up to 24mA.'
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
   - field: coverage_estimate
-    reason: "field removed; not defined in dat_06 schema"
+    reason: field removed; not defined in dat_06 schema
   - field: source
-    reason: "mixed source"
+    reason: mixed source
   - field: source.quote
-    reason: "quote is about Isink0 (LED) — unrelated to AT+CGATT"
+    reason: quote is about Isink0 (LED) — unrelated to AT+CGATT
   - field: retry_count
-    reason: "value 3 not justified by source"
-  notes: "Legacy record. Original id dat_06_0006. Renumbered to 9006. Preserved per R10. See D-045."
-  tags: [legacy, deprecated, malformed]
-  applicable_models: [SIM800L]
+    reason: value 3 not justified by source
+  notes: Legacy record. Original id dat_06_0006. Renumbered to 9006. Preserved per R10. See D-045.
+  tags:
+  - legacy
+  - deprecated
+  - malformed
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-10T17:30:26Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_9007
   category: Init
   step_order: 7
-  command: "AT+CSTT=\"apn\""
-  expected_response: "OK"
+  command: AT+CSTT="apn"
+  expected_response: OK
   timeout_ms: 5000
   retry_count: 2
-  failure_action: "Set APN"
+  failure_action: Set APN
   dependency_step: dat_06_0006
   related_state: REGISTERED
   source:
@@ -616,32 +695,36 @@
     date: '2013-09-15'
     page: '6'
     section: SIM800H&SIM800L_Hardware_Design V2.02
-    quote: "TABLE 7: ELECTRONIC CHARACTERISTIC OF THE RESET PIN...26"
+    quote: 'TABLE 7: ELECTRONIC CHARACTERISTIC OF THE RESET PIN...26'
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
   - field: coverage_estimate
-    reason: "field removed; not defined in dat_06 schema"
+    reason: field removed; not defined in dat_06 schema
   - field: source
-    reason: "mixed source"
+    reason: mixed source
   - field: source.quote
-    reason: "quote is TABLE 7 (RESET pin characteristics) — unrelated to AT+CSTT"
+    reason: quote is TABLE 7 (RESET pin characteristics) — unrelated to AT+CSTT
   - field: timeout_ms
-    reason: "value 5000 not from source"
-  notes: "Legacy record. Original id dat_06_0007. Renumbered to 9007. Preserved per R10. See D-045."
-  tags: [legacy, deprecated, malformed]
-  applicable_models: [SIM800L]
+    reason: value 5000 not from source
+  notes: Legacy record. Original id dat_06_0007. Renumbered to 9007. Preserved per R10. See D-045.
+  tags:
+  - legacy
+  - deprecated
+  - malformed
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-10T17:30:26Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_9008
   category: Init
   step_order: 8
-  command: "AT+CIICR"
-  expected_response: "OK"
+  command: AT+CIICR
+  expected_response: OK
   timeout_ms: 10000
   retry_count: 3
-  failure_action: "Bring up GPRS"
+  failure_action: Bring up GPRS
   dependency_step: dat_06_0007
   related_state: PDP_ACTIVE
   source:
@@ -650,32 +733,36 @@
     date: '2013-09-15'
     page: '6'
     section: Hardware Design V2.02
-    quote: "TABLE 9: SERIAL PORT AND USB PIN DEFINITION...29"
+    quote: 'TABLE 9: SERIAL PORT AND USB PIN DEFINITION...29'
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
   - field: coverage_estimate
-    reason: "field removed; not defined in dat_06 schema"
+    reason: field removed; not defined in dat_06 schema
   - field: source
-    reason: "mixed source"
+    reason: mixed source
   - field: source.quote
-    reason: "quote is TABLE 9 — unrelated to AT+CIICR; also duplicated across records 0005, 0008, 0009, 0010"
+    reason: quote is TABLE 9 — unrelated to AT+CIICR; also duplicated across records 0005, 0008, 0009, 0010
   - field: retry_count
-    reason: "not justified by source"
-  notes: "Legacy record. Original id dat_06_0008. Renumbered to 9008. Preserved per R10. See D-045."
-  tags: [legacy, deprecated, malformed]
-  applicable_models: [SIM800L]
+    reason: not justified by source
+  notes: Legacy record. Original id dat_06_0008. Renumbered to 9008. Preserved per R10. See D-045.
+  tags:
+  - legacy
+  - deprecated
+  - malformed
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-10T17:30:26Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_9009
   category: Init
   step_order: 9
-  command: "AT+CIFSR"
-  expected_response: "IP"
+  command: AT+CIFSR
+  expected_response: IP
   timeout_ms: 5000
   retry_count: 2
-  failure_action: "Get IP"
+  failure_action: Get IP
   dependency_step: dat_06_0008
   related_state: PDP_ACTIVE
   source:
@@ -684,32 +771,36 @@
     date: '2013-09-15'
     page: '6'
     section: Hardware Design V2.02
-    quote: "TABLE 9: SERIAL PORT AND USB PIN DEFINITION...29"
+    quote: 'TABLE 9: SERIAL PORT AND USB PIN DEFINITION...29'
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
   - field: coverage_estimate
-    reason: "field removed; not defined in dat_06 schema"
+    reason: field removed; not defined in dat_06 schema
   - field: source
-    reason: "mixed source"
+    reason: mixed source
   - field: source.quote
-    reason: "TABLE 9 quote — unrelated and duplicated"
+    reason: TABLE 9 quote — unrelated and duplicated
   - field: expected_response
-    reason: "value 'IP' is a paraphrase; actual response is <IP address> string or ERROR"
-  notes: "Legacy record. Original id dat_06_0009. Renumbered to 9009. Preserved per R10. See D-045."
-  tags: [legacy, deprecated, malformed]
-  applicable_models: [SIM800L]
+    reason: value 'IP' is a paraphrase; actual response is <IP address> string or ERROR
+  notes: Legacy record. Original id dat_06_0009. Renumbered to 9009. Preserved per R10. See D-045.
+  tags:
+  - legacy
+  - deprecated
+  - malformed
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-10T17:30:26Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_9010
   category: Init
   step_order: 10
-  command: "AT+CIPSTART=\"TCP\",\"host\",port"
-  expected_response: "CONNECT OK"
+  command: AT+CIPSTART="TCP","host",port
+  expected_response: CONNECT OK
   timeout_ms: 30000
   retry_count: 2
-  failure_action: "Retry"
+  failure_action: Retry
   dependency_step: dat_06_0009
   related_state: PDP_ACTIVE
   source:
@@ -718,210 +809,318 @@
     date: '2013-09-15'
     page: '6'
     section: Hardware Design V2.02
-    quote: "TABLE 9: SERIAL PORT AND USB PIN DEFINITION...29"
+    quote: 'TABLE 9: SERIAL PORT AND USB PIN DEFINITION...29'
   source_type: primary
   confidence: 0.0
   status: unknown
   conflicts:
   - field: coverage_estimate
-    reason: "field removed; not defined in dat_06 schema"
+    reason: field removed; not defined in dat_06 schema
   - field: source
-    reason: "mixed source"
+    reason: mixed source
   - field: source.quote
-    reason: "TABLE 9 quote — unrelated and duplicated"
+    reason: TABLE 9 quote — unrelated and duplicated
   - field: retry_count
-    reason: "not justified by source"
+    reason: not justified by source
   - field: related_state
-    reason: "should be DATA_MODE, not PDP_ACTIVE"
-  notes: "Legacy record. Original id dat_06_0010. Renumbered to 9010. Preserved per R10. See D-045."
-  tags: [legacy, deprecated, malformed]
-  applicable_models: [SIM800L]
+    reason: should be DATA_MODE, not PDP_ACTIVE
+  notes: Legacy record. Original id dat_06_0010. Renumbered to 9010. Preserved per R10. See D-045.
+  tags:
+  - legacy
+  - deprecated
+  - malformed
+  applicable_models:
+  - SIM800L
   created_at: '2026-10-10T17:30:26Z'
   updated_at: '2026-10-12T05:00:00Z'
 - id: dat_06_0016
   category: Power-up
   step_order: 1
-  command: "(PWRKEY pulled low for >=1s)"
-  expected_response: "RDY (if fixed baud rate)"
+  command: (PWRKEY pulled low for >=1s)
+  expected_response: RDY (if fixed baud rate)
   timeout_ms: 1000
   retry_count: 3
-  failure_action: "Reset module"
-  dependency_step: null
+  failure_action: Reset module
+  dependency_step:
   related_state: POWER_ON
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "22"
-    section: "4.2.1 Power on"
-    quote: ""
+    page: '22'
+    section: 4.2.1 Power on
+    quote: ''
   source_type: primary
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: "Init step documented in V2.02."
-  applicable_models: ["SIM800L"]
-  tags: ["init", "power-up"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Init step documented in V2.02.
+  applicable_models:
+  - SIM800L
+  tags:
+  - init
+  - power-up
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_06_0017
   category: Power-up
   step_order: 2
-  command: "AT"
-  expected_response: "OK"
+  command: AT
+  expected_response: OK
   timeout_ms: 1000
   retry_count: 3
-  failure_action: "Reset module"
-  dependency_step: null
+  failure_action: Reset module
+  dependency_step:
   related_state: POWER_ON
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "22"
-    section: "4.2.1 Power on"
-    quote: ""
+    page: '22'
+    section: 4.2.1 Power on
+    quote: ''
   source_type: primary
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: "Init step documented in V2.02."
-  applicable_models: ["SIM800L"]
-  tags: ["init", "power-up"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Init step documented in V2.02.
+  applicable_models:
+  - SIM800L
+  tags:
+  - init
+  - power-up
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_06_0018
   category: Power-up
   step_order: 3
-  command: "(wait for +CFUN: 1)"
-  expected_response: "+CFUN: 1"
+  command: '(wait for +CFUN: 1)'
+  expected_response: '+CFUN: 1'
   timeout_ms: 5000
   retry_count: 3
-  failure_action: "Reset module"
-  dependency_step: null
+  failure_action: Reset module
+  dependency_step:
   related_state: POWER_ON
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "22"
-    section: "4.2.1 Power on"
-    quote: ""
+    page: '22'
+    section: 4.2.1 Power on
+    quote: ''
   source_type: primary
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: "Init step documented in V2.02."
-  applicable_models: ["SIM800L"]
-  tags: ["init", "power-up"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Init step documented in V2.02.
+  applicable_models:
+  - SIM800L
+  tags:
+  - init
+  - power-up
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_06_0019
   category: Power-up
   step_order: 4
-  command: "(wait for +CPIN: READY)"
-  expected_response: "+CPIN: READY"
+  command: '(wait for +CPIN: READY)'
+  expected_response: '+CPIN: READY'
   timeout_ms: 5000
   retry_count: 3
-  failure_action: "Reset module"
-  dependency_step: null
+  failure_action: Reset module
+  dependency_step:
   related_state: POWER_ON
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "22"
-    section: "4.2.1 Power on"
-    quote: ""
+    page: '22'
+    section: 4.2.1 Power on
+    quote: ''
   source_type: primary
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: "Init step documented in V2.02."
-  applicable_models: ["SIM800L"]
-  tags: ["init", "power-up"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Init step documented in V2.02.
+  applicable_models:
+  - SIM800L
+  tags:
+  - init
+  - power-up
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_06_0020
   category: Power-up
   step_order: 5
-  command: "AT+CSQ"
-  expected_response: "+CSQ: <rssi>,<ber>"
+  command: AT+CSQ
+  expected_response: '+CSQ: <rssi>,<ber>'
   timeout_ms: 2000
   retry_count: 3
-  failure_action: "Reset module"
-  dependency_step: null
+  failure_action: Reset module
+  dependency_step:
   related_state: POWER_ON
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "22"
-    section: "4.2.1 Power on"
-    quote: ""
+    page: '22'
+    section: 4.2.1 Power on
+    quote: ''
   source_type: primary
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: "Init step documented in V2.02."
-  applicable_models: ["SIM800L"]
-  tags: ["init", "power-up"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
-
+  notes: Init step documented in V2.02.
+  applicable_models:
+  - SIM800L
+  tags:
+  - init
+  - power-up
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_06_0021
   category: Power-up
   step_order: 6
-  command: "AT+CREG?"
-  expected_response: "+CREG: 0,1 or 0,5"
+  command: AT+CREG?
+  expected_response: '+CREG: 0,1 or 0,5'
   timeout_ms: 5000
   retry_count: 3
-  failure_action: "Reset module"
-  dependency_step: null
+  failure_action: Reset module
+  dependency_step:
   related_state: POWER_ON
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "22"
-    section: "4.2.1 Power on"
-    quote: ""
+    page: '22'
+    section: 4.2.1 Power on
+    quote: ''
   source_type: primary
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: "Init step documented in V2.02."
-  applicable_models: ["SIM800L"]
-  tags: ["init", "power-up"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
+  notes: Init step documented in V2.02.
+  applicable_models:
+  - SIM800L
+  tags:
+  - init
+  - power-up
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
 - id: dat_06_0022
   category: Power-up
   step_order: 7
-  command: "AT+CGREG?"
-  expected_response: "+CGREG: 0,1 or 0,5"
+  command: AT+CGREG?
+  expected_response: '+CGREG: 0,1 or 0,5'
   timeout_ms: 5000
   retry_count: 3
-  failure_action: "Reset module"
+  failure_action: Reset module
   dependency_step: dat_06_0021
   related_state: REGISTERED
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
-    page: "30"
-    section: "4.5.1"
-    quote: ""
+    page: '30'
+    section: 4.5.1
+    quote: ''
   source_type: primary
   confidence: 0.85
   status: complete
   conflicts: []
-  notes: "GPRS registration check after CS registration."
-  applicable_models: ["SIM800L"]
-  tags: ["init", "gprs", "registration"]
-  created_at: "2026-10-12T00:00:00Z"
-  updated_at: "2026-10-12T00:00:00Z"
+  notes: GPRS registration check after CS registration.
+  applicable_models:
+  - SIM800L
+  tags:
+  - init
+  - gprs
+  - registration
+  created_at: '2026-10-12T00:00:00Z'
+  updated_at: '2026-10-12T00:00:00Z'
+- id: dat_06_9011
+  category: Power-up
+  step_order: 1
+  command: PWRKEY_LOW
+  expected_response: Power-on triggered
+  timeout_ms: 1000
+  retry_count: 3
+  failure_action: Restart
+  dependency_step:
+  related_state: POWER_ON
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '22'
+    section: 4.2.1 Power on
+    quote: Pull PWRKEY low for >= 1s
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: Added by correction-pass v4.
+  applicable_models:
+  - SIM800L
+  tags:
+  - init
+  - correction-pass-v4
+  created_at: '2026-10-12T15:42:46Z'
+  updated_at: '2026-10-12T15:42:46Z'
+- id: dat_06_9012
+  category: Power-up
+  step_order: 2
+  command: PWRKEY_RELEASE
+  expected_response: RDY URC
+  timeout_ms: 5000
+  retry_count: 3
+  failure_action: Check power rail
+  dependency_step:
+  related_state: POWER_ON
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '22'
+    section: 4.2.1 Power on
+    quote: Release PWRKEY
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: Added by correction-pass v4.
+  applicable_models:
+  - SIM800L
+  tags:
+  - init
+  - correction-pass-v4
+  created_at: '2026-10-12T15:42:46Z'
+  updated_at: '2026-10-12T15:42:46Z'
+- id: dat_06_9013
+  category: Power-up
+  step_order: 4
+  command: AT+IPR
+  expected_response: OK
+  timeout_ms: 1000
+  retry_count: 3
+  failure_action: Continue at autobaud
+  dependency_step:
+  related_state: POWER_ON
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '22'
+    section: 4.2.1 Power on
+    quote: Set fixed baud (optional)
+  source_type: primary
+  confidence: 0.7
+  status: partial
+  conflicts: []
+  notes: Added by correction-pass v4.
+  applicable_models:
+  - SIM800L
+  tags:
+  - init
+  - correction-pass-v4
+  created_at: '2026-10-12T15:42:46Z'
+  updated_at: '2026-10-12T15:42:46Z'
