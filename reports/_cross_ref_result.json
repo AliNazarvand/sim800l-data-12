@@ -339,8 +339,8 @@
   "refs": [
     {
       "dataset": "dat_02",
-      "total_refs": 0,
-      "resolved": 0,
+      "total_refs": 12,
+      "resolved": 12,
       "unresolved": 0
     },
     {
@@ -357,14 +357,14 @@
     },
     {
       "dataset": "dat_05",
-      "total_refs": 0,
-      "resolved": 0,
+      "total_refs": 19,
+      "resolved": 19,
       "unresolved": 0
     },
     {
       "dataset": "dat_06",
-      "total_refs": 0,
-      "resolved": 0,
+      "total_refs": 14,
+      "resolved": 14,
       "unresolved": 0
     },
     {
@@ -381,32 +381,32 @@
     },
     {
       "dataset": "dat_09",
-      "total_refs": 0,
-      "resolved": 0,
+      "total_refs": 14,
+      "resolved": 14,
       "unresolved": 0
     },
     {
       "dataset": "dat_10",
-      "total_refs": 0,
-      "resolved": 0,
-      "unresolved": 0
+      "total_refs": 24,
+      "resolved": 21,
+      "unresolved": 3
     },
     {
       "dataset": "dat_11",
-      "total_refs": 0,
-      "resolved": 0,
-      "unresolved": 0
+      "total_refs": 38,
+      "resolved": 19,
+      "unresolved": 19
     },
     {
       "dataset": "dat_12",
-      "total_refs": 0,
-      "resolved": 0,
-      "unresolved": 0
+      "total_refs": 13,
+      "resolved": 9,
+      "unresolved": 4
     },
     {
       "dataset": "dat_13",
-      "total_refs": 0,
-      "resolved": 0,
+      "total_refs": 10,
+      "resolved": 10,
       "unresolved": 0
     },
     {
@@ -429,9 +429,9 @@
     },
     {
       "dataset": "dat_17",
-      "total_refs": 0,
+      "total_refs": 9,
       "resolved": 0,
-      "unresolved": 0
+      "unresolved": 9
     },
     {
       "dataset": "dat_18",
@@ -440,6 +440,147 @@
       "unresolved": 0
     }
   ],
-  "unresolved": [],
+  "unresolved": [
+    {
+      "dataset": "dat_10",
+      "command": "+CEREG"
+    },
+    {
+      "dataset": "dat_10",
+      "command": "+CGCONTRDP"
+    },
+    {
+      "dataset": "dat_10",
+      "command": "+CIPDDREM"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+FTPCLOSE"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+FTPCWD"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+FTPFLST"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+FTPOPEN"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+FTPPASS"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+FTPPWD"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+FTPUSER"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+HTTPHEAD"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+HTTPSSL"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+HTTPURL"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+SSLCFG"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+SSLCLOSE"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+SSLCONF"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+SSLOPEN"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+SSLRECV"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+SSLSEND"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+SSLSETCA"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+SSLSETCERT"
+    },
+    {
+      "dataset": "dat_11",
+      "command": "+SSLSETKEY"
+    },
+    {
+      "dataset": "dat_12",
+      "command": "+CADTONE"
+    },
+    {
+      "dataset": "dat_12",
+      "command": "+CATONE"
+    },
+    {
+      "dataset": "dat_12",
+      "command": "+CLDTONE"
+    },
+    {
+      "dataset": "dat_12",
+      "command": "+CPCMREG"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLCFG"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLCLOSE"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLCONF"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLOPEN"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLRECV"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLSEND"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLSETCA"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLSETCERT"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLSETKEY"
+    }
+  ],
   "note": ""
 }

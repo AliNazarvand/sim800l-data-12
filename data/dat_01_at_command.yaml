@@ -806,8 +806,10 @@
     version: V1.01
     date: '2018-05-15'
     page: '4'
-    section: 3.2.11 Request Product Serial Number Identification (Identical with +GSN) ...58
-    quote: 3.2.11 AT+CGSN  Request Product Serial Number Identification (Identical with +GSN) ...58
+    section: 3.2.11 Request Product Serial Number Identification (Identical with +GSN)
+      ...58
+    quote: 3.2.11 AT+CGSN  Request Product Serial Number Identification (Identical
+      with +GSN) ...58
   source_type: primary
   confidence: 0.6
   status: partial
@@ -3587,8 +3589,10 @@
     version: V1.01
     date: '2018-05-15'
     page: '6'
-    section: 4.2.7 Send SMS Message from Storage .......................................................... 111
-    quote: 4.2.7 AT+CMSS  Send SMS Message from Storage .......................................................... 111
+    section: 4.2.7 Send SMS Message from Storage ..........................................................
+      111
+    quote: 4.2.7 AT+CMSS  Send SMS Message from Storage ..........................................................
+      111
   source_type: primary
   confidence: 0.6
   status: partial
@@ -5497,7 +5501,8 @@
     date: '2018-05-15'
     page: '7'
     section: 6.2.24 Set Critical Temperature Operating Mode or Query Temperature ......147
-    quote: 6.2.24 AT+CMTE  Set Critical Temperature Operating Mode or Query Temperature ......147
+    quote: 6.2.24 AT+CMTE  Set Critical Temperature Operating Mode or Query Temperature
+      ......147
   source_type: primary
   confidence: 0.6
   status: partial
@@ -5975,7 +5980,8 @@
     date: '2018-05-15'
     page: '7'
     section: 6.2.35 Enable or Disable Proprietary Unsolicited Indications .................154
-    quote: 6.2.35 AT+EXUNSOL  Enable or Disable Proprietary Unsolicited Indications .................154
+    quote: 6.2.35 AT+EXUNSOL  Enable or Disable Proprietary Unsolicited Indications
+      .................154
   source_type: primary
   confidence: 0.6
   status: partial
@@ -7948,7 +7954,8 @@
     date: '2018-05-15'
     page: '8'
     section: 8.2.15 Add an IP Head at the Beginning of a Package Received ..............193
-    quote: 8.2.15 AT+CIPHEAD  Add an IP Head at the Beginning of a Package Received ..............193
+    quote: 8.2.15 AT+CIPHEAD  Add an IP Head at the Beginning of a Package Received
+      ..............193
   source_type: primary
   confidence: 0.6
   status: partial
@@ -8303,7 +8310,8 @@
     date: '2018-05-15'
     page: '9'
     section: 8.2.24 Display Transfer Protocol in IP Head When Received Data .....200
-    quote: 8.2.24 AT+CIPSHOWTP  Display Transfer Protocol in IP Head When Received Data .....200
+    quote: 8.2.24 AT+CIPSHOWTP  Display Transfer Protocol in IP Head When Received
+      Data .....200
   source_type: primary
   confidence: 0.6
   status: partial
@@ -10376,7 +10384,8 @@
     date: '2018-05-15'
     page: '10'
     section: 14.2.4 Set User Name and Password for SMTP Authentication ..........241
-    quote: 14.2.4 AT+SMTPAUTH  Set User Name and Password for SMTP Authentication ..........241
+    quote: 14.2.4 AT+SMTPAUTH  Set User Name and Password for SMTP Authentication
+      ..........241
   source_type: primary
   confidence: 0.6
   status: partial
@@ -11506,7 +11515,8 @@
     date: '2018-05-15'
     page: '11'
     section: 15.2.7 Delete the file  of the edited MMS by file index .................264
-    quote: 15.2.7 AT+CMMSDELFILE  Delete the file  of the edited MMS by file index .................264
+    quote: 15.2.7 AT+CMMSDELFILE  Delete the file  of the edited MMS by file index
+      .................264
   source_type: primary
   confidence: 0.6
   status: partial
@@ -12730,7 +12740,8 @@
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | Salvaged from fragment pass.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | Salvaged from fragment pass.
   applicable_models:
   - SIM800L
   tags:
@@ -12772,7 +12783,8 @@
   confidence: 0.7
   status: partial
   conflicts: []
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | Salvaged from fragment pass.
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | Salvaged from fragment pass.
   applicable_models:
   - SIM800L
   tags:
@@ -13230,7 +13242,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -13268,7 +13281,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -13506,7 +13520,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -13544,7 +13559,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -13582,7 +13598,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -13620,7 +13637,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -13732,7 +13750,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -13998,7 +14017,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -14036,7 +14056,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -14111,7 +14132,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -14149,7 +14171,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -14187,7 +14210,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -14450,7 +14474,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -14562,7 +14587,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -14674,7 +14700,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -14786,7 +14813,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -14824,7 +14852,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -14862,7 +14891,8 @@
   conflicts:
   - field: command
     reason: not a real AT command section in V1.01
-  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters. | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
+  notes: Auto-extracted from AT Manual V1.01. Needs human verification of syntax/parameters.
+    | manual verification vs TOC required — weak signal in manual text (see reports/dat_01_REFINE_DIAGNOSTIC.md)
   applicable_models:
   - SIM800L
   tags:
@@ -14909,16 +14939,15 @@
   - general
   created_at: '2026-10-10T20:26:13Z'
   updated_at: '2026-10-11T17:23:44Z'
-
 - id: dat_01_0280
   category: General
   command: +CGSM
   mode: write
-  syntax: "AT+CGSMS  Select Service for MO SMS Messages ..............................................179"
+  syntax: AT+CGSMS  Select Service for MO SMS Messages ..............................................179
   parameters:
   - name: mode
     type: integer
-    description: 'GPRS attach mode'
+    description: GPRS attach mode
   response_success: OK
   response_error: ERROR
   examples:
@@ -14932,14 +14961,15 @@
     name: SIM800 Series_AT Command Manual
     version: V1.01
     date: '2013-07-23'
-    page: 'unknown'
-    section: '7.2.11'
+    page: unknown
+    section: 7.2.11
     quote: ''
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: 'Auto-extracted from at_v1_01_full.txt (v17; relaxed matching)'
+  notes: Auto-extracted from at_v1_01_full.txt (v17; relaxed matching); confidence<0.8
+    (R2)
   applicable_models:
   - SIM800L
   tags:

@@ -1,12 +1,12 @@
 # COVERAGE MATRIX
-_Generated: 2026-10-13T13:24:10Z_
+_Generated: 2026-10-13T13:27:38Z_
 
 | Dataset | File | Records | Dominant | Status breakdown |
 |---|---|---|---|---|
-| dat_01_at_command | dat_01_at_command.yaml | 335 | complete | complete=1, partial=277, unknown=57 |
-| dat_02_urc | dat_02_urc.yaml | 18 | complete | complete=16, partial=2 |
+| dat_01_at_command | dat_01_at_command.yaml | 335 | partial | partial=278, unknown=57 |
+| dat_02_urc | dat_02_urc.yaml | 18 | partial | partial=18 |
 | dat_03_error_code | dat_03_error_code.yaml | 255 | complete | complete=237, partial=12, unknown=6 |
-| dat_04_timing_timeout | dat_04_timing_timeout.yaml | 75 | complete | complete=75 |
+| dat_04_timing_timeout | dat_04_timing_timeout.yaml | 70 | complete | complete=70 |
 | dat_05_state_machine | dat_05_state_machine.yaml | 31 | complete | complete=8, inferred=4, partial=8, unknown=11 |
 | dat_06_init_sequence | dat_06_init_sequence.yaml | 35 | complete | complete=7, partial=18, unknown=10 |
 | dat_07_hardware_reference | dat_07_hardware_reference.yaml | 90 | complete | complete=90 |
@@ -17,11 +17,11 @@ _Generated: 2026-10-13T13:24:10Z_
 | dat_12_audio | dat_12_audio.yaml | 13 | complete | blocked=4, complete=8, partial=1 |
 | dat_13_sim_management | dat_13_sim_management.yaml | 10 | complete | complete=10 |
 | dat_14_operator_apn | dat_14_operator_apn.yaml | 52 | unknown | unknown=52 |
-| dat_15_power_management | dat_15_power_management.yaml | 6 | complete | complete=6 |
+| dat_15_power_management | dat_15_power_management.yaml | 13 | complete | complete=13 |
 | dat_16_board_evb | dat_16_board_evb.yaml | 1 | blocked | blocked=1 |
 | dat_17_certificate_key_store | dat_17_certificate_key_store.yaml | 9 | blocked | blocked=9 |
 | dat_18_certification | dat_18_certification.yaml | 1 | blocked | blocked=1 |
 
 ## Summary
 - Datasets: 18
-- Total records: 1008
+- Total records: 1010

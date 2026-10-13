@@ -9,9 +9,9 @@
     quote: 'unsolicited result code: +CBM: <length><CR><LF><pdu> (PDU mode'
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -75,9 +75,9 @@
     quote: 'unsolicited result code: +CDS:'
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -141,9 +141,9 @@
     quote: AT+CGREG <n> Y
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -184,9 +184,9 @@
     quote: '+CIPRXGET: (list of supported <mode>s),(list of supported <reqlength>)'
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -227,9 +227,9 @@
     quote: '+CIPSTATUS: <n>,<bearer>, <TCP/UDP>, <IP address>, <port>,'
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -269,9 +269,9 @@
     quote: 3.2.18 AT+CLIP Change URC parameter
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -317,9 +317,9 @@
     quote: AT+CMTE <mode> Y
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -383,9 +383,9 @@
     quote: '+CMTI: <mem>,<index>'
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -424,7 +424,8 @@
   - name: tosca
     description: ','
   - name: data
-    description: (text mode enabled; about parameters in italics, refer Command Show Text
+    description: (text mode enabled; about parameters in italics, refer Command Show
+      Text
   - name: mt
     description: =1.
   examples:
@@ -449,9 +450,9 @@
     quote: '+CPIN: <code>'
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -488,9 +489,9 @@
     quote: AT+CREG <n> Y
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -531,9 +532,9 @@
     quote: '(or +CRING: <type>) at a mobile terminating call.'
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -595,9 +596,9 @@
     quote: '+CUSD: (list of supported <n>s)'
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -638,9 +639,9 @@
     quote: '+FTPGETNAME: <value>'
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -683,9 +684,9 @@
     quote: '+FTPPUTOPT: <value>'
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -729,9 +730,9 @@
     quote: '+HTTPACTION: (0-2)'
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -765,9 +766,9 @@
     quote: '+HTTPREAD: ( list of supported <start_address>s),(list of supported <'
   source_type: primary
   confidence: 0.7
-  status: complete
+  status: partial
   conflicts: []
-  notes: ''
+  notes: confidence<0.8 (R2)
   tags: []
   applicable_models:
   - SIM800L
@@ -839,7 +840,8 @@
 - id: dat_02_0206
   category: URC
   urc_string: '+PDP: DEACT'
-  trigger_event: 'If "+PDP: DEACT" urc is reported which means the gprs is released by the'
+  trigger_event: 'If "+PDP: DEACT" urc is reported which means the gprs is released
+    by the'
   related_command: null
   related_state: null
   format: 'If "+PDP: DEACT" urc is reported which means the gprs is released by the'

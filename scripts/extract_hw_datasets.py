@@ -1,16 +1,18 @@
 """
-v3: FIXED pick_col index bug and finalize missing-fields bug.
+v4: content-based power table detection (fixes dat_15 under-extraction).
 
-Root cause of v2 failure:
-  pick_col filtered headers (removing empty columns) and returned the index
-  into the FILTERED list, but build_* looked up `list(r.values())[idx]` on the
-  UNFILTERED row. Indices didn't line up -> all field reads returned "" ->
-  `if not pin and not sig: continue` dropped every row.
+v3 relied only on header keywords to classify CSVs as 'power'. The big
+Current Consumption table in the SIM800L hardware manuals has a header
+like ['', 'Symbol', '', 'Parameter', '', '', 'Conditions', ...] which
+does NOT contain the word 'current'. As a result, only 2 small tables
+were matched and dat_15 got just 6 records.
 
-Fixes:
-  - pick_col returns index into the ORIGINAL headers list
-  - parse_csv returns headers + rows as positional lists (not dicts)
-  - finalize() injects ALL required schema fields
+v4 adds:
+  - POWER_CONTENT_RE : scans cell values for power-related phrases
+    (sleep mode / power down / idle mode / voice call / data mode / gprs ...)
+  - if header classification yields 'unknown' or 'timing' but content
+    matches power patterns -> reclassify to 'power'
+  - build_dat15 fallback: try mode_col, then parameter_col, then symbol_col
 """
 import sys, csv, re, json, datetime
 from pathlib import Path
@@ -29,9 +31,12 @@ PIN_IO_HINTS    = ("i/o", "io", "direction", "type")
 
 CURRENT_HINTS   = ("current", "consumption", "icc", "power", "ma)", "(ma")
 TIMING_RANGE_RE = re.compile(r"\b(min|max|typ|typical|minimum|maximum)\b")
+POWER_CONTENT_RE = re.compile(
+    r"(sleep\s*mode|power\s*down|idle\s*mode|voice\s*call|data\s*mode|"
+    r"tx\s*burst|current\s*consumption|gprs.*ma|average\s*current|peak\s*current)",
+    re.IGNORECASE)
 
 def pick_col(headers, hints):
-    """Return index into ORIGINAL headers list, or None."""
     for i, h in enumerate(headers):
         nh = norm(h)
         if not nh: continue
@@ -43,19 +48,31 @@ def pick_col(headers, hints):
 def has_any(headers, hints):
     return pick_col(headers, hints) is not None
 
-def classify(headers):
+def content_has_power(rows, limit=200):
+    """Scan cell values for power-related phrases."""
+    for row in rows[:limit]:
+        for c in row:
+            if POWER_CONTENT_RE.search(str(c or "")):
+                return True
+    return False
+
+def classify(headers, rows):
     hs = [norm(h) for h in headers if h]
     if not hs: return "empty"
     if has_any(headers, PIN_NUM_HINTS) and has_any(headers, PIN_NAME_HINTS):
         return "pin"
     if has_any(headers, CURRENT_HINTS):
         return "power"
-    if any(TIMING_RANGE_RE.search(h) for h in hs):
+    has_timing = any(TIMING_RANGE_RE.search(h) for h in hs)
+    # Content-based override: power wins over timing/unknown if cells
+    # mention power-related phrases.
+    if content_has_power(rows):
+        return "power"
+    if has_timing:
         return "timing"
     return "unknown"
 
 def parse_csv(path):
-    """Return (headers, rows) where rows is list of lists (positional)."""
     try:
         with open(path, "r", encoding="utf-8", errors="replace", newline="") as f:
             raw = [r for r in csv.reader(f) if any((c or "").strip() for c in r)]
@@ -91,7 +108,7 @@ def cell(row, idx):
     if idx is None or idx >= len(row): return ""
     return str(row[idx]).strip()
 
-# ---------- build (using positional rows) ----------
+# ---------- builders ----------
 def build_dat07(headers, rows, csvpath):
     out = []
     pin_col  = pick_col(headers, PIN_NUM_HINTS)
@@ -146,9 +163,16 @@ def build_dat04(headers, rows, csvpath):
     return out
 
 def build_dat15(headers, rows, csvpath):
+    """
+    v4: fallback chain for the mode column.
+    Try, in order: mode/state/fun/parameter/symbol/condition.
+    Skip values that are pure numbers (like the '0'/'1'/'4' fun codes);
+    prefer values that look like text.
+    """
     out = []
-    mode_col = pick_col(headers, ("mode", "state", "parameter", "item", "condition", "operation", "scenario", "fun"))
-    curr_col = pick_col(headers, ("current", "consumption", "icc"))
+    mode_col = pick_col(headers, ("mode", "state", "parameter", "item",
+                                  "condition", "operation", "scenario", "fun", "symbol"))
+    curr_col = pick_col(headers, ("current", "consumption", "icc", "typ", "average", "peak"))
     version, date, name = version_from_path(csvpath)
     page = page_from_name(csvpath.name)
     for row in rows:
@@ -169,6 +193,7 @@ def build_dat15(headers, rows, csvpath):
         })
     return out
 
+# ---------- dedup + finalize ----------
 def dedup_dat07(records):
     by_key = {}
     for r in records:
@@ -192,8 +217,17 @@ def dedup_dat07(records):
                            "note": "V1.00 variant"}})
     return list(by_key.values())
 
+def dedup_dat15(records):
+    """De-duplicate by (version, mode) keeping the first."""
+    seen = {}
+    for r in records:
+        k = (r.get("_version"), norm(r.get("mode","")))
+        if k in seen:
+            continue
+        seen[k] = r
+    return list(seen.values())
+
 def finalize(records, prefix):
-    """Inject ALL required schema fields."""
     out = []
     for i, r in enumerate(records, 1):
         r2 = dict(r)
@@ -205,7 +239,6 @@ def finalize(records, prefix):
             "page": str(r2.pop("_page", "") or ""),
             "section": "", "quote": ""
         }
-        # Required fields added here (this was missing in v2)
         r2["source_type"] = "primary"
         r2["confidence"] = 0.9
         r2["status"] = "complete"
@@ -234,7 +267,7 @@ def main():
 
     for c in csvs:
         headers, rows = parse_csv(c)
-        cls = classify(headers)
+        cls = classify(headers, rows)
         entry = {"csv": c.name, "classification": cls, "rows": len(rows),
                  "headers": headers[:8]}
         if cls == "pin":
@@ -259,11 +292,11 @@ def main():
         log.append(entry)
 
     deduped07 = dedup_dat07(dat07_raw)
+    deduped15 = dedup_dat15(dat15_raw)
     final07 = finalize(deduped07, "dat_07")
     final04 = finalize(dat04_raw, "dat_04")
-    final15 = finalize(dat15_raw, "dat_15")
+    final15 = finalize(deduped15, "dat_15")
 
-    # Safety: if extraction yielded 0, do not overwrite existing file
     data_dir = root / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
 
@@ -292,9 +325,9 @@ def main():
         "classification": stats,
         "dat_07_raw": len(dat07_raw),
         "dat_07_after_dedup": len(final07),
-        "dat_07_dedup_removed": len(dat07_raw) - len(final07),
         "dat_04_records": len(final04),
-        "dat_15_records": len(final15),
+        "dat_15_raw": len(dat15_raw),
+        "dat_15_after_dedup": len(final15),
     }
     (root / "reports" / "_hw_extraction_summary.json").write_text(
         json.dumps(summary, indent=2), encoding="utf-8")

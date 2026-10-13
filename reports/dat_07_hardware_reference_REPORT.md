@@ -1,5 +1,5 @@
 # DAT_07_HARDWARE_REFERENCE REPORT
-_Generated: 2026-10-13T13:24:10Z_
+_Generated: 2026-10-13T13:27:38Z_
 
 ## Snapshot
 - File: `data/dat_07_hardware_reference.yaml`

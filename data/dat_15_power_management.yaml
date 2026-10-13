@@ -28,8 +28,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Power
   mode: '1'
   command: null
@@ -60,8 +60,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Power
   mode: '4'
   command: null
@@ -92,8 +92,104 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
+- category: Power
+  mode: Standby
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: mA
+  condition: ''
+  wake_source: null
+  related_commands: []
+  related_states: []
+  id: dat_15_0004
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '34'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
+- category: Power
+  mode: VBAT
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: mA
+  condition: ''
+  wake_source: null
+  related_commands: []
+  related_states: []
+  id: dat_15_0005
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
+- category: Power
+  mode: I MAX
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: mA
+  condition: ''
+  wake_source: null
+  related_commands: []
+  related_states: []
+  id: dat_15_0006
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Power
   mode: '0'
   command: null
@@ -106,7 +202,7 @@
   wake_source: null
   related_commands: []
   related_states: []
-  id: dat_15_0004
+  id: dat_15_0007
   source:
     name: SIM800L_Hardware_Design
     version: V1.00
@@ -124,8 +220,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Power
   mode: '1'
   command: null
@@ -138,7 +234,7 @@
   wake_source: null
   related_commands: []
   related_states: []
-  id: dat_15_0005
+  id: dat_15_0008
   source:
     name: SIM800L_Hardware_Design
     version: V1.00
@@ -156,8 +252,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Power
   mode: '4'
   command: null
@@ -170,7 +266,7 @@
   wake_source: null
   related_commands: []
   related_states: []
-  id: dat_15_0006
+  id: dat_15_0009
   source:
     name: SIM800L_Hardware_Design
     version: V1.00
@@ -188,5 +284,133 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
+- category: Power
+  mode: Standby
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: null
+  value_max: null
+  unit: mA
+  condition: ''
+  wake_source: null
+  related_commands: []
+  related_states: []
+  id: dat_15_0010
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '35'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
+- category: Power
+  mode: VBAT
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 4.0
+  value_max: null
+  unit: mA
+  condition: ''
+  wake_source: null
+  related_commands: []
+  related_states: []
+  id: dat_15_0011
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '60'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
+- category: Power
+  mode: I VBAT
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 50.0
+  value_max: null
+  unit: mA
+  condition: ''
+  wake_source: null
+  related_commands: []
+  related_states: []
+  id: dat_15_0012
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '60'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
+- category: Power
+  mode: I MAX
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 2.0
+  value_max: null
+  unit: mA
+  condition: ''
+  wake_source: null
+  related_commands: []
+  related_states: []
+  id: dat_15_0013
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '60'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'

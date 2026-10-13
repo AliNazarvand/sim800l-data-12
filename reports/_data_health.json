@@ -5,14 +5,14 @@
       "records": 335,
       "duplicate_ids": 0,
       "missing_source_page": 0,
-      "complete_low_conf": 1
+      "complete_low_conf": 0
     },
     {
       "dataset": "dat_02_urc",
       "records": 18,
       "duplicate_ids": 0,
       "missing_source_page": 0,
-      "complete_low_conf": 16
+      "complete_low_conf": 0
     },
     {
       "dataset": "dat_03_error_code",
@@ -23,7 +23,7 @@
     },
     {
       "dataset": "dat_04_timing_timeout",
-      "records": 75,
+      "records": 70,
       "duplicate_ids": 0,
       "missing_source_page": 0,
       "complete_low_conf": 0
@@ -100,7 +100,7 @@
     },
     {
       "dataset": "dat_15_power_management",
-      "records": 6,
+      "records": 13,
       "duplicate_ids": 0,
       "missing_source_page": 0,
       "complete_low_conf": 0
@@ -131,6 +131,6 @@
     "duplicate_ids": [],
     "dat07_duplicate_pins": [],
     "missing_source_page": 84,
-    "complete_low_conf": 17
+    "complete_low_conf": 0
   }
 }

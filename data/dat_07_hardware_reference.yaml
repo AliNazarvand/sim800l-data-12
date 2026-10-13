@@ -36,8 +36,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: VBAT
   pin_number: VBAT
@@ -81,8 +81,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: Power on/down
   pin_number: Power on/down
@@ -121,8 +121,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: Audio interfaces
   pin_number: Audio interfaces
@@ -161,8 +161,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: MIC1P
   pin_number: MIC1P
@@ -206,8 +206,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: MIC1N
   pin_number: MIC1N
@@ -251,8 +251,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SPK1P
   pin_number: SPK1P
@@ -296,8 +296,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SPK1N
   pin_number: SPK1N
@@ -341,8 +341,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: MIC2P
   pin_number: MIC2P
@@ -386,8 +386,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: MIC2N
   pin_number: MIC2N
@@ -431,8 +431,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SPK2P
   pin_number: SPK2P
@@ -476,8 +476,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SPK2N
   pin_number: SPK2N
@@ -521,8 +521,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: PCM interface
   pin_number: PCM interface
@@ -561,8 +561,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: PCM_CLK
   pin_number: PCM_CLK
@@ -596,8 +596,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: PCM_OUT
   pin_number: PCM_OUT
@@ -631,8 +631,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: PCM_SYNC
   pin_number: PCM_SYNC
@@ -666,8 +666,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: PCM_IN
   pin_number: PCM_IN
@@ -701,8 +701,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: Keypads interface
   pin_number: Keypads interface
@@ -741,8 +741,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: KBC4
   pin_number: KBC4
@@ -776,8 +776,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: KBC3
   pin_number: KBC3
@@ -811,8 +811,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: KBC2
   pin_number: KBC2
@@ -846,8 +846,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: KBC1
   pin_number: KBC1
@@ -881,8 +881,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: KBC0
   pin_number: KBC0
@@ -916,8 +916,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: KBR4
   pin_number: KBR4
@@ -951,8 +951,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: KBR3
   pin_number: KBR3
@@ -986,8 +986,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: DTR
   pin_number: DTR
@@ -1021,8 +1021,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: RI
   pin_number: RI
@@ -1056,8 +1056,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: DCD
   pin_number: DCD
@@ -1091,8 +1091,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: CTS
   pin_number: CTS
@@ -1141,8 +1141,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: RTS
   pin_number: RTS
@@ -1191,8 +1191,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: TXD
   pin_number: TXD
@@ -1241,8 +1241,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: RXD
   pin_number: RXD
@@ -1291,8 +1291,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: VBUS
   pin_number: VBUS
@@ -1331,8 +1331,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: USB_DP
   pin_number: USB_DP
@@ -1371,8 +1371,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: USB_DN
   pin_number: USB_DN
@@ -1406,8 +1406,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SIM_VDD
   pin_number: SIM_VDD
@@ -1441,8 +1441,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SIM_DATA
   pin_number: SIM_DATA
@@ -1481,8 +1481,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SIM_CLK
   pin_number: SIM_CLK
@@ -1521,8 +1521,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SIM_RST
   pin_number: SIM_RST
@@ -1561,8 +1561,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SIM_DET
   pin_number: SIM_DET
@@ -1596,8 +1596,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: C1
   pin_number: C1
@@ -1641,8 +1641,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: C2
   pin_number: C2
@@ -1686,8 +1686,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: C3
   pin_number: C3
@@ -1736,8 +1736,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: C4
   pin_number: C4
@@ -1771,8 +1771,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: C5
   pin_number: C5
@@ -1816,8 +1816,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: C6
   pin_number: C6
@@ -1861,8 +1861,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: C7
   pin_number: C7
@@ -1906,8 +1906,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: C8
   pin_number: C8
@@ -1946,8 +1946,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: GPIO2
   pin_number: GPIO2
@@ -1996,8 +1996,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: GPIO3
   pin_number: GPIO3
@@ -2046,8 +2046,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: KBR0
   pin_number: KBR0
@@ -2081,8 +2081,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: KBR1
   pin_number: KBR1
@@ -2116,8 +2116,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: KBR2
   pin_number: KBR2
@@ -2151,8 +2151,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SCL
   pin_number: SCL
@@ -2201,8 +2201,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SDA
   pin_number: SDA
@@ -2251,8 +2251,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: GPIO1
   pin_number: GPIO1
@@ -2291,8 +2291,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: ADC
   pin_number: ADC
@@ -2331,8 +2331,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: PWM
   pin_number: PWM
@@ -2376,8 +2376,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: NETLIGHT
   pin_number: NETLIGHT
@@ -2426,8 +2426,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: STATUS
   pin_number: STATUS
@@ -2476,8 +2476,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: ISINK0
   pin_number: ISINK0
@@ -2521,8 +2521,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: ISINK1
   pin_number: ISINK1
@@ -2566,8 +2566,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: RF_SYNC
   pin_number: RF_SYNC
@@ -2601,8 +2601,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: GND
   pin_number: GND
@@ -2641,8 +2641,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: RXD, TXD
   pin_number: RXD, TXD
@@ -2681,8 +2681,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: Antenna port
   pin_number: Antenna port
@@ -2721,8 +2721,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SPK_P/SPK_N/MIC_P/MIC_N
   pin_number: SPK_P/SPK_N/MIC_P/MIC_N
@@ -2761,8 +2761,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: PWRKEY
   pin_number: PWRKEY
@@ -2801,8 +2801,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: PCMCLK
   pin_number: PCMCLK
@@ -2836,8 +2836,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: PCMOUT
   pin_number: PCMOUT
@@ -2871,8 +2871,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: PCMSYNC
   pin_number: PCMSYNC
@@ -2906,8 +2906,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: PCMIN
   pin_number: PCMIN
@@ -2941,8 +2941,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: COL4
   pin_number: COL4
@@ -2976,8 +2976,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: COL3
   pin_number: COL3
@@ -3011,8 +3011,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: COL2
   pin_number: COL2
@@ -3046,8 +3046,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: COL1
   pin_number: COL1
@@ -3081,8 +3081,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: COL0
   pin_number: COL0
@@ -3116,8 +3116,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: ROW4
   pin_number: ROW4
@@ -3151,8 +3151,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: ROW3
   pin_number: ROW3
@@ -3186,8 +3186,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: UART_DTR
   pin_number: UART_DTR
@@ -3221,8 +3221,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: UART_RI
   pin_number: UART_RI
@@ -3256,8 +3256,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: UART_DCD
   pin_number: UART_DCD
@@ -3291,8 +3291,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: USB_DM
   pin_number: USB_DM
@@ -3326,8 +3326,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: VSIM
   pin_number: VSIM
@@ -3361,8 +3361,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SIM_PRE
   pin_number: SIM_PRE
@@ -3396,8 +3396,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: ROW0
   pin_number: ROW0
@@ -3431,8 +3431,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: ROW1
   pin_number: ROW1
@@ -3466,8 +3466,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: ROW2
   pin_number: ROW2
@@ -3501,8 +3501,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: BPI_BUS1
   pin_number: BPI_BUS1
@@ -3536,8 +3536,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'
 - category: Hardware
   name: SIMPRE
   pin_number: SIMPRE
@@ -3571,5 +3571,5 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:24:00Z'
-  updated_at: '2026-10-13T13:24:00Z'
+  created_at: '2026-10-13T13:27:25Z'
+  updated_at: '2026-10-13T13:27:25Z'

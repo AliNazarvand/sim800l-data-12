@@ -24,7 +24,7 @@
     {
       "dataset": "dat_04",
       "file": "dat_04_timing_timeout.yaml",
-      "records": 75,
+      "records": 70,
       "errors": 0,
       "schema_ok": true
     },
@@ -101,7 +101,7 @@
     {
       "dataset": "dat_15",
       "file": "dat_15_power_management.yaml",
-      "records": 6,
+      "records": 13,
       "errors": 0,
       "schema_ok": true
     },

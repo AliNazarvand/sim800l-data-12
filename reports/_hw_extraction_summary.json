@@ -2,14 +2,14 @@
   "csv_files_scanned": 192,
   "classification": {
     "pin": 53,
-    "timing": 31,
-    "power": 6,
-    "unknown": 79,
+    "timing": 29,
+    "power": 17,
+    "unknown": 70,
     "empty": 23
   },
   "dat_07_raw": 300,
   "dat_07_after_dedup": 90,
-  "dat_07_dedup_removed": 210,
-  "dat_04_records": 75,
-  "dat_15_records": 6
+  "dat_04_records": 70,
+  "dat_15_raw": 13,
+  "dat_15_after_dedup": 13
 }

@@ -1,10 +1,10 @@
 # ROLE MAP
-_Generated: 2026-10-13T13:24:10Z_
+_Generated: 2026-10-13T13:27:38Z_
 
 | Dataset | Depends on | Depended on by | Status |
 |---|---|---|---|
-| dat_01_at_command | - | 02,03,09,10,11,12,13,17 | complete |
-| dat_02_urc | dat_01 | - | complete |
+| dat_01_at_command | - | 02,03,09,10,11,12,13,17 | partial |
+| dat_02_urc | dat_01 | - | partial |
 | dat_03_error_code | dat_01 | - | complete |
 | dat_04_timing_timeout | - | - | complete |
 | dat_05_state_machine | - | - | complete |

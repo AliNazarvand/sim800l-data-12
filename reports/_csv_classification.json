@@ -12,7 +12,7 @@
   },
   {
     "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p010_t01.csv",
-    "classification": "unknown",
+    "classification": "power",
     "rows": 20,
     "headers": [
       "",
@@ -24,7 +24,7 @@
       "",
       "Description of change"
     ],
-    "emitted_to": null,
+    "emitted_to": "dat_15",
     "emitted_count": 0
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p011_t02.csv",
-    "classification": "unknown",
+    "classification": "power",
     "rows": 2,
     "headers": [
       "",
@@ -56,12 +56,12 @@
       "Implementation",
       ""
     ],
-    "emitted_to": null,
+    "emitted_to": "dat_15",
     "emitted_count": 0
   },
   {
     "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p012_t01.csv",
-    "classification": "unknown",
+    "classification": "power",
     "rows": 44,
     "headers": [
       "Frequency bands",
@@ -71,7 +71,7 @@
       "(cid:122) Quad-band: GSM 850, EGSM 900, DCS 1800, PCS 1900.",
       ""
     ],
-    "emitted_to": null,
+    "emitted_to": "dat_15",
     "emitted_count": 0
   },
   {
@@ -118,7 +118,7 @@
   },
   {
     "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p013_t03.csv",
-    "classification": "unknown",
+    "classification": "power",
     "rows": 27,
     "headers": [
       "",
@@ -130,7 +130,7 @@
       "",
       ""
     ],
-    "emitted_to": null,
+    "emitted_to": "dat_15",
     "emitted_count": 0
   },
   {
@@ -453,7 +453,7 @@
   },
   {
     "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p034_t01.csv",
-    "classification": "unknown",
+    "classification": "power",
     "rows": 12,
     "headers": [
       "",
@@ -463,8 +463,8 @@
       "RI response",
       ""
     ],
-    "emitted_to": null,
-    "emitted_count": 0
+    "emitted_to": "dat_15",
+    "emitted_count": 1
   },
   {
     "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p035_t02.csv",
@@ -1150,7 +1150,7 @@
   },
   {
     "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p060_t01.csv",
-    "classification": "timing",
+    "classification": "power",
     "rows": 36,
     "headers": [
       "",
@@ -1162,7 +1162,7 @@
       "Conditions",
       ""
     ],
-    "emitted_to": "dat_04",
+    "emitted_to": "dat_15",
     "emitted_count": 2
   },
   {
@@ -1449,7 +1449,7 @@
   },
   {
     "csv": "SIM800L_Hardware_Design_V1.00_p011_t01.csv",
-    "classification": "unknown",
+    "classification": "power",
     "rows": 11,
     "headers": [
       "",
@@ -1459,12 +1459,12 @@
       "Implementation",
       ""
     ],
-    "emitted_to": null,
+    "emitted_to": "dat_15",
     "emitted_count": 0
   },
   {
     "csv": "SIM800L_Hardware_Design_V1.00_p012_t01.csv",
-    "classification": "unknown",
+    "classification": "power",
     "rows": 38,
     "headers": [
       "",
@@ -1474,7 +1474,7 @@
       "(cid:122) Storage temperature -45\u00b0C ~ +90\u00b0C",
       ""
     ],
-    "emitted_to": null,
+    "emitted_to": "dat_15",
     "emitted_count": 0
   },
   {
@@ -1516,7 +1516,7 @@
   },
   {
     "csv": "SIM800L_Hardware_Design_V1.00_p013_t02.csv",
-    "classification": "unknown",
+    "classification": "power",
     "rows": 27,
     "headers": [
       "",
@@ -1528,7 +1528,7 @@
       "",
       ""
     ],
-    "emitted_to": null,
+    "emitted_to": "dat_15",
     "emitted_count": 0
   },
   {
@@ -1864,7 +1864,7 @@
   },
   {
     "csv": "SIM800L_Hardware_Design_V1.00_p035_t01.csv",
-    "classification": "unknown",
+    "classification": "power",
     "rows": 12,
     "headers": [
       "",
@@ -1874,8 +1874,8 @@
       "RI response",
       ""
     ],
-    "emitted_to": null,
-    "emitted_count": 0
+    "emitted_to": "dat_15",
+    "emitted_count": 1
   },
   {
     "csv": "SIM800L_Hardware_Design_V1.00_p036_t02.csv",
@@ -2496,7 +2496,7 @@
   },
   {
     "csv": "SIM800L_Hardware_Design_V1.00_p060_t01.csv",
-    "classification": "timing",
+    "classification": "power",
     "rows": 36,
     "headers": [
       "",
@@ -2508,7 +2508,7 @@
       "Conditions",
       ""
     ],
-    "emitted_to": "dat_04",
+    "emitted_to": "dat_15",
     "emitted_count": 3
   },
   {
