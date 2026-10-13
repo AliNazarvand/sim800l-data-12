@@ -5,12 +5,11 @@
     "timing": 31,
     "power": 6,
     "unknown": 79,
-    "empty": 23,
-    "skipped": 0
+    "empty": 23
   },
-  "dat_07_raw": 0,
-  "dat_07_after_dedup": 0,
-  "dat_07_dedup_removed": 0,
-  "dat_04_records": 0,
+  "dat_07_raw": 300,
+  "dat_07_after_dedup": 90,
+  "dat_07_dedup_removed": 210,
+  "dat_04_records": 75,
   "dat_15_records": 6
 }

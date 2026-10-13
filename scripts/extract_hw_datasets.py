@@ -1,12 +1,16 @@
 """
-v2: reads sources/extracted/tables/*/_raw/*.csv, produces real records for
-dat_04 (timing), dat_07 (hardware), dat_15 (power).
+v3: FIXED pick_col index bug and finalize missing-fields bug.
 
-Fixes vs v1:
-  - much broader header classification (substring + regex fallback)
-  - verbose per-CSV decision log to reports/_csv_classification.json
-  - dat_07 dedup: prefer V2.02 over V1.00, record V1.00 in conflicts (R7, R20)
-  - renumber IDs after dedup to keep them unique
+Root cause of v2 failure:
+  pick_col filtered headers (removing empty columns) and returned the index
+  into the FILTERED list, but build_* looked up `list(r.values())[idx]` on the
+  UNFILTERED row. Indices didn't line up -> all field reads returned "" ->
+  `if not pin and not sig: continue` dropped every row.
+
+Fixes:
+  - pick_col returns index into the ORIGINAL headers list
+  - parse_csv returns headers + rows as positional lists (not dicts)
+  - finalize() injects ALL required schema fields
 """
 import sys, csv, re, json, datetime
 from pathlib import Path
@@ -18,8 +22,7 @@ def norm(s):
     if s is None: return ""
     return re.sub(r"\s+", " ", str(s).strip().lower())
 
-# ---------- header classification ----------
-PIN_NUM_HINTS   = ("pin", "ball", "pad", "terminal", "no.", "number", "#")
+PIN_NUM_HINTS   = ("pin", "ball", "pad", "terminal", "no.", "number")
 PIN_NAME_HINTS  = ("name", "signal", "symbol")
 PIN_DESC_HINTS  = ("description", "function", "comment", "remarks", "note", "application")
 PIN_IO_HINTS    = ("i/o", "io", "direction", "type")
@@ -27,50 +30,45 @@ PIN_IO_HINTS    = ("i/o", "io", "direction", "type")
 CURRENT_HINTS   = ("current", "consumption", "icc", "power", "ma)", "(ma")
 TIMING_RANGE_RE = re.compile(r"\b(min|max|typ|typical|minimum|maximum)\b")
 
-def header_has_any(headers, hints):
-    hs = [norm(h) for h in headers if h]
-    for h in hs:
-        for t in hints:
-            if t in h:
-                return True
-    return False
-
 def pick_col(headers, hints):
-    hs = [norm(h) for h in headers if h]
-    for i, h in enumerate(hs):
+    """Return index into ORIGINAL headers list, or None."""
+    for i, h in enumerate(headers):
+        nh = norm(h)
+        if not nh: continue
         for t in hints:
-            if t in h:
+            if t in nh:
                 return i
     return None
+
+def has_any(headers, hints):
+    return pick_col(headers, hints) is not None
 
 def classify(headers):
     hs = [norm(h) for h in headers if h]
     if not hs: return "empty"
-    has_pin = header_has_any(headers, PIN_NUM_HINTS)
-    has_name = header_has_any(headers, PIN_NAME_HINTS)
-    if has_pin and has_name:
+    if has_any(headers, PIN_NUM_HINTS) and has_any(headers, PIN_NAME_HINTS):
         return "pin"
-    if header_has_any(headers, CURRENT_HINTS):
+    if has_any(headers, CURRENT_HINTS):
         return "power"
     if any(TIMING_RANGE_RE.search(h) for h in hs):
         return "timing"
     return "unknown"
 
-# ---------- CSV reader ----------
 def parse_csv(path):
+    """Return (headers, rows) where rows is list of lists (positional)."""
     try:
         with open(path, "r", encoding="utf-8", errors="replace", newline="") as f:
-            rows = [r for r in csv.reader(f) if any(c.strip() for c in r)]
+            raw = [r for r in csv.reader(f) if any((c or "").strip() for c in r)]
     except Exception:
         return [], []
-    if not rows: return [], []
-    headers = rows[0]
-    data = []
-    for r in rows[1:]:
+    if not raw: return [], []
+    headers = raw[0]
+    rows = []
+    for r in raw[1:]:
         if len(r) < len(headers):
-            r = r + [""] * (len(headers) - len(r))
-        data.append(dict(zip(headers, r)))
-    return headers, data
+            r = list(r) + [""] * (len(headers) - len(r))
+        rows.append(r)
+    return headers, rows
 
 def page_from_name(name):
     m = re.search(r"_p(\d+)", name)
@@ -82,31 +80,18 @@ def version_from_path(path):
     if "hw_v1_00" in s: return "V1.00", "2013-08-20", "SIM800L_Hardware_Design"
     return "unknown", "unknown", "unknown"
 
-def make_common(ds_prefix, idx, src_name, src_version, src_date, page):
-    return {
-        "id": f"{ds_prefix}_{idx:04d}",
-        "source": {"name": src_name, "version": src_version, "date": src_date,
-                   "page": str(page) if page else "", "section": "", "quote": ""},
-        "source_type": "primary",
-        "confidence": 0.9,
-        "status": "complete",
-        "conflicts": [],
-        "notes": "",
-        "tags": ["auto-extracted", src_version],
-        "applicable_models": ["SIM800L"],
-        "created_at": NOW,
-        "updated_at": NOW,
-    }
-
 def tofloat(x):
     if x is None: return None
-    s = str(x).strip()
-    m = re.search(r"-?\d+(?:\.\d+)?", s)
+    m = re.search(r"-?\d+(?:\.\d+)?", str(x))
     if not m: return None
     try: return float(m.group(0))
     except (TypeError, ValueError): return None
 
-# ---------- emitters (return list of records without final IDs) ----------
+def cell(row, idx):
+    if idx is None or idx >= len(row): return ""
+    return str(row[idx]).strip()
+
+# ---------- build (using positional rows) ----------
 def build_dat07(headers, rows, csvpath):
     out = []
     pin_col  = pick_col(headers, PIN_NUM_HINTS)
@@ -116,20 +101,19 @@ def build_dat07(headers, rows, csvpath):
     if pin_col is None and name_col is None: return out
     version, date, name = version_from_path(csvpath)
     page = page_from_name(csvpath.name)
-    for r in rows:
-        vals = list(r.values())
-        pin  = vals[pin_col].strip()  if pin_col  is not None and pin_col  < len(vals) else ""
-        sig  = vals[name_col].strip() if name_col is not None and name_col < len(vals) else ""
+    for row in rows:
+        pin = cell(row, pin_col)
+        sig = cell(row, name_col)
         if not pin and not sig: continue
         out.append({
             "_version": version, "_name": name, "_date": date, "_page": page,
             "category": "Hardware",
             "name": sig or f"PIN_{pin}",
             "pin_number": pin,
-            "direction": (vals[io_col].strip() if io_col is not None and io_col < len(vals) else ""),
+            "direction": cell(row, io_col),
             "voltage_min": None, "voltage_typ": None, "voltage_max": None,
             "current_typ": None, "current_max": None,
-            "function": (vals[desc_col].strip() if desc_col is not None and desc_col < len(vals) else ""),
+            "function": cell(row, desc_col),
             "alternate_function": None,
             "pull_up_down": None, "esd_rating": None,
             "impedance": None, "decoupling": None,
@@ -145,18 +129,17 @@ def build_dat04(headers, rows, csvpath):
     unit_col  = pick_col(headers, ("unit",))
     version, date, name = version_from_path(csvpath)
     page = page_from_name(csvpath.name)
-    for r in rows:
-        vals = list(r.values())
-        param = vals[param_col].strip() if param_col is not None and param_col < len(vals) else ""
+    for row in rows:
+        param = cell(row, param_col)
         if not param: continue
         out.append({
             "_version": version, "_name": name, "_date": date, "_page": page,
             "category": "Timing",
             "parameter": param,
-            "min": tofloat(vals[min_col]) if min_col is not None and min_col < len(vals) else None,
-            "typ": tofloat(vals[typ_col]) if typ_col is not None and typ_col < len(vals) else None,
-            "max": tofloat(vals[max_col]) if max_col is not None and max_col < len(vals) else None,
-            "unit": (vals[unit_col].strip() if unit_col is not None and unit_col < len(vals) else ""),
+            "min": tofloat(cell(row, min_col)),
+            "typ": tofloat(cell(row, typ_col)),
+            "max": tofloat(cell(row, max_col)),
+            "unit": cell(row, unit_col),
             "condition": "",
             "related_command": None, "related_state": None, "related_urc": None,
         })
@@ -164,16 +147,14 @@ def build_dat04(headers, rows, csvpath):
 
 def build_dat15(headers, rows, csvpath):
     out = []
-    mode_col = pick_col(headers, ("mode", "state", "parameter", "item", "condition", "operation", "scenario"))
+    mode_col = pick_col(headers, ("mode", "state", "parameter", "item", "condition", "operation", "scenario", "fun"))
     curr_col = pick_col(headers, ("current", "consumption", "icc"))
     version, date, name = version_from_path(csvpath)
     page = page_from_name(csvpath.name)
-    for r in rows:
-        vals = list(r.values())
-        mode = vals[mode_col].strip() if mode_col is not None and mode_col < len(vals) else ""
+    for row in rows:
+        mode = cell(row, mode_col)
         if not mode: continue
-        curr_raw = vals[curr_col] if curr_col is not None and curr_col < len(vals) else ""
-        v = tofloat(curr_raw)
+        v = tofloat(cell(row, curr_col))
         out.append({
             "_version": version, "_name": name, "_date": date, "_page": page,
             "category": "Power",
@@ -188,43 +169,52 @@ def build_dat15(headers, rows, csvpath):
         })
     return out
 
-# ---------- dedup dat_07 (prefer V2.02 over V1.00) ----------
 def dedup_dat07(records):
     by_key = {}
     for r in records:
-        key = (norm(r.get("pin_number", "")), norm(r.get("name", "")))
-        if key == ("", ""): continue
-        v = r.get("_version", "")
+        key = (norm(r.get("pin_number","")), norm(r.get("name","")))
+        if key == ("",""): continue
+        v = r.get("_version","")
         if key not in by_key:
-            by_key[key] = r
-            continue
+            by_key[key] = r; continue
         existing = by_key[key]
-        ev = existing.get("_version", "")
+        ev = existing.get("_version","")
         if v == "V2.02" and ev == "V1.00":
             r.setdefault("conflicts", []).append({
                 "source": {"name": existing.get("_name"), "version": ev,
                            "page": existing.get("_page"),
-                           "note": "V1.00 superseded by V2.02"}
-            })
+                           "note": "V1.00 superseded by V2.02"}})
             by_key[key] = r
         elif v == "V1.00" and ev == "V2.02":
             existing.setdefault("conflicts", []).append({
                 "source": {"name": r.get("_name"), "version": v,
                            "page": r.get("_page"),
-                           "note": "V1.00 variant"}
-            })
-        # same version duplicate: keep first
+                           "note": "V1.00 variant"}})
     return list(by_key.values())
 
-# ---------- finalize: assign IDs and strip internal fields ----------
 def finalize(records, prefix):
+    """Inject ALL required schema fields."""
     out = []
     for i, r in enumerate(records, 1):
         r2 = dict(r)
         r2["id"] = f"{prefix}_{i:04d}"
-        r2["source"] = {"name": r2.pop("_name"), "version": r2.pop("_version"),
-                        "date": r2.pop("_date"), "page": str(r2.pop("_page") or ""),
-                        "section": "", "quote": ""}
+        r2["source"] = {
+            "name": r2.pop("_name", "unknown"),
+            "version": r2.pop("_version", "unknown"),
+            "date": r2.pop("_date", "unknown"),
+            "page": str(r2.pop("_page", "") or ""),
+            "section": "", "quote": ""
+        }
+        # Required fields added here (this was missing in v2)
+        r2["source_type"] = "primary"
+        r2["confidence"] = 0.9
+        r2["status"] = "complete"
+        r2.setdefault("conflicts", [])
+        r2.setdefault("notes", "")
+        r2.setdefault("tags", ["auto-extracted", r2["source"]["version"]])
+        r2["applicable_models"] = ["SIM800L"]
+        r2["created_at"] = NOW
+        r2["updated_at"] = NOW
         out.append(r2)
     return out
 
@@ -240,7 +230,7 @@ def main():
 
     dat07_raw, dat04_raw, dat15_raw = [], [], []
     log = []
-    stats = {"pin": 0, "timing": 0, "power": 0, "unknown": 0, "empty": 0, "skipped": 0}
+    stats = {"pin":0,"timing":0,"power":0,"unknown":0,"empty":0}
 
     for c in csvs:
         headers, rows = parse_csv(c)
@@ -249,42 +239,53 @@ def main():
                  "headers": headers[:8]}
         if cls == "pin":
             stats["pin"] += 1
-            dat07_raw.extend(build_dat07(headers, rows, c))
-            entry["emitted_to"] = "dat_07"
+            recs = build_dat07(headers, rows, c)
+            dat07_raw.extend(recs)
+            entry["emitted_to"] = "dat_07"; entry["emitted_count"] = len(recs)
         elif cls == "timing":
             stats["timing"] += 1
-            dat04_raw.extend(build_dat04(headers, rows, c))
-            entry["emitted_to"] = "dat_04"
+            recs = build_dat04(headers, rows, c)
+            dat04_raw.extend(recs)
+            entry["emitted_to"] = "dat_04"; entry["emitted_count"] = len(recs)
         elif cls == "power":
             stats["power"] += 1
-            dat15_raw.extend(build_dat15(headers, rows, c))
-            entry["emitted_to"] = "dat_15"
+            recs = build_dat15(headers, rows, c)
+            dat15_raw.extend(recs)
+            entry["emitted_to"] = "dat_15"; entry["emitted_count"] = len(recs)
         elif cls == "empty":
-            stats["empty"] += 1; entry["emitted_to"] = None
+            stats["empty"] += 1; entry["emitted_to"] = None; entry["emitted_count"] = 0
         else:
-            stats["unknown"] += 1; entry["emitted_to"] = None
+            stats["unknown"] += 1; entry["emitted_to"] = None; entry["emitted_count"] = 0
         log.append(entry)
 
-    # dedup
     deduped07 = dedup_dat07(dat07_raw)
-
     final07 = finalize(deduped07, "dat_07")
     final04 = finalize(dat04_raw, "dat_04")
     final15 = finalize(dat15_raw, "dat_15")
 
+    # Safety: if extraction yielded 0, do not overwrite existing file
     data_dir = root / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
 
-    def dump(path, records):
+    def safe_dump(path, new_records):
+        if not new_records and path.exists():
+            try:
+                existing = yaml.safe_load(path.read_text(encoding="utf-8"))
+                if isinstance(existing, list) and existing:
+                    print(f"SKIP {path.name}: extraction empty, keeping existing "
+                          f"{len(existing)} records")
+                    return
+            except Exception:
+                pass
         with open(path, "w", encoding="utf-8") as f:
-            if not records:
+            if not new_records:
                 f.write("[]\n")
             else:
-                yaml.safe_dump(records, f, allow_unicode=True, sort_keys=False)
+                yaml.safe_dump(new_records, f, allow_unicode=True, sort_keys=False)
 
-    dump(data_dir / "dat_07_hardware_reference.yaml", final07)
-    dump(data_dir / "dat_04_timing_timeout.yaml", final04)
-    dump(data_dir / "dat_15_power_management.yaml", final15)
+    safe_dump(data_dir / "dat_07_hardware_reference.yaml", final07)
+    safe_dump(data_dir / "dat_04_timing_timeout.yaml", final04)
+    safe_dump(data_dir / "dat_15_power_management.yaml", final15)
 
     summary = {
         "csv_files_scanned": len(csvs),

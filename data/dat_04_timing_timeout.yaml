@@ -1,1 +1,2250 @@
-[]
+- category: Timing
+  parameter: V IL
+  min: -0.3
+  typ: null
+  max: 0.7
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0001
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '29'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V IH
+  min: 2.1
+  typ: null
+  max: 3.1
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0002
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '29'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V OL
+  min: null
+  typ: null
+  max: 0.4
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0003
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '29'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V OH
+  min: 2.4
+  typ: 2.8
+  max: null
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0004
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '29'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Microphone biasing voltage
+  min: null
+  typ: 1.9
+  max: 2.2
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0005
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '37'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Working current
+  min: null
+  typ: null
+  max: 2.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0006
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '37'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Input impedance(differential)
+  min: 13.0
+  typ: 20.0
+  max: 27.0
+  unit: KΩ
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0007
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '37'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Idle channel noise
+  min: null
+  typ: null
+  max: -67.0
+  unit: dBm0
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0008
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '37'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Voltage range
+  min: 0.0
+  typ: null
+  max: 2.8
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0009
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '48'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: ADC Resolution
+  min: null
+  typ: 10.0
+  max: null
+  unit: bits
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0010
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '48'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Sampling rate
+  min: null
+  typ: null
+  max: 1.0833
+  unit: MHz
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0011
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '48'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: ADC precision
+  min: null
+  typ: 10.0
+  max: 30.0
+  unit: mV
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0012
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '48'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Working voltage
+  min: 2.5
+  typ: 2.8
+  max: 2.9
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0013
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '48'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Working current
+  min: null
+  typ: null
+  max: 16.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0014
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '48'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: VBAT
+  min: null
+  typ: null
+  max: 4.5
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0015
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Current
+  min: 0.0
+  typ: null
+  max: 2.0
+  unit: A
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0016
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: VBUS
+  min: null
+  typ: null
+  max: 12.0
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0017
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I* I
+  min: null
+  typ: 4.0
+  max: 16.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0018
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I * O
+  min: null
+  typ: 4.0
+  max: 16.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0019
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: VBAT
+  min: 3.4
+  typ: 4.0
+  max: 4.4
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0020
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: T OPER
+  min: -40.0
+  typ: 25.0
+  max: 85.0
+  unit: ℃
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0021
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: T STG
+  min: -45.0
+  typ: null
+  max: 90.0
+  unit: ℃
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0022
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V IH
+  min: 2.1
+  typ: null
+  max: 3.1
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0023
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V IL
+  min: -0.3
+  typ: null
+  max: 0.7
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0024
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V OH
+  min: 2.4
+  typ: 2.8
+  max: null
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0025
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V OL
+  min: null
+  typ: null
+  max: 0.4
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0026
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I IH
+  min: -1.0
+  typ: null
+  max: 1.0
+  unit: uA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0027
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I IL
+  min: -1.0
+  typ: null
+  max: 1.0
+  unit: uA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0028
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I O
+  min: null
+  typ: null
+  max: 10.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0029
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V O
+  min: 2.7
+  typ: 2.8
+  max: 2.9
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0030
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I O
+  min: null
+  typ: null
+  max: 50.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0031
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V RTC-IN
+  min: 1.2
+  typ: 2.8
+  max: 3.0
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0032
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I RTC-IN
+  min: null
+  typ: 3.0
+  max: 5.0
+  unit: uA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0033
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V RTC-OUT
+  min: null
+  typ: 2.8
+  max: null
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0034
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I RTC-OUT
+  min: null
+  typ: null
+  max: 2.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0035
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: VBAT
+  min: null
+  typ: null
+  max: null
+  unit: ''
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0036
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I MAX
+  min: null
+  typ: null
+  max: 2.0
+  unit: A
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0037
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V IL
+  min: 0.0
+  typ: null
+  max: 0.3
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0038
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '30'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V IH
+  min: 2.5
+  typ: null
+  max: 2.8
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0039
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '30'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V OL
+  min: 0.0
+  typ: null
+  max: 0.1
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0040
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '30'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V OH
+  min: 2.7
+  typ: null
+  max: 2.8
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0041
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '30'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Microphone biasing voltage
+  min: null
+  typ: 1.9
+  max: 2.2
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0042
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '38'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Working current
+  min: null
+  typ: null
+  max: 2.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0043
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '38'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Input impedance(differential)
+  min: 13.0
+  typ: 20.0
+  max: 27.0
+  unit: KΩ
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0044
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '38'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Idle channel noise
+  min: null
+  typ: null
+  max: -67.0
+  unit: dBm0
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0045
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '38'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Voltage range
+  min: 0.0
+  typ: null
+  max: 2.8
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0046
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '48'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: ADC Resolution
+  min: null
+  typ: 10.0
+  max: null
+  unit: bits
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0047
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '48'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Sampling rate
+  min: null
+  typ: null
+  max: 1.0833
+  unit: MHz
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0048
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '48'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: ADC precision
+  min: null
+  typ: 10.0
+  max: 20.0
+  unit: mV
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0049
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '48'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Working voltage
+  min: 2.5
+  typ: 2.8
+  max: 2.9
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0050
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '49'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Working current
+  min: null
+  typ: null
+  max: 16.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0051
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '49'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: VBAT
+  min: null
+  typ: null
+  max: 4.5
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0052
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: Current
+  min: 0.0
+  typ: null
+  max: 2.0
+  unit: A
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0053
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: VBUS
+  min: null
+  typ: null
+  max: 30.0
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0054
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I* I
+  min: null
+  typ: null
+  max: 8.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0055
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I * O
+  min: null
+  typ: null
+  max: 8.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0056
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: VBAT
+  min: 3.4
+  typ: 4.0
+  max: 4.4
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0057
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: T OPER
+  min: -40.0
+  typ: 25.0
+  max: 85.0
+  unit: ℃
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0058
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: T STG
+  min: -45.0
+  typ: null
+  max: 90.0
+  unit: ℃
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0059
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V IH
+  min: 2.1
+  typ: null
+  max: 3.1
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0060
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V IL
+  min: -0.3
+  typ: null
+  max: 0.7
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0061
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V OH
+  min: 2.4
+  typ: null
+  max: null
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0062
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V OL
+  min: null
+  typ: null
+  max: 0.4
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0063
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '58'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I IH
+  min: -1.0
+  typ: null
+  max: 1.0
+  unit: uA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0064
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I IL
+  min: -1.0
+  typ: null
+  max: 1.0
+  unit: uA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0065
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I O
+  min: null
+  typ: null
+  max: 10.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0066
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V O
+  min: 2.7
+  typ: 2.8
+  max: 2.9
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0067
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I O
+  min: null
+  typ: null
+  max: 50.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0068
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V RTC-IN
+  min: null
+  typ: 2.8
+  max: null
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0069
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I RTC-IN
+  min: null
+  typ: 3.0
+  max: null
+  unit: uA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0070
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: V RTC-OUT
+  min: null
+  typ: 2.8
+  max: null
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0071
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I RTC-OUT
+  min: null
+  typ: null
+  max: 2.0
+  unit: mA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0072
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '59'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: VBAT
+  min: 3.4
+  typ: 4.0
+  max: 4.4
+  unit: V
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0073
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '60'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I VBAT
+  min: null
+  typ: 50.0
+  max: 60.0
+  unit: uA
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0074
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '60'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
+- category: Timing
+  parameter: I MAX
+  min: null
+  typ: 2.0
+  max: null
+  unit: A
+  condition: ''
+  related_command: null
+  related_state: null
+  related_urc: null
+  id: dat_04_0075
+  source:
+    name: SIM800L_Hardware_Design
+    version: V1.00
+    date: '2013-08-20'
+    page: '60'
+    section: ''
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'

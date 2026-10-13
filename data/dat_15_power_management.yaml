@@ -3,7 +3,7 @@
   command: null
   parameter: current
   value_min: null
-  value_typ: 0.0
+  value_typ: 0.83
   value_max: null
   unit: mA
   condition: ''
@@ -18,12 +18,24 @@
     page: '26'
     section: ''
     quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
 - category: Power
   mode: '1'
   command: null
   parameter: current
   value_min: null
-  value_typ: 1.0
+  value_typ: 1.04
   value_max: null
   unit: mA
   condition: ''
@@ -38,12 +50,24 @@
     page: '26'
     section: ''
     quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
 - category: Power
   mode: '4'
   command: null
   parameter: current
   value_min: null
-  value_typ: 4.0
+  value_typ: 0.92
   value_max: null
   unit: mA
   condition: ''
@@ -58,12 +82,24 @@
     page: '26'
     section: ''
     quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V2.02
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
 - category: Power
   mode: '0'
   command: null
   parameter: current
   value_min: null
-  value_typ: 0.0
+  value_typ: 0.796
   value_max: null
   unit: mA
   condition: ''
@@ -78,12 +114,24 @@
     page: '27'
     section: ''
     quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
 - category: Power
   mode: '1'
   command: null
   parameter: current
   value_min: null
-  value_typ: 1.0
+  value_typ: 1.02
   value_max: null
   unit: mA
   condition: ''
@@ -98,12 +146,24 @@
     page: '27'
     section: ''
     quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'
 - category: Power
   mode: '4'
   command: null
   parameter: current
   value_min: null
-  value_typ: 4.0
+  value_typ: 0.892
   value_max: null
   unit: mA
   condition: ''
@@ -118,3 +178,15 @@
     page: '27'
     section: ''
     quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - auto-extracted
+  - V1.00
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T13:24:00Z'
+  updated_at: '2026-10-13T13:24:00Z'

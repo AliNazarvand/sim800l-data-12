@@ -23,7 +23,7 @@
     },
     {
       "dataset": "dat_04_timing_timeout",
-      "records": 0,
+      "records": 75,
       "duplicate_ids": 0,
       "missing_source_page": 0,
       "complete_low_conf": 0
@@ -44,7 +44,7 @@
     },
     {
       "dataset": "dat_07_hardware_reference",
-      "records": 0,
+      "records": 90,
       "duplicate_ids": 0,
       "missing_source_page": 0,
       "complete_low_conf": 0

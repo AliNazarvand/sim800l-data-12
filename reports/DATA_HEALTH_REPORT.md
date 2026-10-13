@@ -6,10 +6,10 @@
 | dat_01_at_command | 335 | 0 | 0 | 1 |
 | dat_02_urc | 18 | 0 | 0 | 16 |
 | dat_03_error_code | 255 | 0 | 0 | 0 |
-| dat_04_timing_timeout | 0 | 0 | 0 | 0 |
+| dat_04_timing_timeout | 75 | 0 | 0 | 0 |
 | dat_05_state_machine | 31 | 0 | 0 | 0 |
 | dat_06_init_sequence | 35 | 0 | 1 | 0 |
-| dat_07_hardware_reference | 0 | 0 | 0 | 0 |
+| dat_07_hardware_reference | 90 | 0 | 0 | 0 |
 | dat_08_firmware_compatibility | 1 | 0 | 1 | 0 |
 | dat_09_sms | 14 | 0 | 0 | 0 |
 | dat_10_gprs_data | 24 | 0 | 0 | 0 |
