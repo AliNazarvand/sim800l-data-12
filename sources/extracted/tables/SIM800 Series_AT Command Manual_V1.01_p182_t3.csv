@@ -1,0 +1,15 @@
+AT+CIPSTART Start Up TCP or UDP Connection,
+"Test Command
+AT+CIPSTART=
+?",Response
+,1) If AT+CIPMUX=0
+,"+CIPSTART: (list of supported <mode>),(<IP address>),(<port>)"
+,"+CIPSTART: (list of supported <mode>),(<domain name>),(<port>)"
+,
+,OK
+,2) If AT+CIPMUX=1
+,"+CIPSTART: (list of supported <n>),(list of supported <mode>),(<IP"
+,"address>),(<port>)"
+,"+CIPSTART: (list of supported <n>),(list of supported <mode>),(<domain"
+,"name>),(<port>)"
+,

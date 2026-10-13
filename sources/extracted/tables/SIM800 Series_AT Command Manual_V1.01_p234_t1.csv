@@ -1,0 +1,6 @@
+,"Parameter
+<error> See “AT+FTPGET”"
+"Max Response
+Time",60 seconds(In case no response is received from server)
+Reference,"Note
+The created folder is specified by the “AT+FTPGETPATH” command."

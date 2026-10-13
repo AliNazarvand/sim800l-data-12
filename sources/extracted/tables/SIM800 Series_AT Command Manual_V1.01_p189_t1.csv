@@ -1,0 +1,43 @@
+,Parameters
+,See Write Command
+"Read Command
+AT+CLPORT?",Response
+,1) For single IP connection (+CIPMUX=0)
+,"+CLPORT: <TCP port>,<UDP port>"
+,
+,OK
+,2) For multi IP connection (+CIPMUX=1)
+,"+CLPORT: 0,<TCP port>,<UDP port>"
+,"+CLPORT: 1,<TCP port>,<UDP port>"
+,"+CLPORT: 2,<TCP port>,<UDP port>"
+,"+CLPORT: 3,<TCP port>,<UDP port>"
+,"+CLPORT: 4,<TCP port>,<UDP port>"
+,"+CLPORT: 5,<TCP port>,<UDP port>"
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command
+1) For single IP
+connection",Response
+,OK
+,ERROR
+"(+CIPMUX=0)
+AT+CLPORT=<
+mode>,<port>
+2) For multi IP
+connection
+(+CIPMUX=1)
+AT+CLPORT=<
+n>,<mode>,<por
+t>",Parameters
+,<n> 0..5 A numeric parameter which indicates the connection
+,number this used in multi IP connection
+,<mode> A string parameter which indicates the connection type
+,"""TCP"" TCP local port"
+,"""UDP"" UDP local port"
+,<port> 0-65535 A numeric parameter which indicates the local port
+,"0 is default value, a port can be dynamically allocated a port."
+,
+Reference,Note
+,This command will be effective when module is set as a Client

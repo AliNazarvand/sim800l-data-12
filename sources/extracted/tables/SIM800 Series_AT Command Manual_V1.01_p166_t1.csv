@@ -1,0 +1,33 @@
+AT+CWHITELIST Set the White List,
+"Test Command
+AT+CWHITELI
+ST=?","Response
++CWHITELIST: (0,1)
+OK"
+,"Parameter
+See Write Command"
+"Read Command
+AT+CWHITELI
+ST?","Response
++CWHITELIST: <mode>[,<phone number1>,<phone number2>,…<
+phone number30>]
+OK"
+,"Parameters
+See Write Command"
+"Write Command
+AT+CWHITELI
+ST=<mode>[,<in","Response
+OK
+ERROR"
+"dex>,<phone
+number>]","Parameters
+<mode>
+0 disable
+1 enable
+<index>
+The index of phone number, scope: 1-30
+<phone number>
+Phone number to be set"
+"Parameter Saving
+Mode",AUTO_SAVE
+Reference,Note

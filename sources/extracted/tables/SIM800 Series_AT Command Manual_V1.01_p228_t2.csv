@@ -1,0 +1,43 @@
+T+FTPGET Download File,
+"est Command
+T+FTPGET=?",Response
+,OK
+,
+"Write Command
+T+FTPGET=<
+mode>[,<reqleng
+h>]",Response
+,If mode is 1 and it is a successful FTP get session:
+,OK
+,"+FTPGET:1,1"
+,
+,If data transfer finished:
+,"+FTPGET:1,0"
+,
+,If mode is 1 and it is a failed FTP get session:
+,OK
+,"+FTPGET:1,<error>"
+,
+,If mode is 2:
+,"+FTPGET:2,<cnflength>"
+,012345678…
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,<mode> 1 For opening FTP get session
+,2 For reading FTP download data.
+,<reqlength> Requested number of data bytes (1-1460)to be read
+,"<cnflength> Confirmed number of data bytes to be read, which may be less"
+,than <length>. 0 indicates that no data can be read.
+,<error> 61 Net error
+,62 DNS error
+,63 Connect error
+,64 Timeout
+,65 Server error
+,66 Operation not allow
+,70 Replay error
+,71 User error
+,72 Password error
+,73 Type error
+,74 Rest error

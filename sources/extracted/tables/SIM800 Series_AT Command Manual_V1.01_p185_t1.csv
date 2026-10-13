@@ -1,0 +1,54 @@
+,+CIPSEND:<size>
+,
+,OK
+,2) For multi IP connection (+CIPMUX=1)
+,"+CIPSEND:<n>,<size>"
+,
+,OK
+,Parameters
+,<n> A numeric parameter which indicates the connection number
+,<size> A numeric parameter which indicates the data length sent at
+,a time
+"Write Command
+) If single IP
+onnection
++CIPMUX=0)
+T+CIPSEND=<
+ength>
+) If multi IP
+onnection
++CIPMUX=1)
+T+CIPSEND=<
+>[,<length>]",Response
+,This Command is used to send changeable length data
+,If single IP is connected (+CIPMUX=0)
+,If connection is not established or module is disconnected:
+,If error is related to ME functionality:
+,+CME ERROR <err>
+,If sending is successful:
+,When +CIPQSEND=0
+,SEND OK
+,When +CIPQSEND=1
+,DATA ACCEPT:<length>
+,If sending fails:
+,SEND FAIL
+,If multi IP connection is established (+CIPMUX=1)
+,If connection is not established or module is disconnected:
+,If error is related to ME functionality:
+,+CME ERROR <err>
+,If sending is successful:
+,When +CIPQSEND=0
+,"<n>,SEND OK"
+,When +CIPQSEND=1
+,"DATA ACCEPT:<n>,<length>"
+,If sending fails:
+,"<n>,SEND FAIL"
+,
+,Parameters
+,<n> A numeric parameter which indicates the connection number
+,<length> Anumeric parameter which indicates the length of sending
+,"data, it must be less than <size>"
+,
+"xecution
+ommand",Response
+,This Command is used to send changeable length data.

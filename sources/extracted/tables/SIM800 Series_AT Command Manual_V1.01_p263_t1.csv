@@ -1,0 +1,22 @@
+"Read Command
+AT+CMMSEDIT?",Response
+,+CMMSEDIT: <mode>
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command
+AT+CMMSEDIT=<
+mode>",Response
+,OK
+,or
+,ERROR
+,or
+,+CME ERROR: <err>
+,Parameter
+,<mode> Whether it allows to edit MMS
+,0 Not allow to edit MMS
+,1 Allow to edit MMS
+Reference,Note
+,"It includes adding and deleting receipt, downloading and deleting files,"
+,downloading title to edit MMS.

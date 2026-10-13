@@ -1,0 +1,23 @@
+"Execution Command
+AT+POP3NUM",Response
+,OK
+,If error is related to ME functionality:
+,ERROR
+,If POP3 server issues a positive response:
+,"+POP3NUM: 1,<totalNumber>,<totalSize>"
+,If POP3 server issues a negative response:
+,+POP3NUM: 0
+,If some error occur:
+,+POP3OUT: <code>
+,Parameter
+,"<totalNumber> The Email number on the POP3 server, decimal"
+,format.
+,<totalSize> The total size of all Email and the unit is in byte.
+,<code> The result of logging out POP3 server
+,1 Normally log out POP3 server
+,61 Network error
+,62 DNS resolve error
+,63 POP3 tcp connection error
+,64 Timeout of POP3 server response
+Reference,Note
+,

@@ -1,0 +1,26 @@
+,Parameter
+,See Write Command
+"Write Command
+AT+MORING=<
+mode>",Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameter
+,<mode> 0 Not show call state of mobile originated call
+,1 Show call state of mobile originated call. After the call
+,"number is dialed, the URC strings of MO RING will be sent"
+,if another call is alerted and the URC strings of MO
+,CONNECTED will be sent if the call is established.
+,
+,Unsolicited Result Code
+,MO RING
+,the call is alerted.
+,
+,MO CONNECTED
+,the call is established.
+"Parameter Saving
+Mode",AT&W_SAVE
+,
+Reference,Note
+,

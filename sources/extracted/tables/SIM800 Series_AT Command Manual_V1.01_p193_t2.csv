@@ -1,0 +1,26 @@
+AT+CDNSGIP Query the IP Address of Given Domain Name,
+"Test Command
+AT+CDNSGIP=
+?",Response
+,OK
+,
+"Write Command
+AT+CDNSGIP=
+<domain name>",Response
+,OK
+,ERROR
+,"If successful, return:"
+,"+CDNSGIP: 1, <domain name>,<IP1>[,<IP2>]"
+,"If fail, return:"
+,"+CDNSGIP:0,<dns error code>"
+,Parameters
+,<domain name> A string parameter which indicates the domain name
+,<IP1> A string parameter which indicates the first IP address
+,corresponding to the domain name
+,<IP2> A string parameter which indicates the second IP address
+,corresponding to the domain name
+,<dns error code> A numeric parameter which indicates the error code
+,8 DNS COMMON ERROR
+,There are some other error codes as well.
+Reference,Note
+,

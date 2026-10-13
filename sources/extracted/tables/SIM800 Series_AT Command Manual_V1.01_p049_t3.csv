@@ -1,0 +1,23 @@
+AT+CAMM Accumulated Call Meter Maximum(ACM max) Set or Query,,,
+"Test Command
+AT+CAMM=?","Response
+OK",,
+"Read Command
+AT+CAMM?",,Response,
+,,TA returns the current value of ACM max.,
+,,+CAMM: <acmmax>,
+,,,
+,,OK,
+,,If error is related to ME functionality:,
+,,+CME ERROR: <err>,
+,,Parameters,
+,,See Write Command,
+"Write Command
+AT+CAMM=<ac
+mmax>[,<passwd
+>]",,Response,
+,,TA sets the Advice of Charge related accumulated call meter maximum,
+,,value in SIM file EF (ACM max). ACM max contains the maximum,
+,,number of home units allowed to be consumed by the subscriber.,
+,,OK,
+,,ERROR,

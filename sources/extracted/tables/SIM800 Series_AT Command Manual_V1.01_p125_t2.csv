@@ -1,0 +1,29 @@
+AT+STKCALL STK call setup,
+"Test Command
+AT+STKCALL =?",Response
+,OK
+,Parameter
+,See Write Command
+"Write Command
+AT+STKCALL =<
+ommand>",Response
+,OK
+,ERROR
+,Parameter
+,<command > stk call command
+,0 (Trigger modem to send STK CALLSETUP)
+,4 (Trigger modem to send STK CALLSETUP but icon cannot
+,be displayed)
+,16 (Proactive session terminated by user)
+,18 (No response from user)
+,32 (ME currently unable to process this command)
+,34 (User reject setup call)
+,50 (Command data not understood by ME)
+,Note: Above are the possible terminal response value needed to be
+,responded by application. It’s modem’s responsibility to response for other
+,terminal response value
+Reference,Note
+,"According to spec 11.14 , 0x12 (“No response from user”) is not a possible"
+,terminal response value for STK CALLSETUP. So we will translate
+,0x12(“No response from user”) to 0x20 (“ME currently unable to process
+,this command”) .

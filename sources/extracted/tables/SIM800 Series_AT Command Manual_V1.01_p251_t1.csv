@@ -1,0 +1,10 @@
+,<msgNumber> The message number of Email.
+,<size> The size of Email <msgNumber> and the unit is in byte.
+,<code> The result of logging out POP3 server
+,1 Normally log out POP3 server
+,61 Network error
+,62 DNS resolve error
+,63 POP3 tcp connection error
+,64 Timeout of POP3 server response
+Reference,Note
+,

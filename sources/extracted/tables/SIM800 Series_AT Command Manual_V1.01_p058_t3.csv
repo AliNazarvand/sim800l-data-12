@@ -1,0 +1,18 @@
+AT+CGMR Request TA Revision Identification of Software Release,,,,,
+"T
+A",est Command,,,Response,
+,T+CGMR=?,,,OK,
+"Execution
+Command
+AT+CGMR",xecution,,,Response,
+,ommand,,,TA returns product software version identification text.,
+,T+CGMR,,,Revision: <revision>,
+,,,,,
+,,,,OK,
+,,,,Parameter,
+,,,,<revision> Product software version identification text,
+"R
+3
+[1",eference,,Note,Note,
+,GPP TS 27.007,,,,
+,3],,,,

@@ -1,0 +1,30 @@
+AT+CAAS Control Auto Audio Switch,
+"Test Command
+AT+CAAS=?",Response
+,+CAAS: (0-2)
+,
+,OK
+,Parameter
+,See Write Command
+"Read Command
+AT+CAAS?",Response
+,+CAAS: <mode>
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command
+AT+CAAS=<mo
+de>",Response
+,This parameter setting determines whether or not the audio channel will be
+,switched automatically to the corresponding channel in case of headset
+,attaching or detaching.
+,
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameter
+,<mode>
+,"0 Disable automatic audio channel switch function, the headset"
+,HOOK function is disabled;
+,"1 Enable automatic audio channel switch function, the headset"

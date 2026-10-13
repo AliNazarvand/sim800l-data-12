@@ -1,0 +1,10 @@
+,Parameter
+,"<charset> The Email charset, string type. It shows which charset"
+,the subject and the body are encoded in. If <charset> is not
+,"ASCII but UTF-8 or other, the subject and the body must be"
+,in hexadecimal format (e.g. “TEST” should be converted to
+,“54455354”).
+,The default charset is ASCII.
+,<charsetLength> The max length of <charset>.
+Reference,Note
+,

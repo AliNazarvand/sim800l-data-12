@@ -1,0 +1,48 @@
+,"supported <delay>s),(list of supported <reliability>s),<list of supported"
+,"<peak>s),(list of supported <mean>s)"
+,"[<CR><LF>+CGQREQ: <PDP_type>,(list of supported <precedence>"
+,"s),(list of supported <delay>s),(list of supported <reliability>s),(list of"
+,"supported <peak>s),(list of supported <mean>s)"
+,[…]]
+,
+,OK
+,Parameters
+,See Write Command
+"ead Command
+T+CGQREQ?",Response
+,"+CGQREQ: <cid>,<precedence>,<delay>,>reliability>,<peak>,<mean>"
+,[<CR><LF>+CGQREQ:
+,"<cid>,<precedence>,<delay>,<reliability>,<peak>,<mean>"
+,[…]]
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command
+T+CGQREQ=c
+d>[,<precedence
+[,<delay>[,<reli
+bility>[,<peak>[",Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,
+<mean>]]]]],Parameters
+,<cid> A numeric parameter which specifies a particular PDP
+,context definition (see +CGDCONT Command)
+,The following parameter are defined in GSM 03.60
+,<precedence> A numeric parameter which specifies the precedence class
+,0 QOS precedence class subscribed value
+,1..3 QOS precedence class
+,<delay> A numeric parameter which specifies the delay class
+,0 QOS delay class subscribed value
+,1..4 QOS delay class
+,<reliability> A numeric parameter which specifies the reliability class
+,0 QOS reliability class subscribed value
+,1..5 QOS reliability class; default value: 3
+,<peak> A numeric parameter which specifies the peak throughput
+,class
+,0 QOS peak throughput class subscribed value
+,1..9 QOS peak throughput class
+,<mean> A numeric parameter which specifies the mean throughput
+,class

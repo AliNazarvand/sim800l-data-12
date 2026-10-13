@@ -1,0 +1,13 @@
+AT+CADC Read ADC,
+"Test Command
+AT+CADC=?","Response
++CADC: (list of supported <status>s),(list of supported <value>s)
+OK"
+,"Parameters
+<status> 1 Success
+0 Fail
+<value> Integer 0-2800"
+"Read Command
+AT+CADC?","Response
++CADC: <status>,<value>
+OK"

@@ -1,0 +1,18 @@
+"Write Command
+AT+CMEE=[<n>
+]","Response
+TA disables or enables the use of result code +CME ERROR: <err> as an
+indication of an error relating to the functionality of the ME.
+OK
+If error is related to ME functionality:
++CME ERROR:<err>"
+,"Parameter
+<n> 0 Disable +CME ERROR: <err> result code and use ERROR
+instead.
+1 Enable +CME ERROR: <err> result code and use numeric
+<err>
+2 Enable +CME ERROR: <err> result code and use verbose
+<err> values"
+"Reference
+3GPP TS 27.007
+[13]",Note

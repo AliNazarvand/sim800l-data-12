@@ -1,0 +1,29 @@
+,,,,See Write Command,
+"Read Command
+AT+CRLP?",,,,Response,
+,,,,TA returns current settings for RLP version. RLP versions 0 and 1 share,
+,,,,the same parameter set.,
+,,,,,
+,,,,"+CRLP: <iws>,<mws>,<T1>,<N2>,<T4>",
+,,,,,
+,,,,OK,
+,,,,Parameters,
+,,,,See Write Command,
+"Write Command
+AT+CRLP=<iws
+>[,<mws>[,<T1>[
+,<N2> [,<T4>]]]]",,,,Response,
+,,,,TA sets radio link protocol (RLP) parameters used when non-transparent,
+,,,,data calls are setup.,
+,,,,OK,
+,,,,Parameters,
+,,,,<iws> 0-61 Interworking window size (IWF to MS),
+,,,,<mws> 0-61 Mobile window size(MS to IWF),
+,,,,<T1> 44-255 Acknowledgment timer T1 in 10 ms units,
+,,,,<N2> 1-255 Retransmission attempts N2,
+,,,,"<T4> 7 Re-sequencing period in integer format, in units of 10 ms.",
+"R
+3
+[1",eference,,Note,Note,
+,GPP TS 27.007,,,,
+,3],,,,

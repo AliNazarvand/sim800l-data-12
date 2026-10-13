@@ -1,0 +1,30 @@
+AT+CIPFLT Set the Rules of IP Filter,
+"Test Command
+AT+CIPFLT=?",Response
+,"+CIPFLT: (list of supported <action>s),(list of supported <item>s)"
+,
+,OK
+,Parameter
+,See Write Command
+,
+"Read Command
+AT+CIPFLT?",Response
+,"+CIPFLT: <item>,<ipAddr>,<mask>"
+,"[<CR><LF>+CIPFLT: <item>,<ipAddr>,<mask>"
+,[…]]
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command
+AT+CIPFLT=<actio
+>[,<item>][,
+ipAddr>,<mask>]",Response
+,OK
+,or
+,ERROR
+,or
+,+CME ERROR: <err>
+,Parameter
+,<action> 0 Remove the rule specified by <item>.
+,<item> must be given.

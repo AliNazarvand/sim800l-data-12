@@ -1,0 +1,42 @@
+AT+CIPSTATUS Query Current Connection Status,
+"Test Command
+AT+CIPSTATUS
+=?",Response
+,OK
+,
+"Write Command
+f multi IP
+onnection mode
++CIPMUX=1)
+AT+CIPSTATU",Response
+,"+CIPSTATUS: <n>,<bearer>, <TCP/UDP>, <IP address>, <port>,"
+,<client state>
+,
+,OK
+S=<n>,Parameters
+,See Execution Command
+"Execution
+Command
+AT+CIPSTATUS",Response
+,1）If in single connection mode (+CIPMUX=0)
+,OK
+,
+,STATE: <state>
+,2) If in multi-connection mode (+CIPMUX=1)
+,OK
+,
+,STATE: <state>
+,If the module is set as server
+,"S: 0, <bearer>, <port>, <server state>"
+,"C: <n>,<bearer>, <TCP/UDP>, <IP address>, <port>, <client state>"
+,Parameters
+,<n> 0-5 Anumeric parameter which indicates the connection
+,number
+,"<bearer> 0-1 GPRS bearer, default is 0"
+,<server state> OPENING
+,LISTENING
+,CLOSING
+,<client state> INITIAL
+,CONNECTING
+,CONNECTED
+,REMOTE CLOSING

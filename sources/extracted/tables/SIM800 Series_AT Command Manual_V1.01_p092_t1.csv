@@ -1,0 +1,14 @@
+,,,,Parameters,
+,,,,<length> Integer type: length of characters sent to the TE in,
+,,,,<Command> or <response> (i.e. twice the number of octets in the raw,
+,,,,data).,
+,,,,<Command> String type(string should be included in quotation,
+,,,,marks): hex format: GSM 11.11 SIM Command sent from the ME to the,
+,,,,SIM.,
+,,,,<response> String type(string should be included in quotation,
+,,,,marks): hex format: GSM 11.11 response from SIM to <Command>.,
+"R
+3
+[1",eference,,Note,Note,
+,GPP TS 27.007,,,,
+,3],,,,

@@ -1,0 +1,14 @@
+AT+EMAILTO Set Timeout Value of SMTP/POP3 Server Response,
+"Test Command
+AT+EMAILTO=?",Response
+,+EMAILTO: (range of supported <timeout>s)
+,
+,OK
+,Parameter
+,See Write Command
+,
+"Read Command
+AT+EMAILTO?",Response
+,+EMAILTO: <timeout>
+,
+,OK

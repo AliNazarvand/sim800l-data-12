@@ -1,0 +1,19 @@
+AT+STKMENU STK Main menu command,
+"Test Command
+AT+STKMENU",Response
+,OK
+=?,
+"Read Command
+AT+STKMENU
+?",Response
+,"[+STKMENU:<index>,<id>,<text>]"
+,"[+STKMENU:<index>,<id>,<text>]"
+,"[+STKMENU:<index>,<id>,<text>]"
+,[…]
+,OK
+,
+,Parameter
+,"<index>: the menu’s index, begin 1"
+,<id>: the item identifier
+,"<text>: the content of item, code by EFADN"
+Reference,Note

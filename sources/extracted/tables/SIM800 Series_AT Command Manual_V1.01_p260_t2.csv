@@ -1,0 +1,21 @@
+AT+CMMSCID Set the network parameters for MMS,
+"Test Command
+AT+CMMSCID=?","Response
++CMMSCID: (1-3)
+OK"
+,"Parameter
+See Write Command"
+"Read Command
+AT+CMMSCID?","Response
++CMMSCID: <value>
+OK"
+,"Parameter
+See Write Command"
+"Write Command
+AT+CMMSCID=<v
+lue>","Response
+OK
+or
+ERROR
+or
++CME ERROR: <err>"

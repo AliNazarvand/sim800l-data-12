@@ -1,0 +1,17 @@
+AT+CCWE Call Meter Maximum Event,,,
+"Test Command
+AT+CCWE=?",,Response,
+,,+CCWE: (list of supported <mode>s),
+,,,
+,,OK,
+,,If error is related to ME functionality:,
+,,+CME ERROR: <err>,
+,,Parameter,
+,,See Write Command,
+"Read Command
+AT+CCWE?",,Response,
+,,+CCWE: <mode>,
+,,,
+,,OK,
+,,If error is related to ME functionality:,
+,,+CME ERROR: <err>,

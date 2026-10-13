@@ -1,0 +1,31 @@
+"est Command
+AT+CMMSSCONT
+?",Response
+,OK
+,
+,Parameter
+,See Execution Command
+,
+"Read Command
+AT+CMMSSCONT",Response
+,+CMMSSCONT: <mode>
+,+CMMSCID: <value>
+,+CMMSCURL: <mmscurl>
+,+CMMSUA: <UA>
+,+CMMSPROFILE: <UAProfile>
+,"+CMMSPROTO: <Gateway>,<Port>"
+,"+CMMSSENDCFG:<valid>,<pri>,<sendrep>,<readrep>,<visible>,<"
+,"class>,<subctrl>,<notifyskip>"
+,"+CMMSTIMEOUT: <Send timeout>,<Recv timeout>"
+,OK
+,Parameter
+,See Execution Command
+"xecution Command
+AT+CMMSSCONT",Response
+,OK
+,
+,Parameter
+,"<mode> 0 saved, the value from NVRAM"
+,"For other parameters, see the related command."
+Reference,Note
+,

@@ -1,0 +1,40 @@
+AT+CENG Switch On or Off Engineering Mode,
+"est Command
+AT+CENG=?",Response
+,TA returns the list of supported modes.
+,"+CENG: (list of supported <mode>s),(list of supported <Ncell>s)"
+,
+,OK
+,Parameters
+,See Write Command
+"Read Command
+AT+CENG?",Response
+,Engineering Mode is designed to allow a field engineer to view and test the
+,"network information received by a handset, when the handset is either in"
+,"idle mode or dedicated mode (that is: with a call active). In each mode, the"
+,"engineer is able to view network interaction for the ""serving cell"" (the cell"
+,the handset is currently registered with) or for the neighboring cells.
+,
+,TA returns the current engineering mode. The network information
+,including serving cell and neighboring cells are returned only when
+,<mode>=1 or <mode> = 2. <cell> carry with them corresponding network
+,interaction.
+,
+,"+CENG: <mode>,<Ncell>"
+,
+,[+CENG:
+,"<cell>,""<arfcn>,<rxl>,<rxq>,<mcc>,<mnc>,<bsic>,<cellid>,<rla>,"
+,"<txp>,<lac>,<TA>"""
+,<CR><LF>+CENG:
+,"<cell>,""<arfcn>,<rxl>,<bsic>[,<cellid>,]<mcc>,<mnc>,<lac>""…]"
+,
+,OK
+,
+,if <mode>=3
+,"+CENG: <mode>,<Ncell>"
+,
+,"[+CENG: <cell>,<mcc>,<mnc>,<lac>,<cellid>,<bsic>,<rxl>"
+,"<CR><LF>+CENG: <cell>,<mcc>,<mnc>,<lac>,<cellid>,"
+,"<bsic>,<rxl>…]"
+,
+,OK

@@ -1,0 +1,12 @@
+AT+CIURC Enable or Disable Initial URC Presentation,
+"Test Command
+AT+CIURC=?",Response
+,"+CIURC: (0,1)"
+,
+,OK
+,Parameter
+,See Write Command
+"Read Command
+AT+CIURC?",Response
+,+CIURC:<mode>
+,

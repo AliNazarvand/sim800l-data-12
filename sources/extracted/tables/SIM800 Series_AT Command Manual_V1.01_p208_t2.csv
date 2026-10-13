@@ -1,0 +1,31 @@
+AT+CIPPING PING Request,
+Test Command,"Response
++CIPPING: (list of supported <retryNum>s),(list of supported
+<dataLen>s),(list of supported <timeout>s),(list of supported <ttl>s)
+OK"
+AT+CIPPING=?,
+,
+,"Parameters
+See Write Command"
+Read Command,"Response
++CIPPING: <retryNum>,<dataLen>,<timeout>,<ttl>
+OK"
+AT+CIPPING?,
+,
+,"Parameters
+See Write Command"
+Write Command,"Response
++CIPPING: <replyId>,<Ip Address>,<replyTime>,<ttl>[<CR><LF>
++CIPPING <replyId>,<Ip Address>,<replyTime>,<ttl>
+:
+[...]]
+OK
+or
+ERROR
+or
++CME ERROR: <err>"
+AT+CIPPING=<IP,
+"addr>[,<retryNum",
+">[,<dataLen>[,<ti",
+"meout>[,<ttl>]]]]",
+,

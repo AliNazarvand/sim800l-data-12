@@ -1,0 +1,21 @@
+"Write Command
+AT+CMMSSEND=
+<address>",Response
+,OK
+,or
+,ERROR
+,or
+,+CME ERROR: <err>
+,Parameter
+,<address> a string parameter which indicates address of recipients.
+,
+"Execution Command
+AT+CMMSSEND",Response
+,OK
+,or
+,ERROR
+,or
+,+CME ERROR: <err>
+Max Response Time,AT+CMMSTIMEOUT
+Reference,Note
+,It is not allowed to input <address> when it not allowed to edit MMS

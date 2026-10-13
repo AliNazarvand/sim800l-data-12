@@ -1,0 +1,39 @@
+AT+CMMSRECV Receive MMS,
+"Test Command
+AT+CMMSRECV=
+?",Response
+,+CMMSRECV: (range of <index>)
+,
+,OK
+"Write Command
+AT+CMMSRECV=
+<index>",Response
+,+CMMSRECV:
+,"""<sender>"",""<time>"",""<subject>"",<size><CR><LF>"
+,"list of <fileIndex,name,type,filesize><CR><LF>"
+,
+,OK
+,or
+,ERROR
+,or
+,+CME ERROR: <err>
+,Parameters
+,<index> The index of the push message saved in the SIM message
+,box.
+,<sender> The address of the sender
+,<time> The time to receive the MMS
+,<subject> the title of the MMS
+,<size> The size of the MMS
+,"<fileIndex,name,type,filesize> The index, name and size of every file"
+,included in the MMS. The types are defined as following.
+,2 text
+,3 text/html
+,4 text/plain
+,5 image
+,6 image/gif
+,7 image/jpg
+,8 image/tif
+,9 image/png
+,10 smil
+Max Response Time,AT+CMMSTIMEOUT
+Reference,Note

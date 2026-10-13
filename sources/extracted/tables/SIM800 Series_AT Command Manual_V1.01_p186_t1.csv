@@ -1,0 +1,29 @@
+"AT+CIPSEND
+esponse"">"", then
+ype data for send,
+ap CTRL+Z to
+end, tap ESC to
+cancel the
+operation",If single IP connection is established (+CIPMUX=0)
+,If connection is not established or module is disconnected:
+,If error is related to ME functionality:
+,+CME ERROR <err>
+,If sending is successful:
+,When +CIPQSEND=0
+,SEND OK
+,When +CIPQSEND=1
+,DATA ACCEPT:<length>
+,If sending fails:
+,SEND FAIL
+,
+,Note
+,This Command can only be used in single IP connection mode
+,(+CIPMUX=0) and to send data on the TCP or UDP connection that has
+,been established already. Ctrl-Z is used as a termination symbol. ESC is
+,used to cancel sending data. There are at most <size> bytes which can be
+,sent at a time.
+Reference,Note
+,The data length which can be sent depends on network status.
+,Set the time that send data automatically with the Command of
+,AT+CIPATS.
+,Only send data at the status of established connection.

@@ -1,0 +1,16 @@
+AT+CRC Set Cellular Result Codes for Incoming Call Indication,,,,,
+"Test Command
+AT+CRC=?",,,,Response,
+,,,,+CRC: (list of supported <mode>s),
+,,,,,
+,,,,OK,
+,,,,Parameter,
+,,,,See Write Command,
+"Read Command
+AT+CRC?",,,,Response,
+,,,,+CRC: <mode>,
+,,,,,
+,,,,OK,
+,,,,Parameter,
+,,,,See Write Command,
+W,rite Command,,,Response,

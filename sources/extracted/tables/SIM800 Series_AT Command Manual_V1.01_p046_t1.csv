@@ -1,0 +1,9 @@
+T+HVOIC Disconnect Voice Call Only,
+"xecution
+ommand
+T+HVOIC","Response
+Disconnect existing voice call by local TE from Command line and
+terminate call with existing PPP or CSD connection on.
+OK"
+"eference
+.25ter",Note

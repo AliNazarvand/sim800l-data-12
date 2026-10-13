@@ -1,0 +1,24 @@
+AT+CSCLK Configure Slow Clock,
+"Test Command
+AT+CSCLK=?",Response
+,+CSCLK: (list of supported <n>s)
+,
+,OK
+,Parameter
+,See Write Command
+"Read Command
+AT+CSCLK?",Response
+,+CSCLK: <n>
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command
+AT+CSCLK=<n
+>",Response
+,OK
+,ERROR
+,Parameter
+,"<n> 0 Disable slow clock, module will not enter sleep mode."
+,"1 Enable slow clock, it is controlled by DTR. When DTR is"
+,"high, module can enter sleep mode. When DTR changes to low"

@@ -1,0 +1,31 @@
+AT+CMGR Read SMS Message,
+"Test Command
+AT+CMGR=?",Response
+,OK
+"Write Command
+AT+CMGR=<in
+dex>[,<mode>]",Parameters
+,<index> Integer type; value in the range of location numbers supported
+,by the associated memory
+,<mode> 0 Normal
+,1 Not change status of the specified SMS record
+,Response
+,TA returns SMS message with location value <index> from message storage
+,"<mem1> to the TE. If status of the message is 'received unread', status in the"
+,storage changes to 'received read'.
+,1) If text mode (+CMGF=1) and Command successful:
+,for SMS-DELIVER:
+,"+CMGR: <stat>,<oa>[,<alpha>],<scts>[,<tooa>,<fo>,<pid>,<dcs>"
+,",<sca>,<tosca>,<length>]<CR><LF><data>"
+,for SMS-SUBMIT:
+,"+CMGR: <stat>,<da>[,<alpha>][,<toda>,<fo>,<pid>,<dcs>[,<vp>]"
+,",<sca>,<tosca>,<length>]<CR><LF><data>"
+,for SMS-STATUS-REPORTs:
+,"+CMGR: <stat>,<fo>,<mr>[,<ra>][,<tora>],<scts>,<dt>,<st>"
+,for SMS-COMMANDs:
+,"+CMGR: <stat>,<fo>,<ct>[,<pid>[,<mn>][,<da>][,<toda>]"
+,",<length><CR><LF><cdata>]"
+,for CBM storage:
+,"+CMGR: <stat>,<sn>,<mid>,<dcs>,<page>,<pages><CR><LF><data>"
+,2) If PDU mode (+CMGF=0) and Command successful:
+,"+CMGR: <stat>[,<alpha>],<length><CR><LF><pdu>"

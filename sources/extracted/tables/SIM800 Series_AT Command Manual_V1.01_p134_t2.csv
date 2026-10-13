@@ -1,0 +1,41 @@
+AT+CALA Set Alarm Time,
+"Test Command
+AT+CALA=?",Response
+,"+CALA: (""yy/mm/dd,hh:mm:ss"",""hh:mm:ss""),(1-5),(0-7)"
+,
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,See Write Command
+"Read Command
+AT+CALA?",Response
+,"[+CALA: <time>,<n1>[,<recurr>]"
+,"[<CR><LF> +CALA: <time>,<n2>[,<recurr>] …] ]"
+,
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,See Write Command
+"Write Command
+AT+CALA=
+<time>[,<n>
+,<recurr>]]",Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Unsolicited Result Code
+,Indicate the index of expired alarm.
+,+CALV: <n>
+,Parameters
+,<time> A string parameter(string should be included in quotation marks)
+,which indicates the time when alarm arrives. The format is
+,"""yy/MM/dd,hh:mm:ss"" where characters indicate the last two digits of year,"
+,"month, day, hour, minute, second."
+,<n> Index of the alarm (range 1 to 5 for now).
+,"<recurr> ""0"", ""1""---""7"" String type value indicating day of week for the"
+,alarm in one of the following formats:
+,"""<1..7>[,<1..7>[…]]"" – Set a recurrent alarm for one or more"
+,days in the week. The digits 1 to 7 correspond to the days in the
+,"week, Monday (1), …, Sunday (7)."

@@ -1,0 +1,23 @@
+AT+CLVL Loud Speaker Volume Level,
+"Test Command
+AT+CLVL=?","Response
++CLVL: (list of supported <level>s)
+OK
+If error is related to ME functionality:
++CME ERROR: <err>"
+,"Parameter
+See Write Command"
+"Read Command
+AT+CLVL?","Response
++CLVL: <level>
+OK
+If error is related to ME functionality:
++CME ERROR: <err>"
+,"Parameter
+See Write Command"
+"Write Command
+AT+CLVL=<leve
+l>","Response
+OK
+If error is related to ME functionality:
++CME ERROR: <err>"

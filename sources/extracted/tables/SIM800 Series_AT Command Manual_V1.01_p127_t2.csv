@@ -1,0 +1,20 @@
+AT+STKDTMF STK sending DTMF,
+"est Command
+AT+STKDTMF =?","Response
+OK"
+,
+"Write Command
+AT+STKDTMF
+< command>","Response
+OK
+ERROR
+Parameter
+<command > stk DTMF command
+0 (Trigger modem to send STK DTMF)
+4 (Trigger modem to send STK DTMF but icon cannot be
+displayed)
+32 (ME currently unable to process command)"
+eference,"Note
+Above are the possible terminal response value needed to be responded by
+application.It’s modem’s responsibility to response for other terminal
+response value."

@@ -1,0 +1,29 @@
+AT+SIMTONE Generate Specifically Tone,
+"Test Command
+AT+SIMTONE=
+?",Response
+,"+SIMTONE: (0,1),(20-20000),(200-25500),(0,100-25500),(10-500000)"
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command
+AT+SIMTONE
+=<mode>,<frequ
+ency>,<periodO",Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+"n>,<periodOff>[,
+<duration>]",Unsolicited Result Code
+,The playing is stopped or completed.
+,+SIMTONE: 0
+,Parameters
+,<mode> 0 Stop playing tone
+,1 Start playing tone
+,<frequency> The frequency of tone to be generated
+,"<periodOn> The period of generating tone, must be multiple of 100"
+,"<periodOff> The period of stopping tone, must be multiple of 100"
+,<duration> Duration of tones in milliseconds
+Reference,Note
+,

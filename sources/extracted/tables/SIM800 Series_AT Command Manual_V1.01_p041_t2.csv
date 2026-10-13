@@ -1,0 +1,13 @@
+AT+GMI Request Manufacturer Identification,
+"Test Command
+AT+GMI=?","Response
+OK"
+,Parameter
+"Execution
+Command
+AT+GMI","TA reports one or more lines of information text which permit the user to
+identify the manufacturer.
+SIMCOM_Ltd
+OK"
+"Reference
+V.25ter",Note

@@ -1,0 +1,15 @@
+AT+FMM FAX: Report Model ID,
+"Test Command
+AT+FMM=?","Response
+OK"
+"Execution
+Command
+AT+FMM","Response
+TA reports one or more lines of information text which permit the user to
+identify the specific model of device.
+<model Id>
+OK"
+,"Parameter
+<model Id> The ID of model"
+"Reference
+EIA/TIA-578-D",Note

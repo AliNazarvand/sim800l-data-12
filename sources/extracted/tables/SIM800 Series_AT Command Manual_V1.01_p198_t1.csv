@@ -1,0 +1,5 @@
+,+RECV FROM:<IP ADDRESS>:<PORT>
+,1) For multi IP connection (+CIPMUX=1)
+,"+RECEIVE,<n>,<data length>,<IP ADDRESS>:<PORT>"
+Reference,
+,

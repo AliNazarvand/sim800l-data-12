@@ -1,0 +1,18 @@
+,OK
+,Parameter
+,See Write Command
+"Write Command
+AT+CMMSBCC=<
+addr>",Response
+,OK
+,or
+,ERROR
+,or
+,+CME ERROR: <err>
+,Parameter
+,<addr> a string parameter which indicates phone number or email
+,address of secret recipients. The maximum length of the
+,string is 40.
+Reference,Note
+,The maximum of secret recipients is 20 and this command is valid only
+,when it is allowed to edit MMS

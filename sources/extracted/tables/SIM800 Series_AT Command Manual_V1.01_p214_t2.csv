@@ -1,0 +1,7 @@
+T+HTTPDATA Input HTTP Data,
+"est Command
+T+HTTPDATA
+?",Response
+,"+HTTPDATA: (list of supported <size>s),(list of supported <time>s)"
+,
+,OK

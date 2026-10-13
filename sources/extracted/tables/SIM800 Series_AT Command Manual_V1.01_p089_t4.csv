@@ -1,0 +1,19 @@
+AT+COPN Read Operator Names,,,,,
+"T
+A",est Command,,,Response,
+,T+COPN=?,,,OK,
+"Execution
+Command
+AT+COPN",xecution,,,Response,
+,ommand,,,"+COPN: <numeric1>,<alpha1>",
+,T+COPN,,,"[<CR><LF>+COPN: <numeric2>,<alpha2>",
+,,,,[…]],
+,,,,,
+,,,,OK,
+,,,,If error is related to ME functionality:,
+,,,,+CME ERROR: <err>,
+,,,,Parameters,
+,,,,<numericn> String type (string should be included in quotation marks):,
+,,,,operator in numeric format (see +COPS),
+,,,,<alphan> String type (string should be included in quotation marks):,
+,,,,operator in long alphanumeric format (see +COPS),

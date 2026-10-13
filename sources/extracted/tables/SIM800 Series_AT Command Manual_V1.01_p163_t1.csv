@@ -1,0 +1,20 @@
+,"Parameter
+See Write Command"
+"Write Command
+AT*CELLLOC
+K=<mode>[,<am","Response
+OK
+ERROR"
+"ount>,<locked
+arfcn
+ist>[,<locked
+arfcn list>…]]","Parameter
+<mode>
+0 Disable
+1 Enable
+<amout>
+Amount of arfcn to be set. Up to 3 arfcn supported.
+<locked arfcn list>
+Arfcn needs to be locked by user.
+Scope: (0-124), (128-251), (512-885) or (975-1023)."
+Reference,Note

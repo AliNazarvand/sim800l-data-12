@@ -1,0 +1,42 @@
+,"+CCFC: <status>, <class>"
+,
+,OK
+,where <status>=0 and <class>=7
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,
+,Parameters
+,<reason> 0 Unconditional
+,1 Mobile busy
+,2 No reply
+,3 Not reachable
+,4 All call forwarding
+,5 All conditional call forwarding
+,<mode> 0 Disable
+,1 Enable
+,2 Query status
+,3 Registration
+,4 Erasure
+,<number> String type (Phone number of forwarding address in format
+,specified by <type>)
+,<type> Type of address
+,<subaddr> String type (subaddress of format specified by <satype>)
+,<satype> Type of sub-address in integer
+,<class> 1 Voice (telephony)
+,2 Data (refers to all bearer services; with <mode>=2 this
+,may refer only to some bearer service if TA does not support
+,"values 16, 32, 64 and 128)"
+,4 Fax (facsimile services)
+,7 All classes
+,"<time> 1..30 When ""no reply"" is enabled or queried, this gives the time"
+,"in seconds to wait before call is forwarded, default value is 20.Supported"
+,only if it is multiples of 5.
+,<status>
+,0 Not active
+,1 Active
+"Max Response
+ime",15s
+,
+"eference
+GPP TS 27.007",Note
+,

@@ -1,0 +1,52 @@
+AT+CIPRXGET Get Data from Network Manually,
+"Test Command
+AT+CIPRXGET
+=?",Response
+,If single IP connection (+CIPMUX=0)
+,"+CIPRXGET: (list of supported <mode>s),(list of supported <reqlength>)"
+,
+,OK
+,If multi IP connection (+CIPMUX=1)
+,"+CIPRXGET: (list of supported <mode>s), (list of supported <id>s), (list"
+,of supported <reqlength>)
+,
+,OK
+,Parameters
+,See Write Command
+"Read Command
+AT+CIPRXGET
+?",Response
+,+CIPRXGET: <mode>
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command
+1) If single IP
+connection
+(+CIPMUX=0)
+AT+CIPRXGET
+=<mode>[,<reqle
+ngth >]
+2) If multi IP
+connection
+(+CIPMUX=1)
+AT+CIPRXGET
+=<mode>,<id>[,<
+reqlength >]",Response
+,OK
+,ERROR
+,1)For single IP connection
+,"If “AT+CIPSRIP=1” is set, IP address and port are contained."
+,if <mode>=1
+,"+CIPRXGET: 1[,<IP ADDRESS>:<PORT>]"
+,if <mode>=2
+,"+CIPRXGET: 2,<reqlength>,<cnflength>[,<IP ADDRESS>:<PORT>]"
+,1234567890…
+,OK
+,if <mode>=3
+,"+CIPRXGET: 3,<reqlength>,<cnflength>[,<IP ADDRESS>:<PORT>]"
+,5151…
+,OK
+,if <mode>=4
+,"+CIPRXGET: 4, <cnflength>"

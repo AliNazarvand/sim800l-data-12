@@ -1,0 +1,26 @@
+AT+CMMSCURL Set the URL of the mms center,
+"Test Command
+AT+CMMSCURL=","Response
++CMMSCURL: “URL”
+OK
+Parameter
+See Write Command"
+"Read Command
+AT+CMMSCURL?","Response
++CMMSCURL: <mmscurl>
+OK"
+,"Parameter
+See Write Command"
+"Write Command
+AT+CMMSCURL=
+mmscurl>","Response
+OK
+or
+ERROR
+or
++CME ERROR: <err>"
+,"Parameter
+<mmscurl> The URL of the mms center."
+"arameter Saving
+Mode",AT+CMMSSCONT
+Reference,Note

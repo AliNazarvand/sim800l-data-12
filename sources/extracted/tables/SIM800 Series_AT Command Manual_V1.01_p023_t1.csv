@@ -1,0 +1,16 @@
+,<value>>0
+,When TA returns to Command mode after call release
+,OK
+,
+,"Response in case of voice call, if successfully connected"
+,OK
+,
+,Response if no connection
+,NO CARRIER
+,
+"Max Response
+ime",20s(voice call)
+,Timeout set with ATS7 (data call)
+"eference
+V.25ter",Note
+,See also ATX

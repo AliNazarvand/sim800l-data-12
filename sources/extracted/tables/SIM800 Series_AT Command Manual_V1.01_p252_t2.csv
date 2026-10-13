@@ -1,0 +1,43 @@
+AT+POP3CMD Get Multi-line Response,
+"Test Command
+AT+POP3CMD=?",Response
+,"+POP3CMD: (range of supported <cmdType>s),(range of supporte"
+,"d<msgNumber>s),(range of supported <lineNumber>s)"
+,
+,OK
+,Parameter
+,See Write Command
+,
+"Write Command
+AT+POP3CMD=<c
+dType>[,<msgNum
+er>[,lineNumber]]",Response
+,OK
+,If error is related to ME functionality:
+,ERROR
+,If POP3 server issues a positive response:
+,+POP3CMD: 1
+,If POP3 server issues a negative response:
+,+POP3CMD: 0
+,If some error occur:
+,+POP3OUT: <code>
+,Parameter
+,<cmdType> The values that supported POP3 user command
+,1 List command
+,The “List” command returns a multi-line “scan listing”. For
+,each message on the maildrop list of the server the POP3
+,service returns a line containing the message number and its
+,size in bytes. A final “dotline” will be printed at the end of the
+,“scan listing“. If there are no messages on the maildrop list of
+,"the server, the POP3 service returns a positive response, i.e. It"
+,"does not issue an error response, but the “scan listing” will be"
+,"empty. In either case,each scan listing will be finished by"
+,"so-called “dotline”, i.e. a new line with just a single dot."
+,<msgNumber> and <lineNumber> must not be given.
+,2 Uidl command
+,The “Uidl” command returns a multi-line “unique-id
+,Listing”. For each message on the maildrop list of the
+,Server the POP3 service returns a line containing the
+,message number and its unique-id. A final “dotline”
+,will be printed at the end of the “unique-id listing” If
+,there are no messages on the maildrop list of the server. The

@@ -1,0 +1,40 @@
+AT+CGDCONT Define PDP Context,
+"Test Command
+AT+CGDCONT
+=?",Response
+,"+CGDCONT: (range of supported <cid>s),<PDP_type>,,,(list of"
+,"supported<d_comp>s),(list of supported<h_comp>s)"
+,[<CR><LF>+CGDCONT:
+,"(range of supported <cid>s), <PDP_type>,,,(list ofsupported"
+,"<d_comp>s),(list of supported <h_comp>s) [...]]"
+,
+,OK
+,Parameters
+,See Write Command
+"Read Command
+AT+CGDCONT
+?",Response
+,+CGDCONT:
+,"<cid>,<PDP_type>,<APN>,<PDP_addr>,<data_comp>,<head_comp>"
+,[<CR><LF>+CGDCONT:
+,"<cid>,<PDP_type>,<APN>,<PDP_addr>,<data_comp>,<head_comp>"
+,[…]]
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command
+AT+CGDCONT
+=<cid>[,<PDP_ty",Response
+,OK
+,ERROR
+"pe>[,APN>[,<PD
+P_addr>[,<d_co
+mp>[,<h_comp>]
+]]]",Parameters
+,<cid> (PDP Context Identifier) a numeric parameter which
+,specifies a particular PDP context definition. The parameter
+,is local to the TE-MT interface and is used in other PDP
+,context-related commands. The range of permitted values
+,(minimum value=1) is returned by the test form of the
+,command.

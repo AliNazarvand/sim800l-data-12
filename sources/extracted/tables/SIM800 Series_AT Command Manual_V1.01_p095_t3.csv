@@ -1,0 +1,5 @@
+AT+CPUC Price Per Unit and Currency Table,
+"Test Command
+AT+CPUC=?","Response
+OK"
+Read Command,Response

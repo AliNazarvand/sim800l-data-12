@@ -1,0 +1,25 @@
+,1 Bearer is connected
+,2 Bearer is closing
+,3 Bearer is closed
+,<ConParamTag> Bearer parameter
+,"""CONTYPE"" Type of Internet connection. Value refer to"
+,<ConParamValue_ConType>
+,"""APN"" Access point name string: maximum 64"
+,characters
+,"""USER"" User name string: maximum 32 characters"
+,"""PWD"" Password string: maximum 32 characters"
+,"""PHONENUM"" Phone number for CSD call"
+,"""RATE"" CSD connection rate. For value refer to"
+,<ConParamValue_Rate>
+,<ConParamValue> Bearer paramer value
+,<ConParamValue_ConType>
+,"""CSD"" Circuit-switched data call."
+,"""GPRS"" GPRS connection."
+,<ConParamValue_Rate>
+,0 2400
+,1 4800
+,2 9600
+,3 14400
+,<IP_Addr> The IP address of bearer
+eference,Note
+,"This command is applied to activate some applications such as HTTP, FTP."

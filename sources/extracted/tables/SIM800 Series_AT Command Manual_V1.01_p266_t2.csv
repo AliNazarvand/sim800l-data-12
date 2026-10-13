@@ -1,0 +1,28 @@
+AT+CMMSCC Add copy recipients,
+"Test Command
+AT+CMMSCC=?",Response
+,"+CMMSCC: ""ADDRESS"""
+,
+,OK
+"Read Command
+AT+CMMSCC?",Response
+,+CMMSCC: the list of <addr>s
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command
+AT+CMMSCC=<ad
+dr>",Response
+,OK
+,or
+,ERROR
+,or
+,+CME ERROR: <err>
+,Parameter
+,<addr> a string parameter which indicates phone number or email
+,address of copy recipients. The maximum length of the
+,string is 40.
+Reference,Note
+,The maximum of copy recipients is 20 and this command is valid only
+,when it is not allowed to edit MMS

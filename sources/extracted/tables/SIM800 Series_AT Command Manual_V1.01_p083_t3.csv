@@ -1,0 +1,10 @@
+AT+FMI FAX: Report Manufactured ID,
+"Test Command
+AT+FMI=?","Response
+OK"
+"Execution
+Command
+AT+FMI","Response
+TA reports one or more lines of information text which permit the user to
+identify the manufacturer.
+<manufacturer Id>"

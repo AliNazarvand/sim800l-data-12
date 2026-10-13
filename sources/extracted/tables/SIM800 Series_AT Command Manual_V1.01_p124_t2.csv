@@ -1,0 +1,30 @@
+AT+STKENVS STK Envelope Command,
+"Test Command
+AT+STKENVS=?",Response
+,"+STKENVS: <command_length>,<data_length>"
+,
+,OK
+,Parameter
+,See Write Command
+"Read Command
+AT+STKENVS?",Response
+,OK
+,Parameter
+,See Write Command
+"Write Command
+AT+STKENVS
+=<command>[,<d",Response
+,OK
+,ERROR
+ata>],Parameter
+,<command> HEX String --specified in GSM11.14[13.1]
+,- 'D3' = Menu Selection;
+,- 'D6' =Event download;
+,<data> Hex String
+,If command is ‘D3’ --specified in GSM11.14[8.2]
+,-Item identifier of main menu
+,If command is ‘D6’ --specified in GSM11.14[11]
+,-event list
+,- '04' = User activity
+,- '05' = Idle screen available
+,- '07' = Language selection

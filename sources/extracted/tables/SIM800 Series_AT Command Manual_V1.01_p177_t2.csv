@@ -1,0 +1,39 @@
+AT+CGCLASS GPRS Mobile Station Class,
+"Test Command
+AT+CGCLASS=
+?",Response
+,+CGCLASS: (list of supported <class>s)
+,
+,OK
+,
+,Parameter
+,See Write Command
+"Read Command
+AT+CGCLASS?",Response
+,+CGCLASS: <class>
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command
+AT+CGCLASS=
+<class>",Response
+,OK
+,ERROR
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameter
+,<class> A string parameter(string should be included in quotation
+,marks) which indicates the GPRS mobile class (in
+,descending order of functionality)
+,
+,"B Class-B mode of operation (A/Gb mode), (not"
+,applicable in Iu mode) MT would operate PS and CS
+,services but not simultaneously
+,CG Class C in GPRS only mode
+,CC Class C in circuit switched only mode (lowest)
+"Parameter Saving
+Mode",AUTO_SAVE
+,
+Reference,Note
+,"It only supports Class B, CG and CC."

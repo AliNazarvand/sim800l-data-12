@@ -1,0 +1,32 @@
+"Test Command
+AT+CEMNL=?",Response
+,"+CEMNL: (0-1),(1-11), (""0""-""999"")…"
+,
+,OK
+,Parameter
+,See Write Command
+"Read Command
+AT+CEMNL?",Response
+,"+CEMNL: <mode>[,<amount>,<emergency numbers>]"
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command
+AT+CEMNL=<
+mode>[,<amount",Response
+,OK
+,ERROR
+">,<emergency
+numbers>]",Parameter
+,<mode> 0 disable
+,1 enable
+,<amount> Amount of emergency number to be set. Up to 11 emergency
+,numbers supported
+,<emergency numbers>
+,Emergency numbers to be set by user which range is 0-999
+"Parameter Saving
+Mode",AUTO_SAVE
+,
+Reference,Note
+,

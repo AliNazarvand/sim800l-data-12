@@ -1,0 +1,27 @@
+AT+ECHO Echo Cancellation Control,
+"Test Command
+AT+ECHO=?",Response
+,"+ECHO: (0,1),(0-65535),(0-65535),(0-65535),(0-65535),(0,1)"
+,
+,OK
+,Parameters
+,See Write Command
+"Read Command
+AT+ECHO?",Response
+,"+ECHO: (<mic0>,<nlp0>, <aec0>,<nr0>, <ns0>),(<micn>,<nlpn>,"
+,"<aecn>,<nrn>, <nsn>)"
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command
+AT+ECHO=<mi
+c>,<nlp>,<aec>,<
+nr>,<ns>[,<state",Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+>],Parameters
+,< mic > audio channel
+,0 main audio handset channel
+,1 main audio handfree channel

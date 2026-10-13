@@ -1,0 +1,28 @@
+,See Write Command
+"ead Command
+T+IPR?",Response
+,+IPR: <rate>
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command
+T+IPR=<rate>",Response
+,This parameter setting determines the data rate of the TA on the serial
+,interface. The rate of Command takes effect following the issuance of any
+,result code associated with the current Command line.
+,OK
+,Parameter
+,<rate> Baud rate per second
+,0 (Auto-bauding)
+,1200
+,2400
+,4800
+,9600
+,19200
+,38400
+,57600
+,115200
+"eference
+.25ter",Note
+,Factory setting is AT+IPR=0（auto-bauding）.

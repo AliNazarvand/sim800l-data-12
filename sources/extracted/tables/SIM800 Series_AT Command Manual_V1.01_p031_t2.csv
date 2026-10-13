@@ -1,0 +1,17 @@
+ATQ Set Result Code Presentation Mode,
+"Execution
+Command
+ATQ<n>",Response
+,This parameter setting determines whether or not the TA transmits any result
+,code to the TE. Information text transmitted in response is not affected by
+,this setting.
+,If <n>=0:
+,OK
+,If <n>=1:
+,(none)
+,Parameter
+,<n> 0 TA transmits result code
+,1 Result codes are suppressed and not transmitted
+"Reference
+V.25ter",Note
+,

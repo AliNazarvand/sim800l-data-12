@@ -1,0 +1,11 @@
+AT+FTPREST Set Resume Broken Download,
+"Test Command
+AT+FTPREST=
+?","Response
+OK"
+"Read Command
+AT+FTPREST?","Response
++FTPREST: <value>
+OK"
+,"Parameter
+See Write Command"

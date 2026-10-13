@@ -1,0 +1,11 @@
+AT+GSN Request TA Serial Number Identification(IMEI),
+"Test Command
+AT+GSN=?","Response
+OK"
+"Execution
+Command
+AT+GSN","Response
+TA reports the IMEI (international mobile equipment identifier) number in
+information text which permit the user to identify the individual ME device.
+<sn>
+OK"

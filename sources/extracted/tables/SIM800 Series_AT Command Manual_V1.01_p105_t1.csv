@@ -1,0 +1,44 @@
+,of Annex A
+,"- if TE character set is ""HEX"": ME/TA converts each 7-bit"
+,character of GSM alphabet into two IRA character long
+,hexadecimal number (e.g. character P (GSM 23) is presented as
+,17 (IRA 49 and 55))
+,- if <dcs> indicates that 8-bit or UCS2 data coding scheme is
+,"used, or <fo> indicates that GSM 03.40"
+,TP-User-Data-Header-Indication is set: ME/TA converts each
+,8-bit octet into two IRA character long hexadecimal number
+,(e.g. octet with integer value 42 is presented to TE as two
+,characters 2A (IRA 50 and 65)) In the case of CBS: GSM 03.41
+,CBM Content of Message in text mode responses; format:
+,- if <dcs> indicates that GSM 03.38 default alphabet is used:
+,"- if TE character set other than ""HEX"" (refer Command +CSCS"
+,in 3GPP TS 27.007): ME/TA converts GSM alphabet into
+,current TE character set according to rules of Annex A
+,"- if TE character set is ""HEX"": ME/TA converts each 7-bit"
+,character of GSM alphabet into two IRA character long
+,hexadecimal number
+,- if <dcs> indicates that 8-bit or UCS2 data coding scheme is
+,used: ME/TA converts each 8-bit octet into two IRA character
+,long hexadecimal number
+,<length> Integer type value indicating in the text mode (+CMGF=1)
+,the length of the message body <data> (or <cdata>) in characters; or in
+,"PDU mode (+CMGF=0), the length of the actual TP data unit in octets (i.e."
+,the RP layer SMSC address octets are not counted in the length)
+,<index> Integer type; value in the range of location numbers supported
+,by the associated memory
+,<oa> GSM 03.40 TP-Originating-Address Address-Value field in
+,string format; BCD numbers (or GSM default alphabet characters) are
+,converted to characters of the currently selected TE character set (refer
+,Command +CSCS in 3GPP TS 27.007); type of address given by <tooa>
+,<pdu> In the case of SMS: GSM 04.11 SC address followed by
+,GSM 03.40 TPDU in hexadecimal format: ME/TA converts each octet of
+,TP data unit into two IRA character long hexadecimal number (e.g. octet
+,with integer value 42 is presented to TE as two characters 2A (IRA 50 and
+,65)). In the case of CBS: GSM 03.41 TPDU in hexadecimal format.
+,<scts> GSM 03.40 TP-Service-Center-Time-Stamp in time-string
+,format (refer <dt>)
+,<toda> GSM 04.11 TP-Destination-Address Type-of-Address octet
+,"in integer format (when first character of <da> is + (IRA 43) default is 145,"
+,otherwise default is 129)
+,<tooa> GSM 04.11 TP-Originating-Address Type-of-Address octet in
+,integer format (default refer<toda>)

@@ -1,0 +1,44 @@
+,"+CPBW: (list of supported <index>s), <nlength>, (list of supported"
+,"<type>s), <tlength>"
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command
+AT+CPBW=<inde
+x>[,<number>,[<t
+ype>,[<text>]]]",Response
+,TA writes phone book entry in location number <index> in the current
+,phone book memory storage selected with +CPBS. Entry fields written are
+,phone number <number> (in the format <type>) and text <text> associated
+,"with the number. If those fields are omitted, phone book entry is deleted. If"
+,"<index> is left out, but <number> is given, entry is written to the first free"
+,location in the phone book.
+,OK
+,Parameters
+,<nlength> Max length of phone number
+,<tlength> Max length of text for number
+,<index> Location number
+,<number> Phone number
+,<type> Type of number;
+,129 National number type
+,145 International number type
+,<text> String type (string should be included in quotation marks): text
+,for phone number in current TE character set specified by +CSCS.
+,Note: The following characters in <text> must be entered via the
+,escape sequence:
+,GSM char. Seq. Seq.(hex) Note
+,\ \5C 5C 35 43 (backslash)
+,""" \22 5C 32 32 (string delimiter)"
+,BSP \08 5C 30 38 (backspace)
+,NULL \00 5C 30 30 (GSM null)
+,‘0’ (GSM null) may cause problems for application layer software
+,when reading string lengths.
+"Max Response
+Time",3 seconds
+,
+"Reference
+3GPP TS 27.007
+13]",Note
+,
+,

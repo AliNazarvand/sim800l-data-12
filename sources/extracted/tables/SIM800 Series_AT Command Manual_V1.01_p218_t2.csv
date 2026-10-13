@@ -1,0 +1,34 @@
+AT+HTTPSCONT Save HTTP Application Context,
+"Read Command
+AT+HTTPSCON
+T?","Response
+TA returns HTTP Application Context, which consists of the following
+AT Command parameters.
++HTTPSCONT:<mode>
+CID:<value>
+URL: <value>
+UA: <value>
+PROIP: <value>
+PROPORT: <value>
+REDIR: <value>
+BREAK: <value>
+BREAKEND: <value>
+OK"
+,"Parameters
+<mode> 0 Saved, the value from NVRAM
+1 Unsaved, the value from RAM
+For other parameters, see the related command."
+"Execution
+Command
+AT+HTTPSCON
+T","Response
+TA saves HTTP Application Context which consists of following AT
+Command parameters, and when system is rebooted, the parameters will
+be loaded automatically.
+OK
+If error is related to ME functionality:
++CME ERROR: <err>"
+,Parameter
+"Parameter Saving
+Mode",AUTO_SAVE
+Reference,Note

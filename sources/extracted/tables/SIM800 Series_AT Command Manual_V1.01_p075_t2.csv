@@ -1,0 +1,5 @@
+AT+CPIN Enter PIN,
+"Test Command
+AT+CPIN=?",Response
+,OK
+Read Command,Response

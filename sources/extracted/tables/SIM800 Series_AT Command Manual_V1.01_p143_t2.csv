@@ -1,0 +1,36 @@
+AT+CHF Configure Hands Free Operation,
+"Test Command
+AT+CHF=?",Response
+,"+CHF: (list of supported <ind>s),(list of supported <state>s)"
+,
+,OK
+,Parameters
+,See Write Command
+"Read Command
+AT+CHF?",Response
+,"+CHF: <ind>,<state>"
+,
+,OK
+,Parameters
+,See Write Command
+"Write Command
+AT+CHF=<ind>
+[,<state>]",Response
+,OK
+,ERROR
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Unsolicited Result Code
+,+CHF: <state>
+,Parameters
+,<ind> 0 Unsolicited result code disabled
+,1 Unsolicited result code enabled
+,(non-volatile)
+,<state> 0 Main audio channel
+,1 Aux audio channel
+,(volatile)
+"Parameter Saving
+Mode",AT&W_SAVE
+,
+Reference,Note
+,This command is related to the actual module.

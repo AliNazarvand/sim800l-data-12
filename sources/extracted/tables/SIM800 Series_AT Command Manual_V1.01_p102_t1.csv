@@ -1,0 +1,26 @@
+,ERROR
+,If error is related to ME functionality:
+,+CMS ERROR:<err>
+,Parameters
+,<index> Integer type; value in the range of location numbers supported by
+,the associated memory
+,<delflag> 0 Delete the message specified in <index>
+,"1 Delete all read messages from preferred message storage,"
+,leaving unread messages and stored mobile originated
+,messages (whether sent or not) untouched
+,2 Delete all read messages from preferred message storage
+,"and sent mobile originated messages, leaving unread"
+,messages and unsent mobile originated messages
+,untouched
+,"3 Delete all read messages from preferred message storage,"
+,sent and unsent mobile originated messages leaving
+,unread messages untouched
+,4 Delete all messages from preferred message storage
+,including unread messages
+"Max Response
+Time",5s（delete 1 message）
+,25s（delete 50 messages）
+,25s（delete 150 messages）
+"Reference
+3GPP TS 27.005",Note
+,

@@ -1,0 +1,17 @@
+,Parameter
+,"<value> 0 CONNECT result code only returned, dial tone and busy"
+,detection are both disabled.
+,"1 CONNECT<text> result code only returned, dial tone and"
+,busy detection are both disabled.
+,"2 CONNECT<text> result code returned, dial tone"
+,"detection is enabled, busy detection is disabled."
+,"3 CONNECT<text> result code returned, dial tone"
+,"detection is disabled, busy detection is enabled."
+,"4 CONNECT<text> result code returned, dial tone and"
+,busy detection are both enabled.
+"Parameter Saving
+Mode",AT&W_SAVE
+,
+"Reference
+V.25ter",Note
+,

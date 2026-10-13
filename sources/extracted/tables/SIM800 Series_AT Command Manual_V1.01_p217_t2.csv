@@ -1,0 +1,45 @@
+AT+HTTPREAD Read the HTTP Server Response,
+"Test Command
+AT+HTTPREA
+D=?",Response
+,"+HTTPREAD: (list of supported <start_address>s),(list of supported<"
+,byte_size>s)
+,
+,OK
+,
+,Parameters
+,See Write Command
+"Write Command
+AT+HTTPREA
+D=<start_addres
+>,<byte_size>",Response
+,+HTTPREAD: <date_len>
+,<data>
+,
+,OK
+,
+,Read data when AT+HTTPACTION=0 or AT+HTTPDATA is executed.
+,
+,"If<byte_size> is bigger than the data size received, module will only return"
+,actual data size.
+,
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,<data> Data from HTTP server or user input.
+,<start_address> The starting point for data output.
+,0-319488 (bytes)
+,<byte_size> The length for data output.
+,1-319488 (bytes)
+,<data_len> The actual length for data output.
+"Execution
+Command
+AT+HTTPREA
+D",Response
+,+HTTPREAD:<date_len>
+,<data>
+,
+,OK
+,
+,Read all data when AT+HTTPACTION=0 or AT+HTTPDATA is executed.
+,

@@ -1,0 +1,21 @@
+ATS0 Set Number of Rings before Automatically Answering the Call,
+"Read Command
+ATS0?",Response
+,<n>
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command
+ATS0=<n>",Response
+,This parameter setting determines the number of rings before auto-answer.
+,OK
+,
+,ERROR
+,Parameter
+,<n> 0 Automatic answering is disable.
+,1-255 Number of rings the modem will wait for before answering
+,the phone if a ring is detected.
+"Parameter Saving
+Mode",AT&W_SAVE
+,

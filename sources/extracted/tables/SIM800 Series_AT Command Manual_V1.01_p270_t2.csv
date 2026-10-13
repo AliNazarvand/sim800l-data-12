@@ -1,0 +1,36 @@
+T+CMMSVIEW Get the MMS into buffer and show the information,
+"est Command
+T+CMMSVIEW=",Response
+,
+,OK
+"xecution Command
+T+CMMSVIEW",Response
+,"+CMMSVIEW: <mmstype>,""<sender>"", ""<receipts>"", ""<ccs>"","
+,"""<bccs>"", ""<datetime>"",""<subject>"",<size><CR><LF>list of"
+,"<fileIndex, name, type, filesize><CR><LF>"
+,
+,OK
+,or
+,ERROR
+,or
+,+CME ERROR: <err>
+,Parameters
+,<mmstype> The type of MMS
+,0 Received mms
+,1 Sent mms
+,2 Unsent mms
+,<sender> The address of th sender
+,"<receipts> List of recipients, Separated by “;”"
+,"<ccs> List of copy recipients , Separated by “;”"
+,"<bccs> List of secret recipients , Separated by “;”"
+,<datetime> The time of receive MMS
+,<subject> The title of MMS
+,<size> Data size of MMS
+,"<fileIndex,name,type,filesize> The index, name and size of every file"
+,included in the MMS. The types are defined as following.
+,2 text
+,3 text/html
+,4 text/plain
+,5 image
+,6 image/gif
+,7 image/jpg

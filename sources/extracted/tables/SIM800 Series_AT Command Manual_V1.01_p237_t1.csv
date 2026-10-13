@@ -1,0 +1,13 @@
+,408 Request Time-out
+,601 Network Error
+,602 No memory
+,603 DNS Error
+,604 Stack Busy
+,65535 Other Error
+,<longitude> Current longitude in degrees
+,<latitude> Current latitude in degrees
+,"<date> Format is YYYY/MM/DD, the time zone is GMT E.g."
+,2011/01/26
+,"<time> Format is hh/mm/ss,the time zone is GMT.E.g. 06:10:46"
+Reference,Note
+,

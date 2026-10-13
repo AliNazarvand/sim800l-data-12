@@ -1,0 +1,23 @@
+,OK
+,"Parameters
+See Write Command"
+"Write Command
+AT+CSTT=<apn
+>,<user","Response
+OK
+ERROR"
+"name>,<passwor
+d>","Parameters
+<apn> A string parameter which indicates the GPRS access point
+name
+<user name> A string parameter which indicates the GPRS user name
+<password> A string parameter which indicates the GPRS password"
+"Execution
+Command
+AT+CSTT","Response
+OK
+ERROR"
+Reference,"Note
+The write command and execution command of this command is valid only
+at the state of IP INITIAL. After this command is executed, the state will be
+changed to IP START."

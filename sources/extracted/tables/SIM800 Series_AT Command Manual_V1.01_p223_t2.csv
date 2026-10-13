@@ -1,0 +1,21 @@
+AT+FTPCID Set FTP Bearer Profile Identifier,
+"Test Command
+AT+FTPCID=?","Response
+OK"
+,"Parameter
+See Write Command"
+"Read Command
+AT+FTPCID?","Response
++FTPCID: <value>
+OK"
+,"Parameter
+See Write Command"
+"Write Command
+AT+FTPCID=<v
+alue>","Response
+OK
+If error is related to ME functionality:
++CME ERROR: <err>"
+,"Parameter
+<value> Bearer profile identifier refer to AT+SAPBR"
+Reference,Note

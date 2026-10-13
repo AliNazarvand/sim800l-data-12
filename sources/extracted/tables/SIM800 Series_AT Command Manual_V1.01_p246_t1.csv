@@ -1,0 +1,21 @@
+"Execution Command
+AT+SMTPSEND",Response
+,OK
+,If error is related to ME functionality:
+,ERROR
+,"If send successfully or not, return:"
+,+SMTPSEND: <code>
+,Parameter
+,<code> The result of sending Email.
+,1 The Email has been sent successfully.
+,61 Network error.
+,62 DNS resolve error
+,63 SMTP TCP connection error.
+,64 Timeout of SMTP server response
+,65 SMTP server response error
+,66 Not authentication
+,67 Authentication failed. SMTP user name or password may
+,be not right.
+,68 Bad recipient.
+Reference,Note
+,

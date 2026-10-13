@@ -1,0 +1,16 @@
+AT+CMMSINIT Initialize MMS Function,
+"Test Command
+AT+CMMSINIT=?","Response
+OK"
+,"Parameter
+No Parameter"
+"Execution Command
+AT+CMMSINIT","Response
+OK
+or
+ERROR
+or
++CME ERROR: <err>"
+,No Parameter
+Reference,"Note
+When first entering the MMS function, this command must be executed."

@@ -1,0 +1,10 @@
+AT+FTPSIZE Get the Size of Specified File in FTP Server,
+"Test Command
+AT+FTSIZE=?","Response
+OK"
+,Parameter
+"Execution
+Command
+AT+FTPSIZE","Response
+If successed:
+OK"

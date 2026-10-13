@@ -1,0 +1,30 @@
+ATD Mobile Originated Call to Dial A Number,
+"xecution
+ommand
+ATD<n>[<mgsm
+[;]",Response
+,"This Command can be used to set up outgoing voice, data or fax calls. It"
+,also serves to control supplementary services.
+,Note: This Command may be aborted generally by receiving an ATH
+,Command or a character during execution. The aborting is not possible
+,during some states of connection establishment such as handshaking.
+,
+,If error is related to ME functionality
+,+CME ERROR: <err>
+,
+,If no dial tone and (parameter setting ATX2 or ATX4)
+,NO DIALTONE
+,
+,If busy and (parameter setting ATX3 or ATX4)
+,BUSY
+,
+,If a connection cannot be established
+,NO CARRIER
+,
+,If the remote station does not answer
+,NO ANSWER
+,
+,If connection successful and non-voice call.
+,CONNECT<text> TA switches to data mode.
+,Note: <text> output only if ATX<value> parameter setting with the
+,<value> >0

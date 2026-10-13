@@ -1,373 +1,252 @@
+# Auto-extracted SIM management commands. Records: 10
+records:
 - id: dat_13_0001
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: '2013-09-15'
-    page: '5'
-    section: 3.2.28 Enter PIN ..................................................................................................75
-    quote: 3.2.28 AT+CPIN  Enter PIN ..................................................................................................75
+    date: unknown
+    page: ""
+    section: ""
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.9
+  status: partial
   conflicts: []
-  notes: ''
+  notes: ""
   tags: []
   applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
-  command: AT+CPIN
-  syntax: AT+CPIN
-  parameters:
-  - name: code
-    type: string
-    description: ''
-  - name: err
-    type: string
-    description: ''
-  - name: pin
-    type: string
-    description: ''
+    - SIM800L
+  created_at: "2026-10-13T17:40:59Z"
+  updated_at: "2026-10-13T17:40:59Z"
+  command: +CCID
+  syntax: +CCID
+  parameters: []
   response: OK
   examples: []
-  coverage_estimate: high
+  related_urcs: []
+  hardware_pins: []
 - id: dat_13_0002
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: '2013-09-15'
-    page: '5'
-    section: 3.2.17 Facility Lock ...........................................................................................63
-    quote: 3.2.17 AT+CLCK  Facility Lock ...........................................................................................63
+    date: unknown
+    page: ""
+    section: ""
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.9
+  status: partial
   conflicts: []
-  notes: ''
+  notes: ""
   tags: []
   applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
-  command: AT+CLCK
-  syntax: AT+CLCK
-  parameters:
-  - name: fac
-    type: string
-    description: ''
-  - name: mode
-    type: integer
-    description: ''
-  - name: status
-    type: string
-    description: ''
-  - name: class
-    type: string
-    description: ''
-  - name: class1
-    type: string
-    description: ''
-  - name: CR
-    type: string
-    description: ''
-  - name: LF
-    type: string
-    description: ''
-  - name: class2
-    type: string
-    description: ''
-  - name: err
-    type: string
-    description: ''
-  - name: passwd
-    type: string
-    description: ''
+    - SIM800L
+  created_at: "2026-10-13T17:40:59Z"
+  updated_at: "2026-10-13T17:40:59Z"
+  command: +CIMI
+  syntax: +CIMI
+  parameters: []
   response: OK
   examples: []
-  coverage_estimate: high
+  related_urcs: []
+  hardware_pins: []
 - id: dat_13_0003
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: '2013-09-15'
-    page: '5'
-    section: 3.2.29 Change Password ...................................................................................76
-    quote: 3.2.29 AT+CPWD  Change Password ...................................................................................76
+    date: unknown
+    page: ""
+    section: ""
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.9
+  status: partial
   conflicts: []
-  notes: ''
+  notes: ""
   tags: []
   applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
-  command: AT+CPWD
-  syntax: AT+CPWD
-  parameters:
-  - name: fac
-    type: string
-    description: ''
-  - name: pwdlength
-    type: string
-    description: ''
-  - name: oldpwd
-    type: string
-    description: ''
-  - name: newpwd
-    type: string
-    description: ''
+    - SIM800L
+  created_at: "2026-10-13T17:40:59Z"
+  updated_at: "2026-10-13T17:40:59Z"
+  command: +CLCK
+  syntax: +CLCK
+  parameters: []
   response: OK
   examples: []
-  coverage_estimate: high
+  related_urcs: []
+  hardware_pins: []
 - id: dat_13_0004
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: '2013-09-15'
-    page: '5'
-    section: 3.2.48 Generic SIM Access ................................................................................91
-    quote: 3.2.48 AT+CSIM  Generic SIM Access ................................................................................91
+    date: unknown
+    page: ""
+    section: ""
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.9
+  status: partial
   conflicts: []
-  notes: ''
+  notes: ""
   tags: []
   applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
-  command: AT+CSIM
-  syntax: AT+CSIM
-  parameters:
-  - name: Command
-    type: string
-    description: ''
-  - name: length
-    type: string
-    description: ''
-  - name: response
-    type: string
-    description: ''
-  - name: err
-    type: string
-    description: ''
+    - SIM800L
+  created_at: "2026-10-13T17:40:59Z"
+  updated_at: "2026-10-13T17:40:59Z"
+  command: +CPIN
+  syntax: +CPIN
+  parameters: []
   response: OK
   examples: []
-  coverage_estimate: high
+  related_urcs: []
+  hardware_pins: []
 - id: dat_13_0005
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: '2013-09-15'
-    page: '5'
-    section: 3.2.34 Restricted SIM Access ...........................................................................81
-    quote: 3.2.34 AT+CRSM  Restricted SIM Access ...........................................................................81
+    date: unknown
+    page: ""
+    section: ""
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.9
+  status: partial
   conflicts: []
-  notes: ''
+  notes: ""
   tags: []
   applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
-  command: AT+CRSM
-  syntax: AT+CRSM
-  parameters:
-  - name: sw1
-    type: string
-    description: ''
-  - name: sw2
-    type: string
-    description: ''
-  - name: response
-    type: string
-    description: ''
-  - name: err
-    type: string
-    description: ''
-  - name: P1
-    type: string
-    description: ''
-  - name: P2
-    type: string
-    description: ''
-  - name: data
-    type: string
-    description: ''
-  - name: Command
-    type: string
-    description: ''
-  - name: fileId
-    type: string
-    description: ''
-  - name: P3
-    type: string
-    description: ''
+    - SIM800L
+  created_at: "2026-10-13T17:40:59Z"
+  updated_at: "2026-10-13T17:40:59Z"
+  command: +CPWD
+  syntax: +CPWD
+  parameters: []
   response: OK
   examples: []
-  coverage_estimate: high
+  related_urcs: []
+  hardware_pins: []
 - id: dat_13_0006
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: '2013-09-15'
-    page: '5'
-    section: 3.2.15 Request Internat ional Mobile Subscriber Identity....................................61
-    quote: 3.2.15 AT+CIMI  Request Internat ional Mobile Subscriber Identity....................................61
+    date: unknown
+    page: ""
+    section: ""
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.9
+  status: partial
   conflicts: []
-  notes: ''
+  notes: ""
   tags: []
   applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
-  command: AT+CIMI
-  syntax: AT+CIMI
-  parameters:
-  - name: IMSI
-    type: string
-    description: ''
-  - name: err
-    type: string
-    description: ''
+    - SIM800L
+  created_at: "2026-10-13T17:40:59Z"
+  updated_at: "2026-10-13T17:40:59Z"
+  command: +CRSM
+  syntax: +CRSM
+  parameters: []
   response: OK
   examples: []
-  coverage_estimate: high
+  related_urcs: []
+  hardware_pins: []
 - id: dat_13_0007
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: '2013-09-15'
-    page: '7'
-    section: 6.2.23 Show ICCID ..........................................................................................147
-    quote: 6.2.23 AT+CCID  Show ICCID ..........................................................................................147
+    date: unknown
+    page: ""
+    section: ""
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.9
+  status: partial
   conflicts: []
-  notes: ''
+  notes: ""
   tags: []
   applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:21:54Z'
-  command: AT+CCID
-  syntax: AT+CCID
+    - SIM800L
+  created_at: "2026-10-13T17:40:59Z"
+  updated_at: "2026-10-13T17:40:59Z"
+  command: +CSIM
+  syntax: +CSIM
   parameters: []
   response: OK
   examples: []
-  coverage_estimate: high
+  related_urcs: []
+  hardware_pins: []
 - id: dat_13_0008
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: '2013-09-15'
-    page: '8'
-    section: 6.2.54 SIM In serted Status Reporting.........................................................167
-    quote: 6.2.54 AT+CSMINS  SIM In serted Status Reporting.........................................................167
+    date: unknown
+    page: ""
+    section: ""
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.9
+  status: partial
   conflicts: []
-  notes: ''
+  notes: ""
   tags: []
   applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
-  command: AT+CSMINS
-  syntax: AT+CSMINS
-  parameters:
-  - name: n
-    type: string
-    description: ''
-  - name: err
-    type: string
-    description: ''
+    - SIM800L
+  created_at: "2026-10-13T17:40:59Z"
+  updated_at: "2026-10-13T17:40:59Z"
+  command: +CSMINS
+  syntax: +CSMINS
+  parameters: []
   response: OK
   examples: []
-  coverage_estimate: high
+  related_urcs: []
+  hardware_pins: []
 - id: dat_13_0009
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: '2013-09-15'
-    page: '7'
-    section: 6.2.15 Get Service Provider Name from SIM ..................................................141
-    quote: 6.2.15 AT+CSPN  Get Service Provider Name from SIM ..................................................141
+    date: unknown
+    page: ""
+    section: ""
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.9
+  status: partial
   conflicts: []
-  notes: ''
+  notes: ""
   tags: []
   applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
-  command: AT+CSPN
-  syntax: AT+CSPN
-  parameters:
-  - name: spn
-    type: string
-    description: ''
-  - name: err
-    type: string
-    description: ''
+    - SIM800L
+  created_at: "2026-10-13T17:40:59Z"
+  updated_at: "2026-10-13T17:40:59Z"
+  command: +CSPN
+  syntax: +CSPN
+  parameters: []
   response: OK
   examples: []
-  coverage_estimate: high
+  related_urcs: []
+  hardware_pins: []
 - id: dat_13_0010
   category: SIM
   source:
     name: SIM800 Series AT Command Manual
     version: V1.01
-    date: '2013-09-15'
-    page: '5'
-    section: 3.2.57 Unstructured Supplementary Service Data .............................................98
-    quote: 3.2.57 AT+CUSD  Unstructured Supplementary Service Data .............................................98
+    date: unknown
+    page: ""
+    section: ""
   source_type: primary
-  confidence: 0.85
-  status: complete
+  confidence: 0.9
+  status: partial
   conflicts: []
-  notes: ''
+  notes: ""
   tags: []
   applicable_models:
-  - SIM800L
-  created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:44:29Z'
-  command: AT+CUSD
-  syntax: AT+CUSD
-  parameters:
-  - name: n
-    type: string
-    description: ''
-  - name: err
-    type: string
-    description: ''
-  - name: str
-    type: string
-    description: ''
-  - name: dcs
-    type: string
-    description: ''
+    - SIM800L
+  created_at: "2026-10-13T17:40:59Z"
+  updated_at: "2026-10-13T17:40:59Z"
+  command: +CUSD
+  syntax: +CUSD
+  parameters: []
   response: OK
   examples: []
-  coverage_estimate: high
+  related_urcs: []
+  hardware_pins: []

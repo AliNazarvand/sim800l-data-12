@@ -1,0 +1,10 @@
+AT+CIMI Request International Mobile Subscriber Identity,
+"Test Command
+AT+CIMI=?","Response
+OK"
+"Execution
+Command
+AT+CIMI","Response
+TA returns <IMSI>for identifying the individual SIM which is attached to
+ME.
+<IMSI>"

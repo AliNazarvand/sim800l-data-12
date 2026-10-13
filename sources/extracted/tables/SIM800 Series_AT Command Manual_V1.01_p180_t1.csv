@@ -1,0 +1,24 @@
+,
+,OK
+,Parameter
+,See Write Command
+"Write Command
+AT+CGSMS=<se
+vice>",Response
+,OK
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameter
+,<service> A numeric parameter which indicates the service or service
+,preference to be used
+,0 Packet Domain
+,1 Circuit switched
+,2 Packet Domain preferred (use circuit switched if
+,GPRS not available)
+,3 Circuit switched preferred (use Packet Domain if circuit
+,switched not available)
+"arameter Saving
+Mode",AUTO_SAVE
+,
+eference,Note
+,

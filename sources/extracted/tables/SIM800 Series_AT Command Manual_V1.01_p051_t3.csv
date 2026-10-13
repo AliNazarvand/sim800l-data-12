@@ -1,0 +1,31 @@
+AT+CBST Select Bearer Service Type,,,
+"Test Command
+AT+CBST=?",,Response,
+,,"+CBST: (list of supported <speed>s),(list of supported <name>s),(list of",
+,,supported <ce>s),
+,,,
+,,OK,
+,,Parameters,
+,,See Write Command,
+"Read Command
+AT+CBST?",,Response,
+,,"+CBST: <speed>,<name>,<ce>",
+,,,
+,,OK,
+,,Parameters,
+,,See Write Command,
+"Write Command
+AT+CBST=<spee
+d>[,<name>[,<ce
+>]]",,Response,
+,,"TA selects the bearer service <name> with data rate <speed>, and the",
+,,connection element <ce> to be used when data calls are originated.,
+,,OK,
+,,ERROR,
+,,Parameters,
+,,<speed> 0 Auto-bauding (automatic selection of the speed; this,
+,,setting is possible in case of 3.1kHz modern and non-transparent service),
+,,4 2400 bps (V.22bis),
+,,5 2400 bps (V.26ter),
+,,6 4800 bps (V.32),
+,,7 9600 bps (V.32),

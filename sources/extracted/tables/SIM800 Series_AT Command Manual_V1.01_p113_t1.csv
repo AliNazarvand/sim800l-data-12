@@ -1,0 +1,47 @@
+"rite Command
+T+CNMI=<mo
+e>[,<mt>[,<bm
+[,<ds>[,<bfr>]]]",Response
+,TA selects the procedure for how the receiving of new messages from the
+,"network is indicated to the TE when TE is active, e.g. DTR signal is ON. If"
+,"TE is inactive (e.g. DTR signal is OFF), message receiving should be done"
+,as specified in GSM 03.38.
+,
+,OK
+,ERROR
+,Parameters
+,<mode> 0 Buffer unsolicited result codes in the TA. If TA result
+,"code buffer is full, indications can be buffered in some other place or the"
+,oldest indications may be discarded and replaced with the new received
+,indications.
+,1 Discard indication and reject new received message
+,unsolicited result codes when TA-TE link is reserved (e.g. in on-line data
+,mode). Otherwise forward them directly to the TE.
+,2 Buffer unsolicited result codes in the TA when TA-TE
+,link is reserved (e.g. in on-line data mode) and flush them to the TE after
+,reservation. Otherwise forward them directly to the TE.
+,3 Forward unsolicited result codes directly to the TE.
+,TA-TE link specific inband technique used to embed result codes and data
+,when TA is in on-line data mode.
+,<mt> (the rules for storing received SMs depend on its data coding
+,"scheme (refer GSM 03.38 [2]), preferred memory storage (+CPMS) setting"
+,and this value):
+,0 No SMS-DELIVER indications are routed to the TE.
+,"1 If SMS-DELIVER is stored into ME/TA, indication of"
+,the memory location is routed to the TE using unsolicited result code:
+,"+CMTI: <mem>,<index>"
+,2 SMS-DELIVERs (except class 2) are routed directly to
+,the TE using unsolicited result code: +CMT:
+,"[<alpha>],<length><CR><LF><pdu> (PDU mode enabled) or +CMT:"
+,"<oa>, [<alpha>],<scts>"
+,"[,<tooa>,<fo>,<pid>,<dcs>,<sca>,<tosca>,<length>]<CR><LF><data>"
+,"(text mode enabled; about parameters in italics, refer Command Show Text"
+,Mode Parameters +CSDH). Class 2 messages result in indication as defined
+,in <mt>=1.
+,3 Class 3 SMS-DELIVERs are routed directly to TE
+,using unsolicited result codes defined in <mt>=2. Messages
+,of other classes result in indication as defined in <mt>=1.
+,<bm> (the rules for storing received CBMs depend on its data
+,"coding scheme (refer GSM 03.38 [2]), the setting of Select CBM Types"
+,(+CSCB) and this value):
+,0 No CBM indications are routed to the TE.

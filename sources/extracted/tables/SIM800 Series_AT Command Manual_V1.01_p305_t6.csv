@@ -1,0 +1,8 @@
+,Demonstration,,,Syntax,,,Expect Result,
+Ping Request,Ping Request,,,AT+CGATT?,,,+CGATT: 1,
+,,,,,,,,
+,,,,,,,OK,
+,,,,AT+CSTT=”CMNET”,,,OK,
+,,,,,,,,
+,,,,AT+CIICR,,,OK,
+,,,,,,,,

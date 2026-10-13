@@ -1,0 +1,10 @@
+,<state> Indicates the state of GPRS attachment
+,0 Detached
+,1 Attached
+,Other values are reserved and will result in an ERROR response to the
+,Write Command.
+"Max Response
+Time",10 seconds
+,
+Reference,Note
+,

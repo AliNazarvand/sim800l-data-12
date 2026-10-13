@@ -1,0 +1,13 @@
+"Test Command
+AT+GMR=?","Response
+OK"
+"Execution
+Command
+AT+GMR","TA reports one or more lines of information text which permit the user to
+identify the revision of software release.
+Revision: <revision>
+OK"
+,"Parameter
+<revision> Revision of software release"
+"Reference
+V.25ter",Note

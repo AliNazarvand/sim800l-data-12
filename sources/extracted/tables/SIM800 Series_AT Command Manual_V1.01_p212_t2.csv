@@ -1,0 +1,13 @@
+AT+HTTPINIT Initialize HTTP Service,
+"Test Command
+AT+HTTPINIT=
+?","Response
+OK"
+"Execution
+Command
+AT+HTTPINIT","Response
+OK
+If error is related to ME functionality:
++CME ERROR: <err>"
+Reference,"Note
+HTTPINIT should first be executed to initialize the HTTP service."

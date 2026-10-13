@@ -1,0 +1,46 @@
+,If error is related to ME functionality:
+,+CME ERROR: <err>
+,Parameters
+,See Write Command
+"Write Command
+AT+CPBF=[<find
+ext>]",Response
+,TA returns phone book entries (from the current phone book memory
+,storage selected with +CPBS) which contains alphanumeric string
+,<findtext>.
+,
+,"[+CPBF:<index1>,<number>,<type>,<text>]"
+,"[[…]<CR><LF>+CBPF:<index2>,<number>,<type>,<text>]"
+,
+,OK
+,Parameters
+,<findtext> String type(string should be included in quotation marks)
+,field of maximum length <tlength> in current TE character set specified by
+,+CSCS.
+,<index1> Integer type values in the range of location numbers of
+,phone book memory
+,<index2> Integer type values in the range of location numbers of phone
+,book memory
+,<number> String type (string should be included in quotation marks)
+,phone number of format <type>
+,<type> Type of address octet in integer format ;
+,129 Unknown type
+,145 International number type
+,<text> String type (string should be included in quotation marks) field
+,of maximum length <tlength> in current TE character set specified by
+,+CSCS.
+,<nlength> Integer type value indicating the maximum length of field
+,<number>
+,<tlength> Integer type value indicating the maximum length of field
+,<text>
+"Max Response
+ime",30 seconds (complete reading of a 250 records full phonebook)
+,3 seconds(string present in a 250 records full phonebook)
+,1 second(string not present)
+,"We use the China Mobile sim cards for testing, which produced by Axalto"
+,at 2010 for Shanghai. Use other sim cards may have different results.
+"eference
+GPP TS 27.007
+13]",Note
+,
+,
