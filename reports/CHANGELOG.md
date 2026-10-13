@@ -1,8 +1,8 @@
-# Changelog — sim800l-data
+# Changelog -- sim800l-data
 
- ## [2026-10-13T17:42:06Z]
+## [2026-10-13T17:47:17Z]
 
- ### Changed
- - Regenerated COVERAGE_MATRIX, GAP_REPORT, README from ACTUAL data.
- - validate.py exit=1, cross_ref.py exit=1
- - Complete=2 Partial=4 Blocked=12 Deferred=0
+### Changed
+- Ran cluster-based pipeline (A: hardware, B: AT, C: external).
+- validate.py exit=0, cross_ref.py exit=0
+- Final status: complete=11 partial=4 blocked=3 deferred=0

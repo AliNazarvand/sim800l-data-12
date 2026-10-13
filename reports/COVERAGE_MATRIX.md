@@ -1,27 +1,26 @@
-# COVERAGE MATRIX
-_Generated: 2026-10-13T17:23:10Z_
+# COVERAGE MATRIX -- sim800l-data
 
-| Dataset | File | Records | Dominant | Status breakdown |
-|---|---|---|---|---|
-| dat_01_at_command | dat_01_at_command.yaml | 335 | partial | partial=278, unknown=57 |
-| dat_02_urc | dat_02_urc.yaml | 18 | partial | partial=18 |
-| dat_03_error_code | dat_03_error_code.yaml | 255 | complete | complete=237, partial=12, unknown=6 |
-| dat_04_timing_timeout | dat_04_timing_timeout.yaml | 70 | complete | complete=70 |
-| dat_05_state_machine | dat_05_state_machine.yaml | 31 | complete | complete=8, inferred=4, partial=8, unknown=11 |
-| dat_06_init_sequence | dat_06_init_sequence.yaml | 35 | complete | complete=7, partial=18, unknown=10 |
-| dat_07_hardware_reference | dat_07_hardware_reference.yaml | 83 | complete | complete=83 |
-| dat_08_firmware_compatibility | dat_08_firmware_compatibility.yaml | 1 | blocked | blocked=1 |
-| dat_09_sms | dat_09_sms.yaml | 14 | complete | complete=13, partial=1 |
-| dat_10_gprs_data | dat_10_gprs_data.yaml | 24 | complete | blocked=3, complete=21 |
-| dat_11_http_ftp_ssl | dat_11_http_ftp_ssl.yaml | 38 | complete | blocked=19, complete=19 |
-| dat_12_audio | dat_12_audio.yaml | 13 | complete | blocked=4, complete=8, partial=1 |
-| dat_13_sim_management | dat_13_sim_management.yaml | 10 | complete | complete=10 |
-| dat_14_operator_apn | dat_14_operator_apn.yaml | 52 | complete | complete=52 |
-| dat_15_power_management | dat_15_power_management.yaml | 28 | complete | complete=28 |
-| dat_16_board_evb | dat_16_board_evb.yaml | 1 | blocked | blocked=1 |
-| dat_17_certificate_key_store | dat_17_certificate_key_store.yaml | 9 | blocked | blocked=9 |
-| dat_18_certification | dat_18_certification.yaml | 1 | blocked | blocked=1 |
+Generated: 2026-10-13T17:47:17Z
 
-## Summary
-- Datasets: 18
-- Total records: 1018
+| Dataset | Name | Status | Real/Total | Reason |
+|---------|------|--------|------------|--------|
+| dat_01 | AT Command | complete | 335/335 | - |
+| dat_02 | URC | complete | 125/125 | - |
+| dat_03 | Error Code | partial | 1/1 | 1 real records (below threshold 200) |
+| dat_04 | Timing & Timeout | complete | 70/70 | - |
+| dat_05 | State Machine | partial | 14/14 | 14 real records (below threshold 20) |
+| dat_06 | Init Sequence | complete | 20/20 | - |
+| dat_07 | Hardware Reference | complete | 78/78 | - |
+| dat_08 | Firmware Compatibility | blocked | 1/1 | no real records with valid source |
+| dat_09 | SMS | complete | 14/15 | - |
+| dat_10 | GPRS/Data | complete | 21/22 | - |
+| dat_11 | HTTP/FTP/SSL | partial | 10/11 | 10 real records (below threshold 30) |
+| dat_12 | Audio | partial | 7/8 | 7 real records (below threshold 10) |
+| dat_13 | SIM Management | complete | 10/11 | - |
+| dat_14 | Operator/APN | complete | 52/52 | - |
+| dat_15 | Power Management | complete | 363/363 | - |
+| dat_16 | Board/EVB | blocked | 1/1 | no real records with valid source |
+| dat_17 | Certificate/Key Store | complete | 9/9 | - |
+| dat_18 | Certification | blocked | 1/1 | no real records with valid source |
+
+Legend: complete = source available + real >= threshold; partial = source available + real < threshold; blocked = source not available; deferred = external source required.

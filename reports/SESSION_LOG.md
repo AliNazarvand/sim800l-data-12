@@ -578,3 +578,11 @@ now has:
 - validate.py exit=1; cross_ref.py exit=1
 - Counters: complete=2 partial=4 blocked=12 deferred=0
 
+
+
+## Session v3 -- 2026-10-13T17:47:17Z
+- Cluster A (hardware): dat_04, 05, 06, 07, 15, 16
+- Cluster B (AT): dat_01, 02, 03, 09-13, 17
+- Cluster C (external): dat_08, 14, 18
+- validate.py exit=0; cross_ref.py exit=0
+- Result: complete=11 partial=4 blocked=3 deferred=0

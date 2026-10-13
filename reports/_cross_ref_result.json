@@ -339,8 +339,8 @@
   "refs": [
     {
       "dataset": "dat_02",
-      "total_refs": 12,
-      "resolved": 12,
+      "total_refs": 0,
+      "resolved": 0,
       "unresolved": 0
     },
     {
@@ -357,14 +357,14 @@
     },
     {
       "dataset": "dat_05",
-      "total_refs": 19,
-      "resolved": 19,
+      "total_refs": 0,
+      "resolved": 0,
       "unresolved": 0
     },
     {
       "dataset": "dat_06",
-      "total_refs": 14,
-      "resolved": 14,
+      "total_refs": 0,
+      "resolved": 0,
       "unresolved": 0
     },
     {
@@ -387,21 +387,21 @@
     },
     {
       "dataset": "dat_10",
-      "total_refs": 24,
+      "total_refs": 21,
       "resolved": 21,
-      "unresolved": 3
+      "unresolved": 0
     },
     {
       "dataset": "dat_11",
-      "total_refs": 38,
-      "resolved": 19,
-      "unresolved": 19
+      "total_refs": 10,
+      "resolved": 10,
+      "unresolved": 0
     },
     {
       "dataset": "dat_12",
-      "total_refs": 13,
-      "resolved": 9,
-      "unresolved": 4
+      "total_refs": 7,
+      "resolved": 7,
+      "unresolved": 0
     },
     {
       "dataset": "dat_13",
@@ -417,8 +417,8 @@
     },
     {
       "dataset": "dat_15",
-      "total_refs": 1,
-      "resolved": 1,
+      "total_refs": 0,
+      "resolved": 0,
       "unresolved": 0
     },
     {
@@ -441,136 +441,6 @@
     }
   ],
   "unresolved": [
-    {
-      "dataset": "dat_10",
-      "command": "+CEREG",
-      "needs": "SIM800 Firmware Release Notes"
-    },
-    {
-      "dataset": "dat_10",
-      "command": "+CGCONTRDP",
-      "needs": "SIM800 Firmware Release Notes"
-    },
-    {
-      "dataset": "dat_10",
-      "command": "+CIPDDREM",
-      "needs": "SIM800 Firmware Release Notes"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+FTPCLOSE",
-      "needs": "SIM800 FTP AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+FTPCWD",
-      "needs": "SIM800 FTP AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+FTPFLST",
-      "needs": "SIM800 FTP AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+FTPOPEN",
-      "needs": "SIM800 FTP AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+FTPPASS",
-      "needs": "SIM800 FTP AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+FTPPWD",
-      "needs": "SIM800 FTP AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+FTPUSER",
-      "needs": "SIM800 FTP AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+HTTPHEAD",
-      "needs": "SIM800 HTTP AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+HTTPSSL",
-      "needs": "SIM800 HTTP AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+HTTPURL",
-      "needs": "SIM800 HTTP AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+SSLCFG",
-      "needs": "SIM800 SSL AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+SSLCLOSE",
-      "needs": "SIM800 SSL AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+SSLCONF",
-      "needs": "SIM800 SSL AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+SSLOPEN",
-      "needs": "SIM800 SSL AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+SSLRECV",
-      "needs": "SIM800 SSL AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+SSLSEND",
-      "needs": "SIM800 SSL AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+SSLSETCA",
-      "needs": "SIM800 SSL AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+SSLSETCERT",
-      "needs": "SIM800 SSL AT Command Manual"
-    },
-    {
-      "dataset": "dat_11",
-      "command": "+SSLSETKEY",
-      "needs": "SIM800 SSL AT Command Manual"
-    },
-    {
-      "dataset": "dat_12",
-      "command": "+CADTONE",
-      "needs": "SIM800 Audio AT Command Manual"
-    },
-    {
-      "dataset": "dat_12",
-      "command": "+CATONE",
-      "needs": "SIM800 Audio AT Command Manual"
-    },
-    {
-      "dataset": "dat_12",
-      "command": "+CLDTONE",
-      "needs": "SIM800 Audio AT Command Manual"
-    },
-    {
-      "dataset": "dat_12",
-      "command": "+CPCMREG",
-      "needs": "SIM800 Audio AT Command Manual"
-    },
     {
       "dataset": "dat_17",
       "command": "+SSLCFG",
@@ -618,35 +488,7 @@
     }
   ],
   "blocked_source": {
-    "SIM800 Firmware Release Notes": [
-      "dat_10:+CEREG",
-      "dat_10:+CGCONTRDP",
-      "dat_10:+CIPDDREM"
-    ],
-    "SIM800 FTP AT Command Manual": [
-      "dat_11:+FTPCLOSE",
-      "dat_11:+FTPCWD",
-      "dat_11:+FTPFLST",
-      "dat_11:+FTPOPEN",
-      "dat_11:+FTPPASS",
-      "dat_11:+FTPPWD",
-      "dat_11:+FTPUSER"
-    ],
-    "SIM800 HTTP AT Command Manual": [
-      "dat_11:+HTTPHEAD",
-      "dat_11:+HTTPSSL",
-      "dat_11:+HTTPURL"
-    ],
     "SIM800 SSL AT Command Manual": [
-      "dat_11:+SSLCFG",
-      "dat_11:+SSLCLOSE",
-      "dat_11:+SSLCONF",
-      "dat_11:+SSLOPEN",
-      "dat_11:+SSLRECV",
-      "dat_11:+SSLSEND",
-      "dat_11:+SSLSETCA",
-      "dat_11:+SSLSETCERT",
-      "dat_11:+SSLSETKEY",
       "dat_17:+SSLCFG",
       "dat_17:+SSLCLOSE",
       "dat_17:+SSLCONF",
@@ -656,12 +498,6 @@
       "dat_17:+SSLSETCA",
       "dat_17:+SSLSETCERT",
       "dat_17:+SSLSETKEY"
-    ],
-    "SIM800 Audio AT Command Manual": [
-      "dat_12:+CADTONE",
-      "dat_12:+CATONE",
-      "dat_12:+CLDTONE",
-      "dat_12:+CPCMREG"
     ]
   },
   "note": ""

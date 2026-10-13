@@ -1,19 +1,23 @@
-# TODO
-_Generated: 2026-10-13T17:23:10Z_
+# TODO -- sim800l-data
 
-## Blocked datasets (source missing)
-- [ ] dat_08_firmware_compatibility
-- [ ] dat_16_board_evb
-- [ ] dat_17_certificate_key_store
-- [ ] dat_18_certification
+Generated: 2026-10-13T17:47:17Z
 
-## Missing source documents
-- [ ] SIM800 Firmware Release Notes
-- [ ] SIM800 FTP AT Command Manual
-- [ ] SIM800 HTTP AT Command Manual
-- [ ] SIM800 SSL AT Command Manual
-- [ ] SIM800 Audio AT Command Manual
+## Missing Source Documents
 
-## Partial datasets (source available, coverage limited)
-- [ ] dat_01_at_command (records=335)
-- [ ] dat_02_urc (records=18)
+- [ ] SIM800 Series SSL AT Command Manual
+- [ ] SIM800 Series HTTP AT Command Manual
+- [ ] SIM800 Series FTP AT Command Manual
+- [ ] SIM800 Series Audio AT Command Manual
+- [ ] SIM800 Series Firmware Release Notes
+- [ ] SIM800L EVB Schematic
+- [ ] CE/FCC/RoHS/GCF/PTCRB certificates
+
+## Non-complete Datasets
+
+- [ ] dat_03 (partial) - 1 real records (below threshold 200)
+- [ ] dat_05 (partial) - 14 real records (below threshold 20)
+- [ ] dat_08 (blocked) - no real records with valid source
+- [ ] dat_11 (partial) - 10 real records (below threshold 30)
+- [ ] dat_12 (partial) - 7 real records (below threshold 10)
+- [ ] dat_16 (blocked) - no real records with valid source
+- [ ] dat_18 (blocked) - no real records with valid source

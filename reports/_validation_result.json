@@ -10,16 +10,16 @@
     {
       "dataset": "dat_02",
       "file": "dat_02_urc.yaml",
-      "records": 18,
-      "errors": 0,
-      "schema_ok": true
+      "records": 1,
+      "errors": 9,
+      "schema_ok": false
     },
     {
       "dataset": "dat_03",
       "file": "dat_03_error_code.yaml",
-      "records": 255,
-      "errors": 0,
-      "schema_ok": true
+      "records": 1,
+      "errors": 9,
+      "schema_ok": false
     },
     {
       "dataset": "dat_04",
@@ -31,21 +31,21 @@
     {
       "dataset": "dat_05",
       "file": "dat_05_state_machine.yaml",
-      "records": 31,
-      "errors": 0,
-      "schema_ok": true
+      "records": 1,
+      "errors": 9,
+      "schema_ok": false
     },
     {
       "dataset": "dat_06",
       "file": "dat_06_init_sequence.yaml",
-      "records": 35,
-      "errors": 0,
-      "schema_ok": true
+      "records": 1,
+      "errors": 9,
+      "schema_ok": false
     },
     {
       "dataset": "dat_07",
       "file": "dat_07_hardware_reference.yaml",
-      "records": 83,
+      "records": 78,
       "errors": 0,
       "schema_ok": true
     },
@@ -59,37 +59,37 @@
     {
       "dataset": "dat_09",
       "file": "dat_09_sms.yaml",
-      "records": 14,
-      "errors": 0,
-      "schema_ok": true
+      "records": 15,
+      "errors": 23,
+      "schema_ok": false
     },
     {
       "dataset": "dat_10",
       "file": "dat_10_gprs_data.yaml",
-      "records": 24,
-      "errors": 0,
-      "schema_ok": true
+      "records": 22,
+      "errors": 9,
+      "schema_ok": false
     },
     {
       "dataset": "dat_11",
       "file": "dat_11_http_ftp_ssl.yaml",
-      "records": 38,
-      "errors": 0,
-      "schema_ok": true
+      "records": 11,
+      "errors": 9,
+      "schema_ok": false
     },
     {
       "dataset": "dat_12",
       "file": "dat_12_audio.yaml",
-      "records": 13,
-      "errors": 0,
-      "schema_ok": true
+      "records": 8,
+      "errors": 9,
+      "schema_ok": false
     },
     {
       "dataset": "dat_13",
       "file": "dat_13_sim_management.yaml",
-      "records": 10,
-      "errors": 0,
-      "schema_ok": true
+      "records": 11,
+      "errors": 9,
+      "schema_ok": false
     },
     {
       "dataset": "dat_14",
@@ -101,7 +101,7 @@
     {
       "dataset": "dat_15",
       "file": "dat_15_power_management.yaml",
-      "records": 28,
+      "records": 363,
       "errors": 0,
       "schema_ok": true
     },
@@ -127,7 +127,103 @@
       "schema_ok": true
     }
   ],
-  "errors": [],
+  "errors": [
+    "dat_02_urc.yaml: [0] missing: id",
+    "dat_02_urc.yaml: [0] missing: category",
+    "dat_02_urc.yaml: [0] missing: source",
+    "dat_02_urc.yaml: [0] missing: source_type",
+    "dat_02_urc.yaml: [0] missing: confidence",
+    "dat_02_urc.yaml: [0] missing: status",
+    "dat_02_urc.yaml: [0] missing: applicable_models",
+    "dat_02_urc.yaml: [0] applicable_models missing SIM800L (R1)",
+    "dat_02_urc.yaml: [0] schema: 'id' is a required property",
+    "dat_03_error_code.yaml: [0] missing: id",
+    "dat_03_error_code.yaml: [0] missing: category",
+    "dat_03_error_code.yaml: [0] missing: source",
+    "dat_03_error_code.yaml: [0] missing: source_type",
+    "dat_03_error_code.yaml: [0] missing: confidence",
+    "dat_03_error_code.yaml: [0] missing: status",
+    "dat_03_error_code.yaml: [0] missing: applicable_models",
+    "dat_03_error_code.yaml: [0] applicable_models missing SIM800L (R1)",
+    "dat_03_error_code.yaml: [0] schema: 'id' is a required property",
+    "dat_05_state_machine.yaml: [0] missing: id",
+    "dat_05_state_machine.yaml: [0] missing: category",
+    "dat_05_state_machine.yaml: [0] missing: source",
+    "dat_05_state_machine.yaml: [0] missing: source_type",
+    "dat_05_state_machine.yaml: [0] missing: confidence",
+    "dat_05_state_machine.yaml: [0] missing: status",
+    "dat_05_state_machine.yaml: [0] missing: applicable_models",
+    "dat_05_state_machine.yaml: [0] applicable_models missing SIM800L (R1)",
+    "dat_05_state_machine.yaml: [0] schema: 'id' is a required property",
+    "dat_06_init_sequence.yaml: [0] missing: id",
+    "dat_06_init_sequence.yaml: [0] missing: category",
+    "dat_06_init_sequence.yaml: [0] missing: source",
+    "dat_06_init_sequence.yaml: [0] missing: source_type",
+    "dat_06_init_sequence.yaml: [0] missing: confidence",
+    "dat_06_init_sequence.yaml: [0] missing: status",
+    "dat_06_init_sequence.yaml: [0] missing: applicable_models",
+    "dat_06_init_sequence.yaml: [0] applicable_models missing SIM800L (R1)",
+    "dat_06_init_sequence.yaml: [0] schema: 'id' is a required property",
+    "dat_09_sms.yaml: [0] missing: id",
+    "dat_09_sms.yaml: [0] missing: category",
+    "dat_09_sms.yaml: [0] missing: source",
+    "dat_09_sms.yaml: [0] missing: source_type",
+    "dat_09_sms.yaml: [0] missing: confidence",
+    "dat_09_sms.yaml: [0] missing: status",
+    "dat_09_sms.yaml: [0] missing: applicable_models",
+    "dat_09_sms.yaml: [0] applicable_models missing SIM800L (R1)",
+    "dat_09_sms.yaml: [0] schema: 'id' is a required property",
+    "dat_09_sms.yaml: [1] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [2] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [3] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [4] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [5] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [6] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [7] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [8] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [9] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [10] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [11] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [12] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [13] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_09_sms.yaml: [14] schema: 'write' is not one of ['text', 'pdu']",
+    "dat_10_gprs_data.yaml: [0] missing: id",
+    "dat_10_gprs_data.yaml: [0] missing: category",
+    "dat_10_gprs_data.yaml: [0] missing: source",
+    "dat_10_gprs_data.yaml: [0] missing: source_type",
+    "dat_10_gprs_data.yaml: [0] missing: confidence",
+    "dat_10_gprs_data.yaml: [0] missing: status",
+    "dat_10_gprs_data.yaml: [0] missing: applicable_models",
+    "dat_10_gprs_data.yaml: [0] applicable_models missing SIM800L (R1)",
+    "dat_10_gprs_data.yaml: [0] schema: 'id' is a required property",
+    "dat_11_http_ftp_ssl.yaml: [0] missing: id",
+    "dat_11_http_ftp_ssl.yaml: [0] missing: category",
+    "dat_11_http_ftp_ssl.yaml: [0] missing: source",
+    "dat_11_http_ftp_ssl.yaml: [0] missing: source_type",
+    "dat_11_http_ftp_ssl.yaml: [0] missing: confidence",
+    "dat_11_http_ftp_ssl.yaml: [0] missing: status",
+    "dat_11_http_ftp_ssl.yaml: [0] missing: applicable_models",
+    "dat_11_http_ftp_ssl.yaml: [0] applicable_models missing SIM800L (R1)",
+    "dat_11_http_ftp_ssl.yaml: [0] schema: 'id' is a required property",
+    "dat_12_audio.yaml: [0] missing: id",
+    "dat_12_audio.yaml: [0] missing: category",
+    "dat_12_audio.yaml: [0] missing: source",
+    "dat_12_audio.yaml: [0] missing: source_type",
+    "dat_12_audio.yaml: [0] missing: confidence",
+    "dat_12_audio.yaml: [0] missing: status",
+    "dat_12_audio.yaml: [0] missing: applicable_models",
+    "dat_12_audio.yaml: [0] applicable_models missing SIM800L (R1)",
+    "dat_12_audio.yaml: [0] schema: 'id' is a required property",
+    "dat_13_sim_management.yaml: [0] missing: id",
+    "dat_13_sim_management.yaml: [0] missing: category",
+    "dat_13_sim_management.yaml: [0] missing: source",
+    "dat_13_sim_management.yaml: [0] missing: source_type",
+    "dat_13_sim_management.yaml: [0] missing: confidence",
+    "dat_13_sim_management.yaml: [0] missing: status",
+    "dat_13_sim_management.yaml: [0] missing: applicable_models",
+    "dat_13_sim_management.yaml: [0] applicable_models missing SIM800L (R1)",
+    "dat_13_sim_management.yaml: [0] schema: 'id' is a required property"
+  ],
   "schema_used": {
     "dat_01_at_command.yaml": "dat_01",
     "dat_02_urc.yaml": "dat_02",

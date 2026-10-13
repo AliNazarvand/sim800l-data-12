@@ -468,3 +468,10 @@ here-strings; single-quote here-strings (@'...'@) preserve literals.
 **Rejected alternatives:**
 - Fabricating page numbers for dat_11/dat_17 (violates R2).
 - Marking unresolved refs as errors (they are documentation gaps, not bugs).
+
+
+## 2026-10-13T17:47:17Z
+- Fixed previous pipeline: arg passing, UTF-8, robust YAML parser.
+- Reports moved from project root to reports/.
+- Backup relocated outside the project workspace.
+- Sidecar artifacts excluded via .gitignore.

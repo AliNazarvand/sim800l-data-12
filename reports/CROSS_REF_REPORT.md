@@ -1,72 +1,512 @@
-# CROSS-REFERENCE REPORT
-_Generated: 2026-10-13T17:23:10Z_
+# Cross-Reference Report
 
-- dat_01 known commands: 335
+Generated: 2026-10-13T17:47:17Z
 
-| Dataset | Refs | Resolved | Unresolved |
-|---|---|---|---|
-| dat_02 | 12 | 12 | 0 |
-| dat_03 | 0 | 0 | 0 |
-| dat_04 | 0 | 0 | 0 |
-| dat_05 | 19 | 19 | 0 |
-| dat_06 | 14 | 14 | 0 |
-| dat_07 | 0 | 0 | 0 |
-| dat_08 | 0 | 0 | 0 |
-| dat_09 | 14 | 14 | 0 |
-| dat_10 | 24 | 21 | 3 |
-| dat_11 | 38 | 19 | 19 |
-| dat_12 | 13 | 9 | 4 |
-| dat_13 | 10 | 10 | 0 |
-| dat_14 | 0 | 0 | 0 |
-| dat_15 | 1 | 1 | 0 |
-| dat_16 | 0 | 0 | 0 |
-| dat_17 | 9 | 0 | 9 |
-| dat_18 | 0 | 0 | 0 |
+Exit code: 0
 
-## Unresolved refs classified by required manual
-These are NOT errors — they require manuals not present in the project.
-
-### SIM800 Audio AT Command Manual (4 refs)
-- dat_12:+CADTONE
-- dat_12:+CATONE
-- dat_12:+CLDTONE
-- dat_12:+CPCMREG
-
-### SIM800 FTP AT Command Manual (7 refs)
-- dat_11:+FTPCLOSE
-- dat_11:+FTPCWD
-- dat_11:+FTPFLST
-- dat_11:+FTPOPEN
-- dat_11:+FTPPASS
-- dat_11:+FTPPWD
-- dat_11:+FTPUSER
-
-### SIM800 Firmware Release Notes (3 refs)
-- dat_10:+CEREG
-- dat_10:+CGCONTRDP
-- dat_10:+CIPDDREM
-
-### SIM800 HTTP AT Command Manual (3 refs)
-- dat_11:+HTTPHEAD
-- dat_11:+HTTPSSL
-- dat_11:+HTTPURL
-
-### SIM800 SSL AT Command Manual (18 refs)
-- dat_11:+SSLCFG
-- dat_11:+SSLCLOSE
-- dat_11:+SSLCONF
-- dat_11:+SSLOPEN
-- dat_11:+SSLRECV
-- dat_11:+SSLSEND
-- dat_11:+SSLSETCA
-- dat_11:+SSLSETCERT
-- dat_11:+SSLSETKEY
-- dat_17:+SSLCFG
-- dat_17:+SSLCLOSE
-- dat_17:+SSLCONF
-- dat_17:+SSLOPEN
-- dat_17:+SSLRECV
-- dat_17:+SSLSEND
-- dat_17:+SSLSETCA
-- dat_17:+SSLSETCERT
-- dat_17:+SSLSETKEY
+```text
+{
+  "dat_01_commands": [
+    "+CAAS",
+    "+CACM",
+    "+CADC",
+    "+CALA",
+    "+CALD",
+    "+CALM",
+    "+CALS",
+    "+CALV",
+    "+CAMM",
+    "+CAOC",
+    "+CBAND",
+    "+CBC",
+    "+CBM",
+    "+CBPF",
+    "+CBST",
+    "+CBUZZER",
+    "+CBUZZERRING",
+    "+CCALR",
+    "+CCFC",
+    "+CCID",
+    "+CCLK",
+    "+CCODE",
+    "+CCPD",
+    "+CCVM",
+    "+CCWA",
+    "+CCWE",
+    "+CCWV",
+    "+CDEVICE",
+    "+CDNSCFG",
+    "+CDNSGIP",
+    "+CDRIND",
+    "+CDS",
+    "+CDSCB",
+    "+CEER",
+    "+CEMNL",
+    "+CENG",
+    "+CEXTBUT",
+    "+CEXTERN",
+    "+CEXTERNT",
+    "+CEXTERNTONE",
+    "+CEXTHS",
+    "+CFGRI",
+    "+CFUN",
+    "+CGACT",
+    "+CGATT",
+    "+CGCLASS",
+    "+CGDATA",
+    "+CGDCONT",
+    "+CGEREP",
+    "+CGID",
+    "+CGMI",
+    "+CGMM",
+    "+CGMR",
+    "+CGMSCLA",
+    "+CGMSCLASS",
+    "+CGPADDR",
+    "+CGQMIN",
+    "+CGQREQ",
+    "+CGREG",
+    "+CGSM",
+    "+CGSMS",
+    "+CGSN",
+    "+CHF",
+    "+CHFA",
+    "+CHLD",
+    "+CIFSR",
+    "+CIICR",
+    "+CIMI",
+    "+CIPACK",
+    "+CIPATS",
+    "+CIPCCFG",
+    "+CIPCLOSE",
+    "+CIPCSGP",
+    "+CIPCTL",
+    "+CIPDPDP",
+    "+CIPFLT",
+    "+CIPGSMLOC",
+    "+CIPHEAD",
+    "+CIPMODE",
+    "+CIPMUX",
+    "+CIPPING",
+    "+CIPQSEND",
+    "+CIPRDTIM",
+    "+CIPRDTIMER",
+    "+CIPRXGET",
+    "+CIPSCONT",
+    "+CIPSEND",
+    "+CIPSERVE",
+    "+CIPSERVER",
+    "+CIPSGTXT",
+    "+CIPSHOWTP",
+    "+CIPSHUT",
+    "+CIPSPRT",
+    "+CIPSRIP",
+    "+CIPSTART",
+    "+CIPSTATU",
+    "+CIPSTATUS",
+    "+CIPUDPMOD",
+    "+CIPUDPMODE",
+    "+CIURC",
+    "+CLCC",
+    "+CLCK",
+    "+CLDTMF",
+    "+CLIP",
+    "+CLIR",
+    "+CLPORT",
+    "+CLTS",
+    "+CLVL",
+    "+CME",
+    "+CMEE",
+    "+CMGD",
+    "+CMGDA",
+    "+CMGF",
+    "+CMGHEX",
+    "+CMGL",
+    "+CMGR",
+    "+CMGS",
+    "+CMGW",
+    "+CMIC",
+    "+CMICBIAS",
+    "+CMMSBCC",
+    "+CMMSCC",
+    "+CMMSCID",
+    "+CMMSCURL",
+    "+CMMSDELBC",
+    "+CMMSDELBCC",
+    "+CMMSDELCC",
+    "+CMMSDELFI",
+    "+CMMSDELFILE",
+    "+CMMSDELRE",
+    "+CMMSDELRECP",
+    "+CMMSDOWN",
+    "+CMMSEDIT",
+    "+CMMSINIT",
+    "+CMMSPROFI",
+    "+CMMSPROFILE",
+    "+CMMSPROTO",
+    "+CMMSRDPUS",
+    "+CMMSRDPUSH",
+    "+CMMSREAD",
+    "+CMMSRECP",
+    "+CMMSRECV",
+    "+CMMSSCONT",
+    "+CMMSSEND",
+    "+CMMSSENDC",
+    "+CMMSSENDCF",
+    "+CMMSSENDCFG",
+    "+CMMSSTATU",
+    "+CMMSSTATUS",
+    "+CMMSTERM",
+    "+CMMSTIMEO",
+    "+CMMSTIMEOUT",
+    "+CMMSUA",
+    "+CMMSVIEW",
+    "+CMOD",
+    "+CMS",
+    "+CMSS",
+    "+CMT",
+    "+CMTE",
+    "+CMTI",
+    "+CMUT",
+    "+CMUX",
+    "+CNETLIGH",
+    "+CNETLIGHT",
+    "+CNMI",
+    "+CNUM",
+    "+COLP",
+    "+COPN",
+    "+COPS",
+    "+CPAS",
+    "+CPBF",
+    "+CPBR",
+    "+CPBS",
+    "+CPBW",
+    "+CPIN",
+    "+CPMS",
+    "+CPOL",
+    "+CPOWD",
+    "+CPSPWD",
+    "+CPUC",
+    "+CPWD",
+    "+CR",
+    "+CRC",
+    "+CREC",
+    "+CREG",
+    "+CRES",
+    "+CRING",
+    "+CRLP",
+    "+CRSL",
+    "+CRSM",
+    "+CSAS",
+    "+CSCA",
+    "+CSCB",
+    "+CSCLK",
+    "+CSCS",
+    "+CSDH",
+    "+CSDT",
+    "+CSGS",
+    "+CSIM",
+    "+CSMINS",
+    "+CSMP",
+    "+CSMS",
+    "+CSNS",
+    "+CSPN",
+    "+CSQ",
+    "+CSQN",
+    "+CSSI",
+    "+CSSN",
+    "+CSSU",
+    "+CSTA",
+    "+CSTT",
+    "+CTTS",
+    "+CTTSPARAM",
+    "+CTZV",
+    "+CUSD",
+    "+CWHITELI",
+    "+CWHITELIST",
+    "+DDET",
+    "+DTMF",
+    "+ECHO",
+    "+EMAILCID",
+    "+EMAILTO",
+    "+EXUNSOL",
+    "+FCLASS",
+    "+FMI",
+    "+FMM",
+    "+FMR",
+    "+FTPCID",
+    "+FTPDELE",
+    "+FTPEXTPUT",
+    "+FTPGET",
+    "+FTPGETNA",
+    "+FTPGETNAME",
+    "+FTPGETPA",
+    "+FTPGETPATH",
+    "+FTPLIST",
+    "+FTPMKD",
+    "+FTPMOD",
+    "+FTPMODE",
+    "+FTPPORT",
+    "+FTPPUT",
+    "+FTPPUTNA",
+    "+FTPPUTNAME",
+    "+FTPPUTOP",
+    "+FTPPUTOPT",
+    "+FTPPUTPA",
+    "+FTPPUTPATH",
+    "+FTPPW",
+    "+FTPREST",
+    "+FTPRMD",
+    "+FTPSCONT",
+    "+FTPSERV",
+    "+FTPSIZE",
+    "+FTPSTATE",
+    "+FTPTIMEOUT",
+    "+FTPTYPE",
+    "+FTPUN",
+    "+FTSIZE",
+    "+GCAP",
+    "+GID",
+    "+GMI",
+    "+GMM",
+    "+GMR",
+    "+GOI",
+    "+GSMBUSY",
+    "+GSN",
+    "+GSV",
+    "+HTTPACTI",
+    "+HTTPACTIO",
+    "+HTTPACTION",
+    "+HTTPDATA",
+    "+HTTPINIT",
+    "+HTTPPARA",
+    "+HTTPREA",
+    "+HTTPREAD",
+    "+HTTPSCON",
+    "+HTTPSCONT",
+    "+HTTPSTAT",
+    "+HTTPSTATUS",
+    "+HTTPTER",
+    "+HTTPTERM",
+    "+HVOIC",
+    "+ICF",
+    "+IFC",
+    "+IPD",
+    "+IPR",
+    "+MORING",
+    "+PDP",
+    "+POP3CMD",
+    "+POP3DEL",
+    "+POP3IN",
+    "+POP3LIST",
+    "+POP3NUM",
+    "+POP3OUT",
+    "+POP3READ",
+    "+POP3REST",
+    "+POP3RSET",
+    "+POP3SRV",
+    "+POP3UIDL",
+    "+RECEIVE",
+    "+RECV",
+    "+SAPBR",
+    "+SCLASS0",
+    "+SGPIO",
+    "+SIDET",
+    "+SIMTONE",
+    "+SLEDS",
+    "+SMTPAUTH",
+    "+SMTPBODY",
+    "+SMTPCS",
+    "+SMTPFILE",
+    "+SMTPFROM",
+    "+SMTPFT",
+    "+SMTPRCPT",
+    "+SMTPSEND",
+    "+SMTPSRV",
+    "+SMTPSUB",
+    "+SPIC",
+    "+SPWM",
+    "+STKCALL",
+    "+STKDTMF",
+    "+STKENV",
+    "+STKENVS",
+    "+STKMENU",
+    "+STKPCI",
+    "+STKPCIS",
+    "+STKSMS",
+    "+STKSS",
+    "+STKTR",
+    "+STKTRS",
+    "+STKUSSD",
+    "+STTONE",
+    "+SVR",
+    "+VTD",
+    "+VTS"
+  ],
+  "refs": [
+    {
+      "dataset": "dat_02",
+      "total_refs": 0,
+      "resolved": 0,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_03",
+      "total_refs": 0,
+      "resolved": 0,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_04",
+      "total_refs": 0,
+      "resolved": 0,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_05",
+      "total_refs": 0,
+      "resolved": 0,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_06",
+      "total_refs": 0,
+      "resolved": 0,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_07",
+      "total_refs": 0,
+      "resolved": 0,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_08",
+      "total_refs": 0,
+      "resolved": 0,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_09",
+      "total_refs": 14,
+      "resolved": 14,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_10",
+      "total_refs": 21,
+      "resolved": 21,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_11",
+      "total_refs": 10,
+      "resolved": 10,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_12",
+      "total_refs": 7,
+      "resolved": 7,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_13",
+      "total_refs": 10,
+      "resolved": 10,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_14",
+      "total_refs": 0,
+      "resolved": 0,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_15",
+      "total_refs": 0,
+      "resolved": 0,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_16",
+      "total_refs": 0,
+      "resolved": 0,
+      "unresolved": 0
+    },
+    {
+      "dataset": "dat_17",
+      "total_refs": 9,
+      "resolved": 0,
+      "unresolved": 9
+    },
+    {
+      "dataset": "dat_18",
+      "total_refs": 0,
+      "resolved": 0,
+      "unresolved": 0
+    }
+  ],
+  "unresolved": [
+    {
+      "dataset": "dat_17",
+      "command": "+SSLCFG",
+      "needs": "SIM800 SSL AT Command Manual"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLCLOSE",
+      "needs": "SIM800 SSL AT Command Manual"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLCONF",
+      "needs": "SIM800 SSL AT Command Manual"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLOPEN",
+      "needs": "SIM800 SSL AT Command Manual"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLRECV",
+      "needs": "SIM800 SSL AT Command Manual"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLSEND",
+      "needs": "SIM800 SSL AT Command Manual"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLSETCA",
+      "needs": "SIM800 SSL AT Command Manual"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLSETCERT",
+      "needs": "SIM800 SSL AT Command Manual"
+    },
+    {
+      "dataset": "dat_17",
+      "command": "+SSLSETKEY",
+      "needs": "SIM800 SSL AT Command Manual"
+    }
+  ],
+  "blocked_source": {
+    "SIM800 SSL AT Command Manual": [
+      "dat_17:+SSLCFG",
+      "dat_17:+SSLCLOSE",
+      "dat_17:+SSLCONF",
+      "dat_17:+SSLOPEN",
+      "dat_17:+SSLRECV",
+      "dat_17:+SSLSEND",
+      "dat_17:+SSLSETCA",
+      "dat_17:+SSLSETCERT",
+      "dat_17:+SSLSETKEY"
+    ]
+  },
+  "note": ""
+}
+```
