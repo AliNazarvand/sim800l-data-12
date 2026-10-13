@@ -1,6 +1,6 @@
 # dat_17 — Certificate/Key Store
 
-Generated: 2026-10-13T18:07:56Z
+Generated: 2026-10-13T18:11:10Z
 
 | Field | Value |
 |-------|-------|
@@ -8,10 +8,10 @@ Generated: 2026-10-13T18:07:56Z
 | Real records | 9 |
 | Unique records | 9 |
 | Total records | 9 |
-| Data file | dat_17_certificate_key_store.yaml |
-| Source count |  |
 | Coverage percent |  |
 | Coverage estimate |  |
+| Source count |  |
+| Reason | required source document is not available |
 
 ## Notes
-Dataset blocked; required source document is not available. See TODO.md.
+Dataset blocked; required source not available. See TODO.md.

@@ -3,7 +3,7 @@
     {
       "dataset": "dat_01",
       "file": "dat_01_at_command.yaml",
-      "records": 610,
+      "records": 335,
       "errors": 0,
       "schema_ok": true
     },
@@ -101,7 +101,7 @@
     {
       "dataset": "dat_15",
       "file": "dat_15_power_management.yaml",
-      "records": 357,
+      "records": 351,
       "errors": 0,
       "schema_ok": true
     },

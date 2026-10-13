@@ -914,199 +914,7 @@
   - SIM800L
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- category: Power
-  mode: '1'
-  command: null
-  parameter: current
-  value_min: null
-  value_typ: 1.04
-  value_max: null
-  unit: mA
-  condition: ''
-  wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0029
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    page: '26'
-    section: Power Consumption
-    quote: 6.8 Current Consumption (VBAT=3.8V).................................................................................60
-  source_type: primary
-  confidence: 0.9
-  status: complete
-  conflicts: []
-  notes: ''
-  tags:
-  - auto-extracted
-  - V2.02
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-13T18:03:07Z'
-  updated_at: '2026-10-13T18:03:07Z'
-- category: Power
-  mode: '4'
-  command: null
-  parameter: current
-  value_min: null
-  value_typ: 0.92
-  value_max: null
-  unit: mA
-  condition: ''
-  wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0030
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    page: '26'
-    section: Power Consumption
-    quote: 6.8 Current Consumption (VBAT=3.8V).................................................................................60
-  source_type: primary
-  confidence: 0.9
-  status: complete
-  conflicts: []
-  notes: ''
-  tags:
-  - auto-extracted
-  - V2.02
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-13T18:03:07Z'
-  updated_at: '2026-10-13T18:03:07Z'
-- category: Power
-  mode: I MAX
-  command: null
-  parameter: current
-  value_min: null
-  value_typ: 2.0
-  value_max: null
-  unit: mA
-  condition: ''
-  wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0031
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    page: '60'
-    section: Power Consumption
-    quote: 6.8 Current Consumption (VBAT=3.8V).................................................................................60
-  source_type: primary
-  confidence: 0.9
-  status: complete
-  conflicts: []
-  notes: ''
-  tags:
-  - auto-extracted
-  - V1.00
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-13T18:03:07Z'
-  updated_at: '2026-10-13T18:03:07Z'
-- category: Power
-  mode: I VBAT
-  command: null
-  parameter: current
-  value_min: null
-  value_typ: 50.0
-  value_max: null
-  unit: mA
-  condition: ''
-  wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0032
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    page: '60'
-    section: Power Consumption
-    quote: 6.8 Current Consumption (VBAT=3.8V).................................................................................60
-  source_type: primary
-  confidence: 0.9
-  status: complete
-  conflicts: []
-  notes: ''
-  tags:
-  - auto-extracted
-  - V1.00
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-13T18:03:07Z'
-  updated_at: '2026-10-13T18:03:07Z'
-- category: Power
-  mode: Standby
-  command: null
-  parameter: current
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: mA
-  condition: ''
-  wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0033
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    page: '34'
-    section: Power Consumption
-    quote: 6.8 Current Consumption (VBAT=3.8V).................................................................................60
-  source_type: primary
-  confidence: 0.9
-  status: complete
-  conflicts: []
-  notes: ''
-  tags:
-  - auto-extracted
-  - V2.02
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-13T18:03:07Z'
-  updated_at: '2026-10-13T18:03:07Z'
-- category: Power
-  mode: VBAT
-  command: null
-  parameter: current
-  value_min: null
-  value_typ: 4.0
-  value_max: null
-  unit: mA
-  condition: ''
-  wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0034
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    page: '60'
-    section: Power Consumption
-    quote: 6.8 Current Consumption (VBAT=3.8V).................................................................................60
-  source_type: primary
-  confidence: 0.9
-  status: complete
-  conflicts: []
-  notes: ''
-  tags:
-  - auto-extracted
-  - V1.00
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-13T18:03:07Z'
-  updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0035
+- id: dat_15_0029
   category: Power Consumption
   mode: null
   command: null
@@ -1140,7 +948,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0036
+- id: dat_15_0030
   category: Power Consumption
   mode: null
   command: null
@@ -1172,7 +980,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0037
+- id: dat_15_0031
   category: Power Consumption
   mode: null
   command: null
@@ -1204,7 +1012,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0038
+- id: dat_15_0032
   category: Power Consumption
   mode: null
   command: null
@@ -1236,7 +1044,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0039
+- id: dat_15_0033
   category: Power Consumption
   mode: null
   command: null
@@ -1268,7 +1076,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0040
+- id: dat_15_0034
   category: Power Consumption
   mode: null
   command: null
@@ -1300,7 +1108,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0041
+- id: dat_15_0035
   category: Power Consumption
   mode: null
   command: null
@@ -1332,7 +1140,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0042
+- id: dat_15_0036
   category: Power Consumption
   mode: null
   command: null
@@ -1364,7 +1172,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0043
+- id: dat_15_0037
   category: Power Consumption
   mode: null
   command: null
@@ -1396,7 +1204,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0044
+- id: dat_15_0038
   category: Power Consumption
   mode: null
   command: null
@@ -1430,7 +1238,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0045
+- id: dat_15_0039
   category: Power Consumption
   mode: null
   command: null
@@ -1464,7 +1272,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0046
+- id: dat_15_0040
   category: Power Consumption
   mode: null
   command: null
@@ -1498,7 +1306,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0047
+- id: dat_15_0041
   category: Power Consumption
   mode: null
   command: null
@@ -1530,7 +1338,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0048
+- id: dat_15_0042
   category: Power Consumption
   mode: null
   command: null
@@ -1564,7 +1372,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0049
+- id: dat_15_0043
   category: Power Consumption
   mode: null
   command: null
@@ -1596,7 +1404,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0050
+- id: dat_15_0044
   category: Power Consumption
   mode: null
   command: null
@@ -1628,7 +1436,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0051
+- id: dat_15_0045
   category: Power Consumption
   mode: null
   command: null
@@ -1660,7 +1468,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0052
+- id: dat_15_0046
   category: Power Consumption
   mode: null
   command: null
@@ -1692,7 +1500,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0053
+- id: dat_15_0047
   category: Power Consumption
   mode: null
   command: null
@@ -1724,7 +1532,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0054
+- id: dat_15_0048
   category: Power Consumption
   mode: null
   command: null
@@ -1756,7 +1564,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0055
+- id: dat_15_0049
   category: Power Consumption
   mode: null
   command: null
@@ -1790,7 +1598,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0056
+- id: dat_15_0050
   category: Power Consumption
   mode: null
   command: null
@@ -1822,7 +1630,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0057
+- id: dat_15_0051
   category: Power Consumption
   mode: null
   command: null
@@ -1856,7 +1664,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0058
+- id: dat_15_0052
   category: Power Consumption
   mode: null
   command: null
@@ -1888,7 +1696,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0059
+- id: dat_15_0053
   category: Power Consumption
   mode: null
   command: null
@@ -1922,7 +1730,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0060
+- id: dat_15_0054
   category: Power Consumption
   mode: null
   command: null
@@ -1956,7 +1764,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0061
+- id: dat_15_0055
   category: Power Consumption
   mode: null
   command: null
@@ -1988,7 +1796,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0062
+- id: dat_15_0056
   category: Power Consumption
   mode: null
   command: null
@@ -2022,7 +1830,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0063
+- id: dat_15_0057
   category: Power Consumption
   mode: null
   command: null
@@ -2054,7 +1862,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0064
+- id: dat_15_0058
   category: Power Consumption
   mode: null
   command: null
@@ -2086,7 +1894,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0065
+- id: dat_15_0059
   category: Power Consumption
   mode: null
   command: null
@@ -2118,7 +1926,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0066
+- id: dat_15_0060
   category: Power Consumption
   mode: null
   command: null
@@ -2150,7 +1958,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0067
+- id: dat_15_0061
   category: Power Consumption
   mode: null
   command: null
@@ -2182,7 +1990,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0068
+- id: dat_15_0062
   category: Power Consumption
   mode: null
   command: null
@@ -2214,7 +2022,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0069
+- id: dat_15_0063
   category: Power Consumption
   mode: null
   command: null
@@ -2246,7 +2054,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0070
+- id: dat_15_0064
   category: Power Consumption
   mode: null
   command: null
@@ -2278,7 +2086,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0071
+- id: dat_15_0065
   category: Power Consumption
   mode: null
   command: null
@@ -2310,7 +2118,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0072
+- id: dat_15_0066
   category: Power Consumption
   mode: null
   command: null
@@ -2342,7 +2150,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0073
+- id: dat_15_0067
   category: Power Consumption
   mode: null
   command: null
@@ -2374,7 +2182,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0074
+- id: dat_15_0068
   category: Power Consumption
   mode: null
   command: null
@@ -2406,7 +2214,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0075
+- id: dat_15_0069
   category: Power Consumption
   mode: null
   command: null
@@ -2438,7 +2246,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0076
+- id: dat_15_0070
   category: Power Consumption
   mode: null
   command: null
@@ -2470,7 +2278,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0077
+- id: dat_15_0071
   category: Power Consumption
   mode: null
   command: null
@@ -2502,7 +2310,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0078
+- id: dat_15_0072
   category: Power Consumption
   mode: null
   command: null
@@ -2534,7 +2342,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0079
+- id: dat_15_0073
   category: Power Consumption
   mode: null
   command: null
@@ -2566,7 +2374,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0080
+- id: dat_15_0074
   category: Power Consumption
   mode: null
   command: null
@@ -2598,7 +2406,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0081
+- id: dat_15_0075
   category: Power Consumption
   mode: null
   command: null
@@ -2630,7 +2438,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0082
+- id: dat_15_0076
   category: Power Consumption
   mode: null
   command: null
@@ -2662,7 +2470,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0083
+- id: dat_15_0077
   category: Power Consumption
   mode: null
   command: null
@@ -2694,7 +2502,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0084
+- id: dat_15_0078
   category: Power Consumption
   mode: null
   command: null
@@ -2726,7 +2534,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0085
+- id: dat_15_0079
   category: Power Consumption
   mode: null
   command: null
@@ -2758,7 +2566,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0086
+- id: dat_15_0080
   category: Power Consumption
   mode: null
   command: null
@@ -2790,7 +2598,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0087
+- id: dat_15_0081
   category: Power Consumption
   mode: null
   command: null
@@ -2822,7 +2630,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0088
+- id: dat_15_0082
   category: Power Consumption
   mode: null
   command: null
@@ -2854,7 +2662,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0089
+- id: dat_15_0083
   category: Power Consumption
   mode: null
   command: null
@@ -2886,7 +2694,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0090
+- id: dat_15_0084
   category: Power Consumption
   mode: null
   command: null
@@ -2918,7 +2726,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0091
+- id: dat_15_0085
   category: Power Consumption
   mode: null
   command: null
@@ -2950,7 +2758,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0092
+- id: dat_15_0086
   category: Power Consumption
   mode: null
   command: null
@@ -2982,7 +2790,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0093
+- id: dat_15_0087
   category: Power Consumption
   mode: null
   command: null
@@ -3014,7 +2822,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0094
+- id: dat_15_0088
   category: Power Consumption
   mode: null
   command: null
@@ -3046,7 +2854,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0095
+- id: dat_15_0089
   category: Power Consumption
   mode: null
   command: null
@@ -3078,7 +2886,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0096
+- id: dat_15_0090
   category: Power Consumption
   mode: null
   command: null
@@ -3110,7 +2918,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0097
+- id: dat_15_0091
   category: Power Consumption
   mode: null
   command: null
@@ -3142,7 +2950,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0098
+- id: dat_15_0092
   category: Power Consumption
   mode: null
   command: null
@@ -3174,7 +2982,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0099
+- id: dat_15_0093
   category: Power Consumption
   mode: null
   command: null
@@ -3206,7 +3014,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0100
+- id: dat_15_0094
   category: Power Consumption
   mode: null
   command: null
@@ -3238,7 +3046,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0101
+- id: dat_15_0095
   category: Power Consumption
   mode: null
   command: null
@@ -3270,7 +3078,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0102
+- id: dat_15_0096
   category: Power Consumption
   mode: null
   command: null
@@ -3302,7 +3110,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0103
+- id: dat_15_0097
   category: Power Consumption
   mode: null
   command: null
@@ -3334,7 +3142,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0104
+- id: dat_15_0098
   category: Power Consumption
   mode: null
   command: null
@@ -3368,7 +3176,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0105
+- id: dat_15_0099
   category: Power Consumption
   mode: null
   command: null
@@ -3402,7 +3210,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0106
+- id: dat_15_0100
   category: Power Consumption
   mode: null
   command: null
@@ -3436,7 +3244,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0107
+- id: dat_15_0101
   category: Power Consumption
   mode: null
   command: null
@@ -3468,7 +3276,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0108
+- id: dat_15_0102
   category: Power Consumption
   mode: null
   command: null
@@ -3502,7 +3310,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0109
+- id: dat_15_0103
   category: Power Consumption
   mode: null
   command: null
@@ -3534,7 +3342,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0110
+- id: dat_15_0104
   category: Power Consumption
   mode: null
   command: null
@@ -3566,7 +3374,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0111
+- id: dat_15_0105
   category: Power Consumption
   mode: null
   command: null
@@ -3600,7 +3408,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0112
+- id: dat_15_0106
   category: Power Consumption
   mode: null
   command: null
@@ -3632,7 +3440,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0113
+- id: dat_15_0107
   category: Power Consumption
   mode: null
   command: null
@@ -3664,7 +3472,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0114
+- id: dat_15_0108
   category: Power Consumption
   mode: null
   command: null
@@ -3696,7 +3504,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0115
+- id: dat_15_0109
   category: Power Consumption
   mode: null
   command: null
@@ -3728,7 +3536,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0116
+- id: dat_15_0110
   category: Power Consumption
   mode: null
   command: null
@@ -3760,7 +3568,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0117
+- id: dat_15_0111
   category: Power Consumption
   mode: null
   command: null
@@ -3792,7 +3600,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0118
+- id: dat_15_0112
   category: Power Consumption
   mode: null
   command: null
@@ -3824,7 +3632,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0119
+- id: dat_15_0113
   category: Power Consumption
   mode: null
   command: null
@@ -3856,7 +3664,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0120
+- id: dat_15_0114
   category: Power Consumption
   mode: null
   command: null
@@ -3888,7 +3696,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0121
+- id: dat_15_0115
   category: Power Consumption
   mode: null
   command: null
@@ -3922,7 +3730,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0122
+- id: dat_15_0116
   category: Power Consumption
   mode: null
   command: null
@@ -3956,7 +3764,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0123
+- id: dat_15_0117
   category: Power Consumption
   mode: null
   command: null
@@ -3988,7 +3796,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0124
+- id: dat_15_0118
   category: Power Consumption
   mode: null
   command: null
@@ -4022,7 +3830,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0125
+- id: dat_15_0119
   category: Power Consumption
   mode: null
   command: null
@@ -4056,7 +3864,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0126
+- id: dat_15_0120
   category: Power Consumption
   mode: null
   command: null
@@ -4088,7 +3896,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0127
+- id: dat_15_0121
   category: Power Consumption
   mode: null
   command: null
@@ -4122,7 +3930,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0128
+- id: dat_15_0122
   category: Power Consumption
   mode: null
   command: null
@@ -4156,7 +3964,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0129
+- id: dat_15_0123
   category: Power Consumption
   mode: null
   command: null
@@ -4190,7 +3998,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0130
+- id: dat_15_0124
   category: Power Consumption
   mode: null
   command: null
@@ -4222,7 +4030,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0131
+- id: dat_15_0125
   category: Power Consumption
   mode: null
   command: null
@@ -4256,7 +4064,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0132
+- id: dat_15_0126
   category: Power Consumption
   mode: null
   command: null
@@ -4288,7 +4096,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0133
+- id: dat_15_0127
   category: Power Consumption
   mode: null
   command: null
@@ -4320,7 +4128,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0134
+- id: dat_15_0128
   category: Power Consumption
   mode: null
   command: null
@@ -4352,7 +4160,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0135
+- id: dat_15_0129
   category: Power Consumption
   mode: null
   command: null
@@ -4384,7 +4192,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0136
+- id: dat_15_0130
   category: Power Consumption
   mode: null
   command: null
@@ -4416,7 +4224,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0137
+- id: dat_15_0131
   category: Power Consumption
   mode: null
   command: null
@@ -4448,7 +4256,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0138
+- id: dat_15_0132
   category: Power Consumption
   mode: null
   command: null
@@ -4480,7 +4288,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0139
+- id: dat_15_0133
   category: Power Consumption
   mode: null
   command: null
@@ -4512,7 +4320,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0140
+- id: dat_15_0134
   category: Power Consumption
   mode: null
   command: null
@@ -4544,7 +4352,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0141
+- id: dat_15_0135
   category: Power Consumption
   mode: null
   command: null
@@ -4576,7 +4384,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0142
+- id: dat_15_0136
   category: Power Consumption
   mode: null
   command: null
@@ -4608,7 +4416,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0143
+- id: dat_15_0137
   category: Power Consumption
   mode: null
   command: null
@@ -4640,7 +4448,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0144
+- id: dat_15_0138
   category: Power Consumption
   mode: null
   command: null
@@ -4672,7 +4480,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0145
+- id: dat_15_0139
   category: Power Consumption
   mode: null
   command: null
@@ -4704,7 +4512,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0146
+- id: dat_15_0140
   category: Power Consumption
   mode: null
   command: null
@@ -4738,7 +4546,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0147
+- id: dat_15_0141
   category: Power Consumption
   mode: null
   command: null
@@ -4772,7 +4580,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0148
+- id: dat_15_0142
   category: Power Consumption
   mode: null
   command: null
@@ -4806,7 +4614,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0149
+- id: dat_15_0143
   category: Power Consumption
   mode: null
   command: null
@@ -4839,7 +4647,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0150
+- id: dat_15_0144
   category: Power Consumption
   mode: null
   command: null
@@ -4873,7 +4681,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0151
+- id: dat_15_0145
   category: Power Consumption
   mode: null
   command: null
@@ -4907,7 +4715,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0152
+- id: dat_15_0146
   category: Power Consumption
   mode: null
   command: null
@@ -4939,7 +4747,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0153
+- id: dat_15_0147
   category: Power Consumption
   mode: null
   command: null
@@ -4971,7 +4779,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0154
+- id: dat_15_0148
   category: Power Consumption
   mode: null
   command: null
@@ -5003,7 +4811,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0155
+- id: dat_15_0149
   category: Power Consumption
   mode: null
   command: null
@@ -5035,7 +4843,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0156
+- id: dat_15_0150
   category: Power Consumption
   mode: null
   command: null
@@ -5067,7 +4875,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0157
+- id: dat_15_0151
   category: Power Consumption
   mode: null
   command: null
@@ -5099,7 +4907,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0158
+- id: dat_15_0152
   category: Power Consumption
   mode: null
   command: null
@@ -5131,7 +4939,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0159
+- id: dat_15_0153
   category: Power Consumption
   mode: null
   command: null
@@ -5165,7 +4973,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0160
+- id: dat_15_0154
   category: Power Consumption
   mode: null
   command: null
@@ -5199,7 +5007,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0161
+- id: dat_15_0155
   category: Power Consumption
   mode: null
   command: null
@@ -5233,7 +5041,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0162
+- id: dat_15_0156
   category: Power Consumption
   mode: null
   command: null
@@ -5267,7 +5075,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0163
+- id: dat_15_0157
   category: Power Consumption
   mode: null
   command: null
@@ -5301,7 +5109,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0164
+- id: dat_15_0158
   category: Power Consumption
   mode: null
   command: null
@@ -5335,7 +5143,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0165
+- id: dat_15_0159
   category: Power Consumption
   mode: null
   command: null
@@ -5367,7 +5175,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0166
+- id: dat_15_0160
   category: Power Consumption
   mode: null
   command: null
@@ -5399,7 +5207,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0167
+- id: dat_15_0161
   category: Power Consumption
   mode: null
   command: null
@@ -5431,7 +5239,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0168
+- id: dat_15_0162
   category: Power Consumption
   mode: null
   command: null
@@ -5463,7 +5271,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0169
+- id: dat_15_0163
   category: Power Consumption
   mode: null
   command: null
@@ -5495,7 +5303,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0170
+- id: dat_15_0164
   category: Power Consumption
   mode: null
   command: null
@@ -5529,7 +5337,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0171
+- id: dat_15_0165
   category: Power Consumption
   mode: null
   command: null
@@ -5563,7 +5371,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0172
+- id: dat_15_0166
   category: Power Consumption
   mode: null
   command: null
@@ -5595,7 +5403,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0173
+- id: dat_15_0167
   category: Power Consumption
   mode: null
   command: null
@@ -5627,7 +5435,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0174
+- id: dat_15_0168
   category: Power Consumption
   mode: null
   command: null
@@ -5659,7 +5467,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0175
+- id: dat_15_0169
   category: Power Consumption
   mode: null
   command: null
@@ -5691,7 +5499,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0176
+- id: dat_15_0170
   category: Power Consumption
   mode: null
   command: null
@@ -5723,7 +5531,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0177
+- id: dat_15_0171
   category: Power Consumption
   mode: null
   command: null
@@ -5755,7 +5563,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0178
+- id: dat_15_0172
   category: Power Consumption
   mode: null
   command: null
@@ -5787,7 +5595,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0179
+- id: dat_15_0173
   category: Power Consumption
   mode: null
   command: null
@@ -5819,7 +5627,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0180
+- id: dat_15_0174
   category: Power Consumption
   mode: null
   command: null
@@ -5851,7 +5659,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0181
+- id: dat_15_0175
   category: Power Consumption
   mode: null
   command: null
@@ -5883,7 +5691,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0182
+- id: dat_15_0176
   category: Power Consumption
   mode: null
   command: null
@@ -5915,7 +5723,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0183
+- id: dat_15_0177
   category: Power Consumption
   mode: null
   command: null
@@ -5947,7 +5755,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0184
+- id: dat_15_0178
   category: Power Consumption
   mode: null
   command: null
@@ -5979,7 +5787,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0185
+- id: dat_15_0179
   category: Power Consumption
   mode: null
   command: null
@@ -6011,7 +5819,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0186
+- id: dat_15_0180
   category: Power Consumption
   mode: null
   command: null
@@ -6045,7 +5853,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0187
+- id: dat_15_0181
   category: Power Consumption
   mode: null
   command: null
@@ -6079,7 +5887,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0188
+- id: dat_15_0182
   category: Power Consumption
   mode: null
   command: null
@@ -6113,7 +5921,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0189
+- id: dat_15_0183
   category: Power Consumption
   mode: null
   command: null
@@ -6147,7 +5955,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0190
+- id: dat_15_0184
   category: Power Consumption
   mode: null
   command: null
@@ -6181,7 +5989,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0191
+- id: dat_15_0185
   category: Power Consumption
   mode: null
   command: null
@@ -6215,7 +6023,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0192
+- id: dat_15_0186
   category: Power Consumption
   mode: null
   command: null
@@ -6249,7 +6057,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0193
+- id: dat_15_0187
   category: Power Consumption
   mode: null
   command: null
@@ -6283,7 +6091,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0194
+- id: dat_15_0188
   category: Power Consumption
   mode: null
   command: null
@@ -6315,7 +6123,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0195
+- id: dat_15_0189
   category: Power Consumption
   mode: null
   command: null
@@ -6347,7 +6155,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0196
+- id: dat_15_0190
   category: Power Consumption
   mode: null
   command: null
@@ -6379,7 +6187,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0197
+- id: dat_15_0191
   category: Power Consumption
   mode: null
   command: null
@@ -6413,7 +6221,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0198
+- id: dat_15_0192
   category: Power Consumption
   mode: null
   command: null
@@ -6445,7 +6253,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0199
+- id: dat_15_0193
   category: Power Consumption
   mode: null
   command: null
@@ -6479,7 +6287,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0200
+- id: dat_15_0194
   category: Power Consumption
   mode: null
   command: null
@@ -6511,7 +6319,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0201
+- id: dat_15_0195
   category: Power Consumption
   mode: null
   command: null
@@ -6545,7 +6353,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0202
+- id: dat_15_0196
   category: Power Consumption
   mode: null
   command: null
@@ -6579,7 +6387,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0203
+- id: dat_15_0197
   category: Power Consumption
   mode: null
   command: null
@@ -6613,7 +6421,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0204
+- id: dat_15_0198
   category: Power Consumption
   mode: null
   command: null
@@ -6645,7 +6453,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0205
+- id: dat_15_0199
   category: Power Consumption
   mode: null
   command: null
@@ -6677,7 +6485,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0206
+- id: dat_15_0200
   category: Power Management
   mode: null
   command: null
@@ -6711,7 +6519,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0207
+- id: dat_15_0201
   category: Power Management
   mode: null
   command: null
@@ -6745,7 +6553,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0208
+- id: dat_15_0202
   category: Power Management
   mode: null
   command: null
@@ -6777,7 +6585,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0209
+- id: dat_15_0203
   category: Power Management
   mode: null
   command: null
@@ -6809,7 +6617,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0210
+- id: dat_15_0204
   category: Power Management
   mode: null
   command: null
@@ -6843,7 +6651,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0211
+- id: dat_15_0205
   category: Power Management
   mode: null
   command: null
@@ -6877,7 +6685,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0212
+- id: dat_15_0206
   category: Power Management
   mode: null
   command: null
@@ -6909,7 +6717,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0213
+- id: dat_15_0207
   category: Power Management
   mode: null
   command: null
@@ -6943,7 +6751,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0214
+- id: dat_15_0208
   category: Power Management
   mode: null
   command: null
@@ -6975,7 +6783,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0215
+- id: dat_15_0209
   category: Power Management
   mode: null
   command: null
@@ -7007,7 +6815,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0216
+- id: dat_15_0210
   category: Power Management
   mode: null
   command: null
@@ -7039,7 +6847,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0217
+- id: dat_15_0211
   category: Power Management
   mode: null
   command: null
@@ -7071,7 +6879,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0218
+- id: dat_15_0212
   category: Power Management
   mode: null
   command: null
@@ -7103,7 +6911,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0219
+- id: dat_15_0213
   category: Power Management
   mode: null
   command: null
@@ -7135,7 +6943,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0220
+- id: dat_15_0214
   category: Power Management
   mode: null
   command: null
@@ -7167,7 +6975,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0221
+- id: dat_15_0215
   category: Power Management
   mode: null
   command: null
@@ -7199,7 +7007,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0222
+- id: dat_15_0216
   category: Power Management
   mode: null
   command: null
@@ -7231,7 +7039,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0223
+- id: dat_15_0217
   category: Power Management
   mode: null
   command: null
@@ -7265,7 +7073,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0224
+- id: dat_15_0218
   category: Power Management
   mode: null
   command: null
@@ -7297,7 +7105,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0225
+- id: dat_15_0219
   category: Power Management
   mode: null
   command: null
@@ -7331,7 +7139,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0226
+- id: dat_15_0220
   category: Power Management
   mode: null
   command: null
@@ -7365,7 +7173,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0227
+- id: dat_15_0221
   category: Power Management
   mode: null
   command: null
@@ -7399,7 +7207,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0228
+- id: dat_15_0222
   category: Power Management
   mode: null
   command: null
@@ -7433,7 +7241,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0229
+- id: dat_15_0223
   category: Power Management
   mode: null
   command: null
@@ -7467,7 +7275,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0230
+- id: dat_15_0224
   category: Power Management
   mode: null
   command: null
@@ -7501,7 +7309,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0231
+- id: dat_15_0225
   category: Power Management
   mode: null
   command: null
@@ -7535,7 +7343,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0232
+- id: dat_15_0226
   category: Power Management
   mode: null
   command: null
@@ -7567,7 +7375,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0233
+- id: dat_15_0227
   category: Power Management
   mode: null
   command: null
@@ -7599,7 +7407,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0234
+- id: dat_15_0228
   category: Power Management
   mode: null
   command: null
@@ -7633,7 +7441,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0235
+- id: dat_15_0229
   category: Power Management
   mode: null
   command: null
@@ -7667,7 +7475,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0236
+- id: dat_15_0230
   category: Power Management
   mode: null
   command: null
@@ -7701,7 +7509,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0237
+- id: dat_15_0231
   category: Power Management
   mode: null
   command: null
@@ -7733,7 +7541,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0238
+- id: dat_15_0232
   category: Power Management
   mode: null
   command: null
@@ -7765,7 +7573,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0239
+- id: dat_15_0233
   category: Power Management
   mode: null
   command: null
@@ -7797,7 +7605,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0240
+- id: dat_15_0234
   category: Power Management
   mode: null
   command: null
@@ -7831,7 +7639,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0241
+- id: dat_15_0235
   category: Power Management
   mode: null
   command: null
@@ -7863,7 +7671,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0242
+- id: dat_15_0236
   category: Power Management
   mode: null
   command: null
@@ -7897,7 +7705,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0243
+- id: dat_15_0237
   category: Power Management
   mode: null
   command: null
@@ -7931,7 +7739,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0244
+- id: dat_15_0238
   category: Power Management
   mode: null
   command: null
@@ -7963,7 +7771,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0245
+- id: dat_15_0239
   category: Power Management
   mode: null
   command: null
@@ -7995,7 +7803,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0246
+- id: dat_15_0240
   category: Power Management
   mode: null
   command: null
@@ -8029,7 +7837,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0247
+- id: dat_15_0241
   category: Power Management
   mode: null
   command: null
@@ -8063,7 +7871,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0248
+- id: dat_15_0242
   category: Power Management
   mode: null
   command: null
@@ -8097,7 +7905,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0249
+- id: dat_15_0243
   category: Power Management
   mode: null
   command: null
@@ -8131,7 +7939,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0250
+- id: dat_15_0244
   category: Power Management
   mode: null
   command: null
@@ -8165,7 +7973,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0251
+- id: dat_15_0245
   category: Power Management
   mode: null
   command: null
@@ -8199,7 +8007,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0252
+- id: dat_15_0246
   category: Power Management
   mode: null
   command: null
@@ -8231,7 +8039,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0253
+- id: dat_15_0247
   category: Power Management
   mode: null
   command: null
@@ -8263,7 +8071,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0254
+- id: dat_15_0248
   category: Power Management
   mode: null
   command: null
@@ -8297,7 +8105,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0255
+- id: dat_15_0249
   category: Power Management
   mode: null
   command: null
@@ -8331,7 +8139,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0256
+- id: dat_15_0250
   category: Power Management
   mode: null
   command: null
@@ -8363,7 +8171,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0257
+- id: dat_15_0251
   category: Power Management
   mode: null
   command: null
@@ -8395,7 +8203,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0258
+- id: dat_15_0252
   category: Power Management
   mode: null
   command: null
@@ -8427,7 +8235,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0259
+- id: dat_15_0253
   category: Power Management
   mode: null
   command: null
@@ -8459,7 +8267,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0260
+- id: dat_15_0254
   category: Power Management
   mode: null
   command: null
@@ -8491,7 +8299,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0261
+- id: dat_15_0255
   category: Power Management
   mode: null
   command: null
@@ -8523,7 +8331,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0262
+- id: dat_15_0256
   category: Power Management
   mode: null
   command: null
@@ -8555,7 +8363,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0263
+- id: dat_15_0257
   category: Power Management
   mode: null
   command: null
@@ -8587,7 +8395,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0264
+- id: dat_15_0258
   category: Power Management
   mode: null
   command: null
@@ -8621,7 +8429,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0265
+- id: dat_15_0259
   category: Power Management
   mode: null
   command: null
@@ -8655,7 +8463,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0266
+- id: dat_15_0260
   category: Power Management
   mode: null
   command: null
@@ -8689,7 +8497,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0267
+- id: dat_15_0261
   category: Power Management
   mode: null
   command: null
@@ -8723,7 +8531,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0268
+- id: dat_15_0262
   category: Power Management
   mode: null
   command: null
@@ -8757,7 +8565,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0269
+- id: dat_15_0263
   category: Power Management
   mode: null
   command: null
@@ -8789,7 +8597,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0270
+- id: dat_15_0264
   category: Power Management
   mode: null
   command: null
@@ -8823,7 +8631,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0271
+- id: dat_15_0265
   category: Power Management
   mode: null
   command: null
@@ -8857,7 +8665,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0272
+- id: dat_15_0266
   category: Power Management
   mode: null
   command: null
@@ -8891,7 +8699,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0273
+- id: dat_15_0267
   category: Power Management
   mode: null
   command: null
@@ -8923,7 +8731,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0274
+- id: dat_15_0268
   category: Power Management
   mode: null
   command: null
@@ -8955,7 +8763,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0275
+- id: dat_15_0269
   category: Power Management
   mode: null
   command: null
@@ -8987,7 +8795,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0276
+- id: dat_15_0270
   category: Power Management
   mode: null
   command: null
@@ -9021,7 +8829,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0277
+- id: dat_15_0271
   category: Power Management
   mode: null
   command: null
@@ -9055,7 +8863,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0278
+- id: dat_15_0272
   category: Power Management
   mode: null
   command: null
@@ -9087,7 +8895,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0279
+- id: dat_15_0273
   category: Power Management
   mode: null
   command: null
@@ -9119,7 +8927,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0280
+- id: dat_15_0274
   category: Power Management
   mode: null
   command: null
@@ -9153,7 +8961,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0281
+- id: dat_15_0275
   category: Power Management
   mode: null
   command: null
@@ -9187,7 +8995,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0282
+- id: dat_15_0276
   category: Power Management
   mode: null
   command: null
@@ -9221,7 +9029,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0283
+- id: dat_15_0277
   category: Power Management
   mode: null
   command: null
@@ -9253,7 +9061,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0284
+- id: dat_15_0278
   category: Power Management
   mode: null
   command: null
@@ -9285,7 +9093,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0285
+- id: dat_15_0279
   category: Power Management
   mode: null
   command: null
@@ -9317,7 +9125,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0286
+- id: dat_15_0280
   category: Power Management
   mode: null
   command: null
@@ -9349,7 +9157,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0287
+- id: dat_15_0281
   category: Power Management
   mode: null
   command: null
@@ -9381,7 +9189,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0288
+- id: dat_15_0282
   category: Power Management
   mode: null
   command: null
@@ -9413,7 +9221,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0289
+- id: dat_15_0283
   category: Power Management
   mode: null
   command: null
@@ -9445,7 +9253,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0290
+- id: dat_15_0284
   category: Power Management
   mode: null
   command: null
@@ -9477,7 +9285,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0291
+- id: dat_15_0285
   category: Power Management
   mode: null
   command: null
@@ -9511,7 +9319,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0292
+- id: dat_15_0286
   category: Power Management
   mode: null
   command: null
@@ -9545,7 +9353,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0293
+- id: dat_15_0287
   category: Power Management
   mode: null
   command: null
@@ -9577,7 +9385,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0294
+- id: dat_15_0288
   category: Power Management
   mode: null
   command: null
@@ -9609,7 +9417,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0295
+- id: dat_15_0289
   category: Power Management
   mode: null
   command: null
@@ -9643,7 +9451,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0296
+- id: dat_15_0290
   category: Power Management
   mode: null
   command: null
@@ -9677,7 +9485,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0297
+- id: dat_15_0291
   category: Power Management
   mode: null
   command: null
@@ -9709,7 +9517,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0298
+- id: dat_15_0292
   category: Power Management
   mode: null
   command: null
@@ -9743,7 +9551,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0299
+- id: dat_15_0293
   category: Power Management
   mode: null
   command: null
@@ -9777,7 +9585,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0300
+- id: dat_15_0294
   category: Power Management
   mode: null
   command: null
@@ -9809,7 +9617,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0301
+- id: dat_15_0295
   category: Power Management
   mode: null
   command: null
@@ -9841,7 +9649,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0302
+- id: dat_15_0296
   category: Power Management
   mode: null
   command: null
@@ -9875,7 +9683,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0303
+- id: dat_15_0297
   category: Sleep Mode
   mode: null
   command: null
@@ -9907,7 +9715,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0304
+- id: dat_15_0298
   category: Sleep Mode
   mode: null
   command: null
@@ -9939,7 +9747,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0305
+- id: dat_15_0299
   category: Sleep Mode
   mode: null
   command: null
@@ -9971,7 +9779,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0306
+- id: dat_15_0300
   category: Sleep Mode
   mode: null
   command: null
@@ -10003,7 +9811,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0307
+- id: dat_15_0301
   category: Sleep Mode
   mode: null
   command: null
@@ -10035,7 +9843,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0308
+- id: dat_15_0302
   category: Sleep Mode
   mode: null
   command: null
@@ -10067,7 +9875,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0309
+- id: dat_15_0303
   category: Sleep Mode
   mode: null
   command: null
@@ -10099,7 +9907,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0310
+- id: dat_15_0304
   category: Sleep Mode
   mode: null
   command: null
@@ -10131,7 +9939,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0311
+- id: dat_15_0305
   category: Sleep Mode
   mode: null
   command: null
@@ -10163,7 +9971,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0312
+- id: dat_15_0306
   category: Sleep Mode
   mode: null
   command: null
@@ -10195,7 +10003,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0313
+- id: dat_15_0307
   category: Sleep Mode
   mode: null
   command: null
@@ -10227,7 +10035,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0314
+- id: dat_15_0308
   category: Sleep Mode
   mode: null
   command: null
@@ -10261,7 +10069,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0315
+- id: dat_15_0309
   category: Sleep Mode
   mode: null
   command: null
@@ -10293,7 +10101,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0316
+- id: dat_15_0310
   category: Sleep Mode
   mode: null
   command: null
@@ -10325,7 +10133,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0317
+- id: dat_15_0311
   category: Sleep Mode
   mode: null
   command: null
@@ -10359,7 +10167,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0318
+- id: dat_15_0312
   category: Sleep Mode
   mode: null
   command: null
@@ -10393,7 +10201,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0319
+- id: dat_15_0313
   category: Sleep Mode
   mode: null
   command: null
@@ -10427,7 +10235,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0320
+- id: dat_15_0314
   category: Sleep Mode
   mode: null
   command: null
@@ -10461,7 +10269,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0321
+- id: dat_15_0315
   category: Sleep Mode
   mode: null
   command: null
@@ -10495,7 +10303,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0322
+- id: dat_15_0316
   category: Sleep Mode
   mode: null
   command: null
@@ -10529,7 +10337,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0323
+- id: dat_15_0317
   category: Sleep Mode
   mode: null
   command: null
@@ -10563,7 +10371,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0324
+- id: dat_15_0318
   category: Sleep Mode
   mode: null
   command: null
@@ -10595,7 +10403,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0325
+- id: dat_15_0319
   category: Sleep Mode
   mode: null
   command: null
@@ -10629,7 +10437,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0326
+- id: dat_15_0320
   category: Sleep Mode
   mode: null
   command: null
@@ -10663,7 +10471,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0327
+- id: dat_15_0321
   category: Sleep Mode
   mode: null
   command: null
@@ -10695,7 +10503,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0328
+- id: dat_15_0322
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -10727,7 +10535,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0329
+- id: dat_15_0323
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -10759,7 +10567,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0330
+- id: dat_15_0324
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -10791,7 +10599,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0331
+- id: dat_15_0325
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -10823,7 +10631,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0332
+- id: dat_15_0326
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -10857,7 +10665,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0333
+- id: dat_15_0327
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -10891,7 +10699,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0334
+- id: dat_15_0328
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -10925,7 +10733,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0335
+- id: dat_15_0329
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -10957,7 +10765,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0336
+- id: dat_15_0330
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -10989,7 +10797,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0337
+- id: dat_15_0331
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11021,7 +10829,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0338
+- id: dat_15_0332
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11053,7 +10861,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0339
+- id: dat_15_0333
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11085,7 +10893,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0340
+- id: dat_15_0334
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11117,7 +10925,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0341
+- id: dat_15_0335
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11149,7 +10957,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0342
+- id: dat_15_0336
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11181,7 +10989,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0343
+- id: dat_15_0337
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11215,7 +11023,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0344
+- id: dat_15_0338
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11249,7 +11057,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0345
+- id: dat_15_0339
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11283,7 +11091,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0346
+- id: dat_15_0340
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11317,7 +11125,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0347
+- id: dat_15_0341
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11349,7 +11157,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0348
+- id: dat_15_0342
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11383,7 +11191,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0349
+- id: dat_15_0343
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11415,7 +11223,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0350
+- id: dat_15_0344
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11447,7 +11255,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0351
+- id: dat_15_0345
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11479,7 +11287,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0352
+- id: dat_15_0346
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11511,7 +11319,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0353
+- id: dat_15_0347
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11545,7 +11353,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0354
+- id: dat_15_0348
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11577,7 +11385,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0355
+- id: dat_15_0349
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11609,7 +11417,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0356
+- id: dat_15_0350
   category: Slow Clock / RTC
   mode: null
   command: null
@@ -11641,7 +11449,7 @@
   - auto-detected
   created_at: '2026-10-13T18:03:07Z'
   updated_at: '2026-10-13T18:03:07Z'
-- id: dat_15_0357
+- id: dat_15_0351
   category: Slow Clock / RTC
   mode: null
   command: null

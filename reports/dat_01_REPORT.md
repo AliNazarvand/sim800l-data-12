@@ -1,17 +1,17 @@
 # dat_01 — AT Command
 
-Generated: 2026-10-13T18:07:56Z
+Generated: 2026-10-13T18:11:10Z
 
 | Field | Value |
 |-------|-------|
 | Status | complete |
-| Real records | 610 |
-| Unique records | 610 |
-| Total records | 610 |
-| Data file | dat_01_at_command.yaml |
-| Source count | 335 |
-| Coverage percent | 182.1 |
+| Real records | 335 |
+| Unique records | 335 |
+| Total records | 335 |
+| Coverage percent | 100 |
 | Coverage estimate | high |
+| Source count | 335 |
+| Reason | source available; coverage/threshold met |
 
 ## Notes
-Dataset complete per R12 (source available, coverage >= 95% or high estimate).
+Dataset complete per R12 (coverage in [95%, 100%] or threshold met).

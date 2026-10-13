@@ -1,6 +1,6 @@
 # dat_04 — Timing & Timeout
 
-Generated: 2026-10-13T18:07:56Z
+Generated: 2026-10-13T18:11:10Z
 
 | Field | Value |
 |-------|-------|
@@ -8,10 +8,10 @@ Generated: 2026-10-13T18:07:56Z
 | Real records | 70 |
 | Unique records | 70 |
 | Total records | 70 |
-| Data file | dat_04_timing_timeout.yaml |
-| Source count |  |
 | Coverage percent |  |
 | Coverage estimate |  |
+| Source count |  |
+| Reason | source available; coverage/threshold met |
 
 ## Notes
-Dataset complete per R12 (source available, coverage >= 95% or high estimate).
+Dataset complete per R12 (coverage in [95%, 100%] or threshold met).

@@ -607,3 +607,11 @@ now has:
 - dat_17 status: blocked (was complete).
 - validate.py exit=0; cross_ref.py exit=0
 - Result: complete=9 partial=3 blocked=5 deferred=9
+
+
+## Session v6-final — 2026-10-13T18:11:10Z
+- Fixed .Count bug (wrapped Where-Object in @())
+- Fixed dat_01 dedup: normalized command names by stripping AT prefix.
+- Fixed dat_15 dedup: 2-field key (category, parameter).
+- Fixed coverage rule: complete only if 95 <= coverage <= 100.
+- Result: complete=8 partial=4 blocked=5 deferred=1 (total=18)

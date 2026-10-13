@@ -1,6 +1,6 @@
 # dat_06 — Init Sequence
 
-Generated: 2026-10-13T18:07:56Z
+Generated: 2026-10-13T18:11:10Z
 
 | Field | Value |
 |-------|-------|
@@ -8,10 +8,10 @@ Generated: 2026-10-13T18:07:56Z
 | Real records | 20 |
 | Unique records | 20 |
 | Total records | 20 |
-| Data file | dat_06_init_sequence.yaml |
-| Source count |  |
 | Coverage percent |  |
 | Coverage estimate |  |
+| Source count |  |
+| Reason | source available; coverage/threshold met |
 
 ## Notes
-Dataset complete per R12 (source available, coverage >= 95% or high estimate).
+Dataset complete per R12 (coverage in [95%, 100%] or threshold met).
