@@ -43,3 +43,6 @@ Phase 1 complete. Production-ready dataset.
 
 ## 2026-10-13T17:20:20Z
 - Corrected pipeline v2.
+
+## 2026-10-13T17:23:10Z
+- v6 pipeline: status hygiene + source-aware cross-ref.

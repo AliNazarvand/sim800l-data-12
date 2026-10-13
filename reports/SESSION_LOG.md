@@ -558,3 +558,7 @@ now has:
 ## Session 2026-10-13T17:20:20Z
 - Ran corrected pipeline v2 (power fix, dedup, verbose logs).
 - Datasets: 18, records: 1018
+
+## Session 2026-10-13T17:23:10Z
+- v6: status hygiene (dat_14, dat_11, dat_17), cross-ref classified.
+- Datasets: 18, records: 1018

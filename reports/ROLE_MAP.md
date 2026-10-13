@@ -1,5 +1,5 @@
 # ROLE MAP
-_Generated: 2026-10-13T17:20:20Z_
+_Generated: 2026-10-13T17:23:10Z_
 
 | Dataset | Depends on | Depended on by | Status |
 |---|---|---|---|
@@ -16,7 +16,7 @@ _Generated: 2026-10-13T17:20:20Z_
 | dat_11_http_ftp_ssl | - | - | complete |
 | dat_12_audio | - | - | complete |
 | dat_13_sim_management | - | - | complete |
-| dat_14_operator_apn | - | 10 | unknown |
+| dat_14_operator_apn | - | 10 | complete |
 | dat_15_power_management | - | - | complete |
 | dat_16_board_evb | - | - | blocked |
 | dat_17_certificate_key_store | - | - | blocked |

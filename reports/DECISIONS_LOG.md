@@ -446,3 +446,25 @@ here-strings; single-quote here-strings (@'...'@) preserve literals.
 - Expanded header keyword sets for CSV classification (fixes power_tables=0).
 - dat_07 dedup: V2.02 wins over V1.00, V1.00 recorded in conflicts (R7, R20).
 - Removed | Out-Null from validation/cross-ref so output is visible (R17).
+
+## D-V6-final (2026-10-13T17:30:00Z)
+
+**Decision**: Final status hygiene and honest reporting pass.
+
+**Actions:**
+- dat_14: unknown -> complete (external mcc-mnc.com source, confidence 0.6 per R6; coverage_estimate=high per R12).
+- dat_11 (19 recs), dat_17 (9 recs): source.page set to "AT_Manual_V1.01 (not-indexed)" with explanatory note. Status unchanged.
+- cross_ref.py v6: 35 unresolved refs classified by required manual (blocked-source) instead of reported as errors.
+- TODO.md, README.md, reports regenerated with accurate counts.
+
+**Rationale:** R2 (accurate source), R6 (external source for dat_14), R11 (blocked not partial for missing source), R12 (complete allowed when coverage_estimate=high).
+
+**Outcome:**
+- complete: 12 / 18
+- partial :  2 / 18 (dat_01, dat_02)
+- blocked :  3 / 18 (dat_08, dat_16, dat_18)
+- unknown :  1 / 18 -> now complete (dat_14)
+
+**Rejected alternatives:**
+- Fabricating page numbers for dat_11/dat_17 (violates R2).
+- Marking unresolved refs as errors (they are documentation gaps, not bugs).

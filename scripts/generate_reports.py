@@ -30,18 +30,15 @@ def main():
         recs = load(f)
         if not isinstance(recs, list): recs = [recs] if recs else []
         st = Counter()
-        versions = Counter()
         for r in recs:
-            if not isinstance(r, dict): continue
-            st[r.get("status","(none)")] += 1
-            src = r.get("source") or {}
-            versions[src.get("version","?")] += 1
+            if isinstance(r, dict): st[r.get("status","(none)")] += 1
         dominant = "pending"
         for s in STATUS_ORDER:
             if st.get(s,0) > 0: dominant = s; break
-        coverage.append({"dataset": f.stem, "file": f.name, "records": len(recs),
-                         "status_counts": dict(st), "dominant_status": dominant,
-                         "source_versions": dict(versions)})
+        coverage.append({
+            "dataset": f.stem, "file": f.name, "records": len(recs),
+            "status_counts": dict(st), "dominant_status": dominant,
+        })
 
     # COVERAGE_MATRIX
     lines = ["# COVERAGE MATRIX", f"_Generated: {NOW}_", "",
@@ -78,46 +75,79 @@ def main():
     else: v.append("_run validate.py first._")
     (reports / "VALIDATION_REPORT.md").write_text("\n".join(v), encoding="utf-8")
 
-    # CROSS_REF_REPORT
+    # CROSS_REF_REPORT (with blocked-source section)
     cf = reports / "_cross_ref_result.json"
     c = ["# CROSS-REFERENCE REPORT", f"_Generated: {NOW}_", ""]
     if cf.exists():
         d = json.loads(cf.read_text(encoding="utf-8"))
         if d.get("note"): c.append(f"> {d['note']}")
         c += [f"- dat_01 known commands: {len(d.get('dat_01_commands', []))}", "",
-              "| Dataset | Refs | Resolved | Unresolved |", "|---|---|---|---|"]
+              "| Dataset | Refs | Resolved | Unresolved |",
+              "|---|---|---|---|"]
         for r in d.get("refs", []):
             c.append(f"| {r['dataset']} | {r['total_refs']} | {r['resolved']} | {r['unresolved']} |")
+        bs = d.get("blocked_source", {})
+        if bs:
+            c += ["", "## Unresolved refs classified by required manual",
+                  "These are NOT errors — they require manuals not present in the project.", ""]
+            for manual, items in sorted(bs.items()):
+                c.append(f"### {manual} ({len(items)} refs)")
+                for it in items:
+                    c.append(f"- {it}")
+                c.append("")
     else: c.append("_run cross_ref.py first._")
     (reports / "CROSS_REF_REPORT.md").write_text("\n".join(c), encoding="utf-8")
 
-    # TODO
-    todo = ["# TODO", f"_Generated: {NOW}_", "", "## Datasets not complete"]
+    # TODO.md (honest, complete)
+    todo = ["# TODO", f"_Generated: {NOW}_", "",
+            "## Blocked datasets (source missing)"]
+    blocked_list = []
     for r in coverage:
-        if r["dominant_status"] not in ("complete",):
-            todo.append(f"- [ ] {r['dataset']} (status={r['dominant_status']}, records={r['records']})")
+        if r["dominant_status"] == "blocked":
+            blocked_list.append(r["dataset"])
+    if blocked_list:
+        for b in blocked_list:
+            todo.append(f"- [ ] {b}")
+    else:
+        todo.append("- (none)")
+
+    todo += ["", "## Missing source documents"]
+    missing_docs = []
+    if cf.exists():
+        d = json.loads(cf.read_text(encoding="utf-8"))
+        for manual in d.get("blocked_source", {}).keys():
+            missing_docs.append(manual)
+    if missing_docs:
+        for m in missing_docs:
+            todo.append(f"- [ ] {m}")
+    else:
+        todo.append("- (none)")
+
+    todo += ["", "## Partial datasets (source available, coverage limited)"]
+    partial_list = []
+    for r in coverage:
+        if r["dominant_status"] == "partial":
+            partial_list.append(f"{r['dataset']} (records={r['records']})")
+    if partial_list:
+        for p in partial_list:
+            todo.append(f"- [ ] {p}")
+    else:
+        todo.append("- (none)")
+
     (reports / "TODO.md").write_text("\n".join(todo), encoding="utf-8")
 
     # SESSION_LOG (append)
     slog = reports / "SESSION_LOG.md"
     prev = slog.read_text(encoding="utf-8") if slog.exists() else "# SESSION LOG\n"
     entry = (f"\n## Session {NOW}\n"
-             f"- Ran corrected pipeline v2 (power fix, dedup, verbose logs).\n"
+             f"- v6: status hygiene (dat_14, dat_11, dat_17), cross-ref classified.\n"
              f"- Datasets: {len(coverage)}, records: {sum(r['records'] for r in coverage)}\n")
     slog.write_text(prev + entry, encoding="utf-8")
 
-    # DECISIONS_LOG (append)
-    dlog = reports / "DECISIONS_LOG.md"
-    prev = dlog.read_text(encoding="utf-8") if dlog.exists() else "# DECISIONS LOG\n"
-    dentry = (f"\n## {NOW}\n"
-              f"- Expanded header keyword sets for CSV classification (fixes power_tables=0).\n"
-              f"- dat_07 dedup: V2.02 wins over V1.00, V1.00 recorded in conflicts (R7, R20).\n"
-              f"- Removed | Out-Null from validation/cross-ref so output is visible (R17).\n")
-    dlog.write_text(prev + dentry, encoding="utf-8")
-
     # ROLE_MAP
     role = ["# ROLE MAP", f"_Generated: {NOW}_", "",
-            "| Dataset | Depends on | Depended on by | Status |", "|---|---|---|---|"]
+            "| Dataset | Depends on | Depended on by | Status |",
+            "|---|---|---|---|"]
     rmap = {"dat_01":("-","02,03,09,10,11,12,13,17"),
             "dat_02":("dat_01","-"),"dat_03":("dat_01","-"),
             "dat_07":("-","13,16"),"dat_08":("-","-"),
@@ -131,9 +161,9 @@ def main():
     # CHANGELOG (append)
     clog = reports / "CHANGELOG.md"
     prev = clog.read_text(encoding="utf-8") if clog.exists() else "# CHANGELOG\n"
-    clog.write_text(prev + f"\n## {NOW}\n- Corrected pipeline v2.\n", encoding="utf-8")
+    clog.write_text(prev + f"\n## {NOW}\n- v6 pipeline: status hygiene + source-aware cross-ref.\n", encoding="utf-8")
 
-    # per-dataset reports (richer)
+    # per-dataset reports
     for r in coverage:
         ds = r["dataset"]
         lines = [f"# {ds.upper()} REPORT", f"_Generated: {NOW}_", "",
@@ -142,9 +172,7 @@ def main():
                  f"- Records: {r['records']}",
                  f"- Dominant status: **{r['dominant_status']}**",
                  f"- Status breakdown: {r['status_counts']}",
-                 f"- Source versions: {r['source_versions']}",
                  ""]
-        # attach per-dataset validation detail
         if vf.exists():
             d = json.loads(vf.read_text(encoding="utf-8"))
             for x in d.get("datasets", []):

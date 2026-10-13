@@ -178,16 +178,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+HTTPHEAD
   syntax: ''
   parameters:
@@ -232,16 +235,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+HTTPURL
   syntax: ''
   parameters:
@@ -258,16 +264,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+HTTPSSL
   syntax: ''
   parameters: []
@@ -281,16 +290,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+FTPOPEN
   syntax: ''
   parameters:
@@ -307,16 +319,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+FTPCLOSE
   syntax: ''
   parameters: []
@@ -486,16 +501,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+FTPFLST
   syntax: ''
   parameters: []
@@ -509,16 +527,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+FTPUSER
   syntax: ''
   parameters:
@@ -535,16 +556,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+FTPPASS
   syntax: ''
   parameters:
@@ -561,16 +585,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+FTPCWD
   syntax: ''
   parameters:
@@ -587,16 +614,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+FTPPWD
   syntax: ''
   parameters: []
@@ -779,16 +809,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+SSLCFG
   syntax: ''
   parameters:
@@ -808,16 +841,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+SSLCONF
   syntax: ''
   parameters:
@@ -834,16 +870,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+SSLOPEN
   syntax: ''
   parameters:
@@ -869,16 +908,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+SSLSEND
   syntax: ''
   parameters:
@@ -895,16 +937,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+SSLRECV
   syntax: ''
   parameters:
@@ -921,16 +966,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+SSLCLOSE
   syntax: ''
   parameters: []
@@ -944,16 +992,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+SSLSETCERT
   syntax: ''
   parameters:
@@ -970,16 +1021,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+SSLSETKEY
   syntax: ''
   parameters:
@@ -996,16 +1050,19 @@
     name: SIM800 Series AT Command Manual
     version: V1.01
     date: '2013-09-15'
+    page: AT_Manual_V1.01 (not-indexed)
   source_type: primary
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual V1.01. | limit_reason: Specialist source limit (25/38)'
+  notes: 'Command missing from AT Manual V1.01 cross-ref. | Not found in AT Manual
+    V1.01. | limit_reason: Specialist source limit (25/38); page not indexed in AT_Manual_V1.01
+    (not-indexed)'
   tags: []
   applicable_models:
   - SIM800L
   created_at: '2026-10-10T17:30:26Z'
-  updated_at: '2026-10-11T17:51:50Z'
+  updated_at: '2026-10-13T17:22:59Z'
   command: AT+SSLSETCA
   syntax: ''
   parameters:

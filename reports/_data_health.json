@@ -74,7 +74,7 @@
       "dataset": "dat_11_http_ftp_ssl",
       "records": 38,
       "duplicate_ids": 0,
-      "missing_source_page": 19,
+      "missing_source_page": 0,
       "complete_low_conf": 0
     },
     {
@@ -96,7 +96,7 @@
       "records": 52,
       "duplicate_ids": 0,
       "missing_source_page": 0,
-      "complete_low_conf": 0
+      "complete_low_conf": 52
     },
     {
       "dataset": "dat_15_power_management",
@@ -116,7 +116,7 @@
       "dataset": "dat_17_certificate_key_store",
       "records": 9,
       "duplicate_ids": 0,
-      "missing_source_page": 9,
+      "missing_source_page": 0,
       "complete_low_conf": 0
     },
     {
@@ -130,7 +130,7 @@
   "global": {
     "duplicate_ids": [],
     "dat07_duplicate_pins": [],
-    "missing_source_page": 32,
-    "complete_low_conf": 0
+    "missing_source_page": 4,
+    "complete_low_conf": 52
   }
 }

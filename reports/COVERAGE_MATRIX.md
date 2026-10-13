@@ -1,5 +1,5 @@
 # COVERAGE MATRIX
-_Generated: 2026-10-13T17:20:20Z_
+_Generated: 2026-10-13T17:23:10Z_
 
 | Dataset | File | Records | Dominant | Status breakdown |
 |---|---|---|---|---|
@@ -16,7 +16,7 @@ _Generated: 2026-10-13T17:20:20Z_
 | dat_11_http_ftp_ssl | dat_11_http_ftp_ssl.yaml | 38 | complete | blocked=19, complete=19 |
 | dat_12_audio | dat_12_audio.yaml | 13 | complete | blocked=4, complete=8, partial=1 |
 | dat_13_sim_management | dat_13_sim_management.yaml | 10 | complete | complete=10 |
-| dat_14_operator_apn | dat_14_operator_apn.yaml | 52 | unknown | unknown=52 |
+| dat_14_operator_apn | dat_14_operator_apn.yaml | 52 | complete | complete=52 |
 | dat_15_power_management | dat_15_power_management.yaml | 28 | complete | complete=28 |
 | dat_16_board_evb | dat_16_board_evb.yaml | 1 | blocked | blocked=1 |
 | dat_17_certificate_key_store | dat_17_certificate_key_store.yaml | 9 | blocked | blocked=9 |
