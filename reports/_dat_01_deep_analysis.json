@@ -1,0 +1,33 @@
+{
+  "archive_total_records": 188,
+  "with_urc_string": 188,
+  "urc_string_with_plus_prefix": 187,
+  "already_in_dat01": 185,
+  "missing_from_dat01": 2,
+  "candidates": [
+    {
+      "source_id": "dat_02_0082",
+      "command": "+CME ERROR",
+      "normalized": "CME ERROR",
+      "source_name": "SIM800 Series AT Command Manual",
+      "source_version": "V1.01",
+      "source_date": "2013-09-15",
+      "source_page": "23",
+      "source_section": "URC Section",
+      "archive_confidence": 0.6,
+      "archive_status": "partial"
+    },
+    {
+      "source_id": "dat_02_0117",
+      "command": "+CMS ERROR",
+      "normalized": "CMS ERROR",
+      "source_name": "SIM800 Series AT Command Manual",
+      "source_version": "V1.01",
+      "source_date": "2013-09-15",
+      "source_page": "102",
+      "source_section": "URC Section",
+      "archive_confidence": 0.6,
+      "archive_status": "partial"
+    }
+  ]
+}

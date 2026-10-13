@@ -79,7 +79,7 @@
 ---
 <!-- v4-correction RunId=a06e3f11 -->
 
-## D-V4-a06e3f11 (1405-07-21T07:50:37Z)
+## D-V4-a06e3f11 (2026-10-13T07:50:37Z)
 
 **Decision**: Roll back the v3 commit that accidentally committed conflict
 markers and still-polluted reports; restore from the oldest clean revision
@@ -95,7 +95,7 @@ found via `git log --all`; refuse to commit while conflict markers remain.
 ---
 <!-- v5-correction RunId=d31e1b30 -->
 
-## D-V5-d31e1b30 (1405-07-21T07:53:27Z)
+## D-V5-d31e1b30 (2026-10-13T07:53:27Z)
 
 **Decision**: Move the ~188 AT-command-shaped
 records out of `dat_02_urc.yaml` and into `reports/_archive/` (never
@@ -122,7 +122,7 @@ the phrase "Suspected command syntax, not URC".
 ---
 <!-- v6-fix RunId=c6f60ee0 -->
 
-## D-V6-c6f60ee0 (1405-07-21T07:56:20Z)
+## D-V6-c6f60ee0 (2026-10-13T07:56:20Z)
 
 **Decision**: Correct the numeric errors introduced in v5's reports. The
 underlying data change (removing 188 false positives from dat_02) was
@@ -139,7 +139,7 @@ YAML records.
 ---
 <!-- v7-correction RunId=2beb359b -->
 
-## D-V7-2beb359b (1405-07-21T07:58:37Z)
+## D-V7-2beb359b (2026-10-13T07:58:37Z)
 
 **Decision**: Replace scripts/cross_ref.py with a version that normalizes
 AT command names before comparison, and repair the COVERAGE_MATRIX
@@ -161,7 +161,7 @@ dat_02 row and the archive header that v5/v6 failed to fix.
 ---
 <!-- v8-cleanup RunId=146ab552 -->
 
-## D-V8-146ab552 (1405-07-21T08:00:31Z)
+## D-V8-146ab552 (2026-10-13T08:00:31Z)
 
 **Decision**: Regenerate `CROSS_REF_REPORT.md` from scratch (with a
 backup of the old body) so the file is internally consistent. The old
@@ -204,3 +204,25 @@ body still showed 40 issues while the v7 note at the bottom showed 0.
 - Inspect `_at_commands_index.json` and `at_v1_01_full.txt`, cross-check
   each candidate against the manual, and append only the verified commands
   to `dat_01_at_command.yaml`.
+---
+<!-- v10-cleanup -->
+
+## D-V10-33d34357 (2026-10-13T04:37:37Z)
+
+**Decision**: Final cleanup of residual report issues from v4 through v9.
+
+**Fixed:**
+- Jalali timestamps in SESSION_LOG.md, DECISIONS_LOG.md, COVERAGE_MATRIX.md.
+  All remaining 1405-* dates replaced with Gregorian 2026-10-13T...Z.
+- Wrong 870 number in COVERAGE_MATRIX (v5 line count): replaced with 18.
+- Stale RunId in CROSS_REF_REPORT.md (was v8's 146ab552): updated to v10.
+- Malformed PowerShell backtick fragment in DECISIONS_LOG v9 entry.
+
+**Deep analysis performed:**
+- Independent verification of the archive-vs-dat_01 diff.
+  Total archive records: 188
+  With urc_string: 188
+  With + prefix: 187
+  Already in dat_01: 185
+  Missing from dat_01: 2
+- Full report saved to reports/_dat_01_deep_analysis.json.

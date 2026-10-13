@@ -34,16 +34,16 @@ Generated: 2026-10-12T18:01:13.1792658+03:30
 ---
 <!-- v5-matrix RunId=d31e1b30 -->
 
-## v5 dat_02 recount (1405-07-21T07:53:27Z)
+## v5 dat_02 recount (2026-10-13T07:53:27Z)
 
-- dat_02 total records now: 870
+- dat_02 total records now: 18  (v10 correction: v5 reported 870 (line count); real record count is 18)
   (was 206 before removing 188 mislabeled entries)
 - The 5 blocked datasets (dat_08, 15, 16, 17, 18) remain blocked (source-gap).
 - dat_01 remains `partial` pending real AT-command population.
 ---
 <!-- v6-fix RunId=c6f60ee0 -->
 
-## v6: Correction of v5 counting bug (1405-07-21T07:56:20Z)
+## v6: Correction of v5 counting bug (2026-10-13T07:56:20Z)
 
 The previous correction (v5, RunId=d31e1b30) reported incorrect numbers:
 - claimed `dat_02 after: 870 records` — this was the LINE count, not record count.
@@ -59,7 +59,7 @@ The v5 note above is preserved for audit trail but is INCORRECT.
 ---
 <!-- v7-correction RunId=2beb359b -->
 
-## v7: dat_02 row fix + cross_ref normalization (1405-07-21T07:58:37Z)
+## v7: dat_02 row fix + cross_ref normalization (2026-10-13T07:58:37Z)
 
 - COVERAGE_MATRIX dat_02 row rewritten to reflect the actual count (18) and status (partial).
 - cross_ref.py normalization fixed: the previous version compared raw "AT+CNMI" against dat_01's "+CNMI" and produced false "not found" errors.

@@ -245,7 +245,7 @@
 ---
 <!-- v4-correction RunId=a06e3f11 -->
 
-## Correction v4 (1405-07-21T07:50:37Z)
+## Correction v4 (2026-10-13T07:50:37Z)
 
 - RunId: a06e3f11
 - Reports polluted in WT (audit): 3
@@ -262,7 +262,7 @@
 ---
 <!-- v5-correction RunId=d31e1b30 -->
 
-## v5 Correction (1405-07-21T07:53:27Z)
+## v5 Correction (2026-10-13T07:53:27Z)
 
 - RunId: d31e1b30
 - Backup           : D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\sim800l-data-backup-14050721-075320
@@ -277,7 +277,7 @@
 ---
 <!-- v6-fix RunId=c6f60ee0 -->
 
-## v6 Fix (1405-07-21T07:56:20Z)
+## v6 Fix (2026-10-13T07:56:20Z)
 
 - RunId: c6f60ee0
 - v5 reported incorrect dat_02 count (870). Real count: 18.
@@ -286,7 +286,7 @@
 ---
 <!-- v7-correction RunId=2beb359b -->
 
-## v7 Fix (1405-07-21T07:58:37Z)
+## v7 Fix (2026-10-13T07:58:37Z)
 
 - RunId: 2beb359b
 - Fixed COVERAGE_MATRIX dat_02 row (was "complete | 206", now "partial | 18").
@@ -299,7 +299,7 @@
 ---
 <!-- v8-cleanup RunId=146ab552 -->
 
-## v8 Cleanup (1405-07-21T08:00:31Z)
+## v8 Cleanup (2026-10-13T08:00:31Z)
 
 - RunId: 146ab552
 - Backup           : D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\sim800l-data-backup-14050721-080027
@@ -323,3 +323,21 @@
   present in the archive but missing from dat_01 (manual review required).
 - **No data files modified**; no records auto-added to dat_01.
 - All future timestamps use [System.Globalization.CultureInfo]::InvariantCulture.
+---
+<!-- v10-cleanup -->
+
+## v10 Cleanup (2026-10-13T04:37:37Z)
+
+- RunId: 33d34357
+- Jalali timestamps fixed: SESSION_LOG=5, DECISIONS_LOG=5, COVERAGE_MATRIX=3
+- Wrong dat_02 total 870 fixed in COVERAGE_MATRIX (real value: 18).
+- Stale RunId in CROSS_REF_REPORT.md fixed.
+- Malformed PowerShell backtick fragment fixed in DECISIONS_LOG v9 entry.
+- Deep archive analysis:
+  - Archive total records: 188
+  - With urc_string: 188
+  - With + prefix: 187
+  - Already in dat_01: 185
+  - Missing from dat_01: 2
+- No data files modified. No records auto-added.
+- Full deep analysis: reports/_dat_01_deep_analysis.json
