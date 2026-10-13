@@ -334,3 +334,27 @@ here-strings (@'...'@) which are literal.
 **Final state**: All reports are internally consistent; all timestamps are
 Gregorian ISO-8601; no stray control characters in markdown; all data
 layers pass validation and cross-reference.
+
+---
+<!-- v16-final -->
+
+## D-V16-d833e9a8 (2026-10-13T05:08:07Z)
+
+**Decision**: Final cosmetic and completeness pass.
+
+**Actions:**
+- Fixed unreadable text in VALIDATION_10_ERRORS.md (missing letters from
+  prior backtick-escape bugs: 'format', 'anyOf', 'enum violation').
+- Fixed unreadable text in DECISIONS_LOG.md (backtick-f and backtick-b/r/f
+  placeholders).
+- Fixed SESSION_LOG v14 count (12/1 -> 11/2).
+- +CGSM migrated from source: outcome=skipped.
+- COVERAGE_MATRIX dat_01 coverage updated: False.
+
+**Lesson reinforced**: future scripts must not use backtick escapes in
+here-strings; single-quote here-strings (@'...'@) preserve literals.
+
+**Final counts**:
+- complete: 11
+- partial :  2 (dat_02, dat_14)
+- blocked :  5 (dat_08, 15, 16, 17, 18)

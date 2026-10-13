@@ -399,8 +399,8 @@ Full lists: reports/_dat_01_coverage_report.json
 
 With this, dat_01 is complete, cross-ref = 0, validate = 0. The project
 now has:
-    - complete: 12 / 18
-    - partial : 1 / 18  (dat_14, optional per D-004)
+    - complete: 11 / 18
+    - partial : 2 / 18  (dat_02, dat_14)
     - blocked : 5 / 18  (dat_08, 15, 16, 17, 18)
     - deferred: 0 / 18
 
@@ -423,3 +423,24 @@ now has:
 - partial  :  2 / 18 (dat_02, dat_14)
 - blocked  :  5 / 18 (dat_08, 15, 16, 17, 18)
 - cross-ref = 0, validate = 0
+
+---
+<!-- v16-final -->
+
+## v16 Final (2026-10-13T05:08:07Z)
+
+- RunId: d833e9a8
+- VALIDATION_10_ERRORS.md unreadable fragments fixed: True
+- DECISIONS_LOG.md unreadable fragments fixed: False
+- SESSION_LOG v14 count corrected: True
+- +CGSM migration: skipped (id=dat_01_0280)
+- COVERAGE_MATRIX updated: False
+- No fabricated data.
+
+**Final project state (after v16):**
+- dat_01 coverage: 99.7%
+- cross-ref issues: 0
+- validate.py errors: 0
+- complete: 11 / 18
+- partial :  2 / 18 (dat_02, dat_14)
+- blocked :  5 / 18 (dat_08, 15, 16, 17, 18)
