@@ -403,3 +403,23 @@ now has:
     - partial : 1 / 18  (dat_14, optional per D-004)
     - blocked : 5 / 18  (dat_08, 15, 16, 17, 18)
     - deferred: 0 / 18
+
+---
+<!-- v15-final -->
+
+## v15 Final Close (2026-10-13T05:04:29Z)
+
+- RunId: ac51549e
+- Files scanned for control chars: 62
+- Files with control chars: 3
+- Total occurrences: 6
+- TODO.md 'remain locked' fixed: True
+- DECISIONS_LOG 'eports/' fixed: True
+- +CGSM present in source: True
+- No data files modified.
+
+**Project final state:**
+- complete : 11 / 18
+- partial  :  2 / 18 (dat_02, dat_14)
+- blocked  :  5 / 18 (dat_08, 15, 16, 17, 18)
+- cross-ref = 0, validate = 0

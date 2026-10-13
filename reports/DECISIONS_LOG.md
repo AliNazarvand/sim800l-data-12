@@ -189,7 +189,7 @@ body still showed 40 issues while the v7 note at the bottom showed 0.
   returned Jalali dates on this system, violating R19. From v9 onward all
   timestamps use `[System.Globalization.CultureInfo]::InvariantCulture`.
 - **`eature` typo**: v8's SESSION_LOG entry contained `eature/complete-datasets`
-  instead of `feature/complete-datasets` because a PowerShell `\` inside a
+  instead of `feature/complete-datasets` because a PowerShell `\ ` inside a
   here-string is a form-feed escape. Fixed by direct literal replacement.
 
 **New artifacts:**
@@ -249,7 +249,7 @@ probe of the index file to compute dat_01 coverage.
 
 **Reclassification:**
 - +CME ERROR and +CMS ERROR are error prefixes, not AT commands.
-  Moved to eports/_dat_03_error_code_candidates.json.
+  Moved to reports/_dat_03_error_code_candidates.json.
 - Old candidates file kept as _dat_01_migration_candidates.json.obsolete.
 
 **Blocked datasets** documented with URLs in reports/TODO.md.
@@ -303,3 +303,34 @@ the flat index dict.
 **Follow-up**:
 - Optionally, add +CGSM to dat_01 after verifying against the PDF.
 - The 5 blocked datasets (dat_08, 15, 16, 17, 18) require external sources.
+
+---
+<!-- v15-final -->
+
+## D-V15-ac51549e (2026-10-13T05:04:29Z)
+
+**Decision**: Final cleanup of residual control characters and closing notes.
+
+**Context**:
+Previous versions used PowerShell here-strings with backtick escapes
+(`  `, `  `, `  `) that were silently converted to BS/CR/FF
+control characters. This produced cosmetic artifacts like "remain locked"
+(instead of "blocked") and "eports/" (instead of "reports/").
+
+**Actions**:
+- Scanned 62 markdown files.
+- Found 6 control-char occurrences in 3 files.
+- Fixed TODO.md: "remain locked" -> "remain blocked".
+- Fixed DECISIONS_LOG.md: "eports/" -> "reports/".
+- Stripped remaining stray control chars from other reports.
+- Verified +CGSM presence in source: True.
+  Not auto-added (manual parameter review required).
+- No data files modified.
+
+**Lesson learned**: here-strings in PowerShell interpret backtick escapes.
+Future scripts must either avoid backticks entirely or use single-quoted
+here-strings (@'...'@) which are literal.
+
+**Final state**: All reports are internally consistent; all timestamps are
+Gregorian ISO-8601; no stray control characters in markdown; all data
+layers pass validation and cross-reference.

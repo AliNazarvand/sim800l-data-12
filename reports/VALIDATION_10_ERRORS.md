@@ -48,8 +48,8 @@ Remaining L1 errors after nullable fix: 28
 
 ## Recommendation
 
-- If most errors are ormat: date on null values:
-    - Either remove ormat: date from nullable date fields,
-    - Or split into nyOf: [{type: string, format: date}, {type: null}].
-- If most errors are num violation: add null to the enum list.
+- If most errors are  ormat: date on null values:
+    - Either remove  ormat: date from nullable date fields,
+    - Or split into  nyOf: [{type: string, format: date}, {type: null}].
+- If most errors are  num violation: add null to the enum list.
 - If errors are actual data problems: fix the specific records.

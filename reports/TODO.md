@@ -45,5 +45,5 @@ Generated: 2026-10-12T11:29:52Z
 | dat_17 | SSL AT Command Manual | https://www.simcom.com/ (AT Manuals) |
 | dat_18 | Certification (CE, FCC, GCF, PTCRB, RoHS, IC, TA, RCM) | CE: https://ec.europa.eu/ ; FCC: https://fcc.gov/oet/ea/fccid ; GCF: https://www.gcfcertification.org/ ; PTCRB: https://www.ptcrb.com/ |
 
-Per R11: these remain locked until the official source is on disk.
+Per R11: these remain blocked until the official source is on disk.
 Per R14: no synthetic data is permitted as a substitute.
