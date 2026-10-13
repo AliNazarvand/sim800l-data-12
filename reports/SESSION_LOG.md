@@ -274,3 +274,12 @@
 - cross_ref.py     : exit=0, issues=40
 - Git branch       : feature/complete-datasets
 - Warnings         : 0
+---
+<!-- v6-fix RunId=c6f60ee0 -->
+
+## v6 Fix (1405-07-21T07:56:20Z)
+
+- RunId: c6f60ee0
+- v5 reported incorrect dat_02 count (870). Real count: 18.
+- Reason: line-count vs record-count confusion in Split-Dat02FalsePositives.
+- See COVERAGE_MATRIX correction note for details.

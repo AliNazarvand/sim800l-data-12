@@ -119,3 +119,20 @@ the phrase "Suspected command syntax, not URC".
   command belongs in `dat_01_at_command.yaml`.
 - Populate dat_01 with legitimate commands to move its status from
   `partial` to `complete`.
+---
+<!-- v6-fix RunId=c6f60ee0 -->
+
+## D-V6-c6f60ee0 (1405-07-21T07:56:20Z)
+
+**Decision**: Correct the numeric errors introduced in v5's reports. The
+underlying data change (removing 188 false positives from dat_02) was
+correct, but the reported counts were wrong.
+
+**Rationale**: R2 (no false data) and R19 (accurate reporting) require
+that reports reflect reality. The v5 error was a display bug in
+`Split-Dat02FalsePositives`: it counted list-items (lines) instead of
+YAML records.
+
+**Correct values**:
+- dat_02 records after v5 cleanup: **18**
+- False positives archived: **188**

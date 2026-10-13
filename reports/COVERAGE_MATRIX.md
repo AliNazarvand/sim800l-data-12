@@ -40,3 +40,19 @@ Generated: 2026-10-12T18:01:13.1792658+03:30
   (was 206 before removing 188 mislabeled entries)
 - The 5 blocked datasets (dat_08, 15, 16, 17, 18) remain blocked (source-gap).
 - dat_01 remains `partial` pending real AT-command population.
+---
+<!-- v6-fix RunId=c6f60ee0 -->
+
+## v6: Correction of v5 counting bug (1405-07-21T07:56:20Z)
+
+The previous correction (v5, RunId=d31e1b30) reported incorrect numbers:
+- claimed `dat_02 after: 870 records` — this was the LINE count, not record count.
+- claimed `Archived: 7867` — again, lines, not records.
+- the COVERAGE_MATRIX note recorded the same wrong numbers.
+
+Actual values (recomputed in v6):
+- `dat_02_urc.yaml` record count: **18** (not 870).
+- Archived false positives: **188** (correct in v5).
+- Source of bug: `Split-Dat02FalsePositives` used `.Count` on line lists.
+
+The v5 note above is preserved for audit trail but is INCORRECT.

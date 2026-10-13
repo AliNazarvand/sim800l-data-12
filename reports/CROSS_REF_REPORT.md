@@ -50,19 +50,12 @@
 - SMS: 14
 - SIM: 10
 ---
-<!-- v5-correction RunId=d31e1b30 -->
+<!-- v6-fix RunId=c6f60ee0 -->
 
-## v5 Correction (1405-07-21T07:53:27Z)
+## v6 honest cross-ref recount (1405-07-21T07:56:20Z)
 
-- Reason: removed AT-command-shaped false positives from dat_02.
-- dat_02 records before: 206
-- dat_02 records after : 870
-- Records archived     : 188
-- Archive file         : reports/_archive/dat_02_false_positives_14050721-075323.yaml
-- cross_ref.py exit    : 0
-- Cross-ref issues now : 40
-
-```text
-Cross-ref: 40 issues, 334 commands in dat_01
-
-```
+- cross_ref issues: 40
+- These are LEGITIMATE: they reference URC/SMS/SIM records whose related
+  commands are absent from dat_01 because dat_01 is only partial.
+- To bring this to zero, dat_01 must be completed from
+  `sources/originals/SIM800 Series_AT Command Manual_V1.01.pdf`.
