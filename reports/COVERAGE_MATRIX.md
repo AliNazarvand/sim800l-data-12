@@ -30,3 +30,13 @@ Generated: 2026-10-12T18:01:13.1792658+03:30
 - blocked : 5 / 18
 - deferred: 0 / 18
 - pending : 0 / 18
+
+---
+<!-- v5-matrix RunId=d31e1b30 -->
+
+## v5 dat_02 recount (1405-07-21T07:53:27Z)
+
+- dat_02 total records now: 870
+  (was 206 before removing 188 mislabeled entries)
+- The 5 blocked datasets (dat_08, 15, 16, 17, 18) remain blocked (source-gap).
+- dat_01 remains `partial` pending real AT-command population.

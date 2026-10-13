@@ -92,3 +92,30 @@ found via `git log --all`; refuse to commit while conflict markers remain.
 **Follow-ups**:
 - Manual intervention needed for: 0 report(s).
 - 40 cross-ref issues still unresolved; require dedicated session.
+---
+<!-- v5-correction RunId=d31e1b30 -->
+
+## D-V5-d31e1b30 (1405-07-21T07:53:27Z)
+
+**Decision**: Move the ~188 AT-command-shaped
+records out of `dat_02_urc.yaml` and into `reports/_archive/` (never
+delete). These records were originally mislabeled as URCs by an early
+extractor; their own `notes` fields already admitted the mistake with
+the phrase "Suspected command syntax, not URC".
+
+**Rationale**:
+- R1/R6 forbid mislabeled data.
+- R10 forbids deleting records without a trace; archiving preserves them.
+- The 226 cross-ref issues reported by cross_ref.py were almost entirely
+  caused by these false positives.
+
+**Result**:
+- dat_02 before: 206 records
+- dat_02 after : 870 records
+- Cross-ref issues now: 40
+
+**Follow-ups**:
+- Manually review the archive and decide, per record, whether the AT
+  command belongs in `dat_01_at_command.yaml`.
+- Populate dat_01 with legitimate commands to move its status from
+  `partial` to `complete`.
