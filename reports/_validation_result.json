@@ -45,7 +45,7 @@
     {
       "dataset": "dat_07",
       "file": "dat_07_hardware_reference.yaml",
-      "records": 90,
+      "records": 83,
       "errors": 0,
       "schema_ok": true
     },
@@ -101,7 +101,7 @@
     {
       "dataset": "dat_15",
       "file": "dat_15_power_management.yaml",
-      "records": 13,
+      "records": 28,
       "errors": 0,
       "schema_ok": true
     },

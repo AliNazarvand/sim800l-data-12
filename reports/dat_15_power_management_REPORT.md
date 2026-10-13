@@ -1,12 +1,12 @@
 # DAT_15_POWER_MANAGEMENT REPORT
-_Generated: 2026-10-13T13:27:38Z_
+_Generated: 2026-10-13T17:20:20Z_
 
 ## Snapshot
 - File: `data/dat_15_power_management.yaml`
-- Records: 13
+- Records: 28
 - Dominant status: **complete**
-- Status breakdown: {'complete': 13}
-- Source versions: {'V2.02': 6, 'V1.00': 7}
+- Status breakdown: {'complete': 28}
+- Source versions: {'V2.02': 28}
 
 ## Validation
 - Errors: 0

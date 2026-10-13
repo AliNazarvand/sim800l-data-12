@@ -1,5 +1,5 @@
 # VALIDATION REPORT
-_Generated: 2026-10-13T13:27:38Z_
+_Generated: 2026-10-13T17:20:20Z_
 
 | Dataset | File | Records | Errors | Schema OK |
 |---|---|---|---|---|
@@ -9,7 +9,7 @@ _Generated: 2026-10-13T13:27:38Z_
 | dat_04 | dat_04_timing_timeout.yaml | 70 | 0 | True |
 | dat_05 | dat_05_state_machine.yaml | 31 | 0 | True |
 | dat_06 | dat_06_init_sequence.yaml | 35 | 0 | True |
-| dat_07 | dat_07_hardware_reference.yaml | 90 | 0 | True |
+| dat_07 | dat_07_hardware_reference.yaml | 83 | 0 | True |
 | dat_08 | dat_08_firmware_compatibility.yaml | 1 | 0 | True |
 | dat_09 | dat_09_sms.yaml | 14 | 0 | True |
 | dat_10 | dat_10_gprs_data.yaml | 24 | 0 | True |
@@ -17,7 +17,7 @@ _Generated: 2026-10-13T13:27:38Z_
 | dat_12 | dat_12_audio.yaml | 13 | 0 | True |
 | dat_13 | dat_13_sim_management.yaml | 10 | 0 | True |
 | dat_14 | dat_14_operator_apn.yaml | 52 | 0 | True |
-| dat_15 | dat_15_power_management.yaml | 13 | 0 | True |
+| dat_15 | dat_15_power_management.yaml | 28 | 0 | True |
 | dat_16 | dat_16_board_evb.yaml | 1 | 0 | True |
 | dat_17 | dat_17_certificate_key_store.yaml | 9 | 0 | True |
 | dat_18 | dat_18_certification.yaml | 1 | 0 | True |

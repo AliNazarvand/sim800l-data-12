@@ -44,7 +44,7 @@
     },
     {
       "dataset": "dat_07_hardware_reference",
-      "records": 90,
+      "records": 83,
       "duplicate_ids": 0,
       "missing_source_page": 0,
       "complete_low_conf": 0
@@ -95,12 +95,12 @@
       "dataset": "dat_14_operator_apn",
       "records": 52,
       "duplicate_ids": 0,
-      "missing_source_page": 52,
+      "missing_source_page": 0,
       "complete_low_conf": 0
     },
     {
       "dataset": "dat_15_power_management",
-      "records": 13,
+      "records": 28,
       "duplicate_ids": 0,
       "missing_source_page": 0,
       "complete_low_conf": 0
@@ -130,7 +130,7 @@
   "global": {
     "duplicate_ids": [],
     "dat07_duplicate_pins": [],
-    "missing_source_page": 84,
+    "missing_source_page": 32,
     "complete_low_conf": 0
   }
 }

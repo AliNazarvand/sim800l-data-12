@@ -441,3 +441,8 @@ here-strings; single-quote here-strings (@'...'@) preserve literals.
 - Expanded header keyword sets for CSV classification (fixes power_tables=0).
 - dat_07 dedup: V2.02 wins over V1.00, V1.00 recorded in conflicts (R7, R20).
 - Removed | Out-Null from validation/cross-ref so output is visible (R17).
+
+## 2026-10-13T17:20:20Z
+- Expanded header keyword sets for CSV classification (fixes power_tables=0).
+- dat_07 dedup: V2.02 wins over V1.00, V1.00 recorded in conflicts (R7, R20).
+- Removed | Out-Null from validation/cross-ref so output is visible (R17).

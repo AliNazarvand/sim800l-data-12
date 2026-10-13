@@ -1,5 +1,5 @@
 # DAT_05_STATE_MACHINE REPORT
-_Generated: 2026-10-13T13:27:38Z_
+_Generated: 2026-10-13T17:20:20Z_
 
 ## Snapshot
 - File: `data/dat_05_state_machine.yaml`

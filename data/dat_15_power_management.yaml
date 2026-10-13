@@ -1,182 +1,175 @@
-- category: Power
-  mode: '0'
-  command: null
+- id: dat_15_0001
+  category: Minimum Functionality
+  mode: Minimum functionality (AT+CFUN=0)
+  command: AT+CFUN=0
   parameter: current
   value_min: null
   value_typ: 0.83
   value_max: null
   unit: mA
-  condition: ''
+  condition: sleep mode (BS-PA-MFRMS=9)
   wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0001
+  related_commands:
+  - AT+CFUN=0
+  related_states:
+  - MINIMUM_FUNCTIONALITY
+  - SLEEP
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '26'
-    section: ''
+    section: 'Table 8: The current consumption of Minimum Functionality Mode'
     quote: ''
   source_type: primary
   confidence: 0.9
   status: complete
-  conflicts: []
-  notes: ''
+  conflicts:
+  - source:
+      name: SIM800L_Hardware_Design
+      version: V1.00
+      page: '27'
+      note: V1.00 reported 0.796 mA
+  notes: 'V1.00 value: 0.796 mA'
   tags:
-  - auto-extracted
-  - V2.02
+  - power
+  - current-consumption
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
-- category: Power
-  mode: '1'
-  command: null
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0002
+  category: Minimum Functionality
+  mode: Full functionality (AT+CFUN=1)
+  command: AT+CFUN=1
   parameter: current
   value_min: null
   value_typ: 1.04
   value_max: null
   unit: mA
-  condition: ''
+  condition: sleep mode (BS-PA-MFRMS=9)
   wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0002
+  related_commands:
+  - AT+CFUN=1
+  related_states:
+  - FULL_FUNCTIONALITY
+  - SLEEP
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '26'
-    section: ''
+    section: 'Table 8: The current consumption of Minimum Functionality Mode'
     quote: ''
   source_type: primary
   confidence: 0.9
   status: complete
-  conflicts: []
-  notes: ''
+  conflicts:
+  - source:
+      name: SIM800L_Hardware_Design
+      version: V1.00
+      page: '27'
+      note: V1.00 reported 1.02 mA
+  notes: 'V1.00 value: 1.02 mA'
   tags:
-  - auto-extracted
-  - V2.02
+  - power
+  - current-consumption
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
-- category: Power
-  mode: '4'
-  command: null
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0003
+  category: Minimum Functionality
+  mode: Flight mode / RF off (AT+CFUN=4)
+  command: AT+CFUN=4
   parameter: current
   value_min: null
   value_typ: 0.92
   value_max: null
   unit: mA
-  condition: ''
+  condition: sleep mode (BS-PA-MFRMS=9)
   wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0003
+  related_commands:
+  - AT+CFUN=4
+  related_states:
+  - FLIGHT_MODE
+  - SLEEP
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '26'
-    section: ''
+    section: 'Table 8: The current consumption of Minimum Functionality Mode'
     quote: ''
   source_type: primary
   confidence: 0.9
   status: complete
-  conflicts: []
-  notes: ''
+  conflicts:
+  - source:
+      name: SIM800L_Hardware_Design
+      version: V1.00
+      page: '27'
+      note: V1.00 reported 0.892 mA
+  notes: 'V1.00 value: 0.892 mA'
   tags:
-  - auto-extracted
-  - V2.02
+  - power
+  - current-consumption
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
-- category: Power
-  mode: Standby
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0004
+  category: Power Consumption
+  mode: Power down mode
   command: null
   parameter: current
   value_min: null
-  value_typ: null
+  value_typ: 0.175
   value_max: null
   unit: mA
-  condition: ''
+  condition: Typical 150-200 uA
   wake_source: null
   related_commands: []
   related_states: []
-  id: dat_15_0004
-  source:
-    name: SIM800H&SIM800L_Hardware_Design
-    version: V2.02
-    date: '2015-07-27'
-    page: '34'
-    section: ''
-    quote: ''
-  source_type: primary
-  confidence: 0.9
-  status: complete
-  conflicts: []
-  notes: ''
-  tags:
-  - auto-extracted
-  - V2.02
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
-- category: Power
-  mode: VBAT
-  command: null
-  parameter: current
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: mA
-  condition: ''
-  wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0005
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '60'
-    section: ''
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
     quote: ''
   source_type: primary
   confidence: 0.9
   status: complete
   conflicts: []
-  notes: ''
+  notes: 150 uA (min) - 200 uA (max)
   tags:
-  - auto-extracted
-  - V2.02
+  - power
+  - current-consumption
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
-- category: Power
-  mode: I MAX
-  command: null
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0005
+  category: Power Consumption
+  mode: Sleep mode (AT+CFUN=1, BS-PA-MFRMS=9)
+  command: AT+CFUN=1
   parameter: current
   value_min: null
-  value_typ: null
+  value_typ: 1.04
   value_max: null
   unit: mA
-  condition: ''
+  condition: sleep mode
   wake_source: null
-  related_commands: []
+  related_commands:
+  - AT+CFUN=1
   related_states: []
-  id: dat_15_0006
   source:
     name: SIM800H&SIM800L_Hardware_Design
     version: V2.02
     date: '2015-07-27'
     page: '60'
-    section: ''
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
     quote: ''
   source_type: primary
   confidence: 0.9
@@ -184,159 +177,32 @@
   conflicts: []
   notes: ''
   tags:
-  - auto-extracted
-  - V2.02
+  - power
+  - current-consumption
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
-- category: Power
-  mode: '0'
-  command: null
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0006
+  category: Power Consumption
+  mode: Sleep mode (AT+CFUN=1, BS-PA-MFRMS=5)
+  command: AT+CFUN=1
   parameter: current
   value_min: null
-  value_typ: 0.796
+  value_typ: 1.14
   value_max: null
   unit: mA
-  condition: ''
+  condition: sleep mode
   wake_source: null
-  related_commands: []
+  related_commands:
+  - AT+CFUN=1
   related_states: []
-  id: dat_15_0007
   source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    page: '27'
-    section: ''
-    quote: ''
-  source_type: primary
-  confidence: 0.9
-  status: complete
-  conflicts: []
-  notes: ''
-  tags:
-  - auto-extracted
-  - V1.00
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
-- category: Power
-  mode: '1'
-  command: null
-  parameter: current
-  value_min: null
-  value_typ: 1.02
-  value_max: null
-  unit: mA
-  condition: ''
-  wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0008
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    page: '27'
-    section: ''
-    quote: ''
-  source_type: primary
-  confidence: 0.9
-  status: complete
-  conflicts: []
-  notes: ''
-  tags:
-  - auto-extracted
-  - V1.00
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
-- category: Power
-  mode: '4'
-  command: null
-  parameter: current
-  value_min: null
-  value_typ: 0.892
-  value_max: null
-  unit: mA
-  condition: ''
-  wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0009
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    page: '27'
-    section: ''
-    quote: ''
-  source_type: primary
-  confidence: 0.9
-  status: complete
-  conflicts: []
-  notes: ''
-  tags:
-  - auto-extracted
-  - V1.00
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
-- category: Power
-  mode: Standby
-  command: null
-  parameter: current
-  value_min: null
-  value_typ: null
-  value_max: null
-  unit: mA
-  condition: ''
-  wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0010
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
-    page: '35'
-    section: ''
-    quote: ''
-  source_type: primary
-  confidence: 0.9
-  status: complete
-  conflicts: []
-  notes: ''
-  tags:
-  - auto-extracted
-  - V1.00
-  applicable_models:
-  - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
-- category: Power
-  mode: VBAT
-  command: null
-  parameter: current
-  value_min: null
-  value_typ: 4.0
-  value_max: null
-  unit: mA
-  condition: ''
-  wake_source: null
-  related_commands: []
-  related_states: []
-  id: dat_15_0011
-  source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
     page: '60'
-    section: ''
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
     quote: ''
   source_type: primary
   confidence: 0.9
@@ -344,31 +210,196 @@
   conflicts: []
   notes: ''
   tags:
-  - auto-extracted
-  - V1.00
+  - power
+  - current-consumption
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
-- category: Power
-  mode: I VBAT
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0007
+  category: Power Consumption
+  mode: Sleep mode (AT+CFUN=1, BS-PA-MFRMS=2)
+  command: AT+CFUN=1
+  parameter: current
+  value_min: null
+  value_typ: 1.57
+  value_max: null
+  unit: mA
+  condition: sleep mode
+  wake_source: null
+  related_commands:
+  - AT+CFUN=1
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0008
+  category: Power Consumption
+  mode: Idle mode (AT+CFUN=1, GSM850)
+  command: AT+CFUN=1
+  parameter: current
+  value_min: null
+  value_typ: 17.38
+  value_max: null
+  unit: mA
+  condition: idle mode, GSM850
+  wake_source: null
+  related_commands:
+  - AT+CFUN=1
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0009
+  category: Power Consumption
+  mode: Idle mode (AT+CFUN=1, EGSM900)
+  command: AT+CFUN=1
+  parameter: current
+  value_min: null
+  value_typ: 17.38
+  value_max: null
+  unit: mA
+  condition: idle mode, EGSM900
+  wake_source: null
+  related_commands:
+  - AT+CFUN=1
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0010
+  category: Power Consumption
+  mode: Idle mode (AT+CFUN=1, DCS1800)
+  command: AT+CFUN=1
+  parameter: current
+  value_min: null
+  value_typ: 17.38
+  value_max: null
+  unit: mA
+  condition: idle mode, DCS1800
+  wake_source: null
+  related_commands:
+  - AT+CFUN=1
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0011
+  category: Power Consumption
+  mode: Idle mode (AT+CFUN=1, PCS1900)
+  command: AT+CFUN=1
+  parameter: current
+  value_min: null
+  value_typ: 17.38
+  value_max: null
+  unit: mA
+  condition: idle mode, PCS1900
+  wake_source: null
+  related_commands:
+  - AT+CFUN=1
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0012
+  category: Power Consumption
+  mode: Voice call (PCL=5, GSM850)
   command: null
   parameter: current
   value_min: null
-  value_typ: 50.0
+  value_typ: 221.11
   value_max: null
   unit: mA
-  condition: ''
+  condition: voice call, GSM850, PCL=5
   wake_source: null
   related_commands: []
   related_states: []
-  id: dat_15_0012
   source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
     page: '60'
-    section: ''
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
     quote: ''
   source_type: primary
   confidence: 0.9
@@ -376,31 +407,31 @@
   conflicts: []
   notes: ''
   tags:
-  - auto-extracted
-  - V1.00
+  - power
+  - current-consumption
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
-- category: Power
-  mode: I MAX
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0013
+  category: Power Consumption
+  mode: Voice call (PCL=5, EGSM900)
   command: null
   parameter: current
   value_min: null
-  value_typ: 2.0
+  value_typ: 238.44
   value_max: null
   unit: mA
-  condition: ''
+  condition: voice call, EGSM900, PCL=5
   wake_source: null
   related_commands: []
   related_states: []
-  id: dat_15_0013
   source:
-    name: SIM800L_Hardware_Design
-    version: V1.00
-    date: '2013-08-20'
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
     page: '60'
-    section: ''
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
     quote: ''
   source_type: primary
   confidence: 0.9
@@ -408,9 +439,489 @@
   conflicts: []
   notes: ''
   tags:
-  - auto-extracted
-  - V1.00
+  - power
+  - current-consumption
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T13:27:25Z'
-  updated_at: '2026-10-13T13:27:25Z'
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0014
+  category: Power Consumption
+  mode: Voice call (PCL=5, DCS1800)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 157.48
+  value_max: null
+  unit: mA
+  condition: voice call, DCS1800, PCL=5
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0015
+  category: Power Consumption
+  mode: Voice call (PCL=5, PCS1900)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 159.22
+  value_max: null
+  unit: mA
+  condition: voice call, PCS1900, PCL=5
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0016
+  category: Power Consumption
+  mode: Data mode GPRS (1Rx,4Tx) (GSM850)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 491.79
+  value_max: null
+  unit: mA
+  condition: Data mode GPRS (1Rx,4Tx), GSM850
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0017
+  category: Power Consumption
+  mode: Data mode GPRS (1Rx,4Tx) (EGSM900)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 529.84
+  value_max: null
+  unit: mA
+  condition: Data mode GPRS (1Rx,4Tx), EGSM900
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0018
+  category: Power Consumption
+  mode: Data mode GPRS (1Rx,4Tx) (DCS1800)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 333.16
+  value_max: null
+  unit: mA
+  condition: Data mode GPRS (1Rx,4Tx), DCS1800
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0019
+  category: Power Consumption
+  mode: Data mode GPRS (1Rx,4Tx) (PCS1900)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 336.28
+  value_max: null
+  unit: mA
+  condition: Data mode GPRS (1Rx,4Tx), PCS1900
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0020
+  category: Power Consumption
+  mode: Data mode GPRS (3Rx,2Tx) (GSM850)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 359.75
+  value_max: null
+  unit: mA
+  condition: Data mode GPRS (3Rx,2Tx), GSM850
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0021
+  category: Power Consumption
+  mode: Data mode GPRS (3Rx,2Tx) (EGSM900)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 385.73
+  value_max: null
+  unit: mA
+  condition: Data mode GPRS (3Rx,2Tx), EGSM900
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0022
+  category: Power Consumption
+  mode: Data mode GPRS (3Rx,2Tx) (DCS1800)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 250.54
+  value_max: null
+  unit: mA
+  condition: Data mode GPRS (3Rx,2Tx), DCS1800
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0023
+  category: Power Consumption
+  mode: Data mode GPRS (3Rx,2Tx) (PCS1900)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 251.3
+  value_max: null
+  unit: mA
+  condition: Data mode GPRS (3Rx,2Tx), PCS1900
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0024
+  category: Power Consumption
+  mode: Data mode GPRS (4Rx,1Tx) (GSM850)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 233.87
+  value_max: null
+  unit: mA
+  condition: Data mode GPRS (4Rx,1Tx), GSM850
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0025
+  category: Power Consumption
+  mode: Data mode GPRS (4Rx,1Tx) (EGSM900)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 249.85
+  value_max: null
+  unit: mA
+  condition: Data mode GPRS (4Rx,1Tx), EGSM900
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0026
+  category: Power Consumption
+  mode: Data mode GPRS (4Rx,1Tx) (DCS1800)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 174.13
+  value_max: null
+  unit: mA
+  condition: Data mode GPRS (4Rx,1Tx), DCS1800
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0027
+  category: Power Consumption
+  mode: Data mode GPRS (4Rx,1Tx) (PCS1900)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 174.94
+  value_max: null
+  unit: mA
+  condition: Data mode GPRS (4Rx,1Tx), PCS1900
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: ''
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
+- id: dat_15_0028
+  category: Power Consumption
+  mode: Peak current (during Tx burst)
+  command: null
+  parameter: current
+  value_min: null
+  value_typ: 2000.0
+  value_max: null
+  unit: mA
+  condition: During Tx burst
+  wake_source: null
+  related_commands: []
+  related_states: []
+  source:
+    name: SIM800H&SIM800L_Hardware_Design
+    version: V2.02
+    date: '2015-07-27'
+    page: '60'
+    section: 'Table 49: Current consumption (VBAT=3.8V)'
+    quote: ''
+  source_type: primary
+  confidence: 0.9
+  status: complete
+  conflicts: []
+  notes: Reported as 2.0 A in PDF; converted to mA for unit consistency.
+  tags:
+  - power
+  - current-consumption
+  applicable_models:
+  - SIM800L
+  created_at: '2026-10-13T17:20:08Z'
+  updated_at: '2026-10-13T17:20:08Z'
