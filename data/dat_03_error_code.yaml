@@ -1,27 +1,25 @@
-# Auto-extracted CME/CMS error codes from AT Command Manual V1.01
-# Records: 1
-records:
-- id: dat_03_0001
-  category: CME
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.85
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
+- records:
+  - id: dat_03_0001
+    category: CME
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.85
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
     - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  error_type: CME
-  code: 18
-  meaning: .
-  description: .
-  related_commands: []
-  recovery_steps: []
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    error_type: CME
+    code: 18
+    meaning: .
+    description: .
+    related_commands: []
+    recovery_steps: []
