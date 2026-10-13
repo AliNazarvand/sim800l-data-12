@@ -1,7 +1,18 @@
 # dat_09 — SMS
 
-Generated: 2026-10-12T15:42:52Z
+Generated: 2026-10-13T18:03:01Z
 
-- Status: `complete`
-- Decision: D-057
-- Records: 14
+| Field | Value |
+|-------|-------|
+| Status | complete |
+| Real records | 14 |
+| Unique records | 14 |
+| Total records | 15 |
+| Data file | dat_09_sms.yaml |
+| Source count |  |
+| Coverage percent |  |
+| Coverage estimate |  |
+| Reason | - |
+
+## Notes
+Dataset complete per R12.

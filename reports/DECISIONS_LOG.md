@@ -479,3 +479,7 @@ here-strings; single-quote here-strings (@'...'@) preserve literals.
 
 ## 2026-10-13T17:58:49Z — v4-rerun
 - Re-executed v4 pipeline with non-auto-closing console for report capture.
+
+
+## 2026-10-13T18:03:01Z — v4-final
+- Re-executed v4 pipeline with empty-blocked-list fix; console stays open for report copy.

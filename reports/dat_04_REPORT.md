@@ -1,7 +1,18 @@
 # dat_04 — Timing & Timeout
 
-Generated: 2026-10-12T15:42:52Z
+Generated: 2026-10-13T18:03:01Z
 
-- Status: `partial`
-- Decision: D-057
-- Records: 46
+| Field | Value |
+|-------|-------|
+| Status | complete |
+| Real records | 70 |
+| Unique records | 70 |
+| Total records | 70 |
+| Data file | dat_04_timing_timeout.yaml |
+| Source count |  |
+| Coverage percent |  |
+| Coverage estimate |  |
+| Reason | - |
+
+## Notes
+Dataset complete per R12.

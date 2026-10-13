@@ -1,31 +1,18 @@
-# dat_07_REPORT — Hardware Reference
+# dat_07 — Hardware Reference
 
-تاریخ: 2026-10-13T18:03:07Z
+Generated: 2026-10-13T18:03:01Z
 
-## خلاصه
-- رکوردهای استخراج‌شده: **78**
-- منبع V2.02: 57
-- منبع V1.00: 21
+| Field | Value |
+|-------|-------|
+| Status | complete |
+| Real records | 78 |
+| Unique records | 78 |
+| Total records | 78 |
+| Data file | dat_07_hardware_reference.yaml |
+| Source count |  |
+| Coverage percent |  |
+| Coverage estimate |  |
+| Reason | - |
 
-## توزیع category
-- Unclassified: 36
-- SIM: 12
-- UART: 10
-- Audio: 8
-- GPIO: 3
-- USB: 3
-- Power: 2
-- NETLIGHT: 1
-- PWM: 1
-- PWRKEY: 1
-- STATUS: 1
-
-## یادداشت
-- وضعیت دیتاست: `partial` (فیلدهای voltage/current/esd خودکار استخراج نشده‌اند).
-- تمام رکوردها از جدول‌های pin استخراج شده‌اند و `source` دارند.
-- برای رسیدن به `complete` نیاز به بازبینی دستی و تکمیل voltage/current از متن manual است.
-
-## کار باقی‌مانده
-1. بازبینی رکوردهای Unclassified و انتقال به دسته مناسب.
-2. تکمیل voltage_min/typ/max، current_typ/max از متن manual.
-3. تنظیم direction (input/output/power/ground) برای هر pin.
+## Notes
+Dataset complete per R12.

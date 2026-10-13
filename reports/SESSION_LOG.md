@@ -592,3 +592,9 @@ now has:
 - Re-execution of v4 pipeline; console stays open for report copy.
 - validate.py exit=0; cross_ref.py exit=0
 - Result: complete=0 partial=0 blocked=0 deferred=0
+
+
+## Session v4-final — 2026-10-13T18:03:01Z
+- Re-execution of v4 pipeline with empty-blocked-list fix; console stays open for report copy.
+- validate.py exit=0; cross_ref.py exit=0
+- Result: complete=8 partial=5 blocked=5 deferred=0

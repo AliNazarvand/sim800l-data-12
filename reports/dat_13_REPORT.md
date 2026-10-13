@@ -1,7 +1,18 @@
 # dat_13 — SIM Management
 
-Generated: 2026-10-12T15:42:52Z
+Generated: 2026-10-13T18:03:01Z
 
-- Status: `complete`
-- Decision: D-057
-- Records: 10
+| Field | Value |
+|-------|-------|
+| Status | complete |
+| Real records | 10 |
+| Unique records | 10 |
+| Total records | 11 |
+| Data file | dat_13_sim_management.yaml |
+| Source count |  |
+| Coverage percent |  |
+| Coverage estimate |  |
+| Reason | - |
+
+## Notes
+Dataset complete per R12.
