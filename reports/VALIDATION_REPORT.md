@@ -1,8 +1,7 @@
 # Validation Report
 
-Generated: 2026-10-13T17:47:17Z
-
-Exit code: 0
+Generated: 2026-10-13T17:50:53Z
+Exit: 0
 
 ```text
 {
@@ -10,7 +9,7 @@ Exit code: 0
     {
       "dataset": "dat_01",
       "file": "dat_01_at_command.yaml",
-      "records": 335,
+      "records": 610,
       "errors": 0,
       "schema_ok": true
     },

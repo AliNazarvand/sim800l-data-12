@@ -3,8 +3,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 1
   description: Assert PWRKEY low
@@ -29,8 +29,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 2
   description: Wait for RDY
@@ -55,8 +55,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 3
   description: Sync baud
@@ -81,8 +81,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 4
   description: Disable echo
@@ -107,8 +107,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 5
   description: Set error reporting
@@ -133,8 +133,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 6
   description: Check SIM
@@ -159,8 +159,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 7
   description: Wait network
@@ -185,8 +185,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 8
   description: Attach GPRS
@@ -211,8 +211,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 9
   description: Define PDP
@@ -237,8 +237,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 10
   description: Start TCP task
@@ -263,8 +263,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 11
   description: Bring up wireless
@@ -289,8 +289,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 12
   description: Get local IP
@@ -315,8 +315,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 13
   description: Open TCP
@@ -341,8 +341,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 14
   description: Send data
@@ -367,8 +367,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 15
   description: Close connection
@@ -393,8 +393,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 16
   description: Shut down GPRS
@@ -419,8 +419,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 17
   description: Set SMS text mode
@@ -445,8 +445,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 18
   description: Configure new-SMS URC
@@ -471,8 +471,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 19
   description: Enter sleep
@@ -497,8 +497,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:50:58Z'
-  updated_at: '2026-10-13T17:50:58Z'
+  created_at: '2026-10-13T17:58:54Z'
+  updated_at: '2026-10-13T17:58:54Z'
   category: Sequence
   step_order: 20
   description: Normal power down
