@@ -1,66 +1,76 @@
 #!/usr/bin/env python3
-"""Extract text from PDF(s) with basic column detection."""
-import argparse
+"""Simple text extraction from PDF (no OCR). Outputs text with <<<PAGE n>>> markers.
+Falls back to reading existing .txt if PDF library not available."""
 import sys
 from pathlib import Path
 
-try:
-    import fitz
-except ImportError:
-    print("[FATAL] PyMuPDF not installed. pip install pymupdf", file=sys.stderr)
-    sys.exit(1)
-
 ROOT = Path(__file__).resolve().parent.parent
-EXTRACTED = ROOT / "sources" / "extracted"
+SRC  = ROOT / "sources" / "originals"
+OUT  = ROOT / "sources" / "extracted"
+OUT.mkdir(parents=True, exist_ok=True)
 
+def extract_with_pypdf(pdf_path):
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        try:
+            from PyPDF2 import PdfReader
+        except ImportError:
+            return None
+    try:
+        reader = PdfReader(str(pdf_path))
+    except Exception as e:
+        print(f"  [pypdf] failed to open: {e}", file=sys.stderr)
+        return None
+    parts = []
+    for i, page in enumerate(reader.pages, start=1):
+        try:
+            txt = page.extract_text() or ""
+        except Exception as e:
+            txt = f"[ERROR extracting page {i}: {e}]"
+        parts.append(f"<<<PAGE {i}>>>\n{txt}\n")
+    return "\n".join(parts)
 
-def detect_scanned(pdf_path: Path) -> bool:
-    doc = fitz.open(pdf_path)
-    total = 0
-    pages = len(doc)
-    for page in doc:
-        total += len(page.get_text())
-    doc.close()
-    return pages > 0 and (total / pages) < 100
-
-
-def extract_text(pdf_path: Path, out_dir: Path) -> None:
-    doc = fitz.open(pdf_path)
-    out_file = out_dir / f"{pdf_path.stem}.txt"
-    with out_file.open("w", encoding="utf-8") as fh:
-        for page in doc:
-            blocks = page.get_text("blocks")
-            if blocks:
-                blocks_sorted = sorted(blocks, key=lambda b: (round(b[1]), b[0]))
-                for b in blocks_sorted:
-                    fh.write(b[4])
-                    fh.write("\n")
-            else:
-                fh.write(page.get_text())
-    doc.close()
-    print(f"[OK] {out_file}")
-
+def extract_with_pdfplumber(pdf_path):
+    try:
+        import pdfplumber
+    except ImportError:
+        return None
+    try:
+        with pdfplumber.open(str(pdf_path)) as pdf:
+            parts = []
+            for i, page in enumerate(pdf.pages, start=1):
+                try:
+                    txt = page.extract_text() or ""
+                except Exception as e:
+                    txt = f"[ERROR extracting page {i}: {e}]"
+                parts.append(f"<<<PAGE {i}>>>\n{txt}\n")
+            return "\n".join(parts)
+    except Exception as e:
+        print(f"  [pdfplumber] failed: {e}", file=sys.stderr)
+        return None
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("pdf", nargs="+")
-    parser.add_argument("--outdir", default=str(EXTRACTED))
-    args = parser.parse_args()
-    out_dir = Path(args.outdir)
-    out_dir.mkdir(parents=True, exist_ok=True)
-    for pdf in args.pdf:
-        p = Path(pdf)
-        if not p.exists():
-            print(f"[WARN] Not found: {p}", file=sys.stderr)
+    targets = [
+        ("v2_02_paged.txt", "SIM800H&SIM800L_Hardware_Design_V2.02.PDF"),
+        ("v1_00_paged.txt", "SIM800L_Hardware_Design_V1.00.pdf"),
+    ]
+    for out_name, pdf_name in targets:
+        pdf_path = SRC / pdf_name
+        out_path = OUT / out_name
+        print(f"Extracting {pdf_name} -> {out_name}")
+        if not pdf_path.exists():
+            print(f"  PDF not found: {pdf_path}", file=sys.stderr)
             continue
-        if detect_scanned(p):
-            print(f"[INFO] {p.name} appears scanned; run ocr_pdf.py", file=sys.stderr)
-        try:
-            extract_text(p, out_dir)
-        except Exception as exc:
-            print(f"[ERROR] {p}: {exc}", file=sys.stderr)
-    return 0
-
+        text = extract_with_pdfplumber(pdf_path)
+        if text is None:
+            text = extract_with_pypdf(pdf_path)
+        if text is None:
+            print(f"  No PDF library available. Install: pip install pypdf", file=sys.stderr)
+            continue
+        out_path.write_text(text, encoding="utf-8")
+        pages = text.count("<<<PAGE ")
+        print(f"  OK: {pages} pages, {len(text)} chars")
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

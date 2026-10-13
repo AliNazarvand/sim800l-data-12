@@ -1,19 +1,18 @@
-# Sources
+# sources/
 
-## Originals
+Place the two primary Hardware Design PDFs here (or in the repository root,
+or in `./pdfs/`, or in the parent folder). The preflight script searches all
+of those locations.
 
-Place original PDF files here:
+Required file names (case-insensitive on Windows, exact on Linux):
 
-- `SIM800L_Hardware_Design_V1.00.pdf` (2013-08-20)
-- `SIM800H&SIM800L_Hardware_Design_V2.02.PDF` (2015-07-27)
-- `SIM800 Series_AT Command Manual_V1.01.pdf` (if available)
+- `SIM800L_Hardware_Design_V1.00.pdf`
+- `SIM800H&SIM800L_Hardware_Design_V2.02.PDF`
 
-## Extracted
+Once both files are reachable, run:
 
-Extracted text and tables are stored here.
+```bash
+python tools/preflight.py
+```
 
-### Tables
-
-- `at_v1_01/` -- AT Command Manual V1.01 tables
-- `hw_v2_02/` -- Hardware Design V2.02 tables
-- `hw_v1_00/` -- Hardware Design V1.00 tables
+A green result means Phase 1 extraction may begin.

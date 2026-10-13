@@ -19,3 +19,25 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+================================================================================
+DATA LICENSE — IMPORTANT
+================================================================================
+
+This MIT license applies ONLY to:
+
+  * the lightweight tools under `tools/` (validate.py, generate_json.py)
+  * the JSON-Schema files under `schemas/`
+  * the repository documentation in Markdown form
+
+It DOES NOT apply to the YAML/JSON datasets under `data/` or to the raw
+extraction notes under `raw/`.
+
+All extracted data is derived from SIMCom proprietary documentation
+(see NOTICE). Redistribution of the data files may be legally restricted.
+Until written legal clearance from SIMCom or a competent legal advisor is
+obtained, the data files must be kept in a private branch or a restricted
+distribution package.
+
+By using the data files, you accept full responsibility for complying with
+SIMCom's rights.

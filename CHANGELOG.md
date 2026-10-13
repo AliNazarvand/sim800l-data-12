@@ -90,3 +90,10 @@
 - Ran scripts/extract_pdf.py, scripts/validate.py, scripts/cross_ref.py.
 - Regenerated COVERAGE_MATRIX, ROLE_MAP, TODO, VALIDATION_REPORT, CROSS_REF_REPORT, SOURCE_INVENTORY, GAP_REPORT, README, and all 18 dat_XX_REPORT.md.
 - Committed per cluster (A, B, C) and merged to main.
+## [v3.3.0] - 2026-10-12T14:45:19Z
+
+- Quarantined ~59 contaminated records in dat_01; salvaged 0, archived 59.
+- Enriched 1 records (2 field groups replaced).
+- Added 0 new AT commands present in the manual but missing from dat_01.
+- Added concrete timing rows to dat_04, states to dat_05, init steps to dat_06 from V2.02.
+- Regenerated all reports (COVERAGE, ROLE_MAP, TODO, VALIDATION, CROSS_REF, 18 dat_XX_REPORT, README).

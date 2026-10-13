@@ -1,11 +1,33 @@
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 venv/
-*.egg-info/
-.DS_Store
+.pytest_cache/
+.vscode/
+.idea/
+*.swp
 Thumbs.db
+.DS_Store
 *.log
-_backup-*/
-sim800l-data-backups/
-*.backup
+!reports/*.log
+*.bak
+*~# Auto-generated extraction artifacts
+sources/extracted/figures/**
+!sources/extracted/figures/.gitkeep
+data/_backup_*/
+sources/_backup_*/
+*.pyc
+
+# Backups from local scripts
+data/*.prefix-*
+data/*.bak-*
+*.prefix-*
+*.bak-*
+
+
+# Temporary artifacts (auto-added)
+reports/_backup_editor/
+reports/_staging/
+reports/_backup/
+reports/_validation_summary.json
+reports/_archive/

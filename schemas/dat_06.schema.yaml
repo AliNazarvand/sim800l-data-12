@@ -1,56 +1,127 @@
-$schema: "http://json-schema.org/draft-07/schema#"
-title: "dat_06 - Init Sequence"
-description: "Schema for dat_06 (Init Sequence)"
+$schema: http://json-schema.org/draft-07/schema#
+title: dat_06
 type: object
-required: [id, category, source, source_type, confidence, status, applicable_models]
+required:
+- id
+- category
+- source
+- source_type
+- confidence
+- status
+- applicable_models
+- created_at
+- updated_at
 properties:
   id:
     type: string
-    pattern: "^dat_06_[0-9]{4}$"
+    pattern: ^dat_06_[0-9]{4}$
   category:
     type: string
   source:
     type: object
-    required: [name, version, date]
+    required:
+    - name
+    - version
     properties:
-      name: {type: string}
-      version: {type: string}
-      date: {type: string}
-      page: {type: string}
-      section: {type: string}
-      quote: {type: string}
+      name:
+        type: string
+      version:
+        type: string
+      date:
+        type:
+        - string
+        - 'null'
+        format: date
+      page:
+        type:
+        - string
+        - 'null'
+      section:
+        type:
+        - string
+        - 'null'
+      quote:
+        type:
+        - string
+        - 'null'
   source_type:
     type: string
-    enum: [primary, secondary, external]
+    enum:
+    - primary
+    - secondary
+    - external
   confidence:
     type: number
     minimum: 0.0
     maximum: 1.0
   status:
     type: string
-    enum: [complete, partial, unknown, inferred, blocked, deferred, example-only]
+    enum:
+    - complete
+    - partial
+    - unknown
+    - inferred
+    - blocked
+    - deferred
+    - example-only
   conflicts:
-    type: array
-    items: {type: object}
+    type:
+    - array
+    - 'null'
+    items:
+      type: object
   notes:
-    type: string
+    type:
+    - string
+    - 'null'
   tags:
-    type: array
-    items: {type: string}
+    type:
+    - array
+    - 'null'
+    items:
+      type: string
   applicable_models:
     type: array
-    items: {type: string}
-    contains: {const: "SIM800L"}
+    items:
+      type: string
+    contains:
+      const: SIM800L
   created_at:
     type: string
+    format: date-time
   updated_at:
     type: string
-  step_order: {type: integer}
-  command: {type: string}
-  expected_response: {type: string}
-  timeout_ms: {type: integer}
-  retry_count: {type: integer}
-  failure_action: {type: string}
-  dependency_step: {type: string}
-  related_state: {type: string}
-additionalProperties: false
+    format: date-time
+  step_order:
+    type:
+    - integer
+    - 'null'
+  command:
+    type:
+    - string
+    - 'null'
+  expected_response:
+    type:
+    - string
+    - 'null'
+  timeout_ms:
+    type:
+    - integer
+    - 'null'
+  retry_count:
+    type:
+    - integer
+    - 'null'
+  failure_action:
+    type:
+    - string
+    - 'null'
+  dependency_step:
+    type:
+    - string
+    - 'null'
+    pattern: ^dat_06_[0-9]{4}$
+  related_state:
+    type:
+    - string
+    - 'null'
