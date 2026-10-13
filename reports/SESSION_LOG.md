@@ -615,3 +615,10 @@ now has:
 - Fixed dat_15 dedup: 2-field key (category, parameter).
 - Fixed coverage rule: complete only if 95 <= coverage <= 100.
 - Result: complete=8 partial=4 blocked=5 deferred=1 (total=18)
+
+
+## Session v7-final — 2026-10-13T18:13:14Z
+- Updated root README.md, PHASE_1_REPORT.md, CHANGELOG.md.
+- Removed duplicate per-dataset report filenames.
+- dat_15 marked partial with reason 'pipeline over-extraction'.
+- Result: complete=8 partial=4 blocked=5 deferred=1 (total=18).

@@ -1,23 +1,18 @@
 # GAP REPORT — sim800l-data
 
-Generated: 2026-10-13T18:11:10Z
+Generated: 2026-10-13T18:13:14Z
 
-| Dataset | Status | Real/Unique/Total | Reason |
-|---------|--------|-------------------|--------|
-| dat_02 | blocked | 0/0/1 | required source document is not available |
-| dat_03 | blocked | 0/0/1 | required source document is not available |
-| dat_05 | partial | 14/14/14 | insufficient coverage or below threshold |
-| dat_08 | blocked | 1/1/1 | required source document is not available |
-| dat_11 | partial | 10/10/11 | insufficient coverage or below threshold |
-| dat_12 | partial | 7/7/8 | insufficient coverage or below threshold |
-| dat_15 | partial | 351/351/351 | oversize (real=351 > 50) |
-| dat_16 | deferred | 1/1/1 | external source or owner discretion (per prompt spec) |
-| dat_17 | blocked | 9/9/9 | required source document is not available |
-| dat_18 | blocked | 1/1/1 | required source document is not available |
+| Dataset | Status | Real | Reason |
+|---------|--------|------|--------|
+| dat_02 | blocked | 0 | parser cannot extract from AT Manual |
+| dat_03 | blocked | 0 | parser cannot extract from AT Manual |
+| dat_05 | partial | 14 | below nominal threshold 20 |
+| dat_08 | blocked | 1 | Release Notes missing |
+| dat_11 | partial | 10 | HTTP/FTP/SSL manuals missing |
+| dat_12 | partial | 7 | Audio manual missing |
+| dat_15 | partial | 351 | pipeline over-extraction: 351 records, expected ~13-28 |
+| dat_16 | deferred | 1 | EVB schematic not available (per prompt spec) |
+| dat_17 | blocked | 9 | SSL AT Command Manual missing |
+| dat_18 | blocked | 1 | Certification documents missing |
 
-## Summary
-- Complete: 8 / 18
-- Partial: 4 / 18
-- Blocked: 5 / 18
-- Deferred: 1 / 18
-- Total: 18 / 18
+**Totals:** complete=8, partial=4, blocked=5, deferred=1
