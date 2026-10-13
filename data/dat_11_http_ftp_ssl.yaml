@@ -1,1077 +1,1356 @@
-# Auto-extracted HTTP/FTP/SSL commands. Records: 43
-records:
+- records:
+  - id: dat_11_0001
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPCID
+    syntax: +FTPCID
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0002
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPDELE
+    syntax: +FTPDELE
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0003
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPEXTPUT
+    syntax: +FTPEXTPUT
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0004
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPGET
+    syntax: +FTPGET
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0005
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPGETNA
+    syntax: +FTPGETNA
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0006
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPGETNAME
+    syntax: +FTPGETNAME
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0007
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPGETPA
+    syntax: +FTPGETPA
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0008
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPGETPATH
+    syntax: +FTPGETPATH
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0009
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPLIST
+    syntax: +FTPLIST
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0010
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPMKD
+    syntax: +FTPMKD
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0011
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPMOD
+    syntax: +FTPMOD
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0012
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPMODE
+    syntax: +FTPMODE
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0013
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPPORT
+    syntax: +FTPPORT
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0014
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPPUT
+    syntax: +FTPPUT
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0015
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPPUTNA
+    syntax: +FTPPUTNA
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0016
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPPUTNAME
+    syntax: +FTPPUTNAME
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0017
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPPUTOP
+    syntax: +FTPPUTOP
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0018
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPPUTOPT
+    syntax: +FTPPUTOPT
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0019
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPPUTPA
+    syntax: +FTPPUTPA
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0020
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPPUTPATH
+    syntax: +FTPPUTPATH
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0021
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPPW
+    syntax: +FTPPW
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0022
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPREST
+    syntax: +FTPREST
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0023
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPRMD
+    syntax: +FTPRMD
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0024
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPSCONT
+    syntax: +FTPSCONT
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0025
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPSERV
+    syntax: +FTPSERV
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0026
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPSIZE
+    syntax: +FTPSIZE
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0027
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPSTATE
+    syntax: +FTPSTATE
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0028
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPTYPE
+    syntax: +FTPTYPE
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0029
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +FTPUN
+    syntax: +FTPUN
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0030
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPACTI
+    syntax: +HTTPACTI
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0031
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPACTIO
+    syntax: +HTTPACTIO
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0032
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPACTION
+    syntax: +HTTPACTION
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0033
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPDATA
+    syntax: +HTTPDATA
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0034
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPINIT
+    syntax: +HTTPINIT
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0035
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPPARA
+    syntax: +HTTPPARA
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0036
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPREA
+    syntax: +HTTPREA
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0037
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPREAD
+    syntax: +HTTPREAD
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0038
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPSCON
+    syntax: +HTTPSCON
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0039
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPSCONT
+    syntax: +HTTPSCONT
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0040
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPSTAT
+    syntax: +HTTPSTAT
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0041
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPSTATUS
+    syntax: +HTTPSTATUS
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0042
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPTER
+    syntax: +HTTPTER
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
+  - id: dat_11_0043
+    category: HTTP/FTP/SSL
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +HTTPTERM
+    syntax: +HTTPTERM
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    related_commands: []
 - id: dat_11_0001
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPCID
-  syntax: +FTPCID
+  category: Data
+  command: AT+HTTPINIT
+  syntax: 11.2.1 AT+HTTPINIT  Initialize HTTP Service .................................................................212
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '9'
+    section: 11.2.1 Initialize HTTP Service .................................................................212
+    quote: 11.2.1 AT+HTTPINIT  Initialize HTTP Service .................................................................212
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - data
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_11_0002
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPDELE
-  syntax: +FTPDELE
+  category: Data
+  command: AT+HTTPTERM
+  syntax: 11.2.2 AT+HTTPTERM  Terminate HTTP Service ............................................................212
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '9'
+    section: 11.2.2 Terminate HTTP Service ............................................................212
+    quote: 11.2.2 AT+HTTPTERM  Terminate HTTP Service ............................................................212
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - data
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_11_0003
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPEXTPUT
-  syntax: +FTPEXTPUT
+  category: Data
+  command: AT+HTTPPARA
+  syntax: 11.2.3 AT+HTTPPARA  Set HTTP Parameters Value ........................................................213
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '9'
+    section: 11.2.3 Set HTTP Parameters Value ........................................................213
+    quote: 11.2.3 AT+HTTPPARA  Set HTTP Parameters Value ........................................................213
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - data
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_11_0004
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPGET
-  syntax: +FTPGET
+  category: Data
+  command: AT+HTTPDATA
+  syntax: 11.2.4 AT+HTTPDATA  Input HTTP Data .........................................................................214
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '9'
+    section: 11.2.4 Input HTTP Data .........................................................................214
+    quote: 11.2.4 AT+HTTPDATA  Input HTTP Data .........................................................................214
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - data
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_11_0005
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPGETNA
-  syntax: +FTPGETNA
+  category: Data
+  command: AT+HTTPACTION
+  syntax: 11.2.5 AT+HTTPACTION  HTTP Method Action .............................................................215
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '9'
+    section: 11.2.5 HTTP Method Action .............................................................215
+    quote: 11.2.5 AT+HTTPACTION  HTTP Method Action .............................................................215
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - data
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_11_0006
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPGETNAME
-  syntax: +FTPGETNAME
+  category: Data
+  command: AT+HTTPREAD
+  syntax: 11.2.6 AT+HTTPREAD  Read the HTTP Server Response ................................................217
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '9'
+    section: 11.2.6 Read the HTTP Server Response ................................................217
+    quote: 11.2.6 AT+HTTPREAD  Read the HTTP Server Response ................................................217
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - data
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_11_0007
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPGETPA
-  syntax: +FTPGETPA
+  category: Data
+  command: AT+HTTPSTATUS
+  syntax: 11.2.8 AT+HTTPSTATUS  Read HTTP Status ...................................................................219
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '9'
+    section: 11.2.8 Read HTTP Status ...................................................................219
+    quote: 11.2.8 AT+HTTPSTATUS  Read HTTP Status ...................................................................219
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - data
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_11_0008
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPGETPATH
-  syntax: +FTPGETPATH
+  category: Data
+  command: AT+FTPTYPE
+  syntax: 12.2.3 AT+FTPTYPE  Set the Type of Data to Be Transferred ...........................................222
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '9'
+    section: 12.2.3 Set the Type of Data to Be Transferred ...........................................222
+    quote: 12.2.3 AT+FTPTYPE  Set the Type of Data to Be Transferred ...........................................222
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - data
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_11_0009
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPLIST
-  syntax: +FTPLIST
+  category: Data
+  command: AT+FTPGET
+  syntax: 12.2.14 AT+FTPGET  Download File ................................................................................228
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '10'
+    section: 12.2.14 Download File ................................................................................228
+    quote: 12.2.14 AT+FTPGET  Download File ................................................................................228
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - data
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_11_0010
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPMKD
-  syntax: +FTPMKD
+  category: Data
+  command: AT+FTPPUT
+  syntax: 12.2.15 AT+FTPPUT  Set Upload File ...............................................................................229
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   related_commands: []
-- id: dat_11_0011
-  category: HTTP/FTP/SSL
   source:
-    name: SIM800 Series AT Command Manual
+    name: SIM800 Series_AT Command Manual
     version: V1.01
-    date: unknown
-    page: ""
-    section: ""
+    date: '2018-05-15'
+    page: '10'
+    section: 12.2.15 Set Upload File ...............................................................................229
+    quote: 12.2.15 AT+FTPPUT  Set Upload File ...............................................................................229
   source_type: primary
-  confidence: 0.9
+  confidence: 0.6
   status: partial
   conflicts: []
-  notes: ""
-  tags: []
+  notes: Extracted from AT Manual V1.01 (structured header).
   applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPMOD
-  syntax: +FTPMOD
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0012
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPMODE
-  syntax: +FTPMODE
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0013
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPPORT
-  syntax: +FTPPORT
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0014
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPPUT
-  syntax: +FTPPUT
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0015
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPPUTNA
-  syntax: +FTPPUTNA
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0016
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPPUTNAME
-  syntax: +FTPPUTNAME
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0017
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPPUTOP
-  syntax: +FTPPUTOP
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0018
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPPUTOPT
-  syntax: +FTPPUTOPT
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0019
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPPUTPA
-  syntax: +FTPPUTPA
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0020
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPPUTPATH
-  syntax: +FTPPUTPATH
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0021
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPPW
-  syntax: +FTPPW
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0022
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPREST
-  syntax: +FTPREST
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0023
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPRMD
-  syntax: +FTPRMD
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0024
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPSCONT
-  syntax: +FTPSCONT
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0025
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPSERV
-  syntax: +FTPSERV
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0026
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPSIZE
-  syntax: +FTPSIZE
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0027
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPSTATE
-  syntax: +FTPSTATE
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0028
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPTYPE
-  syntax: +FTPTYPE
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0029
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +FTPUN
-  syntax: +FTPUN
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0030
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPACTI
-  syntax: +HTTPACTI
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0031
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPACTIO
-  syntax: +HTTPACTIO
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0032
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPACTION
-  syntax: +HTTPACTION
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0033
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPDATA
-  syntax: +HTTPDATA
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0034
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPINIT
-  syntax: +HTTPINIT
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0035
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPPARA
-  syntax: +HTTPPARA
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0036
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPREA
-  syntax: +HTTPREA
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0037
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPREAD
-  syntax: +HTTPREAD
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0038
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPSCON
-  syntax: +HTTPSCON
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0039
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPSCONT
-  syntax: +HTTPSCONT
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0040
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPSTAT
-  syntax: +HTTPSTAT
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0041
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPSTATUS
-  syntax: +HTTPSTATUS
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0042
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPTER
-  syntax: +HTTPTER
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
-- id: dat_11_0043
-  category: HTTP/FTP/SSL
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +HTTPTERM
-  syntax: +HTTPTERM
-  parameters: []
-  response: OK
-  examples: []
-  related_urcs: []
-  related_commands: []
+  - SIM800L
+  tags:
+  - data
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'

@@ -1,252 +1,531 @@
-# Auto-extracted SIM management commands. Records: 10
-records:
+- records:
+  - id: dat_13_0001
+    category: SIM
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CCID
+    syntax: +CCID
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    hardware_pins: []
+  - id: dat_13_0002
+    category: SIM
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CIMI
+    syntax: +CIMI
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    hardware_pins: []
+  - id: dat_13_0003
+    category: SIM
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CLCK
+    syntax: +CLCK
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    hardware_pins: []
+  - id: dat_13_0004
+    category: SIM
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CPIN
+    syntax: +CPIN
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    hardware_pins: []
+  - id: dat_13_0005
+    category: SIM
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CPWD
+    syntax: +CPWD
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    hardware_pins: []
+  - id: dat_13_0006
+    category: SIM
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CRSM
+    syntax: +CRSM
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    hardware_pins: []
+  - id: dat_13_0007
+    category: SIM
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CSIM
+    syntax: +CSIM
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    hardware_pins: []
+  - id: dat_13_0008
+    category: SIM
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CSMINS
+    syntax: +CSMINS
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    hardware_pins: []
+  - id: dat_13_0009
+    category: SIM
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CSPN
+    syntax: +CSPN
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    hardware_pins: []
+  - id: dat_13_0010
+    category: SIM
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CUSD
+    syntax: +CUSD
+    parameters: []
+    response: OK
+    examples: []
+    related_urcs: []
+    hardware_pins: []
 - id: dat_13_0001
   category: SIM
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CCID
-  syntax: +CCID
+  command: AT+CIMI
+  syntax: 3.2.15 AT+CIMI  Request Internat ional Mobile Subscriber Identity....................................61
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   hardware_pins: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '5'
+    section: 3.2.15 Request Internat ional Mobile Subscriber Identity....................................61
+    quote: 3.2.15 AT+CIMI  Request Internat ional Mobile Subscriber Identity....................................61
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 SIM section.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sim
+  - extracted
+  created_at: '2026-10-13T17:47:40Z'
+  updated_at: '2026-10-13T17:47:40Z'
 - id: dat_13_0002
   category: SIM
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CIMI
-  syntax: +CIMI
+  command: AT+CLCK
+  syntax: 3.2.17 AT+CLCK  Facility Lock ...........................................................................................63
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   hardware_pins: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '5'
+    section: 3.2.17 Facility Lock ...........................................................................................63
+    quote: 3.2.17 AT+CLCK  Facility Lock ...........................................................................................63
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 SIM section.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sim
+  - extracted
+  created_at: '2026-10-13T17:47:40Z'
+  updated_at: '2026-10-13T17:47:40Z'
 - id: dat_13_0003
   category: SIM
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CLCK
-  syntax: +CLCK
+  command: AT+CPIN
+  syntax: 3.2.28 AT+CPIN  Enter PIN ..................................................................................................75
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   hardware_pins: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '5'
+    section: 3.2.28 Enter PIN ..................................................................................................75
+    quote: 3.2.28 AT+CPIN  Enter PIN ..................................................................................................75
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 SIM section.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sim
+  - extracted
+  created_at: '2026-10-13T17:47:40Z'
+  updated_at: '2026-10-13T17:47:40Z'
 - id: dat_13_0004
   category: SIM
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CPIN
-  syntax: +CPIN
+  command: AT+CPWD
+  syntax: 3.2.29 AT+CPWD  Change Password ...................................................................................76
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   hardware_pins: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '5'
+    section: 3.2.29 Change Password ...................................................................................76
+    quote: 3.2.29 AT+CPWD  Change Password ...................................................................................76
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 SIM section.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sim
+  - extracted
+  created_at: '2026-10-13T17:47:40Z'
+  updated_at: '2026-10-13T17:47:40Z'
 - id: dat_13_0005
   category: SIM
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CPWD
-  syntax: +CPWD
+  command: AT+CRSM
+  syntax: 3.2.34 AT+CRSM  Restricted SIM Access ...........................................................................81
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   hardware_pins: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '5'
+    section: 3.2.34 Restricted SIM Access ...........................................................................81
+    quote: 3.2.34 AT+CRSM  Restricted SIM Access ...........................................................................81
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 SIM section.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sim
+  - extracted
+  created_at: '2026-10-13T17:47:40Z'
+  updated_at: '2026-10-13T17:47:40Z'
 - id: dat_13_0006
   category: SIM
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CRSM
-  syntax: +CRSM
+  command: AT+CSIM
+  syntax: 3.2.48 AT+CSIM  Generic SIM Access ................................................................................91
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   hardware_pins: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '5'
+    section: 3.2.48 Generic SIM Access ................................................................................91
+    quote: 3.2.48 AT+CSIM  Generic SIM Access ................................................................................91
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 SIM section.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sim
+  - extracted
+  created_at: '2026-10-13T17:47:40Z'
+  updated_at: '2026-10-13T17:47:40Z'
 - id: dat_13_0007
   category: SIM
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CSIM
-  syntax: +CSIM
+  command: AT+CUSD
+  syntax: 3.2.57 AT+CUSD  Unstructured Supplementary Service Data .............................................98
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   hardware_pins: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '5'
+    section: 3.2.57 Unstructured Supplementary Service Data .............................................98
+    quote: 3.2.57 AT+CUSD  Unstructured Supplementary Service Data .............................................98
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 SIM section.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sim
+  - extracted
+  created_at: '2026-10-13T17:47:40Z'
+  updated_at: '2026-10-13T17:47:40Z'
 - id: dat_13_0008
   category: SIM
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CSMINS
-  syntax: +CSMINS
+  command: AT+CSPN
+  syntax: 6.2.15 AT+CSPN  Get Service Provider Name from SIM ..................................................141
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   hardware_pins: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '7'
+    section: 6.2.15 Get Service Provider Name from SIM ..................................................141
+    quote: 6.2.15 AT+CSPN  Get Service Provider Name from SIM ..................................................141
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 SIM section.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sim
+  - extracted
+  created_at: '2026-10-13T17:47:40Z'
+  updated_at: '2026-10-13T17:47:40Z'
 - id: dat_13_0009
   category: SIM
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CSPN
-  syntax: +CSPN
+  command: AT+CCID
+  syntax: 6.2.23 AT+CCID  Show ICCID ..........................................................................................147
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   hardware_pins: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '7'
+    section: 6.2.23 Show ICCID ..........................................................................................147
+    quote: 6.2.23 AT+CCID  Show ICCID ..........................................................................................147
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 SIM section.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sim
+  - extracted
+  created_at: '2026-10-13T17:47:40Z'
+  updated_at: '2026-10-13T17:47:40Z'
 - id: dat_13_0010
   category: SIM
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CUSD
-  syntax: +CUSD
+  command: AT+CSMINS
+  syntax: 6.2.54 AT+CSMINS  SIM In serted Status Reporting.........................................................167
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_urcs: []
   hardware_pins: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '8'
+    section: 6.2.54 SIM In serted Status Reporting.........................................................167
+    quote: 6.2.54 AT+CSMINS  SIM In serted Status Reporting.........................................................167
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 SIM section.
+  applicable_models:
+  - SIM800L
+  tags:
+  - sim
+  - extracted
+  created_at: '2026-10-13T17:47:40Z'
+  updated_at: '2026-10-13T17:47:40Z'

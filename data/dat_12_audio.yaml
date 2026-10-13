@@ -1,170 +1,358 @@
-# Auto-extracted audio commands. Records: 7
-records:
+- records:
+  - id: dat_12_0001
+    category: Audio
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CACM
+    syntax: +CACM
+    parameters: []
+    response: OK
+    examples: []
+    related_commands: []
+  - id: dat_12_0002
+    category: Audio
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CHFA
+    syntax: +CHFA
+    parameters: []
+    response: OK
+    examples: []
+    related_commands: []
+  - id: dat_12_0003
+    category: Audio
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CLVL
+    syntax: +CLVL
+    parameters: []
+    response: OK
+    examples: []
+    related_commands: []
+  - id: dat_12_0004
+    category: Audio
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CMIC
+    syntax: +CMIC
+    parameters: []
+    response: OK
+    examples: []
+    related_commands: []
+  - id: dat_12_0005
+    category: Audio
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CMICBIAS
+    syntax: +CMICBIAS
+    parameters: []
+    response: OK
+    examples: []
+    related_commands: []
+  - id: dat_12_0006
+    category: Audio
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CMUT
+    syntax: +CMUT
+    parameters: []
+    response: OK
+    examples: []
+    related_commands: []
+  - id: dat_12_0007
+    category: Audio
+    source:
+      name: SIM800 Series AT Command Manual
+      version: V1.01
+      date: unknown
+      page: ''
+      section: ''
+    source_type: primary
+    confidence: 0.9
+    status: partial
+    conflicts: []
+    notes: ''
+    tags: []
+    applicable_models:
+    - SIM800L
+    created_at: '2026-10-13T17:40:59Z'
+    updated_at: '2026-10-13T17:40:59Z'
+    command: +CRSL
+    syntax: +CRSL
+    parameters: []
+    response: OK
+    examples: []
+    related_commands: []
 - id: dat_12_0001
   category: Audio
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CACM
-  syntax: +CACM
+  command: AT+CRSL
+  syntax: 3.2.51 AT+CRSL  Ringer Sound Level .................................................................................93
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '5'
+    section: 3.2.51 Ringer Sound Level .................................................................................93
+    quote: 3.2.51 AT+CRSL  Ringer Sound Level .................................................................................93
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - audio
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_12_0002
   category: Audio
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CHFA
-  syntax: +CHFA
+  command: AT+CLVL
+  syntax: 3.2.52 AT+CLVL  Loud Speaker V olume Level...................................................................94
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '5'
+    section: 3.2.52 Loud Speaker V olume Level...................................................................94
+    quote: 3.2.52 AT+CLVL  Loud Speaker V olume Level...................................................................94
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - audio
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_12_0003
   category: Audio
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CLVL
-  syntax: +CLVL
+  command: AT+CMUT
+  syntax: 3.2.53 AT+CMUT  Mute Control ..........................................................................................95
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '5'
+    section: 3.2.53 Mute Control ..........................................................................................95
+    quote: 3.2.53 AT+CMUT  Mute Control ..........................................................................................95
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - audio
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_12_0004
   category: Audio
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CMIC
-  syntax: +CMIC
+  command: AT+CMIC
+  syntax: 6.2.4 AT+CMIC  Change the Microphone Gain Level .......................................................133
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '6'
+    section: 6.2.4 Change the Microphone Gain Level .......................................................133
+    quote: 6.2.4 AT+CMIC  Change the Microphone Gain Level .......................................................133
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - audio
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_12_0005
   category: Audio
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CMICBIAS
-  syntax: +CMICBIAS
+  command: AT+CADC
+  syntax: 6.2.7 AT+CADC  Read ADC .............................................................................................135
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '7'
+    section: 6.2.7 Read ADC .............................................................................................135
+    quote: 6.2.7 AT+CADC  Read ADC .............................................................................................135
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - audio
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_12_0006
   category: Audio
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CMUT
-  syntax: +CMUT
+  command: AT+CHFA
+  syntax: 6.2.19 AT+CHFA  Swap the Audio Channels .....................................................................143
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '7'
+    section: 6.2.19 Swap the Audio Channels .....................................................................143
+    quote: 6.2.19 AT+CHFA  Swap the Audio Channels .....................................................................143
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - audio
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
 - id: dat_12_0007
   category: Audio
-  source:
-    name: SIM800 Series AT Command Manual
-    version: V1.01
-    date: unknown
-    page: ""
-    section: ""
-  source_type: primary
-  confidence: 0.9
-  status: partial
-  conflicts: []
-  notes: ""
-  tags: []
-  applicable_models:
-    - SIM800L
-  created_at: "2026-10-13T17:40:59Z"
-  updated_at: "2026-10-13T17:40:59Z"
-  command: +CRSL
-  syntax: +CRSL
+  command: AT+CSDT
+  syntax: 6.2.53 AT+CSDT  Switch On or Off Detecting SIM Card .................................................166
   parameters: []
-  response: OK
+  response: null
   examples: []
   related_commands: []
+  source:
+    name: SIM800 Series_AT Command Manual
+    version: V1.01
+    date: '2018-05-15'
+    page: '8'
+    section: 6.2.53 Switch On or Off Detecting SIM Card .................................................166
+    quote: 6.2.53 AT+CSDT  Switch On or Off Detecting SIM Card .................................................166
+  source_type: primary
+  confidence: 0.6
+  status: partial
+  conflicts: []
+  notes: Extracted from AT Manual V1.01 (structured header).
+  applicable_models:
+  - SIM800L
+  tags:
+  - audio
+  - extracted
+  created_at: '2026-10-13T17:47:41Z'
+  updated_at: '2026-10-13T17:47:41Z'
