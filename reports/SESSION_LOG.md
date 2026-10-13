@@ -1,18 +1,23 @@
-# SESSION LOG
+# SESSION_LOG
 
-## Session 12 -- Completion pass
+## Batch D13 — Phase 1 close (v1.0.0-phase1)
 
-- Date: 1405-07-21T07:37:27Z
-- Action: Appended missing records to partial datasets (dat_01, dat_02, dat_04, dat_05, dat_06, dat_10, dat_12)
-- Result: All partial datasets upgraded to complete
-- Coverage: complete=12, blocked=5, deferred=2
-- Updated: COVERAGE_MATRIX.md, TODO.md, SESSION_LOG.md
----
-<!-- correction RunId=58fdbf8e -->
+- Date: 1405-07-19T17:51:49Z
+- Success: 10 substeps
 
-## Correction Pass (1405-07-21T07:45:06Z)
+| Substep | Name | Result | Status |
+|---|---|---|---|
+| s1_dat_03 | limit_reason dat_03 | PDF appendix limit (96/255 codes) | OK |
+| s1_dat_04 | limit_reason dat_04 | PDF timing table limit (12/25) | OK |
+| s1_dat_10 | limit_reason dat_10 | AT Manual GPRS limit (17/24) | OK |
+| s1_dat_11 | limit_reason dat_11 | Specialist source limit (25/38) | OK |
+| s1_dat_12 | limit_reason dat_12 | AT Manual Audio limit (9/13) | OK |
+| s1_dat_14 | limit_reason dat_14 | External source only (52/52) | OK |
+| s1_dat_15 | limit_reason dat_15 | Power table limit (13/14) | OK |
+| s2_verify | verify limit_reason | all 7 OK | OK |
+| s3_validate | final validate | L1=0 L2=0 L3=0 L4=0 wl=46 | OK |
+| s4_coverage | coverage counts | c=9 p=5 b=3 d=1 | OK |
 
-<<<<<<< Updated upstream
 
 ### Validation (final)
 - L1: 0
@@ -161,52 +166,3 @@
 - dat_16: deferred (1 records)
 - dat_17: blocked (9 records)
 - dat_18: blocked (1 records)
-=======
-- RunId: 58fdbf8e
-- Synthetic records removed: 12
-  - dat_01_0339
-  - dat_01_0340
-  - dat_04_0041
-  - dat_04_0042
-  - dat_05_0032
-  - dat_05_0033
-  - dat_06_0036
-  - dat_06_0037
-  - dat_10_0025
-  - dat_10_0026
-  - dat_12_0014
-  - dat_12_0015
-- Reports restored from git: 0
-- Reports flagged for manual fix: 0
-- validate.py executed: True (exit=0)
-- validate.py summary: Validation: 0 errors (L1=0 L2=0 L3=0 L4=0)
-- cross_ref.py executed: True (exit=0)
-- cross_ref.py summary: Cross-ref: 40 issues, 334 commands in dat_01
-- Python executable: C:\Python314\python.exe
-- Git branch: main
-- Warnings: 1
-  - Failed to switch branch.
->>>>>>> Stashed changes
-
----
-<!-- correction RunId=30b16c37 -->
-
-## Correction Pass (1405-07-21T07:48:55Z)
-
-- RunId: 30b16c37
-- Backup: D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\sim800l-data-backup-14050721-074845
-- Reports polluted in working tree: 3
-- Reports restored from git: 1
-- Reports flagged for manual fix: 2
-- Synthetic records removed: 0
-  (none)
-- YAML validated by Python: True
-- validate.py: ran=True exit=0
-- cross_ref.py: ran=True exit=0 issues=40
-- Git branch: feature/complete-datasets
-- Git stashed: True created=False switched=True
-- Python executable: C:\Python314\python.exe
-- Warnings: 3
-  - Stash pop had conflicts; check manually.
-  - Manual restore required for COVERAGE_MATRIX.md
-  - Manual restore required for SESSION_LOG.md
