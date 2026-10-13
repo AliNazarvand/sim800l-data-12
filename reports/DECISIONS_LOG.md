@@ -158,3 +158,22 @@ dat_02 row and the archive header that v5/v6 failed to fix.
 - archive header   : "7867" -> "188"
 
 **Backup**: scripts/cross_ref.py.v7-backup (preserved for audit)
+---
+<!-- v8-cleanup RunId=146ab552 -->
+
+## D-V8-146ab552 (1405-07-21T08:00:31Z)
+
+**Decision**: Regenerate `CROSS_REF_REPORT.md` from scratch (with a
+backup of the old body) so the file is internally consistent. The old
+body still showed 40 issues while the v7 note at the bottom showed 0.
+
+**Rationale**:
+- R20 forbids contradictory numbers across a single report.
+- The 40-issue listing was a false positive from the pre-v7
+  `cross_ref.py` (raw string comparison).
+- No data change was needed; only the report body was stale.
+
+**Actions**:
+- Backed up `CROSS_REF_REPORT.md` to `CROSS_REF_REPORT.md.v8-backup`.
+- Rewrote the file with the real cross_ref.py output.
+- Fixed the v7 SESSION_LOG branch field.

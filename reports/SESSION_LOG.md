@@ -295,4 +295,17 @@
 - cross-ref before: 40
 - cross-ref after : 0
 - validate.py exit: 0
-- Git branch      : (unknown)
+- Git branch      : feature/complete-datasets
+---
+<!-- v8-cleanup RunId=146ab552 -->
+
+## v8 Cleanup (1405-07-21T08:00:31Z)
+
+- RunId: 146ab552
+- Backup           : D:\Project\Electronic Project\Control Board SMS 2\Documents\New folder (2)\New 2\Datasheet\01 - sim800l-data\sim800l-data-backup-14050721-080027
+- CROSS_REF_REPORT rewritten (body was stale from pre-v7). Backup kept at
+  CROSS_REF_REPORT.md.v8-backup.
+- cross_ref.py issues at v8: **0**
+- SESSION_LOG v7 "Git branch: (unknown)" fixed to eature/complete-datasets.
+- No data files modified.
+- Report-only correction. Data layer unchanged from v7.
