@@ -341,3 +341,20 @@
   - Missing from dat_01: 2
 - No data files modified. No records auto-added.
 - Full deep analysis: reports/_dat_01_deep_analysis.json
+
+---
+<!-- v12-cleanup -->
+
+## v12 Cleanup (2026-10-13T04:44:33Z)
+
+- RunId: 7014567c
+- Fixed v11 PowerShell -and bug (Test-Path parameter misparsing).
+- Deep probe of _at_commands_index.json written to reports/_at_index_probe_report.md
+- Index commands extracted (multi-strategy): 0
+- dat_01 commands: 334
+- Common: 0
+- Coverage: 0%
+- Archive candidates reclassified (dat_01 -> dat_03 for CME/CMS errors).
+- DECISIONS_LOG backslash fragment fixed: False
+- TODO.md blocked datasets documented: True
+- No data files modified.

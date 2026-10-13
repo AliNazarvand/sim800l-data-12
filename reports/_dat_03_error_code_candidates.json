@@ -1,0 +1,23 @@
+{
+  "reason": "Two records misclassified in the original migration-candidate file. +CME ERROR and +CMS ERROR are ERROR CODE PREFIXES, not AT commands. They belong in dat_03 (error code database).",
+  "action": "manual_review_required",
+  "created_by": "v12 reclassification",
+  "candidates": [
+    {
+      "source_id": "dat_02_0082",
+      "error_prefix": "+CME ERROR",
+      "description": "Mobile Equipment error report prefix. Format: +CME ERROR: <err>",
+      "source_page": "23",
+      "source_version": "V1.01",
+      "expected_dataset": "dat_03"
+    },
+    {
+      "source_id": "dat_02_0117",
+      "error_prefix": "+CMS ERROR",
+      "description": "SMS/Message Service error report prefix. Format: +CMS ERROR: <err>",
+      "source_page": "102",
+      "source_version": "V1.01",
+      "expected_dataset": "dat_03"
+    }
+  ]
+}

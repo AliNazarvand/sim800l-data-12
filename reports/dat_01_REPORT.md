@@ -50,3 +50,17 @@ Generated: 2026-10-13T04:32:50Z
   created in v1..v8).
 - Jalali timestamps were an issue in v4-v8; from v9 onward all timestamps
   use `[System.Globalization.CultureInfo]::InvariantCulture`.
+
+---
+<!-- v12-coverage RunId=7014567c -->
+
+## v12 Coverage Update (2026-10-13T04:44:33Z)
+
+- Index file: sources/extracted/_at_commands_index.json
+- Index structure: 
+- Index commands extracted: 0
+- dat_01 commands (normalized): 334
+- Common (both): 0
+- **Coverage: 0%**
+
+Details: reports/_at_index_probe_report.md and reports/_dat_01_coverage_report.json

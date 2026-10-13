@@ -30,3 +30,20 @@ Generated: 2026-10-12T11:29:52Z
 - [ ] Fix scripts/extract_pdf.py --input argument (D-067)
 - [ ] Translate D-001..D-041 in DECISIONS_LOG.md to English
 - [ ] Manually review parser output if dat_01 still partial
+
+
+---
+<!-- v12-blocked-datasets -->
+
+## v12 Blocked Datasets -- Required Resources (2026-10-13T04:44:33Z)
+
+| Dataset | Missing source | Suggested official source |
+|---|---|---|
+| dat_08 | Firmware Release Notes | https://www.simcom.com/ (Products) |
+| dat_15 | Sleep Mode Application Note | https://www.simcom.com/ (App Notes) |
+| dat_16 | EVB Schematic / BOM | https://www.simcom.com/ (EVB Docs) |
+| dat_17 | SSL AT Command Manual | https://www.simcom.com/ (AT Manuals) |
+| dat_18 | Certification (CE, FCC, GCF, PTCRB, RoHS, IC, TA, RCM) | CE: https://ec.europa.eu/ ; FCC: https://fcc.gov/oet/ea/fccid ; GCF: https://www.gcfcertification.org/ ; PTCRB: https://www.ptcrb.com/ |
+
+Per R11: these remain locked until the official source is on disk.
+Per R14: no synthetic data is permitted as a substitute.

@@ -226,3 +226,30 @@ body still showed 40 issues while the v7 note at the bottom showed 0.
   Already in dat_01: 185
   Missing from dat_01: 2
 - Full report saved to reports/_dat_01_deep_analysis.json.
+
+---
+<!-- v12-cleanup -->
+
+## D-V12-7014567c (2026-10-13T04:44:33Z)
+
+**Decision**: Repair the v11 PowerShell bug, then perform a multi-strategy
+probe of the index file to compute dat_01 coverage.
+
+**Bug fixed:**
+- v11 crashed on Test-Path -LiteralPath  -and  because -and was
+  parsed as a Test-Path parameter. Wrapped in parentheses in v12.
+
+**Multi-strategy probe:**
+- Strategy A: strings that literally start with + or AT+.
+- Strategy B: bare uppercase command-like tokens (e.g. CAAS).
+- The strategy that yields more commands is used.
+- Full raw dump and samples: reports/_at_index_probe_report.md
+
+**Result:** coverage = 0%.
+
+**Reclassification:**
+- +CME ERROR and +CMS ERROR are error prefixes, not AT commands.
+  Moved to eports/_dat_03_error_code_candidates.json.
+- Old candidates file kept as _dat_01_migration_candidates.json.obsolete.
+
+**Blocked datasets** documented with URLs in reports/TODO.md.
