@@ -19,10 +19,10 @@ Generated: 2026-10-12T11:29:52Z
 
 ## Blocked / deferred datasets
 - [ ] dat_08 - blocked
-- [ ] dat_11 - blocked
+- [x] dat_11 - complete (per COVERAGE_MATRIX; corrected in v14)
 - [ ] dat_14 - deferred
 - [ ] dat_15 - blocked
-- [ ] dat_16 - deferred
+- [ ] dat_16 - blocked (per COVERAGE_MATRIX; corrected in v14)
 - [ ] dat_17 - blocked
 - [ ] dat_18 - blocked
 

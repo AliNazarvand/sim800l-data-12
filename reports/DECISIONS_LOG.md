@@ -280,3 +280,26 @@ the flat index dict.
 - If coverage < 95%, add the missing commands from _dat_01_coverage_report.json
   after verifying each against the manual PDF (page numbers in the CSV tables).
 - If coverage >= 95%, promote dat_01 to complete in COVERAGE_MATRIX.md.
+
+---
+<!-- v14-cleanup -->
+
+## D-V14-a873f423 (2026-10-13T05:01:50Z)
+
+**Decision**: Promote dat_01 to complete per R12 (coverage 99.7% >= 95%).
+
+**Rationale**:
+- v13 computed definitive coverage: 334 of 335 index commands present.
+- Missing command +CGSM is documented; the coverage is still >= 95%.
+- cross_ref issues = 0, validate.py errors = 0.
+
+**Actions**:
+- COVERAGE_MATRIX.md: dat_01 row -> complete.
+- dat_01_REPORT.md: top section updated with real coverage.
+- TODO.md: fixed two status inconsistencies (dat_11, dat_16) and one typo
+  ("locked" -> "blocked" from the v12 here-string).
+- No data files modified.
+
+**Follow-up**:
+- Optionally, add +CGSM to dat_01 after verifying against the PDF.
+- The 5 blocked datasets (dat_08, 15, 16, 17, 18) require external sources.

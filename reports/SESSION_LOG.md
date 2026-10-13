@@ -380,3 +380,26 @@
 - No data files modified.
 
 Full lists: reports/_dat_01_coverage_report.json
+
+---
+<!-- v14-cleanup -->
+
+## v14 (2026-10-13T05:01:50Z)
+
+- RunId: a873f423
+- dat_01 coverage was 99.7% (from v13). Per R12, promoted to complete.
+- COVERAGE_MATRIX.md table row updated: dat_01 -> complete.
+- dat_01_REPORT.md top section updated: Status=complete, Coverage=99.7%.
+- Missing command +CGSM documented in dat_01_REPORT.md.
+- TODO.md inconsistencies fixed:
+    - dat_11: blocked -> complete
+    - dat_16: deferred -> blocked
+    - typo "locked" -> "blocked"
+- No data files modified.
+
+With this, dat_01 is complete, cross-ref = 0, validate = 0. The project
+now has:
+    - complete: 12 / 18
+    - partial : 1 / 18  (dat_14, optional per D-004)
+    - blocked : 5 / 18  (dat_08, 15, 16, 17, 18)
+    - deferred: 0 / 18

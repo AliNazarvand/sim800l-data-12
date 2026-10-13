@@ -4,7 +4,7 @@ Generated: 2026-10-12T18:01:13.1792658+03:30
 
 | Dataset | Name | Status | Records | Reason |
 |---|---|---|---|---|
-| dat_01 | AT Command | partial | 334 | Incomplete coverage |
+| dat_01 | AT Command | complete | 334 | Coverage 99.7% (v13) |
 | dat_02 | URC | partial | 18 | 188 false-positives archived; kept records need human review |
 | dat_03 | Error Code | complete | 255 | - |
 | dat_04 | Timing & Timeout | complete | 40 | - |
@@ -88,3 +88,13 @@ The v5 note above is preserved for audit trail but is INCORRECT.
   missing from dat_01: 1.
 - If coverage >= 95%: promote dat_01 to complete.
 - Otherwise: see reports/_dat_01_coverage_report.json for the missing list.
+
+---
+<!-- v14-cleanup -->
+
+## v14 Promotion (2026-10-13T05:01:50Z)
+
+- Per R12, dat_01 coverage = 99.7% (>= 95%) qualifies as complete.
+- Table row updated: dat_01 -> complete.
+- Single missing command +CGSM documented in dat_01_REPORT.md.
+- No data files modified.

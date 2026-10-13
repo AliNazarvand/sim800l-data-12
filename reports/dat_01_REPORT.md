@@ -8,8 +8,8 @@ Generated: 2026-10-13T04:32:50Z
 
 - File: `data/dat_01_at_command.yaml`
 - Record count: **334**
-- Status: **partial**
-- Coverage estimate: unknown (source index not compared yet)
+- Status: **complete** (coverage 99.7%)
+- Coverage estimate: **99.7%** (334 of 335 index commands, verified in v13)
 - Confidence: mixed (0.6 auto-extracted + 0.0 unknown-flagged entries)
 
 ## Source
@@ -83,3 +83,18 @@ probe only walked values, which yielded 0).
 - **Coverage: 99.7%**
 
 Details: reports/_at_index_probe_report.md and reports/_dat_01_coverage_report.json
+
+---
+<!-- v14-missing-command -->
+
+## v14 Missing Command (2026-10-13T05:01:50Z)
+
+The index file contains 335 command keys. dat_01 contains 334 records.
+The single missing command is:
+
+- **+CGSM** -- present in _at_commands_index.json but not yet in
+  dat_01_at_command.yaml.
+
+Action: Review page references in the manual PDF and add the command
+(if it is confirmed as a valid SIM800L AT command). Until then, dat_01
+remains at 99.7% coverage, which is still complete per R12 (>= 95%).
