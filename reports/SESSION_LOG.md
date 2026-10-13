@@ -444,3 +444,14 @@ now has:
 - complete: 11 / 18
 - partial :  2 / 18 (dat_02, dat_14)
 - blocked :  5 / 18 (dat_08, 15, 16, 17, 18)
+
+---
+<!-- v17-final -->
+
+## v17 Absolute Final (2026-10-13T05:09:32Z)
+
+- RunId: 3029c344
+- DECISIONS_LOG.md patterns fixed: True
+- +CGSM outcome: added  (id=dat_01_0280)
+- COVERAGE_MATRIX updated: True
+- No fabricated data.

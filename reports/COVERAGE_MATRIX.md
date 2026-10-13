@@ -4,7 +4,7 @@ Generated: 2026-10-12T18:01:13.1792658+03:30
 
 | Dataset | Name | Status | Records | Reason |
 |---|---|---|---|---|
-| dat_01 | AT Command | complete | 334 | Coverage 99.7% (v13) |
+| dat_01 | AT Command | complete | 335 | Coverage 100% (v17) |
 | dat_02 | URC | partial | 18 | 188 false-positives archived; kept records need human review |
 | dat_03 | Error Code | complete | 255 | - |
 | dat_04 | Timing & Timeout | complete | 40 | - |

@@ -189,8 +189,7 @@ body still showed 40 issues while the v7 note at the bottom showed 0.
   returned Jalali dates on this system, violating R19. From v9 onward all
   timestamps use `[System.Globalization.CultureInfo]::InvariantCulture`.
 - **`eature` typo**: v8's SESSION_LOG entry contained `eature/complete-datasets`
-  instead of `feature/complete-datasets` because a PowerShell `\ ` inside a
-  here-string is a form-feed escape. Fixed by direct literal replacement.
+  instead of `feature/complete-datasets` because a PowerShell backtick-f inside a here-string is a form-feed escape. Fixed by direct literal replacement.
 
 **New artifacts:**
 - `reports/dat_01_REPORT.md` -- required by the prompt but never written.
@@ -358,3 +357,17 @@ here-strings; single-quote here-strings (@'...'@) preserve literals.
 - complete: 11
 - partial :  2 (dat_02, dat_14)
 - blocked :  5 (dat_08, 15, 16, 17, 18)
+
+---
+<!-- v17-final -->
+
+## D-V17-3029c344 (2026-10-13T05:09:32Z)
+
+**Decision**: Last-mile fix for DECISIONS_LOG patterns and +CGSM addition.
+
+**Actions:**
+- DECISIONS_LOG.md: broadened the regex for two unreadable patterns
+  (backtick-escape residues). See fixes list in SESSION_LOG.
+- +CGSM added via relaxed matching (accepts any AT+CGSM context).
+- COVERAGE_MATRIX updated if added.
+- No data files modified except dat_01 (only for +CGSM).
