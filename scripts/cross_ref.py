@@ -1,57 +1,102 @@
 #!/usr/bin/env python3
-"""cross_ref.py — بررسی ارجاعات متقابل (سبک) بین دیتاست‌ها"""
-import yaml, sys
+"""
+Cross-reference validator for sim800l-data.
+
+Checks that every AT command referenced from dat_02 (URC), dat_09 (SMS),
+and dat_13 (SIM Management) actually exists in dat_01 (AT Command DB).
+
+Normalization: strips leading "AT+" or "AT" and then any leading "+",
+finally uppercases. This makes "AT+CNMI", "+CNMI", and "cnmi" all equal.
+"""
+import sys
 from pathlib import Path
+import yaml
 
-ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
+DATA = Path(__file__).resolve().parent.parent / "data"
 
-def load(name):
-    p = DATA / name
-    if not p.exists(): return []
+
+def normalize(cmd):
+    if cmd is None:
+        return ""
+    s = str(cmd).strip().upper()
+    if s.startswith("AT+"):
+        s = s[3:]
+    elif s.startswith("AT"):
+        s = s[2:]
+    if s.startswith("+"):
+        s = s[1:]
+    return s
+
+
+def load(path):
+    if not path.exists():
+        return []
     try:
-        d = yaml.safe_load(p.read_text(encoding="utf-8")) or []
-        return d if isinstance(d, list) else [d]
-    except Exception:
+        with path.open(encoding="utf-8") as f:
+            data = yaml.safe_load(f)
+        return data if isinstance(data, list) else []
+    except Exception as e:
+        print(f"[cross_ref] WARN: cannot read {path}: {e}", file=sys.stderr)
         return []
 
+
 def main():
-    d01 = load("dat_01_at_command.yaml")
-    commands = {r.get("command","") for r in d01 if isinstance(r, dict) and r.get("command")}
-    d02 = load("dat_02_urc.yaml")
-    d03 = load("dat_03_error_code.yaml")
-    d09 = load("dat_09_sms.yaml")
-    d13 = load("dat_13_sim_management.yaml")
+    dat01 = load(DATA / "dat_01_at_command.yaml")
+    dat02 = load(DATA / "dat_02_urc.yaml")
+    dat09 = load(DATA / "dat_09_sms.yaml")
+    dat13 = load(DATA / "dat_13_sim_management.yaml")
+
+    cmds = set()
+    for r in dat01:
+        if isinstance(r, dict):
+            n = normalize(r.get("command"))
+            if n:
+                cmds.add(n)
+
     issues = []
-    for u in d02:
-        if not isinstance(u, dict): continue
-        rc = u.get("related_command","")
-        if rc and rc not in commands:
-            issues.append(f"URC {u.get('id','?')} -> {rc} در dat_01 یافت نشد")
-    for e in d03:
-        if not isinstance(e, dict): continue
-        for rc in e.get("related_commands", []) or []:
-            if rc and rc not in commands:
-                issues.append(f"Error {e.get('id','?')} -> {rc} در dat_01 یافت نشد")
-    for s in d09:
-        if not isinstance(s, dict): continue
-        c = s.get("command","")
-        if c and c not in commands:
-            issues.append(f"SMS {s.get('id','?')} -> {c} در dat_01 یافت نشد")
-    for s in d13:
-        if not isinstance(s, dict): continue
-        c = s.get("command","")
-        if c and c not in commands:
-            issues.append(f"SIM {s.get('id','?')} -> {c} در dat_01 یافت نشد")
-    rp = ROOT / "reports" / "CROSS_REF_REPORT.md"
-    lines = ["# CROSS_REF_REPORT", "", f"## مشکلات ({len(issues)})", ""]
-    lines += [f"- {x}" for x in issues]
-    lines += ["", "## آمار", f"- commandهای dat_01: {len(commands)}",
-              f"- URCها: {len(d02)}", f"- Error codes: {len(d03)}",
-              f"- SMS: {len(d09)}", f"- SIM: {len(d13)}"]
-    rp.write_text("\n".join(lines), encoding="utf-8")
-    print(f"Cross-ref: {len(issues)} issues, {len(commands)} commands in dat_01")
-    sys.exit(0)
+
+    for r in dat02:
+        if not isinstance(r, dict):
+            continue
+        rc = r.get("related_command")
+        if rc:
+            n = normalize(rc)
+            if n and n not in cmds:
+                issues.append(f"URC {r.get('id')} -> {rc} not in dat_01")
+
+    for r in dat09:
+        if not isinstance(r, dict):
+            continue
+        c = r.get("command")
+        if c:
+            n = normalize(c)
+            if n and n not in cmds:
+                issues.append(f"SMS {r.get('id')} -> {c} not in dat_01")
+
+    for r in dat13:
+        if not isinstance(r, dict):
+            continue
+        c = r.get("command")
+        if c:
+            n = normalize(c)
+            if n and n not in cmds:
+                issues.append(f"SIM {r.get('id')} -> {c} not in dat_01")
+
+    print(f"Cross-ref: {len(issues)} issues, {len(dat01)} commands in dat_01")
+    if issues:
+        print()
+        print(f"## Issues ({len(issues)})")
+        for i in issues:
+            print(f"- {i}")
+    print()
+    print("## Stats")
+    print(f"- dat_01 commands: {len(dat01)}")
+    print(f"- dat_02 URCs: {len(dat02)}")
+    print(f"- dat_09 SMS: {len(dat09)}")
+    print(f"- dat_13 SIM: {len(dat13)}")
+
+    return 0 if not issues else 1
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

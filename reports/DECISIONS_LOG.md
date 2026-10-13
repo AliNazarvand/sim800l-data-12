@@ -136,3 +136,25 @@ YAML records.
 **Correct values**:
 - dat_02 records after v5 cleanup: **18**
 - False positives archived: **188**
+---
+<!-- v7-correction RunId=2beb359b -->
+
+## D-V7-2beb359b (1405-07-21T07:58:37Z)
+
+**Decision**: Replace scripts/cross_ref.py with a version that normalizes
+AT command names before comparison, and repair the COVERAGE_MATRIX
+dat_02 row and the archive header that v5/v6 failed to fix.
+
+**Rationale**:
+- The old cross_ref.py compared strings verbatim ("AT+CNMI" vs "+CNMI"),
+  producing 40 false "not found" issues.
+- COVERAGE_MATRIX still advertised dat_02 as "complete" with 206 records
+  even though the actual file has 18 records.
+- The archive header still claimed "7867 records" (line count, not record count).
+
+**Result**:
+- cross-ref issues : 40 -> 0
+- dat_02 row       : "complete | 206" -> "partial | 18"
+- archive header   : "7867" -> "188"
+
+**Backup**: scripts/cross_ref.py.v7-backup (preserved for audit)

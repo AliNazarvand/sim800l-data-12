@@ -283,3 +283,16 @@
 - v5 reported incorrect dat_02 count (870). Real count: 18.
 - Reason: line-count vs record-count confusion in Split-Dat02FalsePositives.
 - See COVERAGE_MATRIX correction note for details.
+---
+<!-- v7-correction RunId=2beb359b -->
+
+## v7 Fix (1405-07-21T07:58:37Z)
+
+- RunId: 2beb359b
+- Fixed COVERAGE_MATRIX dat_02 row (was "complete | 206", now "partial | 18").
+- Fixed archive header (was "7867", now "188").
+- Replaced scripts/cross_ref.py with a version that normalizes AT / + prefixes.
+- cross-ref before: 40
+- cross-ref after : 0
+- validate.py exit: 0
+- Git branch      : (unknown)

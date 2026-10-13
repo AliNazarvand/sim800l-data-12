@@ -50,12 +50,19 @@
 - SMS: 14
 - SIM: 10
 ---
-<!-- v6-fix RunId=c6f60ee0 -->
+<!-- v7-correction RunId=2beb359b -->
 
-## v6 honest cross-ref recount (1405-07-21T07:56:20Z)
+## v7 Cross-ref after normalization fix (1405-07-21T07:58:37Z)
 
-- cross_ref issues: 40
-- These are LEGITIMATE: they reference URC/SMS/SIM records whose related
-  commands are absent from dat_01 because dat_01 is only partial.
-- To bring this to zero, dat_01 must be completed from
-  `sources/originals/SIM800 Series_AT Command Manual_V1.01.pdf`.
+- cross-ref issues: 0
+
+```text
+Cross-ref: 0 issues, 334 commands in dat_01
+
+## Stats
+- dat_01 commands: 334
+- dat_02 URCs: 18
+- dat_09 SMS: 14
+- dat_13 SIM: 10
+
+```

@@ -5,7 +5,7 @@ Generated: 2026-10-12T18:01:13.1792658+03:30
 | Dataset | Name | Status | Records | Reason |
 |---|---|---|---|---|
 | dat_01 | AT Command | partial | 334 | Incomplete coverage |
-| dat_02 | URC | complete | 206 | - |
+| dat_02 | URC | partial | 18 | 188 false-positives archived; kept records need human review |
 | dat_03 | Error Code | complete | 255 | - |
 | dat_04 | Timing & Timeout | complete | 40 | - |
 | dat_05 | State Machine | complete | 31 | - |
@@ -56,3 +56,13 @@ Actual values (recomputed in v6):
 - Source of bug: `Split-Dat02FalsePositives` used `.Count` on line lists.
 
 The v5 note above is preserved for audit trail but is INCORRECT.
+---
+<!-- v7-correction RunId=2beb359b -->
+
+## v7: dat_02 row fix + cross_ref normalization (1405-07-21T07:58:37Z)
+
+- COVERAGE_MATRIX dat_02 row rewritten to reflect the actual count (18) and status (partial).
+- cross_ref.py normalization fixed: the previous version compared raw "AT+CNMI" against dat_01's "+CNMI" and produced false "not found" errors.
+- cross-ref issues before fix: 40
+- cross-ref issues after fix : 0
+- Backup of old cross_ref.py: scripts/cross_ref.py.v7-backup
