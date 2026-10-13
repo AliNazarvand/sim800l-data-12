@@ -1,0 +1,2565 @@
+[
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p002_t01.csv",
+    "classification": "unknown",
+    "rows": 4,
+    "headers": [
+      "Document Title",
+      "SIM800H&SIM800L Hardware Design"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p010_t01.csv",
+    "classification": "unknown",
+    "rows": 20,
+    "headers": [
+      "",
+      "Date",
+      "",
+      "",
+      "Version",
+      "",
+      "",
+      "Description of change"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p011_t01.csv",
+    "classification": "unknown",
+    "rows": 4,
+    "headers": [
+      "",
+      "",
+      "",
+      "",
+      "SIM800H",
+      "",
+      "",
+      "SIM800L"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p011_t02.csv",
+    "classification": "unknown",
+    "rows": 2,
+    "headers": [
+      "",
+      "Feature",
+      "",
+      "",
+      "Implementation",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p012_t01.csv",
+    "classification": "unknown",
+    "rows": 44,
+    "headers": [
+      "Frequency bands",
+      "",
+      "",
+      "",
+      "(cid:122) Quad-band: GSM 850, EGSM 900, DCS 1800, PCS 1900.",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p012_t02.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "Serial port and debug"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p013_t01.csv",
+    "classification": "unknown",
+    "rows": 3,
+    "headers": [
+      "",
+      "Timing functions",
+      "",
+      "",
+      "Use AT command set",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p013_t02.csv",
+    "classification": "unknown",
+    "rows": 4,
+    "headers": [
+      "",
+      "Coding scheme",
+      "",
+      "",
+      "1 timeslot",
+      "",
+      "",
+      "2 timeslot"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p013_t03.csv",
+    "classification": "unknown",
+    "rows": 27,
+    "headers": [
+      "",
+      "Mode",
+      "",
+      "",
+      "Function",
+      "",
+      "",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p013_t04.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "GSM/GPRS"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p013_t05.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "Normal"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p013_t06.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "GSM"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p013_t07.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "GPRS"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p013_t08.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "GPRS"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p013_t09.csv",
+    "classification": "timing",
+    "rows": 2,
+    "headers": [
+      "Minimum"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p014_t01.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p014_t02.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p014_t04.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p016_t01.csv",
+    "classification": "pin",
+    "rows": 39,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "I/O"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p016_t02.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "GND for VBAT recommend"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p016_t03.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "Internally pulled up to"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p017_t01.csv",
+    "classification": "unknown",
+    "rows": 41,
+    "headers": [
+      "",
+      "KBR2",
+      "",
+      "",
+      "61",
+      "",
+      "",
+      "O"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p017_t02.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "Programmable general purpose input"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p017_t03.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "If these pins are unused,"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p017_t04.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "If these pins are unused,"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p017_t05.csv",
+    "classification": "unknown",
+    "rows": 3,
+    "headers": [
+      "All signals of SIM interface"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p018_t01.csv",
+    "classification": "unknown",
+    "rows": 6,
+    "headers": [
+      "",
+      "FM_ANTN",
+      "",
+      "",
+      "",
+      "57",
+      "",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p020_t02.csv",
+    "classification": "power",
+    "rows": 4,
+    "headers": [
+      "",
+      "",
+      "",
+      "Vendor",
+      "",
+      "Part number",
+      "",
+      "Power(watts)"
+    ],
+    "emitted_to": "dat_15"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p023_t01.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p023_t02.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p026_t01.csv",
+    "classification": "pin",
+    "rows": 3,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Symbol",
+      "",
+      "",
+      "Min"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p026_t02.csv",
+    "classification": "power",
+    "rows": 3,
+    "headers": [
+      "",
+      "<fun>",
+      "",
+      "Current consumption(mA) (sleep mode)",
+      ""
+    ],
+    "emitted_to": "dat_15"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p029_t01.csv",
+    "classification": "pin",
+    "rows": 10,
+    "headers": [
+      "",
+      "",
+      "",
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p029_t02.csv",
+    "classification": "timing",
+    "rows": 4,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "",
+      "Min",
+      "",
+      "Typ",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p031_t01.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p032_t01.csv",
+    "classification": "timing",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin",
+      "",
+      "",
+      "Min",
+      "",
+      "",
+      "Typ"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p034_t01.csv",
+    "classification": "unknown",
+    "rows": 12,
+    "headers": [
+      "",
+      "State",
+      "",
+      "",
+      "RI response",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p035_t02.csv",
+    "classification": "pin",
+    "rows": 8,
+    "headers": [
+      "",
+      "",
+      "",
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p036_t01.csv",
+    "classification": "unknown",
+    "rows": 4,
+    "headers": [
+      "",
+      "Conditions",
+      "",
+      "",
+      "Class-AB AMP",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p037_t01.csv",
+    "classification": "timing",
+    "rows": 6,
+    "headers": [
+      "",
+      "Parameter",
+      "",
+      "",
+      "",
+      "Min",
+      "",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p037_t02.csv",
+    "classification": "timing",
+    "rows": 2,
+    "headers": [
+      "",
+      "Parameter",
+      "",
+      "",
+      "Conditions",
+      "",
+      "Min",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p038_t01.csv",
+    "classification": "pin",
+    "rows": 5,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Function"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p038_t02.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "51\u03a9",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p038_t03.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p039_t01.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p040_t01.csv",
+    "classification": "pin",
+    "rows": 8,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Signal",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p041_t01.csv",
+    "classification": "pin",
+    "rows": 6,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Signal",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p042_t01.csv",
+    "classification": "pin",
+    "rows": 4,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "Description",
+      ""
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p042_t02.csv",
+    "classification": "unknown",
+    "rows": 7,
+    "headers": [
+      "",
+      "Parameter",
+      "",
+      "",
+      "Specification",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p042_t03.csv",
+    "classification": "pin",
+    "rows": 6,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "Mode 0(default)",
+      ""
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p044_t01.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p046_t01.csv",
+    "classification": "pin",
+    "rows": 10,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "Function",
+      ""
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p046_t02.csv",
+    "classification": "pin",
+    "rows": 10,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "Mode 0(default)",
+      ""
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p046_t03.csv",
+    "classification": "pin",
+    "rows": 2,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "Description",
+      ""
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p047_t01.csv",
+    "classification": "pin",
+    "rows": 2,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Mode 0(default)"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p047_t02.csv",
+    "classification": "pin",
+    "rows": 3,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "Reset state"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p047_t03.csv",
+    "classification": "unknown",
+    "rows": 0,
+    "headers": [
+      "0.29s"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p047_t04.csv",
+    "classification": "unknown",
+    "rows": 0,
+    "headers": [
+      "t<1.9s",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p047_t05.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p048_t01.csv",
+    "classification": "timing",
+    "rows": 4,
+    "headers": [
+      "",
+      "Parameter",
+      "",
+      "",
+      "Min",
+      "",
+      "Typ",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p048_t02.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p048_t03.csv",
+    "classification": "timing",
+    "rows": 2,
+    "headers": [
+      "",
+      "Parameter",
+      "",
+      "",
+      "Min",
+      "",
+      "",
+      "Typ"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p049_t01.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Mode 0(default)"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p049_t02.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p049_t03.csv",
+    "classification": "unknown",
+    "rows": 4,
+    "headers": [
+      "",
+      "Status",
+      "",
+      "",
+      "SIM800H&SIM800L behavior",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p050_t01.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Mode 0(default)"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p050_t02.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p050_t03.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Mode 0(default)"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p050_t04.csv",
+    "classification": "pin",
+    "rows": 2,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p051_t01.csv",
+    "classification": "pin",
+    "rows": 2,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Min",
+      "",
+      "",
+      "Typ"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p051_t02.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p051_t03.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p052_t01.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Mode 0(default)"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p055_t01.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p058_t01.csv",
+    "classification": "timing",
+    "rows": 5,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "",
+      "Min",
+      "Typ",
+      "",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p058_t02.csv",
+    "classification": "timing",
+    "rows": 3,
+    "headers": [
+      "",
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "",
+      "Max",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p058_t03.csv",
+    "classification": "timing",
+    "rows": 4,
+    "headers": [
+      "",
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "",
+      "Max",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p059_t01.csv",
+    "classification": "timing",
+    "rows": 10,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "",
+      "Parameter",
+      "",
+      "",
+      "Min"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p059_t02.csv",
+    "classification": "timing",
+    "rows": 3,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "",
+      "Parameter",
+      "",
+      "",
+      "Min"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p059_t03.csv",
+    "classification": "timing",
+    "rows": 2,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "",
+      "Parameter",
+      "",
+      "",
+      "Min"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p059_t04.csv",
+    "classification": "timing",
+    "rows": 4,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "",
+      "Description",
+      "",
+      "",
+      "Min"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p060_t01.csv",
+    "classification": "timing",
+    "rows": 36,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "Parameter",
+      "",
+      "",
+      "Conditions",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p060_t02.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p061_t01.csv",
+    "classification": "unknown",
+    "rows": 39,
+    "headers": [
+      "",
+      "Terms",
+      "",
+      "",
+      "Contents",
+      "",
+      "",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p062_t01.csv",
+    "classification": "unknown",
+    "rows": 22,
+    "headers": [
+      "",
+      "10.9 Peak DEVM (8DPSK)",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "16"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p062_t02.csv",
+    "classification": "timing",
+    "rows": 3,
+    "headers": [
+      "",
+      "Conditions",
+      "",
+      "",
+      "Min",
+      "",
+      "",
+      "Typ"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p063_t01.csv",
+    "classification": "pin",
+    "rows": 6,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Contact discharge",
+      "",
+      "",
+      "Air discharge"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p063_t02.csv",
+    "classification": "unknown",
+    "rows": 17,
+    "headers": [
+      "",
+      "GSM850,EGSM900",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p064_t01.csv",
+    "classification": "unknown",
+    "rows": 18,
+    "headers": [
+      "",
+      "DCS1800,PCS1900",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p064_t02.csv",
+    "classification": "power",
+    "rows": 2,
+    "headers": [
+      "",
+      "Frequency",
+      "",
+      "",
+      "Receive sensitivity\uff08Typical\uff09",
+      "",
+      "",
+      "Receive sensitivity(Max)"
+    ],
+    "emitted_to": "dat_15"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p064_t03.csv",
+    "classification": "unknown",
+    "rows": 4,
+    "headers": [
+      "",
+      "Frequency",
+      "",
+      "",
+      "Receive",
+      "",
+      "",
+      "Transmit"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p066_t01.csv",
+    "classification": "unknown",
+    "rows": 10,
+    "headers": [
+      "",
+      "Moisture Sensitivity Level",
+      "",
+      "Floor Life (out of bag) at factory ambient\u226430\u00b0C/60% RH or as stated",
+      "",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p067_t01.csv",
+    "classification": "unknown",
+    "rows": 2,
+    "headers": [
+      "",
+      "Baking temperature",
+      "",
+      "",
+      "Moisture",
+      "",
+      "",
+      "Time"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p068_t01.csv",
+    "classification": "unknown",
+    "rows": 23,
+    "headers": [
+      "",
+      "SN",
+      "Document name",
+      "",
+      "",
+      "Remark",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p069_t01.csv",
+    "classification": "pin",
+    "rows": 30,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Reset",
+      "",
+      "",
+      "Pin number"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p070_t01.csv",
+    "classification": "unknown",
+    "rows": 38,
+    "headers": [
+      "",
+      "Abbreviation",
+      "",
+      "",
+      "Description",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p071_t01.csv",
+    "classification": "unknown",
+    "rows": 8,
+    "headers": [
+      "",
+      "USSD",
+      "",
+      "",
+      "Unstructured Supplementary Service Data",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800H&SIM800L_Hardware_Design_V2.02_p072_t01.csv",
+    "classification": "unknown",
+    "rows": 27,
+    "headers": [
+      "",
+      "Marks",
+      "",
+      "",
+      "Requirements",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p002_t01.csv",
+    "classification": "unknown",
+    "rows": 4,
+    "headers": [
+      "Document Title",
+      "SIM800L Hardware Design"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p010_t01.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "",
+      "Date",
+      "",
+      "",
+      "Version",
+      "",
+      "",
+      "Description of change"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p011_t01.csv",
+    "classification": "unknown",
+    "rows": 11,
+    "headers": [
+      "",
+      "Feature",
+      "",
+      "",
+      "Implementation",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p012_t01.csv",
+    "classification": "unknown",
+    "rows": 38,
+    "headers": [
+      "",
+      "",
+      "",
+      "",
+      "(cid:122) Storage temperature -45\u00b0C ~ +90\u00b0C",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p012_t02.csv",
+    "classification": "unknown",
+    "rows": 0,
+    "headers": [
+      "Data GPRS"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p012_t03.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "Serial port and"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p013_t01.csv",
+    "classification": "unknown",
+    "rows": 4,
+    "headers": [
+      "",
+      "Coding scheme",
+      "",
+      "",
+      "1 timeslot",
+      "",
+      "",
+      "2 timeslot"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p013_t02.csv",
+    "classification": "unknown",
+    "rows": 27,
+    "headers": [
+      "",
+      "Mode",
+      "",
+      "",
+      "Function",
+      "",
+      "",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p013_t03.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "GSM/GPRS"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p013_t04.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "Normal"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p013_t05.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "GSM"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p013_t06.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "GPRS"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p013_t07.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "GPRS"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p013_t08.csv",
+    "classification": "timing",
+    "rows": 2,
+    "headers": [
+      "Minimum"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p014_t02.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p016_t01.csv",
+    "classification": "pin",
+    "rows": 39,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "I/O"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p016_t02.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "GND for VBAT recommend"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p016_t03.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "Internally pulled up to"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p017_t01.csv",
+    "classification": "unknown",
+    "rows": 41,
+    "headers": [
+      "",
+      "ROW2",
+      "",
+      "",
+      "61",
+      "",
+      "",
+      "O"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p017_t02.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "Programmable general purpose input"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p017_t03.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "If these pins are unused,"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p017_t04.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "If these pins are unused,"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p017_t05.csv",
+    "classification": "unknown",
+    "rows": 3,
+    "headers": [
+      "All signals of SIM interface"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p018_t01.csv",
+    "classification": "unknown",
+    "rows": 6,
+    "headers": [
+      "",
+      "BPI_BUS1",
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p021_t02.csv",
+    "classification": "power",
+    "rows": 5,
+    "headers": [
+      "",
+      "",
+      "",
+      "Vendor",
+      "",
+      "",
+      "Part number",
+      ""
+    ],
+    "emitted_to": "dat_15"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p024_t01.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p027_t01.csv",
+    "classification": "pin",
+    "rows": 3,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Symbol",
+      "",
+      "",
+      "Min"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p027_t02.csv",
+    "classification": "power",
+    "rows": 3,
+    "headers": [
+      "",
+      "<fun>",
+      "",
+      "",
+      "Current consumption(mA) (sleep mode)",
+      ""
+    ],
+    "emitted_to": "dat_15"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p029_t01.csv",
+    "classification": "pin",
+    "rows": 10,
+    "headers": [
+      "",
+      "",
+      "",
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p030_t01.csv",
+    "classification": "timing",
+    "rows": 4,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "",
+      "Min",
+      "",
+      "",
+      "Max"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p031_t01.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p031_t02.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p033_t01.csv",
+    "classification": "timing",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin",
+      "",
+      "Min",
+      "",
+      "",
+      "Typ",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p034_t01.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "",
+      "I/O Connector TXD RXD GND"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p034_t02.csv",
+    "classification": "pin",
+    "rows": 7,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Mode 0(default)"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p035_t01.csv",
+    "classification": "unknown",
+    "rows": 12,
+    "headers": [
+      "",
+      "State",
+      "",
+      "",
+      "RI response",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p036_t02.csv",
+    "classification": "pin",
+    "rows": 8,
+    "headers": [
+      "",
+      "",
+      "",
+      "",
+      "Pin Name",
+      "",
+      "",
+      "Pin number"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p036_t03.csv",
+    "classification": "unknown",
+    "rows": 4,
+    "headers": [
+      "",
+      "Conditions",
+      "",
+      "",
+      "Class-AB AMP",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p038_t01.csv",
+    "classification": "timing",
+    "rows": 6,
+    "headers": [
+      "",
+      "Parameter",
+      "",
+      "",
+      "",
+      "Min",
+      "",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p038_t02.csv",
+    "classification": "timing",
+    "rows": 2,
+    "headers": [
+      "",
+      "Parameter",
+      "",
+      "",
+      "Conditions",
+      "",
+      "Min",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p039_t01.csv",
+    "classification": "pin",
+    "rows": 5,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Function"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p039_t02.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p039_t03.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p039_t04.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p040_t01.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p041_t01.csv",
+    "classification": "pin",
+    "rows": 8,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Signal",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p042_t01.csv",
+    "classification": "pin",
+    "rows": 6,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Signal",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p043_t01.csv",
+    "classification": "pin",
+    "rows": 4,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "Description",
+      ""
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p043_t02.csv",
+    "classification": "unknown",
+    "rows": 7,
+    "headers": [
+      "",
+      "Parameter",
+      "",
+      "",
+      "Specification",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p043_t03.csv",
+    "classification": "pin",
+    "rows": 6,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "Mode 0(default)",
+      ""
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p045_t01.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p047_t01.csv",
+    "classification": "pin",
+    "rows": 10,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "Function",
+      ""
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p047_t02.csv",
+    "classification": "pin",
+    "rows": 10,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "Mode 0(default)",
+      ""
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p047_t03.csv",
+    "classification": "pin",
+    "rows": 2,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "Description",
+      ""
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p048_t01.csv",
+    "classification": "pin",
+    "rows": 2,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Mode 0(default)"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p048_t02.csv",
+    "classification": "pin",
+    "rows": 3,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "Reret state"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p048_t03.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p048_t04.csv",
+    "classification": "timing",
+    "rows": 4,
+    "headers": [
+      "",
+      "Parameter",
+      "",
+      "",
+      "Min",
+      "",
+      "",
+      "Typ"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p049_t02.csv",
+    "classification": "timing",
+    "rows": 2,
+    "headers": [
+      "",
+      "Parameter",
+      "",
+      "",
+      "Min",
+      "",
+      "Typ",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p049_t03.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "Pin number",
+      "",
+      "Mode 0(default)",
+      "",
+      "",
+      "Mode 1"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p049_t04.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "Pin number",
+      "",
+      "Description",
+      ""
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p050_t01.csv",
+    "classification": "unknown",
+    "rows": 4,
+    "headers": [
+      "",
+      "Status",
+      "",
+      "",
+      "SIM800L behavior",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p050_t02.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Mode 0(default)"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p050_t03.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p051_t01.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Mode 0(default)"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p051_t02.csv",
+    "classification": "pin",
+    "rows": 2,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p051_t03.csv",
+    "classification": "pin",
+    "rows": 2,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Min",
+      "",
+      "",
+      "Typ"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p052_t01.csv",
+    "classification": "pin",
+    "rows": 1,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Description"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p052_t02.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p058_t01.csv",
+    "classification": "timing",
+    "rows": 5,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "",
+      "Min",
+      "Typ",
+      "",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p058_t02.csv",
+    "classification": "timing",
+    "rows": 3,
+    "headers": [
+      "",
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "",
+      "Max",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p058_t03.csv",
+    "classification": "timing",
+    "rows": 4,
+    "headers": [
+      "",
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "",
+      "Max",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p059_t01.csv",
+    "classification": "timing",
+    "rows": 10,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "",
+      "Parameter",
+      "",
+      "",
+      "Min"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p059_t02.csv",
+    "classification": "timing",
+    "rows": 3,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "",
+      "Parameter",
+      "",
+      "",
+      "Min"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p059_t03.csv",
+    "classification": "timing",
+    "rows": 2,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "",
+      "Parameter",
+      "",
+      "",
+      "Min"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p059_t04.csv",
+    "classification": "timing",
+    "rows": 4,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "",
+      "Description",
+      "",
+      "",
+      "Min"
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p060_t01.csv",
+    "classification": "timing",
+    "rows": 36,
+    "headers": [
+      "",
+      "Symbol",
+      "",
+      "Parameter",
+      "",
+      "",
+      "Conditions",
+      ""
+    ],
+    "emitted_to": "dat_04"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p060_t02.csv",
+    "classification": "empty",
+    "rows": 0,
+    "headers": [],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p060_t03.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "mA"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p060_t04.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "mA"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p060_t05.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "mA"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p060_t06.csv",
+    "classification": "unknown",
+    "rows": 1,
+    "headers": [
+      "mA"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p061_t01.csv",
+    "classification": "pin",
+    "rows": 6,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Contact discharge",
+      "",
+      "",
+      "Air discharge"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p061_t02.csv",
+    "classification": "unknown",
+    "rows": 17,
+    "headers": [
+      "",
+      "GSM850,EGSM900",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p062_t01.csv",
+    "classification": "unknown",
+    "rows": 18,
+    "headers": [
+      "",
+      "DCS1800,PCS1900",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p062_t02.csv",
+    "classification": "power",
+    "rows": 2,
+    "headers": [
+      "",
+      "Frequency",
+      "",
+      "",
+      "Receive sensitivity\uff08Typical\uff09",
+      "",
+      "",
+      "Receive sensitivity(Max)"
+    ],
+    "emitted_to": "dat_15"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p062_t03.csv",
+    "classification": "unknown",
+    "rows": 4,
+    "headers": [
+      "",
+      "Frequency",
+      "",
+      "",
+      "Receive",
+      "",
+      "",
+      "Transmit"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p064_t01.csv",
+    "classification": "unknown",
+    "rows": 10,
+    "headers": [
+      "",
+      "Moisture Sensitivity Level",
+      "",
+      "Floor Life (out of bag) at factory ambient\u226430\u00b0C/60% RH or as stated",
+      "",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p064_t02.csv",
+    "classification": "unknown",
+    "rows": 2,
+    "headers": [
+      "",
+      "Baking temperature",
+      "",
+      "",
+      "Moisture",
+      "",
+      "",
+      "Time"
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p065_t01.csv",
+    "classification": "unknown",
+    "rows": 21,
+    "headers": [
+      "",
+      "SN",
+      "Document name",
+      "",
+      "",
+      "Remark",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p066_t01.csv",
+    "classification": "pin",
+    "rows": 29,
+    "headers": [
+      "",
+      "Pin name",
+      "",
+      "",
+      "Pin number",
+      "",
+      "",
+      "Mode 0(default)"
+    ],
+    "emitted_to": "dat_07"
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p067_t01.csv",
+    "classification": "unknown",
+    "rows": 38,
+    "headers": [
+      "",
+      "Abbreviation",
+      "",
+      "",
+      "Description",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p068_t01.csv",
+    "classification": "unknown",
+    "rows": 8,
+    "headers": [
+      "",
+      "USSD",
+      "",
+      "",
+      "Unstructured Supplementary Service Data",
+      ""
+    ],
+    "emitted_to": null
+  },
+  {
+    "csv": "SIM800L_Hardware_Design_V1.00_p069_t01.csv",
+    "classification": "unknown",
+    "rows": 27,
+    "headers": [
+      "",
+      "Marks",
+      "",
+      "",
+      "Requirements",
+      ""
+    ],
+    "emitted_to": null
+  }
+]

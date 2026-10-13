@@ -542,3 +542,7 @@ now has:
 ## Session 2026-10-13T13:16:47Z
 - Ran extract_pdf, extract_hw_datasets, validate (jsonschema), cross_ref, reports.
 - Datasets inspected: 18; total records: 1206
+
+## Session 2026-10-13T13:20:29Z
+- Ran corrected pipeline v2 (power fix, dedup, verbose logs).
+- Datasets: 18, records: 843

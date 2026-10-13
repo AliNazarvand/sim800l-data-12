@@ -31,3 +31,6 @@ Phase 1 complete. Production-ready dataset.
 - Step 1: infra cleanup
 ## 2026-10-13T13:16:47Z
 - Pipeline run; reports regenerated.
+
+## 2026-10-13T13:20:29Z
+- Corrected pipeline v2.

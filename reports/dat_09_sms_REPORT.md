@@ -1,7 +1,13 @@
 # DAT_09_SMS REPORT
-_Generated: 2026-10-13T13:16:47Z_
+_Generated: 2026-10-13T13:20:29Z_
 
+## Snapshot
 - File: `data/dat_09_sms.yaml`
 - Records: 14
-- Dominant status: complete
+- Dominant status: **complete**
 - Status breakdown: {'complete': 13, 'partial': 1}
+- Source versions: {'V1.01': 14}
+
+## Validation
+- Errors: 0
+- Schema OK: True

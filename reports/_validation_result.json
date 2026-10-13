@@ -24,7 +24,7 @@
     {
       "dataset": "dat_04",
       "file": "dat_04_timing_timeout.yaml",
-      "records": 99,
+      "records": 0,
       "errors": 0,
       "schema_ok": true
     },
@@ -45,7 +45,7 @@
     {
       "dataset": "dat_07",
       "file": "dat_07_hardware_reference.yaml",
-      "records": 256,
+      "records": 0,
       "errors": 0,
       "schema_ok": true
     },
@@ -101,9 +101,9 @@
     {
       "dataset": "dat_15",
       "file": "dat_15_power_management.yaml",
-      "records": 14,
-      "errors": 0,
-      "schema_ok": true
+      "records": 6,
+      "errors": 36,
+      "schema_ok": false
     },
     {
       "dataset": "dat_16",
@@ -127,8 +127,44 @@
       "schema_ok": true
     }
   ],
-  "errors": [],
-  "warnings": [],
+  "errors": [
+    "dat_15_power_management.yaml: [0] missing: source_type",
+    "dat_15_power_management.yaml: [0] missing: confidence",
+    "dat_15_power_management.yaml: [0] missing: status",
+    "dat_15_power_management.yaml: [0] missing: applicable_models",
+    "dat_15_power_management.yaml: [0] applicable_models missing SIM800L (R1)",
+    "dat_15_power_management.yaml: [1] missing: source_type",
+    "dat_15_power_management.yaml: [1] missing: confidence",
+    "dat_15_power_management.yaml: [1] missing: status",
+    "dat_15_power_management.yaml: [1] missing: applicable_models",
+    "dat_15_power_management.yaml: [1] applicable_models missing SIM800L (R1)",
+    "dat_15_power_management.yaml: [2] missing: source_type",
+    "dat_15_power_management.yaml: [2] missing: confidence",
+    "dat_15_power_management.yaml: [2] missing: status",
+    "dat_15_power_management.yaml: [2] missing: applicable_models",
+    "dat_15_power_management.yaml: [2] applicable_models missing SIM800L (R1)",
+    "dat_15_power_management.yaml: [3] missing: source_type",
+    "dat_15_power_management.yaml: [3] missing: confidence",
+    "dat_15_power_management.yaml: [3] missing: status",
+    "dat_15_power_management.yaml: [3] missing: applicable_models",
+    "dat_15_power_management.yaml: [3] applicable_models missing SIM800L (R1)",
+    "dat_15_power_management.yaml: [4] missing: source_type",
+    "dat_15_power_management.yaml: [4] missing: confidence",
+    "dat_15_power_management.yaml: [4] missing: status",
+    "dat_15_power_management.yaml: [4] missing: applicable_models",
+    "dat_15_power_management.yaml: [4] applicable_models missing SIM800L (R1)",
+    "dat_15_power_management.yaml: [5] missing: source_type",
+    "dat_15_power_management.yaml: [5] missing: confidence",
+    "dat_15_power_management.yaml: [5] missing: status",
+    "dat_15_power_management.yaml: [5] missing: applicable_models",
+    "dat_15_power_management.yaml: [5] applicable_models missing SIM800L (R1)",
+    "dat_15_power_management.yaml: [0] schema: 'source_type' is a required property",
+    "dat_15_power_management.yaml: [1] schema: 'source_type' is a required property",
+    "dat_15_power_management.yaml: [2] schema: 'source_type' is a required property",
+    "dat_15_power_management.yaml: [3] schema: 'source_type' is a required property",
+    "dat_15_power_management.yaml: [4] schema: 'source_type' is a required property",
+    "dat_15_power_management.yaml: [5] schema: 'source_type' is a required property"
+  ],
   "schema_used": {
     "dat_01_at_command.yaml": "dat_01",
     "dat_02_urc.yaml": "dat_02",

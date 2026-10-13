@@ -426,3 +426,8 @@ here-strings; single-quote here-strings (@'...'@) preserve literals.
 - Cluster A datasets (04, 07, 15) extracted from pre-parsed CSVs.
 - Validation now uses jsonschema against schemas/dat_XX.schema.yaml.
 - Cluster B intentionally left untouched (requires dedicated AT parser).
+
+## 2026-10-13T13:20:29Z
+- Expanded header keyword sets for CSV classification (fixes power_tables=0).
+- dat_07 dedup: V2.02 wins over V1.00, V1.00 recorded in conflicts (R7, R20).
+- Removed | Out-Null from validation/cross-ref so output is visible (R17).

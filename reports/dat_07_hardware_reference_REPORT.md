@@ -1,7 +1,13 @@
 # DAT_07_HARDWARE_REFERENCE REPORT
-_Generated: 2026-10-13T13:16:47Z_
+_Generated: 2026-10-13T13:20:29Z_
 
+## Snapshot
 - File: `data/dat_07_hardware_reference.yaml`
-- Records: 256
-- Dominant status: complete
-- Status breakdown: {'complete': 256}
+- Records: 0
+- Dominant status: **pending**
+- Status breakdown: {}
+- Source versions: {}
+
+## Validation
+- Errors: 0
+- Schema OK: True
