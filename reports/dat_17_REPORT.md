@@ -1,10 +1,10 @@
 # dat_17 — Certificate/Key Store
 
-Generated: 2026-10-13T18:03:01Z
+Generated: 2026-10-13T18:07:56Z
 
 | Field | Value |
 |-------|-------|
-| Status | complete |
+| Status | blocked |
 | Real records | 9 |
 | Unique records | 9 |
 | Total records | 9 |
@@ -12,7 +12,6 @@ Generated: 2026-10-13T18:03:01Z
 | Source count |  |
 | Coverage percent |  |
 | Coverage estimate |  |
-| Reason | - |
 
 ## Notes
-Dataset complete per R12.
+Dataset blocked; required source document is not available. See TODO.md.

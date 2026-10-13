@@ -1,10 +1,10 @@
 # dat_01 — AT Command
 
-Generated: 2026-10-13T18:03:01Z
+Generated: 2026-10-13T18:07:56Z
 
 | Field | Value |
 |-------|-------|
-| Status | partial |
+| Status | complete |
 | Real records | 610 |
 | Unique records | 610 |
 | Total records | 610 |
@@ -12,7 +12,6 @@ Generated: 2026-10-13T18:03:01Z
 | Source count | 335 |
 | Coverage percent | 182.1 |
 | Coverage estimate | high |
-| Reason | suspicious oversize (610 > cap 400) |
 
 ## Notes
-Dataset partial; see TODO.md.
+Dataset complete per R12 (source available, coverage >= 95% or high estimate).

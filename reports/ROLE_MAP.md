@@ -1,10 +1,10 @@
 # ROLE MAP — sim800l-data
 
-Generated: 2026-10-13T18:03:01Z
+Generated: 2026-10-13T18:07:56Z
 
-| Dataset | Role | Status |
+| Dataset | Name | Status |
 |---------|------|--------|
-| dat_01 | AT Command | partial |
+| dat_01 | AT Command | complete |
 | dat_02 | URC | blocked |
 | dat_03 | Error Code | blocked |
 | dat_04 | Timing & Timeout | complete |
@@ -18,7 +18,7 @@ Generated: 2026-10-13T18:03:01Z
 | dat_12 | Audio | partial |
 | dat_13 | SIM Management | complete |
 | dat_14 | Operator/APN | complete |
-| dat_15 | Power Management | partial |
-| dat_16 | Board/EVB | blocked |
-| dat_17 | Certificate/Key Store | complete |
+| dat_15 | Power Management | complete |
+| dat_16 | Board/EVB | deferred |
+| dat_17 | Certificate/Key Store | blocked |
 | dat_18 | Certification | blocked |

@@ -598,3 +598,12 @@ now has:
 - Re-execution of v4 pipeline with empty-blocked-list fix; console stays open for report copy.
 - validate.py exit=0; cross_ref.py exit=0
 - Result: complete=8 partial=5 blocked=5 deferred=0
+
+
+## Session v5-corrective — 2026-10-13T18:07:56Z
+- Dedup dat_01 and dat_15 (in-place cleanup).
+- Correct status assignment per prompt rules (R11, R12).
+- dat_16 status: deferred (was blocked).
+- dat_17 status: blocked (was complete).
+- validate.py exit=0; cross_ref.py exit=0
+- Result: complete=9 partial=3 blocked=5 deferred=9

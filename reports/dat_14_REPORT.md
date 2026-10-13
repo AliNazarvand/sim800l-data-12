@@ -1,6 +1,6 @@
 # dat_14 — Operator/APN
 
-Generated: 2026-10-13T18:03:01Z
+Generated: 2026-10-13T18:07:56Z
 
 | Field | Value |
 |-------|-------|
@@ -12,7 +12,6 @@ Generated: 2026-10-13T18:03:01Z
 | Source count |  |
 | Coverage percent |  |
 | Coverage estimate |  |
-| Reason | external source |
 
 ## Notes
-Dataset complete per R12.
+Dataset complete per R12 (source available, coverage >= 95% or high estimate).

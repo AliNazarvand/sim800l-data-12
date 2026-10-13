@@ -1,6 +1,6 @@
 # Validation Report
 
-Generated: 2026-10-13T18:03:01Z
+Generated: 2026-10-13T18:07:56Z
 Exit: 0
 
 ```text
@@ -107,7 +107,7 @@ Exit: 0
     {
       "dataset": "dat_15",
       "file": "dat_15_power_management.yaml",
-      "records": 363,
+      "records": 357,
       "errors": 0,
       "schema_ok": true
     },

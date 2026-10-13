@@ -1,6 +1,6 @@
 # dat_05 — State Machine
 
-Generated: 2026-10-13T18:03:01Z
+Generated: 2026-10-13T18:07:56Z
 
 | Field | Value |
 |-------|-------|
@@ -12,7 +12,6 @@ Generated: 2026-10-13T18:03:01Z
 | Source count |  |
 | Coverage percent |  |
 | Coverage estimate |  |
-| Reason | - |
 
 ## Notes
-Dataset partial; see TODO.md.
+Dataset partial; missing source or insufficient coverage. See TODO.md.

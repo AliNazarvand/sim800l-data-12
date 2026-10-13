@@ -1,10 +1,10 @@
 # dat_16 — Board/EVB
 
-Generated: 2026-10-13T18:03:01Z
+Generated: 2026-10-13T18:07:56Z
 
 | Field | Value |
 |-------|-------|
-| Status | blocked |
+| Status | deferred |
 | Real records | 1 |
 | Unique records | 1 |
 | Total records | 1 |
@@ -12,7 +12,6 @@ Generated: 2026-10-13T18:03:01Z
 | Source count |  |
 | Coverage percent |  |
 | Coverage estimate |  |
-| Reason | source document not available |
 
 ## Notes
-Dataset blocked; missing source or pipeline failure.
+Dataset deferred per prompt spec (external source or owner discretion).
