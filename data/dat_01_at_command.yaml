@@ -31,8 +31,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0002
   category: General
   command: +GMI
@@ -66,8 +66,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0003
   category: General
   command: +GMM
@@ -101,8 +101,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0004
   category: General
   command: +GMR
@@ -136,8 +136,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0005
   category: General
   command: +GOI
@@ -171,8 +171,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0006
   category: General
   command: +GSN
@@ -206,8 +206,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0007
   category: General
   command: +ICF
@@ -241,8 +241,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0008
   category: General
   command: +IFC
@@ -276,8 +276,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0009
   category: General
   command: +IPR
@@ -311,8 +311,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0010
   category: General
   command: +HVOIC
@@ -346,8 +346,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0011
   category: General
   command: +CACM
@@ -381,8 +381,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0012
   category: General
   command: +CAMM
@@ -416,8 +416,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0013
   category: General
   command: +CAOC
@@ -451,8 +451,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0014
   category: General
   command: +CBST
@@ -486,8 +486,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0015
   category: Call
   command: +CCFC
@@ -521,8 +521,8 @@
   - at-command
   - auto-extracted
   - call
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0016
   category: General
   command: +CCWA
@@ -556,8 +556,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0017
   category: General
   command: +CGMI
@@ -591,8 +591,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0018
   category: General
   command: +CGMM
@@ -626,8 +626,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0019
   category: General
   command: +CGMR
@@ -661,8 +661,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0020
   category: General
   command: +CGSN
@@ -696,8 +696,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0021
   category: SMS
   command: +CSCS
@@ -731,8 +731,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0022
   category: General
   command: +CSTA
@@ -766,8 +766,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0023
   category: General
   command: +CHLD
@@ -801,8 +801,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0024
   category: SIM
   command: +CIMI
@@ -836,8 +836,8 @@
   - at-command
   - auto-extracted
   - sim
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0025
   category: General
   command: +CLCC
@@ -871,8 +871,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0026
   category: SIM
   command: +CLCK
@@ -906,8 +906,8 @@
   - at-command
   - auto-extracted
   - sim
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0027
   category: Call
   command: +CLIP
@@ -941,8 +941,8 @@
   - at-command
   - auto-extracted
   - call
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0028
   category: Call
   command: +CLIR
@@ -976,8 +976,8 @@
   - at-command
   - auto-extracted
   - call
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0029
   category: SMS
   command: +CMEE
@@ -1011,8 +1011,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0030
   category: Call
   command: +COLP
@@ -1046,8 +1046,8 @@
   - at-command
   - auto-extracted
   - call
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0031
   category: Network
   command: +COPS
@@ -1081,8 +1081,8 @@
   - at-command
   - auto-extracted
   - network
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0032
   category: General
   command: +CPAS
@@ -1116,8 +1116,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0033
   category: General
   command: +CPBF
@@ -1151,8 +1151,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0034
   category: General
   command: +CPBR
@@ -1186,8 +1186,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0035
   category: General
   command: +CPBS
@@ -1221,8 +1221,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0036
   category: General
   command: +CPBW
@@ -1256,8 +1256,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0037
   category: SIM
   command: +CPIN
@@ -1291,8 +1291,8 @@
   - at-command
   - auto-extracted
   - sim
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0038
   category: SIM
   command: +CPWD
@@ -1326,8 +1326,8 @@
   - at-command
   - auto-extracted
   - sim
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0039
   category: General
   command: +CR
@@ -1361,8 +1361,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0040
   category: Call
   command: +CRC
@@ -1396,8 +1396,8 @@
   - at-command
   - auto-extracted
   - call
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0041
   category: Network
   command: +CREG
@@ -1431,8 +1431,8 @@
   - at-command
   - auto-extracted
   - network
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0042
   category: General
   command: +CRLP
@@ -1466,8 +1466,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0043
   category: SIM
   command: +CRSM
@@ -1501,8 +1501,8 @@
   - at-command
   - auto-extracted
   - sim
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0044
   category: Network
   command: +CSQ
@@ -1536,8 +1536,8 @@
   - at-command
   - auto-extracted
   - network
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0045
   category: General
   command: +FCLASS
@@ -1571,8 +1571,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0046
   category: General
   command: +FMI
@@ -1606,8 +1606,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0047
   category: General
   command: +FMM
@@ -1641,8 +1641,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0048
   category: General
   command: +FMR
@@ -1676,8 +1676,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0049
   category: General
   command: +VTD
@@ -1711,8 +1711,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0050
   category: General
   command: +VTS
@@ -1746,8 +1746,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0051
   category: General
   command: +CMUX
@@ -1781,8 +1781,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0052
   category: General
   command: +CNUM
@@ -1816,8 +1816,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0053
   category: Network
   command: +CPOL
@@ -1851,8 +1851,8 @@
   - at-command
   - auto-extracted
   - network
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0054
   category: General
   command: +COPN
@@ -1886,8 +1886,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0055
   category: Power
   command: +CFUN
@@ -1921,8 +1921,8 @@
   - at-command
   - auto-extracted
   - power
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0056
   category: Time
   command: +CCLK
@@ -1956,8 +1956,8 @@
   - at-command
   - auto-extracted
   - time
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0057
   category: SIM
   command: +CSIM
@@ -1991,8 +1991,8 @@
   - at-command
   - auto-extracted
   - sim
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0058
   category: Call
   command: +CALM
@@ -2026,8 +2026,8 @@
   - at-command
   - auto-extracted
   - call
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0059
   category: General
   command: +CALS
@@ -2061,8 +2061,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0060
   category: Audio
   command: +CRSL
@@ -2096,8 +2096,8 @@
   - at-command
   - auto-extracted
   - audio
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0061
   category: Audio
   command: +CLVL
@@ -2131,8 +2131,8 @@
   - at-command
   - auto-extracted
   - audio
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0062
   category: Audio
   command: +CMUT
@@ -2166,8 +2166,8 @@
   - at-command
   - auto-extracted
   - audio
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0063
   category: General
   command: +CPUC
@@ -2201,8 +2201,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0064
   category: General
   command: +CCWE
@@ -2236,8 +2236,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0065
   category: General
   command: +CBC
@@ -2271,8 +2271,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0066
   category: SIM
   command: +CUSD
@@ -2306,8 +2306,8 @@
   - at-command
   - auto-extracted
   - sim
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0067
   category: General
   command: +CSSN
@@ -2341,8 +2341,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0068
   category: SMS
   command: +CMGD
@@ -2376,8 +2376,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0069
   category: SMS
   command: +CMGF
@@ -2411,8 +2411,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0070
   category: SMS
   command: +CMGL
@@ -2446,8 +2446,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0071
   category: SMS
   command: +CMGR
@@ -2481,8 +2481,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0072
   category: SMS
   command: +CMGS
@@ -2516,8 +2516,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0073
   category: SMS
   command: +CMGW
@@ -2551,8 +2551,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0074
   category: General
   command: +CMSS
@@ -2586,8 +2586,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0075
   category: SMS
   command: +CNMI
@@ -2621,8 +2621,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0076
   category: SMS
   command: +CPMS
@@ -2656,8 +2656,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0077
   category: General
   command: +CRES
@@ -2691,8 +2691,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0078
   category: General
   command: +CSAS
@@ -2726,8 +2726,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0079
   category: SMS
   command: +CSCA
@@ -2761,8 +2761,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0080
   category: General
   command: +CSCB
@@ -2796,8 +2796,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0081
   category: SMS
   command: +CSDH
@@ -2831,8 +2831,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0082
   category: SMS
   command: +CSMP
@@ -2866,8 +2866,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0083
   category: SMS
   command: +CSMS
@@ -2901,8 +2901,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0084
   category: General
   command: +STKTRS
@@ -2936,8 +2936,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0085
   category: General
   command: +STKENVS
@@ -2971,8 +2971,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0086
   category: General
   command: +STKCALL
@@ -3006,8 +3006,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0087
   category: General
   command: +STKSMS
@@ -3041,8 +3041,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0088
   category: General
   command: +STKSS
@@ -3076,8 +3076,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0089
   category: General
   command: +STKUSSD
@@ -3111,8 +3111,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0090
   category: General
   command: +STKDTMF
@@ -3146,8 +3146,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0091
   category: General
   command: +STKPCI
@@ -3181,8 +3181,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0092
   category: General
   command: +STKMENU
@@ -3216,8 +3216,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0093
   category: General
   command: +STKPCIS
@@ -3251,8 +3251,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0094
   category: General
   command: +SIDET
@@ -3286,8 +3286,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0095
   category: General
   command: +CPOWD
@@ -3321,8 +3321,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0096
   category: General
   command: +SPIC
@@ -3356,8 +3356,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0097
   category: General
   command: +CMIC
@@ -3391,8 +3391,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0098
   category: General
   command: +CALA
@@ -3426,8 +3426,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0099
   category: General
   command: +CALD
@@ -3461,8 +3461,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0100
   category: General
   command: +CADC
@@ -3496,8 +3496,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0101
   category: General
   command: +CSNS
@@ -3531,8 +3531,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0102
   category: General
   command: +CDSCB
@@ -3566,8 +3566,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0103
   category: General
   command: +CMOD
@@ -3601,8 +3601,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0104
   category: General
   command: +CFGRI
@@ -3636,8 +3636,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0105
   category: General
   command: +CLTS
@@ -3671,8 +3671,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0106
   category: General
   command: +CLDTMF
@@ -3706,8 +3706,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0107
   category: General
   command: +CDRIND
@@ -3741,8 +3741,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0108
   category: SIM
   command: +CSPN
@@ -3776,8 +3776,8 @@
   - at-command
   - auto-extracted
   - sim
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0109
   category: General
   command: +CCVM
@@ -3811,8 +3811,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0110
   category: General
   command: +CBAND
@@ -3846,8 +3846,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0111
   category: General
   command: +CHF
@@ -3881,8 +3881,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0112
   category: Call
   command: +CHFA
@@ -3916,8 +3916,8 @@
   - at-command
   - auto-extracted
   - call
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0113
   category: Sleep
   command: +CSCLK
@@ -3951,8 +3951,8 @@
   - at-command
   - auto-extracted
   - sleep
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0114
   category: General
   command: +CENG
@@ -3986,8 +3986,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0115
   category: General
   command: +SCLASS0
@@ -4021,8 +4021,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0116
   category: SIM
   command: +CCID
@@ -4056,8 +4056,8 @@
   - at-command
   - auto-extracted
   - sim
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0117
   category: General
   command: +CMTE
@@ -4091,8 +4091,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0118
   category: SMS
   command: +CMGDA
@@ -4126,8 +4126,8 @@
   - at-command
   - auto-extracted
   - sms
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0119
   category: General
   command: +STTONE
@@ -4161,8 +4161,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0120
   category: General
   command: +SIMTONE
@@ -4196,8 +4196,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0121
   category: General
   command: +CCPD
@@ -4231,8 +4231,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0122
   category: General
   command: +CGID
@@ -4266,8 +4266,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0123
   category: General
   command: +MORING
@@ -4301,8 +4301,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0124
   category: General
   command: +CMGHEX
@@ -4336,8 +4336,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0125
   category: General
   command: +CCODE
@@ -4371,8 +4371,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0126
   category: General
   command: +CIURC
@@ -4406,8 +4406,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0127
   category: General
   command: +CPSPWD
@@ -4441,8 +4441,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0128
   category: General
   command: +EXUNSOL
@@ -4476,8 +4476,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0129
   category: General
   command: +CGMSCLASS
@@ -4511,8 +4511,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0130
   category: General
   command: +CDEVICE
@@ -4546,8 +4546,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0131
   category: General
   command: +CCALR
@@ -4581,8 +4581,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0132
   category: General
   command: +GSV
@@ -4616,8 +4616,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0133
   category: General
   command: +SGPIO
@@ -4651,8 +4651,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0134
   category: General
   command: +SPWM
@@ -4686,8 +4686,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0135
   category: General
   command: +ECHO
@@ -4721,8 +4721,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0136
   category: General
   command: +CAAS
@@ -4756,8 +4756,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0137
   category: General
   command: +SVR
@@ -4791,8 +4791,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0138
   category: General
   command: +GSMBUSY
@@ -4826,8 +4826,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0139
   category: General
   command: +CEMNL
@@ -4861,8 +4861,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0140
   category: General
   command: +SLEDS
@@ -4896,8 +4896,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0141
   category: General
   command: +CBUZZERRING
@@ -4931,8 +4931,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0142
   category: General
   command: +CEXTERNTONE
@@ -4966,8 +4966,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0143
   category: General
   command: +CNETLIGHT
@@ -5001,8 +5001,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0144
   category: General
   command: +CWHITELIST
@@ -5036,8 +5036,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0145
   category: General
   command: +CSDT
@@ -5071,8 +5071,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0146
   category: SIM
   command: +CSMINS
@@ -5106,8 +5106,8 @@
   - at-command
   - auto-extracted
   - sim
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0147
   category: General
   command: +CSGS
@@ -5141,8 +5141,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0148
   category: General
   command: +CMICBIAS
@@ -5176,8 +5176,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0149
   category: GPRS
   command: +CGATT
@@ -5211,8 +5211,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0150
   category: GPRS
   command: +CGDCONT
@@ -5246,8 +5246,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0151
   category: General
   command: +CGQMIN
@@ -5281,8 +5281,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0152
   category: General
   command: +CGQREQ
@@ -5316,8 +5316,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0153
   category: GPRS
   command: +CGACT
@@ -5351,8 +5351,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0154
   category: General
   command: +CGDATA
@@ -5386,8 +5386,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0155
   category: GPRS
   command: +CGPADDR
@@ -5421,8 +5421,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0156
   category: General
   command: +CGCLASS
@@ -5456,8 +5456,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0157
   category: General
   command: +CGEREP
@@ -5491,8 +5491,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0158
   category: Network
   command: +CGREG
@@ -5526,8 +5526,8 @@
   - at-command
   - auto-extracted
   - network
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0159
   category: General
   command: +CGSMS
@@ -5561,8 +5561,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0160
   category: GPRS
   command: +CIPMUX
@@ -5596,8 +5596,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0161
   category: GPRS
   command: +CIPSTART
@@ -5631,8 +5631,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0162
   category: GPRS
   command: +CIPSEND
@@ -5666,8 +5666,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0163
   category: GPRS
   command: +CIPQSEND
@@ -5701,8 +5701,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0164
   category: GPRS
   command: +CIPACK
@@ -5736,8 +5736,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0165
   category: GPRS
   command: +CIPCLOSE
@@ -5771,8 +5771,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0166
   category: GPRS
   command: +CIPSHUT
@@ -5806,8 +5806,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0167
   category: General
   command: +CLPORT
@@ -5841,8 +5841,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0168
   category: GPRS
   command: +CSTT
@@ -5876,8 +5876,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0169
   category: GPRS
   command: +CIICR
@@ -5911,8 +5911,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0170
   category: GPRS
   command: +CIFSR
@@ -5946,8 +5946,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0171
   category: GPRS
   command: +CIPSTATUS
@@ -5981,8 +5981,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0172
   category: General
   command: +CDNSCFG
@@ -6016,8 +6016,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0173
   category: GPRS
   command: +CDNSGIP
@@ -6051,8 +6051,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0174
   category: GPRS
   command: +CIPHEAD
@@ -6086,8 +6086,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0175
   category: GPRS
   command: +CIPATS
@@ -6121,8 +6121,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0176
   category: GPRS
   command: +CIPSPRT
@@ -6156,8 +6156,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0177
   category: GPRS
   command: +CIPSERVER
@@ -6191,8 +6191,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0178
   category: GPRS
   command: +CIPCSGP
@@ -6226,8 +6226,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0179
   category: GPRS
   command: +CIPSRIP
@@ -6261,8 +6261,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0180
   category: GPRS
   command: +CIPDPDP
@@ -6296,8 +6296,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0181
   category: GPRS
   command: +CIPMODE
@@ -6331,8 +6331,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0182
   category: GPRS
   command: +CIPSHOWTP
@@ -6366,8 +6366,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0183
   category: GPRS
   command: +CIPUDPMODE
@@ -6401,8 +6401,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0184
   category: GPRS
   command: +CIPRXGET
@@ -6436,8 +6436,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0185
   category: GPRS
   command: +CIPSCONT
@@ -6471,8 +6471,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0186
   category: GPRS
   command: +CIPRDTIMER
@@ -6506,8 +6506,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0187
   category: GPRS
   command: +CIPSGTXT
@@ -6541,8 +6541,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0188
   category: General
   command: +SAPBR
@@ -6576,8 +6576,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0189
   category: GPRS
   command: +CIPPING
@@ -6611,8 +6611,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0190
   category: GPRS
   command: +CIPCTL
@@ -6646,8 +6646,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0191
   category: GPRS
   command: +CIPFLT
@@ -6681,8 +6681,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0192
   category: HTTP
   command: +HTTPINIT
@@ -6716,8 +6716,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0193
   category: HTTP
   command: +HTTPTERM
@@ -6751,8 +6751,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0194
   category: HTTP
   command: +HTTPPARA
@@ -6786,8 +6786,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0195
   category: HTTP
   command: +HTTPDATA
@@ -6821,8 +6821,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0196
   category: HTTP
   command: +HTTPACTION
@@ -6856,8 +6856,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0197
   category: HTTP
   command: +HTTPREAD
@@ -6891,8 +6891,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0198
   category: HTTP
   command: +HTTPSCONT
@@ -6926,8 +6926,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0199
   category: HTTP
   command: +HTTPSTATUS
@@ -6961,8 +6961,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0200
   category: FTP
   command: +FTPPORT
@@ -6996,8 +6996,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0201
   category: FTP
   command: +FTPMODE
@@ -7031,8 +7031,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0202
   category: FTP
   command: +FTPTYPE
@@ -7066,8 +7066,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0203
   category: FTP
   command: +FTPPUTOPT
@@ -7101,8 +7101,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0204
   category: FTP
   command: +FTPCID
@@ -7136,8 +7136,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0205
   category: FTP
   command: +FTPREST
@@ -7171,8 +7171,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0206
   category: FTP
   command: +FTPSERV
@@ -7206,8 +7206,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0207
   category: FTP
   command: +FTPUN
@@ -7241,8 +7241,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0208
   category: FTP
   command: +FTPPW
@@ -7276,8 +7276,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0209
   category: FTP
   command: +FTPGETNAME
@@ -7311,8 +7311,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0210
   category: FTP
   command: +FTPGETPATH
@@ -7346,8 +7346,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0211
   category: FTP
   command: +FTPPUTNAME
@@ -7381,8 +7381,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0212
   category: FTP
   command: +FTPPUTPATH
@@ -7416,8 +7416,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0213
   category: FTP
   command: +FTPGET
@@ -7451,8 +7451,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0214
   category: FTP
   command: +FTPPUT
@@ -7486,8 +7486,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0215
   category: FTP
   command: +FTPSCONT
@@ -7521,8 +7521,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0216
   category: FTP
   command: +FTPDELE
@@ -7556,8 +7556,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0217
   category: FTP
   command: +FTPSIZE
@@ -7591,8 +7591,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0218
   category: FTP
   command: +FTPSTATE
@@ -7626,8 +7626,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0219
   category: FTP
   command: +FTPEXTPUT
@@ -7661,8 +7661,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0220
   category: FTP
   command: +FTPMKD
@@ -7696,8 +7696,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0221
   category: FTP
   command: +FTPRMD
@@ -7731,8 +7731,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0222
   category: FTP
   command: +FTPLIST
@@ -7766,8 +7766,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0223
   category: GPRS
   command: +CIPGSMLOC
@@ -7801,8 +7801,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0224
   category: General
   command: +EMAILCID
@@ -7836,8 +7836,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0225
   category: General
   command: +EMAILTO
@@ -7871,8 +7871,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0226
   category: General
   command: +SMTPSRV
@@ -7906,8 +7906,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0227
   category: General
   command: +SMTPAUTH
@@ -7941,8 +7941,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0228
   category: General
   command: +SMTPFROM
@@ -7976,8 +7976,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0229
   category: General
   command: +SMTPRCPT
@@ -8011,8 +8011,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0230
   category: General
   command: +SMTPSUB
@@ -8046,8 +8046,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0231
   category: General
   command: +SMTPBODY
@@ -8081,8 +8081,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0232
   category: General
   command: +SMTPFILE
@@ -8116,8 +8116,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0233
   category: General
   command: +SMTPSEND
@@ -8151,8 +8151,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0234
   category: General
   command: +SMTPFT
@@ -8186,8 +8186,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0235
   category: General
   command: +SMTPCS
@@ -8221,8 +8221,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0236
   category: General
   command: +POP3SRV
@@ -8256,8 +8256,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0237
   category: General
   command: +POP3IN
@@ -8291,8 +8291,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0238
   category: General
   command: +POP3NUM
@@ -8326,8 +8326,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0239
   category: General
   command: +POP3LIST
@@ -8361,8 +8361,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0240
   category: General
   command: +POP3UIDL
@@ -8396,8 +8396,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0241
   category: General
   command: +POP3CMD
@@ -8431,8 +8431,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0242
   category: General
   command: +POP3READ
@@ -8466,8 +8466,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0243
   category: General
   command: +POP3DEL
@@ -8501,8 +8501,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0244
   category: General
   command: +POP3RSET
@@ -8536,8 +8536,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0245
   category: General
   command: +POP3OUT
@@ -8571,8 +8571,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0246
   category: General
   command: +CMMSCURL
@@ -8606,8 +8606,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0247
   category: General
   command: +CMMSPROTO
@@ -8641,8 +8641,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0248
   category: General
   command: +CMMSCID
@@ -8676,8 +8676,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0249
   category: General
   command: +CMMSSENDCFG
@@ -8711,8 +8711,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0250
   category: General
   command: +CMMSEDIT
@@ -8746,8 +8746,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0251
   category: General
   command: +CMMSDOWN
@@ -8781,8 +8781,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0252
   category: General
   command: +CMMSDELFILE
@@ -8816,8 +8816,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0253
   category: General
   command: +CMMSSEND
@@ -8851,8 +8851,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0254
   category: General
   command: +CMMSRECP
@@ -8886,8 +8886,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0255
   category: General
   command: +CMMSCC
@@ -8921,8 +8921,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0256
   category: General
   command: +CMMSBCC
@@ -8956,8 +8956,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0257
   category: General
   command: +CMMSDELRECP
@@ -8991,8 +8991,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0258
   category: General
   command: +CMMSDELCC
@@ -9026,8 +9026,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0259
   category: General
   command: +CMMSDELBCC
@@ -9061,8 +9061,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0260
   category: General
   command: +CMMSRECV
@@ -9096,8 +9096,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0261
   category: General
   command: +CMMSVIEW
@@ -9131,8 +9131,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0262
   category: General
   command: +CMMSREAD
@@ -9166,8 +9166,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0263
   category: General
   command: +CMMSRDPUSH
@@ -9201,8 +9201,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0264
   category: General
   command: +CMMSUA
@@ -9236,8 +9236,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0265
   category: General
   command: +CMMSPROFILE
@@ -9271,8 +9271,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0266
   category: General
   command: +CMMSTIMEOUT
@@ -9306,8 +9306,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0267
   category: General
   command: +CMMSSTATUS
@@ -9341,8 +9341,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0268
   category: General
   command: +CMMSINIT
@@ -9376,8 +9376,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0269
   category: General
   command: +CMMSTERM
@@ -9411,8 +9411,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0270
   category: General
   command: +CMMSSCONT
@@ -9446,8 +9446,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0271
   category: General
   command: +DDET
@@ -9481,8 +9481,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0272
   category: General
   command: +CREC
@@ -9516,8 +9516,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0273
   category: General
   command: +CTTS
@@ -9551,8 +9551,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0274
   category: General
   command: +CTTSPARAM
@@ -9586,8 +9586,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0275
   category: General
   command: +CEER
@@ -9621,8 +9621,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0276
   category: GPRS
   command: +CIPCCFG
@@ -9656,8 +9656,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0277
   category: General
   command: +CME
@@ -9691,8 +9691,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0278
   category: General
   command: +CEXTHS
@@ -9726,8 +9726,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0279
   category: General
   command: +CEXTBUT
@@ -9761,8 +9761,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0280
   category: General
   command: +CGSM
@@ -9796,8 +9796,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0281
   category: General
   command: +CRING
@@ -9831,8 +9831,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0282
   category: General
   command: +CBPF
@@ -9866,8 +9866,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0283
   category: General
   command: +CCWV
@@ -9901,8 +9901,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0284
   category: General
   command: +CSSI
@@ -9936,8 +9936,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0285
   category: General
   command: +CSSU
@@ -9971,8 +9971,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0286
   category: General
   command: +CMS
@@ -10006,8 +10006,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0287
   category: General
   command: +CMTI
@@ -10041,8 +10041,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0288
   category: General
   command: +CMT
@@ -10076,8 +10076,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0289
   category: General
   command: +CBM
@@ -10111,8 +10111,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0290
   category: General
   command: +CDS
@@ -10146,8 +10146,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0291
   category: General
   command: +STKTR
@@ -10181,8 +10181,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0292
   category: General
   command: +STKENV
@@ -10216,8 +10216,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0293
   category: General
   command: +CALV
@@ -10251,8 +10251,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0294
   category: General
   command: +CTZV
@@ -10286,8 +10286,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0295
   category: General
   command: +GID
@@ -10321,8 +10321,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0296
   category: Network
   command: +CSQN
@@ -10356,8 +10356,8 @@
   - at-command
   - auto-extracted
   - network
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0297
   category: General
   command: +CGMSCLA
@@ -10391,8 +10391,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0298
   category: General
   command: +CBUZZER
@@ -10426,8 +10426,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0299
   category: General
   command: +CEXTERN
@@ -10461,8 +10461,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0300
   category: General
   command: +CEXTERNT
@@ -10496,8 +10496,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0301
   category: General
   command: +CNETLIGH
@@ -10531,8 +10531,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0302
   category: General
   command: +CWHITELI
@@ -10566,8 +10566,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0303
   category: General
   command: +PDP
@@ -10601,8 +10601,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0304
   category: GPRS
   command: +CIPSTATU
@@ -10636,8 +10636,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0305
   category: General
   command: +IPD
@@ -10671,8 +10671,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0306
   category: General
   command: +RECEIVE
@@ -10706,8 +10706,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0307
   category: GPRS
   command: +CIPSERVE
@@ -10741,8 +10741,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0308
   category: General
   command: +RECV
@@ -10776,8 +10776,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0309
   category: GPRS
   command: +CIPUDPMOD
@@ -10811,8 +10811,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0310
   category: GPRS
   command: +CIPRDTIM
@@ -10846,8 +10846,8 @@
   - at-command
   - auto-extracted
   - gprs
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0311
   category: HTTP
   command: +HTTPTER
@@ -10881,8 +10881,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0312
   category: HTTP
   command: +HTTPACTI
@@ -10916,8 +10916,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0313
   category: HTTP
   command: +HTTPREA
@@ -10951,8 +10951,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0314
   category: HTTP
   command: +HTTPSCON
@@ -10986,8 +10986,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0315
   category: HTTP
   command: +HTTPSTAT
@@ -11021,8 +11021,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0316
   category: FTP
   command: +FTPMOD
@@ -11056,8 +11056,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0317
   category: FTP
   command: +FTPPUTOP
@@ -11091,8 +11091,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0318
   category: FTP
   command: +FTPGETNA
@@ -11126,8 +11126,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0319
   category: FTP
   command: +FTPGETPA
@@ -11161,8 +11161,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0320
   category: FTP
   command: +FTPPUTNA
@@ -11196,8 +11196,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0321
   category: FTP
   command: +FTPPUTPA
@@ -11231,8 +11231,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0322
   category: FTP
   command: +FTPTIMEOUT
@@ -11266,8 +11266,8 @@
   - at-command
   - auto-extracted
   - ftp
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0323
   category: General
   command: +FTSIZE
@@ -11301,8 +11301,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0324
   category: General
   command: +POP3REST
@@ -11336,8 +11336,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0325
   category: General
   command: +CMMSSENDC
@@ -11371,8 +11371,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0326
   category: General
   command: +CMMSDELFI
@@ -11406,8 +11406,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0327
   category: General
   command: +CMMSDELRE
@@ -11441,8 +11441,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0328
   category: General
   command: +CMMSDELBC
@@ -11476,8 +11476,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0329
   category: General
   command: +CMMSRDPUS
@@ -11511,8 +11511,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0330
   category: General
   command: +CMMSPROFI
@@ -11546,8 +11546,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0331
   category: General
   command: +CMMSTIMEO
@@ -11581,8 +11581,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0332
   category: General
   command: +CMMSSTATU
@@ -11616,8 +11616,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0333
   category: HTTP
   command: +HTTPACTIO
@@ -11651,8 +11651,8 @@
   - at-command
   - auto-extracted
   - http
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0334
   category: General
   command: +CMMSSENDCF
@@ -11686,8 +11686,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0335
   category: General
   command: +DTMF
@@ -11721,8 +11721,8 @@
   - at-command
   - auto-extracted
   - general
-  created_at: '2026-10-13T17:51:01Z'
-  updated_at: '2026-10-13T17:51:01Z'
+  created_at: '2026-10-13T17:58:57Z'
+  updated_at: '2026-10-13T17:58:57Z'
 - id: dat_01_0336
   category: General
   command: AT+GCAP
@@ -11754,8 +11754,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0337
   category: General
   command: AT+GMI
@@ -11787,8 +11787,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0338
   category: General
   command: AT+GMM
@@ -11820,8 +11820,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0339
   category: General
   command: AT+GMR
@@ -11853,8 +11853,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0340
   category: General
   command: AT+GOI
@@ -11886,8 +11886,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0341
   category: General
   command: AT+GSN
@@ -11919,8 +11919,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0342
   category: General
   command: AT+ICF
@@ -11952,8 +11952,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0343
   category: GPRS
   command: AT+IFC
@@ -11985,8 +11985,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0344
   category: General
   command: AT+IPR
@@ -12018,8 +12018,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0345
   category: Call
   command: AT+HVOIC
@@ -12051,8 +12051,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0346
   category: Call
   command: AT+CACM
@@ -12084,8 +12084,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0347
   category: Call
   command: AT+CAMM
@@ -12117,8 +12117,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0348
   category: General
   command: AT+CAOC
@@ -12150,8 +12150,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0349
   category: General
   command: AT+CBST
@@ -12183,8 +12183,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0350
   category: Call
   command: AT+CCFC
@@ -12216,8 +12216,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0351
   category: Call
   command: AT+CCWA
@@ -12249,8 +12249,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0352
   category: General
   command: AT+CGMI
@@ -12282,8 +12282,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0353
   category: General
   command: AT+CGMM
@@ -12315,8 +12315,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0354
   category: General
   command: AT+CGMR
@@ -12348,8 +12348,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0355
   category: General
   command: AT+CGSN
@@ -12381,8 +12381,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0356
   category: General
   command: AT+CSCS
@@ -12414,8 +12414,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0357
   category: General
   command: AT+CSTA
@@ -12447,8 +12447,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0358
   category: Call
   command: AT+CHLD
@@ -12480,8 +12480,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0359
   category: General
   command: AT+CIMI
@@ -12513,8 +12513,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0360
   category: Call
   command: AT+CLCC
@@ -12546,8 +12546,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0361
   category: Security
   command: AT+CLCK
@@ -12579,8 +12579,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0362
   category: Call
   command: AT+CLIP
@@ -12612,8 +12612,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0363
   category: Call
   command: AT+CLIR
@@ -12645,8 +12645,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0364
   category: GPRS
   command: AT+CMEE
@@ -12678,8 +12678,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0365
   category: General
   command: AT+COLP
@@ -12711,8 +12711,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0366
   category: Network
   command: AT+COPS
@@ -12744,8 +12744,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0367
   category: General
   command: AT+CPAS
@@ -12777,8 +12777,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0368
   category: General
   command: AT+CPBF
@@ -12810,8 +12810,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0369
   category: General
   command: AT+CPBR
@@ -12843,8 +12843,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0370
   category: General
   command: AT+CPBS
@@ -12876,8 +12876,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0371
   category: General
   command: AT+CPBW
@@ -12909,8 +12909,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0372
   category: SIM
   command: AT+CPIN
@@ -12942,8 +12942,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0373
   category: General
   command: AT+CPWD
@@ -12975,8 +12975,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0374
   category: General
   command: AT+CR
@@ -13008,8 +13008,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0375
   category: Call
   command: AT+CRC
@@ -13041,8 +13041,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0376
   category: Network
   command: AT+CREG
@@ -13074,8 +13074,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0377
   category: General
   command: AT+CRLP
@@ -13107,8 +13107,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0378
   category: SIM
   command: AT+CRSM
@@ -13140,8 +13140,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0379
   category: General
   command: AT+CSQ
@@ -13173,8 +13173,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0380
   category: General
   command: AT+FCLASS
@@ -13206,8 +13206,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0381
   category: General
   command: AT+FMI
@@ -13239,8 +13239,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0382
   category: General
   command: AT+FMM
@@ -13272,8 +13272,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0383
   category: General
   command: AT+FMR
@@ -13305,8 +13305,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0384
   category: Audio
   command: AT+VTD
@@ -13338,8 +13338,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0385
   category: Audio
   command: AT+VTS
@@ -13371,8 +13371,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0386
   category: GPRS
   command: AT+CMUX
@@ -13404,8 +13404,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0387
   category: General
   command: AT+CNUM
@@ -13437,8 +13437,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0388
   category: General
   command: AT+CPOL
@@ -13470,8 +13470,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0389
   category: General
   command: AT+COPN
@@ -13503,8 +13503,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0390
   category: Power
   command: AT+CFUN
@@ -13536,8 +13536,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0391
   category: Time
   command: AT+CCLK
@@ -13569,8 +13569,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0392
   category: SIM
   command: AT+CSIM
@@ -13602,8 +13602,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0393
   category: General
   command: AT+CALM
@@ -13635,8 +13635,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0394
   category: General
   command: AT+CALS
@@ -13668,8 +13668,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0395
   category: General
   command: AT+CRSL
@@ -13701,8 +13701,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0396
   category: General
   command: AT+CLVL
@@ -13734,8 +13734,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0397
   category: General
   command: AT+CMUT
@@ -13767,8 +13767,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0398
   category: General
   command: AT+CPUC
@@ -13800,8 +13800,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0399
   category: Call
   command: AT+CCWE
@@ -13833,8 +13833,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0400
   category: General
   command: AT+CBC
@@ -13866,8 +13866,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0401
   category: GPRS
   command: AT+CUSD
@@ -13899,8 +13899,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0402
   category: General
   command: AT+CSSN
@@ -13932,8 +13932,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0403
   category: SMS
   command: AT+CMGD
@@ -13965,8 +13965,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0404
   category: SMS
   command: AT+CMGF
@@ -13998,8 +13998,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0405
   category: SMS
   command: AT+CMGL
@@ -14031,8 +14031,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0406
   category: SMS
   command: AT+CMGR
@@ -14064,8 +14064,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0407
   category: SMS
   command: AT+CMGS
@@ -14097,8 +14097,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0408
   category: SMS
   command: AT+CMGW
@@ -14130,8 +14130,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0409
   category: SMS
   command: AT+CMSS
@@ -14163,8 +14163,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0410
   category: SMS
   command: AT+CNMI
@@ -14196,8 +14196,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0411
   category: SMS
   command: AT+CPMS
@@ -14229,8 +14229,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0412
   category: SMS
   command: AT+CRES
@@ -14262,8 +14262,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0413
   category: SMS
   command: AT+CSAS
@@ -14295,8 +14295,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0414
   category: SMS
   command: AT+CSCA
@@ -14328,8 +14328,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0415
   category: SMS
   command: AT+CSCB
@@ -14361,8 +14361,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0416
   category: SMS
   command: AT+CSDH
@@ -14394,8 +14394,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0417
   category: SMS
   command: AT+CSMP
@@ -14427,8 +14427,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0418
   category: SMS
   command: AT+CSMS
@@ -14460,8 +14460,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0419
   category: General
   command: AT+STKTRS
@@ -14493,8 +14493,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0420
   category: General
   command: AT+STKENVS
@@ -14526,8 +14526,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0421
   category: Call
   command: AT+STKCALL
@@ -14559,8 +14559,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0422
   category: SMS
   command: AT+STKSMS
@@ -14592,8 +14592,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0423
   category: General
   command: AT+STKSS
@@ -14625,8 +14625,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0424
   category: General
   command: AT+STKUSSD
@@ -14658,8 +14658,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0425
   category: Audio
   command: AT+STKDTMF
@@ -14691,8 +14691,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0426
   category: General
   command: AT+STKMENU
@@ -14724,8 +14724,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0427
   category: General
   command: AT+STKPCIS
@@ -14757,8 +14757,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0428
   category: Audio
   command: AT+SIDET
@@ -14790,8 +14790,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0429
   category: General
   command: AT+CPOWD
@@ -14823,8 +14823,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0430
   category: SIM
   command: AT+SPIC
@@ -14856,8 +14856,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0431
   category: General
   command: AT+CMIC
@@ -14889,8 +14889,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0432
   category: Time
   command: AT+CALA
@@ -14922,8 +14922,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0433
   category: General
   command: AT+CALD
@@ -14955,8 +14955,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0434
   category: General
   command: AT+CADC
@@ -14988,8 +14988,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0435
   category: General
   command: AT+CSNS
@@ -15021,8 +15021,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0436
   category: General
   command: AT+CDSCB
@@ -15054,8 +15054,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0437
   category: Call
   command: AT+CMOD
@@ -15087,8 +15087,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0438
   category: General
   command: AT+CFGRI
@@ -15120,8 +15120,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0439
   category: Time
   command: AT+CLTS
@@ -15153,8 +15153,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0440
   category: Audio
   command: AT+CLDTMF
@@ -15186,8 +15186,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0441
   category: Call
   command: AT+CDRIND
@@ -15219,8 +15219,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0442
   category: SIM
   command: AT+CSPN
@@ -15252,8 +15252,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0443
   category: SIM
   command: AT+CCVM
@@ -15285,8 +15285,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0444
   category: General
   command: AT+CBAND
@@ -15318,8 +15318,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0445
   category: General
   command: AT+CHF
@@ -15351,8 +15351,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0446
   category: Audio
   command: AT+CHFA
@@ -15384,8 +15384,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0447
   category: Power
   command: AT+CSCLK
@@ -15417,8 +15417,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0448
   category: General
   command: AT+CENG
@@ -15450,8 +15450,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0449
   category: SMS
   command: AT+SCLASS0
@@ -15483,8 +15483,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0450
   category: General
   command: AT+CCID
@@ -15516,8 +15516,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0451
   category: General
   command: AT+CMTE
@@ -15549,8 +15549,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0452
   category: SMS
   command: AT+CMGDA
@@ -15582,8 +15582,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0453
   category: Audio
   command: AT+STTONE
@@ -15615,8 +15615,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0454
   category: Call
   command: AT+SIMTONE
@@ -15648,8 +15648,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0455
   category: General
   command: AT+CCPD
@@ -15681,8 +15681,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0456
   category: SIM
   command: AT+CGID
@@ -15714,8 +15714,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0457
   category: Call
   command: AT+MORING
@@ -15747,8 +15747,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0458
   category: SMS
   command: AT+CMGHEX
@@ -15780,8 +15780,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0459
   category: SMS
   command: AT+CCODE
@@ -15813,8 +15813,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0460
   category: General
   command: AT+CIURC
@@ -15846,8 +15846,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0461
   category: General
   command: AT+CPSPWD
@@ -15879,8 +15879,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0462
   category: General
   command: AT+EXUNSOL
@@ -15912,8 +15912,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0463
   category: GPRS
   command: AT+CGMSCLASS
@@ -15945,8 +15945,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0464
   category: General
   command: AT+CDEVICE
@@ -15978,8 +15978,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0465
   category: Call
   command: AT+CCALR
@@ -16011,8 +16011,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0466
   category: General
   command: AT+GSV
@@ -16044,8 +16044,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0467
   category: GPIO
   command: AT+SGPIO
@@ -16077,8 +16077,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0468
   category: General
   command: AT+SPWM
@@ -16110,8 +16110,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0469
   category: General
   command: AT+ECHO
@@ -16143,8 +16143,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0470
   category: Audio
   command: AT+CAAS
@@ -16176,8 +16176,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0471
   category: Call
   command: AT+SVR
@@ -16209,8 +16209,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0472
   category: Call
   command: AT+GSMBUSY
@@ -16242,8 +16242,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0473
   category: General
   command: AT+CEMNL
@@ -16275,8 +16275,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0474
   category: Time
   command: AT+SLEDS
@@ -16308,8 +16308,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0475
   category: Call
   command: AT+CBUZZERRING
@@ -16341,8 +16341,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0476
   category: General
   command: AT+CEXTERNTONE
@@ -16374,8 +16374,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0477
   category: General
   command: AT+CNETLIGHT
@@ -16407,8 +16407,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0478
   category: General
   command: AT+CWHITELIST
@@ -16440,8 +16440,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0479
   category: SIM
   command: AT+CSDT
@@ -16473,8 +16473,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0480
   category: SIM
   command: AT+CSMINS
@@ -16506,8 +16506,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0481
   category: GPRS
   command: AT+CSGS
@@ -16539,8 +16539,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0482
   category: General
   command: AT+CMICBIAS
@@ -16572,8 +16572,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0483
   category: GPRS
   command: AT+CGATT
@@ -16605,8 +16605,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0484
   category: GPRS
   command: AT+CGDCONT
@@ -16638,8 +16638,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0485
   category: General
   command: AT+CGQMIN
@@ -16671,8 +16671,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0486
   category: General
   command: AT+CGQREQ
@@ -16704,8 +16704,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0487
   category: GPRS
   command: AT+CGACT
@@ -16737,8 +16737,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0488
   category: GPRS
   command: AT+CGDATA
@@ -16770,8 +16770,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0489
   category: GPRS
   command: AT+CGPADDR
@@ -16803,8 +16803,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0490
   category: GPRS
   command: AT+CGCLASS
@@ -16836,8 +16836,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0491
   category: GPRS
   command: AT+CGEREP
@@ -16869,8 +16869,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0492
   category: Network
   command: AT+CGREG
@@ -16902,8 +16902,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0493
   category: SMS
   command: AT+CGSMS
@@ -16935,8 +16935,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0494
   category: GPRS
   command: AT+CIPMUX
@@ -16968,8 +16968,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0495
   category: GPRS
   command: AT+CIPSTART
@@ -17001,8 +17001,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0496
   category: GPRS
   command: AT+CIPSEND
@@ -17034,8 +17034,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0497
   category: GPRS
   command: AT+CIPQSEND
@@ -17067,8 +17067,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0498
   category: GPRS
   command: AT+CIPACK
@@ -17100,8 +17100,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0499
   category: GPRS
   command: AT+CIPCLOSE
@@ -17133,8 +17133,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0500
   category: GPRS
   command: AT+CIPSHUT
@@ -17166,8 +17166,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0501
   category: General
   command: AT+CLPORT
@@ -17199,8 +17199,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0502
   category: General
   command: AT+CSTT
@@ -17232,8 +17232,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0503
   category: GPRS
   command: AT+CIICR
@@ -17265,8 +17265,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0504
   category: GPRS
   command: AT+CIFSR
@@ -17298,8 +17298,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0505
   category: General
   command: AT+CIPSTATUS
@@ -17331,8 +17331,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0506
   category: General
   command: AT+CDNSCFG
@@ -17364,8 +17364,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0507
   category: GPRS
   command: AT+CDNSGIP
@@ -17397,8 +17397,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0508
   category: GPRS
   command: AT+CIPHEAD
@@ -17430,8 +17430,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0509
   category: Time
   command: AT+CIPATS
@@ -17463,8 +17463,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0510
   category: GPRS
   command: AT+CIPSPRT
@@ -17496,8 +17496,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0511
   category: General
   command: AT+CIPSERVER
@@ -17529,8 +17529,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0512
   category: GPRS
   command: AT+CIPCSGP
@@ -17562,8 +17562,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0513
   category: GPRS
   command: AT+CIPSRIP
@@ -17595,8 +17595,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0514
   category: GPRS
   command: AT+CIPDPDP
@@ -17628,8 +17628,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0515
   category: GPRS
   command: AT+CIPMODE
@@ -17661,8 +17661,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0516
   category: GPRS
   command: AT+CIPSHOWTP
@@ -17694,8 +17694,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0517
   category: General
   command: AT+CIPUDPMODE
@@ -17727,8 +17727,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0518
   category: GPRS
   command: AT+CIPRXGET
@@ -17760,8 +17760,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0519
   category: GPRS
   command: AT+CIPSCONT
@@ -17793,8 +17793,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0520
   category: Time
   command: AT+CIPRDTIMER
@@ -17826,8 +17826,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0521
   category: GPRS
   command: AT+CIPSGTXT
@@ -17859,8 +17859,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0522
   category: GPRS
   command: AT+SAPBR
@@ -17892,8 +17892,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0523
   category: General
   command: AT+CIPPING
@@ -17925,8 +17925,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0524
   category: GPRS
   command: AT+CIPCTL
@@ -17958,8 +17958,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0525
   category: GPRS
   command: AT+CIPFLT
@@ -17991,8 +17991,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0526
   category: HTTP
   command: AT+HTTPINIT
@@ -18024,8 +18024,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0527
   category: HTTP
   command: AT+HTTPTERM
@@ -18057,8 +18057,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0528
   category: HTTP
   command: AT+HTTPPARA
@@ -18090,8 +18090,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0529
   category: GPRS
   command: AT+HTTPDATA
@@ -18123,8 +18123,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0530
   category: HTTP
   command: AT+HTTPACTION
@@ -18156,8 +18156,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0531
   category: HTTP
   command: AT+HTTPREAD
@@ -18189,8 +18189,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0532
   category: HTTP
   command: AT+HTTPSCONT
@@ -18222,8 +18222,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0533
   category: HTTP
   command: AT+HTTPSTATUS
@@ -18255,8 +18255,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0534
   category: FTP
   command: AT+FTPPORT
@@ -18288,8 +18288,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0535
   category: FTP
   command: AT+FTPMODE
@@ -18321,8 +18321,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0536
   category: GPRS
   command: AT+FTPTYPE
@@ -18354,8 +18354,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0537
   category: FTP
   command: AT+FTPPUTOPT
@@ -18387,8 +18387,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0538
   category: FTP
   command: AT+FTPCID
@@ -18420,8 +18420,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0539
   category: General
   command: AT+FTPREST
@@ -18453,8 +18453,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0540
   category: FTP
   command: AT+FTPSERV
@@ -18486,8 +18486,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0541
   category: FTP
   command: AT+FTPUN
@@ -18519,8 +18519,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0542
   category: FTP
   command: AT+FTPPW
@@ -18552,8 +18552,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0543
   category: General
   command: AT+FTPGETNAME
@@ -18585,8 +18585,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0544
   category: General
   command: AT+FTPGETPATH
@@ -18618,8 +18618,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0545
   category: General
   command: AT+FTPPUTNAME
@@ -18651,8 +18651,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0546
   category: General
   command: AT+FTPPUTPATH
@@ -18684,8 +18684,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0547
   category: General
   command: AT+FTPGET
@@ -18717,8 +18717,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0548
   category: General
   command: AT+FTPPUT
@@ -18750,8 +18750,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0549
   category: FTP
   command: AT+FTPSCONT
@@ -18783,8 +18783,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0550
   category: FTP
   command: AT+FTPDELE
@@ -18816,8 +18816,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0551
   category: FTP
   command: AT+FTPSIZE
@@ -18849,8 +18849,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0552
   category: FTP
   command: AT+FTPSTATE
@@ -18882,8 +18882,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0553
   category: General
   command: AT+FTPEXTPUT
@@ -18915,8 +18915,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0554
   category: General
   command: AT+FTPMKD
@@ -18948,8 +18948,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0555
   category: General
   command: AT+FTPRMD
@@ -18981,8 +18981,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0556
   category: General
   command: AT+FTPLIST
@@ -19014,8 +19014,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0557
   category: Time
   command: AT+CIPGSMLOC
@@ -19047,8 +19047,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0558
   category: General
   command: AT+EMAILCID
@@ -19080,8 +19080,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0559
   category: Time
   command: AT+EMAILTO
@@ -19113,8 +19113,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0560
   category: General
   command: AT+SMTPSRV
@@ -19146,8 +19146,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0561
   category: General
   command: AT+SMTPAUTH
@@ -19179,8 +19179,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0562
   category: General
   command: AT+SMTPFROM
@@ -19212,8 +19212,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0563
   category: GPRS
   command: AT+SMTPRCPT
@@ -19245,8 +19245,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0564
   category: General
   command: AT+SMTPSUB
@@ -19278,8 +19278,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0565
   category: General
   command: AT+SMTPBODY
@@ -19311,8 +19311,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0566
   category: General
   command: AT+SMTPFILE
@@ -19344,8 +19344,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0567
   category: General
   command: AT+SMTPSEND
@@ -19377,8 +19377,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0568
   category: General
   command: AT+SMTPFT
@@ -19410,8 +19410,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0569
   category: General
   command: AT+SMTPCS
@@ -19443,8 +19443,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0570
   category: General
   command: AT+POP3SRV
@@ -19476,8 +19476,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0571
   category: General
   command: AT+POP3IN
@@ -19509,8 +19509,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0572
   category: General
   command: AT+POP3NUM
@@ -19542,8 +19542,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0573
   category: General
   command: AT+POP3LIST
@@ -19575,8 +19575,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0574
   category: General
   command: AT+POP3UIDL
@@ -19608,8 +19608,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0575
   category: General
   command: AT+POP3CMD
@@ -19641,8 +19641,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0576
   category: General
   command: AT+POP3READ
@@ -19674,8 +19674,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0577
   category: General
   command: AT+POP3DEL
@@ -19707,8 +19707,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0578
   category: General
   command: AT+POP3RSET
@@ -19740,8 +19740,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0579
   category: General
   command: AT+POP3OUT
@@ -19773,8 +19773,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0580
   category: General
   command: AT+CMMSCURL
@@ -19806,8 +19806,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0581
   category: General
   command: AT+CMMSPROTO
@@ -19839,8 +19839,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0582
   category: Network
   command: AT+CMMSCID
@@ -19872,8 +19872,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0583
   category: General
   command: AT+CMMSSENDCFG
@@ -19905,8 +19905,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0584
   category: General
   command: AT+CMMSEDIT
@@ -19938,8 +19938,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0585
   category: GPRS
   command: AT+CMMSDOWN
@@ -19971,8 +19971,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0586
   category: General
   command: AT+CMMSDELFILE
@@ -20004,8 +20004,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0587
   category: General
   command: AT+CMMSSEND
@@ -20037,8 +20037,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0588
   category: GPRS
   command: AT+CMMSRECP
@@ -20070,8 +20070,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0589
   category: GPRS
   command: AT+CMMSCC
@@ -20103,8 +20103,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0590
   category: GPRS
   command: AT+CMMSBCC
@@ -20136,8 +20136,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0591
   category: GPRS
   command: AT+CMMSDELRECP
@@ -20169,8 +20169,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0592
   category: GPRS
   command: AT+CMMSDELCC
@@ -20202,8 +20202,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0593
   category: GPRS
   command: AT+CMMSDELBCC
@@ -20235,8 +20235,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0594
   category: General
   command: AT+CMMSRECV
@@ -20268,8 +20268,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0595
   category: General
   command: AT+CMMSVIEW
@@ -20301,8 +20301,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0596
   category: General
   command: AT+CMMSREAD
@@ -20334,8 +20334,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0597
   category: SMS
   command: AT+CMMSRDPUSH
@@ -20367,8 +20367,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0598
   category: General
   command: AT+CMMSUA
@@ -20400,8 +20400,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0599
   category: General
   command: AT+CMMSPROFILE
@@ -20433,8 +20433,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0600
   category: Time
   command: AT+CMMSTIMEOUT
@@ -20466,8 +20466,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0601
   category: General
   command: AT+CMMSSTATUS
@@ -20499,8 +20499,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0602
   category: General
   command: AT+CMMSINIT
@@ -20532,8 +20532,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0603
   category: General
   command: AT+CMMSTERM
@@ -20565,8 +20565,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0604
   category: General
   command: AT+CMMSSCONT
@@ -20598,8 +20598,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0605
   category: Audio
   command: AT+DDET
@@ -20631,8 +20631,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0606
   category: General
   command: AT+CREC
@@ -20664,8 +20664,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0607
   category: General
   command: AT+CTTS
@@ -20697,8 +20697,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0608
   category: General
   command: AT+CTTSPARAM
@@ -20730,8 +20730,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0609
   category: Call
   command: AT+CEER
@@ -20763,8 +20763,8 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
 - id: dat_01_0610
   category: General
   command: AT+CIPCCFG
@@ -20796,5 +20796,5 @@
   tags:
   - at-command
   - extracted
-  created_at: '2026-10-13T17:51:03Z'
-  updated_at: '2026-10-13T17:51:03Z'
+  created_at: '2026-10-13T17:58:59Z'
+  updated_at: '2026-10-13T17:58:59Z'
