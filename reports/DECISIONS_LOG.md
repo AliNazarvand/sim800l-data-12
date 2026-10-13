@@ -253,3 +253,30 @@ probe of the index file to compute dat_01 coverage.
 - Old candidates file kept as _dat_01_migration_candidates.json.obsolete.
 
 **Blocked datasets** documented with URLs in reports/TODO.md.
+
+---
+<!-- v13-cleanup -->
+
+## D-V13-22a3903b (2026-10-13T04:47:26Z)
+
+**Decision**: Compute dat_01 coverage definitively by walking the keys of
+the flat index dict.
+
+**Root cause fixed:**
+- v11/v12 probe walked .values() of the index dict. Those values are
+  dat_01 IDs (not commands). Hence 0 commands found.
+- v13 walks .keys(). Keys ARE command names (without "+" prefix), so
+  normalization to "+UPPERCASE" yields the true set.
+
+**Result:**
+- Index commands: 335
+- dat_01 commands: 334
+- Common: 334
+- Missing: 1
+- Extra: 0
+- Coverage: 99.7%
+
+**Follow-up:**
+- If coverage < 95%, add the missing commands from _dat_01_coverage_report.json
+  after verifying each against the manual PDF (page numbers in the CSV tables).
+- If coverage >= 95%, promote dat_01 to complete in COVERAGE_MATRIX.md.

@@ -77,3 +77,14 @@ The v5 note above is preserved for audit trail but is INCORRECT.
 - `reports/_dat_01_migration_candidates.json` created with 2 candidates
   (commands from archive not yet in dat_01). Manual review required.
 - No change to dataset statuses.
+
+---
+<!-- v13-cleanup -->
+
+## v13 (2026-10-13T04:47:26Z)
+
+- dat_01 coverage (definitive, from index keys): **99.7%**.
+  Index commands: 335; common: 334;
+  missing from dat_01: 1.
+- If coverage >= 95%: promote dat_01 to complete.
+- Otherwise: see reports/_dat_01_coverage_report.json for the missing list.

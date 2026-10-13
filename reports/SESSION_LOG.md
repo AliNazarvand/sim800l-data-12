@@ -358,3 +358,25 @@
 - DECISIONS_LOG backslash fragment fixed: False
 - TODO.md blocked datasets documented: True
 - No data files modified.
+
+---
+<!-- v13-cleanup -->
+
+## v13 (2026-10-13T04:47:26Z)
+
+- RunId: 22a3903b
+- Root cause of v11/v12 zero-coverage: the index is a FLAT dict whose
+  KEYS are command names (no "+" prefix) and VALUES are dat_01 IDs. Walking
+  .values() saw only IDs and found 0 commands.
+- v13 walks keys, normalizes to "+UPPERCASE", and computes coverage.
+- Index top-level type: dict
+- Index commands: 335
+- dat_01 commands: 334
+- Common: 334
+- Missing from dat_01: 1
+- Extra in dat_01: 0
+- **Coverage: 99.7%**
+- Backslash fragment fixed: False
+- No data files modified.
+
+Full lists: reports/_dat_01_coverage_report.json

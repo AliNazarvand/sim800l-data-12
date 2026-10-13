@@ -64,3 +64,22 @@ Generated: 2026-10-13T04:32:50Z
 - **Coverage: 0%**
 
 Details: reports/_at_index_probe_report.md and reports/_dat_01_coverage_report.json
+
+---
+<!-- v13-coverage RunId=22a3903b -->
+
+## v13 Coverage Update (2026-10-13T04:47:26Z)
+
+Definitive coverage computed by walking **all keys** of the index (the v12
+probe only walked values, which yielded 0).
+
+- Index file: sources/extracted/_at_commands_index.json
+- Index structure: dict
+- Index commands (from keys): 335
+- dat_01 commands (normalized): 334
+- Common (both): 334
+- Missing from dat_01: 1
+- Extra in dat_01 (not in index): 0
+- **Coverage: 99.7%**
+
+Details: reports/_at_index_probe_report.md and reports/_dat_01_coverage_report.json
