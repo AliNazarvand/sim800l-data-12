@@ -28,8 +28,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - category: Power
   mode: '1'
   command: null
@@ -60,8 +60,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - category: Power
   mode: '4'
   command: null
@@ -92,8 +92,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - category: Power
   mode: Standby
   command: null
@@ -124,8 +124,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - category: Power
   mode: VBAT
   command: null
@@ -156,8 +156,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - category: Power
   mode: I MAX
   command: null
@@ -188,8 +188,8 @@
   - V2.02
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - category: Power
   mode: '0'
   command: null
@@ -220,8 +220,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - category: Power
   mode: '1'
   command: null
@@ -252,8 +252,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - category: Power
   mode: '4'
   command: null
@@ -284,8 +284,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - category: Power
   mode: Standby
   command: null
@@ -316,8 +316,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - category: Power
   mode: VBAT
   command: null
@@ -348,8 +348,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - category: Power
   mode: I VBAT
   command: null
@@ -380,8 +380,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - category: Power
   mode: I MAX
   command: null
@@ -412,8 +412,8 @@
   - V1.00
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:58:54Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9001
   category: Power Consumption
   mode: null
@@ -444,8 +444,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9002
   category: Power Management
   mode: null
@@ -476,8 +476,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9003
   category: Power Management
   mode: null
@@ -508,8 +508,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9004
   category: Power Consumption
   mode: null
@@ -540,8 +540,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9005
   category: Power Management
   mode: null
@@ -572,8 +572,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9006
   category: Power Management
   mode: null
@@ -604,8 +604,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9007
   category: Power Management
   mode: null
@@ -636,8 +636,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9008
   category: Power Management
   mode: null
@@ -668,8 +668,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9009
   category: Power Management
   mode: null
@@ -700,8 +700,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9010
   category: Sleep Mode
   mode: null
@@ -732,8 +732,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9011
   category: Sleep Mode
   mode: null
@@ -764,8 +764,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9012
   category: Sleep Mode
   mode: null
@@ -796,8 +796,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9013
   category: Sleep Mode
   mode: null
@@ -828,8 +828,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9014
   category: Slow Clock / RTC
   mode: null
@@ -860,8 +860,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9015
   category: Power Consumption
   mode: null
@@ -892,8 +892,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9016
   category: Slow Clock / RTC
   mode: null
@@ -924,8 +924,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9017
   category: Charging
   mode: null
@@ -956,8 +956,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9018
   category: Power Consumption
   mode: null
@@ -988,8 +988,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9019
   category: Power Management
   mode: null
@@ -1020,8 +1020,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9020
   category: Power Consumption
   mode: null
@@ -1052,8 +1052,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9021
   category: Power Consumption
   mode: null
@@ -1084,8 +1084,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9022
   category: Power Management
   mode: null
@@ -1116,8 +1116,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9023
   category: Power Consumption
   mode: null
@@ -1148,8 +1148,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9024
   category: Slow Clock / RTC
   mode: null
@@ -1180,8 +1180,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9025
   category: Power Consumption
   mode: null
@@ -1212,8 +1212,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9026
   category: Power Consumption
   mode: null
@@ -1244,8 +1244,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9027
   category: Power Management
   mode: null
@@ -1276,8 +1276,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9028
   category: Slow Clock / RTC
   mode: null
@@ -1308,8 +1308,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9029
   category: Slow Clock / RTC
   mode: null
@@ -1340,8 +1340,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9030
   category: Slow Clock / RTC
   mode: null
@@ -1372,8 +1372,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9031
   category: Power Consumption
   mode: null
@@ -1404,8 +1404,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9032
   category: Power Consumption
   mode: null
@@ -1436,8 +1436,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9033
   category: Power Consumption
   mode: null
@@ -1468,8 +1468,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9034
   category: Power Consumption
   mode: null
@@ -1500,8 +1500,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9035
   category: Power Consumption
   mode: null
@@ -1532,8 +1532,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9036
   category: Power Consumption
   mode: null
@@ -1564,8 +1564,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9037
   category: Power Consumption
   mode: null
@@ -1596,8 +1596,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9038
   category: Power Consumption
   mode: null
@@ -1628,8 +1628,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9039
   category: Sleep Mode
   mode: null
@@ -1660,8 +1660,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9040
   category: Power Consumption
   mode: null
@@ -1692,8 +1692,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9041
   category: Power Consumption
   mode: null
@@ -1724,8 +1724,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9042
   category: Power Management
   mode: null
@@ -1756,8 +1756,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9043
   category: Power Management
   mode: null
@@ -1788,8 +1788,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9044
   category: Power Consumption
   mode: null
@@ -1820,8 +1820,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9045
   category: Sleep Mode
   mode: null
@@ -1852,8 +1852,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9046
   category: Power Management
   mode: null
@@ -1884,8 +1884,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9047
   category: Sleep Mode
   mode: null
@@ -1916,8 +1916,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9048
   category: Power Consumption
   mode: null
@@ -1948,8 +1948,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9049
   category: Power Management
   mode: null
@@ -1980,8 +1980,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9050
   category: Power Management
   mode: null
@@ -2012,8 +2012,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9051
   category: Power Management
   mode: null
@@ -2044,8 +2044,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9052
   category: Power Consumption
   mode: null
@@ -2076,8 +2076,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9053
   category: Power Consumption
   mode: null
@@ -2108,8 +2108,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9054
   category: Power Management
   mode: null
@@ -2140,8 +2140,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9055
   category: Power Consumption
   mode: null
@@ -2172,8 +2172,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9056
   category: Slow Clock / RTC
   mode: null
@@ -2204,8 +2204,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9057
   category: Power Management
   mode: null
@@ -2236,8 +2236,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9058
   category: Power Consumption
   mode: null
@@ -2268,8 +2268,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9059
   category: Power Consumption
   mode: null
@@ -2300,8 +2300,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9060
   category: Power Management
   mode: null
@@ -2332,8 +2332,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9061
   category: Sleep Mode
   mode: null
@@ -2364,8 +2364,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9062
   category: Sleep Mode
   mode: null
@@ -2396,8 +2396,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9063
   category: Sleep Mode
   mode: null
@@ -2428,8 +2428,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9064
   category: Power Management
   mode: null
@@ -2460,8 +2460,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9065
   category: Power Consumption
   mode: null
@@ -2492,8 +2492,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9066
   category: Power Consumption
   mode: null
@@ -2524,8 +2524,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9067
   category: Power Consumption
   mode: null
@@ -2556,8 +2556,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9068
   category: Power Management
   mode: null
@@ -2588,8 +2588,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9069
   category: Power Consumption
   mode: null
@@ -2620,8 +2620,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9070
   category: Slow Clock / RTC
   mode: null
@@ -2652,8 +2652,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9071
   category: Power Management
   mode: null
@@ -2684,8 +2684,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9072
   category: CFUN
   mode: null
@@ -2716,8 +2716,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9073
   category: Power Consumption
   mode: null
@@ -2748,8 +2748,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9074
   category: Power Management
   mode: null
@@ -2780,8 +2780,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9075
   category: Slow Clock / RTC
   mode: null
@@ -2812,8 +2812,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9076
   category: Power Consumption
   mode: null
@@ -2844,8 +2844,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9077
   category: Power Management
   mode: null
@@ -2876,8 +2876,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9078
   category: DTR/Wake-up
   mode: null
@@ -2908,8 +2908,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9079
   category: Power Management
   mode: null
@@ -2940,8 +2940,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9080
   category: Power Consumption
   mode: null
@@ -2972,8 +2972,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9081
   category: Power Management
   mode: null
@@ -3004,8 +3004,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9082
   category: Power Consumption
   mode: null
@@ -3036,8 +3036,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9083
   category: Slow Clock / RTC
   mode: null
@@ -3068,8 +3068,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9084
   category: Slow Clock / RTC
   mode: null
@@ -3100,8 +3100,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9085
   category: Power Consumption
   mode: null
@@ -3132,8 +3132,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9086
   category: Power Consumption
   mode: null
@@ -3164,8 +3164,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9087
   category: Power Management
   mode: null
@@ -3196,8 +3196,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9088
   category: Power Management
   mode: null
@@ -3228,8 +3228,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9089
   category: Power Management
   mode: null
@@ -3260,8 +3260,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9090
   category: Power Consumption
   mode: null
@@ -3292,8 +3292,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9091
   category: Power Management
   mode: null
@@ -3324,8 +3324,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9092
   category: Power Management
   mode: null
@@ -3356,8 +3356,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9093
   category: Power Management
   mode: null
@@ -3388,8 +3388,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9094
   category: Power Management
   mode: null
@@ -3420,8 +3420,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9095
   category: Power Consumption
   mode: null
@@ -3452,8 +3452,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9096
   category: Power Management
   mode: null
@@ -3484,8 +3484,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9097
   category: Slow Clock / RTC
   mode: null
@@ -3516,8 +3516,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9098
   category: Power Management
   mode: null
@@ -3548,8 +3548,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9099
   category: Power Consumption
   mode: null
@@ -3580,8 +3580,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9100
   category: Power Management
   mode: null
@@ -3612,8 +3612,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9101
   category: Power Management
   mode: null
@@ -3644,8 +3644,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9102
   category: Power Management
   mode: null
@@ -3676,8 +3676,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9103
   category: Power Management
   mode: null
@@ -3708,8 +3708,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9104
   category: Power Management
   mode: null
@@ -3740,8 +3740,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9105
   category: Slow Clock / RTC
   mode: null
@@ -3772,8 +3772,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9106
   category: Power Management
   mode: null
@@ -3804,8 +3804,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9107
   category: Power Management
   mode: null
@@ -3836,8 +3836,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9108
   category: Power Management
   mode: null
@@ -3868,8 +3868,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9109
   category: Power Management
   mode: null
@@ -3900,8 +3900,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9110
   category: Power Consumption
   mode: null
@@ -3932,8 +3932,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9111
   category: Sleep Mode
   mode: null
@@ -3964,8 +3964,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9112
   category: Sleep Mode
   mode: null
@@ -3996,8 +3996,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9113
   category: CFUN
   mode: null
@@ -4028,8 +4028,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9114
   category: Sleep Mode
   mode: null
@@ -4060,8 +4060,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9115
   category: Power Management
   mode: null
@@ -4092,8 +4092,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9116
   category: CFUN
   mode: null
@@ -4124,8 +4124,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9117
   category: CFUN
   mode: null
@@ -4156,8 +4156,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9118
   category: CFUN
   mode: null
@@ -4188,8 +4188,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9119
   category: CFUN
   mode: null
@@ -4220,8 +4220,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9120
   category: Power Consumption
   mode: null
@@ -4252,8 +4252,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9121
   category: Sleep Mode
   mode: null
@@ -4284,8 +4284,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9122
   category: Power Consumption
   mode: null
@@ -4316,8 +4316,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9123
   category: CFUN
   mode: null
@@ -4348,8 +4348,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9124
   category: Power Management
   mode: null
@@ -4380,8 +4380,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9125
   category: CFUN
   mode: null
@@ -4412,8 +4412,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9126
   category: Sleep Mode
   mode: null
@@ -4444,8 +4444,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9127
   category: Sleep Mode
   mode: null
@@ -4476,8 +4476,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9128
   category: DTR/Wake-up
   mode: null
@@ -4508,8 +4508,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9129
   category: Sleep Mode
   mode: null
@@ -4540,8 +4540,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9130
   category: Sleep Mode
   mode: null
@@ -4572,8 +4572,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9131
   category: Sleep Mode
   mode: null
@@ -4604,8 +4604,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9132
   category: DTR/Wake-up
   mode: null
@@ -4636,8 +4636,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9133
   category: DTR/Wake-up
   mode: null
@@ -4668,8 +4668,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9134
   category: DTR/Wake-up
   mode: null
@@ -4700,8 +4700,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9135
   category: Sleep Mode
   mode: null
@@ -4732,8 +4732,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9136
   category: Sleep Mode
   mode: null
@@ -4764,8 +4764,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9137
   category: Sleep Mode
   mode: null
@@ -4796,8 +4796,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9138
   category: Sleep Mode
   mode: null
@@ -4828,8 +4828,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9139
   category: Power Consumption
   mode: null
@@ -4860,8 +4860,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9140
   category: Sleep Mode
   mode: null
@@ -4892,8 +4892,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9141
   category: Slow Clock / RTC
   mode: null
@@ -4924,8 +4924,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9142
   category: Slow Clock / RTC
   mode: null
@@ -4956,8 +4956,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9143
   category: Slow Clock / RTC
   mode: null
@@ -4988,8 +4988,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9144
   category: Slow Clock / RTC
   mode: null
@@ -5020,8 +5020,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9145
   category: Slow Clock / RTC
   mode: null
@@ -5052,8 +5052,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9146
   category: Slow Clock / RTC
   mode: null
@@ -5084,8 +5084,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9147
   category: Slow Clock / RTC
   mode: null
@@ -5116,8 +5116,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9148
   category: Charging
   mode: null
@@ -5148,8 +5148,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9149
   category: Slow Clock / RTC
   mode: null
@@ -5180,8 +5180,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9150
   category: Charging
   mode: null
@@ -5212,8 +5212,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9151
   category: Slow Clock / RTC
   mode: null
@@ -5244,8 +5244,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9152
   category: Slow Clock / RTC
   mode: null
@@ -5276,8 +5276,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9153
   category: DTR/Wake-up
   mode: null
@@ -5308,8 +5308,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9154
   category: Power Management
   mode: null
@@ -5340,8 +5340,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9155
   category: Power Consumption
   mode: null
@@ -5372,8 +5372,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9156
   category: Power Consumption
   mode: null
@@ -5404,8 +5404,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9157
   category: Power Consumption
   mode: null
@@ -5436,8 +5436,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9158
   category: Power Consumption
   mode: null
@@ -5468,8 +5468,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9159
   category: DTR/Wake-up
   mode: null
@@ -5500,8 +5500,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9160
   category: Power Management
   mode: null
@@ -5532,8 +5532,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9161
   category: Power Management
   mode: null
@@ -5564,8 +5564,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9162
   category: CFUN
   mode: null
@@ -5596,8 +5596,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9163
   category: Power Management
   mode: null
@@ -5628,8 +5628,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9164
   category: CFUN
   mode: null
@@ -5660,8 +5660,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9165
   category: Power Consumption
   mode: null
@@ -5692,8 +5692,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9166
   category: DTR/Wake-up
   mode: null
@@ -5724,8 +5724,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9167
   category: Power Consumption
   mode: null
@@ -5756,8 +5756,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9168
   category: Power Consumption
   mode: null
@@ -5788,8 +5788,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9169
   category: Power Consumption
   mode: null
@@ -5820,8 +5820,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9170
   category: Power Consumption
   mode: null
@@ -5852,8 +5852,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9171
   category: Power Consumption
   mode: null
@@ -5884,8 +5884,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9172
   category: Power Consumption
   mode: null
@@ -5916,8 +5916,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9173
   category: Power Consumption
   mode: null
@@ -5948,8 +5948,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9174
   category: Power Consumption
   mode: null
@@ -5980,8 +5980,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9175
   category: Power Consumption
   mode: null
@@ -6012,8 +6012,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9176
   category: Power Management
   mode: null
@@ -6044,8 +6044,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9177
   category: Power Management
   mode: null
@@ -6076,8 +6076,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9178
   category: Power Consumption
   mode: null
@@ -6108,8 +6108,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9179
   category: Power Consumption
   mode: null
@@ -6140,8 +6140,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9180
   category: Power Consumption
   mode: null
@@ -6172,8 +6172,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9181
   category: Power Management
   mode: null
@@ -6204,8 +6204,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9182
   category: Power Consumption
   mode: null
@@ -6236,8 +6236,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9183
   category: Power Consumption
   mode: null
@@ -6268,8 +6268,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9184
   category: Power Consumption
   mode: null
@@ -6300,8 +6300,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9185
   category: Power Consumption
   mode: null
@@ -6332,8 +6332,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9186
   category: Power Management
   mode: null
@@ -6364,8 +6364,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9187
   category: Power Management
   mode: null
@@ -6396,8 +6396,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9188
   category: Power Management
   mode: null
@@ -6428,8 +6428,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9189
   category: Power Management
   mode: null
@@ -6460,8 +6460,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9190
   category: Power Management
   mode: null
@@ -6492,8 +6492,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9191
   category: Power Consumption
   mode: null
@@ -6524,8 +6524,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9192
   category: Power Consumption
   mode: null
@@ -6556,8 +6556,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9193
   category: Power Consumption
   mode: null
@@ -6588,8 +6588,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9194
   category: Power Management
   mode: null
@@ -6620,8 +6620,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9195
   category: Power Consumption
   mode: null
@@ -6652,8 +6652,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9196
   category: Power Management
   mode: null
@@ -6684,8 +6684,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9197
   category: Power Management
   mode: null
@@ -6716,8 +6716,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9198
   category: Power Consumption
   mode: null
@@ -6748,8 +6748,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9199
   category: Power Management
   mode: null
@@ -6780,8 +6780,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9200
   category: Power Management
   mode: null
@@ -6812,8 +6812,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9201
   category: Power Consumption
   mode: null
@@ -6844,8 +6844,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9202
   category: Power Consumption
   mode: null
@@ -6876,8 +6876,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9203
   category: Power Management
   mode: null
@@ -6908,8 +6908,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9204
   category: Power Consumption
   mode: null
@@ -6940,8 +6940,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9205
   category: Power Management
   mode: null
@@ -6972,8 +6972,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9206
   category: Power Management
   mode: null
@@ -7004,8 +7004,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9207
   category: Power Management
   mode: null
@@ -7036,8 +7036,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9208
   category: Power Management
   mode: null
@@ -7068,8 +7068,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9209
   category: Power Consumption
   mode: null
@@ -7100,8 +7100,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9210
   category: Power Management
   mode: null
@@ -7132,8 +7132,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9211
   category: Power Management
   mode: null
@@ -7164,8 +7164,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9212
   category: Power Consumption
   mode: null
@@ -7196,8 +7196,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9213
   category: Power Consumption
   mode: null
@@ -7228,8 +7228,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9214
   category: Power Consumption
   mode: null
@@ -7260,8 +7260,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9215
   category: Power Management
   mode: null
@@ -7292,8 +7292,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9216
   category: Power Management
   mode: null
@@ -7324,8 +7324,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9217
   category: Power Management
   mode: null
@@ -7356,8 +7356,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9218
   category: Power Management
   mode: null
@@ -7388,8 +7388,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9219
   category: Power Consumption
   mode: null
@@ -7420,8 +7420,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9220
   category: Power Consumption
   mode: null
@@ -7452,8 +7452,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9221
   category: Power Consumption
   mode: null
@@ -7484,8 +7484,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9222
   category: Power Consumption
   mode: null
@@ -7516,8 +7516,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9223
   category: Power Management
   mode: null
@@ -7548,8 +7548,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9224
   category: Power Consumption
   mode: null
@@ -7580,8 +7580,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9225
   category: Power Consumption
   mode: null
@@ -7612,8 +7612,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9226
   category: Power Management
   mode: null
@@ -7644,8 +7644,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9227
   category: Power Consumption
   mode: null
@@ -7676,8 +7676,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9228
   category: Power Consumption
   mode: null
@@ -7708,8 +7708,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9229
   category: Power Consumption
   mode: null
@@ -7740,8 +7740,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9230
   category: Power Consumption
   mode: null
@@ -7772,8 +7772,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9231
   category: Power Consumption
   mode: null
@@ -7804,8 +7804,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9232
   category: Power Management
   mode: null
@@ -7836,8 +7836,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9233
   category: Power Consumption
   mode: null
@@ -7868,8 +7868,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9234
   category: Power Consumption
   mode: null
@@ -7900,8 +7900,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9235
   category: Power Consumption
   mode: null
@@ -7932,8 +7932,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9236
   category: Power Consumption
   mode: null
@@ -7964,8 +7964,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9237
   category: Power Management
   mode: null
@@ -7996,8 +7996,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9238
   category: Power Management
   mode: null
@@ -8028,8 +8028,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9239
   category: Power Consumption
   mode: null
@@ -8060,8 +8060,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9240
   category: Power Consumption
   mode: null
@@ -8092,8 +8092,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9241
   category: Power Consumption
   mode: null
@@ -8124,8 +8124,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9242
   category: Power Management
   mode: null
@@ -8156,8 +8156,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9243
   category: Power Consumption
   mode: null
@@ -8188,8 +8188,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9244
   category: Power Consumption
   mode: null
@@ -8220,8 +8220,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9245
   category: Power Consumption
   mode: null
@@ -8252,8 +8252,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9246
   category: Power Consumption
   mode: null
@@ -8284,8 +8284,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9247
   category: Power Management
   mode: null
@@ -8316,8 +8316,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9248
   category: Power Consumption
   mode: null
@@ -8348,8 +8348,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9249
   category: Power Consumption
   mode: null
@@ -8380,8 +8380,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9250
   category: Power Consumption
   mode: null
@@ -8412,8 +8412,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9251
   category: Power Consumption
   mode: null
@@ -8444,8 +8444,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9252
   category: Power Consumption
   mode: null
@@ -8476,8 +8476,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9253
   category: Power Consumption
   mode: null
@@ -8508,8 +8508,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9254
   category: Power Consumption
   mode: null
@@ -8540,8 +8540,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9255
   category: Power Consumption
   mode: null
@@ -8572,8 +8572,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9256
   category: Power Consumption
   mode: null
@@ -8604,8 +8604,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9257
   category: Power Consumption
   mode: null
@@ -8636,8 +8636,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9258
   category: Slow Clock / RTC
   mode: null
@@ -8668,8 +8668,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9259
   category: Slow Clock / RTC
   mode: null
@@ -8700,8 +8700,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9260
   category: Power Consumption
   mode: null
@@ -8732,8 +8732,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9261
   category: Slow Clock / RTC
   mode: null
@@ -8764,8 +8764,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9262
   category: Slow Clock / RTC
   mode: null
@@ -8796,8 +8796,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9263
   category: Slow Clock / RTC
   mode: null
@@ -8828,8 +8828,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9264
   category: Slow Clock / RTC
   mode: null
@@ -8860,8 +8860,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9265
   category: Power Consumption
   mode: null
@@ -8892,8 +8892,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9266
   category: Power Consumption
   mode: null
@@ -8924,8 +8924,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9267
   category: Power Consumption
   mode: null
@@ -8956,8 +8956,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9268
   category: Power Consumption
   mode: null
@@ -8988,8 +8988,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9269
   category: Sleep Mode
   mode: null
@@ -9020,8 +9020,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9270
   category: Power Consumption
   mode: null
@@ -9052,8 +9052,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9271
   category: Power Consumption
   mode: null
@@ -9084,8 +9084,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9272
   category: Power Consumption
   mode: null
@@ -9116,8 +9116,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9273
   category: CFUN
   mode: null
@@ -9148,8 +9148,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9274
   category: Power Consumption
   mode: null
@@ -9180,8 +9180,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9275
   category: Power Consumption
   mode: null
@@ -9212,8 +9212,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9276
   category: Power Consumption
   mode: null
@@ -9244,8 +9244,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9277
   category: Power Consumption
   mode: null
@@ -9276,8 +9276,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9278
   category: Power Consumption
   mode: null
@@ -9308,8 +9308,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9279
   category: Power Consumption
   mode: null
@@ -9340,8 +9340,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9280
   category: Power Consumption
   mode: null
@@ -9372,8 +9372,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9281
   category: Power Consumption
   mode: null
@@ -9404,8 +9404,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9282
   category: Power Consumption
   mode: null
@@ -9436,8 +9436,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9283
   category: Power Consumption
   mode: null
@@ -9468,8 +9468,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9284
   category: Power Consumption
   mode: null
@@ -9500,8 +9500,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9285
   category: Power Consumption
   mode: null
@@ -9532,8 +9532,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9286
   category: Power Consumption
   mode: null
@@ -9564,8 +9564,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9287
   category: Power Consumption
   mode: null
@@ -9596,8 +9596,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9288
   category: Power Consumption
   mode: null
@@ -9628,8 +9628,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9289
   category: Power Consumption
   mode: null
@@ -9660,8 +9660,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9290
   category: Power Consumption
   mode: null
@@ -9692,8 +9692,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9291
   category: Power Consumption
   mode: null
@@ -9724,8 +9724,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9292
   category: Power Consumption
   mode: null
@@ -9756,8 +9756,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9293
   category: Power Consumption
   mode: null
@@ -9788,8 +9788,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9294
   category: Power Consumption
   mode: null
@@ -9820,8 +9820,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9295
   category: Power Consumption
   mode: null
@@ -9852,8 +9852,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9296
   category: Power Consumption
   mode: null
@@ -9884,8 +9884,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9297
   category: Power Management
   mode: null
@@ -9916,8 +9916,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9298
   category: Power Consumption
   mode: null
@@ -9948,8 +9948,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9299
   category: Power Management
   mode: null
@@ -9980,8 +9980,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9300
   category: Power Management
   mode: null
@@ -10012,8 +10012,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9301
   category: Power Management
   mode: null
@@ -10044,8 +10044,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9302
   category: Power Management
   mode: null
@@ -10076,8 +10076,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9303
   category: Power Consumption
   mode: null
@@ -10108,8 +10108,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9304
   category: Power Consumption
   mode: null
@@ -10140,8 +10140,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9305
   category: Power Consumption
   mode: null
@@ -10172,8 +10172,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9306
   category: Power Consumption
   mode: null
@@ -10204,8 +10204,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9307
   category: Power Consumption
   mode: null
@@ -10236,8 +10236,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9308
   category: Power Consumption
   mode: null
@@ -10268,8 +10268,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9309
   category: Charging
   mode: null
@@ -10300,8 +10300,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9310
   category: Charging
   mode: null
@@ -10332,8 +10332,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9311
   category: Power Management
   mode: null
@@ -10364,8 +10364,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9312
   category: Power Management
   mode: null
@@ -10396,8 +10396,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9313
   category: Power Consumption
   mode: null
@@ -10428,8 +10428,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9314
   category: Power Consumption
   mode: null
@@ -10460,8 +10460,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9315
   category: Power Consumption
   mode: null
@@ -10492,8 +10492,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9316
   category: Power Management
   mode: null
@@ -10524,8 +10524,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9317
   category: Power Consumption
   mode: null
@@ -10556,8 +10556,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9318
   category: Power Management
   mode: null
@@ -10588,8 +10588,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9319
   category: Power Management
   mode: null
@@ -10620,8 +10620,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9320
   category: Power Consumption
   mode: null
@@ -10652,8 +10652,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9321
   category: Power Management
   mode: null
@@ -10684,8 +10684,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9322
   category: Power Management
   mode: null
@@ -10716,8 +10716,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9323
   category: Power Consumption
   mode: null
@@ -10748,8 +10748,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9324
   category: Power Management
   mode: null
@@ -10780,8 +10780,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9325
   category: Power Consumption
   mode: null
@@ -10812,8 +10812,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9326
   category: Power Consumption
   mode: null
@@ -10844,8 +10844,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9327
   category: DTR/Wake-up
   mode: null
@@ -10876,8 +10876,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9328
   category: Power Consumption
   mode: null
@@ -10908,8 +10908,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9329
   category: Power Consumption
   mode: null
@@ -10940,8 +10940,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9330
   category: Power Consumption
   mode: null
@@ -10972,8 +10972,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9331
   category: Power Consumption
   mode: null
@@ -11004,8 +11004,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9332
   category: Power Consumption
   mode: null
@@ -11036,8 +11036,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9333
   category: Power Consumption
   mode: null
@@ -11068,8 +11068,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9334
   category: DTR/Wake-up
   mode: null
@@ -11100,8 +11100,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9335
   category: Charging
   mode: null
@@ -11132,8 +11132,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9336
   category: Power Consumption
   mode: null
@@ -11164,8 +11164,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9337
   category: Slow Clock / RTC
   mode: null
@@ -11196,8 +11196,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9338
   category: Power Consumption
   mode: null
@@ -11228,8 +11228,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9339
   category: Power Management
   mode: null
@@ -11260,8 +11260,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9340
   category: Power Consumption
   mode: null
@@ -11292,8 +11292,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9341
   category: Power Management
   mode: null
@@ -11324,8 +11324,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9342
   category: Power Consumption
   mode: null
@@ -11356,8 +11356,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9343
   category: Power Consumption
   mode: null
@@ -11388,8 +11388,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9344
   category: Power Management
   mode: null
@@ -11420,8 +11420,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9345
   category: Power Consumption
   mode: null
@@ -11452,8 +11452,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9346
   category: Power Consumption
   mode: null
@@ -11484,8 +11484,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9347
   category: Power Consumption
   mode: null
@@ -11516,8 +11516,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9348
   category: Power Consumption
   mode: null
@@ -11548,8 +11548,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9349
   category: Power Consumption
   mode: null
@@ -11580,8 +11580,8 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
 - id: dat_15_9350
   category: Power Consumption
   mode: null
@@ -11612,5 +11612,5 @@
   tags:
   - power
   - auto-detected
-  created_at: '2026-10-13T17:58:56Z'
-  updated_at: '2026-10-13T17:58:56Z'
+  created_at: '2026-10-13T18:03:07Z'
+  updated_at: '2026-10-13T18:03:07Z'
