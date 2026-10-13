@@ -538,3 +538,7 @@ now has:
 - validate.py exit=1
 - cross_ref.py exit=0
 - content smoke test: PASSED
+
+## Session 2026-10-13T13:16:47Z
+- Ran extract_pdf, extract_hw_datasets, validate (jsonschema), cross_ref, reports.
+- Datasets inspected: 18; total records: 1206

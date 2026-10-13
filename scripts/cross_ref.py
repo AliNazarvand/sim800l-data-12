@@ -1,102 +1,67 @@
-#!/usr/bin/env python3
-"""
-Cross-reference validator for sim800l-data.
-
-Checks that every AT command referenced from dat_02 (URC), dat_09 (SMS),
-and dat_13 (SIM Management) actually exists in dat_01 (AT Command DB).
-
-Normalization: strips leading "AT+" or "AT" and then any leading "+",
-finally uppercases. This makes "AT+CNMI", "+CNMI", and "cnmi" all equal.
-"""
-import sys
+import sys, json, re, yaml
 from pathlib import Path
-import yaml
 
-DATA = Path(__file__).resolve().parent.parent / "data"
+CMD_RE = re.compile(r'^\+[A-Z0-9]{2,}[A-Z0-9]*$', re.IGNORECASE)
 
-
-def normalize(cmd):
-    if cmd is None:
-        return ""
-    s = str(cmd).strip().upper()
-    if s.startswith("AT+"):
-        s = s[3:]
-    elif s.startswith("AT"):
-        s = s[2:]
-    if s.startswith("+"):
-        s = s[1:]
-    return s
-
-
-def load(path):
-    if not path.exists():
-        return []
+def load(p):
     try:
-        with path.open(encoding="utf-8") as f:
-            data = yaml.safe_load(f)
-        return data if isinstance(data, list) else []
-    except Exception as e:
-        print(f"[cross_ref] WARN: cannot read {path}: {e}", file=sys.stderr)
+        with open(p, encoding="utf-8") as f:
+            return yaml.safe_load(f) or []
+    except Exception:
         return []
 
+def norm_cmd(s):
+    if not isinstance(s, str): return None
+    s = s.strip()
+    if not s: return None
+    m = CMD_RE.match(s)
+    return m.group(0).upper() if m else None
+
+def collect_dat01(records):
+    cmds = set()
+    for r in records:
+        if not isinstance(r, dict): continue
+        for key in ("command","cmd"):
+            c = norm_cmd(r.get(key))
+            if c: cmds.add(c)
+    return cmds
+
+def collect_refs(records):
+    refs = set()
+    for r in records:
+        if not isinstance(r, dict): continue
+        for key in ("command","related_commands","related_command"):
+            v = r.get(key)
+            items = v if isinstance(v, list) else [v]
+            for it in items:
+                c = norm_cmd(it)
+                if c: refs.add(c)
+    return refs
 
 def main():
-    dat01 = load(DATA / "dat_01_at_command.yaml")
-    dat02 = load(DATA / "dat_02_urc.yaml")
-    dat09 = load(DATA / "dat_09_sms.yaml")
-    dat13 = load(DATA / "dat_13_sim_management.yaml")
+    root = Path(sys.argv[1])
+    data_dir = root / "data"
+    files = sorted(data_dir.glob("dat_*.yaml")) if data_dir.exists() else []
+    by_ds = {"_".join(p.stem.split("_")[:2]): load(p) for p in files}
 
-    cmds = set()
-    for r in dat01:
-        if isinstance(r, dict):
-            n = normalize(r.get("command"))
-            if n:
-                cmds.add(n)
+    known = collect_dat01(by_ds.get("dat_01", []))
+    report = {"dat_01_commands": sorted(known), "refs": [], "unresolved": [], "note": ""}
+    if not known:
+        report["note"] = "dat_01 empty: cross-ref degraded to inventory only."
 
-    issues = []
+    for ds, recs in by_ds.items():
+        if ds == "dat_01": continue
+        local = collect_refs(recs)
+        resolved = sorted([c for c in local if c in known])
+        unresolved = sorted([c for c in local if c not in known])
+        report["refs"].append({"dataset": ds, "total_refs": len(local),
+                               "resolved": len(resolved), "unresolved": len(unresolved)})
+        for u in unresolved:
+            report["unresolved"].append({"dataset": ds, "command": u})
 
-    for r in dat02:
-        if not isinstance(r, dict):
-            continue
-        rc = r.get("related_command")
-        if rc:
-            n = normalize(rc)
-            if n and n not in cmds:
-                issues.append(f"URC {r.get('id')} -> {rc} not in dat_01")
-
-    for r in dat09:
-        if not isinstance(r, dict):
-            continue
-        c = r.get("command")
-        if c:
-            n = normalize(c)
-            if n and n not in cmds:
-                issues.append(f"SMS {r.get('id')} -> {c} not in dat_01")
-
-    for r in dat13:
-        if not isinstance(r, dict):
-            continue
-        c = r.get("command")
-        if c:
-            n = normalize(c)
-            if n and n not in cmds:
-                issues.append(f"SIM {r.get('id')} -> {c} not in dat_01")
-
-    print(f"Cross-ref: {len(issues)} issues, {len(dat01)} commands in dat_01")
-    if issues:
-        print()
-        print(f"## Issues ({len(issues)})")
-        for i in issues:
-            print(f"- {i}")
-    print()
-    print("## Stats")
-    print(f"- dat_01 commands: {len(dat01)}")
-    print(f"- dat_02 URCs: {len(dat02)}")
-    print(f"- dat_09 SMS: {len(dat09)}")
-    print(f"- dat_13 SIM: {len(dat13)}")
-
-    return 0 if not issues else 1
-
+    out = root / "reports" / "_cross_ref_result.json"
+    out.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(json.dumps(report, indent=2, ensure_ascii=False))
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

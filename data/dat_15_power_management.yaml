@@ -8,7 +8,8 @@
   confidence: 0.0
   status: blocked
   conflicts: []
-  notes: 'Needs sleep mode app note. | Not found in AT Manual V1.01. | No additional power source in V2.02/V1.00. | limit_reason: Power table limit (13/14)'
+  notes: 'Needs sleep mode app note. | Not found in AT Manual V1.01. | No additional
+    power source in V2.02/V1.00. | limit_reason: Power table limit (13/14)'
   tags: []
   applicable_models:
   - SIM800L
@@ -39,7 +40,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
@@ -71,7 +73,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
@@ -103,7 +106,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
@@ -135,7 +139,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
@@ -167,7 +172,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
@@ -199,7 +205,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
@@ -231,7 +238,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
@@ -263,7 +271,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
@@ -295,7 +304,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
@@ -327,7 +337,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
@@ -359,7 +370,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
@@ -391,7 +403,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:
@@ -423,7 +436,8 @@
   confidence: 0.4
   status: partial
   conflicts: []
-  notes: 'Extracted from V2.02 power table row. Values need manual verification. | limit_reason: Power table limit (13/14)'
+  notes: 'Extracted from V2.02 power table row. Values need manual verification. |
+    limit_reason: Power table limit (13/14)'
   applicable_models:
   - SIM800L
   tags:

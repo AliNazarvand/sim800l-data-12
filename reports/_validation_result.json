@@ -1,0 +1,152 @@
+{
+  "datasets": [
+    {
+      "dataset": "dat_01",
+      "file": "dat_01_at_command.yaml",
+      "records": 335,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_02",
+      "file": "dat_02_urc.yaml",
+      "records": 18,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_03",
+      "file": "dat_03_error_code.yaml",
+      "records": 255,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_04",
+      "file": "dat_04_timing_timeout.yaml",
+      "records": 99,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_05",
+      "file": "dat_05_state_machine.yaml",
+      "records": 31,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_06",
+      "file": "dat_06_init_sequence.yaml",
+      "records": 35,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_07",
+      "file": "dat_07_hardware_reference.yaml",
+      "records": 256,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_08",
+      "file": "dat_08_firmware_compatibility.yaml",
+      "records": 1,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_09",
+      "file": "dat_09_sms.yaml",
+      "records": 14,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_10",
+      "file": "dat_10_gprs_data.yaml",
+      "records": 24,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_11",
+      "file": "dat_11_http_ftp_ssl.yaml",
+      "records": 38,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_12",
+      "file": "dat_12_audio.yaml",
+      "records": 13,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_13",
+      "file": "dat_13_sim_management.yaml",
+      "records": 10,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_14",
+      "file": "dat_14_operator_apn.yaml",
+      "records": 52,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_15",
+      "file": "dat_15_power_management.yaml",
+      "records": 14,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_16",
+      "file": "dat_16_board_evb.yaml",
+      "records": 1,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_17",
+      "file": "dat_17_certificate_key_store.yaml",
+      "records": 9,
+      "errors": 0,
+      "schema_ok": true
+    },
+    {
+      "dataset": "dat_18",
+      "file": "dat_18_certification.yaml",
+      "records": 1,
+      "errors": 0,
+      "schema_ok": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "schema_used": {
+    "dat_01_at_command.yaml": "dat_01",
+    "dat_02_urc.yaml": "dat_02",
+    "dat_03_error_code.yaml": "dat_03",
+    "dat_04_timing_timeout.yaml": "dat_04",
+    "dat_05_state_machine.yaml": "dat_05",
+    "dat_06_init_sequence.yaml": "dat_06",
+    "dat_07_hardware_reference.yaml": "dat_07",
+    "dat_08_firmware_compatibility.yaml": "dat_08",
+    "dat_09_sms.yaml": "dat_09",
+    "dat_10_gprs_data.yaml": "dat_10",
+    "dat_11_http_ftp_ssl.yaml": "dat_11",
+    "dat_12_audio.yaml": "dat_12",
+    "dat_13_sim_management.yaml": "dat_13",
+    "dat_14_operator_apn.yaml": "dat_14",
+    "dat_15_power_management.yaml": "dat_15",
+    "dat_16_board_evb.yaml": "dat_16",
+    "dat_17_certificate_key_store.yaml": "dat_17",
+    "dat_18_certification.yaml": "dat_18"
+  }
+}

@@ -312,7 +312,8 @@ the flat index dict.
 
 **Context**:
 Previous versions used PowerShell here-strings with backtick escapes
-(`  `, `  `, `  `) that were silently converted to BS/CR/FF
+(`  `, ` 
+ `, `  `) that were silently converted to BS/CR/FF
 control characters. This produced cosmetic artifacts like "remain locked"
 (instead of "blocked") and "eports/" (instead of "reports/").
 
@@ -420,3 +421,8 @@ here-strings; single-quote here-strings (@'...'@) preserve literals.
   - Removing fragments (R10 violation).
   - Writing to disk before validation (v2's failure mode).
   - Using Persian calendar timestamps (R19 violation).
+
+## 2026-10-13T13:16:47Z
+- Cluster A datasets (04, 07, 15) extracted from pre-parsed CSVs.
+- Validation now uses jsonschema against schemas/dat_XX.schema.yaml.
+- Cluster B intentionally left untouched (requires dedicated AT parser).

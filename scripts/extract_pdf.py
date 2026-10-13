@@ -1,76 +1,55 @@
-#!/usr/bin/env python3
-"""Simple text extraction from PDF (no OCR). Outputs text with <<<PAGE n>>> markers.
-Falls back to reading existing .txt if PDF library not available."""
-import sys
+import sys, subprocess, shutil
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-SRC  = ROOT / "sources" / "originals"
-OUT  = ROOT / "sources" / "extracted"
-OUT.mkdir(parents=True, exist_ok=True)
-
-def extract_with_pypdf(pdf_path):
-    try:
-        from pypdf import PdfReader
-    except ImportError:
-        try:
-            from PyPDF2 import PdfReader
-        except ImportError:
-            return None
-    try:
-        reader = PdfReader(str(pdf_path))
-    except Exception as e:
-        print(f"  [pypdf] failed to open: {e}", file=sys.stderr)
-        return None
-    parts = []
-    for i, page in enumerate(reader.pages, start=1):
-        try:
-            txt = page.extract_text() or ""
-        except Exception as e:
-            txt = f"[ERROR extracting page {i}: {e}]"
-        parts.append(f"<<<PAGE {i}>>>\n{txt}\n")
-    return "\n".join(parts)
-
-def extract_with_pdfplumber(pdf_path):
+def extract_with_pdfplumber(pdf, out_txt):
     try:
         import pdfplumber
     except ImportError:
-        return None
+        return False
     try:
-        with pdfplumber.open(str(pdf_path)) as pdf:
-            parts = []
-            for i, page in enumerate(pdf.pages, start=1):
-                try:
-                    txt = page.extract_text() or ""
-                except Exception as e:
-                    txt = f"[ERROR extracting page {i}: {e}]"
-                parts.append(f"<<<PAGE {i}>>>\n{txt}\n")
-            return "\n".join(parts)
-    except Exception as e:
-        print(f"  [pdfplumber] failed: {e}", file=sys.stderr)
-        return None
+        with pdfplumber.open(pdf) as doc:
+            with open(out_txt, "w", encoding="utf-8") as f:
+                for i, page in enumerate(doc.pages, 1):
+                    f.write(f"\n===== PAGE {i} =====\n")
+                    f.write(page.extract_text() or "")
+                    f.write("\n")
+        return True
+    except Exception:
+        return False
+
+def extract_with_pdftotext(pdf, out_txt):
+    exe = shutil.which("pdftotext")
+    if not exe:
+        return False
+    try:
+        subprocess.run([exe, "-layout", str(pdf), str(out_txt)], check=True)
+        return True
+    except Exception:
+        return False
 
 def main():
-    targets = [
-        ("v2_02_paged.txt", "SIM800H&SIM800L_Hardware_Design_V2.02.PDF"),
-        ("v1_00_paged.txt", "SIM800L_Hardware_Design_V1.00.pdf"),
-    ]
-    for out_name, pdf_name in targets:
-        pdf_path = SRC / pdf_name
-        out_path = OUT / out_name
-        print(f"Extracting {pdf_name} -> {out_name}")
-        if not pdf_path.exists():
-            print(f"  PDF not found: {pdf_path}", file=sys.stderr)
-            continue
-        text = extract_with_pdfplumber(pdf_path)
-        if text is None:
-            text = extract_with_pypdf(pdf_path)
-        if text is None:
-            print(f"  No PDF library available. Install: pip install pypdf", file=sys.stderr)
-            continue
-        out_path.write_text(text, encoding="utf-8")
-        pages = text.count("<<<PAGE ")
-        print(f"  OK: {pages} pages, {len(text)} chars")
+    root = Path(sys.argv[1])
+    src  = root / "sources" / "originals"
+    dst  = root / "sources" / "extracted"
+    dst.mkdir(parents=True, exist_ok=True)
+    if not src.exists():
+        print("no sources/originals dir"); return
+    # FIX: deduplicate case-insensitive on Windows
+    seen, pdfs = set(), []
+    for p in list(src.glob("*.pdf")) + list(src.glob("*.PDF")):
+        key = p.name.lower()
+        if key in seen: continue
+        seen.add(key); pdfs.append(p)
+    pdfs.sort(key=lambda p: p.name.lower())
+    if not pdfs:
+        print("no PDFs found"); return
+    for pdf in pdfs:
+        out_txt = dst / (pdf.stem + ".txt")
+        ok = extract_with_pdfplumber(pdf, out_txt) or extract_with_pdftotext(pdf, out_txt)
+        if ok:
+            print(f"OK  {pdf.name}  -> {out_txt.name}  ({out_txt.stat().st_size} bytes)")
+        else:
+            print(f"FAIL {pdf.name}: no extractor available")
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,9 @@
+
+===== PAGE 1 =====
 SIM800 Series_AT Command
 Manual_V1.01
+
+===== PAGE 2 =====
 Smart Machine Smart Decision
 Document Title: SIM800 Series AT Commands Manual
 Version: 1.01
@@ -23,6 +27,8 @@ registration of a utility model or design. All specification supplied herein are
 without notice at any time.
 Copyright © Shanghai SIMCom Wireless Solutions Ltd. 2013
 SIM800 Series_AT Command Manual_V1.01 2 2013-07-23
+
+===== PAGE 3 =====
 Smart Machine Smart Decision
 Contents
 Version History.........................................................................................13
@@ -65,6 +71,8 @@ Field <str>.....................................................................
 2.2.16 ATS0 Set Number of Rings before Automatically Answering the Call.....................31
 2.2.17 ATS3 Set Command Line Termination Character.....................................................32
 SIM800 Series_AT Command Manual_V1.01 3 2013-07-23
+
+===== PAGE 4 =====
 Smart Machine Smart Decision
 2.2.18 ATS4 Set Response Formatting Character................................................................32
 2.2.19 ATS5 Set Command Line Editing Character.............................................................33
@@ -110,6 +118,8 @@ Dial String of D Command........................................................
 3.2.13 AT+CSTA Select Type of Address............................................................................60
 3.2.14 AT+CHLD Call Hold and Multiparty........................................................................60
 SIM800 Series_AT Command Manual_V1.01 4 2013-07-23
+
+===== PAGE 5 =====
 Smart Machine Smart Decision
 3.2.15 AT+CIMI Request International Mobile Subscriber Identity....................................61
 3.2.16 AT+CLCC List Current Calls of ME.........................................................................62
@@ -156,6 +166,8 @@ Smart Machine Smart Decision
 3.2.57 AT+CUSD Unstructured Supplementary Service Data.............................................98
 3.2.58 AT+CSSN Supplementary Services Notification......................................................98
 SIM800 Series_AT Command Manual_V1.01 5 2013-07-23
+
+===== PAGE 6 =====
 Smart Machine Smart Decision
 4 AT Commands According to 3GPP TS 27.005...................................101
 4.1 Overview of AT Commands According to 3GPP TS 27.005............................101
@@ -199,6 +211,8 @@ Smart Machine Smart Decision
 6.2.5 AT+CALA Set Alarm Time......................................................................................134
 6.2.6 AT+CALD Delete Alarm..........................................................................................135
 SIM800 Series_AT Command Manual_V1.01 6 2013-07-23
+
+===== PAGE 7 =====
 Smart Machine Smart Decision
 6.2.7 AT+CADC Read ADC.............................................................................................135
 6.2.8 AT+CSNS Single Numbering Scheme.....................................................................136
@@ -245,6 +259,8 @@ Smart Machine Smart Decision
 6.2.49 AT+CBUZZERRING Use the Buzzer Sound as the Incoming Call Ring...............164
 6.2.50 AT+CEXTERNTONE Close or Open the Microphone...........................................165
 SIM800 Series_AT Command Manual_V1.01 7 2013-07-23
+
+===== PAGE 8 =====
 Smart Machine Smart Decision
 6.2.51 AT+CNETLIGHT Close the Net Light or Open It to Shining................................165
 6.2.52 AT+CWHITELIST Set the White List....................................................................166
@@ -289,6 +305,8 @@ Smart Machine Smart Decision
 8.2.18 AT+CIPSERVER Configure Module as Server......................................................195
 8.2.19 AT+CIPCSGP Set CSD or GPRS for Connection Mode........................................196
 SIM800 Series_AT Command Manual_V1.01 8 2013-07-23
+
+===== PAGE 9 =====
 Smart Machine Smart Decision
 8.2.20 AT+CIPSRIP Show Remote IP Address and Port When Received Data................197
 8.2.21 AT+CIPDPDP Set Whether to Check State of GPRS Network Timing..................198
@@ -331,6 +349,8 @@ Smart Machine Smart Decision
 12.2.5 AT+FTPCID Set FTP Bearer Profile Identifier.......................................................223
 12.2.6 AT+FTPREST Set Resume Broken Download.......................................................223
 SIM800 Series_AT Command Manual_V1.01 9 2013-07-23
+
+===== PAGE 10 =====
 Smart Machine Smart Decision
 12.2.7 AT+FTPSERV Set FTP Server Address..................................................................224
 12.2.8 AT+FTPUN Set FTP User Name............................................................................224
@@ -375,6 +395,8 @@ Smart Machine Smart Decision
 14.2.17 AT+POP3UIDL Get the Specific Email Unique-id..............................................251
 14.2.18 AT+POP3CMD Get Multi-line Response.............................................................252
 SIM800 Series_AT Command Manual_V1.01 10 2013-07-23
+
+===== PAGE 11 =====
 Smart Machine Smart Decision
 14.2.19 AT+POP3READ Read Multi-line Response........................................................253
 14.2.20 AT+POP3DEL Mark the Specific Email to Delete...............................................255
@@ -418,6 +440,8 @@ Smart Machine Smart Decision
 17.2.1 AT+CREC record operation....................................................................................279
 18 AT Commands for TTS Application.................................................283
 SIM800 Series_AT Command Manual_V1.01 11 2013-07-23
+
+===== PAGE 12 =====
 Smart Machine Smart Decision
 18.1 Overview........................................................................................................283
 18.2 Detailed Descriptions of Commands..............................................................283
@@ -452,6 +476,8 @@ Smart Machine Smart Decision
 21.3 AT+SGPIO......................................................................................................313
 21.4 AT+CBAND...................................................................................................314
 SIM800 Series_AT Command Manual_V1.01 12 2013-07-23
+
+===== PAGE 13 =====
 Smart Machine Smart Decision
 Version History
 Version Date Chapter What is new
@@ -491,6 +517,8 @@ to 10-500000
 8.2.23 AT+CIPCCFG Modify write cmd parameters
 8.2.26 AT+CIPRXGET Add "single IP & multi IP connection"
 SIM800 Series_AT Command Manual_V1.01 13 2013-07-23
+
+===== PAGE 14 =====
 Smart Machine Smart Decision
 information
 9.2.1 AT+SAPBR Modify parameter
@@ -532,6 +560,8 @@ time
 4.2.3 CMGL Modify description of max response
 time
 SIM800 Series_AT Command Manual_V1.01 14 2013-07-23
+
+===== PAGE 15 =====
 Smart Machine Smart Decision
 6.2.25 CMGDA Modify description of max response
 time
@@ -558,6 +588,8 @@ time
 3.2.24 AT+CPBS Delete parameter save mode
 3.2.25 AT+CPBW Delete parameter save mode
 SIM800 Series_AT Command Manual_V1.01 15 2013-07-23
+
+===== PAGE 16 =====
 Smart Machine Smart Decision
 1 Introduction
 1.1 Scope of the document
@@ -592,6 +624,8 @@ Note: A HEX string such as "00 49 49 49 49 FF FF FF FF" will be sent out through
 port at the baud rate of 115200 immediately after SIM800 Series is powered on. The string
 shall be ignored since it is used for synchronization with PC tool. Only enter AT Command
 SIM800 Series_AT Command Manual_V1.01 16 2013-07-23
+
+===== PAGE 17 =====
 Smart Machine Smart Decision
 through serial port after SIM800 Series is powered on and Unsolicited Result Code "RDY"
 is received from serial port. If auto-bauding is enabled, the Unsolicited Result Codes
@@ -626,6 +660,8 @@ You can enter several AT commands on the same line. In this case, you do not nee
 "AT" or "at" prefix before every command. Instead, you only need type "AT" or "at" the
 beginning of the command line. Please note to use a semicolon as the command delimiter after
 SIM800 Series_AT Command Manual_V1.01 17 2013-07-23
+
+===== PAGE 18 =====
 Smart Machine Smart Decision
 an extended command; in basic syntax or S parameter syntax, the semicolon need not enter, for
 example: ATE1Q0S0=1S3=13V1X4;+IFC=0,0;+IPR=115200;&W.
@@ -663,6 +699,8 @@ Software flow control sends different characters to stop (XOFF, decimal 19) and 
 decimal 17) data flow. It is quite useful in some applications that only use three wires on the
 serial interface.
 SIM800 Series_AT Command Manual_V1.01 18 2013-07-23
+
+===== PAGE 19 =====
 Smart Machine Smart Decision
 The default flow control approach of SIM800 Series is hardware flow control (RTS/CTS flow
 control), to enable software flow control in the DTE interface and within GSM engine, type the
@@ -697,12 +735,16 @@ sending the command of “AT&W.”
 If one AT command has not the item of “Parameter Saving Mode”, it means this AT command
 doesn’t save the parameter or haven’t parameter.
 SIM800 Series_AT Command Manual_V1.01 19 2013-07-23
+
+===== PAGE 20 =====
 Smart Machine Smart Decision
 1.7.2 Max Response Time
 Max response time is estimated maximum time to get response, the unit is seconds.
 If one AT command has not the item of “Max Response Time”, it means this AT command
 doesn’t care the response time.
 SIM800 Series_AT Command Manual_V1.01 20 2013-07-23
+
+===== PAGE 21 =====
 Smart Machine Smart Decision
 2 AT Commands According to V.25TER
 These AT Commands are designed according to the ITU-T (International Telecommunication
@@ -742,6 +784,8 @@ ATT SELECT TONE DIALING
 ATV TA RESPONSE FORMAT
 ATX SET CONNECT RESULT CODE FORMAT AND MONITOR CALL
 SIM800 Series_AT Command Manual_V1.01 21 2013-07-23
+
+===== PAGE 22 =====
 Smart Machine Smart Decision
 PROGRESS
 ATZ RESET DEFAULT CONFIGURATION
@@ -781,6 +825,8 @@ Response in case of data call, if successfully connected
 CONNECT<text> TA switches to data mode.
 Note: <text> output only if ATX<value> parameter setting with the
 SIM800 Series_AT Command Manual_V1.01 22 2013-07-23
+
+===== PAGE 23 =====
 Smart Machine Smart Decision
 <value>>0
 When TA returns to Command mode after call release
@@ -816,6 +862,8 @@ CONNECT<text> TA switches to data mode.
 Note: <text> output only if ATX<value> parameter setting with the
 <value> >0
 SIM800 Series_AT Command Manual_V1.01 23 2013-07-23
+
+===== PAGE 24 =====
 Smart Machine Smart Decision
 When TA returns to Command mode after call release
 OK
@@ -857,6 +905,8 @@ TONE", "NO CARRIER".
 Using ATD during an active voice call:
 When a user originates a second voice call while there is already an active
 SIM800 Series_AT Command Manual_V1.01 24 2013-07-23
+
+===== PAGE 25 =====
 Smart Machine Smart Decision
 voice call, the first call will be automatically put on hold.
 The current states of all calls can be easily checked at any time by using the
@@ -892,6 +942,8 @@ Parameters
 available in the memory used
 <mgsm> String of GSM modifiers:
 SIM800 Series_AT Command Manual_V1.01 25 2013-07-23
+
+===== PAGE 26 =====
 Smart Machine Smart Decision
 <clir>
 I Override the CLIR supplementary service subscription
@@ -932,6 +984,8 @@ NO DIALTONE
 If busy and (parameter setting ATX3 or ATX4)
 BUSY
 SIM800 Series_AT Command Manual_V1.01 26 2013-07-23
+
+===== PAGE 27 =====
 Smart Machine Smart Decision
 If a connection cannot be established
 NO CARRIER
@@ -972,6 +1026,8 @@ Command This Command redials the last voice and data call number used.
 ATDL Note: This Command may be aborted generally by receiving an ATH
 Command or a character during execution. The aborting is not possible
 SIM800 Series_AT Command Manual_V1.01 27 2013-07-23
+
+===== PAGE 28 =====
 Smart Machine Smart Decision
 during some states of connection establishment such as handshaking.
 If error is related to ME functionality
@@ -1006,6 +1062,8 @@ Parameter
 <value> 0 Echo mode off
 1 Echo mode on
 SIM800 Series_AT Command Manual_V1.01 28 2013-07-23
+
+===== PAGE 29 =====
 Smart Machine Smart Decision
 Reference Note
 V.25ter
@@ -1043,6 +1101,8 @@ ATM Set Monitor Speaker Mode
 Execution Response
 Command OK
 SIM800 Series_AT Command Manual_V1.01 29 2013-07-23
+
+===== PAGE 30 =====
 Smart Machine Smart Decision
 ATM<value> Parameter
 <value> 0..9 Mode
@@ -1081,6 +1141,8 @@ V.25ter
 2.2.14 ATP Select Pulse Dialling
 ATP Select Pulse Dialling
 SIM800 Series_AT Command Manual_V1.01 30 2013-07-23
+
+===== PAGE 31 =====
 Smart Machine Smart Decision
 Execution Response
 Command OK
@@ -1120,6 +1182,8 @@ the phone if a ring is detected.
 Parameter Saving AT&W_SAVE
 Mode
 SIM800 Series_AT Command Manual_V1.01 31 2013-07-23
+
+===== PAGE 32 =====
 Smart Machine Smart Decision
 Reference Note
 V.25ter If <n> is set too high, the calling party may hang up before the call can be
@@ -1157,6 +1221,8 @@ Parameter
 <n> 10 Response formatting character
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 32 2013-07-23
+
+===== PAGE 33 =====
 Smart Machine Smart Decision
 V.25ter Default 10 = LF. It only supports default value.
 2.2.19 ATS5 Set Command Line Editing Character
@@ -1191,6 +1257,8 @@ Mode
 Reference Note
 V.25ter No effect in GSM
 SIM800 Series_AT Command Manual_V1.01 33 2013-07-23
+
+===== PAGE 34 =====
 Smart Machine Smart Decision
 2.2.21 ATS7 Set Number of Seconds to Wait for Connection Completion
 ATS7 Set Number of Seconds to Wait for Connection Completion
@@ -1230,6 +1298,8 @@ Parameter
 should pause when it sees a comma in the dialing string.
 Parameter Saving AT&W_SAVE
 SIM800 Series_AT Command Manual_V1.01 34 2013-07-23
+
+===== PAGE 35 =====
 Smart Machine Smart Decision
 Mode
 Reference Note
@@ -1268,6 +1338,8 @@ When <value>=0
 When <value>=1
 OK
 SIM800 Series_AT Command Manual_V1.01 35 2013-07-23
+
+===== PAGE 36 =====
 Smart Machine Smart Decision
 Parameter
 <value> 0 Information response: <text><CR><LF>
@@ -1308,6 +1380,8 @@ particular result codes.
 OK
 ERROR
 SIM800 Series_AT Command Manual_V1.01 36 2013-07-23
+
+===== PAGE 37 =====
 Smart Machine Smart Decision
 Parameter
 <value> 0 CONNECT result code only returned, dial tone and busy
@@ -1347,6 +1421,8 @@ Parameter
 1 DCD line is ON only in the presence of data carrier
 Parameter Saving AT&W_SAVE
 SIM800 Series_AT Command Manual_V1.01 37 2013-07-23
+
+===== PAGE 38 =====
 Smart Machine Smart Decision
 Mode
 Reference Note
@@ -1385,6 +1461,8 @@ Command TA returns the current parameter setting.
 AT&V[<n>] <current configurations text>
 OK
 SIM800 Series_AT Command Manual_V1.01 38 2013-07-23
+
+===== PAGE 39 =====
 Smart Machine Smart Decision
 ERROR
 Parameter
@@ -1423,6 +1501,8 @@ AT+CLTS <timestamp> Y
 AT+CREG <n> Y
 AT+CGREG <n> Y
 SIM800 Series_AT Command Manual_V1.01 39 2013-07-23
+
+===== PAGE 40 =====
 Smart Machine Smart Decision
 AT+CMEE <n> Y
 AT+CSCLK <n> Y
@@ -1462,6 +1542,8 @@ Execution Response
 Command TA reports a list of additional capabilities.
 AT+GCAP +GCAP: list of supported <name>s
 SIM800 Series_AT Command Manual_V1.01 40 2013-07-23
+
+===== PAGE 41 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -1495,6 +1577,8 @@ V.25ter
 2.2.36 AT+GMR Request TA Revision Identification of Software Release
 AT+GMR Request TA Revision Identification of Software Release
 SIM800 Series_AT Command Manual_V1.01 41 2013-07-23
+
+===== PAGE 42 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+GMR=? OK
@@ -1531,6 +1615,8 @@ AT+GSN information text which permit the user to identify the individual ME devi
 <sn>
 OK
 SIM800 Series_AT Command Manual_V1.01 42 2013-07-23
+
+===== PAGE 43 =====
 Smart Machine Smart Decision
 Parameter
 <sn> IMEI of the telephone(International Mobile station Equipment
@@ -1569,6 +1655,8 @@ In <format> parameter, "0 parity" means no parity;
 The <parity> field is ignored if the <format> field specifies no parity and
 string "+ICF: <format>,255" will be response to AT+ICF? Command.
 SIM800 Series_AT Command Manual_V1.01 43 2013-07-23
+
+===== PAGE 44 =====
 Smart Machine Smart Decision
 2.2.40 AT+IFC Set TE-TA Local Data Flow Control
 AT+IFC Set TE-TA Local Data Flow Control
@@ -1608,6 +1696,8 @@ fixed-only <rate>s)
 OK
 Parameter
 SIM800 Series_AT Command Manual_V1.01 44 2013-07-23
+
+===== PAGE 45 =====
 Smart Machine Smart Decision
 See Write Command
 Read Command Response
@@ -1649,6 +1739,8 @@ AT+IPR=0 setting to auto-bauding will take effect after module resets.
 Unsolicited Result Codes that may be issued before the ME detects the new baud rate (by
 receiving the first AT Command string) will be sent at the previously detected baud rate.The
 SIM800 Series_AT Command Manual_V1.01 45 2013-07-23
+
+===== PAGE 46 =====
 Smart Machine Smart Decision
 Unsolicited Result Codes "RDY" and so on are not indicated when you start up the ME while
 auto-bauding is enabled.
@@ -1666,6 +1758,8 @@ OK
 Reference Note
 V.25ter
 SIM800 Series_AT Command Manual_V1.01 46 2013-07-23
+
+===== PAGE 47 =====
 Smart Machine Smart Decision
 3 AT Commands According to 3GPP TS 27.007
 3.1 Overview of AT Command According to 3GPP TS 27.007
@@ -1704,6 +1798,8 @@ AT+CPIN ENTER PIN
 AT+CPWD CHANGE PASSWORD
 AT+CR SERVICE REPORTING CONTROL
 SIM800 Series_AT Command Manual_V1.01 47 2013-07-23
+
+===== PAGE 48 =====
 Smart Machine Smart Decision
 AT+CRC SET CELLULAR RESULT CODES FOR INCOMING CALL
 INDICATION
@@ -1743,6 +1839,8 @@ Read Command Response
 AT+CACM? TA returns the current value of ACM.
 +CACM: <acm>
 SIM800 Series_AT Command Manual_V1.01 48 2013-07-23
+
+===== PAGE 49 =====
 Smart Machine Smart Decision
 OK
 If error is related to ME functionality:
@@ -1784,6 +1882,8 @@ mmax>[,<passwd value in SIM file EF (ACM max). ACM max contains the maximum
 OK
 ERROR
 SIM800 Series_AT Command Manual_V1.01 49 2013-07-23
+
+===== PAGE 50 =====
 Smart Machine Smart Decision
 If error is related to ME functionality:
 +CME ERROR: <err>
@@ -1824,6 +1924,8 @@ If error is related to ME functionality:
 +CME ERROR: <err>
 Parameters
 SIM800 Series_AT Command Manual_V1.01 50 2013-07-23
+
+===== PAGE 51 =====
 Smart Machine Smart Decision
 <mode> 0 Query CCM value
 1 Deactivate the unsolicited reporting of CCM value
@@ -1865,6 +1967,8 @@ setting is possible in case of 3.1kHz modern and non-transparent service)
 6 4800 bps (V.32)
 7 9600 bps (V.32)
 SIM800 Series_AT Command Manual_V1.01 51 2013-07-23
+
+===== PAGE 52 =====
 Smart Machine Smart Decision
 12 9600 bps (V.34)
 14 14400 bps (V.34)
@@ -1908,6 +2012,8 @@ OK
 If no call forwarding numbers are registered (and therefore all classes are
 inactive):
 SIM800 Series_AT Command Manual_V1.01 52 2013-07-23
+
+===== PAGE 53 =====
 Smart Machine Smart Decision
 +CCFC: <status>, <class>
 OK
@@ -1950,6 +2056,8 @@ Reference Note
 3.2.6 AT+CCWA Call Waiting Control
 AT+CCWA Call Waiting Control
 SIM800 Series_AT Command Manual_V1.01 53 2013-07-23
+
+===== PAGE 54 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+CCWA=? +CCWA: (list of supported <n>s)
@@ -1991,6 +2099,8 @@ may refer only to some bearer service if TA does not support values 16,
 32, 64 and 128
 4 Fax (facsimile services)
 SIM800 Series_AT Command Manual_V1.01 54 2013-07-23
+
+===== PAGE 55 =====
 Smart Machine Smart Decision
 7 Default(1+2+4)
 <status> 0 Not active
@@ -2031,6 +2141,8 @@ Parameter
 <n> 0 The reason for last call release as text code
 1 The reason for last call release as number code
 SIM800 Series_AT Command Manual_V1.01 55 2013-07-23
+
+===== PAGE 56 =====
 Smart Machine Smart Decision
 Execution Response
 Command TA returns an extended report of the reason for the last call release.
@@ -2069,6 +2181,8 @@ Parameters
 44 (requested circuit/channel not available)
 47 (resource unavailable, unspecified)
 SIM800 Series_AT Command Manual_V1.01 56 2013-07-23
+
+===== PAGE 57 =====
 Smart Machine Smart Decision
 49 (quality of service unavailable)
 50 (Requested facility not subscribed)
@@ -2106,6 +2220,8 @@ AT+CGMI=? OK
 Execution Response
 Command TA returns manufacturer identification text.
 SIM800 Series_AT Command Manual_V1.01 57 2013-07-23
+
+===== PAGE 58 =====
 Smart Machine Smart Decision
 AT+CGMI <manufacturer>
 OK
@@ -2143,6 +2259,8 @@ Reference Note
 3.2.11 AT+CGSN Request Product Serial Number Identification (Identical with +GSN)
 AT+CGSN Request Product Serial Number Identification (Identical with +GSN)
 SIM800 Series_AT Command Manual_V1.01 58 2013-07-23
+
+===== PAGE 59 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+CGSN=? OK
@@ -2183,6 +2301,8 @@ AT+CSCS=<chse Sets which character set <chset> are used by the TE. The TA can th
 t> convert character strings correctly between the TE and ME character sets.
 OK
 SIM800 Series_AT Command Manual_V1.01 59 2013-07-23
+
+===== PAGE 60 =====
 Smart Machine Smart Decision
 If error is related to ME functionality:
 +CME ERROR: <err>
@@ -2223,6 +2343,8 @@ Reference Note
 AT+CHLD Call Hold and Multiparty
 Test Command Response
 SIM800 Series_AT Command Manual_V1.01 60 2013-07-23
+
+===== PAGE 61 =====
 Smart Machine Smart Decision
 AT+CHLD=? +CHLD: (list of supported <n>s)
 OK
@@ -2262,6 +2384,8 @@ Command TA returns <IMSI>for identifying the individual SIM which is attached to
 AT+CIMI ME.
 <IMSI>
 SIM800 Series_AT Command Manual_V1.01 61 2013-07-23
+
+===== PAGE 62 =====
 Smart Machine Smart Decision
 OK
 If error is related to ME functionality:
@@ -2302,6 +2426,8 @@ response is sent to TE.
 [<CR><LF>+CLCC: <id2>,<dir>,<stat>,<mode>,<mpty>
 [,<number>,<type>,<alphaID>][...]]]
 SIM800 Series_AT Command Manual_V1.01 62 2013-07-23
+
+===== PAGE 63 =====
 Smart Machine Smart Decision
 OK
 If error is related to ME functionality:
@@ -2345,6 +2471,8 @@ Parameter
 See Write Command
 Write Command Response
 SIM800 Series_AT Command Manual_V1.01 63 2013-07-23
+
+===== PAGE 64 =====
 Smart Machine Smart Decision
 AT+CLCK=<fac> This Command is used to lock, unlock or interrogate a ME or a network
 ,<mode>[,<passw facility <fac>. Password is normally needed to do such actions. When
@@ -2389,6 +2517,8 @@ facility from the MT user interface or with command Change Password
 2 Data refers to all bearer services; with <mode>=2 this
 may refer only to some bearer service if TA does not support values 16,
 SIM800 Series_AT Command Manual_V1.01 64 2013-07-23
+
+===== PAGE 65 =====
 Smart Machine Smart Decision
 32, 64 and 128)
 4 Fax (facsimile services)
@@ -2430,6 +2560,8 @@ Unsolicited Result Code
 When the presentation of the CLI at the TE is enabled (and calling
 subscriber allows), an unsolicited result code is returned after every RING
 SIM800 Series_AT Command Manual_V1.01 65 2013-07-23
+
+===== PAGE 66 =====
 Smart Machine Smart Decision
 (or +CRING: <type>) at a mobile terminating call.
 +CLIP: <number>,<type>[,<subaddr>,<satype>,<alphaId>,<CLI
@@ -2470,6 +2602,8 @@ If error is related to ME functionality:
 Parameters
 See Write Command
 SIM800 Series_AT Command Manual_V1.01 66 2013-07-23
+
+===== PAGE 67 =====
 Smart Machine Smart Decision
 Write Command Response
 AT+CLIR=<n> TA restricts or enables the presentation of the CLI to the called party when
@@ -2510,6 +2644,8 @@ OK
 Parameter
 See Write Command
 SIM800 Series_AT Command Manual_V1.01 67 2013-07-23
+
+===== PAGE 68 =====
 Smart Machine Smart Decision
 Write Command Response
 AT+CMEE=[<n> TA disables or enables the use of result code +CME ERROR: <err> as an
@@ -2551,6 +2687,8 @@ OK
 If error is related to ME functionality:
 +CME ERROR: <err>
 SIM800 Series_AT Command Manual_V1.01 68 2013-07-23
+
+===== PAGE 69 =====
 Smart Machine Smart Decision
 Parameters
 <n> (parameter sets/shows the result code presentation status in the
@@ -2593,6 +2731,8 @@ networks referenced in SIM, and other networks.
 alphanumeric<oper>,numeric <oper>)s[,,(list of supported <mode>s),
 (list of supported <format>s)]
 SIM800 Series_AT Command Manual_V1.01 69 2013-07-23
+
+===== PAGE 70 =====
 Smart Machine Smart Decision
 OK
 If error is related to ME functionality:
@@ -2635,6 +2775,8 @@ entered
 <format> 0 Long format alphanumeric <oper>
 1 Short format alphanumeric <oper>
 SIM800 Series_AT Command Manual_V1.01 70 2013-07-23
+
+===== PAGE 71 =====
 Smart Machine Smart Decision
 2 Numeric <oper>; GSM Location Area Identification
 number
@@ -2674,6 +2816,8 @@ AT+CPBF=? +CPBF: maximum length of field <nlength>,maximum length of field
 <tlength>
 OK
 SIM800 Series_AT Command Manual_V1.01 71 2013-07-23
+
+===== PAGE 72 =====
 Smart Machine Smart Decision
 If error is related to ME functionality:
 +CME ERROR: <err>
@@ -2715,6 +2859,8 @@ Reference Note
 3GPP TS 27.007
 [13]
 SIM800 Series_AT Command Manual_V1.01 72 2013-07-23
+
+===== PAGE 73 =====
 Smart Machine Smart Decision
 3.2.25 AT+CPBR Read Current Phonebook Entries
 AT+CPBR Read Current Phonebook Entries
@@ -2753,6 +2899,8 @@ AT+CPBS Select Phonebook Memory Storage
 Test Command Response
 AT+CPBS=? +CPBS: (list of supported <storage>s)
 SIM800 Series_AT Command Manual_V1.01 73 2013-07-23
+
+===== PAGE 74 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -2794,6 +2942,8 @@ AT+CPBW=? TA returns location range supported by the current storage, the maximu
 length of <number> field, supported number formats of the storage, and
 the maximum length of <text> field.
 SIM800 Series_AT Command Manual_V1.01 74 2013-07-23
+
+===== PAGE 75 =====
 Smart Machine Smart Decision
 +CPBW: (list of supported <index>s), <nlength>, (list of supported
 <type>s), <tlength>
@@ -2838,6 +2988,8 @@ Test Command Response
 AT+CPIN=? OK
 Read Command Response
 SIM800 Series_AT Command Manual_V1.01 75 2013-07-23
+
+===== PAGE 76 =====
 Smart Machine Smart Decision
 AT+CPIN? TA returns an alphanumeric string indicating whether some password is
 required or not.
@@ -2880,6 +3032,8 @@ maximum length of their password.
 +CPWD: (list of supported <fac>s, list of supported <pwdlength>s)
 OK
 SIM800 Series_AT Command Manual_V1.01 76 2013-07-23
+
+===== PAGE 77 =====
 Smart Machine Smart Decision
 Parameters
 <fac> See Write Command
@@ -2922,6 +3076,8 @@ See Write Command
 Read Command Response
 AT+CR? +CR: <mode>
 SIM800 Series_AT Command Manual_V1.01 77 2013-07-23
+
+===== PAGE 78 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -2963,6 +3119,8 @@ Parameter
 See Write Command
 Write Command Response
 SIM800 Series_AT Command Manual_V1.01 78 2013-07-23
+
+===== PAGE 79 =====
 Smart Machine Smart Decision
 AT+CRC=[<mod TA controls whether or not the extended format of incoming call
 e>] indication is used.
@@ -3004,6 +3162,8 @@ Write Command Response
 AT+CREG=[<n> TA controls the presentation of an unsolicited result code +CREG: <stat>
 ] when <n>=1 and there is a change in the ME network registration status.
 SIM800 Series_AT Command Manual_V1.01 79 2013-07-23
+
+===== PAGE 80 =====
 Smart Machine Smart Decision
 OK
 Parameters
@@ -3047,6 +3207,8 @@ supported <T1>s),(list of supported <N2>s),(list of supported <T4>s)
 OK
 Parameters
 SIM800 Series_AT Command Manual_V1.01 80 2013-07-23
+
+===== PAGE 81 =====
 Smart Machine Smart Decision
 See Write Command
 Read Command Response
@@ -3088,6 +3250,8 @@ Parameters
 214 UPDATE BINARY
 220 UPDATE RECORD
 SIM800 Series_AT Command Manual_V1.01 81 2013-07-23
+
+===== PAGE 82 =====
 Smart Machine Smart Decision
 242 STATUS
 All other values are reserved; refer GSM 11.11.
@@ -3131,6 +3295,8 @@ Parameters
 99 not known or not detectable
 <ber> (in percent):
 SIM800 Series_AT Command Manual_V1.01 82 2013-07-23
+
+===== PAGE 83 =====
 Smart Machine Smart Decision
 0...7 As RXQUAL values in the table in GSM 05.08 [20]
 subclause 7.2.4
@@ -3170,6 +3336,8 @@ Command TA reports one or more lines of information text which permit the user t
 AT+FMI identify the manufacturer.
 <manufacturer Id>
 SIM800 Series_AT Command Manual_V1.01 83 2013-07-23
+
+===== PAGE 84 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -3205,6 +3373,8 @@ of the device.
 Reference Note
 EIA/TIA-578-D
 SIM800 Series_AT Command Manual_V1.01 84 2013-07-23
+
+===== PAGE 85 =====
 Smart Machine Smart Decision
 3.2.40 AT+VTD Tone Duration
 AT+VTD Tone Duration
@@ -3245,6 +3415,8 @@ AT+VTS=<dtmf- Note: D is used only for dialing.
 string> OK
 If error is related to ME functionality:
 SIM800 Series_AT Command Manual_V1.01 85 2013-07-23
+
+===== PAGE 86 =====
 Smart Machine Smart Decision
 +CME ERROR: <err>
 Note: The Command is writing only.
@@ -3285,6 +3457,8 @@ Parameters
 2 19200 bits/t
 3 38400 bits/t
 SIM800 Series_AT Command Manual_V1.01 86 2013-07-23
+
+===== PAGE 87 =====
 Smart Machine Smart Decision
 4 57600 bits/t
 5 115200 bit/s
@@ -3329,6 +3503,8 @@ None Multiplexer Control 0
 3.2.43 AT+CNUM Subscriber Number
 AT+CNUM Subscriber Number
 SIM800 Series_AT Command Manual_V1.01 87 2013-07-23
+
+===== PAGE 88 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+CNUM=? OK
@@ -3370,6 +3546,8 @@ Read Command Response
 AT+CPOL? +CPOL: <index1>,<format>,<oper1>
 [<CR><LF>+CPOL: <index2>,<format>,<oper2>[…]]
 SIM800 Series_AT Command Manual_V1.01 88 2013-07-23
+
+===== PAGE 89 =====
 Smart Machine Smart Decision
 OK
 If error is related to ME functionality:
@@ -3411,6 +3589,8 @@ operator in numeric format (see +COPS)
 <alphan> String type (string should be included in quotation marks):
 operator in long alphanumeric format (see +COPS)
 SIM800 Series_AT Command Manual_V1.01 89 2013-07-23
+
+===== PAGE 90 =====
 Smart Machine Smart Decision
 Max Response Immediately
 Time
@@ -3452,6 +3632,8 @@ functionality mode.
 Response string "OK" will be returned after module resets if baud rate is
 set to fixed baud rate.
 SIM800 Series_AT Command Manual_V1.01 90 2013-07-23
+
+===== PAGE 91 =====
 Smart Machine Smart Decision
 3.2.47 AT+CCLK Clock
 AT+CCLK Clock
@@ -3491,6 +3673,8 @@ OK
 If error is related to ME functionality:
 +CME ERROR: <err>
 SIM800 Series_AT Command Manual_V1.01 91 2013-07-23
+
+===== PAGE 92 =====
 Smart Machine Smart Decision
 Parameters
 <length> Integer type: length of characters sent to the TE in
@@ -3532,6 +3716,8 @@ Reference Note
 [13] mode during an incoming call, the module maintains silent this time. But
 next time the normal mode works.
 SIM800 Series_AT Command Manual_V1.01 92 2013-07-23
+
+===== PAGE 93 =====
 Smart Machine Smart Decision
 3.2.50 AT+CALS Alert Sound Select
 AT+CALS Alert Sound Select
@@ -3569,6 +3755,8 @@ Parameter
 See Write Command
 Read Command Response
 SIM800 Series_AT Command Manual_V1.01 93 2013-07-23
+
+===== PAGE 94 =====
 Smart Machine Smart Decision
 AT+CRSL? +CRSL: <level>
 OK
@@ -3608,6 +3796,8 @@ AT+CLVL=<leve OK
 l> If error is related to ME functionality:
 +CME ERROR: <err>
 SIM800 Series_AT Command Manual_V1.01 94 2013-07-23
+
+===== PAGE 95 =====
 Smart Machine Smart Decision
 Parameter
 <level> 0-100 Integer type value with manufacturer specific range
@@ -3647,6 +3837,8 @@ Test Command Response
 AT+CPUC=? OK
 Read Command Response
 SIM800 Series_AT Command Manual_V1.01 95 2013-07-23
+
+===== PAGE 96 =====
 Smart Machine Smart Decision
 AT+CPUC? +CPUC: <currency>,<ppu>
 OK
@@ -3686,6 +3878,8 @@ OK
 If error is related to ME functionality:
 +CME ERROR: <err>
 SIM800 Series_AT Command Manual_V1.01 96 2013-07-23
+
+===== PAGE 97 =====
 Smart Machine Smart Decision
 Parameter
 See Write Command
@@ -3728,6 +3922,8 @@ Parameters
 vent
 <voltage> Battery voltage(mV)
 SIM800 Series_AT Command Manual_V1.01 97 2013-07-23
+
+===== PAGE 98 =====
 Smart Machine Smart Decision
 Reference Note
 3GPP TS 27.007 This command depends on hardware and only be used when battery is
@@ -3767,6 +3963,8 @@ AT+CSSN=? +CSSN: (list of supported <n>s),(list of supported <m>s)
 OK
 Parameters
 SIM800 Series_AT Command Manual_V1.01 98 2013-07-23
+
+===== PAGE 99 =====
 Smart Machine Smart Decision
 See Write Command
 Read Command Response
@@ -3811,6 +4009,8 @@ notification) (during a voice call)
 whenever)
 7 Call is being connected (alerting) with the remote party
 SIM800 Series_AT Command Manual_V1.01 99 2013-07-23
+
+===== PAGE 100 =====
 Smart Machine Smart Decision
 in alerting state in explicit call transfer operation (during a voice call)
 8 Call has been connected with the other remote party in
@@ -3819,6 +4019,8 @@ may be present) (during a voice call or MT call setup)
 9 This is a deflected call (MT call setup)
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 100 2013-07-23
+
+===== PAGE 101 =====
 Smart Machine Smart Decision
 4 AT Commands According to 3GPP TS 27.005
 The 3GPP TS 27.005 commands are for performing SMS and CBS related operations. SIM800
@@ -3854,6 +4056,8 @@ AT+CMGD=<in TA deletes message from preferred message storage <mem1> location
 dex>[,<delflag>] <index>.
 OK
 SIM800 Series_AT Command Manual_V1.01 101 2013-07-23
+
+===== PAGE 102 =====
 Smart Machine Smart Decision
 ERROR
 If error is related to ME functionality:
@@ -3895,6 +4099,8 @@ Write Command Response
 AT+CMGF=[<m TA sets parameter to denote which input and output format of messages to
 ode>] use.
 SIM800 Series_AT Command Manual_V1.01 102 2013-07-23
+
+===== PAGE 103 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -3937,6 +4143,8 @@ for SMS-SUBMITs and/or SMS-DELIVERs:
 +CMGL: <index>,<stat>,<oa/da>[,<alpha>] [,<scts>]
 [,<tooa/toda>,<length>]<CR><LF><data>
 SIM800 Series_AT Command Manual_V1.01 103 2013-07-23
+
+===== PAGE 104 =====
 Smart Machine Smart Decision
 [<CR><LF>+CMGL: <index>,<stat>,<da/oa>
 [,<alpha>][,<scts>][,<tooa/toda>,<length>]<CR><LF><data>[...]]
@@ -3981,6 +4189,8 @@ is not set:
 TE Character Set +CSCS in 3GPP TS 27.007):ME/TA converts
 GSM alphabet into current TE character set according to rules
 SIM800 Series_AT Command Manual_V1.01 104 2013-07-23
+
+===== PAGE 105 =====
 Smart Machine Smart Decision
 of Annex A
 - if TE character set is "HEX": ME/TA converts each 7-bit
@@ -4027,6 +4237,8 @@ otherwise default is 129)
 <tooa> GSM 04.11 TP-Originating-Address Type-of-Address octet in
 integer format (default refer<toda>)
 SIM800 Series_AT Command Manual_V1.01 105 2013-07-23
+
+===== PAGE 106 =====
 Smart Machine Smart Decision
 Execution 1) If text mode:
 Command the same as AT+CMGL="REC UNREAD", received unread messages
@@ -4070,6 +4282,8 @@ for CBM storage:
 2) If PDU mode (+CMGF=0) and Command successful:
 +CMGR: <stat>[,<alpha>],<length><CR><LF><pdu>
 SIM800 Series_AT Command Manual_V1.01 106 2013-07-23
+
+===== PAGE 107 =====
 Smart Machine Smart Decision
 OK
 3) If error is related to ME functionality:
@@ -4115,6 +4329,8 @@ used: ME/TA converts each 8-bit octet into two IRA character
 long hexadecimal number
 <dcs> Depending on the Command or result code: GSM 03.38 SMS
 SIM800 Series_AT Command Manual_V1.01 107 2013-07-23
+
+===== PAGE 108 =====
 Smart Machine Smart Decision
 Data Coding Scheme (default 0), or Cell Broadcast Data Coding Scheme in
 integer format
@@ -4161,6 +4377,8 @@ TP-Validity-Period either in integer format (default 167) or in time-string
 format (refer <dt>)
 Max Response 5s
 SIM800 Series_AT Command Manual_V1.01 108 2013-07-23
+
+===== PAGE 109 =====
 Smart Machine Smart Decision
 Time
 Reference Note
@@ -4203,6 +4421,8 @@ Max Response 60s
 Time
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 109 2013-07-23
+
+===== PAGE 110 =====
 Smart Machine Smart Decision
 3GPP TS 27.005 In text mode, the maximum length of an SMS depends on the used coding
 scheme: It is 640 characters if the 7 bit GSM coding scheme is used.
@@ -4247,6 +4467,8 @@ text mode (+CMGF=1) the length of the message body <data> (or
 <cdata>) in characters;
 or in PDU mode (+CMGF=0), the length of the actual TP
 SIM800 Series_AT Command Manual_V1.01 110 2013-07-23
+
+===== PAGE 111 =====
 Smart Machine Smart Decision
 data unit in octets (i.e. the RP layer SMSC address octets are
 not counted in the length)
@@ -4289,6 +4511,8 @@ ex>[,<da>,<toda <mem2> to the network (SMS-SUBMIT). If new recipient address <da
 value <mr> is returned to the TE on successful message delivery. Values can
 be used to identify message upon unsolicited delivery status report result
 SIM800 Series_AT Command Manual_V1.01 111 2013-07-23
+
+===== PAGE 112 =====
 Smart Machine Smart Decision
 code.
 1) If text mode(+CMGF=1) and sending successful:
@@ -4329,6 +4553,8 @@ OK
 Parameters
 See Write Command
 SIM800 Series_AT Command Manual_V1.01 112 2013-07-23
+
+===== PAGE 113 =====
 Smart Machine Smart Decision
 Write Command Response
 AT+CNMI=<mo TA selects the procedure for how the receiving of new messages from the
@@ -4374,6 +4600,8 @@ coding scheme (refer GSM 03.38 [2]), the setting of Select CBM Types
 (+CSCB) and this value):
 0 No CBM indications are routed to the TE.
 SIM800 Series_AT Command Manual_V1.01 113 2013-07-23
+
+===== PAGE 114 =====
 Smart Machine Smart Decision
 2 New CBMs are routed directly to the TE using
 unsolicited result code: +CBM: <length><CR><LF><pdu> (PDU mode
@@ -4416,6 +4644,8 @@ Mode
 Reference Note
 3GPP TS 27.005
 SIM800 Series_AT Command Manual_V1.01 114 2013-07-23
+
+===== PAGE 115 =====
 Smart Machine Smart Decision
 4.2.9 AT+CPMS Preferred SMS Message Storage
 AT+CPMS Preferred SMS Message Storage
@@ -4458,6 +4688,8 @@ routing to PC is not set ("+CNMI")
 "SM_P" SM message storage preferred
 "ME_P" ME message storage preferred
 SIM800 Series_AT Command Manual_V1.01 115 2013-07-23
+
+===== PAGE 116 =====
 Smart Machine Smart Decision
 "MT" SM or ME message storage ( SM preferred)
 <usedx> Integer type; Number of messages currently in <memx>
@@ -4499,6 +4731,8 @@ AT+CSAS Save SMS Settings
 Test Command Response
 AT+CSAS=? +CSAS: (list of supported <profile>s)
 SIM800 Series_AT Command Manual_V1.01 116 2013-07-23
+
+===== PAGE 117 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -4539,6 +4773,8 @@ AT+CSCA= TA updates the SMSC address, through which mobile originated SMS are
 <sca>[,<tosca>] transmitted. In text mode, setting is used by send and writes commands. In
 PDU mode, setting is used by the same commands, but only when the
 SIM800 Series_AT Command Manual_V1.01 117 2013-07-23
+
+===== PAGE 118 =====
 Smart Machine Smart Decision
 length of the SMSC address coded into <pdu> parameter equals zero.
 Note: The Command writes the parameters in NON-VOLATILE memory.
@@ -4579,6 +4815,8 @@ css>]] Note: The Command writes the parameters in NON-VOLATILE memory.
 OK
 If error is related to ME functionality:
 SIM800 Series_AT Command Manual_V1.01 118 2013-07-23
+
+===== PAGE 119 =====
 Smart Machine Smart Decision
 +CMS ERROR: <err>
 Parameters
@@ -4621,6 +4859,8 @@ See Write Command
 Write Command Response
 AT+CSDH=[<sh TA determines whether detailed header information is shown in text mode
 SIM800 Series_AT Command Manual_V1.01 119 2013-07-23
+
+===== PAGE 120 =====
 Smart Machine Smart Decision
 ow>] result codes.
 OK
@@ -4661,6 +4901,8 @@ format. SMS status report is supported under text mode if <fo> is set to 49.
 <vp> Depending on SMS-SUBMIT <fo> setting: GSM 03.40
 TP-Validity-Period either in integer format (default 167) or in time-string
 SIM800 Series_AT Command Manual_V1.01 120 2013-07-23
+
+===== PAGE 121 =====
 Smart Machine Smart Decision
 format (refer <dt>)
 <pid> GSM 03.40 TP-Protocol-Identifier in integer format (default 0).
@@ -4703,11 +4945,15 @@ mentioned under corresponding command descriptions)
 <bm> Broadcast Type Messages:
 0 Type not supported
 SIM800 Series_AT Command Manual_V1.01 121 2013-07-23
+
+===== PAGE 122 =====
 Smart Machine Smart Decision
 1 Type supported
 Reference Note
 3GPP TS 27.005
 SIM800 Series_AT Command Manual_V1.01 122 2013-07-23
+
+===== PAGE 123 =====
 Smart Machine Smart Decision
 5 AT Commands for SIM Application Toolkit
 5.1 Overview
@@ -4737,6 +4983,8 @@ Write Command Response
 AT+STKTRS OK
 =<result>[,<text>] ERROR
 SIM800 Series_AT Command Manual_V1.01 123 2013-07-23
+
+===== PAGE 124 =====
 Smart Machine Smart Decision
 Parameter
 <result> HEX String --specified in GSM11.14[12.12]
@@ -4779,6 +5027,8 @@ If command is ‘D6’ --specified in GSM11.14[11]
 - '05' = Idle screen available
 - '07' = Language selection
 SIM800 Series_AT Command Manual_V1.01 124 2013-07-23
+
+===== PAGE 125 =====
 Smart Machine Smart Decision
 Reference Note
 For more detail used, can refer AT+STKENV command
@@ -4821,6 +5071,8 @@ command> ERROR
 Parameter
 <command > stk sms command
 SIM800 Series_AT Command Manual_V1.01 125 2013-07-23
+
+===== PAGE 126 =====
 Smart Machine Smart Decision
 0 (Trigger modem to send STK SMS)
 4 (Trigger modem to send STK SMS but icon cannot be
@@ -4863,6 +5115,8 @@ Parameter
 4 (Trigger modem to send STK USSD but icon cannot be
 displayed)
 SIM800 Series_AT Command Manual_V1.01 126 2013-07-23
+
+===== PAGE 127 =====
 Smart Machine Smart Decision
 50 (Command data not understood by ME)
 Reference Note
@@ -4890,6 +5144,8 @@ response value.
 +STKPCI STK Proactive Command Indication
 +STKPCI: < pci_type > [,<proactive_command>,…]
 SIM800 Series_AT Command Manual_V1.01 127 2013-07-23
+
+===== PAGE 128 =====
 Smart Machine Smart Decision
 Parameter
 <pci_type>
@@ -4932,6 +5188,8 @@ Parameter
 <text>: the content of item, code by EFADN
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 128 2013-07-23
+
+===== PAGE 129 =====
 Smart Machine Smart Decision
 When stkpci is off, read command response will null
 5.2.10 AT+STKPCIS STK URC switch command
@@ -4955,6 +5213,8 @@ Parameter Saving AT&W_SAVE
 Mode
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 129 2013-07-23
+
+===== PAGE 130 =====
 Smart Machine Smart Decision
 6 AT Commands Special for SIMCom
 6.1 Overview
@@ -4993,6 +5253,8 @@ AT+SIMTONE GENERATE SPECIFIC TONE
 AT+CCPD ENABLE OR DISABLE ALPHA STRING
 AT+CGID GET SIM CARD GROUP IDENTIFIER
 SIM800 Series_AT Command Manual_V1.01 130 2013-07-23
+
+===== PAGE 131 =====
 Smart Machine Smart Decision
 AT+MORING SHOW STATE OF MOBILE ORIGINATED CALL
 AT+CMGHEX ENABLE OR DISABLE SENDING NON-ASCII CHARACTER
@@ -5030,6 +5292,8 @@ OK
 Parameters
 See Write Command
 SIM800 Series_AT Command Manual_V1.01 131 2013-07-23
+
+===== PAGE 132 =====
 Smart Machine Smart Decision
 Read Command Response
 AT+SIDET? +SIDET: (<channel0>,<gainlevel0>),…, (<channeln>,<gainleveln>)
@@ -5069,6 +5333,8 @@ Parameters
 <pin2> Times remained to input chv2
 <puk1> Times remained to input puk1
 SIM800 Series_AT Command Manual_V1.01 132 2013-07-23
+
+===== PAGE 133 =====
 Smart Machine Smart Decision
 <puk2> Times remained to input puk2
 Reference Note
@@ -5110,6 +5376,8 @@ evel> Parameters
 Parameter Saving AUTO_SAVE
 Mode
 SIM800 Series_AT Command Manual_V1.01 133 2013-07-23
+
+===== PAGE 134 =====
 Smart Machine Smart Decision
 Reference Note
 (cid:122) Please refer to actual model for channel number.
@@ -5152,6 +5420,8 @@ alarm in one of the following formats:
 days in the week. The digits 1 to 7 correspond to the days in the
 week, Monday (1), …, Sunday (7).
 SIM800 Series_AT Command Manual_V1.01 134 2013-07-23
+
+===== PAGE 135 =====
 Smart Machine Smart Decision
 Example: The string "1,2,3,4,5" may be used to set an alarm for
 all weekdays.
@@ -5190,6 +5460,8 @@ Read Command Response
 AT+CADC? +CADC: <status>,<value>
 OK
 SIM800 Series_AT Command Manual_V1.01 135 2013-07-23
+
+===== PAGE 136 =====
 Smart Machine Smart Decision
 Parameters
 See Test Command
@@ -5225,6 +5497,8 @@ AT+CDSCB OK
 Reference Note
 Please also refer to AT+CSCB.
 SIM800 Series_AT Command Manual_V1.01 136 2013-07-23
+
+===== PAGE 137 =====
 Smart Machine Smart Decision
 6.2.10 AT+CMOD Configure Alternating Mode Calls
 AT+CMOD Configure Alternating Mode Calls
@@ -5263,6 +5537,8 @@ Parameter
 <status> 1 On
 0 Off
 SIM800 Series_AT Command Manual_V1.01 137 2013-07-23
+
+===== PAGE 138 =====
 Smart Machine Smart Decision
 Reference Note
 6.2.12 AT+CLTS Get Local Timestamp
@@ -5299,6 +5575,8 @@ zone>", <dst>
 DST: <dst>
 Parameters
 SIM800 Series_AT Command Manual_V1.01 138 2013-07-23
+
+===== PAGE 139 =====
 Smart Machine Smart Decision
 <mcc> String type; mobile country code
 <mnc> String type; mobile network code
@@ -5342,6 +5620,8 @@ Write Command Response
 AT+CLDTMF=< OK
 n>,<DTMF ERROR
 SIM800 Series_AT Command Manual_V1.01 139 2013-07-23
+
+===== PAGE 140 =====
 Smart Machine Smart Decision
 string> Parameters
 <n> A numeric parameter(1-100) which indicates the duration of all
@@ -5382,6 +5662,8 @@ has been terminated
 Parameter
 <type> Connection type
 SIM800 Series_AT Command Manual_V1.01 140 2013-07-23
+
+===== PAGE 141 =====
 Smart Machine Smart Decision
 0 CSV connection
 1 CSD connection
@@ -5420,6 +5702,8 @@ See Write Command
 Write Command Response
 AT+CCVM=<vm OK
 SIM800 Series_AT Command Manual_V1.01 141 2013-07-23
+
+===== PAGE 142 =====
 Smart Machine Smart Decision
 number>[,<alpha ERROR
 string>] If error is related to ME functionality:
@@ -5459,6 +5743,8 @@ EGSM_DCS_MODE
 GSM850_PCS_MODE
 EGSM_PCS_MODE
 SIM800 Series_AT Command Manual_V1.01 142 2013-07-23
+
+===== PAGE 143 =====
 Smart Machine Smart Decision
 ALL_BAND
 Reference Note
@@ -5496,6 +5782,8 @@ This command is related to the actual module.
 6.2.19 AT+CHFA Swap the Audio Channels
 AT+CHFA Swap the Audio Channels
 SIM800 Series_AT Command Manual_V1.01 143 2013-07-23
+
+===== PAGE 144 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+CHFA=? +CHFA: (0 = NORMAL_AUDIO, 1 = AUX_AUDIO)
@@ -5535,6 +5823,8 @@ Parameter
 1 Enable slow clock, it is controlled by DTR. When DTR is
 high, module can enter sleep mode. When DTR changes to low
 SIM800 Series_AT Command Manual_V1.01 144 2013-07-23
+
+===== PAGE 145 =====
 Smart Machine Smart Decision
 level, module can quit sleep mode.
 Reference Note
@@ -5570,6 +5860,8 @@ if <mode>=3
 <bsic>,<rxl>…]
 OK
 SIM800 Series_AT Command Manual_V1.01 145 2013-07-23
+
+===== PAGE 146 =====
 Smart Machine Smart Decision
 Parameters
 See Write Command
@@ -5611,6 +5903,8 @@ See Write Command
 Read Command Response
 AT+SCLASS0? +SCLASS0: <mode>
 SIM800 Series_AT Command Manual_V1.01 146 2013-07-23
+
+===== PAGE 147 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -5647,6 +5941,8 @@ Write Command Response
 AT+CMTE=<mo OK
 de> ERROR
 SIM800 Series_AT Command Manual_V1.01 147 2013-07-23
+
+===== PAGE 148 =====
 Smart Machine Smart Decision
 Parameters
 <mode>
@@ -5690,6 +5986,8 @@ Parameter
 Max Response 5s（delete 1 message）
 Time 25s（delete 50 messages）
 SIM800 Series_AT Command Manual_V1.01 148 2013-07-23
+
+===== PAGE 149 =====
 Smart Machine Smart Decision
 25s（delete 150 messages）
 Reference Note
@@ -5730,6 +6028,8 @@ Parameters
 <duration> Numeric type, in milliseconds.
 Max requested value = 255*60*1000 = 15300000ms
 SIM800 Series_AT Command Manual_V1.01 149 2013-07-23
+
+===== PAGE 150 =====
 Smart Machine Smart Decision
 (supported range = 10-15300000)
 Reference Note
@@ -5768,6 +6068,8 @@ AT+CCPD? +CCPD: <mode>
 OK
 Parameter
 SIM800 Series_AT Command Manual_V1.01 150 2013-07-23
+
+===== PAGE 151 =====
 Smart Machine Smart Decision
 See Write Command
 Write Command Response
@@ -5806,6 +6108,8 @@ Read Command Response
 AT+MORING? +MORING: <mode>
 OK
 SIM800 Series_AT Command Manual_V1.01 151 2013-07-23
+
+===== PAGE 152 =====
 Smart Machine Smart Decision
 Parameter
 See Write Command
@@ -5845,6 +6149,8 @@ AT+CMGHEX= OK
 <mode> If error is related to ME functionality:
 +CME ERROR: <err>
 SIM800 Series_AT Command Manual_V1.01 152 2013-07-23
+
+===== PAGE 153 =====
 Smart Machine Smart Decision
 Parameter
 <mode> 0 Send SMS in ordinary way
@@ -5882,6 +6188,8 @@ See Write Command
 Read Command Response
 AT+CIURC? +CIURC:<mode>
 SIM800 Series_AT Command Manual_V1.01 153 2013-07-23
+
+===== PAGE 154 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -5924,6 +6232,8 @@ OK
 Parameters
 See Write Command
 SIM800 Series_AT Command Manual_V1.01 154 2013-07-23
+
+===== PAGE 155 =====
 Smart Machine Smart Decision
 Write Command Response
 AT+EXUNSOL= OK
@@ -5963,6 +6273,8 @@ Parameter
 <class> GPRS multi-slot class
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 155 2013-07-23
+
+===== PAGE 156 =====
 Smart Machine Smart Decision
 6.2.37 AT+CDEVICE View Current Flash Device Type
 AT+CDEVICE View Current Flash Device Type
@@ -5999,6 +6311,8 @@ SIMCOM_Ltd
 SIMCOM_SIM800H
 Revision: 1308B01SIM800H32
 SIM800 Series_AT Command Manual_V1.01 156 2013-07-23
+
+===== PAGE 157 =====
 Smart Machine Smart Decision
 OK
 Reference Note
@@ -6039,6 +6353,8 @@ See Write Command
 Write Command Response
 AT+SPWM=<in OK
 SIM800 Series_AT Command Manual_V1.01 157 2013-07-23
+
+===== PAGE 158 =====
 Smart Machine Smart Decision
 dex>,<period>,<l If error is related to ME functionality:
 evel> +CME ERROR: <err>
@@ -6080,6 +6396,8 @@ nr>,<ns>[,<state +CME ERROR: <err>
 0 main audio handset channel
 1 main audio handfree channel
 SIM800 Series_AT Command Manual_V1.01 158 2013-07-23
+
+===== PAGE 159 =====
 Smart Machine Smart Decision
 <nlp> nonlinear processing remove residual echo and background
 noise
@@ -6120,6 +6438,8 @@ Parameter
 HOOK function is disabled;
 1 Enable automatic audio channel switch function, the headset
 SIM800 Series_AT Command Manual_V1.01 159 2013-07-23
+
+===== PAGE 160 =====
 Smart Machine Smart Decision
 HOOK function is enabled;
 2 Disable automatic audio channel switch function, the headset
@@ -6161,6 +6481,8 @@ coding type.
 8:AMR-HR/HR/AMR-FR/EFR
 9:AMR-HR/AMR-FR/EFR
 SIM800 Series_AT Command Manual_V1.01 160 2013-07-23
+
+===== PAGE 161 =====
 Smart Machine Smart Decision
 10:AMR-HR/AMR-FR/FR
 11:AMR-HR/HR/AMR-FR
@@ -6201,6 +6523,8 @@ The parameter is not saved if the module power down.
 6.2.46 AT+CEMNL Set the List of Emergency Number
 AT+CEMNL Set the List of Emergency Number
 SIM800 Series_AT Command Manual_V1.01 161 2013-07-23
+
+===== PAGE 162 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+CEMNL=? +CEMNL: (0-1),(1-11), ("0"-"999")…
@@ -6239,6 +6563,8 @@ AT*CELLLOC *CELLLOCK: <mode>[,<amount>,<locked arfcn list>[,<locked arfcn
 K? list>…]]
 OK
 SIM800 Series_AT Command Manual_V1.01 162 2013-07-23
+
+===== PAGE 163 =====
 Smart Machine Smart Decision
 Parameter
 See Write Command
@@ -6271,6 +6597,8 @@ Write Command Response
 AT+SLEDS=<m OK
 ode>,<timer_on> ERROR
 SIM800 Series_AT Command Manual_V1.01 163 2013-07-23
+
+===== PAGE 164 =====
 Smart Machine Smart Decision
 ,<timer_off> Parameters
 <mode>
@@ -6314,6 +6642,8 @@ Mode
 Reference Note
 This buzzer function is depending on the hardware.
 SIM800 Series_AT Command Manual_V1.01 164 2013-07-23
+
+===== PAGE 165 =====
 Smart Machine Smart Decision
 6.2.50 AT+CEXTERNTONE Close or Open the Microphone
 AT+CEXTERNTONE Close or Open the Microphone
@@ -6350,6 +6680,8 @@ Parameter Saving AT&W_SAVE
 Mode
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 165 2013-07-23
+
+===== PAGE 166 =====
 Smart Machine Smart Decision
 6.2.52 AT+CWHITELIST Set the White List
 AT+CWHITELIST Set the White List
@@ -6389,6 +6721,8 @@ See Write Command
 Read Command Response
 AT+CSDT? +CSDT: <mode>
 SIM800 Series_AT Command Manual_V1.01 166 2013-07-23
+
+===== PAGE 167 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -6430,6 +6764,8 @@ indicating whether the SIM has been inserted or removed.
 0 Disable
 1 Enable
 SIM800 Series_AT Command Manual_V1.01 167 2013-07-23
+
+===== PAGE 168 =====
 Smart Machine Smart Decision
 <SIM inserted> A numeric parameter which indicates whether SIM
 card has been inserted.
@@ -6469,6 +6805,8 @@ AT+ CMICBIAS +CMICBIAS: (0,1)
 =?
 OK
 SIM800 Series_AT Command Manual_V1.01 168 2013-07-23
+
+===== PAGE 169 =====
 Smart Machine Smart Decision
 Parameter
 See Write Command
@@ -6487,6 +6825,8 @@ Parameter
 1 close the micbias
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 169 2013-07-23
+
+===== PAGE 170 =====
 Smart Machine Smart Decision
 7 AT Commands for GPRS Support
 7.1 Overview of AT Commands for GPRS Support
@@ -6521,6 +6861,8 @@ ate> If error is related to ME functionality:
 +CME ERROR: <err>
 Parameter
 SIM800 Series_AT Command Manual_V1.01 170 2013-07-23
+
+===== PAGE 171 =====
 Smart Machine Smart Decision
 <state> Indicates the state of GPRS attachment
 0 Detached
@@ -6561,6 +6903,8 @@ context-related commands. The range of permitted values
 (minimum value=1) is returned by the test form of the
 command.
 SIM800 Series_AT Command Manual_V1.01 171 2013-07-23
+
+===== PAGE 172 =====
 Smart Machine Smart Decision
 <PDP_type> (Packet Data Protocol type)
 IP Internet Protocol (IETF STD 5)
@@ -6596,6 +6940,8 @@ OK
 Parameters
 See Write Command
 SIM800 Series_AT Command Manual_V1.01 172 2013-07-23
+
+===== PAGE 173 =====
 Smart Machine Smart Decision
 Read Command Response
 AT+CGQMIN? +CGQMIN: <cid>,<precedence>,<delay>,>reliability>,<peak>,<mean>
@@ -6637,6 +6983,8 @@ AT+CGQREQ Quality of Service Profile (Requested)
 Test Command Response
 AT+CGQREQ=? +CGQREQ: <PDP_type>,(list of supported <precedence>s),(list of
 SIM800 Series_AT Command Manual_V1.01 173 2013-07-23
+
+===== PAGE 174 =====
 Smart Machine Smart Decision
 supported <delay>s),(list of supported <reliability>s),<list of supported
 <peak>s),(list of supported <mean>s)
@@ -6680,6 +7028,8 @@ class
 <mean> A numeric parameter which specifies the mean throughput
 class
 SIM800 Series_AT Command Manual_V1.01 174 2013-07-23
+
+===== PAGE 175 =====
 Smart Machine Smart Decision
 0 QOS mean throughput class subscribed value
 1..18 QOS mean throughput class
@@ -6719,6 +7069,8 @@ This command is used to test PDPs with network simulators. Successful
 activation of PDP on real network is not guaranteed.
 Refer to AT+CGDATA clarification for more information.
 SIM800 Series_AT Command Manual_V1.01 175 2013-07-23
+
+===== PAGE 176 =====
 Smart Machine Smart Decision
 7.2.6 AT+CGDATA Enter Data State
 AT+CGDATA Enter Data State
@@ -6760,6 +7112,8 @@ definition (see +CGDCONT Command)
 <PDP_addr> String type, IP address
 Format: "<n>.<n>.<n>.<n>" where <n>=0..255
 SIM800 Series_AT Command Manual_V1.01 176 2013-07-23
+
+===== PAGE 177 =====
 Smart Machine Smart Decision
 Reference Note
 Write command returns address provided by the network if a connection has
@@ -6798,6 +7152,8 @@ It only supports Class B, CG and CC.
 7.2.9 AT+CGEREP Control Unsolicited GPRS Event Reporting
 AT+CGEREP Control Unsolicited GPRS Event Reporting
 SIM800 Series_AT Command Manual_V1.01 177 2013-07-23
+
+===== PAGE 178 =====
 Smart Machine Smart Decision
 Test Command Response
 +CGEREP: (list of supported <mode>s)
@@ -6836,6 +7192,8 @@ If error is related to ME functionality:
 +CME ERROR: <err>
 Parameters
 SIM800 Series_AT Command Manual_V1.01 178 2013-07-23
+
+===== PAGE 179 =====
 Smart Machine Smart Decision
 See Write Command
 Write Command Response
@@ -6879,6 +7237,8 @@ See Write Command
 Read Command Response
 AT+CGSMS? +CGSMS: <service>
 SIM800 Series_AT Command Manual_V1.01 179 2013-07-23
+
+===== PAGE 180 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -6900,6 +7260,8 @@ Parameter Saving AUTO_SAVE
 Mode
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 180 2013-07-23
+
+===== PAGE 181 =====
 Smart Machine Smart Decision
 8 AT Commands for TCPIP Application Toolkit
 8.1 Overview
@@ -6935,6 +7297,8 @@ AT+CIPUDPMODE UDP EXTENDED MODE
 AT+CIPRXGET GET DATA FROM NETWORK MANUALLY
 AT+CIPSCONT SAVE TCPIP APPLICATION CONTEXT
 SIM800 Series_AT Command Manual_V1.01 181 2013-07-23
+
+===== PAGE 182 =====
 Smart Machine Smart Decision
 AT+CIPRDTIMER SET REMODE DELAY TIMER
 AT+CIPSGTXT SELECT GPRS PDP CONTEXT
@@ -6973,6 +7337,8 @@ address>),(<port>)
 +CIPSTART: (list of supported <n>),(list of supported <mode>),(<domain
 name>),(<port>)
 SIM800 Series_AT Command Manual_V1.01 182 2013-07-23
+
+===== PAGE 183 =====
 Smart Machine Smart Decision
 OK
 Parameters
@@ -7019,6 +7385,8 @@ name
 <state> A string parameter which indicates the progress of
 connecting
 SIM800 Series_AT Command Manual_V1.01 183 2013-07-23
+
+===== PAGE 184 =====
 Smart Machine Smart Decision
 0 IP INITIAL
 1 IP START
@@ -7061,6 +7429,8 @@ See Write Command
 Read Command Response
 AT+CIPSEND? 1) For single IP connection (+CIPMUX=0)
 SIM800 Series_AT Command Manual_V1.01 184 2013-07-23
+
+===== PAGE 185 =====
 Smart Machine Smart Decision
 +CIPSEND:<size>
 OK
@@ -7102,6 +7472,8 @@ data, it must be less than <size>
 Execution Response
 Command This Command is used to send changeable length data.
 SIM800 Series_AT Command Manual_V1.01 185 2013-07-23
+
+===== PAGE 186 =====
 Smart Machine Smart Decision
 AT+CIPSEND If single IP connection is established (+CIPMUX=0)
 response">", then If connection is not established or module is disconnected:
@@ -7145,6 +7517,8 @@ AT+CIPQSEND OK
 <n> 0 Normal mode – when the server receives TCP data, it will
 responsd SEND OK.
 SIM800 Series_AT Command Manual_V1.01 186 2013-07-23
+
+===== PAGE 187 =====
 Smart Machine Smart Decision
 1 Quick send mode – when the data is sent to module, it will
 responsd DATA ACCEPT:<n>,<length>, while not responding SEND OK.
@@ -7185,6 +7559,8 @@ AT+CIPCLOSE Parameters
 connection <id> A numeric parameter which indicates the connection number
 (+CIPMUX=1)
 SIM800 Series_AT Command Manual_V1.01 187 2013-07-23
+
+===== PAGE 188 =====
 Smart Machine Smart Decision
 AT+CIPCLOSE
 =<id>, [<n>]
@@ -7225,6 +7601,8 @@ OK
 +CLPORT: (0-5),("TCP","UDP"),(0-65535)
 OK
 SIM800 Series_AT Command Manual_V1.01 188 2013-07-23
+
+===== PAGE 189 =====
 Smart Machine Smart Decision
 Parameters
 See Write Command
@@ -7266,6 +7644,8 @@ See Write Command
 Read Command Response
 AT+CSTT? +CSTT: <apn>,<user name>,<password>
 SIM800 Series_AT Command Manual_V1.01 189 2013-07-23
+
+===== PAGE 190 =====
 Smart Machine Smart Decision
 OK
 Parameters
@@ -7307,6 +7687,8 @@ Execution Response
 Command <IP address>
 AT+CIFSR ERROR
 SIM800 Series_AT Command Manual_V1.01 190 2013-07-23
+
+===== PAGE 191 =====
 Smart Machine Smart Decision
 Parameter
 <IP address> a string parameter which indicates the IP address assigned
@@ -7349,6 +7731,8 @@ CONNECTING
 CONNECTED
 REMOTE CLOSING
 SIM800 Series_AT Command Manual_V1.01 191 2013-07-23
+
+===== PAGE 192 =====
 Smart Machine Smart Decision
 CLOSING
 CLOSED
@@ -7391,6 +7775,8 @@ See Write Command
 Write Command Response
 AT+CDNSCFG= OK
 SIM800 Series_AT Command Manual_V1.01 192 2013-07-23
+
+===== PAGE 193 =====
 Smart Machine Smart Decision
 <pri_dns> ERROR
 [,<sec_dns>] Parameters
@@ -7431,6 +7817,8 @@ Parameter
 See Write Command
 Read Command Response
 SIM800 Series_AT Command Manual_V1.01 193 2013-07-23
+
+===== PAGE 194 =====
 Smart Machine Smart Decision
 AT+CIPHEAD? +CIPHEAD: <mode>
 OK
@@ -7470,6 +7858,8 @@ module is sending data
 0 Not set timer when module is sending data
 1 Set timer when module is sending data
 SIM800 Series_AT Command Manual_V1.01 194 2013-07-23
+
+===== PAGE 195 =====
 Smart Machine Smart Decision
 <time> 1..100 A numeric parameter which indicates the seconds
 after which the data will be sent
@@ -7508,6 +7898,8 @@ OK
 Parameters
 See Write Command
 SIM800 Series_AT Command Manual_V1.01 195 2013-07-23
+
+===== PAGE 196 =====
 Smart Machine Smart Decision
 Read Command Response
 AT+CIPSERVE +CIPSERVER: <mode>[,<port>,<channel id>,<bearer>]
@@ -7549,6 +7941,8 @@ mode>[, ERROR
 name>, <mode> Anumeric parameter which indicates the wireless connection
 <password>),(<d mode
 SIM800 Series_AT Command Manual_V1.01 196 2013-07-23
+
+===== PAGE 197 =====
 Smart Machine Smart Decision
 ial 0 set CSD as wireless connection mode
 number>,<user 1 set GPRS as wireless connection mode
@@ -7589,6 +7983,8 @@ port.
 1 Show the prompt, the format is as follows:
 1) For single IP connection (+CIPMUX=0)
 SIM800 Series_AT Command Manual_V1.01 197 2013-07-23
+
+===== PAGE 198 =====
 Smart Machine Smart Decision
 +RECV FROM:<IP ADDRESS>:<PORT>
 1) For multi IP connection (+CIPMUX=1)
@@ -7628,6 +8024,8 @@ Test Command Response
 AT+CIPMODE= +CIPMODE: (0-NORMAL MODE,1-TRANSPARENT MODE)
 ?
 SIM800 Series_AT Command Manual_V1.01 198 2013-07-23
+
+===== PAGE 199 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -7667,6 +8065,8 @@ itTm>,<SendSz>, Parameters
 <esc>[,<Rxmode <NmRetry> Number of retries to be made for an IP packet.
 >,<RxSize>,<Rxt <WaitTm> Number of 200ms intervals to wait for serial input before
 SIM800 Series_AT Command Manual_V1.01 199 2013-07-23
+
+===== PAGE 200 =====
 Smart Machine Smart Decision
 imer>] sending the packet.
 <SendSz> Size in bytes of data block to be received from serial port
@@ -7711,6 +8111,8 @@ Reference Note
 This command will be effective only in single connection mode
 (+CIPMUX=0)
 SIM800 Series_AT Command Manual_V1.01 200 2013-07-23
+
+===== PAGE 201 =====
 Smart Machine Smart Decision
 Only when +CIPHEAD is set to 1, the setting of this command will work..
 8.2.25 AT+CIPUDPMODE UDP Extended Mode
@@ -7751,6 +8153,8 @@ connection <IP address> A string parameter which indicates remote IP address
 (+CIPMUX=1) <port> Remote port
 AT+CIPUDPMOD
 SIM800 Series_AT Command Manual_V1.01 201 2013-07-23
+
+===== PAGE 202 =====
 Smart Machine Smart Decision
 E=<n>,<mode>[,<I
 P
@@ -7792,6 +8196,8 @@ AT+CIPRXGET 5151…
 reqlength >] if <mode>=4
 +CIPRXGET: 4, <cnflength>
 SIM800 Series_AT Command Manual_V1.01 202 2013-07-23
+
+===== PAGE 203 =====
 Smart Machine Smart Decision
 OK
 2)For multi IP connection
@@ -7831,6 +8237,8 @@ Reference Note
 To enable this function, parameter <mode> must be set to 1 before
 connection.
 SIM800 Series_AT Command Manual_V1.01 203 2013-07-23
+
+===== PAGE 204 =====
 Smart Machine Smart Decision
 8.2.27 AT+CIPSCONT Save TCPIP Application Context
 AT+CIPSCONT Save TCPIP Application Context
@@ -7869,6 +8277,8 @@ Reference Note
 8.2.28 AT+CIPRDTIMER Set Remote Delay Timer
 AT+CIPRDTIMER Set Remote Delay Timer
 SIM800 Series_AT Command Manual_V1.01 204 2013-07-23
+
+===== PAGE 205 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+CIPRDTIM +CIPRDTIMER: (100-4000),(100-7000)
@@ -7911,6 +8321,8 @@ Reference Note
 This command is used to select pdp context, only for multi IP connection
 (+CIPMUX=1).
 SIM800 Series_AT Command Manual_V1.01 205 2013-07-23
+
+===== PAGE 206 =====
 Smart Machine Smart Decision
 9 AT Commands for IP Application
 9.1 Overview
@@ -7947,6 +8359,8 @@ Parameters
 <Status>
 0 Bearer is connecting
 SIM800 Series_AT Command Manual_V1.01 206 2013-07-23
+
+===== PAGE 207 =====
 Smart Machine Smart Decision
 1 Bearer is connected
 2 Bearer is closing
@@ -7974,6 +8388,8 @@ characters
 Reference Note
 This command is applied to activate some applications such as HTTP, FTP.
 SIM800 Series_AT Command Manual_V1.01 207 2013-07-23
+
+===== PAGE 208 =====
 Smart Machine Smart Decision
 10 AT Commands for PING Support
 10.1 Overview
@@ -8007,6 +8423,8 @@ ERROR
 or
 +CME ERROR: <err>
 SIM800 Series_AT Command Manual_V1.01 208 2013-07-23
+
+===== PAGE 209 =====
 Smart Machine Smart Decision
 Parameters
 <IPaddr> Address of the remote host,string type.This
@@ -8047,6 +8465,8 @@ OK
 Parameters
 See Write Command
 SIM800 Series_AT Command Manual_V1.01 209 2013-07-23
+
+===== PAGE 210 =====
 Smart Machine Smart Decision
 Write Command Response
 AT+CIPCTL=<mod OK
@@ -8087,6 +8507,8 @@ Parameter
 <action> 0 Remove the rule specified by <item>.
 <item> must be given.
 SIM800 Series_AT Command Manual_V1.01 210 2013-07-23
+
+===== PAGE 211 =====
 Smart Machine Smart Decision
 1 Add the rule specified by <item>.
 If <item> is not given, it can find an empty item
@@ -8108,6 +8530,8 @@ scan is finished. If the criteria is not matched, the IP packet will be
 ignored.
 (cid:122) The rule is stored in non volatile memory.
 SIM800 Series_AT Command Manual_V1.01 211 2013-07-23
+
+===== PAGE 212 =====
 Smart Machine Smart Decision
 11 AT Commands for HTTP Application
 SIM800 series has an embedded TCP/IP stack that is driven by AT commands and enables the
@@ -8142,6 +8566,8 @@ Test Command Response
 AT+HTTPTER OK
 M=?
 SIM800 Series_AT Command Manual_V1.01 212 2013-07-23
+
+===== PAGE 213 =====
 Smart Machine Smart Decision
 Execution Response
 command OK
@@ -8180,6 +8606,8 @@ application to identify the mobile. Usually this
 parameter is set as operation system and software
 version information.
 SIM800 Series_AT Command Manual_V1.01 213 2013-07-23
+
+===== PAGE 214 =====
 Smart Machine Smart Decision
 Default value is "SIMCom_MODULE".
 "PROIP" The IP address of HTTP proxy server
@@ -8222,6 +8650,8 @@ AT+HTTPDATA +HTTPDATA: (list of supported <size>s),(list of supported <time>s)
 =?
 OK
 SIM800 Series_AT Command Manual_V1.01 214 2013-07-23
+
+===== PAGE 215 =====
 Smart Machine Smart Decision
 Parameters
 See Write Command
@@ -8264,6 +8694,8 @@ identifier refer to HTTP1.1(RFC2616)
 100 Continue
 101 Switching Protocols
 SIM800 Series_AT Command Manual_V1.01 215 2013-07-23
+
+===== PAGE 216 =====
 Smart Machine Smart Decision
 200 OK
 201 Created
@@ -8310,6 +8742,8 @@ Smart Machine Smart Decision
 604 Stack Busy
 <DataLen> the length of data got
 SIM800 Series_AT Command Manual_V1.01 216 2013-07-23
+
+===== PAGE 217 =====
 Smart Machine Smart Decision
 Max Response About 5 seconds in test, dependence on network status and the size of
 Time request website
@@ -8346,6 +8780,8 @@ D
 OK
 Read all data when AT+HTTPACTION=0 or AT+HTTPDATA is executed.
 SIM800 Series_AT Command Manual_V1.01 217 2013-07-23
+
+===== PAGE 218 =====
 Smart Machine Smart Decision
 If error is related to ME functionality:
 +CME ERROR: <err>
@@ -8381,6 +8817,8 @@ Parameter Saving AUTO_SAVE
 Mode
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 218 2013-07-23
+
+===== PAGE 219 =====
 Smart Machine Smart Decision
 11.2.8 AT+HTTPSTATUS Read HTTP Status
 AT+HTTPSTATUS Read HTTP Status
@@ -8407,6 +8845,8 @@ The amount of data which have been transmitted
 <remain>
 The amount of data remaining to be sent or received
 SIM800 Series_AT Command Manual_V1.01 219 2013-07-23
+
+===== PAGE 220 =====
 Smart Machine Smart Decision
 12 AT Commands for FTP Application
 SIM800 series has an embedded TCP/IP stack that is driven by AT commands and enables the
@@ -8441,6 +8881,8 @@ AT+FTPLIST LIST CONTENTS OF DIRECTORY ON THE REMOTE MACHINE
 12.2.1 AT+FTPPORT Set FTP Control Port
 AT+FTPPORT Set FTP Control Port
 SIM800 Series_AT Command Manual_V1.01 220 2013-07-23
+
+===== PAGE 221 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+FTPPORT= OK
@@ -8478,6 +8920,8 @@ Parameter
 1 Passive FTP mode
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 221 2013-07-23
+
+===== PAGE 222 =====
 Smart Machine Smart Decision
 12.2.3 AT+FTPTYPE Set the Type of Data to Be Transferred
 AT+FTPTYPE Set the Type of Data to Be Transferred
@@ -8517,6 +8961,8 @@ AT+FTPPUTOP OK
 T =<value> If error is related to ME functionality:
 +CME ERROR: <err>
 SIM800 Series_AT Command Manual_V1.01 222 2013-07-23
+
+===== PAGE 223 =====
 Smart Machine Smart Decision
 Parameter
 <value> "APPE" For appending file
@@ -8552,6 +8998,8 @@ OK
 Parameter
 See Write Command
 SIM800 Series_AT Command Manual_V1.01 223 2013-07-23
+
+===== PAGE 224 =====
 Smart Machine Smart Decision
 Write Command Response
 AT+FTPREST= OK
@@ -8588,6 +9036,8 @@ See Write Command
 Read Command Response
 AT+FTPUN? +FTPUN: <value>
 SIM800 Series_AT Command Manual_V1.01 224 2013-07-23
+
+===== PAGE 225 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -8621,6 +9071,8 @@ Reference Note
 12.2.10 AT+FTPGETNAME Set Download File Name
 AT+FTPGETNAME Set Download File Name
 SIM800 Series_AT Command Manual_V1.01 225 2013-07-23
+
+===== PAGE 226 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+FTPGETNA OK
@@ -8657,6 +9109,8 @@ Parameter
 <value> Alphanumeric ASCII text string up to 255 characters
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 226 2013-07-23
+
+===== PAGE 227 =====
 Smart Machine Smart Decision
 12.2.12 AT+FTPPUTNAME Set Upload File Name
 AT+FTPPUTNAME Set Upload File Name
@@ -8694,6 +9148,8 @@ TH=<value> If error is related to ME functionality:
 Parameter
 <value> Alphanumeric ASCII text string up to 255 characters
 SIM800 Series_AT Command Manual_V1.01 227 2013-07-23
+
+===== PAGE 228 =====
 Smart Machine Smart Decision
 Reference Note
 12.2.14 AT+FTPGET Download File
@@ -8733,6 +9189,8 @@ than <length>. 0 indicates that no data can be read.
 73 Type error
 74 Rest error
 SIM800 Series_AT Command Manual_V1.01 228 2013-07-23
+
+===== PAGE 229 =====
 Smart Machine Smart Decision
 75 Passive error
 76 Active error
@@ -8772,6 +9230,8 @@ Parameters
 2 For writing FTP upload data.
 <reqlength> Requested number of data bytes(0-<maxlength>) to be
 SIM800 Series_AT Command Manual_V1.01 229 2013-07-23
+
+===== PAGE 230 =====
 Smart Machine Smart Decision
 transmitted
 <cnflength> Confirmed number of data bytes to be transmitted
@@ -8814,6 +9274,8 @@ AT+FTPSCONT Command parameters, and when system is rebooted, the parameters will
 be loaded automatically.
 OK
 SIM800 Series_AT Command Manual_V1.01 230 2013-07-23
+
+===== PAGE 231 =====
 Smart Machine Smart Decision
 Parameter Saving AUTO_SAVE
 Mode
@@ -8848,6 +9310,8 @@ Execution Response
 Command If successed:
 AT+FTPSIZE OK
 SIM800 Series_AT Command Manual_V1.01 231 2013-07-23
+
+===== PAGE 232 =====
 Smart Machine Smart Decision
 +FTPSIZE:1,0,<size>
 If failed:
@@ -8883,6 +9347,8 @@ Reference Note
 12.2.20 AT+FTPEXTPUT Extend Upload File
 AT+FTPEXTPUT Extend Upload File
 SIM800 Series_AT Command Manual_V1.01 232 2013-07-23
+
+===== PAGE 233 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+FTPEXTPUT OK
@@ -8923,6 +9389,8 @@ OK
 If error is related to ME functionality:
 +CME ERROR: <err>
 SIM800 Series_AT Command Manual_V1.01 233 2013-07-23
+
+===== PAGE 234 =====
 Smart Machine Smart Decision
 Parameter
 <error> See “AT+FTPGET”
@@ -8960,6 +9428,8 @@ ode>[,<reqlength> OK
 If data transfer is finished:
 +FTPLIST: 1,0
 SIM800 Series_AT Command Manual_V1.01 234 2013-07-23
+
+===== PAGE 235 =====
 Smart Machine Smart Decision
 If mode is 1 and it is a failed FTP get session:
 OK
@@ -8985,6 +9455,8 @@ When “+FTPLIST: 1,1” is shown, “AT+FTPLIST: 2,<reqlength>” can be
 used to read data. If the module still has unread data, “+FTPLIST: 1,1”
 will be shown again in a certain time.
 SIM800 Series_AT Command Manual_V1.01 235 2013-07-23
+
+===== PAGE 236 =====
 Smart Machine Smart Decision
 13 AT Commands for GSM Location Application
 SIM800 series support GSM location operation.
@@ -9018,6 +9490,8 @@ Parameter
 If the operation failed, the location code is not 0, such as:
 404 Not Found
 SIM800 Series_AT Command Manual_V1.01 236 2013-07-23
+
+===== PAGE 237 =====
 Smart Machine Smart Decision
 408 Request Time-out
 601 Network Error
@@ -9032,6 +9506,8 @@ Smart Machine Smart Decision
 <time> Format is hh/mm/ss,the time zone is GMT.E.g. 06:10:46
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 237 2013-07-23
+
+===== PAGE 238 =====
 Smart Machine Smart Decision
 14 AT Commands for Email Application
 1. SIM800 series supports to send an Email with an attachment via SMTP protocol. It
@@ -9068,6 +9544,8 @@ AT+POP3DEL Mark the Specific Email to Delete
 AT+POP3RSET Unmark the Emails that Be Marked as Deleted
 AT+POP3OUT Log Out POP3 Server
 SIM800 Series_AT Command Manual_V1.01 238 2013-07-23
+
+===== PAGE 239 =====
 Smart Machine Smart Decision
 14.2 Detailed Descriptions of Commands
 14.2.1 AT+EMAILCID Set Email Bearer Profile Identifier
@@ -9101,6 +9579,8 @@ Read Command Response
 AT+EMAILTO? +EMAILTO: <timeout>
 OK
 SIM800 Series_AT Command Manual_V1.01 239 2013-07-23
+
+===== PAGE 240 =====
 Smart Machine Smart Decision
 Parameter
 See Write Command
@@ -9137,6 +9617,8 @@ can be either:
 <smtpPort> The SMTP port
 1-65535 Default: 25
 SIM800 Series_AT Command Manual_V1.01 240 2013-07-23
+
+===== PAGE 241 =====
 Smart Machine Smart Decision
 <smtpServerLength> The max length of <smtpServer>
 Reference Note
@@ -9170,6 +9652,8 @@ Reference Note
 14.2.5 AT+SMTPFROM Set Sender Address and Name
 AT+SMTPFROM Set Sender Address and Name
 SIM800 Series_AT Command Manual_V1.01 241 2013-07-23
+
+===== PAGE 242 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+SMTPFROM= +SMTPFROM: <senderAddressLength>,<senderNameLength>
@@ -9206,6 +9690,8 @@ AT+SMTPRCPT? [+SMTPRCPT: <rcptType>,<index>,<rcptAddress>,<rcptName>
 <rcptName>[…]]]
 OK
 SIM800 Series_AT Command Manual_V1.01 242 2013-07-23
+
+===== PAGE 243 =====
 Smart Machine Smart Decision
 Parameter
 See Write Command
@@ -9246,6 +9732,8 @@ AT+SMTPSUB=<su OK
 bject> If error is related to ME functionality:
 ERROR
 SIM800 Series_AT Command Manual_V1.01 243 2013-07-23
+
+===== PAGE 244 =====
 Smart Machine Smart Decision
 Parameter
 <subject> The Email subject, string type. It will be present in the
@@ -9281,6 +9769,8 @@ AT+SMTPFILE=? +SMTPFILE: (range of <fileType>s),<fileNameLength>,(range of
 <encodeType>s)
 OK
 SIM800 Series_AT Command Manual_V1.01 244 2013-07-23
+
+===== PAGE 245 =====
 Smart Machine Smart Decision
 Parameter
 See Write Command
@@ -9315,6 +9805,8 @@ Test Command Response
 AT+SMTPSEND=? OK
 Parameter
 SIM800 Series_AT Command Manual_V1.01 245 2013-07-23
+
+===== PAGE 246 =====
 Smart Machine Smart Decision
 Execution Command Response
 AT+SMTPSEND OK
@@ -9353,6 +9845,8 @@ If <reqLength> is not 0 and send data unsuccessfully:
 ...... //Input data
 ERROR
 SIM800 Series_AT Command Manual_V1.01 246 2013-07-23
+
+===== PAGE 247 =====
 Smart Machine Smart Decision
 If <reqLength> is 0,it indicates that transferring the attachment have
 finished:
@@ -9389,6 +9883,8 @@ AT+SMTPCS=<cha OK
 rset> If error is related to ME functionality:
 ERROR
 SIM800 Series_AT Command Manual_V1.01 247 2013-07-23
+
+===== PAGE 248 =====
 Smart Machine Smart Decision
 Parameter
 <charset> The Email charset, string type. It shows which charset
@@ -9429,6 +9925,8 @@ be either:
 <pop3ServerLength> The max length of <pop3Server>.
 <userNameLength> The max length of <userName>.
 SIM800 Series_AT Command Manual_V1.01 248 2013-07-23
+
+===== PAGE 249 =====
 Smart Machine Smart Decision
 <passwordLength> The max length of <password>.
 Reference Note
@@ -9461,6 +9959,8 @@ Test Command Response
 AT+POP3NUM=? OK
 Parameter
 SIM800 Series_AT Command Manual_V1.01 249 2013-07-23
+
+===== PAGE 250 =====
 Smart Machine Smart Decision
 Execution Command Response
 AT+POP3NUM OK
@@ -9502,6 +10002,8 @@ If some error occur:
 +POP3OUT: <code>
 Parameter
 SIM800 Series_AT Command Manual_V1.01 250 2013-07-23
+
+===== PAGE 251 =====
 Smart Machine Smart Decision
 <msgNumber> The message number of Email.
 <size> The size of Email <msgNumber> and the unit is in byte.
@@ -9541,6 +10043,8 @@ within a maildrop and which persists across sessions.
 62 DNS resolve error
 63 POP3 tcp connection error
 SIM800 Series_AT Command Manual_V1.01 251 2013-07-23
+
+===== PAGE 252 =====
 Smart Machine Smart Decision
 64 Timeout of POP3 server response
 Reference Note
@@ -9583,6 +10087,8 @@ message number and its unique-id. A final “dotline”
 will be printed at the end of the “unique-id listing” If
 there are no messages on the maildrop list of the server. The
 SIM800 Series_AT Command Manual_V1.01 252 2013-07-23
+
+===== PAGE 253 =====
 Smart Machine Smart Decision
 POP3 service returns a positive response,
 i.e. It does not issue an error response, but the “unique-
@@ -9624,6 +10130,8 @@ response, you can get the response by AT+POP3READ.
 14.2.19 AT+POP3READ Read Multi-line Response
 AT+POP3READ Read Multi-line Response
 SIM800 Series_AT Command Manual_V1.01 253 2013-07-23
+
+===== PAGE 254 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+POP3READ=? +POP3READ: (range of supported <reqLength>s)
@@ -9665,6 +10173,8 @@ continue to read data by AT+POP3READ.
 me time, these data are not still read, the module will quit th
 e POP3 process.
 SIM800 Series_AT Command Manual_V1.01 254 2013-07-23
+
+===== PAGE 255 =====
 Smart Machine Smart Decision
 14.2.20 AT+POP3DEL Mark the Specific Email to Delete
 AT+POP3DEL Mark the Specific Email to Delete
@@ -9702,6 +10212,8 @@ AT+POP3RSET Unmark the Emails that Be Marked as Deleted
 Test Command Response
 AT+POP3RSET=? OK
 SIM800 Series_AT Command Manual_V1.01 255 2013-07-23
+
+===== PAGE 256 =====
 Smart Machine Smart Decision
 Parameter
 Execution Command Response
@@ -9741,9 +10253,13 @@ Parameter
 63 POP3 tcp connection error
 64 Timeout of POP3 server response
 SIM800 Series_AT Command Manual_V1.01 256 2013-07-23
+
+===== PAGE 257 =====
 Smart Machine Smart Decision
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 257 2013-07-23
+
+===== PAGE 258 =====
 Smart Machine Smart Decision
 15 AT Commands for MMS Application
 SIM800 series support MMS operation.
@@ -9775,6 +10291,8 @@ AT+CMMSINIT Initialize MMS Function
 AT+CMMSTERM Exit MMS Function
 AT+CMMSSCONT Save MMS Context
 SIM800 Series_AT Command Manual_V1.01 258 2013-07-23
+
+===== PAGE 259 =====
 Smart Machine Smart Decision
 15.2 Detailed Descriptions of Commands
 15.2.1 AT+CMMSCURL Set the URL of the mms center
@@ -9810,6 +10328,8 @@ OK
 Parameters
 See Write Command
 SIM800 Series_AT Command Manual_V1.01 259 2013-07-23
+
+===== PAGE 260 =====
 Smart Machine Smart Decision
 Read Command Response
 AT+CMMSPROTO +CMMSPROTO: <Gateway>,<Port>
@@ -9848,6 +10368,8 @@ ERROR
 or
 +CME ERROR: <err>
 SIM800 Series_AT Command Manual_V1.01 260 2013-07-23
+
+===== PAGE 261 =====
 Smart Machine Smart Decision
 Parameter
 <value> network parameters, refer to AT+SAPBR
@@ -9888,6 +10410,8 @@ p>[,<visible>[,<class or
 <pri> Priority
 0 lowest
 SIM800 Series_AT Command Manual_V1.01 261 2013-07-23
+
+===== PAGE 262 =====
 Smart Machine Smart Decision
 1 normal
 2 highest
@@ -9926,6 +10450,8 @@ OK
 Parameter
 See Write Command
 SIM800 Series_AT Command Manual_V1.01 262 2013-07-23
+
+===== PAGE 263 =====
 Smart Machine Smart Decision
 Read Command Response
 AT+CMMSEDIT? +CMMSEDIT: <mode>
@@ -9966,6 +10492,8 @@ data
 “PIC”: mms image data
 <size> Size in bytes of the data to be downloaded.
 SIM800 Series_AT Command Manual_V1.01 263 2013-07-23
+
+===== PAGE 264 =====
 Smart Machine Smart Decision
 <time> Maximum time in milliseconds to download data.
 <name> The file name of the image or the text to be downloaded,
@@ -10002,6 +10530,8 @@ AT+CMMSSEND= +CMMSSEND: "ADDRESS"
 ?
 OK
 SIM800 Series_AT Command Manual_V1.01 264 2013-07-23
+
+===== PAGE 265 =====
 Smart Machine Smart Decision
 Write Command Response
 AT+CMMSSEND= OK
@@ -10042,6 +10572,8 @@ Parameter
 address of recipients. The maximum length of the string is
 40.
 SIM800 Series_AT Command Manual_V1.01 265 2013-07-23
+
+===== PAGE 266 =====
 Smart Machine Smart Decision
 Reference Note
 The maximum of recipients is 20 and this command is valid only when it
@@ -10077,6 +10609,8 @@ OK
 Read Command Response
 AT+CMMSBCC? +CMMSBCC: the list of <addr>s
 SIM800 Series_AT Command Manual_V1.01 266 2013-07-23
+
+===== PAGE 267 =====
 Smart Machine Smart Decision
 OK
 Parameter
@@ -10116,6 +10650,8 @@ CP OK
 Reference Note
 This command is valid when it is allowed to edit MMS
 SIM800 Series_AT Command Manual_V1.01 267 2013-07-23
+
+===== PAGE 268 =====
 Smart Machine Smart Decision
 15.2.13 AT+CMMSDELCC Delete copy recipients
 AT+CMMSDELCC Delete copy recipients
@@ -10156,6 +10692,8 @@ email address of secret recipient. The maximum length of
 the string is 40.
 Execution Command Delete all the secret recipients
 SIM800 Series_AT Command Manual_V1.01 268 2013-07-23
+
+===== PAGE 269 =====
 Smart Machine Smart Decision
 AT+CMMSDELBC Response
 C OK
@@ -10197,6 +10735,8 @@ included in the MMS. The types are defined as following.
 Max Response Time AT+CMMSTIMEOUT
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 269 2013-07-23
+
+===== PAGE 270 =====
 Smart Machine Smart Decision
 (cid:122) This command is valid only when it is not allowed to edit MMS and
 the buffer for MMS will be clear up. So it is recommended to save
@@ -10239,6 +10779,8 @@ included in the MMS. The types are defined as following.
 6 image/gif
 7 image/jpg
 SIM800 Series_AT Command Manual_V1.01 270 2013-07-23
+
+===== PAGE 271 =====
 Smart Machine Smart Decision
 8 image/tif
 9 image/png
@@ -10270,6 +10812,8 @@ AT+CMMSRDPUS +CMMSRDPUSH: (range of <index>)
 H=?
 OK
 SIM800 Series_AT Command Manual_V1.01 271 2013-07-23
+
+===== PAGE 272 =====
 Smart Machine Smart Decision
 Write Command Response
 AT+CMMSRDPUS +CMMSRDPUSH:
@@ -10312,6 +10856,8 @@ message box.
 3 Defered
 4 Unrecognized
 SIM800 Series_AT Command Manual_V1.01 272 2013-07-23
+
+===== PAGE 273 =====
 Smart Machine Smart Decision
 Max Response Time 5s
 Reference Note
@@ -10346,6 +10892,8 @@ Reference Note
 15.2.20 AT+CMMSPROFILE Set User Agent Profile
 AT+CMMSPROFILE Set User Agent Profile
 SIM800 Series_AT Command Manual_V1.01 273 2013-07-23
+
+===== PAGE 274 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+CMMSPROFI +CMMSPROFILE: "UserAgentProfile"
@@ -10385,6 +10933,8 @@ OK
 Parameters
 See Write Command
 SIM800 Series_AT Command Manual_V1.01 274 2013-07-23
+
+===== PAGE 275 =====
 Smart Machine Smart Decision
 Write Command Response
 AT+CMMSTIMEO OK
@@ -10424,6 +10974,8 @@ MMS_READING
 MMS_READING_PUSH
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 275 2013-07-23
+
+===== PAGE 276 =====
 Smart Machine Smart Decision
 15.2.23 AT+CMMSINIT Initialize MMS Function
 AT+CMMSINIT Initialize MMS Function
@@ -10459,6 +11011,8 @@ When exiting the MMS function, this command must be executed.
 15.2.25 AT+CMMSSCONT Save MMS Context
 AT+CMMSSCONT Save MMS Context
 SIM800 Series_AT Command Manual_V1.01 276 2013-07-23
+
+===== PAGE 277 =====
 Smart Machine Smart Decision
 Test Command Response
 AT+CMMSSCONT OK
@@ -10485,6 +11039,8 @@ Parameter
 For other parameters, see the related command.
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 277 2013-07-23
+
+===== PAGE 278 =====
 Smart Machine Smart Decision
 16 AT Commands for DDET Application
 DTMF detection can be set or activated by DDET command.
@@ -10515,6 +11071,8 @@ Parameter Saving AT&W_SAVE
 Mode
 Reference Note
 SIM800 Series_AT Command Manual_V1.01 278 2013-07-23
+
+===== PAGE 279 =====
 Smart Machine Smart Decision
 17 AT Commands for RECORD Application
 17.1 Overview
@@ -10549,6 +11107,8 @@ OK
 3) mode=3,delete record
 AT+CREC=3,<id>
 SIM800 Series_AT Command Manual_V1.01 279 2013-07-23
+
+===== PAGE 280 =====
 Smart Machine Smart Decision
 OK
 4) mode=4,play record file
@@ -10589,6 +11149,8 @@ Parameter
 <n> number of operation support, if SD card is supported, the number
 will be 9, or will be 8
 SIM800 Series_AT Command Manual_V1.01 280 2013-07-23
+
+===== PAGE 281 =====
 Smart Machine Smart Decision
 <mode> 1 start record
 2 stop record
@@ -10635,6 +11197,8 @@ SD card)
 Reference Note
 (cid:122) Record willl overwrite the recored file with the same ID
 SIM800 Series_AT Command Manual_V1.01 281 2013-07-23
+
+===== PAGE 282 =====
 Smart Machine Smart Decision
 (cid:122) High priority event will stop recording and save record file.URC will
 report +CREC: n,<id>,<form>,<time>,<len>
@@ -10649,6 +11213,8 @@ plugged in
 (cid:122) When DDET is set to 1, record is not allowed in call
 Note: SIM800L can not support record function.
 SIM800 Series_AT Command Manual_V1.01 282 2013-07-23
+
+===== PAGE 283 =====
 Smart Machine Smart Decision
 18 AT Commands for TTS Application
 18.1 Overview
@@ -10684,6 +11250,8 @@ format.
 format.
 Chinese text is in GBK coding format.
 SIM800 Series_AT Command Manual_V1.01 283 2013-07-23
+
+===== PAGE 284 =====
 Smart Machine Smart Decision
 <text> The text which is synthetized to speech to be played, maximum
 data length is 956 Bytes
@@ -10726,6 +11294,8 @@ TTS play channel setting take no effect in call. TTS play channel depend
 on CHFA when in call.
 Note: SIM800L can not support TTS function.
 SIM800 Series_AT Command Manual_V1.01 284 2013-07-23
+
+===== PAGE 285 =====
 Smart Machine Smart Decision
 19 Supported Unsolicited Result Codes
 19.1 Summary of CME ERROR Codes
@@ -10762,6 +11332,8 @@ Code of <err> Meaning
 30 no network service
 31 network timeout
 SIM800 Series_AT Command Manual_V1.01 285 2013-07-23
+
+===== PAGE 286 =====
 Smart Machine Smart Decision
 32 network not allowed - emergency call only
 40 network personalisation PIN required
@@ -10802,6 +11374,8 @@ Smart Machine Smart Decision
 182 The mms storage is full
 183 The box is empty
 SIM800 Series_AT Command Manual_V1.01 286 2013-07-23
+
+===== PAGE 287 =====
 Smart Machine Smart Decision
 184 failed to save mms
 185 It is in edit mode
@@ -10842,6 +11416,8 @@ Smart Machine Smart Decision
 812 Return Value Error
 813 Syntax Error
 SIM800 Series_AT Command Manual_V1.01 287 2013-07-23
+
+===== PAGE 288 =====
 Smart Machine Smart Decision
 814 Unspecified Error
 815 Data Transfer Already
@@ -10878,6 +11454,8 @@ Code of <err> Meaning
 28 Invalid number format (incomplete number)
 29 Facility rejected
 SIM800 Series_AT Command Manual_V1.01 288 2013-07-23
+
+===== PAGE 289 =====
 Smart Machine Smart Decision
 30 Response to STATUS ENQUIRY
 32 Normal, unspecified
@@ -10915,6 +11493,8 @@ Smart Machine Smart Decision
 127 Interworking, unspecified
 128 Telematic interworking not supported
 SIM800 Series_AT Command Manual_V1.01 289 2013-07-23
+
+===== PAGE 290 =====
 Smart Machine Smart Decision
 129 Short message Type 0 not supported
 130 Cannot replace short message
@@ -10953,6 +11533,8 @@ Smart Machine Smart Decision
 310 SIM not inserted
 311 SIM pin necessary
 SIM800 Series_AT Command Manual_V1.01 290 2013-07-23
+
+===== PAGE 291 =====
 Smart Machine Smart Decision
 312 PH SIM pin necessary
 313 SIM failure
@@ -10993,6 +11575,8 @@ Smart Machine Smart Decision
 530 GPRS is suspended
 531 ME storage full
 SIM800 Series_AT Command Manual_V1.01 291 2013-07-23
+
+===== PAGE 292 =====
 Smart Machine Smart Decision
 532 Doing SIM refresh
 19.3 Summary of Unsolicited Result Codes
@@ -11035,6 +11619,8 @@ ages><CR><LF><data> mode enabled):
 mode enabled):
 +CDS: Indicates that new SMS status report has AT+CNMI
 SIM800 Series_AT Command Manual_V1.01 292 2013-07-23
+
+===== PAGE 293 =====
 Smart Machine Smart Decision
 <fo>,<mr>[,<ra>][,<tora>],<s been received. <ds>=1 (text mode
 cts>,<dt>,<st> enabled):
@@ -11088,6 +11674,8 @@ data has been terminated.
 +CENG: Limited report of network information. AT+CENG=<mod
 <cell>,<mcc>,<mnc>,<lac>,<
 SIM800 Series_AT Command Manual_V1.01 293 2013-07-23
+
+===== PAGE 294 =====
 Smart Machine Smart Decision
 cellid>,<bsic>,<rxl> e>[,<Ncell>]
 <mode>=3
@@ -11145,6 +11733,8 @@ the module is ready to operate at fixed
 <rate> is not 0
 baud rate. (This URC does not appear
 SIM800 Series_AT Command Manual_V1.01 294 2013-07-23
+
+===== PAGE 295 =====
 Smart Machine Smart Decision
 when auto-bauding function is active).
 Call Ready Module is powered on and phonebook
@@ -11192,10 +11782,14 @@ all versions)
 +FTPRMD:1,<res> FTP delete directory (not supported for AT+FTPRMD
 all versions)
 SIM800 Series_AT Command Manual_V1.01 295 2013-07-23
+
+===== PAGE 296 =====
 Smart Machine Smart Decision
 +FTPLIST:1,<res> FTP list session (not supported for all AT+FTPLIST
 versions)
 SIM800 Series_AT Command Manual_V1.01 296 2013-07-23
+
+===== PAGE 297 =====
 Smart Machine Smart Decision
 20 AT Commands Examples
 20.1 Profile Commands
@@ -11236,6 +11830,8 @@ last session are loaded. [Reset the board]
 AT [No echo]
 OK
 SIM800 Series_AT Command Manual_V1.01 297 2013-07-23
+
+===== PAGE 298 =====
 Smart Machine Smart Decision
 ATE1&W [No echo]
 OK
@@ -11269,6 +11865,8 @@ Write an entry to the current phonebook. AT+CPBW=,"13918
 AT+CPBR=1,10 [a listing of phonebook
 contents]
 SIM800 Series_AT Command Manual_V1.01 298 2013-07-23
+
+===== PAGE 299 =====
 Smart Machine Smart Decision
 OK
 Find an entry in the current phonebook AT+CPBF="Daniel" +CPBF:5,
@@ -11306,6 +11904,8 @@ Make a voice call ATD6241xxxx; OK
 MS makes a voice call
 Hang up a call ATH OK
 SIM800 Series_AT Command Manual_V1.01 299 2013-07-23
+
+===== PAGE 300 =====
 Smart Machine Smart Decision
 Call dropped
 Make a voice call using the last number ATD6241xxxx; OK
@@ -11351,6 +11951,8 @@ done using the List Current Calls incoming call held>
 (AT+CLCC) Command. A call’s ID is
 required to switch between held and AT+CLCC +CLCC:1,0,0,0,0,"62
 SIM800 Series_AT Command Manual_V1.01 300 2013-07-23
+
+===== PAGE 301 =====
 Smart Machine Smart Decision
 active calls. Held calls are not 418148",129,""
 automatically resumed when all other +CLCC:2,1,1,0,0, "139
@@ -11391,6 +11993,8 @@ Demonstration Syntax Expect Result
 DTMF tones AT+CLDTMF=2, OK
 "1,2,3,4,5"
 SIM800 Series_AT Command Manual_V1.01 301 2013-07-23
+
+===== PAGE 302 =====
 Smart Machine Smart Decision
 20.7 SMS Commands
 Demonstration Syntax Expect Result
@@ -11430,6 +12034,8 @@ Test again
 OK
 Delete an SMS message. AT+CMGD=1 OK
 SIM800 Series_AT Command Manual_V1.01 302 2013-07-23
+
+===== PAGE 303 =====
 Smart Machine Smart Decision
 List all SMS messages to show message AT+CMGL="ALL" +CMGL: 2, "REC READ",
 has been deleted. "+8613918186
@@ -11466,6 +12072,8 @@ Check if the MS is connected to the AT+CGATT? +CGATT: 0
 GPRS network
 OK
 SIM800 Series_AT Command Manual_V1.01 303 2013-07-23
+
+===== PAGE 304 =====
 Smart Machine Smart Decision
 Check the class of the MS AT+CGCLASS? +CGCLASS:B
 OK
@@ -11505,6 +12113,8 @@ OK
 Set the QOS of CID 1 to not present. AT+CGQREQ=1 OK
 Once defined, the CID can be activated.
 SIM800 Series_AT Command Manual_V1.01 304 2013-07-23
+
+===== PAGE 305 =====
 Smart Machine Smart Decision
 Activate CID 1, if the CID is already AT+CGACT=1,1 OK
 active, the mobile returns OK at once.
@@ -11540,6 +12150,8 @@ OK
 AT+CSTT=”CMNET” OK
 AT+CIICR OK
 SIM800 Series_AT Command Manual_V1.01 305 2013-07-23
+
+===== PAGE 306 =====
 Smart Machine Smart Decision
 AT+CIFSR 10.78.245.128
 AT+CIPPING=”www. +CIPPING:1,"203.208.37.99
@@ -11573,6 +12185,8 @@ N","CMNET"
 AT+SAPBR =1,1 OK
 AT+SAPBR=2,1 +SAPBR: 1,1,"10.89.193.1"
 SIM800 Series_AT Command Manual_V1.01 306 2013-07-23
+
+===== PAGE 307 =====
 Smart Machine Smart Decision
 OK
 Get location AT+CIPGSMLOC=1, +CIPGSMLOC:
@@ -11606,6 +12220,8 @@ Send MMS AT+CMMSEDIT=1 OK
 AT+CMMSDOWN=“ CONNECT
 PIC”,12963,20000 ... ...
 SIM800 Series_AT Command Manual_V1.01 307 2013-07-23
+
+===== PAGE 308 =====
 Smart Machine Smart Decision
 OK
 AT+CMMSDOWN=“ CONNECT
@@ -11645,6 +12261,8 @@ If module detected DTMF,
 URC will be reported via
 serial port
 SIM800 Series_AT Command Manual_V1.01 308 2013-07-23
+
+===== PAGE 309 =====
 Smart Machine Smart Decision
 +DTMF:1
 //report DTMF value
@@ -11673,6 +12291,8 @@ serial port
 +DTMF:7
 +DTMF:8
 SIM800 Series_AT Command Manual_V1.01 309 2013-07-23
+
+===== PAGE 310 =====
 Smart Machine Smart Decision
 +DTMF:9
 +DTMF:0
@@ -11711,6 +12331,8 @@ List record file information AT+CREC=7 +CREC: 7,1,7728,0
 //list record file list +CREC: 7,2,53820,1
 OK
 SIM800 Series_AT Command Manual_V1.01 310 2013-07-23
+
+===== PAGE 311 =====
 Smart Machine Smart Decision
 // two record file, one Is
 Get record file data AT+CREC=6,1,200,0 +CREC: 6,1,200
@@ -11753,6 +12375,8 @@ DF" +CTTS:0
 // text in UCS2 coding //speech played over Note:
 format，context of the User needs to wait
 SIM800 Series_AT Command Manual_V1.01 311 2013-07-23
+
+===== PAGE 312 =====
 Smart Machine Smart Decision
 text is “欢迎使用语音 thisresponse to play next
 合成系统”。 speech!
@@ -11772,6 +12396,8 @@ Set parameters of the TTS playing AT+CTTSPARAM=5 OK
 // set params of the
 TTS playing
 SIM800 Series_AT Command Manual_V1.01 312 2013-07-23
+
+===== PAGE 313 =====
 Smart Machine Smart Decision
 21 ATC Differences among SIM800 Series
 21.1 AT+CSDT
@@ -11803,6 +12429,8 @@ SIM800V,SIM800W SIM800H/L,SIM800
 AT+SGPIO=? AT+SGPIO=?
 +SGPIO: (0-1),(1-11),(0-1),(0-1) +SGPIO: (0-1),(1-3),(0-1),(0-1)
 SIM800 Series_AT Command Manual_V1.01 313 2013-07-23
+
+===== PAGE 314 =====
 Smart Machine Smart Decision
 OK OK
 Difference: Parameter different
@@ -11818,6 +12446,8 @@ OK
 Difference: SIM800V/SIM800W support Dual-band;
 SIM800,SIM840W,SIM840V, SIM800H/L support Quad-band.
 SIM800 Series_AT Command Manual_V1.01 314 2013-07-23
+
+===== PAGE 315 =====
 Smart Machine Smart Decision
 Contact us:
 Shanghai SIMCom wireless solutions Ltd.
