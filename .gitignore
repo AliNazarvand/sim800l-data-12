@@ -1,10 +1,13 @@
 # Sidecar / diagnostic artifacts (not part of the published dataset)
 scripts/_*.json
 scripts/_*.yaml
+scripts/_step_*.json
 scripts/_step_b_result.json
 reports/_*.json
 reports/_*.yaml
 reports/_*.txt
+reports/_step_*.json
+reports/_step_*.yaml
 reports/dat_*_EXTRACT.json
 reports/_archive/
 sources/extracted/_*.json

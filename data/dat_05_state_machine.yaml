@@ -3,8 +3,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: 'OFF'
   description: Module fully powered off
@@ -30,8 +30,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: POWER_ON
   description: Boot sequence running
@@ -58,8 +58,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: SIM_READY
   description: SIM detected and initialized
@@ -87,8 +87,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: NETWORK_SEARCH
   description: Searching network
@@ -115,8 +115,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: REGISTERED
   description: Registered to network
@@ -143,8 +143,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: GPRS_STANDBY
   description: GPRS attached, no data session
@@ -170,8 +170,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: PDP_ACTIVE
   description: PDP active, local IP assigned
@@ -197,8 +197,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: DATA_MODE
   description: Active TCP/UDP transfer
@@ -226,8 +226,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: SMS_MODE
   description: SMS send/receive
@@ -254,8 +254,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: CALL_MODE
   description: Voice/data/fax call
@@ -282,8 +282,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: SLEEP
   description: Low power, UART not accessible
@@ -309,8 +309,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: MINIMUM_FUNCTIONALITY
   description: RF and/or SIM disabled
@@ -337,8 +337,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: CHARGE
   description: Charger connected (HW support)
@@ -364,8 +364,8 @@ records:
   source_type: primary
   applicable_models:
   - SIM800L
-  created_at: '2026-10-13T17:47:27Z'
-  updated_at: '2026-10-13T17:47:27Z'
+  created_at: '2026-10-13T17:50:58Z'
+  updated_at: '2026-10-13T17:50:58Z'
   category: State
   state_name: ERROR
   description: Fatal voltage/temperature condition
