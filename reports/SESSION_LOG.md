@@ -586,3 +586,9 @@ now has:
 - Cluster C (external): dat_08, 14, 18
 - validate.py exit=0; cross_ref.py exit=0
 - Result: complete=11 partial=4 blocked=3 deferred=0
+
+
+## Session v4-rerun — 2026-10-13T17:58:49Z
+- Re-execution of v4 pipeline; console stays open for report copy.
+- validate.py exit=0; cross_ref.py exit=0
+- Result: complete=0 partial=0 blocked=0 deferred=0

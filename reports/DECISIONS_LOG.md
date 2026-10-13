@@ -475,3 +475,7 @@ here-strings; single-quote here-strings (@'...'@) preserve literals.
 - Reports moved from project root to reports/.
 - Backup relocated outside the project workspace.
 - Sidecar artifacts excluded via .gitignore.
+
+
+## 2026-10-13T17:58:49Z — v4-rerun
+- Re-executed v4 pipeline with non-auto-closing console for report capture.

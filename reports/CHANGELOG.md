@@ -1,8 +1,6 @@
-# Changelog -- sim800l-data
+# Changelog — sim800l-data
 
-## [2026-10-13T17:47:17Z]
-
-### Changed
-- Ran cluster-based pipeline (A: hardware, B: AT, C: external).
+## [2026-10-13T17:58:49Z]
+- v4-rerun pipeline: same logic, non-auto-closing console.
 - validate.py exit=0, cross_ref.py exit=0
-- Final status: complete=11 partial=4 blocked=3 deferred=0
+- Final: complete=0 partial=0 blocked=0 deferred=0
