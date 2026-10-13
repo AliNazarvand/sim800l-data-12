@@ -7,9 +7,9 @@ Generated: 2026-10-13T04:32:50Z
 ## Current status
 
 - File: `data/dat_01_at_command.yaml`
-- Record count: **334**
-- Status: **complete** (coverage 99.7%)
-- Coverage estimate: **99.7%** (334 of 335 index commands, verified in v13)
+- Record count: **335**
+- Status: **complete** (coverage 100%)
+- Coverage estimate: **100%** (335 of 335 index commands; +CGSM added in v17)
 - Confidence: mixed (0.6 auto-extracted + 0.0 unknown-flagged entries)
 
 ## Source
@@ -98,3 +98,12 @@ The single missing command is:
 Action: Review page references in the manual PDF and add the command
 (if it is confirmed as a valid SIM800L AT command). Until then, dat_01
 remains at 99.7% coverage, which is still complete per R12 (>= 95%).
+
+---
+<!-- v18-report-alignment -->
+
+## v18 Report Alignment (2026-10-13T05:11:22Z)
+
+- Record count: 334 -> 335 (+CGSM added in v17)
+- Coverage: 99.7% -> 100%
+- Status: complete (unchanged)
